@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <padding android:left="@dimen/footer_text_view_side_padding" android:right="@dimen/footer_text_view_side_padding" />
+            <solid android:color="#48b3ff" />
+            <corners android:radius="30.0dp" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+</ripple>

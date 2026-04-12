@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 နာရီ</item>
+        <item>၆ နာရီ</item>
+        <item>၂၄ နာရီ</item>
+        <item>၂ ရက္</item>
+        <item>သတ္မွတ္ထားသည့္ ကြန္ယက္</item>
+        <item>အမ်ားဆုံး</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>မူလ</item>
+        <item>ျမင့္</item>
+        <item>အသင့္တင့္</item>
+        <item>နိမ့္</item>
+        <item>အၿမဲတမ္းေမးပါ</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>မူလ</item>
+        <item>အရည္အေသြးျမင့္</item>
+        <item>ပုံမွန္အရည္အေသြး</item>
+        <item>ပံုျပတ္သားမႈ အနိမ့္</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>အသံလႊင့္လႈိင္းမ်ားအားလုံး</item>
+        <item>ကၽြန္မ၏ အသံလႊင့္လိႈင္း</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>အလုိအေလ်ာက္</item>
+        <item>စာသား (သို႔) မာတီမီဒီယာ</item>
+        <item>စကားစျမည္ေျပာဆုိမႈ</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>အလုိအေလ်ာက္</item>
+        <item>စာသား (သို႔) မာတီမီဒီယာ</item>
+        <item>RCS ခ်တ္ မက္ေဆ့ခ်္မ်ား</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ပိတ္ပင္ပါ</item>
+        <item>ဦးစြာ ေမးျမန္းပါ</item>
+        <item>ခြင့္ျပဳရန္</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>အၿမဲတမ္း</item>
+        <item>ခ်က္ခ်င္း</item>
+        <item>ဘယ္ေတာ့မွ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM အကၡရာ</item>
+        <item>ယူနီကုဒ္</item>
+        <item>အလုိအေလ်ာက္</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>စာသား (သို႔) မာတီမီဒီယာ မက္ေဆ့ခ်္အျဖစ္ ျပန္ပို႔ပါ</item>
+        <item>ျပန္မပို႔ပါႏွင့္</item>
+        <item>ျပန္လည္မေပးပို႔မီ ေမးျမန္းပါ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>စာသား (သုိ႔) မာလ္တီမီဒီယာ မက္ေဆ့ခ်္မ်ားကုိ သံုးပါ</item>
+        <item>ျပန္မပို႔ပါ</item>
+        <item>အၿမဲတမ္းေမးပါ</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>မူလ</item>
+        <item>သတ္မွတ္ထားသည့္ ကြန္ယက္</item>
+        <item>အၿမဲတမ္းေမးပါ</item>
+    </string-array>
+</resources>

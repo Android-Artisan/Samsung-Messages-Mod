@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 કલાક</item>
+        <item>6 કલાક</item>
+        <item>24 કલાક</item>
+        <item>2 દિવસ</item>
+        <item>નેટવર્ક ડિફૉલ્ટ</item>
+        <item>મહત્તમ</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>મૂળ</item>
+        <item>ઉચ્ચ</item>
+        <item>મધ્યમ</item>
+        <item>નિમ્ન</item>
+        <item>હંમેશાં પૂછો</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>મૂળ</item>
+        <item>ઉચ્ચ ગુણવત્તા</item>
+        <item>સમાન્ય ગુણવત્તા</item>
+        <item>નિમ્ન રીઝોલ્યુશન</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>બધી ચેનલો</item>
+        <item>મારી ચેનલ</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>સ્વયંચાલિત</item>
+        <item>ટેસ્ક્ટ અથવા મલ્ટિમીડિયા</item>
+        <item>ચેટ</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>સ્વયંચાલિત</item>
+        <item>ટેસ્ક્ટ અથવા મલ્ટિમીડિયા</item>
+        <item>RCS ચૅટ સંદેશા</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>બ્લૉક કરો</item>
+        <item>પહેલા પૂછો</item>
+        <item>મંજૂરી આપો</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>હંમેશાં</item>
+        <item>શીઘ્ર</item>
+        <item>ક્યારેય નહીં</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM આલ્ફાબેટ</item>
+        <item>યુનિકોડ</item>
+        <item>સ્વયંચાલિત</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>ટેક્સ્ટ અથવા મલ્ટિમીડિયા સંદેશ તરીકે ફરી મોકલો</item>
+        <item>ફરી મોકલશો નહીં</item>
+        <item>ફરીથી મોકલતા પહેલાં પૂછો</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>ટેસ્ક્ટ અથવા મલ્ટિમીડિયા સંદેશાનો ઉપયોગ કરો</item>
+        <item>નહીં, ફરી મોકલો</item>
+        <item>હંમેશાં પૂછો</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>અસલ</item>
+        <item>નેટવર્ક ડિફૉલ્ટ</item>
+        <item>હંમેશાં પૂછો</item>
+    </string-array>
+</resources>

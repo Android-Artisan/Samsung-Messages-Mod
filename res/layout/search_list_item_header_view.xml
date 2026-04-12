@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/search_list_item_header_view_0" android:paddingTop="@dimen/search_content_container_divider_top_margin" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:enabled="false" android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_alphabet_header" android:tag="binding_1" android:focusable="true" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/search_sub_header_height" android:contentDescription="@string/search_results_view_more" android:paddingHorizontal="@dimen/search_list_item_view_more_button_padding_horizontal">
+        <TextView android:id="@id/search_alphabet_header_text" android:tag="binding_2" android:focusable="false" android:importantForAccessibility="no" android:textAlignment="viewStart" android:accessibilityHeading="true" style="@style/CustomInnerSubHeaderStyle" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/search_list_item_arrow_view_more_button" android:tag="binding_3" android:visibility="gone" android:layout_width="@dimen/search_list_item_view_more_button_size" android:layout_height="@dimen/search_list_item_view_more_button_size" android:src="@drawable/tw_numberpicker_next_mtrl" />
+    </LinearLayout>
+</LinearLayout>

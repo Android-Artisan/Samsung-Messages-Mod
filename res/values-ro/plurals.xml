@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate retrage mesajul. Mesajele pot fi retrase doar în decurs de %d minut de la trimitere.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se poate retrage mesajul. Mesajele pot fi retrase doar în decurs de %d minute de la trimitere.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se poate retrage mesajul. Mesajele pot fi retrase doar în decurs de %d minute de la trimitere.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Părăsiți și %d chat de grup</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Părăsiți și %d chaturi de grup</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Părăsiți și %d chaturi de grup</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Părăsiți și %d conversație de grup</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Părăsiți și %d conversații de grup</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Părăsiți și %d conversații de grup</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d pachet de emoticoane?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d pachete de emoticoane?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d pachete de emoticoane?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d conversație în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d conversații în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mutați %d conversații în Coșul de gunoi?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mesajele din Coșul de gunoi vor fi șterse definitiv după %d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mesajele din Coșul de gunoi vor fi șterse definitiv după %d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mesajele din Coșul de gunoi vor fi șterse definitiv după %d zile.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mesajele șterse vor rămâne în Coșul de gunoi timp de %d zi înainte de a fi șterse definitiv.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mesajele șterse vor rămâne în Coșul de gunoi timp de %d zile înainte de a fi șterse definitiv.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mesajele șterse vor rămâne în Coșul de gunoi timp de %d zile înainte de a fi șterse definitiv.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d mesaj în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d mesaje în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mutați %d mesaje în Coșul de gunoi?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Astăzi este o zi specială (%1$s și %2$d alt eveniment). Le trimiteți ceva?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Astăzi este o zi specială (%1$s și %2$d alte evenimente). Le trimiteți ceva?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Astăzi este o zi specială (%1$s și %2$d alte evenimente). Le trimiteți ceva?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s și încă %2$d contact își serbează ziua de naștere! Trimiteți ceva special?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s și încă %2$d contacte își serbează ziua de naștere! Trimiteți ceva special?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s și încă %2$d contacte își serbează ziua de naștere! Trimiteți ceva special?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mesaj blocat în ultimele 30 de zile</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mesaje blocate în ultimele 30 de zile</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mesaje blocate în ultimele 30 de zile</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S-a selectat %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">S-au selectat %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">S-au selectat %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu puteți bloca %d adresă de e-mail, deoarece nu este validă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu puteți bloca %d adrese de e-mail, deoarece nu sunt valide.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu puteți bloca %d adrese de e-mail, deoarece nu sunt valide.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu puteți bloca %d număr de telefon, deoarece nu este valid.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu puteți bloca %d numere de telefon, deoarece nu sunt valide.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu puteți bloca %d numere de telefon, deoarece nu sunt valide.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu puteți bloca %d expeditor, deoarece informațiile sale nu sunt valide.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu puteți bloca %d expeditori, deoarece informațiile lor nu sunt valide.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu puteți bloca %d expeditori, deoarece informațiile lor nu sunt valide.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate selecta mai mult de %d contact.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot selecta mai mult de %d contacte.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot selecta mai mult de %d contacte.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d card %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d carduri %2$s</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d carduri %2$s</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d contact de chat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d contacte de chat</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d contacte de chat</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d contact Chatting+</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d contacte Chatting+</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d contacte Chatting+</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Dacă anulați înregistrarea la Chatting+, nu veți mai putea să creați ori să vă alăturați chaturilor private și de grup, să primiți confirmarea că mesajele dvs. au fost citite sau să partajați fișiere mari. Sigur doriți să anulați înregistrarea?
+
+De asemenea, va fi necesar să așteptați %d minut înainte de a vă înregistra din nou."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Dacă anulați înregistrarea la Chatting+, nu veți mai putea să creați ori să vă alăturați chaturilor private și de grup, să primiți confirmarea că mesajele dvs. au fost citite sau să partajați fișiere mari. Sigur doriți să anulați înregistrarea?
+
+De asemenea, va fi necesar să așteptați %d minute înainte de a vă înregistra din nou."</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Dacă anulați înregistrarea la Chatting+, nu veți mai putea să creați ori să vă alăturați chaturilor private și de grup, să primiți confirmarea că mesajele dvs. au fost citite sau să partajați fișiere mari. Sigur doriți să anulați înregistrarea?
+
+De asemenea, va fi necesar să așteptați %d minute înainte de a vă înregistra din nou."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bot de chat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d boți de chat</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d boți de chat</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d contact</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d contacte</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d contacte</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S-a selectat %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">S-au selectat %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">S-au selectat %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Expiră peste %d zi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Expiră peste %d zile</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Expiră peste %d zile</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d cupon expiră curând</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d cupoane expiră curând</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d cupoane expiră curând</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cuponul %1$s expiră peste %2$d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Cuponul %1$s expiră peste %2$d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Cuponul %1$s expiră peste %2$d zile.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cuponul expiră peste %d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Cuponul expiră peste %d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Cuponul expiră peste %d zile.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">Ștergeți %d conversație?</item>
+        <item quantity="other">Ștergeți %d conversații?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți definitiv %d conversație?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți definitiv %d conversații?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți definitiv %d conversații?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">Ștergeți %d mesaj?</item>
+        <item quantity="other">Ștergeți %d mesaje?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți definitiv %d mesaj?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți definitiv %d mesaje?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți definitiv %d mesaje?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mesaj de livrare</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mesaje de livrare</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mesaje de livrare</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Înlăturați %d card?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Înlăturați %d carduri?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Înlăturați %d carduri?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pe ecranul principal poate fi afișată doar una (%1$d) dintre filele de categorii. Restul sunt ascunse. Selectați categoria %2$s dacă doriți acces rapid la aceasta pe ecranul principal.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pe ecranul principal pot fi afișate doar %1$d file de categorii. Restul sunt ascunse. Selectați categoria %2$s dacă doriți acces rapid la aceasta pe ecranul principal.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pe ecranul principal pot fi afișate doar %1$d file de categorii. Restul sunt ascunse. Selectați categoria %2$s dacă doriți acces rapid la aceasta pe ecranul principal.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d minute</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d secunde</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d secunde</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fișier salvat pe telefon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fișiere salvate pe telefon.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fișiere salvate pe telefon.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fișier salvat pe tabletă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fișiere salvate pe tabletă.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fișiere salvate pe tabletă.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tranzacție astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d tranzacții astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d tranzacții astăzi</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s și %2$d număr necunoscut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s și %2$d numere necunoscute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s și %2$d numere necunoscute</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d număr necunoscut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d numere necunoscute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d numere necunoscute</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s nu se poate alătura chaturilor de grup. Eliminați-l din destinatarii selectați sau trimiteți în schimb un mesaj text către până la %2$d destinatar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s nu se poate alătura chaturilor de grup. Eliminați-l din destinatarii selectați sau trimiteți în schimb un mesaj text către până la %2$d destinatari.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s nu se poate alătura chaturilor de grup. Eliminați-l din destinatarii selectați sau trimiteți în schimb un mesaj text către până la %2$d destinatari.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Unu sau mai mulți dintre destinatarii incluși nu pot utiliza funcția Mesagerie avansată, așa că grupul dvs. este limitat la %d membru.
+
+Pentru a continua, selectați doar membri are pot utiliza funcția Mesagerie avansată. Aceștia sunt marcați cu o pictogramă cu punct albastru."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Unu sau mai mulți dintre destinatarii incluși nu pot utiliza funcția Mesagerie avansată, așa că grupul dvs. este limitat la %d membri.
+
+Pentru a continua, selectați doar membri are pot utiliza funcția Mesagerie avansată. Aceștia sunt marcați cu o pictogramă cu punct albastru."</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Unu sau mai mulți dintre destinatarii incluși nu pot utiliza funcția Mesagerie avansată, așa că grupul dvs. este limitat la %d membri.
+
+Pentru a continua, selectați doar membri are pot utiliza funcția Mesagerie avansată. Aceștia sunt marcați cu o pictogramă cu punct albastru."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pentru a porni un chat de grup, eliminați ultimul destinatar selectat. Dacă doriți să includeți ultimul destinatar, eliminați %d destinatar pentru a trimite un mesaj.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pentru a porni un chat de grup, eliminați ultimul destinatar selectat. Dacă doriți să includeți ultimul destinatar, eliminați %d destinatari pentru a trimite un mesaj.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pentru a porni un chat de grup, eliminați ultimul destinatar selectat. Dacă doriți să includeți ultimul destinatar, eliminați %d destinatari pentru a trimite un mesaj.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imagine salvată pe tabletă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d imagini salvate pe tabletă.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d imagini salvate pe tabletă.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imagine salvată pe telefon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d imagini salvate pe telefon.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d imagini salvate pe telefon.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 imagine și %d videoclip salvate pe telefon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 imagine și %d videoclipuri salvate pe telefon.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 imagine și %d videoclipuri salvate pe telefon.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imagine și 1 videoclip salvate pe telefon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d imagini și 1 videoclip salvate pe telefon.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d imagini și 1 videoclip salvate pe telefon.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s şi încă %2$d persoană s-au alăturat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s şi încă %2$d alte persoane s-au alăturat</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s şi încă %2$d alte persoane s-au alăturat</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d contact</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d contacte</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d contacte</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate selecta mai mult de %d persoană.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot selecta mai mult de %d persoane.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot selecta mai mult de %d persoane.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Când atingeți butonul Sugestii mesaje, ultimul %d mesaj din conversație va fi procesat online. Sugestiile generate de inteligența artificială pot fi incorecte sau pot avea conținut inadecvat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Când atingeți butonul Sugestii mesaje, ultimele %d mesaje din conversație vor fi procesate online. Sugestiile generate de inteligența artificială pot fi incorecte sau pot avea conținut inadecvat.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Când atingeți butonul Sugestii mesaje, ultimele %d mesaje din conversație vor fi procesate online. Sugestiile generate de inteligența artificială pot fi incorecte sau pot avea conținut inadecvat.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fișier partajat prin Quick Share</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fișiere partajate prin Quick Share</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fișiere partajate prin Quick Share</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nou card util</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d noi carduri utile</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d noi carduri utile</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d conversație</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d conversații</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d conversații</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d mesaj</item>
+        <item quantity="other">%d mesaje</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Păstrați mesajele șterse timp de %d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Păstrați mesajele șterse timp de %d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Păstrați mesajele șterse timp de %d zile.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Puteți actualiza din nou peste %d minut.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Puteți actualiza din nou peste %d minute.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Puteți actualiza din nou peste %d minute.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trimiteți %d mesaj acum?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trimiteți %d mesaje acum?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Trimiteți %d mesaje acum?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Informațiile dumneavoastră sunt în curs de actualizare. Așteptați cel puțin %d minut, apoi încercați din nou.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Informațiile dumneavoastră sunt în curs de actualizare. Așteptați cel puțin %d minute, apoi încercați din nou.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Informațiile dumneavoastră sunt în curs de actualizare. Așteptați cel puțin %d minute, apoi încercați din nou.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate fixa mai mult de %d conversație.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot fixa mai mult de %d conversații.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot fixa mai mult de %d conversații.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s și alte %2$d persoane</item>
+        <item quantity="other">%1$s și alte %2$d persoane</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scoateți %d card?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Scoateți %d carduri?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Scoateți %d carduri?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Introduceți un motiv (până la %d caracter)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Introduceți un motiv (până la %d caractere)</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Introduceți un motiv (până la %d caractere)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mesaj programat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mesaje programate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mesaje programate</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Selectați un moment peste cel puțin %d minut de acum încolo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Selectați un moment peste cel puțin %d minute de acum încolo.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Selectați un moment peste cel puțin %d minute de acum încolo.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d găsit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d găsite</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d găsite</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați 1 conversație și încă %d mesaj în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați 1 conversație și încă %d mesaje în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mutați 1 conversație și încă %d mesaje în Coșul de gunoi?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d conversație și încă 1 mesaj în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d conversații și încă 1 mesaj în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mutați %d conversații și încă 1 mesaj în Coșul de gunoi?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Selectați până la %d persoană.
+(Sunt afișate doar persoanele care își utilizează numerele de telefon în această conversație.)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Selectați până la %d persoane.
+(Sunt afișate doar persoanele care își utilizează numerele de telefon în această conversație.)"</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Selectați până la %d persoane.
+(Sunt afișate doar persoanele care își utilizează numerele de telefon în această conversație.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durată somn: %d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Durată somn: %d ore</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Durată somn: %d ore</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durată somn: %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Durată somn: %d minute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Durată somn: %d minute</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oră rămasă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ore rămase</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ore rămase</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut rămas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minute rămase</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d minute rămase</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d secundă rămasă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d secunde rămase</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d secunde rămase</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">Mesaj copiat de pe cartela SIM</item>
+        <item quantity="other">Mesaje copiate de pe cartela SIM</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d categorie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d categorii</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d categorii</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ați selectat mai mult de %d destinatar, ceea ce reprezintă limita pentru mesajele text. Începeți un grup de chat pentru a trimite mesaje tuturor simultan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ați selectat mai mult de %d destinatari, ceea ce reprezintă limita pentru mesajele text. Începeți un grup de chat pentru a trimite mesaje tuturor simultan.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ați selectat mai mult de %d destinatari, ceea ce reprezintă limita pentru mesajele text. Începeți un grup de chat pentru a trimite mesaje tuturor simultan.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În total %d mesaj</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">În total %d mesaje</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">În total %d mesaje</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mesaj deblocat automat, deoarece expeditorii nu mai sunt considerați rău intenționați.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mesaje deblocate automat, deoarece expeditorii nu mai sunt considerați rău intenționați.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mesaje deblocate automat, deoarece expeditorii nu mai sunt considerați rău intenționați.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">de la %1$s și încă %2$d marcă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">de la %1$s și încă %2$d mărci</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">de la %1$s și încă %2$d mărci</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mesaj de livrare necitit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mesaje de livrare necitite</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mesaje de livrare necitite</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">de la %1$s și încă %2$d contact</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">de la %1$s și încă %2$d contacte</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">de la %1$s și încă %2$d contacte</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d mesaj necitit de la %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d mesaje necitite de la %2$s</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d mesaje necitite de la %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">inclusiv câteva de la %1$s și încă %2$d marcă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">inclusiv câteva de la %1$s și încă %2$d mărci</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">inclusiv câteva de la %1$s și încă %2$d mărci</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">inclusiv %d mesaj de livrare</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">inclusiv %d mesaje de livrare</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">inclusiv %d mesaje de livrare</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">inclusiv câteva de la %1$s și încă %2$d contact</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">inclusiv câteva de la %1$s și încă %2$d contacte</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">inclusiv câteva de la %1$s și încă %2$d contacte</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mesaj necitit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mesaje necitite</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mesaje necitite</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mesaj necitit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mesaje necitite</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mesaje necitite</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alertă viitoare astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d alerte viitoare astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alerte viitoare astăzi</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d videoclip salvat pe telefon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d videoclipuri salvate pe telefon.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d videoclipuri salvate pe telefon.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți %1$s%2$d mesaj astăzi despre o livrare%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți %1$s%2$d mesaje astăzi despre o livrare%3$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Aveți %1$s%2$d mesaje astăzi despre o livrare%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți %1$s%2$d mesaj astăzi despre livrări%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți %1$s%2$d mesaje astăzi despre livrări%3$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Aveți %1$s%2$d mesaje astăzi despre livrări%3$s.</item>
+    </plurals>
+</resources>

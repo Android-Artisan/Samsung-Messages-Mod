@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/theme_viewer_background" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbarStyle="insideOverlay" android:id="@id/mms_viewer_scroll_view" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="start" android:orientation="vertical" android:paddingBottom="100.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="24.0dp">
+            <View android:background="@color/transparent" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/xms_viewer_activity_toolbar_height" app:background="@color/transparent" />
+            <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="15.0sp" android:textColor="@color/theme_mms_viewer_subject_text_color" android:id="@id/mms_viewer_subject" android:layout_width="wrap_content" android:layout_height="wrap_content" app:emojiCompatEnabled="false" />
+            <Button android:theme="@style/BodyContainedButtonTheme" android:layout_gravity="center" android:id="@id/save_all_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:text="@string/attachments_save_all" />
+            <LinearLayout android:orientation="vertical" android:id="@id/mms_viewer_content_root" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/xms_viewer_activity_toolbar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/viewer_transfer_layout" layout="@layout/viewer_transfer_button_layout" />
+        <com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar android:id="@id/floating_bottom_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:clipToOutline="false">
+            <com.samsung.android.messaging.ui.view.widget.common.BottomBar android:layout_gravity="center_horizontal" android:id="@id/bottom_bar" android:layout_width="wrap_content" android:layout_height="@dimen/bottom_bar_with_icon_text_height" style="@style/FloatingBottomBarLabelStyle" />
+        </com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar>
+    </LinearLayout>
+</RelativeLayout>

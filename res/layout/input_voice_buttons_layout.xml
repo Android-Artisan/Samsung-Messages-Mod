@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.messageeditor.component.sendbutton.InputVoiceButtonLayout android:paddingBottom="@dimen/send_button_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/input_voice_button_margin_bottom" android:paddingStart="@dimen/send_buttons_margin_start" android:paddingEnd="@dimen/send_buttons_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/record_button1_layout" android:layout_width="wrap_content" android:layout_height="@dimen/input_voice_button_height">
+        <ImageButton android:id="@id/record_button1" android:background="@drawable/input_voice_button_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/input_voice_button_width" android:layout_height="@dimen/input_voice_button_height" android:src="@drawable/orc_ic_recorder" android:tint="@color/theme_input_voice_button_src_color" android:contentDescription="@string/voice_message_description" />
+    </FrameLayout>
+</com.samsung.android.messaging.ui.view.composer.messageeditor.component.sendbutton.InputVoiceButtonLayout>

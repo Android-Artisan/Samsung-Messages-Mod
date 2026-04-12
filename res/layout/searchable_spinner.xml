@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="18.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="18.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:spinnerItemStyle">
+            <EditText android:textSize="16.0dp" android:id="@id/edit_text_of_searchable_spinner" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/search" android:singleLine="true" />
+            <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="6.0dp" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recycler_view_of_searchable_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

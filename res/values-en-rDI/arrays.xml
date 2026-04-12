@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>IDS_MSGF_OPT_1HOUR</item>
+        <item>IDS_MSGF_OPT_6HOUR</item>
+        <item>IDS_MSGF_BODY_VALIDITYPERIOD_24_HOUR</item>
+        <item>IDS_MSGF_OPT_2DAYS</item>
+        <item>IDS_COM_BODY_NETWORK_DEFAULT</item>
+        <item>IDS_MSGF_BODY_VALIDITYPERIOD_MAXIMUM</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>IDS_MSGF_OPT_ORIGINAL</item>
+        <item>DREAM_MSG_OPT_HIGH_M_IMAGE_QUALITY</item>
+        <item>DREAM_MSG_OPT_MEDIUM_M_IMAGE_QUALITY</item>
+        <item>DREAM_MSG_OPT_LOW_M_IMAGE_QUALITY</item>
+        <item>IDS_COM_BODY_ALWAYS_ASK</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>IDS_MSGF_OPT_ORIGINAL</item>
+        <item>DREAM_MSG_OPT_HIGH_QUALITY_M_IMAGE_ABB</item>
+        <item>DREAM_MSG_OPT_NORMAL_QUALITY_M_IMAGE_ABB</item>
+        <item>IDS_STUDIO_OPT_LOW_RESOLUTION_ABB</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>IDS_MSGF_BODY_CBS_ALL_CHANNELS</item>
+        <item>IDS_COM_BODY_MY_CHANNEL</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>IDS_RCS_OPT_AUTOMATIC_ABB</item>
+        <item>DREAM_MSG_OPT_TEXT_OR_MULTIMEDIA</item>
+        <item>DREAM_MSG_OPT_CHAT</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>IDS_RCS_OPT_AUTOMATIC_ABB</item>
+        <item>DREAM_MSG_OPT_TEXT_OR_MULTIMEDIA</item>
+        <item>DREAM_MSG_OPT_RCS_CHAT_MESSAGES</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>DREAM_MSG_OPT_BLOCK_M_PREVENT</item>
+        <item>DREAM_MSG_OPT_ASK_FIRST</item>
+        <item>DREAM_MSG_OPT_ALLOW</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>IDS_ST_MBODY_ALWAYS</item>
+        <item>IDS_MSGF_BODY_PROMPT</item>
+        <item>IDS_AW_SBODY_NEVER</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>IDS_ST_BODY_GSM_ALPHABET</item>
+        <item>IDS_ST_BODY_UNICODE</item>
+        <item>IDS_MSGF_BODY_HOMERECEPTIONAUTOMATIC</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>DREAM_MSG_OPT_RESEND_AS_A_TEXT_OR_MULTIMEDIA_MESSAGE</item>
+        <item>DREAM_MSG_OPT_DONT_RESEND</item>
+        <item>DREAM_MSG_OPT_ASK_BEFORE_RESENDING</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>DREAM_MSG_TMBODY_USE_TEXT_OR_MULTIMEDIA_MESSAGES_KOR_KT</item>
+        <item>IDS_RCS_OPT_NO_RESEND_SFR</item>
+        <item>IDS_COM_BODY_ALWAYS_ASK</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>DREAM_MSG_OPT_ORIGINAL_M_IMAGE</item>
+        <item>DREAM_MSG_OPT_NETWORK_DEFAULT</item>
+        <item>DREAM_PB_OPT_ALWAYS_ASK_ABB2</item>
+    </string-array>
+</resources>

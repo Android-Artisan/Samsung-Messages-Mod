@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="vertical" android:visibility="gone" android:layout_width="50.0dp" android:layout_height="wrap_content" android:maxHeight="100.0dp" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0dp" android:textStyle="bold" android:textColor="#fafafa" android:gravity="center" android:id="@id/header_text" android:background="?colorPrimary" android:layout_width="50.0dp" android:layout_height="50.0dp" />
+    <ListView android:id="@id/list" android:focusable="true" android:layout_width="50.0dp" android:layout_height="wrap_content" android:maxHeight="100.0dp" />
+</LinearLayout>

@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kò lè pe àwọn àtẹ̀jíṣẹ́ padà. Àwọn èlò ẹ̀rọ àtẹ̀jíṣẹ́ lè di pípè padà níkan láàrín ìṣẹ́jú %d lẹ́yìn tí o bá ti firánṣẹ́.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bákan náà fi ikọ̀ ìjíròrò %d sílẹ̀</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bákan náà fi ikọ̀ àwọn ìbáraẹnisọ̀rọ̀ %d sílẹ̀</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pa àwọn àkópọ̀ ààmì ìrònú %d rẹ́?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gbé àwọn ìbáraẹnisọ̀rọ̀ %d lọ sí ibi Ìdọ̀tí?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn àtẹ̀jíṣẹ́ tó wà nínú Ìdọ̀tí náà máa di píparẹ́ títí láé lẹ́yìn ọjọ́ %d.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn àtẹ̀jíṣẹ́ tí a ti parẹ́ yóó dúró nínú Ìdọ̀tí fún ọjọ́ %d kí wọ́n tó pa wọ́n rẹ́ títí láéláé.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gbé àwọn àtẹ̀jíṣẹ́ %d lọ sí ibi Ìdọ̀tí?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ọjọ́ òní jẹ́ ọjọ́ àkànṣe (%1$s àti %2$d àwọn ìṣẹ̀lẹ̀ mìíràn). Ṣé kí n fi nǹkan kan ránṣẹ́ sí wọn?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Òní jẹ́ ọjọ́ ìbí %1$s àtì %2$d àti ti olùbásọ̀rọ̀ mìíran! Fi nnkan pataki ránṣẹ́ bí?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àti dínà èlò ẹ̀rọ àtẹ̀jíṣẹ́ %d ní ọjọ́ 30 tó kọjá</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d tí a yàn</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kò lè dínà àdírẹ́ẹ́sì ímeèlì %d nítorí pé wọn kò wúlò.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kò lè dínà àwọn nọ́mbà fóònù %d nítorí pé wọn kò wúlò.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kò lè dínà àwọn olùfiránṣẹ́ %d nítorí pé àlàyé wọn kò wúlò.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">À̀wọn káàdì %1$d %2$s</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">À̀wọn olùkànsí ìjíròrò %d</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn olùkànsí Chatting+ %d</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Tí orúkọ rẹ bá di yí yọọ́ kúrò nínu àwọn orúkọ tí a gbà sílẹ̀ láti Chatting+, o kò ní lè ṣẹ̀dá tàbí darapọ̀ mọ́ ìjíròrò ẹnìkọ̀ọ̀kan tàbí ikọ̀, gba ìjẹ́rìí pé a ti kàá àwọn èlò ẹ̀rọ àtẹ̀jíṣẹ́ rẹ, tàbí pín àwọn fáìlì tí ó tóbi. Ṣé ó dá ọ lójú pé o fẹ́ yí yọọ́ kúrò nínu àwọn orúkọ tí a gbà sílẹ̀?
+
+O tún máa ní láti dúró fún ìṣẹ́jú %d kí o tó tún forúkọ sílẹ̀."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn olùrànlọ́wọ́ ìtàkùrọ̀sọ %d</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn olùkànsí %d</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d tí a yàn</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Yóò dópìn lẹ́yìn ọjọ́ %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn kùpọ́ọ̀nù %d yóò dópin láìpẹ́</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kùpọ́ọ̀nù %1$s rẹ máa dópin ní ọjọ́ %2$d.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kùpọ́ọ̀nù rẹ máa dópin ní ọjọ́ %d.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">Pa ìbáraẹnisọ̀rọ̀ %d rẹ?</item>
+        <item quantity="other">Pa àwọn ìbáraẹnisọ̀rọ̀ %d rẹ́?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pa àwọn ìbáraẹnisọ̀rọ̀ %d rẹ́ títí láéláé?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">Pa àtẹ̀jíṣẹ́ %d rẹ?</item>
+        <item quantity="other">Pa àwọn àtẹ̀jíṣẹ́ %d rẹ?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pa àwọn àtẹ̀jíṣẹ́ %d rẹ́ títí láéláé?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d àtẹ̀jíṣẹ́ ìmụ́ṣẹ</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tú àwọn káàdì %d ká?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn táàbù ìsọ̀rí %1$d nìkan ni a lè fi hàn lórí ojú-ìwòran gangan. Àwọn yòókù wà ní ìpamọ́. Yan ìsọ̀rí %2$s náà tí o bá fẹ́ wọlé sí i kíákíá láti ojú-ìwòran gangan.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ìṣẹ́jú %d</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ìṣẹ́jú àáyá %d</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn fáìlì %d tí a fi pamọ́ sí fóònù rẹ.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn fáìlì %d tí a fi pamọ́ sí tábúlẹ́ẹ̀tì rẹ.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìdúnàádúrà %d lónìí</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn nọ́mbà àìmọ̀ %1$s àti %2$d</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn nọ́mbà àìmọ̀ %d</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ò lè darapọ̀ mọ́ àwọn ìjíròrò ikọ̀. Yọ wọ́n kúrò lára àwọn tí a yàn, tàbí kí o fi ọ̀rọ̀ àtẹ̀jíṣẹ́ ránṣẹ́ sí àwọn olùgbà %2$d dípò.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Ọ̀kan tàbí jù bẹ́ẹ̀ lọ lára àwọn olùgbà tí a fi sínú rẹ̀ kò ní agbára Àtẹ̀jíṣẹ́ Gíga, nítorí náà ikọ̀ rẹ wà ní gbèndéke ìwọ̀n %d àwọn ọmọ-ẹgbẹ́.
+
+Láti tẹ̀síwájú, yan àwọn ọmọ-ẹgbẹ́ tó ní agbára Àtẹ̀jíṣẹ́ Gíga nìkan. Wọ́n fi àmì àwòrán alámì àwọ̀ búlúù sí wọn."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Láti bẹ̀rẹ̀ ìjíròrò ikọ̀, yọ olùgbà tí a yàn kẹ́yìn kúrò. Tí o bá fẹ́ fi olùgbà ìkẹyìn síi, yọ àwọn olùgbà %d kúrò láti fi àtẹ̀jíṣẹ́ ránṣẹ́.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn àwòrán %d tí a fi pamọ́ sí tábúlẹ́ẹ̀tì rẹ.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn àwòrán %d tí a fi pamọ́ sí fóònù rẹ.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwòrán 1 àti àwọn fídíò %d tí a fi pamọ́ sí fóònù rẹ.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn àwòrán %d àti fídíò 1 tí a fi pamọ́ sí fóònù rẹ.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ènìyàn %1$s àti %2$d mìíràn darapọ̀</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kò lè yan ju àwọn ènìyàn %d lọ.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nígbà tí o bá tẹ bọ́tínnì àwọn àbá Àtẹ̀jíṣẹ́, àwọn àtẹ̀jíṣẹ́ %d tí ó gbẹ̀yìn nínú ìbánisọ̀rọ̀ rẹ máa di ṣíṣe ètò lórí ayélujára. Àwọn àbá tí AI ṣe lè má péye tàbí kí ó ní àkóónú tí kò yẹ.</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pín fáìlì nípa lílo Quick Share</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn káàdì tuntun %d tó wúlò</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìbáraẹnisọ̀rọ̀ %d</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">Àtẹ̀jíṣẹ́ %d</item>
+        <item quantity="other">Àwon àtẹ̀jíṣẹ́ %d</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tọ́ jú àwọn àtẹ̀jíṣẹ́ tí a ti parẹ́ fún ọjọ́ %d.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">O tún lè se ìmúdójúìwọ̀n lẹ́ẹ̀kan si ní ìṣẹ́jú %d.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Fi àwọn èlò ẹ̀rọ àtẹ̀jíṣẹ́ %d ránṣẹ́ báyìí?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A ṣe ìmúdójúìwọ̀n àwọn àlàyé rẹ. Dúró ní ó kéré tán ìṣẹ́jú %d, lẹ́yìn náà gbìyànjú lẹ́ẹ̀kan si.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kò lè de ju àwọn ìbánisọ̀rọ̀ %d mọ́lẹ̀ lọ.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s ati %2$d awọn miiran</item>
+        <item quantity="other">%1$s àti %2$d mìíràn</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Yọ àwọn káàdì %d kúrò?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tẹ ìdí kan (títí dé %d àwọn ẹyọ ọ̀rọ̀)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn èlò ẹ̀rọ àtẹ̀jíṣẹ́ %d tí a ṣètò</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Yan àkókò kan ó kéré tán ìṣẹ̀jù %d láti ìsinsìnyí lọ.</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gbé ìbáraẹnisọ̀rọ̀ 1 àti àwọn èlò ẹ̀rọ àtẹ̀jíṣẹ́ %d mìíràn lọ sí Ìdọ̀tí?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gbé àwọn ìbáraẹnisọ̀rọ̀ %d àti èlò ẹ̀rọ àtẹ̀jíṣẹ́ 1 sí Ìdọ̀tí?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Yan àwọn ènìyàn tí ó tó %d.
+(Ń ṣàfihàn àwọn ènìyàn tí wọ́n ń lo nọ́mbà fóònù wọn nínú ìjíròrò yìí.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àsìkò àtisùn: wákàtí %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àsìkò àtisùn: ìṣẹ́jú %d</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Wákàtí %d ló kù</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">O kù ìṣẹ́jú %d</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ìṣẹ́jú àáyá %d ló kù</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">Àtẹ̀jíṣẹ́ tí a dàkọ láti káàdì SIM.</item>
+        <item quantity="other">Àwọn àtẹ̀jíṣẹ́ tí a dàkọ láti káàdì SIM.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìsọ̀rí %d</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">O ti yàn àwọn olùgbà tí ó ju %d lọ, èyí tí ó jẹ́ gbèdéke fún àwọn àtẹ̀jíṣẹ́. Bẹ̀rẹ̀ ìjíròrò ikọ̀ láti fi èlò ẹ̀rọ àtẹ̀jíṣẹ́ ránṣẹ́ sí gbogbo wọn lẹ́ẹ̀kan náà.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àpapọ̀ ìfijíṣẹ́ %d</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn àtẹ̀jíṣẹ́ %d tí a ṣí sílẹ̀ láìfọwọ́yí nítorí pé a kò kà àwọn olùfiránṣẹ́ sí ẹni burúkú mọ́.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">láti %1$s àti àwọn òlùtajà %2$d tókù</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn àtẹ̀jíṣẹ́ ìfiránṣẹ́ %d tí a kò tíì ka</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">láti %1$s àti àwọn olùkànsí %2$d tókù</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d àwọn àtẹ̀jíṣẹ́ tí a kò tíì kà láti %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">pẹ̀lú àwọn kan láti %1$s àti àwọn òlùtajà %2$d tókù</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">pẹ̀lú àwọn àtẹ̀jíṣẹ́ ìfiránṣẹ́ %d</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">pẹ̀lú àwọn kan láti %1$s àti àwọn olùkànsí %2$d tókù</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn àtẹ̀jíṣẹ́ %d tí a kò tíì kà</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn àtẹ̀jíṣẹ́ %d tí a kò tíì kà</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn ìtanijí %d tó ń bọ̀ lónìí</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Àwọn fídíò %d tí a fi pamọ́ sí fóònù rẹ.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">O gba %1$s%2$d àtẹ̀jíṣẹ́ lónìí nípa ìmúṣẹ%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">O gba %1$s%2$d àtẹ̀jíṣẹ́ lónìí nípa àwọn ìmúṣẹ%3$s.</item>
+    </plurals>
+</resources>

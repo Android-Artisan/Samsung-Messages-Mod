@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:id="@id/bot_detail_general_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:roundMode="15"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/bot_detail_description_padding_top_bottom" android:paddingBottom="@dimen/bot_detail_description_padding_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_description_size" android:textColor="@color/theme_list_main_text_color" android:ellipsize="end" android:id="@id/bot_detail_general_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bot_detail_description_padding_start_end" android:paddingEnd="@dimen/bot_detail_description_padding_start_end" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bot_detail_view_more_layout" android:layout_width="match_parent" android:layout_height="@dimen/bot_detail_view_more_height">
+            <LinearLayout android:orientation="horizontal" android:id="@id/view_more_button" android:background="@drawable/selector_bot_detail_view_more_button" android:layout_width="wrap_content" android:layout_height="@dimen/bot_detail_view_more_height" android:paddingStart="@dimen/bot_detail_view_more_padding_start_end" android:paddingEnd="@dimen/bot_detail_view_more_padding_start_end" android:layout_marginStart="@dimen/bot_detail_view_more_margin">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/view_more_icon" android:layout_width="@dimen/bot_detail_view_more_icon_size" android:layout_height="@dimen/bot_detail_view_more_icon_size" android:src="@drawable/messages_create_ic_view_more" android:scaleType="center" android:tint="@color/theme_list_sub_text_color" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_description_view_more_size" android:textColor="@color/theme_list_sub_text_color" android:gravity="center_vertical" android:id="@id/view_more_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/bot_detail_view_more_expand_text" android:layout_marginStart="@dimen/bot_detail_view_more_icon_to_text_margin" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>

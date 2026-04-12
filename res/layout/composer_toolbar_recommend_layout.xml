@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:id="@id/toolbar_recommend_action_layout" android:tag="layout/composer_toolbar_recommend_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/toolbar_recommend_action_touch_layout" android:tag="binding_1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/recommend_button_layout_horizontal_padding">
+        <ViewStub android:id="@id/recommend_bot_introduction_card_container" android:paddingTop="@dimen/recommend_button_layout_top_padding" android:paddingBottom="@dimen/recommend_button_layout_bottom_padding" android:layout="@layout/recommend_bot_introduction_card_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/recommend_button_horizontal_margin" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/recommend_button_touch" android:tag="binding_2" android:paddingTop="@dimen/recommend_button_layout_top_padding" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.messaging.ui.view.composer.toolbar.RecommendButton android:id="@id/add_to_contacts_button" android:tag="binding_3" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" />
+            <com.samsung.android.messaging.ui.view.composer.toolbar.RecommendButton android:id="@id/go_to_brand_home_button" android:tag="binding_4" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" />
+            <com.samsung.android.messaging.ui.view.composer.toolbar.RecommendButton android:id="@id/block_button" android:tag="binding_5" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" />
+            <com.samsung.android.messaging.ui.view.composer.toolbar.RecommendButton android:id="@id/transfer_host_button" android:tag="binding_6" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" />
+            <com.samsung.android.messaging.ui.view.composer.toolbar.RecommendButton android:id="@id/add_recipients_button" android:tag="binding_7" android:visibility="visible" android:layout_width="0.0dp" android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

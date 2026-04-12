@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/empty_layout" android:background="@color/dialtacts_background_color" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/empty_content_min_height" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@id/empty_layout_dummy_header" android:layout_width="match_parent" android:layout_height="0.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/empty_title_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/ContactMainListNoContactsTextAppearance" android:ellipsize="end" android:gravity="center" android:id="@id/empty_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginHorizontal="@dimen/empty_content_text_margin_horizontal" android:layout_marginVertical="@dimen/empty_content_text_margin_vertical" />
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/w_no_item_no_results_found_subtext_size" android:textColor="@color/no_item_no_results_found_sub_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/empty_sub_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/empty_content_sub_title_margin_top" android:layout_marginBottom="@dimen/empty_content_text_margin_vertical" android:maxLines="3" android:lineSpacingExtra="@dimen/w_list_line_spacing" android:layout_marginHorizontal="@dimen/empty_content_text_margin_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

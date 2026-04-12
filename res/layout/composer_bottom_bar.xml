@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar android:id="@id/floating_bottom_container" android:paddingBottom="8.0dp" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.widget.common.BottomBar android:layout_gravity="center_horizontal" android:id="@id/bottom_bar" android:visibility="gone" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="?actionBarSize" style="@style/FloatingBottomBarLabelStyle" />
+</com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar>

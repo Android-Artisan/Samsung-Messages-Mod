@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/search_recent_chatbot_item_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/search_content_item_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_content_container_padding" android:layout_marginBottom="@dimen/search_content_container_padding">
+        <FrameLayout android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.samsung.android.messaging.ui.view.widget.AsyncImageView android:id="@id/chatbot_icon" android:tag="binding_2" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/contact_list_my_chatbot_button_icon_size" android:layout_height="@dimen/contact_list_my_chatbot_button_icon_size" android:scaleType="centerCrop" android:minWidth="@dimen/contact_list_my_chatbot_button_icon_size" android:minHeight="@dimen/contact_list_my_chatbot_button_icon_size" android:importantForAccessibility="no" />
+        </FrameLayout>
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/contact_list_my_chatbot_button_text_size" android:textColor="@color/primary_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/chatbot_displayName" android:tag="binding_3" android:layout_width="@dimen/contact_list_my_chatbot_button_text_view_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contact_list_my_chatbot_button_text_top_margin" android:maxLines="1" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.main.SearchViewForSelectionMode android:orientation="vertical" android:id="@id/searchConversationSearchInSelectMode" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.widget.SearchLayout android:id="@id/search_conversation_view_custom" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/floating_search_container_padding_horizontal" app:layoutId="@layout/search_layout_with_mic" />
+</com.samsung.android.messaging.ui.view.main.SearchViewForSelectionMode>

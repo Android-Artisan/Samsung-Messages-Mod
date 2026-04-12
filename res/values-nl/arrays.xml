@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 uur</item>
+        <item>6 uur</item>
+        <item>24 uur</item>
+        <item>2 dagen</item>
+        <item>Standaardinstelling netwerk</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Oorspronkelijk</item>
+        <item>Hoog</item>
+        <item>Gemiddeld</item>
+        <item>Laag</item>
+        <item>Altijd vragen</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Oorspronkelijk</item>
+        <item>Hoge kwaliteit</item>
+        <item>Normale kwaliteit</item>
+        <item>Lage resolutie</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Alle kanalen</item>
+        <item>Mijn kanaal</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatisch</item>
+        <item>Sms of mms</item>
+        <item>Chatten</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatisch</item>
+        <item>Sms of mms</item>
+        <item>RCS-chatberichten</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokkeren</item>
+        <item>Eerst vragen</item>
+        <item>Toestaan</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Altijd</item>
+        <item>Vragen</item>
+        <item>Nooit</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alfabet</item>
+        <item>Unicode</item>
+        <item>Automatisch</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Opnieuw verzenden als een sms- of mms-bericht</item>
+        <item>Niet opnieuw verzenden</item>
+        <item>Vragen voor opnieuw verzenden</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Sms- of mms-berichten gebruiken</item>
+        <item>Niet opnieuw verzenden</item>
+        <item>Altijd vragen</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Origineel</item>
+        <item>Standaardinstellingen netwerk</item>
+        <item>Altijd vragen</item>
+    </string-array>
+</resources>

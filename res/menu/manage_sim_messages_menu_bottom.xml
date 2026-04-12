@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/group_ic_copy" android:id="@id/action_menu_copy_to_phone" android:title="@string/copy_to_phone" app:showAsAction="always" />
+    <item android:icon="@drawable/group_ic_delete" android:id="@id/delete" android:title="@string/delete_description" app:contentDescription="@string/delete_description" app:showAsAction="always" />
+</menu>

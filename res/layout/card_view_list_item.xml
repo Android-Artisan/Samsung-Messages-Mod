@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/card_view_list_item_container" android:tag="layout/card_view_list_item_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/section_header_stub" android:layout="@layout/subheader_divider_layout_ghost" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerRelativeLayout android:id="@id/card_view_list_item_rounded_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.messaging.uicommon.widget.checkablelayout.CheckableRelativeLayout android:theme="@style/ListItemBackground" android:id="@id/card_view_list_item" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:paddingStart="@dimen/card_view_margin" android:paddingEnd="@dimen/card_view_end_margin" app:checkable="true" app:ghost="false" app:roundMode="0">
+            <include layout="@layout/card_view_list_item_avatar_panel" />
+            <LinearLayout android:orientation="vertical" android:id="@id/list_content_panel_outline" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/setting_list_item_min_height" android:layout_centerVertical="true" android:layout_toEndOf="@id/list_avatar_panel_outline">
+                <View android:layout_width="match_parent" android:layout_height="@dimen/card_view_top_bottom_padding" />
+                <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.5" />
+                <include layout="@layout/card_view_list_item_main_layout" />
+                <ViewStub android:id="@id/list_item_tag_number_stub" android:layout="@layout/card_view_list_item_tag_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <include layout="@layout/card_view_list_item_sub_layout" />
+                <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.5" />
+                <View android:layout_width="match_parent" android:layout_height="@dimen/card_view_top_bottom_padding" />
+            </LinearLayout>
+            <View android:id="@id/list_divider" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="@dimen/conversation_list_divider_height" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/convlist_avatar_panel_size" />
+        </com.samsung.android.messaging.uicommon.widget.checkablelayout.CheckableRelativeLayout>
+    </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerRelativeLayout>
+</LinearLayout>

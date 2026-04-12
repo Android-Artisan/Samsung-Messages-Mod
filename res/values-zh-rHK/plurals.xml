@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">無法收回訊息。訊息僅可在發送後 %d 分鐘內收回。</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">同時離開 %d 個群組聊天</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">同時離開 %d 個群組對話</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">刪除 %d 個表情包嗎？</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">移動 %d 個對話至垃圾筒嗎？</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">垃圾筒中的訊息將在 %d 天後被永久刪除。</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">已刪除的訊息將在垃圾筒中保留 %d 天，然後被永久刪除。</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">移動 %d 則訊息至垃圾筒嗎？</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">今天是個特殊的日子 (%1$s 及另外 %2$d 個事件)。送點什麼給對方嗎？</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">今天是 %1$s 和另外 %2$d 位聯絡人的生日！要送點特別的祝福嗎？</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">過去 30 天內封鎖了 %d 則訊息</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">已選擇 %d 個</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">無法封鎖 %d 個電子郵件地址，因為其無效。</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">無法封鎖 %d 個電話號碼，因為其無效。</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">無法封鎖 %d 個寄件人，因為其資訊無效。</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">無法選擇超過 %d 位聯絡人。</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d 張 %2$s 卡</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 位聊天聯絡人</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 位 Chatting+ 聯絡人</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"若您取消註冊 Chatting+，將無法建立或加入一對一和群組聊天、收到您的訊息已被讀取的確認訊息，或共享大檔案。是否確定要取消註冊？
+
+重新註冊之前，您還必須等待 %d 分鐘。"</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 個聊天機器人</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 位聯絡人</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">已選擇 %d 個</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 天後到期</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 張優惠券即將過期</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">您的 %1$s 優惠券將於 %2$d 天後過期。</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">您的優惠券將於 %d 天後過期。</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">刪除 %d 個對話嗎？</item>
+        <item quantity="other">刪除 %d 個對話嗎？</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">永久刪除 %d 個對話嗎？</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">刪除 %d 則訊息嗎？</item>
+        <item quantity="other">刪除 %d 則訊息嗎？</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">永久刪除 %d 則訊息嗎？</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 則快遞訊息</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">解除 %d 張卡片嗎？</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">主螢幕上僅可顯示 %1$d 個類別標籤。其餘將被隱藏。若想要從主螢幕快速存取，請選擇 %2$s 類別。</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 個檔案已儲存至您的手機。</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 個檔案已儲存至您的平板電腦。</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">今天有 %d 筆交易</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s 與 %2$d 個未知號碼</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 個未知號碼</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s 無法加入群組聊天。請將其從已選擇的收件人中移除，或改為向最多 %2$d 位收件人發送文字訊息。</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"包含的一位或多位收件人無法使用進階型訊息，因此您的群組限制為 %d 位成員。
+
+若要繼續，請僅選擇可使用進階型訊息的成員。其標記了藍色圓點圖示。"</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">若要開始群組聊天，請移除最後選擇的收件人。若您想要包括最後的收件人，請移除 %d 位收件人以發送訊息。</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 張圖像已儲存至您的平板電腦。</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 張圖像已儲存至您的手機。</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 張圖像與 %d 個影片已儲存至您的手機。</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 張圖像與 1 個影片已儲存至您的手機。</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s 與其他 %2$d 人已加入</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 位聯絡人</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">無法選擇超過 %d 人。</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">當您輕觸 [訊息建議] 按鍵時，您對話中的最後 %d 則訊息將在線上進行處理。AI 產生的建議可能不準確或包含不當內容。</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 個新通知</item>
+        <item quantity="other">%d 個新通知</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 個檔案已使用快速共享進行共享</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 張新的實用卡</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 個對話</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d 則訊息</item>
+        <item quantity="other">%d 則訊息</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">將已刪除的訊息保留 %d 天。</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">您可在 %d 分鐘後再次重新整理。</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">立即發送 %d 則訊息嗎？</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">您的資訊正在更新。請等待至少 %d 分鐘，然後重試。</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">無法釘選超過 %d 個對話。</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s 與其他 %2$d 位</item>
+        <item quantity="other">%1$s 和其他 %2$d 人</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">移除 %d 張卡嗎？</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">輸入原因 (最多 %d 個字元)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">%d 則訊息已排定</item>
+        <item quantity="one">%d 則訊息已排定</item>
+        <item quantity="two">%d 則訊息已排定</item>
+        <item quantity="few">%d 則訊息已排定</item>
+        <item quantity="many">%d 則訊息已排定</item>
+        <item quantity="other">%d 則訊息已排定</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">選擇距離現在至少 %d 分鐘的時間。</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">找到 %d 個</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">移動 1 個對話與 %d 則其他訊息至垃圾筒嗎？</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">移動 %d 個對話與 1 則其他訊息至垃圾筒嗎？</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"選擇最多 %d 人。
+(顯示在此對話中使用其電話號碼的人。)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">睡眠時間：%d 小時</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">睡眠時間：%d 分鐘</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">剩餘 %d 小時</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">剩餘 %d 分鐘</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">剩餘 %d 秒</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">從 SIM 卡複製訊息。</item>
+        <item quantity="other">已從 SIM 卡複製訊息。</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 個類別</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">您已選擇超過 %d 位收件人，已達文字訊息上限。請開始群組聊天以同時向其發送訊息。</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">共 %d 則訊息</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">已自動解除封鎖 %d 則訊息，因為不再認為其寄件人是惡意寄件人。</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">來自 %1$s 及其他 %2$d 個品牌</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 則未讀快遞訊息</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">來自 %1$s 及其他 %2$d 個聯絡人</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d 則來自 %2$s 的未讀訊息</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">包括來自 %1$s 及其他 %2$d 個品牌的一些</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">包括 %d 則快遞訊息</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">包括來自 %1$s 及其他 %2$d 個聯絡人的一些</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 則未讀訊息</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 則未讀訊息</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">今天有 %d 個即將到來的提示</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 個影片已儲存至您的手機。</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">您%1$s今天收到 %2$d 則快遞相關訊息%3$s。</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">您%1$s今天收到 %2$d 則快遞相關訊息%3$s。</item>
+    </plurals>
+</resources>

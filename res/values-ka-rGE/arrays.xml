@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 საათი</item>
+        <item>6 საათი</item>
+        <item>24 საათი</item>
+        <item>2 დღე</item>
+        <item>ნაგულისხმევი ქსელი</item>
+        <item>მაქსიმუმი</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>თავდაპირველი</item>
+        <item>მაღალი</item>
+        <item>საშუალო</item>
+        <item>დაბალი</item>
+        <item>ყოველთვის მკითხე</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>თავდაპირველი</item>
+        <item>მაღალი ხარისხი</item>
+        <item>ნორმალური ხარისხი</item>
+        <item>დაბალი გარჩევადობა</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>ყველა არხი</item>
+        <item>ჩემი არხი</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>ავტომატური</item>
+        <item>ტექსტი ან მულტიმედია</item>
+        <item>სასაუბრო</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>ავტომატური</item>
+        <item>ტექსტი ან მულტიმედია</item>
+        <item>RCS საუბრის შეტყობინებები</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>დაბლოკვა</item>
+        <item>პირველად მკითხე</item>
+        <item>ნებართვის მიცემა</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ყოველთვის</item>
+        <item>მინიშნება</item>
+        <item>არასოდეს</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM ანბანი</item>
+        <item>უნიკოდი</item>
+        <item>ავტომატურად</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>ტექსტური ან მულტიმედიური შეტყობინების გაგზავნის გამეორება</item>
+        <item>გაგზავნა არ გამეორდეს</item>
+        <item>ხელახლა გაგზავნამდე მკითხე</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>SMS-ების ან MMS-ების გამოყენება</item>
+        <item>თავიდან გაგზავნილი არ არის</item>
+        <item>ყოველთვის მკითხე</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>ორიგინალი</item>
+        <item>ნაგულისხმევი ქსელი</item>
+        <item>ყოველთვის მკითხე</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/theme_attachment_preview_bg_color_split" />
+    <item android:gravity="top">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/attachment_preview_divider_height" />
+            <solid android:color="@color/theme_attachment_preview_divider_color" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,739 @@
+.class public final LB0/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        LB0/e$a;,
+        LB0/e$b;
+    }
+.end annotation
+
+
+# static fields
+.field public static final i:LB0/e;
+
+
+# instance fields
+.field public final a:LB0/s;
+
+.field public final b:Z
+
+.field public final c:Z
+
+.field public final d:Z
+
+.field public final e:Z
+
+.field public final f:J
+
+.field public final g:J
+
+.field public final h:Ljava/util/Set;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 9
+
+    new-instance v0, LB0/e$a;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, LB0/e$a;-><init>(Lkotlin/jvm/internal/h;)V
+
+    new-instance v0, LB0/e;
+
+    const/16 v7, 0xf
+
+    const/4 v8, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    move-object v2, v0
+
+    invoke-direct/range {v2 .. v8}, LB0/e;-><init>(LB0/s;ZZZILkotlin/jvm/internal/h;)V
+
+    sput-object v0, LB0/e;->i:LB0/e;
+
+    return-void
+.end method
+
+.method public constructor <init>(LB0/e;)V
+    .locals 2
+
+    const-string v0, "other"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 19
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 20
+    iget-boolean v0, p1, LB0/e;->b:Z
+
+    iput-boolean v0, p0, LB0/e;->b:Z
+
+    .line 21
+    iget-boolean v0, p1, LB0/e;->c:Z
+
+    iput-boolean v0, p0, LB0/e;->c:Z
+
+    .line 22
+    iget-object v0, p1, LB0/e;->a:LB0/s;
+
+    iput-object v0, p0, LB0/e;->a:LB0/s;
+
+    .line 23
+    iget-boolean v0, p1, LB0/e;->d:Z
+
+    iput-boolean v0, p0, LB0/e;->d:Z
+
+    .line 24
+    iget-boolean v0, p1, LB0/e;->e:Z
+
+    iput-boolean v0, p0, LB0/e;->e:Z
+
+    .line 25
+    iget-object v0, p1, LB0/e;->h:Ljava/util/Set;
+
+    iput-object v0, p0, LB0/e;->h:Ljava/util/Set;
+
+    .line 26
+    iget-wide v0, p1, LB0/e;->f:J
+
+    iput-wide v0, p0, LB0/e;->f:J
+
+    .line 27
+    iget-wide v0, p1, LB0/e;->g:J
+
+    iput-wide v0, p0, LB0/e;->g:J
+
+    return-void
+.end method
+
+.method public constructor <init>(LB0/s;ZZZ)V
+    .locals 7
+
+    const-string v0, "requiredNetworkType"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v4, 0x0
+
+    move-object v1, p0
+
+    move-object v2, p1
+
+    move v3, p2
+
+    move v5, p3
+
+    move v6, p4
+
+    .line 3
+    invoke-direct/range {v1 .. v6}, LB0/e;-><init>(LB0/s;ZZZZ)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(LB0/s;ZZZILkotlin/jvm/internal/h;)V
+    .locals 1
+
+    and-int/lit8 p6, p5, 0x1
+
+    if-eqz p6, :cond_0
+
+    .line 1
+    sget-object p1, LB0/s;->a:LB0/s;
+
+    :cond_0
+    and-int/lit8 p6, p5, 0x2
+
+    const/4 v0, 0x0
+
+    if-eqz p6, :cond_1
+
+    move p2, v0
+
+    :cond_1
+    and-int/lit8 p6, p5, 0x4
+
+    if-eqz p6, :cond_2
+
+    move p3, v0
+
+    :cond_2
+    and-int/lit8 p5, p5, 0x8
+
+    if-eqz p5, :cond_3
+
+    move p4, v0
+
+    .line 2
+    :cond_3
+    invoke-direct {p0, p1, p2, p3, p4}, LB0/e;-><init>(LB0/s;ZZZ)V
+
+    return-void
+.end method
+
+.method public constructor <init>(LB0/s;ZZZZ)V
+    .locals 14
+
+    const-string v0, "requiredNetworkType"
+
+    move-object v2, p1
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/16 v12, 0xc0
+
+    const/4 v13, 0x0
+
+    const-wide/16 v7, -0x1
+
+    const-wide/16 v9, 0x0
+
+    const/4 v11, 0x0
+
+    move-object v1, p0
+
+    move/from16 v3, p2
+
+    move/from16 v4, p3
+
+    move/from16 v5, p4
+
+    move/from16 v6, p5
+
+    .line 6
+    invoke-direct/range {v1 .. v13}, LB0/e;-><init>(LB0/s;ZZZZJJLjava/util/Set;ILkotlin/jvm/internal/h;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(LB0/s;ZZZZILkotlin/jvm/internal/h;)V
+    .locals 3
+
+    and-int/lit8 p7, p6, 0x1
+
+    if-eqz p7, :cond_0
+
+    .line 4
+    sget-object p1, LB0/s;->a:LB0/s;
+
+    :cond_0
+    and-int/lit8 p7, p6, 0x2
+
+    const/4 v0, 0x0
+
+    if-eqz p7, :cond_1
+
+    move p7, v0
+
+    goto :goto_0
+
+    :cond_1
+    move p7, p2
+
+    :goto_0
+    and-int/lit8 p2, p6, 0x4
+
+    if-eqz p2, :cond_2
+
+    move v1, v0
+
+    goto :goto_1
+
+    :cond_2
+    move v1, p3
+
+    :goto_1
+    and-int/lit8 p2, p6, 0x8
+
+    if-eqz p2, :cond_3
+
+    move v2, v0
+
+    goto :goto_2
+
+    :cond_3
+    move v2, p4
+
+    :goto_2
+    and-int/lit8 p2, p6, 0x10
+
+    if-eqz p2, :cond_4
+
+    goto :goto_3
+
+    :cond_4
+    move v0, p5
+
+    :goto_3
+    move-object p2, p0
+
+    move-object p3, p1
+
+    move p4, p7
+
+    move p5, v1
+
+    move p6, v2
+
+    move p7, v0
+
+    .line 5
+    invoke-direct/range {p2 .. p7}, LB0/e;-><init>(LB0/s;ZZZZ)V
+
+    return-void
+.end method
+
+.method public constructor <init>(LB0/s;ZZZZJJLjava/util/Set;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LB0/s;",
+            "ZZZZJJ",
+            "Ljava/util/Set<",
+            "LB0/e$b;",
+            ">;)V"
+        }
+    .end annotation
+
+    const-string v0, "requiredNetworkType"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "contentUriTriggers"
+
+    invoke-static {p10, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 10
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 11
+    iput-object p1, p0, LB0/e;->a:LB0/s;
+
+    .line 12
+    iput-boolean p2, p0, LB0/e;->b:Z
+
+    .line 13
+    iput-boolean p3, p0, LB0/e;->c:Z
+
+    .line 14
+    iput-boolean p4, p0, LB0/e;->d:Z
+
+    .line 15
+    iput-boolean p5, p0, LB0/e;->e:Z
+
+    .line 16
+    iput-wide p6, p0, LB0/e;->f:J
+
+    .line 17
+    iput-wide p8, p0, LB0/e;->g:J
+
+    .line 18
+    iput-object p10, p0, LB0/e;->h:Ljava/util/Set;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(LB0/s;ZZZZJJLjava/util/Set;ILkotlin/jvm/internal/h;)V
+    .locals 11
+
+    move/from16 v0, p11
+
+    and-int/lit8 v1, v0, 0x1
+
+    if-eqz v1, :cond_0
+
+    .line 7
+    sget-object v1, LB0/s;->a:LB0/s;
+
+    goto :goto_0
+
+    :cond_0
+    move-object v1, p1
+
+    :goto_0
+    and-int/lit8 v2, v0, 0x2
+
+    const/4 v3, 0x0
+
+    if-eqz v2, :cond_1
+
+    move v2, v3
+
+    goto :goto_1
+
+    :cond_1
+    move v2, p2
+
+    :goto_1
+    and-int/lit8 v4, v0, 0x4
+
+    if-eqz v4, :cond_2
+
+    move v4, v3
+
+    goto :goto_2
+
+    :cond_2
+    move v4, p3
+
+    :goto_2
+    and-int/lit8 v5, v0, 0x8
+
+    if-eqz v5, :cond_3
+
+    move v5, v3
+
+    goto :goto_3
+
+    :cond_3
+    move v5, p4
+
+    :goto_3
+    and-int/lit8 v6, v0, 0x10
+
+    if-eqz v6, :cond_4
+
+    goto :goto_4
+
+    :cond_4
+    move/from16 v3, p5
+
+    :goto_4
+    and-int/lit8 v6, v0, 0x20
+
+    const-wide/16 v7, -0x1
+
+    if-eqz v6, :cond_5
+
+    move-wide v9, v7
+
+    goto :goto_5
+
+    :cond_5
+    move-wide/from16 v9, p6
+
+    :goto_5
+    and-int/lit8 v6, v0, 0x40
+
+    if-eqz v6, :cond_6
+
+    goto :goto_6
+
+    :cond_6
+    move-wide/from16 v7, p8
+
+    :goto_6
+    and-int/lit16 v0, v0, 0x80
+
+    if-eqz v0, :cond_7
+
+    .line 8
+    sget-object v0, Lrk/I;->a:Lrk/I;
+
+    goto :goto_7
+
+    :cond_7
+    move-object/from16 v0, p10
+
+    :goto_7
+    move-object p1, v1
+
+    move p2, v2
+
+    move p3, v4
+
+    move p4, v5
+
+    move/from16 p5, v3
+
+    move-wide/from16 p6, v9
+
+    move-wide/from16 p8, v7
+
+    move-object/from16 p10, v0
+
+    .line 9
+    invoke-direct/range {p0 .. p10}, LB0/e;-><init>(LB0/s;ZZZZJJLjava/util/Set;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 5
+
+    if-ne p0, p1, :cond_0
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    if-eqz p1, :cond_9
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    const-class v2, LB0/e;
+
+    invoke-virtual {v2, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    check-cast p1, LB0/e;
+
+    iget-boolean v1, p0, LB0/e;->b:Z
+
+    iget-boolean v2, p1, LB0/e;->b:Z
+
+    if-eq v1, v2, :cond_2
+
+    return v0
+
+    :cond_2
+    iget-boolean v1, p0, LB0/e;->c:Z
+
+    iget-boolean v2, p1, LB0/e;->c:Z
+
+    if-eq v1, v2, :cond_3
+
+    return v0
+
+    :cond_3
+    iget-boolean v1, p0, LB0/e;->d:Z
+
+    iget-boolean v2, p1, LB0/e;->d:Z
+
+    if-eq v1, v2, :cond_4
+
+    return v0
+
+    :cond_4
+    iget-boolean v1, p0, LB0/e;->e:Z
+
+    iget-boolean v2, p1, LB0/e;->e:Z
+
+    if-eq v1, v2, :cond_5
+
+    return v0
+
+    :cond_5
+    iget-wide v1, p0, LB0/e;->f:J
+
+    iget-wide v3, p1, LB0/e;->f:J
+
+    cmp-long v1, v1, v3
+
+    if-eqz v1, :cond_6
+
+    return v0
+
+    :cond_6
+    iget-wide v1, p0, LB0/e;->g:J
+
+    iget-wide v3, p1, LB0/e;->g:J
+
+    cmp-long v1, v1, v3
+
+    if-eqz v1, :cond_7
+
+    return v0
+
+    :cond_7
+    iget-object v1, p0, LB0/e;->a:LB0/s;
+
+    iget-object v2, p1, LB0/e;->a:LB0/s;
+
+    if-eq v1, v2, :cond_8
+
+    goto :goto_0
+
+    :cond_8
+    iget-object p0, p0, LB0/e;->h:Ljava/util/Set;
+
+    iget-object p1, p1, LB0/e;->h:Ljava/util/Set;
+
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/m;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    :cond_9
+    :goto_0
+    return v0
+.end method
+
+.method public final hashCode()I
+    .locals 6
+
+    iget-object v0, p0, LB0/e;->a:LB0/s;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-boolean v1, p0, LB0/e;->b:Z
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-boolean v1, p0, LB0/e;->c:Z
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-boolean v1, p0, LB0/e;->d:Z
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-boolean v1, p0, LB0/e;->e:Z
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-wide v1, p0, LB0/e;->f:J
+
+    const/16 v3, 0x20
+
+    ushr-long v4, v1, v3
+
+    xor-long/2addr v1, v4
+
+    long-to-int v1, v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-wide v1, p0, LB0/e;->g:J
+
+    ushr-long v3, v1, v3
+
+    xor-long/2addr v1, v3
+
+    long-to-int v1, v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object p0, p0, LB0/e;->h:Ljava/util/Set;
+
+    invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
+
+    move-result p0
+
+    add-int/2addr p0, v0
+
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 3
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "Constraints{requiredNetworkType="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v1, p0, LB0/e;->a:LB0/s;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", requiresCharging="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v1, p0, LB0/e;->b:Z
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v1, ", requiresDeviceIdle="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v1, p0, LB0/e;->c:Z
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v1, ", requiresBatteryNotLow="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v1, p0, LB0/e;->d:Z
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v1, ", requiresStorageNotLow="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v1, p0, LB0/e;->e:Z
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v1, ", contentTriggerUpdateDelayMillis="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-wide v1, p0, LB0/e;->f:J
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string v1, ", contentTriggerMaxDelayMillis="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-wide v1, p0, LB0/e;->g:J
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string v1, ", contentUriTriggers="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object p0, p0, LB0/e;->h:Ljava/util/Set;
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string p0, ", }"
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="attachment_preview_divider_height">1.0px</dimen>
+    <dimen name="attachment_stroke_normal_press_width">1.0px</dimen>
+    <dimen name="bookmark_divider_height">1.0px</dimen>
+    <dimen name="bot_list_divider_height">1.0px</dimen>
+    <dimen name="conversation_list_divider_height">1.0px</dimen>
+    <dimen name="dialog_scrolling_line_height">1.0px</dimen>
+    <dimen name="input_voice_button_stroke">5.0px</dimen>
+    <dimen name="list_divider_height">1.0px</dimen>
+    <dimen name="sesl_list_divider_height">1.0px</dimen>
+    <dimen name="textextraction_entity_underline_width">1.0dp</dimen>
+    <dimen name="view_all_divider_height">1.0px</dimen>
+    <dimen name="visiontext_entity_underline_width">1.0dp</dimen>
+</resources>

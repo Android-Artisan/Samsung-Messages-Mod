@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="54.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/msg_select_dialog_icon" android:visibility="gone" android:layout_width="28.0dp" android:layout_height="28.0dp" android:layout_marginEnd="@dimen/msg_popup_selection_dialog_icon_margin" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="17.0sp" android:textColor="@color/theme_transfer_dialog_body_text_color" android:gravity="center_vertical" android:id="@id/msg_select_dialog_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/msg_popup_selection_dialog_margin" android:layout_marginRight="@dimen/msg_popup_selection_dialog_margin" android:singleLine="true" />
+</LinearLayout>

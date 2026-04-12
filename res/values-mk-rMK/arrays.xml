@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 час</item>
+        <item>6 часа</item>
+        <item>24-часовен</item>
+        <item>2 дена</item>
+        <item>Основна мрежа</item>
+        <item>Максимално</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Оригинална</item>
+        <item>Високо</item>
+        <item>Средно</item>
+        <item>Ниско</item>
+        <item>Прашувај секогаш</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Оригинална</item>
+        <item>Висок квалитет</item>
+        <item>Нормален квалитет</item>
+        <item>Ниска резолуција</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Сите канали</item>
+        <item>Мој канал</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Автоматски</item>
+        <item>Текстуални или мултимедијални</item>
+        <item>Разговор</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Автоматски</item>
+        <item>Текстуални или мултимедијални</item>
+        <item>Пораки од разговор RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Блокирај</item>
+        <item>Прашај прво</item>
+        <item>Дозволи</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Секогаш</item>
+        <item>Ако се дозволи</item>
+        <item>Никогаш</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alphabet</item>
+        <item>Уникод</item>
+        <item>Автоматски</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Препрати како текстуална или мултимедијална порака</item>
+        <item>Не препраќај</item>
+        <item>Прашај пред повторното испраќање</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Кор.текст. или мултимед. пораки</item>
+        <item>Без препраќање</item>
+        <item>Прашувај секогаш</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Оригинал</item>
+        <item>Основна мрежа</item>
+        <item>Прашувај секогаш</item>
+    </string-array>
+</resources>

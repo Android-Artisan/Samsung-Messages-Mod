@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="class_zero_background">#7f040000</drawable>
+    <drawable name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</drawable>
+    <drawable name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</drawable>
+    <drawable name="messages_bubble_bg_01">@color/theme_bubble_list_bg_color</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="theme_background_image_default_bg">@drawable/messages_bubble_bg_01</drawable>
+    <drawable name="theme_background_image_default_bg_split">@drawable/theme_bubble_list_bg_split</drawable>
+    <drawable name="theme_bubble_list_bg">@drawable/messages_bubble_bg_01</drawable>
+    <drawable name="theme_bubble_list_bg_split">@color/theme_bubble_list_bg_color_split</drawable>
+    <drawable name="theme_popup_bg_image">@color/theme_popup_bg_color</drawable>
+    <drawable name="theme_viewer_background">@color/theme_viewer_bg_color</drawable>
+    <drawable name="white_background">#fff5f5f5</drawable>
+</resources>

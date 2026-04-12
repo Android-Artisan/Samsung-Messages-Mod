@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 timme</item>
+        <item>6 timmar</item>
+        <item>24 timmar</item>
+        <item>2 dagar</item>
+        <item>Nätverksstandard</item>
+        <item>Maximal</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Ursprunglig</item>
+        <item>Hög</item>
+        <item>Medel</item>
+        <item>Låg</item>
+        <item>Fråga alltid</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Ursprunglig</item>
+        <item>Hög kvalitet</item>
+        <item>Normal kvalitet</item>
+        <item>Låg upplösning</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Alla kanaler</item>
+        <item>Min kanal</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatisk</item>
+        <item>SMS eller MMS</item>
+        <item>Chatt</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatisk</item>
+        <item>SMS eller MMS</item>
+        <item>RCS-chattmeddelanden</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blockera</item>
+        <item>Fråga först</item>
+        <item>Tillåt</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Alltid</item>
+        <item>Fråga</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alfabet</item>
+        <item>Unicode</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Skicka igen som SMS eller MMS</item>
+        <item>Skicka inte igen</item>
+        <item>Fråga före omsändning</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Använd SMS och MMS</item>
+        <item>Skicka inte om</item>
+        <item>Fråga alltid</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Original</item>
+        <item>Nätverksstandard</item>
+        <item>Fråga alltid</item>
+    </string-array>
+</resources>

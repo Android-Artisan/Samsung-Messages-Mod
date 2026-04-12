@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.widget.MiniAppsEntry android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/list_page_appaccount_height" app:roundMode="15">
+        <RelativeLayout android:layout_gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/card_view_margin" android:paddingEnd="@dimen/card_view_end_margin">
+            <com.samsung.android.messaging.ui.view.widget.avatar.AvatarGroupBadge android:id="@id/app_accounts_avatar_panel" android:focusable="false" android:clickable="false" android:layout_width="@dimen/convlist_avatar_size" android:layout_height="@dimen/convlist_avatar_size" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:importantForAccessibility="no" app:useThemeShape="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_marginStart="16.0dp" android:layout_toEndOf="@id/app_accounts_avatar_panel">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/card_view_list_item_name_text_size" android:textColor="@color/theme_list_main_text_color" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/app_accounts_avatar_name" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                <LinearLayout android:layout_gravity="end|center" android:id="@id/unread_count_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="10.0dp">
+                    <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="11.0dp" android:textColor="@color/theme_badge_text_color" android:gravity="center" android:layout_gravity="end|center" android:id="@id/unread_count" android:background="@drawable/theme_unread_badge_bg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/list_information_item_size" android:minHeight="18.0dp" android:layout_marginStart="40.0dp" android:layout_marginEnd="2.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>
+    <View android:focusable="false" android:layout_height="@dimen/section_empty_header_height" style="@style/CustomSubHeaderStyle" />
+</com.samsung.android.messaging.ui.view.widget.MiniAppsEntry>

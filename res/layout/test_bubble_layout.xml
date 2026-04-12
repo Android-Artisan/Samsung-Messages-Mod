@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#8c8c8c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_marginBottom="3.0dp" android:text="내용 입력" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+            <com.samsung.android.messaging.ui.view.widget.AsyncImageView android:id="@id/image_button" android:layout_width="50.0dp" android:layout_height="50.0dp" android:src="@drawable/images_ic" />
+            <TextView android:id="@id/text_image_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please select Image file" android:layout_marginStart="10.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+            <com.samsung.android.messaging.ui.view.widget.AsyncImageView android:id="@id/video_button" android:layout_width="50.0dp" android:layout_height="50.0dp" android:src="@drawable/video_ic" />
+            <TextView android:id="@id/text_video_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please select Video file" android:layout_marginStart="10.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+            <com.samsung.android.messaging.ui.view.widget.AsyncImageView android:id="@id/audio_button" android:layout_width="50.0dp" android:layout_height="50.0dp" android:src="@drawable/audio_ic" />
+            <TextView android:id="@id/text_audio_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please select Audio file" android:layout_marginStart="10.0dp" />
+        </LinearLayout>
+        <EditText android:id="@id/input_text" android:layout_width="wrap_content" android:layout_height="300.0dp" android:text="안녕하세요. 저는 Bubble입니다. 제 소개를 하겠습니다. 저는 2022-10-25 에 태어났습니다. 제 계좌번호는 새마을금고 9003-1987-35091입니다. 저는 http://www.naver.com 에 자주 들어갑니다. 오늘밤 12시가 울리면 저는 사라질꺼에요 전화번호는 010-1234-1234이고요. 이메일은 test@samsung.com입니다.안녕하세요. 저는 Bubble입니다. 제 소개를 하겠습니다. 저는 2022-10-25 에 태어났습니다. 제 계좌번호는 새마을금고 9003-1987-35091입니다. 저는 http://www.naver.com 에 자주 들어갑니다. 오늘밤 12시가 울리면 저는 사라질꺼에요 전화번호는 010-1234-1234이고요. 이메일은 test@samsung.com입니다." android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Insert Message Count : " />
+            <EditText android:id="@id/input_total_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" android:digits="0123456789" android:inputType="number" android:layout_marginStart="10.0dp" />
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/insert_count_button_container" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Inserted Count : " />
+            <TextView android:id="@id/inserted_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_marginStart="10.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Switch android:id="@id/select_box_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="수신" android:textOff="발신" android:showText="true" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="으로 생성합니다." />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <Switch android:id="@id/select_all_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+                <TextView android:id="@id/select_all_switch_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Select All" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <Switch android:id="@id/random_timestamp_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Random TimeStamp" />
+            </LinearLayout>
+            <TableLayout android:id="@id/select_table" android:background="#666666" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:stretchColumns="*">
+                <TableRow android:background="#ffffff" android:layout_margin="1.0dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BubbleType" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MMS" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RCS" />
+                </TableRow>
+                <TableRow android:background="#ffffff" android:layout_margin="1.0dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Text" />
+                    <CheckBox android:id="@id/checkbox_text_mms" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <CheckBox android:id="@id/checkbox_text_rcs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </TableRow>
+                <TableRow android:background="#ffffff" android:layout_margin="1.0dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Image" />
+                    <CheckBox android:id="@id/checkbox_image_mms" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <CheckBox android:id="@id/checkbox_image_rcs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </TableRow>
+                <TableRow android:background="#ffffff" android:layout_margin="1.0dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Video" />
+                    <CheckBox android:id="@id/checkbox_video_mms" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <CheckBox android:id="@id/checkbox_video_rcs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </TableRow>
+                <TableRow android:background="#ffffff" android:layout_margin="1.0dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Audio" />
+                    <CheckBox android:id="@id/checkbox_audio_mms" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <CheckBox android:id="@id/checkbox_audio_rcs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </TableRow>
+                <TableRow android:background="#ffffff" android:layout_margin="1.0dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Multipart" />
+                    <CheckBox android:id="@id/checkbox_multi_mms" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <View />
+                </TableRow>
+                <TableRow android:background="#ffffff" android:layout_margin="1.0dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DigitalKey" />
+                    <CheckBox android:id="@id/checkbox_digital_key_mms" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <CheckBox android:id="@id/checkbox_digital_key_rcs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </TableRow>
+                <TableRow android:background="#ffffff" android:layout_margin="1.0dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rcs Bot" />
+                    <View />
+                    <CheckBox android:id="@id/checkbox_richcard_rcs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <Button android:id="@id/button_bubble_data_create" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="Button" />
+        <Button android:id="@id/button_bubble_deco_package_data_create" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="create Decorate Bubble Package" />
+    </LinearLayout>
+</ScrollView>

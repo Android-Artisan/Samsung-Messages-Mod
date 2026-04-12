@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 hora</item>
+        <item>6 horas</item>
+        <item>24 horas</item>
+        <item>2 días</item>
+        <item>Predeterminado</item>
+        <item>Máximo</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Original</item>
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Baja</item>
+        <item>Preguntar siempre</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Original</item>
+        <item>Calidad alta</item>
+        <item>Calidad normal</item>
+        <item>Resolución baja</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Todos los canales</item>
+        <item>Mi canal</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automático</item>
+        <item>Texto o multimedia</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automático</item>
+        <item>Texto o multimedia</item>
+        <item>Mensajes de chat RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Bloquear</item>
+        <item>Preguntar primero</item>
+        <item>Permitir</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Siempre</item>
+        <item>Solicitar</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alfabeto GSM</item>
+        <item>Unicode</item>
+        <item>Automático</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Reenviar como mensaje de texto o multimedia</item>
+        <item>No reenviar</item>
+        <item>Preguntar antes de reenviar</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Usar mensajes texto o multimedia</item>
+        <item>No reenviar</item>
+        <item>Preguntar siempre</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Original</item>
+        <item>Predeterminada de red</item>
+        <item>Preguntar siempre</item>
+    </string-array>
+</resources>

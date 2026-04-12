@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="@string/screen_More_Settings_Push_Messages"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:selectable="false" android:key="pref_description_push_messages" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SaDropDownPreference android:entries="@array/pref_entries_service_loading_action" android:title="@string/pref_title_service_loading" android:key="pref_key_service_loading_action" android:entryValues="@array/pref_entry_values_service_loading_action" app:event="@string/event_Message_Settings_More_Settings_Push_Messages_Service_Loading" app:screen="@string/screen_More_Settings_Push_Messages" />
+</androidx.preference.PreferenceScreen>

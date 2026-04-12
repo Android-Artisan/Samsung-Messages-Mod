@@ -1,0 +1,23 @@
+.class public LM3/t;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public a:I
+
+.field public b:Landroid/view/WindowManager;
+
+.field public c:LM3/s;
+
+.field public d:Lg7/c;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

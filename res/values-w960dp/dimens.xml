@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="attachsheet_item_min_width">120.0dp</dimen>
+    <dimen name="bubble_max_width_circle_text">563.0dp</dimen>
+    <dimen name="bubble_text_font_size_change_threshold">50.0dp</dimen>
+    <dimen name="sesl_config_prefSnackWidth">37.5%</dimen>
+    <dimen name="sesl_floating_max_content_width">840.0dp</dimen>
+    <dimen name="sesl_floating_pane_floating_mode_default_width">0.32</dimen>
+    <dimen name="sesl_floating_pane_floating_mode_max_width">840.0dp</dimen>
+    <dimen name="sesl_floating_pane_side_mode_max_width">840.0dp</dimen>
+    <dimen name="sesl_floating_pane_side_mode_min_width">0.32</dimen>
+    <item type="dimen" name="sesl_sliding_layout_default_open" format="boolean">true</item>
+    <dimen name="sesl_sliding_pane_contents_width">840.0dp</dimen>
+    <dimen name="split_bar_edge_touch_range">24.0dp</dimen>
+    <dimen name="split_layout_additional_center_margin">12.0dp</dimen>
+    <dimen name="split_layout_center_margin_on_right_pane_width">12.0dp</dimen>
+    <dimen name="split_layout_end_margin_width">24.0dp</dimen>
+    <dimen name="split_layout_start_margin_width">24.0dp</dimen>
+    <dimen name="split_view_1st_pane_ratio">0.38</dimen>
+</resources>

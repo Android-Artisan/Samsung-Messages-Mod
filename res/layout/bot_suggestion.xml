@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:background="@drawable/ripple_bot_suggestion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/chatbot_suggestion_chips_button_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chip_icon" android:visibility="gone" android:layout_width="@dimen/chatbot_suggestion_chips_icon_size" android:layout_height="@dimen/chatbot_suggestion_chips_icon_size" android:layout_marginEnd="5.0dp" />
+    <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/chatbot_suggestion_chips_text_size" android:textColor="@color/theme_bot_chips_primary_color" android:ellipsize="end" android:id="@id/chip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="25" android:stateListAnimator="@null" />
+</LinearLayout>

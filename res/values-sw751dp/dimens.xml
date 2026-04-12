@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kor_first_launch_description_padding_horizontal">108.0dp</dimen>
+    <dimen name="kor_first_launch_description_width_percent">0.8</dimen>
+</resources>

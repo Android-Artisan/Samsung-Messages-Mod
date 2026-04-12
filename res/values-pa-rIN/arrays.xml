@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ਘੰਟਾ</item>
+        <item>6 ਘੰਟੇ</item>
+        <item>24 ਘੰਟੇ</item>
+        <item>2 ਦਿਨ</item>
+        <item>ਨੈੱਟਵਰਕ ਡਿਫੌਲਟ</item>
+        <item>ਅਧਿਕਤਮ</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>ਮੂਲ</item>
+        <item>ਜ਼ਿਆਦਾ</item>
+        <item>ਮੱਧਮ</item>
+        <item>ਘੱਟ</item>
+        <item>ਹਮੇਸ਼ਾ ਪੁੱਛੋ</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>ਮੂਲ</item>
+        <item>ਉੱਚ ਗੁਣਵੱਤਾ</item>
+        <item>ਸਧਾਰਨ ਗੁਣਵੱਤਾ</item>
+        <item>ਘੱਟ ਰਿਜ਼ੋਲਿਉਸ਼ਨ</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>ਸਾਰੇ ਚੈਨਲਸ</item>
+        <item>ਮੇਰਾ ਚੈਨਲ</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>ਸਵੈਚਲਿਤ</item>
+        <item>ਟੈਕਸਟ ਜਾਂ ਮਲਟੀਮੀਡੀਆ</item>
+        <item>ਚੈਟ</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>ਸਵੈਚਲਿਤ</item>
+        <item>ਟੈਕਸਟ ਜਾਂ ਮਲਟੀਮੀਡੀਆ</item>
+        <item>RCS ਚੈਟ ਸੰਦੇਸ਼</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ਬਲੌਕ ਕਰੋ</item>
+        <item>ਪਹਿਲਾਂ ਪੁੱਛੋ</item>
+        <item>ਆਗਿਆ ਦਿਉ</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ਹਮੇਸ਼ਾ</item>
+        <item>ਪ੍ਰੋਮਪਟ</item>
+        <item>ਕਦੇ ਨਹੀਂ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM ਵਰਣਮਾਲਾ</item>
+        <item>ਯੂਨੀਕੋਡ</item>
+        <item>ਸਵੈਚਲਿਤ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>ਟੈਕਸਟ ਜਾਂ ਮਲਟੀਮੀਡੀਆ ਸੰਦੇਸ਼ ਦੇ ਤੌਰ ਤੇ ਦੁਬਾਰਾ ਭੇਜੋ</item>
+        <item>ਦੁਬਾਰਾ ਨਾ ਭੇਜੋ</item>
+        <item>ਦੁਬਾਰਾ ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁੱਛੋ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>ਟੈਕਸਟ ਜਾਂ ਮਲਟੀਮੀਡੀਆ ਸੰਦੇਸ਼ਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ</item>
+        <item>ਦੁਬਾਰਾ ਨਾ ਭੇਜੋ</item>
+        <item>ਹਮੇਸ਼ਾ ਪੁੱਛੋ</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>ਮੂਲ</item>
+        <item>ਨੈੱਟਵਰਕ ਡਿਫੌਲਟ</item>
+        <item>ਹਮੇਸ਼ਾ ਪੁੱਛੋ</item>
+    </string-array>
+</resources>

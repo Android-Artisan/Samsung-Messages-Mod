@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 Stunde</item>
+        <item>6 Stunden</item>
+        <item>24 Stunden</item>
+        <item>2 Tage</item>
+        <item>Netzwerkstandard</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Original</item>
+        <item>Hoch</item>
+        <item>Mittel</item>
+        <item>Niedrig</item>
+        <item>Immer fragen</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Original</item>
+        <item>Hohe Qualität</item>
+        <item>Normale Qualität</item>
+        <item>Niedrige Auflösung</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Alle Sender</item>
+        <item>Eigener Sender</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatisch</item>
+        <item>SMS und MMS</item>
+        <item>Chatten</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatisch</item>
+        <item>SMS und MMS</item>
+        <item>RCS-Chat-Nachrichten</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Sperren</item>
+        <item>Zuerst fragen</item>
+        <item>Zulassen</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Immer</item>
+        <item>Aufforderung</item>
+        <item>Niemals</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-Alphabet</item>
+        <item>Unicode</item>
+        <item>Automatisch</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Erneut als SMS oder MMS senden</item>
+        <item>Nicht erneut senden</item>
+        <item>Vor erneutem Senden fragen</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>SMS und MMS verwenden</item>
+        <item>Nicht erneut senden</item>
+        <item>Immer fragen</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Original</item>
+        <item>Netzstandard</item>
+        <item>Immer fragen</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/window_background_color" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/search_list_item_header_text_view" android:paddingTop="@dimen/search_content_container_divider_top_margin" android:text="@string/more_available_chatbots" android:textAlignment="viewStart" style="@style/BaseCustomSubHeaderStyle" />
+    <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:id="@id/search_list_item_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:ghost="true" app:roundMode="0">
+        <RelativeLayout android:id="@id/search_list_item" android:background="?android:listChoiceBackgroundIndicator" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/search_list_item_start_end_margin" android:paddingVertical="@dimen/search_list_item_top_bottom_padding">
+            <ImageView android:layout_gravity="start|center" android:layout_width="@dimen/avatar_size" android:layout_height="@dimen/avatar_size" android:src="@drawable/message_maap_icon_search" />
+            <TextView android:textSize="@dimen/body_contained_button_text_size" android:textColor="@color/theme_list_main_text_color" android:gravity="center_vertical" android:id="@id/search_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/search_list_item_conversation_start_margin" />
+            <TextView android:textSize="@dimen/body_contained_button_text_size" android:textColor="@color/colorPrimary" android:gravity="center_vertical" android:id="@id/search_key_word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/search_online_chatbot_keyword_margin" android:maxLines="1" android:layout_centerVertical="true" android:layout_toEndOf="@id/search_name" app:emojiCompatEnabled="false" />
+        </RelativeLayout>
+    </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>
+    <View android:id="@id/dummy_footer_view" android:layout_width="match_parent" android:layout_height="@dimen/footer_text_view_side_padding" style="@style/BaseCustomSubHeaderStyle" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.BubbleFtThumbnailView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.samsung.android.messaging.ui.view.bubble.item.DoubleTabRelativeLayout android:orientation="horizontal" android:id="@id/list_item_container" android:background="@drawable/selector_bubble_border_rcs" android:duplicateParentState="true" android:layout_width="@dimen/bubble_preview_max_width" android:layout_height="@dimen/bubble_circle_view_height" android:layout_weight="1.0" android:importantForAccessibility="no" android:paddingStart="@dimen/bubble_circle_icon_view_start_margin" android:paddingEnd="@dimen/bubble_circle_icon_view_end_margin">
+            <ImageView android:id="@id/decline_image" android:visibility="gone" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_centerInParent="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/content_layout" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.samsung.android.messaging.ui.view.widget.AsyncImageView android:layout_gravity="center" android:id="@id/thumbnail_image" android:layout_width="@dimen/bubble_circle_view_thumbnail_size" android:layout_height="@dimen/bubble_circle_view_thumbnail_size" android:scaleType="centerCrop" />
+                    <ViewStub android:layout_gravity="center" android:id="@id/thumbnail_video_play_icon_stub" android:layout="@layout/bubble_ft_thumbnail_video_play_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/thumbnail_info_view" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/bubble_vitem_view_top_bottom_margin" android:layout_marginBottom="@dimen/bubble_vitem_view_top_bottom_margin" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/bubble_circle_data_view_start_end_margin" android:layout_marginEnd="@dimen/bubble_circle_data_view_start_end_margin">
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bubble_circle_view_second_line_text_size" android:textColor="@color/theme_bubble_file_info_text_color_received" android:ellipsize="end" android:id="@id/thumbnail_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bubble_max_width_circle_text" android:maxLines="1" />
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bubble_circle_view_expiry_text_size" android:textColor="@color/theme_bubble_file_info_text_color_received" android:ellipsize="end" android:id="@id/thumbnail_expiry_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bubble_max_width_circle_text" android:maxLines="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.samsung.android.messaging.ui.view.bubble.item.DoubleTabRelativeLayout>
+        <ViewStub android:layout_gravity="bottom" android:id="@id/list_image_cancel_fail_stub" android:layout="@layout/list_image_cancel_fail_layout" android:layout_width="@dimen/bubble_badge_cancel_size" android:layout_height="@dimen/bubble_badge_cancel_size" android:layout_marginStart="@dimen/bubble_indicator_margin" android:layout_marginEnd="@dimen/bubble_indicator_margin" />
+    </LinearLayout>
+    <ViewStub android:id="@id/bubble_suggestion_layout_stub" android:visibility="gone" android:layout="@layout/bubble_suggestion_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/bubble_info_bottom_view" />
+</com.samsung.android.messaging.ui.view.bubble.item.BubbleFtThumbnailView>

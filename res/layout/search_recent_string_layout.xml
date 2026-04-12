@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/recent_search" android:tag="layout/search_recent_string_layout_0" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.fragment.app.FragmentContainerView android:name="com.samsung.android.messaging.ui.view.search.SearchRecentFragment" android:id="@id/search_recent_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <androidx.fragment.app.FragmentContainerView android:name="com.samsung.android.messaging.ui.view.search.filter.SearchFilterFragment" android:id="@id/search_filter_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <androidx.fragment.app.FragmentContainerView android:name="com.samsung.android.messaging.ui.view.search.SearchPhotoAndVideosFragment" android:id="@id/search_photo_and_videos_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <androidx.fragment.app.FragmentContainerView android:name="com.samsung.android.messaging.ui.view.search.SearchLinksFragment" android:id="@id/search_links_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <androidx.fragment.app.FragmentContainerView android:name="com.samsung.android.messaging.ui.view.search.SearchOthersFragment" android:id="@id/search_others_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

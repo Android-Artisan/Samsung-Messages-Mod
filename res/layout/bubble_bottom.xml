@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bubble_bottom_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/component_frame_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/bottom_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/button_one" style="@style/bottom_layout_linearLayout_style">
+            <TextView android:id="@id/button_one_text" style="@style/bottom_layout_text_style" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/button_two" style="@style/bottom_layout_linearLayout_style">
+            <View style="@style/button_line_style" />
+            <TextView android:id="@id/button_two_text" style="@style/bottom_layout_text_style" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/button_three" style="@style/bottom_layout_linearLayout_style">
+            <View style="@style/button_line_style" />
+            <TextView android:id="@id/button_three_text" style="@style/bottom_layout_text_style" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content_area" android:paddingTop="@dimen/component_frame_padding_8dp" android:paddingBottom="@dimen/component_frame_padding_10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/component_frame_margin" android:paddingEnd="@dimen/component_frame_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/card_train_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/station_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@id/interval_view_station" style="@style/interval_view_style" />
+            <TextView android:id="@id/depart_station" android:layout_width="match_parent" android:includeFontPadding="false" android:layout_toStartOf="@id/interval_view_station" style="@style/announcement_card_main_text_style" />
+            <FrameLayout android:id="@id/arrive_station_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/interval_view_station">
+                <TextView android:gravity="end" android:layout_gravity="end|center" android:id="@id/arrive_station" android:includeFontPadding="false" app:drawableTint="@color/theme_announcement_card_select_icon_tint_color" style="@style/announcement_card_main_text_style" />
+            </FrameLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/time_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/station_container">
+            <View android:id="@id/interval_view_time" style="@style/interval_view_style" />
+            <TextView android:id="@id/depart_time" android:includeFontPadding="false" android:layout_toStartOf="@id/interval_view_time" style="@style/announcement_card_highlight_text_style" />
+            <TextView android:gravity="end" android:id="@id/arrive_time" android:includeFontPadding="false" android:layout_toEndOf="@id/interval_view_time" style="@style/announcement_card_highlight_text_style" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/date_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/time_container">
+            <View android:id="@id/interval_view_date" style="@style/interval_view_style" />
+            <TextView android:id="@id/depart_date" android:layout_width="match_parent" android:includeFontPadding="false" android:layout_toStartOf="@id/interval_view_date" style="@style/announcement_card_sub_text_style" />
+            <TextView android:gravity="end" android:id="@id/arrive_date" android:layout_width="match_parent" android:includeFontPadding="false" android:layout_toEndOf="@id/interval_view_date" style="@style/announcement_card_sub_text_style" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/interval_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:id="@id/trip_change" style="@style/trip_change_style" />
+            <View android:background="@drawable/more_trips_train" android:layout_width="@dimen/announcement_trip_width" android:layout_height="@dimen/announcement_trip_height" />
+            <TextView android:ellipsize="end" android:id="@id/trip_num" android:includeFontPadding="false" style="@style/announcement_card_main_text_style" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/select_arrive_station_container" android:layout_width="match_parent" android:layout_height="58.0dp" android:layout_centerVertical="true" android:layout_toEndOf="@id/interval_container" />
+    </RelativeLayout>
+</FrameLayout>

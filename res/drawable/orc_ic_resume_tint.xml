@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/orc_ic_resume" android:tint="@color/theme_bubble_badge_scheduled_src_color" android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

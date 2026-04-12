@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="24.0dp" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:paddingBottom="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_location_dialog_title" style="@style/Dialog.TitleText" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="14.0sp" android:textColor="@color/basic_token_sys_on_surface_container_high" android:paddingBottom="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_location_dialog_message" />
+    <CheckBox android:textSize="17.0sp" android:id="@id/checkbox_do_not_show_again" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dont_show_again" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:listChoiceBackgroundIndicator" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.samsung.android.messaging.ui.view.widget.avatar.AvatarImageView android:id="@id/bot_a2p_detail_avatar_image" android:layout_width="@dimen/avatar_size" android:layout_height="@dimen/avatar_size" />
+        <ImageView android:id="@id/chatbot_p2a_badge" android:background="@drawable/p2a_chatbot_indicator" android:layout_width="@dimen/bot_list_item_favorite_badge_size" android:layout_height="@dimen/bot_list_item_favorite_badge_size" android:layout_marginTop="28.0dp" android:layout_marginStart="28.0dp" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_a2p_detail_related_bot_title" android:textColor="@color/theme_list_main_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/bot_a2p_detail_related_bots_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/bot_a2p_detail_related_bot_title_margin" android:paddingVertical="@dimen/card_view_top_bottom_padding" />
+</LinearLayout>

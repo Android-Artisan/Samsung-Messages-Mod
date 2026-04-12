@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ម៉ោង</item>
+        <item>6 ម៉ោង</item>
+        <item>24 ម៉ោង</item>
+        <item>2 ថ្ងៃ</item>
+        <item>លំនាំ​ដើម​បណ្ដាញ</item>
+        <item>អតិបរមា</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>ដើម</item>
+        <item>ខ្ពស់</item>
+        <item>មធ្យម</item>
+        <item>ទាប</item>
+        <item>សួរ​ជានិច្ច</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>ដើម</item>
+        <item>គុណភាព​ខ្ពស់</item>
+        <item>គុណភាព​ធម្មតា</item>
+        <item>រីសូលូសិន​ទាប</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>ប៉ុស្តិ៍​ទាំង​អស់</item>
+        <item>ប៉ុស្តិ៍​ខ្ញុំ</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>ស្វ័យប្រវត្តិ</item>
+        <item>អត្ថបទ​ឬ​ពហុព័ត៌មាន</item>
+        <item>ឆាត</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>ស្វ័យប្រវត្តិ</item>
+        <item>អត្ថបទ​ឬ​ពហុព័ត៌មាន</item>
+        <item>សារ​ឆាត RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ខ្ទប់</item>
+        <item>សួរ​សិន</item>
+        <item>អនុញ្ញាត</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ជានិច្ច</item>
+        <item>សួរ</item>
+        <item>កុំឲ្យសោះ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>អក្សរក្រម GSM</item>
+        <item>យូនីកូដ</item>
+        <item>ស្វ័យ​ប្រវត្តិ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>ផ្ញើ​ម្ដងទៀត​ជា​សារ​អត្ថបទ​ឬ​ពហុព័ត៌មាន</item>
+        <item>កុំ​ផ្ញើ​ម្ដងទៀត</item>
+        <item>សួរ​មុនពេល​ផ្ញើ​ឡើងវិញ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>ប្រើ​សារ​អត្ថបទ​ឬ​ពហុព័ត៌មាន</item>
+        <item>មិន​ផ្ញើ​ម្ដងទៀត</item>
+        <item>សួរ​ជានិច្ច</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>ច្បាប់​ដើម</item>
+        <item>លំនាំដើម​បណ្ដាញ</item>
+        <item>សួរ​ជានិច្ច</item>
+    </string-array>
+</resources>

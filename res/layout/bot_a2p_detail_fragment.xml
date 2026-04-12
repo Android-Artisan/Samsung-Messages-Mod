@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bot_detail_contents_main_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.bot.detail.fragment.FloatingHeaderScrollView android:id="@id/stick_header_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/theme_sub_header_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_main_container" android:background="@drawable/bot_detail_round_edge_background" android:paddingTop="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bot_a2p_detail_body_padding" android:paddingEnd="@dimen/bot_a2p_detail_body_padding">
+                    <include layout="@layout/bot_a2p_detail_content_button_list" />
+                    <include layout="@layout/bot_a2p_detail_content_general" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_tab_wrapper" android:background="@color/theme_drawer_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bot_a2p_detail_body_padding" android:paddingEnd="@dimen/bot_a2p_detail_body_padding">
+                    <com.google.android.material.tabs.TabLayout android:id="@id/bot_detail_tab_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.google.android.material.tabs.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bot_detail_tab_brand_feed" />
+                        <com.google.android.material.tabs.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bot_detail_tab_brand_info" />
+                    </com.google.android.material.tabs.TabLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/bot_feed_tab_container" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <WebView android:id="@id/bot_feed_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/bot_info_tab_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bot_a2p_detail_body_padding" android:paddingEnd="@dimen/bot_a2p_detail_body_padding">
+                    <include layout="@layout/bot_a2p_detail_content_related_bots" />
+                    <include layout="@layout/bot_a2p_detail_content_about_bot" />
+                    <include layout="@layout/bot_a2p_detail_content_suggest" />
+                </LinearLayout>
+            </LinearLayout>
+            <include android:id="@id/bot_detail_content_tnc_container" layout="@layout/bot_detail_content_tnc" />
+        </LinearLayout>
+    </com.samsung.android.messaging.ui.view.bot.detail.fragment.FloatingHeaderScrollView>
+</FrameLayout>

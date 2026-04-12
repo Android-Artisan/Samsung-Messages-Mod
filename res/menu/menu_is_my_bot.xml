@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/add_to_my_bot" android:title="@string/add_to_my_chatbot" android:contentDescription="@string/add_to_my_chatbot" />
+    <item android:id="@id/remove_from_my_bot" android:title="@string/remove_from_my_chatbot" android:contentDescription="@string/remove_from_my_chatbot" />
+</menu>

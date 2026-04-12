@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">"Can't recall message. Messages can only be recalled within %d minutes of being sent."</item>
+        <item quantity="one">"Can't recall message. Messages can only be recalled within %d minute of being sent."</item>
+        <item quantity="two">"Can't recall message. Messages can only be recalled within %d minutes of being sent."</item>
+        <item quantity="few">"Can't recall message. Messages can only be recalled within %d minutes of being sent."</item>
+        <item quantity="many">"Can't recall message. Messages can only be recalled within %d minutes of being sent."</item>
+        <item quantity="other">"Can't recall message. Messages can only be recalled within %d minutes of being sent."</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">Also leave %d group chats</item>
+        <item quantity="one">Also leave %d group chat</item>
+        <item quantity="two">Also leave %d group chats</item>
+        <item quantity="few">Also leave %d group chats</item>
+        <item quantity="many">Also leave %d group chats</item>
+        <item quantity="other">Also leave %d group chats</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">Also leave %d group conversations</item>
+        <item quantity="one">Also leave %d group conversation</item>
+        <item quantity="two">Also leave %d group conversations</item>
+        <item quantity="few">Also leave %d group conversations</item>
+        <item quantity="many">Also leave %d group conversations</item>
+        <item quantity="other">Also leave %d group conversations</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">Delete %d emoticon packs?</item>
+        <item quantity="one">Delete %d emoticon pack?</item>
+        <item quantity="two">Delete %d emoticon packs?</item>
+        <item quantity="few">Delete %d emoticon packs?</item>
+        <item quantity="many">Delete %d emoticon packs?</item>
+        <item quantity="other">Delete %d emoticon packs?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">Move %d conversations to the Trash?</item>
+        <item quantity="one">Move %d conversation to the Trash?</item>
+        <item quantity="two">Move %d conversations to the Trash?</item>
+        <item quantity="few">Move %d conversations to the Trash?</item>
+        <item quantity="many">Move %d conversations to the Trash?</item>
+        <item quantity="other">Move %d conversations to the Trash?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">Messages in the Trash will be permanently deleted after %d days.</item>
+        <item quantity="one">Messages in the Trash will be permanently deleted after %d day.</item>
+        <item quantity="two">Messages in the Trash will be permanently deleted after %d days.</item>
+        <item quantity="few">Messages in the Trash will be permanently deleted after %d days.</item>
+        <item quantity="many">Messages in the Trash will be permanently deleted after %d days.</item>
+        <item quantity="other">Messages in the Trash will be permanently deleted after %d days.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">"Deleted messages will stay in the Trash for %d days before they're deleted forever."</item>
+        <item quantity="one">"Deleted messages will stay in the Trash for %d day before they're deleted forever."</item>
+        <item quantity="two">"Deleted messages will stay in the Trash for %d days before they're deleted forever."</item>
+        <item quantity="few">"Deleted messages will stay in the Trash for %d days before they're deleted forever."</item>
+        <item quantity="many">"Deleted messages will stay in the Trash for %d days before they're deleted forever."</item>
+        <item quantity="other">"Deleted messages will stay in the Trash for %d days before they're deleted forever."</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">Move %d messages to the Trash?</item>
+        <item quantity="one">Move %d message to the Trash?</item>
+        <item quantity="two">Move %d messages to the Trash?</item>
+        <item quantity="few">Move %d messages to the Trash?</item>
+        <item quantity="many">Move %d messages to the Trash?</item>
+        <item quantity="other">Move %d messages to the Trash?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">"Today's a special day (%1$s and %2$d other events). Send them something?"</item>
+        <item quantity="one">"Today's a special day (%1$s and %2$d other event). Send them something?"</item>
+        <item quantity="two">"Today's a special day (%1$s and %2$d other events). Send them something?"</item>
+        <item quantity="few">"Today's a special day (%1$s and %2$d other events). Send them something?"</item>
+        <item quantity="many">"Today's a special day (%1$s and %2$d other events). Send them something?"</item>
+        <item quantity="other">"Today's a special day (%1$s and %2$d other events). Send them something?"</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">"It's %1$s and %2$d other contacts' birthday! Send something special?"</item>
+        <item quantity="one">"It's %1$s and %2$d other contact's birthday! Send something special?"</item>
+        <item quantity="two">"It's %1$s and %2$d other contacts' birthday! Send something special?"</item>
+        <item quantity="few">"It's %1$s and %2$d other contacts' birthday! Send something special?"</item>
+        <item quantity="many">"It's %1$s and %2$d other contacts' birthday! Send something special?"</item>
+        <item quantity="other">"It's %1$s and %2$d other contacts' birthday! Send something special?"</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">%d messages blocked in last 30 days</item>
+        <item quantity="one">%d message blocked in last 30 days</item>
+        <item quantity="two">%d messages blocked in last 30 days</item>
+        <item quantity="few">%d messages blocked in last 30 days</item>
+        <item quantity="many">%d messages blocked in last 30 days</item>
+        <item quantity="other">%d messages blocked in last 30 days</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="two">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">"Can't block %d email addresses because they aren't valid."</item>
+        <item quantity="one">"Can't block %d email address because it isn't valid."</item>
+        <item quantity="two">"Can't block %d email addresses because they aren't valid."</item>
+        <item quantity="few">"Can't block %d email addresses because they aren't valid."</item>
+        <item quantity="many">"Can't block %d email addresses because they aren't valid."</item>
+        <item quantity="other">"Can't block %d email addresses because they aren't valid."</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">"Can't block %d phone numbers because they aren't valid."</item>
+        <item quantity="one">"Can't block %d phone number because it isn't valid."</item>
+        <item quantity="two">"Can't block %d phone numbers because they aren't valid."</item>
+        <item quantity="few">"Can't block %d phone numbers because they aren't valid."</item>
+        <item quantity="many">"Can't block %d phone numbers because they aren't valid."</item>
+        <item quantity="other">"Can't block %d phone numbers because they aren't valid."</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">"Can't block %d senders because their information isn't valid."</item>
+        <item quantity="one">"Can't block %d sender because their information isn't valid."</item>
+        <item quantity="two">"Can't block %d senders because their information isn't valid."</item>
+        <item quantity="few">"Can't block %d senders because their information isn't valid."</item>
+        <item quantity="many">"Can't block %d senders because their information isn't valid."</item>
+        <item quantity="other">"Can't block %d senders because their information isn't valid."</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">"Can't select more than %d contacts."</item>
+        <item quantity="one">"Can't select more than %d contact."</item>
+        <item quantity="two">"Can't select more than %d contacts."</item>
+        <item quantity="few">"Can't select more than %d contacts."</item>
+        <item quantity="many">"Can't select more than %d contacts."</item>
+        <item quantity="other">"Can't select more than %d contacts."</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">%1$d %2$s cards</item>
+        <item quantity="one">%1$d %2$s card</item>
+        <item quantity="two">%1$d %2$s cards</item>
+        <item quantity="few">%1$d %2$s cards</item>
+        <item quantity="many">%1$d %2$s cards</item>
+        <item quantity="other">%1$d %2$s cards</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">%d chat contacts</item>
+        <item quantity="one">%d chat contact</item>
+        <item quantity="two">%d chat contacts</item>
+        <item quantity="few">%d chat contacts</item>
+        <item quantity="many">%d chat contacts</item>
+        <item quantity="other">%d chat contacts</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">%d Chatting+ contacts</item>
+        <item quantity="one">%d Chatting+ contact</item>
+        <item quantity="two">%d Chatting+ contacts</item>
+        <item quantity="few">%d Chatting+ contacts</item>
+        <item quantity="many">%d Chatting+ contacts</item>
+        <item quantity="other">%d Chatting+ contacts</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">"If you deregister from Chatting+, you won't be able to create or join one-on-one and group chats, get confirmation that your messages have been read, or share large files. Are you sure you want to deregister?
+
+You'll also have to wait %d minutes before registering again."</item>
+        <item quantity="one">"If you deregister from Chatting+, you won't be able to create or join one-on-one and group chats, get confirmation that your messages have been read, or share large files. Are you sure you want to deregister?
+
+You'll also have to wait %d minute before registering again."</item>
+        <item quantity="two">"If you deregister from Chatting+, you won't be able to create or join one-on-one and group chats, get confirmation that your messages have been read, or share large files. Are you sure you want to deregister?
+
+You'll also have to wait %d minutes before registering again."</item>
+        <item quantity="few">"If you deregister from Chatting+, you won't be able to create or join one-on-one and group chats, get confirmation that your messages have been read, or share large files. Are you sure you want to deregister?
+
+You'll also have to wait %d minutes before registering again."</item>
+        <item quantity="many">"If you deregister from Chatting+, you won't be able to create or join one-on-one and group chats, get confirmation that your messages have been read, or share large files. Are you sure you want to deregister?
+
+You'll also have to wait %d minutes before registering again."</item>
+        <item quantity="other">"If you deregister from Chatting+, you won't be able to create or join one-on-one and group chats, get confirmation that your messages have been read, or share large files. Are you sure you want to deregister?
+
+You'll also have to wait %d minutes before registering again."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">%d chatbots</item>
+        <item quantity="one">%d chatbot</item>
+        <item quantity="two">%d chatbots</item>
+        <item quantity="few">%d chatbots</item>
+        <item quantity="many">%d chatbots</item>
+        <item quantity="other">%d chatbots</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">%d contacts</item>
+        <item quantity="one">%d contact</item>
+        <item quantity="two">%d contacts</item>
+        <item quantity="few">%d contacts</item>
+        <item quantity="many">%d contacts</item>
+        <item quantity="other">%d contacts</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="two">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">Expires in %d days</item>
+        <item quantity="one">Expires in %d day</item>
+        <item quantity="two">Expires in %d days</item>
+        <item quantity="few">Expires in %d days</item>
+        <item quantity="many">Expires in %d days</item>
+        <item quantity="other">Expires in %d days</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">%d coupons expire soon</item>
+        <item quantity="one">%d coupon expires soon</item>
+        <item quantity="two">%d coupons expire soon</item>
+        <item quantity="few">%d coupons expire soon</item>
+        <item quantity="many">%d coupons expire soon</item>
+        <item quantity="other">%d coupons expire soon</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">Your %1$s coupon expires in %2$d days.</item>
+        <item quantity="one">Your %1$s coupon expires in %2$d day.</item>
+        <item quantity="two">Your %1$s coupon expires in %2$d days.</item>
+        <item quantity="few">Your %1$s coupon expires in %2$d days.</item>
+        <item quantity="many">Your %1$s coupon expires in %2$d days.</item>
+        <item quantity="other">Your %1$s coupon expires in %2$d days.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">Your coupon expires in %d days.</item>
+        <item quantity="one">Your coupon expires in %d day.</item>
+        <item quantity="two">Your coupon expires in %d days.</item>
+        <item quantity="few">Your coupon expires in %d days.</item>
+        <item quantity="many">Your coupon expires in %d days.</item>
+        <item quantity="other">Your coupon expires in %d days.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">Delete %d conversation?</item>
+        <item quantity="other">Delete %d conversations?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">Permanently delete %d conversations?</item>
+        <item quantity="one">Permanently delete %d conversation?</item>
+        <item quantity="two">Permanently delete %d conversations?</item>
+        <item quantity="few">Permanently delete %d conversations?</item>
+        <item quantity="many">Permanently delete %d conversations?</item>
+        <item quantity="other">Permanently delete %d conversations?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">Delete %d message?</item>
+        <item quantity="other">Delete %d messages?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">Permanently delete %d messages?</item>
+        <item quantity="one">Permanently delete %d message?</item>
+        <item quantity="two">Permanently delete %d messages?</item>
+        <item quantity="few">Permanently delete %d messages?</item>
+        <item quantity="many">Permanently delete %d messages?</item>
+        <item quantity="other">Permanently delete %d messages?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">%d delivery messages</item>
+        <item quantity="one">%d delivery message</item>
+        <item quantity="two">%d delivery messages</item>
+        <item quantity="few">%d delivery messages</item>
+        <item quantity="many">%d delivery messages</item>
+        <item quantity="other">%d delivery messages</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">Dismiss %d cards?</item>
+        <item quantity="one">Dismiss %d card?</item>
+        <item quantity="two">Dismiss %d cards?</item>
+        <item quantity="few">Dismiss %d cards?</item>
+        <item quantity="many">Dismiss %d cards?</item>
+        <item quantity="other">Dismiss %d cards?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">Only %1$d category tabs can be shown on the main screen. The rest are hidden. Select the %2$s category if you want quick access to it from the main screen.</item>
+        <item quantity="one">Only %1$d category tab can be shown on the main screen. The rest are hidden. Select the %2$s category if you want quick access to it from the main screen.</item>
+        <item quantity="two">Only %1$d category tabs can be shown on the main screen. The rest are hidden. Select the %2$s category if you want quick access to it from the main screen.</item>
+        <item quantity="few">Only %1$d category tabs can be shown on the main screen. The rest are hidden. Select the %2$s category if you want quick access to it from the main screen.</item>
+        <item quantity="many">Only %1$d category tabs can be shown on the main screen. The rest are hidden. Select the %2$s category if you want quick access to it from the main screen.</item>
+        <item quantity="other">Only %1$d category tabs can be shown on the main screen. The rest are hidden. Select the %2$s category if you want quick access to it from the main screen.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">%d minutes</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="two">%d minutes</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutes</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">%d seconds</item>
+        <item quantity="one">%d second</item>
+        <item quantity="two">%d seconds</item>
+        <item quantity="few">%d seconds</item>
+        <item quantity="many">%d seconds</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">%d files saved to your phone.</item>
+        <item quantity="one">%d file saved to your phone.</item>
+        <item quantity="two">%d files saved to your phone.</item>
+        <item quantity="few">%d files saved to your phone.</item>
+        <item quantity="many">%d files saved to your phone.</item>
+        <item quantity="other">%d files saved to your phone.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">%d files saved to your tablet.</item>
+        <item quantity="one">%d file saved to your tablet.</item>
+        <item quantity="two">%d files saved to your tablet.</item>
+        <item quantity="few">%d files saved to your tablet.</item>
+        <item quantity="many">%d files saved to your tablet.</item>
+        <item quantity="other">%d files saved to your tablet.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">%d transactions today</item>
+        <item quantity="one">%d transaction today</item>
+        <item quantity="two">%d transactions today</item>
+        <item quantity="few">%d transactions today</item>
+        <item quantity="many">%d transactions today</item>
+        <item quantity="other">%d transactions today</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">%1$s and %2$d unknown numbers</item>
+        <item quantity="one">%1$s and %2$d unknown number</item>
+        <item quantity="two">%1$s and %2$d unknown numbers</item>
+        <item quantity="few">%1$s and %2$d unknown numbers</item>
+        <item quantity="many">%1$s and %2$d unknown numbers</item>
+        <item quantity="other">%1$s and %2$d unknown numbers</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">%d unknown numbers</item>
+        <item quantity="one">%d unknown number</item>
+        <item quantity="two">%d unknown numbers</item>
+        <item quantity="few">%d unknown numbers</item>
+        <item quantity="many">%d unknown numbers</item>
+        <item quantity="other">%d unknown numbers</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">"%1$s can't join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipients instead."</item>
+        <item quantity="one">"%1$s can't join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipient instead."</item>
+        <item quantity="two">"%1$s can't join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipients instead."</item>
+        <item quantity="few">"%1$s can't join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipients instead."</item>
+        <item quantity="many">"%1$s can't join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipients instead."</item>
+        <item quantity="other">"%1$s can't join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipients instead."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">"One or more of the included recipients aren't Advanced Messaging capable, so your group is limited to %d members.
+
+To continue, select only Advanced Messaging capable members. They're marked with a blue dot icon."</item>
+        <item quantity="one">"One or more of the included recipients aren't Advanced Messaging capable, so your group is limited to %d member.
+
+To continue, select only Advanced Messaging capable members. They're marked with a blue dot icon."</item>
+        <item quantity="two">"One or more of the included recipients aren't Advanced Messaging capable, so your group is limited to %d members.
+
+To continue, select only Advanced Messaging capable members. They're marked with a blue dot icon."</item>
+        <item quantity="few">"One or more of the included recipients aren't Advanced Messaging capable, so your group is limited to %d members.
+
+To continue, select only Advanced Messaging capable members. They're marked with a blue dot icon."</item>
+        <item quantity="many">"One or more of the included recipients aren't Advanced Messaging capable, so your group is limited to %d members.
+
+To continue, select only Advanced Messaging capable members. They're marked with a blue dot icon."</item>
+        <item quantity="other">"One or more of the included recipients aren't Advanced Messaging capable, so your group is limited to %d members.
+
+To continue, select only Advanced Messaging capable members. They're marked with a blue dot icon."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">To start a group chat, remove the last selected recipient. If you want to include the last recipient, remove %d recipients to send a message.</item>
+        <item quantity="one">To start a group chat, remove the last selected recipient. If you want to include the last recipient, remove %d recipient to send a message.</item>
+        <item quantity="two">To start a group chat, remove the last selected recipient. If you want to include the last recipient, remove %d recipients to send a message.</item>
+        <item quantity="few">To start a group chat, remove the last selected recipient. If you want to include the last recipient, remove %d recipients to send a message.</item>
+        <item quantity="many">To start a group chat, remove the last selected recipient. If you want to include the last recipient, remove %d recipients to send a message.</item>
+        <item quantity="other">To start a group chat, remove the last selected recipient. If you want to include the last recipient, remove %d recipients to send a message.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">%d images saved to your tablet.</item>
+        <item quantity="one">%d image saved to your tablet.</item>
+        <item quantity="two">%d images saved to your tablet.</item>
+        <item quantity="few">%d images saved to your tablet.</item>
+        <item quantity="many">%d images saved to your tablet.</item>
+        <item quantity="other">%d images saved to your tablet.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">%d images saved to your phone.</item>
+        <item quantity="one">%d image saved to your phone.</item>
+        <item quantity="two">%d images saved to your phone.</item>
+        <item quantity="few">%d images saved to your phone.</item>
+        <item quantity="many">%d images saved to your phone.</item>
+        <item quantity="other">%d images saved to your phone.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">1 image and %d videos saved to your phone.</item>
+        <item quantity="one">1 image and %d video saved to your phone.</item>
+        <item quantity="two">1 image and %d videos saved to your phone.</item>
+        <item quantity="few">1 image and %d videos saved to your phone.</item>
+        <item quantity="many">1 image and %d videos saved to your phone.</item>
+        <item quantity="other">1 image and %d videos saved to your phone.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">%d images and 1 video saved to your phone.</item>
+        <item quantity="one">%d image and 1 video saved to your phone.</item>
+        <item quantity="two">%d images and 1 video saved to your phone.</item>
+        <item quantity="few">%d images and 1 video saved to your phone.</item>
+        <item quantity="many">%d images and 1 video saved to your phone.</item>
+        <item quantity="other">%d images and 1 video saved to your phone.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">%1$s and %2$d other people joined</item>
+        <item quantity="one">%1$s and %2$d other person joined</item>
+        <item quantity="two">%1$s and %2$d other people joined</item>
+        <item quantity="few">%1$s and %2$d other people joined</item>
+        <item quantity="many">%1$s and %2$d other people joined</item>
+        <item quantity="other">%1$s and %2$d other people joined</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">%d contacts</item>
+        <item quantity="one">%d contact</item>
+        <item quantity="two">%d contacts</item>
+        <item quantity="few">%d contacts</item>
+        <item quantity="many">%d contacts</item>
+        <item quantity="other">%d contacts</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">"Can't select more than %d people."</item>
+        <item quantity="one">"Can't select more than %d person."</item>
+        <item quantity="two">"Can't select more than %d people."</item>
+        <item quantity="few">"Can't select more than %d people."</item>
+        <item quantity="many">"Can't select more than %d people."</item>
+        <item quantity="other">"Can't select more than %d people."</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">When you tap the Message suggestions button, the last %d messages in your conversation will be processed online. AI-generated suggestions may be inaccurate or contain inappropriate content.</item>
+        <item quantity="one">When you tap the Message suggestions button, the last %d message in your conversation will be processed online. AI-generated suggestions may be inaccurate or contain inappropriate content.</item>
+        <item quantity="two">When you tap the Message suggestions button, the last %d messages in your conversation will be processed online. AI-generated suggestions may be inaccurate or contain inappropriate content.</item>
+        <item quantity="few">When you tap the Message suggestions button, the last %d messages in your conversation will be processed online. AI-generated suggestions may be inaccurate or contain inappropriate content.</item>
+        <item quantity="many">When you tap the Message suggestions button, the last %d messages in your conversation will be processed online. AI-generated suggestions may be inaccurate or contain inappropriate content.</item>
+        <item quantity="other">When you tap the Message suggestions button, the last %d messages in your conversation will be processed online. AI-generated suggestions may be inaccurate or contain inappropriate content.</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">%d files shared using Quick Share</item>
+        <item quantity="one">%d file shared using Quick Share</item>
+        <item quantity="two">%d files shared using Quick Share</item>
+        <item quantity="few">%d files shared using Quick Share</item>
+        <item quantity="many">%d files shared using Quick Share</item>
+        <item quantity="other">%d files shared using Quick Share</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">%d new useful cards</item>
+        <item quantity="one">%d new useful card</item>
+        <item quantity="two">%d new useful cards</item>
+        <item quantity="few">%d new useful cards</item>
+        <item quantity="many">%d new useful cards</item>
+        <item quantity="other">%d new useful cards</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">%d conversations</item>
+        <item quantity="one">%d conversation</item>
+        <item quantity="two">%d conversations</item>
+        <item quantity="few">%d conversations</item>
+        <item quantity="many">%d conversations</item>
+        <item quantity="other">%d conversations</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d message</item>
+        <item quantity="other">%d messages</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">Keep deleted messages for %d days.</item>
+        <item quantity="one">Keep deleted messages for %d day.</item>
+        <item quantity="two">Keep deleted messages for %d days.</item>
+        <item quantity="few">Keep deleted messages for %d days.</item>
+        <item quantity="many">Keep deleted messages for %d days.</item>
+        <item quantity="other">Keep deleted messages for %d days.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">You can refresh again in %d minutes.</item>
+        <item quantity="one">You can refresh again in %d minute.</item>
+        <item quantity="two">You can refresh again in %d minutes.</item>
+        <item quantity="few">You can refresh again in %d minutes.</item>
+        <item quantity="many">You can refresh again in %d minutes.</item>
+        <item quantity="other">You can refresh again in %d minutes.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">Send %d messages now?</item>
+        <item quantity="one">Send %d message now?</item>
+        <item quantity="two">Send %d messages now?</item>
+        <item quantity="few">Send %d messages now?</item>
+        <item quantity="many">Send %d messages now?</item>
+        <item quantity="other">Send %d messages now?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">Your information is being updated. Wait at least %d minutes, then try again.</item>
+        <item quantity="one">Your information is being updated. Wait at least %d minute, then try again.</item>
+        <item quantity="two">Your information is being updated. Wait at least %d minutes, then try again.</item>
+        <item quantity="few">Your information is being updated. Wait at least %d minutes, then try again.</item>
+        <item quantity="many">Your information is being updated. Wait at least %d minutes, then try again.</item>
+        <item quantity="other">Your information is being updated. Wait at least %d minutes, then try again.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">"Can't pin more than %d conversations."</item>
+        <item quantity="one">"Can't pin more than %d conversation."</item>
+        <item quantity="two">"Can't pin more than %d conversations."</item>
+        <item quantity="few">"Can't pin more than %d conversations."</item>
+        <item quantity="many">"Can't pin more than %d conversations."</item>
+        <item quantity="other">"Can't pin more than %d conversations."</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s and %2$d other</item>
+        <item quantity="other">%1$s and %2$d others</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">Remove %d cards?</item>
+        <item quantity="one">Remove %d card?</item>
+        <item quantity="two">Remove %d cards?</item>
+        <item quantity="few">Remove %d cards?</item>
+        <item quantity="many">Remove %d cards?</item>
+        <item quantity="other">Remove %d cards?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">Enter a reason (up to %d characters)</item>
+        <item quantity="one">Enter a reason (up to %d character)</item>
+        <item quantity="two">Enter a reason (up to %d characters)</item>
+        <item quantity="few">Enter a reason (up to %d characters)</item>
+        <item quantity="many">Enter a reason (up to %d characters)</item>
+        <item quantity="other">Enter a reason (up to %d characters)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">%d messages scheduled</item>
+        <item quantity="one">%d message scheduled</item>
+        <item quantity="two">%d messages scheduled</item>
+        <item quantity="few">%d messages scheduled</item>
+        <item quantity="many">%d messages scheduled</item>
+        <item quantity="other">%d messages scheduled</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">Select a time at least %d minutes from now.</item>
+        <item quantity="one">Select a time at least %d minute from now.</item>
+        <item quantity="two">Select a time at least %d minutes from now.</item>
+        <item quantity="few">Select a time at least %d minutes from now.</item>
+        <item quantity="many">Select a time at least %d minutes from now.</item>
+        <item quantity="other">Select a time at least %d minutes from now.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">%d found</item>
+        <item quantity="one">%d found</item>
+        <item quantity="two">%d found</item>
+        <item quantity="few">%d found</item>
+        <item quantity="many">%d found</item>
+        <item quantity="other">%d found</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">Move 1 conversation and %d other messages to the Trash?</item>
+        <item quantity="one">Move 1 conversation and %d other message to the Trash?</item>
+        <item quantity="two">Move 1 conversation and %d other messages to the Trash?</item>
+        <item quantity="few">Move 1 conversation and %d other messages to the Trash?</item>
+        <item quantity="many">Move 1 conversation and %d other messages to the Trash?</item>
+        <item quantity="other">Move 1 conversation and %d other messages to the Trash?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">Move %d conversations and 1 other message to the Trash?</item>
+        <item quantity="one">Move %d conversation and 1 other message to the Trash?</item>
+        <item quantity="two">Move %d conversations and 1 other message to the Trash?</item>
+        <item quantity="few">Move %d conversations and 1 other message to the Trash?</item>
+        <item quantity="many">Move %d conversations and 1 other message to the Trash?</item>
+        <item quantity="other">Move %d conversations and 1 other message to the Trash?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">"Select up to %d people.
+(Showing people who are using their phone numbers in this conversation.)"</item>
+        <item quantity="one">"Select up to %d person.
+(Showing people who are using their phone numbers in this conversation.)"</item>
+        <item quantity="two">"Select up to %d people.
+(Showing people who are using their phone numbers in this conversation.)"</item>
+        <item quantity="few">"Select up to %d people.
+(Showing people who are using their phone numbers in this conversation.)"</item>
+        <item quantity="many">"Select up to %d people.
+(Showing people who are using their phone numbers in this conversation.)"</item>
+        <item quantity="other">"Select up to %d people.
+(Showing people who are using their phone numbers in this conversation.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">Sleep time: %d hours</item>
+        <item quantity="one">Sleep time: %d hour</item>
+        <item quantity="two">Sleep time: %d hours</item>
+        <item quantity="few">Sleep time: %d hours</item>
+        <item quantity="many">Sleep time: %d hours</item>
+        <item quantity="other">Sleep time: %d hours</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">Sleep time: %d minutes</item>
+        <item quantity="one">Sleep time: %d minute</item>
+        <item quantity="two">Sleep time: %d minutes</item>
+        <item quantity="few">Sleep time: %d minutes</item>
+        <item quantity="many">Sleep time: %d minutes</item>
+        <item quantity="other">Sleep time: %d minutes</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">%d hours remaining</item>
+        <item quantity="one">%d hour remaining</item>
+        <item quantity="two">%d hours remaining</item>
+        <item quantity="few">%d hours remaining</item>
+        <item quantity="many">%d hours remaining</item>
+        <item quantity="other">%d hours remaining</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">%d minutes remaining</item>
+        <item quantity="one">%d minute remaining</item>
+        <item quantity="two">%d minutes remaining</item>
+        <item quantity="few">%d minutes remaining</item>
+        <item quantity="many">%d minutes remaining</item>
+        <item quantity="other">%d minutes remaining</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">%d seconds remaining</item>
+        <item quantity="one">%d second remaining</item>
+        <item quantity="two">%d seconds remaining</item>
+        <item quantity="few">%d seconds remaining</item>
+        <item quantity="many">%d seconds remaining</item>
+        <item quantity="other">%d seconds remaining</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">Message copied from SIM card.</item>
+        <item quantity="other">Messages copied from SIM card.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">%d categories</item>
+        <item quantity="one">%d category</item>
+        <item quantity="two">%d categories</item>
+        <item quantity="few">%d categories</item>
+        <item quantity="many">%d categories</item>
+        <item quantity="other">%d categories</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">You selected more than %d recipients, which is the limit for text messages. Start a group chat to message them all at once.</item>
+        <item quantity="one">You selected more than %d recipient, which is the limit for text messages. Start a group chat to message them all at once.</item>
+        <item quantity="two">You selected more than %d recipients, which is the limit for text messages. Start a group chat to message them all at once.</item>
+        <item quantity="few">You selected more than %d recipients, which is the limit for text messages. Start a group chat to message them all at once.</item>
+        <item quantity="many">You selected more than %d recipients, which is the limit for text messages. Start a group chat to message them all at once.</item>
+        <item quantity="other">You selected more than %d recipients, which is the limit for text messages. Start a group chat to message them all at once.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">%d total messages</item>
+        <item quantity="one">%d total message</item>
+        <item quantity="two">%d total messages</item>
+        <item quantity="few">%d total messages</item>
+        <item quantity="many">%d total messages</item>
+        <item quantity="other">%d total messages</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">%d messages automatically unblocked because the senders are no longer considered malicious.</item>
+        <item quantity="one">%d message automatically unblocked because the senders are no longer considered malicious.</item>
+        <item quantity="two">%d messages automatically unblocked because the senders are no longer considered malicious.</item>
+        <item quantity="few">%d messages automatically unblocked because the senders are no longer considered malicious.</item>
+        <item quantity="many">%d messages automatically unblocked because the senders are no longer considered malicious.</item>
+        <item quantity="other">%d messages automatically unblocked because the senders are no longer considered malicious.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">from %1$s and %2$d other brands</item>
+        <item quantity="one">from %1$s and %2$d other brand</item>
+        <item quantity="two">from %1$s and %2$d other brands</item>
+        <item quantity="few">from %1$s and %2$d other brands</item>
+        <item quantity="many">from %1$s and %2$d other brands</item>
+        <item quantity="other">from %1$s and %2$d other brands</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">%d unread delivery messages</item>
+        <item quantity="one">%d unread delivery message</item>
+        <item quantity="two">%d unread delivery messages</item>
+        <item quantity="few">%d unread delivery messages</item>
+        <item quantity="many">%d unread delivery messages</item>
+        <item quantity="other">%d unread delivery messages</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">from %1$s and %2$d other contacts</item>
+        <item quantity="one">from %1$s and %2$d other contact</item>
+        <item quantity="two">from %1$s and %2$d other contacts</item>
+        <item quantity="few">from %1$s and %2$d other contacts</item>
+        <item quantity="many">from %1$s and %2$d other contacts</item>
+        <item quantity="other">from %1$s and %2$d other contacts</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">%1$d unread messages from %2$s</item>
+        <item quantity="one">%1$d unread message from %2$s</item>
+        <item quantity="two">%1$d unread messages from %2$s</item>
+        <item quantity="few">%1$d unread messages from %2$s</item>
+        <item quantity="many">%1$d unread messages from %2$s</item>
+        <item quantity="other">%1$d unread messages from %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">including some from %1$s and %2$d other brands</item>
+        <item quantity="one">including some from %1$s and %2$d other brand</item>
+        <item quantity="two">including some from %1$s and %2$d other brands</item>
+        <item quantity="few">including some from %1$s and %2$d other brands</item>
+        <item quantity="many">including some from %1$s and %2$d other brands</item>
+        <item quantity="other">including some from %1$s and %2$d other brands</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">including %d delivery messages</item>
+        <item quantity="one">including %d delivery message</item>
+        <item quantity="two">including %d delivery messages</item>
+        <item quantity="few">including %d delivery messages</item>
+        <item quantity="many">including %d delivery messages</item>
+        <item quantity="other">including %d delivery messages</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">including some from %1$s and %2$d other contacts</item>
+        <item quantity="one">including some from %1$s and %2$d other contact</item>
+        <item quantity="two">including some from %1$s and %2$d other contacts</item>
+        <item quantity="few">including some from %1$s and %2$d other contacts</item>
+        <item quantity="many">including some from %1$s and %2$d other contacts</item>
+        <item quantity="other">including some from %1$s and %2$d other contacts</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">%d unread messages</item>
+        <item quantity="one">%d unread message</item>
+        <item quantity="two">%d unread messages</item>
+        <item quantity="few">%d unread messages</item>
+        <item quantity="many">%d unread messages</item>
+        <item quantity="other">%d unread messages</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">%d unread messages</item>
+        <item quantity="one">%d unread message</item>
+        <item quantity="two">%d unread messages</item>
+        <item quantity="few">%d unread messages</item>
+        <item quantity="many">%d unread messages</item>
+        <item quantity="other">%d unread messages</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">%d upcoming alerts today</item>
+        <item quantity="one">%d upcoming alert today</item>
+        <item quantity="two">%d upcoming alerts today</item>
+        <item quantity="few">%d upcoming alerts today</item>
+        <item quantity="many">%d upcoming alerts today</item>
+        <item quantity="other">%d upcoming alerts today</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">%d videos saved to your phone.</item>
+        <item quantity="one">%d video saved to your phone.</item>
+        <item quantity="two">%d videos saved to your phone.</item>
+        <item quantity="few">%d videos saved to your phone.</item>
+        <item quantity="many">%d videos saved to your phone.</item>
+        <item quantity="other">%d videos saved to your phone.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">You got %1$s%2$d messages today about a delivery%3$s.</item>
+        <item quantity="one">You got %1$s%2$d message today about a delivery%3$s.</item>
+        <item quantity="two">You got %1$s%2$d messages today about a delivery%3$s.</item>
+        <item quantity="few">You got %1$s%2$d messages today about a delivery%3$s.</item>
+        <item quantity="many">You got %1$s%2$d messages today about a delivery%3$s.</item>
+        <item quantity="other">You got %1$s%2$d messages today about a delivery%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">You got %1$s%2$d messages today about deliveries%3$s.</item>
+        <item quantity="one">You got %1$s%2$d message today about deliveries%3$s.</item>
+        <item quantity="two">You got %1$s%2$d messages today about deliveries%3$s.</item>
+        <item quantity="few">You got %1$s%2$d messages today about deliveries%3$s.</item>
+        <item quantity="many">You got %1$s%2$d messages today about deliveries%3$s.</item>
+        <item quantity="other">You got %1$s%2$d messages today about deliveries%3$s.</item>
+    </plurals>
+</resources>

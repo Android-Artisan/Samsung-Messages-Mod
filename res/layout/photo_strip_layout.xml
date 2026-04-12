@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/photo_strip_layout_parent" android:layout_width="match_parent" android:layout_height="@dimen/photo_strip_view_out_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.viewer.photostrip.ExpandablePhotoStripView android:layout_gravity="center" android:id="@id/photo_strip_view" android:layout_width="match_parent" android:layout_height="@dimen/photo_strip_view_item_size" />
+    <com.samsung.android.messaging.ui.view.viewer.photostrip.PhotoFrameView android:layout_gravity="center" android:id="@id/photo_strip_center_frame" android:background="@drawable/photo_strip_frame" android:padding="@dimen/photo_strip_view_frame_padding" android:visibility="invisible" android:layout_width="@dimen/photo_strip_view_out_height" android:layout_height="@dimen/photo_strip_view_out_height" />
+    <RelativeLayout android:layout_gravity="center" android:id="@id/photo_strip_progress" android:visibility="visible" android:layout_width="@dimen/photo_strip_view_progress_max" android:layout_height="@dimen/photo_strip_view_frame_inner_height">
+        <LinearLayout android:orientation="horizontal" android:id="@id/photo_strip_progress_bar" android:background="@color/photostrip_progress_color" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

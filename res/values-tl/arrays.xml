@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 oras</item>
+        <item>6 na oras</item>
+        <item>24 oras</item>
+        <item>2 araw</item>
+        <item>Network default</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Orihinal</item>
+        <item>Mataas</item>
+        <item>Katamtaman</item>
+        <item>Mababa</item>
+        <item>Palaging tanungin</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Orihinal</item>
+        <item>Mataas ang kalidad</item>
+        <item>Normal na kalidad</item>
+        <item>Mababang resolution</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Lahat ng channel</item>
+        <item>Aking Channel</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Awtomatiko</item>
+        <item>Text o multimedia</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Awtomatiko</item>
+        <item>Text o multimedia</item>
+        <item>Mga RCS chat message</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>I-block</item>
+        <item>Magtanong muna</item>
+        <item>Payagan</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Palagi</item>
+        <item>Prompt</item>
+        <item>Hindi kailanman</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alpabeto ng GSM</item>
+        <item>Unicode</item>
+        <item>Awtomatiko</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Muling ipadala bilang text o multimedia message?</item>
+        <item>Huwag ipadala muli</item>
+        <item>Magtanong bago muling ipadala</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Gumamit ng mga text o multimedia message</item>
+        <item>Walang muling padala</item>
+        <item>Palaging tanungin</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Orihinal</item>
+        <item>Default na network</item>
+        <item>Laging itanong</item>
+    </string-array>
+</resources>

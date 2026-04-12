@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/finance_container" android:tag="finance_layout" android:background="@color/theme_control_area_bg_color_ghost_rounded" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="0.0dp" app:expanded="true">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed" style="@style/CustomCollapsingToolbarStyleGhost">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/AppTheme.ActionBar.Ghost" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height" app:layout_collapseMode="pin" app:navigationContentDescription="@string/navigate_up" app:navigationIcon="@drawable/actionbar_back_key" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/due_card_container" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout="@layout/alive_sms_finance_payment_due_card_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" />
+                <FrameLayout android:id="@id/spinner_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/alive_useful_card_spinner_margin_top" android:layout_marginStart="@dimen/alive_useful_card_spinner_margin_start" android:layout_marginEnd="@dimen/alive_useful_card_spinner_margin_end">
+                    <Spinner android:layout_gravity="start" android:id="@id/finance_spinner" android:layout_width="wrap_content" android:layout_height="match_parent" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/finance_disclaimer_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/alive_useful_card_finance_disclaimer_margin_top" android:layout_marginBottom="@dimen/alive_useful_card_finance_disclaimer_margin_bottom" android:layout_marginStart="@dimen/alive_useful_card_finance_disclaimer_margin_start" android:layout_marginEnd="@dimen/alive_useful_card_finance_disclaimer_margin_end">
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/alive_useful_card_item_size5" android:textColor="@color/theme_useful_card_v2_finance_disclaimer_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/finance_message_presence_disclaimer_text" />
+                </FrameLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout android:orientation="vertical" android:id="@id/round_corner_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" app:ghost="true" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:roundMode="15">
+            <LinearLayout android:orientation="vertical" android:id="@id/conversationRecycleListViewLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:theme="@style/GhostRoundedCornerColor" android:id="@id/conversationRecycleListView" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:defaultFocusHighlightEnabled="false" />
+            </LinearLayout>
+            <ViewStub android:gravity="center" android:orientation="vertical" android:id="@id/conversation_list_empty_view_stub" android:visibility="gone" android:layout="@layout/conversation_empty_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignWithParentIfMissing="true" />
+        </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/also_block_host_checkbox_layout" android:clickable="true" android:layout_width="match_parent" android:layout_height="52.0dp" android:layout_marginBottom="16.0dp" android:layout_weight="0.0">
+        <CheckBox android:id="@id/also_block_host_checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/check_box_margin_start_end" />
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/scheduled_dialog_text_size" android:textColor="@color/theme_list_main_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/decline_group_chat_also_block_host" android:layout_marginEnd="@dimen/check_box_text_margin_end" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.extension.chn.announcement.fontdo.view.aimview.NewsCardView android:orientation="vertical" android:background="@drawable/background_circle" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.messaging.extension.chn.announcement.fontdo.view.otherview.ImageViewRatio android:id="@id/image" style="@style/imageview_fitxy" />
+        <TextView android:id="@id/title" style="@style/primary_text" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/news_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.samsung.android.messaging.extension.chn.announcement.fontdo.view.aimview.NewsCardView>

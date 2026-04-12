@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/reaction_popup_item_selected_size_for_animation" android:width="@dimen/reaction_popup_item_selected_size_for_animation" />
+    <solid android:color="@color/reaction_popup_item_selected_color" />
+</shape>

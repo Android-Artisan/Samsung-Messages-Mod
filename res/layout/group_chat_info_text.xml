@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/group_chat_info" android:tag="layout/group_chat_info_text_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/use_previous_group_chat_dialog_info_text_margin_top" android:layout_marginBottom="@dimen/use_previous_group_chat_dialog_info_text_margin_bottom" android:layout_marginHorizontal="@dimen/msg_popup_margin" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textAppearance="@style/UsePreviousGroupChatDialogInfoTextStyle" android:ellipsize="end" android:id="@id/group_chat_name" android:tag="binding_1" android:layout_width="0.0dp" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/UsePreviousGroupChatDialogInfoTextStyle" android:id="@id/group_chat_members_count" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

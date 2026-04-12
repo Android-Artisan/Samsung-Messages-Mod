@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="320.0dp" android:width="320.0dp" android:viewportWidth="320.0" android:viewportHeight="307.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$bg_music__0" android:pathData="M0,0h320v307h-320z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <group>
+        <clip-path android:pathData="M0,0h320v307h-320z" />
+        <path android:fillColor="@drawable/$bg_music__1" android:pathData="M59,274C36.35,274 18,255.64 18,232.99C18,210.35 36.35,192 59,192C81.49,192 99.73,210.11 99.98,232.54L99.98,232.82L99.99,232.82C99.99,232.88 100,232.93 100,232.99C100,255.64 81.64,274 59,274M100.5,-62L100.5,144.19C88.01,138.3 74.14,134.92 59.47,134.92C5.73,134.92 -38,179.12 -38,233.45C-38,287.79 5.73,332 59.47,332C113.22,332 156.95,287.79 156.95,233.45C156.95,233.3 156.93,233.15 156.93,233.01L156.93,-4.95L158.39,-4.95C230.14,-4.95 263.57,52.26 263.57,90.92L263.57,119.71C263.57,135.29 276.2,147.92 291.78,147.92C307.37,147.92 320,135.29 320,119.71L320,90.92L320,90.92C320,17.38 258.21,-62 158.39,-62L100.5,-62Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.14964658" android:fillAlpha="0.14964658" android:fillType="evenOdd" />
+    </group>
+</vector>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 heure</item>
+        <item>6 heures</item>
+        <item>24 heures</item>
+        <item>2 jours</item>
+        <item>Paramètre par défaut du réseau</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Taille originale</item>
+        <item>Élevée</item>
+        <item>Moyenne</item>
+        <item>Basse</item>
+        <item>Toujours demander</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Taille originale</item>
+        <item>Haute qualité</item>
+        <item>Qualité normale</item>
+        <item>Basse résolution</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Tous les canaux</item>
+        <item>Mon canal</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatique</item>
+        <item>SMS ou MMS</item>
+        <item>Chatter</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatique</item>
+        <item>SMS ou MMS</item>
+        <item>Messages de chat RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Bloquer</item>
+        <item>"Demander d'abord"</item>
+        <item>Autoriser</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Toujours</item>
+        <item>Demander</item>
+        <item>Jamais</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alphabet GSM</item>
+        <item>Unicode</item>
+        <item>Automatique</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Renvoyer en tant que SMS ou MMS</item>
+        <item>Ne pas renvoyer</item>
+        <item>Demander avant de renvoyer</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Utilisation des SMS ou des MMS</item>
+        <item>Pas de renvoi</item>
+        <item>Toujours demander</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Originale</item>
+        <item>Réseau par défaut</item>
+        <item>Toujours demander</item>
+    </string-array>
+</resources>

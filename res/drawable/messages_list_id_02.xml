@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/saved" android:drawable="@drawable/ic_orc_thumbnail_default_saved" />
+    <item android:id="@id/unsaved" android:drawable="@drawable/ic_orc_thumbnail_default" />
+</layer-list>

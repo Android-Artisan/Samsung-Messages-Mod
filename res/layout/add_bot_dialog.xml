@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/add_bot_popup_padding_top" android:paddingBottom="@dimen/add_bot_popup_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/add_bot_popup_padding_left_right" android:paddingEnd="@dimen/add_bot_popup_padding_left_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.widget.avatar.AvatarImageView android:layout_gravity="center_horizontal" android:id="@id/add_bot_avatar_thumbnail" android:layout_width="@dimen/add_bot_cp_image_size" android:layout_height="@dimen/add_bot_cp_image_size" />
+    <View android:layout_width="match_parent" android:layout_height="@dimen/add_bot_cp_image_name_gap" />
+    <TextView android:textAppearance="@style/RobotoCondensedBold" android:textSize="@dimen/add_bot_cp_name_text_size" android:textColor="@color/primary_text_color" android:gravity="center" android:id="@id/add_bot_title_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+    <View android:layout_width="match_parent" android:layout_height="@dimen/add_bot_cp_name_description_gap" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/add_bot_cp_description_text_size" android:textColor="@color/primary_text_color" android:ellipsize="end" android:id="@id/bot_detail_description_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="6" android:lineSpacingExtra="4.0sp" />
+    </ScrollView>
+</LinearLayout>

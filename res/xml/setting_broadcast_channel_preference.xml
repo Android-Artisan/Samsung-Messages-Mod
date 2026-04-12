@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="@string/screen_More_Settings_Cell_Broadcast"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:selectable="false" android:key="pref_description_broadcast_channels" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:key="pref_key_cb_settings_activation" android:defaultValue="false" app:event="@string/event_Message_Settings_More_Settings_Cell_Broadcast_Switch" app:screen="@string/screen_More_Settings_Cell_Broadcast" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SaDropDownPreference android:entries="@array/pref_entries_cb_selection" android:title="@string/pref_title_select_channel" android:key="pref_key_cb_channel_selection" android:defaultValue="All channels" android:entryValues="@array/pref_entry_values_cb_selection" app:event="@string/event_Message_Settings_More_Settings_Cell_Broadcast_Select_Channels" app:screen="@string/screen_More_Settings_Cell_Broadcast" />
+    <androidx.preference.PreferenceCategory android:title="@string/pref_title_my_channels" android:key="pref_key_cb_my_channels">
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/add_channel" android:key="add_my_channel" app:event="@string/event_Message_Settings_More_Settings_Cell_Broadcast_Add_Channels" app:isButton="true" app:screen="@string/screen_More_Settings_Cell_Broadcast" />
+    </androidx.preference.PreferenceCategory>
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:key="pref_key_cb_settings_activation_sim2" android:defaultValue="false" app:event="@string/event_Message_Settings_More_Settings_Cell_Broadcast_Switch" app:screen="@string/screen_More_Settings_Cell_Broadcast" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SaDropDownPreference android:entries="@array/pref_entries_cb_selection" android:title="@string/pref_title_select_channel" android:key="pref_key_cb_channel_selection2" android:defaultValue="All channels" android:entryValues="@array/pref_entry_values_cb_selection" app:event="@string/event_Message_Settings_More_Settings_Cell_Broadcast_Select_Channels" app:screen="@string/screen_More_Settings_Cell_Broadcast" />
+    <androidx.preference.PreferenceCategory android:title="@string/pref_title_my_channels" android:key="pref_key_cb_my_channels2">
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/add_channel" android:key="add_my_channel2" app:event="@string/event_Message_Settings_More_Settings_Cell_Broadcast_Add_Channels" app:isButton="true" app:screen="@string/screen_More_Settings_Cell_Broadcast" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

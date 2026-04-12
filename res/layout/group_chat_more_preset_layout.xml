@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/AppTheme.ActionBar.Ghost" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height" android:title="@string/group_chat_more_preset_title" app:navigationContentDescription="@string/navigate_up" app:navigationIcon="@drawable/actionbar_back_key" />
+    <GridView android:id="@id/preset_image_grid_view" android:layout_width="match_parent" android:layout_height="match_parent" android:columnWidth="100.0dp" android:numColumns="auto_fit" />
+</LinearLayout>

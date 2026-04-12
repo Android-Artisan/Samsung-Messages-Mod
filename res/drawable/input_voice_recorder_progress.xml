@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <corners android:radius="15.0px" />
+            <size android:height="@dimen/audio_progress_height" />
+            <solid android:color="@color/theme_recorder_panel_progress_bar_bg" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+                <gradient android:shape="rectangle" android:startColor="@color/color_primary" android:endColor="#3dcc87" android:angle="0.0" android:type="linear" />
+                <size android:height="@dimen/audio_progress_height" />
+                <corners android:radius="15.0px" />
+            </androidx.appcompat.util.SeslShapeDrawable>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="@string/screen_Search_Settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/search_setting_show_recent_search" android:key="perf_key_show_recent_searches" android:summary="" android:defaultValue="true" app:event="@string/event_Search_Save_Recent_Searches" app:screen="@string/screen_Search_Settings" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/search_setting_show_shared_content" android:key="perf_key_show_recommended_contents" android:summary="" android:defaultValue="true" app:event="@string/event_Search_Show_Recommended_contents" app:screen="@string/screen_Search_Settings" />
+</PreferenceScreen>

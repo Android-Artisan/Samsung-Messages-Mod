@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/task_edge_small_icon_size" android:width="@dimen/task_edge_small_icon_size" android:drawable="@mipmap/ic_launcher" />
+</layer-list>

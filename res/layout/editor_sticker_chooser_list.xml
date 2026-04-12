@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/editor_camera_dropdown_list_padding_left_right" android:paddingEnd="@dimen/editor_camera_dropdown_list_padding_left_right" android:paddingVertical="@dimen/editor_sim_dropdown_text_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dp">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="#0072de" android:ellipsize="end" android:gravity="start|center" android:id="@id/item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/editor_sim_dropdown_list_sim_text_width" android:singleLine="true" android:fontFamily="Roboto-Medium" android:layout_marginEnd="10.0dp" android:layout_alignEnd="@dimen/editor_sim_dropdown_list_sim_text_end_margin" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/item_select" android:layout_width="@dimen/editor_sim_dropdown_check_width" android:layout_height="@dimen/editor_sim_dropdown_check_height" android:src="@drawable/tw_dropdown_ic_check" android:tint="#0381fe" android:layout_toEndOf="@id/item_text" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

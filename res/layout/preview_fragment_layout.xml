@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/preview_fragment_overlay_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="start|bottom" android:id="@id/captured_image" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/editor_photo_size" android:layout_height="@dimen/editor_photo_size" android:contentDescription="@string/group_chat_image" />
+        <LinearLayout android:layout_gravity="end|top" android:id="@id/button_remove_photo_expand_touch_layout" android:padding="@dimen/preview_delete_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/button_remove_photo" android:background="@drawable/contact_unpick_bg" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/preview_delete_button_size" android:layout_height="@dimen/preview_delete_button_size" android:src="@drawable/orc_btn_minus" android:tint="@color/delete_button_ic_color" android:contentDescription="@string/delete" android:tooltipText="@string/delete" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

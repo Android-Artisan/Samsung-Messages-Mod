@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/composer_location_sharing_both_expand_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="12.0dp" layout="@layout/composer_location_sharing_receiver_map_container" />
+            <View android:background="#3b848487" android:layout_width="wrap_content" android:layout_height="1.0dp" android:layout_marginBottom="12.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+            <TextView android:textAppearance="@style/NewSECMedium" android:textSize="12.0sp" android:textColor="@color/theme_composer_location_sharing_body" android:id="@id/both_sharing_detail_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="12.0dp" layout="@layout/composer_location_sharing_receiver_bottom_container" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

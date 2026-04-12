@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="night_mode">true</bool>
+    <bool name="theme_about_navigation_bar_icon_color">false</bool>
+    <bool name="theme_about_status_bar_icon_color">false</bool>
+    <bool name="theme_navigation_bar_icon_color">false</bool>
+    <bool name="theme_navigation_bar_icon_color_2">false</bool>
+    <bool name="theme_status_bar_icon_color">false</bool>
+</resources>

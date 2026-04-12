@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/view_all" android:paddingTop="7.0dp" android:paddingBottom="7.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/bubble_text_view_all_size" android:textColor="@color/theme_view_all_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/view_all_text" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/view_all" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="4.0dp" android:layout_marginEnd="8.0dp" android:layout_toStartOf="@id/view_all_go" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/view_all_go" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/orc_ic_close" android:tint="@color/theme_view_all_icon_color" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

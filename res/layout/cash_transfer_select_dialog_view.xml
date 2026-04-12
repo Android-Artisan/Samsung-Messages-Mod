@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="20.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/copy_account_view" android:background="@drawable/ripple_transfer_dialog_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40.0dp">
+        <ImageView android:gravity="center_vertical" android:id="@id/copy_account_number_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/message_transfer_copy_text" android:layout_marginHorizontal="@dimen/msg_popup_selection_dialog_icon_margin" />
+        <TextView android:textAppearance="@style/NewSECLight" android:textSize="18.0sp" android:textColor="@color/theme_transfer_dialog_body_text_color" android:gravity="center_vertical" android:id="@id/copy_account_number_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/chooser_menu_copy_account_number" android:singleLine="true" android:layout_marginHorizontal="@dimen/msg_popup_selection_dialog_margin" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/transfer_title_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp">
+        <TextView android:textAppearance="@style/NewSECLight" android:textSize="14.0sp" android:textColor="@color/theme_composer_transfer_money_sub_header_text_color" android:gravity="center_vertical" android:id="@id/info_view" android:paddingBottom="17.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="@string/menu_transfer_money" android:singleLine="true" android:layout_marginStart="24.0dp" />
+        <View android:layout_gravity="center_vertical" android:background="@drawable/cash_transfer_dialog_divider" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="20.0dp" />
+    </LinearLayout>
+    <GridView android:gravity="center_horizontal" android:id="@id/app_icon_list_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:horizontalSpacing="8.0dp" android:verticalSpacing="25.0dp" android:columnWidth="79.0dp" android:numColumns="auto_fit" android:paddingHorizontal="10.0dp" />
+</LinearLayout>

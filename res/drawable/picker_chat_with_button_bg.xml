@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple android:color="@color/dialtacts_ripple_button_color">
+            <item android:id="@android:id/mask">
+                <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+                    <solid android:color="@color/white" />
+                    <corners android:radius="@dimen/picker_chat_with_button_radius" />
+                </androidx.appcompat.util.SeslShapeDrawable>
+            </item>
+        </ripple>
+    </item>
+    <item>
+        <inset>
+            <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+                <stroke android:width="1.0dp" android:color="@color/header_text_color" />
+                <corners android:radius="@dimen/picker_chat_with_button_radius" />
+            </androidx.appcompat.util.SeslShapeDrawable>
+        </inset>
+    </item>
+</layer-list>

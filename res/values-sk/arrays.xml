@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 hodina</item>
+        <item>6 hodín</item>
+        <item>24 hodín</item>
+        <item>2 dni</item>
+        <item>Predvolené sieťou</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Pôvodná</item>
+        <item>Vysoké</item>
+        <item>Stredné</item>
+        <item>Nízke</item>
+        <item>Vždy sa pýtať</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Pôvodná</item>
+        <item>Vysoká kvalita</item>
+        <item>Normálna kvalita</item>
+        <item>Nízke rozlíšenie</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Všetky kanály</item>
+        <item>Môj kanál</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automaticky</item>
+        <item>Textové alebo multimediálne</item>
+        <item>Konverzácia</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automaticky</item>
+        <item>Textové alebo multimediálne</item>
+        <item>Konverzačné správy RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokovať</item>
+        <item>Najprv sa spýtať</item>
+        <item>Povoliť</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Vždy</item>
+        <item>Vyzvať</item>
+        <item>Nikdy</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Abeceda GSM</item>
+        <item>Unicode</item>
+        <item>Automaticky</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Odoslať znova ako textovú alebo multimediálnu správu</item>
+        <item>Neodosielať znova</item>
+        <item>Pred opätovným odoslaním sa spýtať</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Používať text./multimed. správy</item>
+        <item>Neodosielať opakovane</item>
+        <item>Vždy sa pýtať</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Originál</item>
+        <item>Predvoľba siete</item>
+        <item>Vždy sa pýtať</item>
+    </string-array>
+</resources>

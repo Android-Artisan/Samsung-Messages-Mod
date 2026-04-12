@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/search_my_chatbot_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/search_contents_sub_title" />
+    <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout android:orientation="vertical" android:id="@id/search_my_chatbot_container" android:tag="binding_1" android:paddingTop="@dimen/search_content_container_padding" android:paddingBottom="@dimen/search_content_container_padding" android:layout_width="match_parent" android:layout_height="wrap_content" bind:roundMode="15">
+        <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" bind:ghost="true" bind:roundMode="15">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:name="com.samsung.android.messaging.ui.view.search.SearchMyChatbotFragment" android:scrollbarStyle="outsideOverlay" android:id="@id/search_my_chatbot_item" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/search_content_list_margin" bind:layoutManager="androidx.recyclerview.widget.GridLayoutManager" bind:spanCount="4" />
+            </LinearLayout>
+        </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>
+    </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/sub_header_divider" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_content_container_top_margin" android:layout_marginBottom="0.0dp" />
+</LinearLayout>

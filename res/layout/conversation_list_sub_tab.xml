@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.tabs.TabLayout android:layout_gravity="bottom" android:id="@id/sub_tab_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/list_page_indicator_height" android:layout_marginBottom="-7.0dp" app:tabGravity="fill" app:tabIndicatorColor="@color/theme_category_subtab_indicator_tint_color" app:tabMode="scrollable" app:tabSelectedTextColor="@color/theme_category_subtab_selected_text_color" app:tabTextAppearance="@style/CategoryItemTabTextStyle" app:tabTextColor="@color/theme_category_subtab_unselected_text_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_title_customization_service" android:key="pref_key_customization_service" android:summary="@string/customization_service_information" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_title_delete_usage_information" android:key="pref_key_delete_usage_information" />
+</androidx.preference.PreferenceScreen>

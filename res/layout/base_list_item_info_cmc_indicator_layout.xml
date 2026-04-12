@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/base_list_item_info_cmc_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/bubble_side_info_child_layout_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/base_list_item_info_cmc_indicator_img" android:layout_width="wrap_content" android:layout_height="@dimen/bubble_side_info_child_layout_size" android:src="@drawable/orc_ic_device_cmc" android:tint="@color/theme_bubble_info_color" />
+    <ImageView android:id="@id/base_list_item_info_cmc_sim_slot_img" android:visibility="gone" android:layout_width="@dimen/bubble_info_sim_slot_width" android:layout_height="@dimen/bubble_side_info_child_layout_size" android:src="@drawable/orc_sim_ic_01" android:layout_marginEnd="2.0dp" />
+</LinearLayout>

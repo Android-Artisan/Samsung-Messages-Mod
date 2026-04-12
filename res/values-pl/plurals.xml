@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie można wycofać wiadomości. Wiadomości można wycofać tylko w ciągu %d minuty po wysłaniu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie można wycofać wiadomości. Wiadomości można wycofać tylko w ciągu %d minut po wysłaniu.</item>
+        <item quantity="many">Nie można wycofać wiadomości. Wiadomości można wycofać tylko w ciągu %d minut po wysłaniu.</item>
+        <item quantity="other">Nie można wycofać wiadomości. Wiadomości można wycofać tylko w ciągu %d minuty po wysłaniu.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opuść także %d czat grupowy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opuść także %d czaty grupowe</item>
+        <item quantity="many">Opuść także %d czatów grupowych</item>
+        <item quantity="other">Opuść także %d czatów grupowych</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opuść także %d rozmowę grupową</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opuść także %d rozmowy grupowe</item>
+        <item quantity="many">Opuść także %d rozmów grupowych</item>
+        <item quantity="other">Opuść także %d rozmów grupowych</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Usunąć %d pakiet emotikon?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Usunąć %d pakiety emotikon?</item>
+        <item quantity="many">Usunąć %d pakietów emotikon?</item>
+        <item quantity="other">Usunąć %d pakietu emotikon?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Przenieść %d rozmowę do Kosza?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Przenieść %d rozmowy do Kosza?</item>
+        <item quantity="many">Przenieść %d rozmów do Kosza?</item>
+        <item quantity="other">Przenieść %d rozmowy do Kosza?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wiadomości znajdujące się w Koszu zostaną trwale usunięte za %d dzień.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wiadomości znajdujące się w Koszu zostaną trwale usunięte za %d dni.</item>
+        <item quantity="many">Wiadomości znajdujące się w Koszu zostaną trwale usunięte za %d dni.</item>
+        <item quantity="other">Wiadomości znajdujące się w Koszu zostaną trwale usunięte za %d dnia.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Usunięte wiadomości pozostaną w koszu przez %d dzień, zanim zostaną usunięte na zawsze.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Usunięte wiadomości pozostaną w koszu przez %d dni, zanim zostaną usunięte na zawsze.</item>
+        <item quantity="many">Usunięte wiadomości pozostaną w koszu przez %d dni, zanim zostaną usunięte na zawsze.</item>
+        <item quantity="other">Usunięte wiadomości pozostaną w koszu przez %d dnia, zanim zostaną usunięte na zawsze.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Przenieść %d wiadomość do Kosza?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Przenieść %d wiadomości do Kosza?</item>
+        <item quantity="many">Przenieść %d wiadomości do Kosza?</item>
+        <item quantity="other">Przenieść %d wiadomości do Kosza?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dziś jest wyjątkowy dzień (%1$s i %2$d inne wydarzenie). Wysłać coś?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dziś jest wyjątkowy dzień (%1$s i %2$d inne wydarzenia). Wysłać coś?</item>
+        <item quantity="many">Dziś jest wyjątkowy dzień (%1$s i %2$d innych wydarzeń). Wysłać coś?</item>
+        <item quantity="other">Dziś jest wyjątkowy dzień (%1$s i %2$d innego wydarzenia). Wysłać coś?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dziś są urodziny kontaktu %1$s i %2$d innej osoby! Wysłać coś specjalnego?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dziś są urodziny kontaktu %1$s i %2$d innych osób! Wysłać coś specjalnego?</item>
+        <item quantity="many">Dziś są urodziny kontaktu %1$s i %2$d innych osób! Wysłać coś specjalnego?</item>
+        <item quantity="other">Dziś są urodziny kontaktu %1$s i %2$d innej osoby! Wysłać coś specjalnego?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zablokowano %d wiadomość w ciągu ostatnich 30 dni</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zablokowano %d wiadomości w ciągu ostatnich 30 dni</item>
+        <item quantity="many">Zablokowano %d wiadomości w ciągu ostatnich 30 dni</item>
+        <item quantity="other">Zablokowano %d wiadomości w ciągu ostatnich 30 dni</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wybranych: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wybranych: %d</item>
+        <item quantity="many">Wybranych: %d</item>
+        <item quantity="other">Wybranych: %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie można zablokować %d adresu e-mail, ponieważ jest on nieprawidłowy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie można zablokować %d adresów e-mail, ponieważ są one nieprawidłowe.</item>
+        <item quantity="many">Nie można zablokować %d adresów e-mail, ponieważ są one nieprawidłowe.</item>
+        <item quantity="other">Nie można zablokować %d adresu e-mail, ponieważ są one nieprawidłowe.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie można zablokować %d numeru telefonu, ponieważ jest on nieprawidłowy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie można zablokować %d numerów telefonów, ponieważ są one nieprawidłowe.</item>
+        <item quantity="many">Nie można zablokować %d numerów telefonów, ponieważ są one nieprawidłowe.</item>
+        <item quantity="other">Nie można zablokować %d numeru telefonu, ponieważ są one nieprawidłowe.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie można zablokować %d nadawcy, ponieważ jego dane są nieprawidłowe.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie można zablokować %d nadawców, ponieważ ich dane są nieprawidłowe.</item>
+        <item quantity="many">Nie można zablokować %d nadawców, ponieważ ich dane są nieprawidłowe.</item>
+        <item quantity="other">Nie można zablokować %d nadawcy, ponieważ ich dane są nieprawidłowe.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Można wybrać maksymalnie %d kontakt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Można wybrać maksymalnie %d kontakty.</item>
+        <item quantity="many">Można wybrać maksymalnie %d kontaktów.</item>
+        <item quantity="other">Można wybrać maksymalnie %d kontaktu.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d karta %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d karty %2$s</item>
+        <item quantity="many">%1$d kart %2$s</item>
+        <item quantity="other">%1$d kart %2$s</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt czatu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kontakty czatu</item>
+        <item quantity="many">%d kontaktów czatu</item>
+        <item quantity="other">%d kontaktów czatu</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt Chatting+</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kontakty Chatting+</item>
+        <item quantity="many">%d kontaktów Chatting+</item>
+        <item quantity="other">%d kontaktów Chatting+</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Jeśli wyrejestrujesz się z usługi Chatting+, nie będziesz już mieć możliwości tworzenia ani dołączania do czatów (indywidualnych ani grupowych), otrzymywania potwierdzeń odczytania wiadomości ani udostępniania dużych plików. Czy na pewno chcesz się wyrejestrować?
+
+Pamiętaj, że aby zarejestrować się ponownie, musisz poczekać %d minutę."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Jeśli wyrejestrujesz się z usługi Chatting+, nie będziesz już mieć możliwości tworzenia ani dołączania do czatów (indywidualnych ani grupowych), otrzymywania potwierdzeń odczytania wiadomości ani udostępniania dużych plików. Czy na pewno chcesz się wyrejestrować?
+
+Pamiętaj, że aby zarejestrować się ponownie, musisz poczekać %d minuty."</item>
+        <item quantity="many">"Jeśli wyrejestrujesz się z usługi Chatting+, nie będziesz już mieć możliwości tworzenia ani dołączania do czatów (indywidualnych ani grupowych), otrzymywania potwierdzeń odczytania wiadomości ani udostępniania dużych plików. Czy na pewno chcesz się wyrejestrować?
+
+Pamiętaj, że aby zarejestrować się ponownie, musisz poczekać %d minut."</item>
+        <item quantity="other">"Jeśli wyrejestrujesz się z usługi Chatting+, nie będziesz już mieć możliwości tworzenia ani dołączania do czatów (indywidualnych ani grupowych), otrzymywania potwierdzeń odczytania wiadomości ani udostępniania dużych plików. Czy na pewno chcesz się wyrejestrować?
+
+Pamiętaj, że aby zarejestrować się ponownie, musisz poczekać %d minuty."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d czatbot</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d czatboty</item>
+        <item quantity="many">%d czatbotów</item>
+        <item quantity="other">%d czatbotów</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kontakty</item>
+        <item quantity="many">%d kontaktów</item>
+        <item quantity="other">%d kontaktów</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wybranych: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wybranych: %d</item>
+        <item quantity="many">Wybranych: %d</item>
+        <item quantity="other">Wybranych: %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wygasa za %d dzień</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wygasa za %d dni</item>
+        <item quantity="many">Wygasa za %d dni</item>
+        <item quantity="other">Wygasa za %d dnia</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kupon wygasa wkrótce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kupony wygasają wkrótce</item>
+        <item quantity="many">%d kupony wygasa wkrótce</item>
+        <item quantity="other">%d kuponu wygasa wkrótce</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kupon %1$s wygasa za %2$d dzień.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kupon %1$s wygasa za %2$d dni.</item>
+        <item quantity="many">Kupon %1$s wygasa za %2$d dni.</item>
+        <item quantity="other">Kupon %1$s wygasa za %2$d dnia.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kupon wygasa za %d dzień.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kupon wygasa za %d dni.</item>
+        <item quantity="many">Kupon wygasa za %d dni.</item>
+        <item quantity="other">Kupon wygasa za %d dnia.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">Usunąć %d rozmowę?</item>
+        <item quantity="other">Usunąć rozmów: %d?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Usunąć trwale %d rozmowę?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Usunąć trwale %d rozmowy?</item>
+        <item quantity="many">Usunąć trwale %d rozmów?</item>
+        <item quantity="other">Usunąć trwale %d rozmowy?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">Usunąć %d wiadomość?</item>
+        <item quantity="other">Usunąć wiadomości: %d?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Usunąć trwale %d wiadomość?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Usunąć trwale %d wiadomości?</item>
+        <item quantity="many">Usunąć trwale %d wiadomości?</item>
+        <item quantity="other">Usunąć trwale %d wiadomości?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d wiadomość dotycząca dostawy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d wiadomości dotyczące dostawy</item>
+        <item quantity="many">%d wiadomości dotyczących dostawy</item>
+        <item quantity="other">%d wiadomości dotyczącej dostawy</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odrzucić %d kartę?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odrzucić %d karty?</item>
+        <item quantity="many">Odrzucić %d kart?</item>
+        <item quantity="other">Odrzucić %d karty?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tylko %1$d karta kategorii może być wyświetlana na ekranie głównym. Pozostałe karty są ukryte. Wybierz kategorię %2$s, jeśli chcesz mieć do niej szybko dostęp z ekranu głównego.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Tylko %1$d karty kategorii mogą być wyświetlane na ekranie głównym. Pozostałe karty są ukryte. Wybierz kategorię %2$s, jeśli chcesz mieć do niej szybko dostęp z ekranu głównego.</item>
+        <item quantity="many">Tylko %1$d kart kategorii może być wyświetlanych na ekranie głównym. Pozostałe karty są ukryte. Wybierz kategorię %2$s, jeśli chcesz mieć do niej szybko dostęp z ekranu głównego.</item>
+        <item quantity="other">Tylko %1$d karty kategorii może być wyświetlane na ekranie głównym. Pozostałe karty są ukryte. Wybierz kategorię %2$s, jeśli chcesz mieć do niej szybko dostęp z ekranu głównego.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+        <item quantity="other">%d minut</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+        <item quantity="other">%d sekund</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W telefonie zapisano %d plik.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W telefonie zapisano %d pliki.</item>
+        <item quantity="many">W telefonie zapisano %d plików.</item>
+        <item quantity="other">W telefonie zapisano %d plików.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W tablecie zapisano %d plik.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W tablecie zapisano %d pliki.</item>
+        <item quantity="many">W tablecie zapisano %d plików.</item>
+        <item quantity="other">W tablecie zapisano %d plików.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d transakcja dzisiaj</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d transakcje dzisiaj</item>
+        <item quantity="many">%d transakcji dzisiaj</item>
+        <item quantity="other">%d transakcji dzisiaj</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s i %2$d nieznany numer</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s i %2$d nieznane numery</item>
+        <item quantity="many">%1$s i %2$d nieznanych numerów</item>
+        <item quantity="other">%1$s i %2$d nieznanego numeru</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nieznany numer</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nieznane numery</item>
+        <item quantity="many">%d nieznanych numerów</item>
+        <item quantity="other">%d nieznanego numeru</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kontakt %1$s nie może dołączyć do czatu grupowego. Usuń go z wybranych odbiorców lub wyślij SMS do maksymalnie %2$d odbiorcy zamiast tego.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kontakt %1$s nie może dołączyć do czatu grupowego. Usuń go z wybranych odbiorców lub wyślij SMS do maksymalnie %2$d odbiorców zamiast tego.</item>
+        <item quantity="many">Kontakt %1$s nie może dołączyć do czatu grupowego. Usuń go z wybranych odbiorców lub wyślij SMS do maksymalnie %2$d odbiorców zamiast tego.</item>
+        <item quantity="other">Kontakt %1$s nie może dołączyć do czatu grupowego. Usuń go z wybranych odbiorców lub wyślij SMS do maksymalnie %2$d odbiorców zamiast tego.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Co najmniej jeden z dołączonych odbiorców nie ma możliwości Zaawansowanego przesyłania wiadomości, dlatego Twoja grupa jest ograniczona do %d członka.
+
+Aby kontynuować, wybierz tylko tych członków, którzy mają możliwość Zaawansowanego przesyłania wiadomości. Są oni oznaczeni ikoną niebieskiej kropki."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Co najmniej jeden z dołączonych odbiorców nie ma możliwości Zaawansowanego przesyłania wiadomości, dlatego Twoja grupa jest ograniczona do %d członków.
+
+Aby kontynuować, wybierz tylko tych członków, którzy mają możliwość Zaawansowanego przesyłania wiadomości. Są oni oznaczeni ikoną niebieskiej kropki."</item>
+        <item quantity="many">"Co najmniej jeden z dołączonych odbiorców nie ma możliwości Zaawansowanego przesyłania wiadomości, dlatego Twoja grupa jest ograniczona do %d członków.
+
+Aby kontynuować, wybierz tylko tych członków, którzy mają możliwość Zaawansowanego przesyłania wiadomości. Są oni oznaczeni ikoną niebieskiej kropki."</item>
+        <item quantity="other">"Co najmniej jeden z dołączonych odbiorców nie ma możliwości Zaawansowanego przesyłania wiadomości, dlatego Twoja grupa jest ograniczona do %d członków.
+
+Aby kontynuować, wybierz tylko tych członków, którzy mają możliwość Zaawansowanego przesyłania wiadomości. Są oni oznaczeni ikoną niebieskiej kropki."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aby rozpocząć czat grupowy, usuń ostatnio wybranego odbiorcę. Jeśli chcesz uwzględnić ostatniego odbiorcę, usuń %d odbiorcę w celu wysyłania wiadomości.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aby rozpocząć czat grupowy, usuń ostatnio wybranego odbiorcę. Jeśli chcesz uwzględnić ostatniego odbiorcę, usuń %d odbiorców w celu wysyłania wiadomości.</item>
+        <item quantity="many">Aby rozpocząć czat grupowy, usuń ostatnio wybranego odbiorcę. Jeśli chcesz uwzględnić ostatniego odbiorcę, usuń %d odbiorców w celu wysyłania wiadomości.</item>
+        <item quantity="other">Aby rozpocząć czat grupowy, usuń ostatnio wybranego odbiorcę. Jeśli chcesz uwzględnić ostatniego odbiorcę, usuń %d odbiorców w celu wysyłania wiadomości.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W tablecie zapisano %d obraz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W tablecie zapisano %d obrazy.</item>
+        <item quantity="many">W tablecie zapisano %d obrazów.</item>
+        <item quantity="other">W tablecie zapisano %d obrazu.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W telefonie zapisano %d obraz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W telefonie zapisano %d obrazy.</item>
+        <item quantity="many">W telefonie zapisano %d obrazów.</item>
+        <item quantity="other">W telefonie zapisano %d obrazów.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W telefonie zapisano 1 obraz i %d film.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W telefonie zapisano 1 obraz i %d filmy.</item>
+        <item quantity="many">W telefonie zapisano 1 obraz i %d filmów.</item>
+        <item quantity="other">W telefonie zapisano 1 obraz i %d filmów.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W telefonie zapisano %d obraz i 1 film.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W telefonie zapisano %d obrazy i 1 film.</item>
+        <item quantity="many">W telefonie zapisano %d obrazów i 1 film.</item>
+        <item quantity="other">W telefonie zapisano %d obrazów i 1 film.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dołączyli: %1$s i %2$d inna osoba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dołączyli: %1$s i %2$d inne osoby</item>
+        <item quantity="many">Dołączyli: %1$s i %2$d innych osób</item>
+        <item quantity="other">Dołączyli: %1$s i %2$d innych osób</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kontakty</item>
+        <item quantity="many">%d kontaktów</item>
+        <item quantity="other">%d kontaktów</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Można wybrać maksymalnie %d osobę.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Można wybrać maksymalnie %d osoby.</item>
+        <item quantity="many">Można wybrać maksymalnie %d osób.</item>
+        <item quantity="other">Można wybrać maksymalnie %d osoby.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Po dotknięciu przycisku Sugestie wiadomości ostatnia %d wiadomość w konwersacji zostanie przetworzona online. Sugestie wygenerowane przez sztuczną inteligencję mogą być niedokładne lub zawierać nieodpowiednie treści.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Po dotknięciu przycisku Sugestie wiadomości ostatnie %d wiadomości w konwersacji zostaną przetworzona online. Sugestie wygenerowane przez sztuczną inteligencję mogą być niedokładne lub zawierać nieodpowiednie treści.</item>
+        <item quantity="many">Po dotknięciu przycisku Sugestie wiadomości ostatnich %d wiadomości w konwersacji zostanie przetworzonych online. Sugestie wygenerowane przez sztuczną inteligencję mogą być niedokładne lub zawierać nieodpowiednie treści.</item>
+        <item quantity="other">Po dotknięciu przycisku Sugestie wiadomości ostatnie %d wiadomości w konwersacji zostanie przetworzone online. Sugestie wygenerowane przez sztuczną inteligencję mogą być niedokładne lub zawierać nieodpowiednie treści.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">%d nowego powiadomienia</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Udostępniono %d plik przez Quick Share</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Udostępniono %d pliki przez Quick Share</item>
+        <item quantity="many">Udostępniono %d plików przez Quick Share</item>
+        <item quantity="other">Udostępniono %d pliku przez Quick Share</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nowa przydatna karta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nowe przydatne karty</item>
+        <item quantity="many">%d nowych przydatnych kart</item>
+        <item quantity="other">%d nowej przydatnej karty</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rozmowa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d rozmowy</item>
+        <item quantity="many">%d rozmów</item>
+        <item quantity="other">%d rozmowy</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">Wiadomości: %d</item>
+        <item quantity="other">Wiadomości: %d</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Przechowuj usunięte wiadomości przez %d dzień.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Przechowuj usunięte wiadomości przez %d dni.</item>
+        <item quantity="many">Przechowuj usunięte wiadomości przez %d dni.</item>
+        <item quantity="other">Przechowuj usunięte wiadomości przez %d dnia.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Możesz ponownie odświeżyć za %d minutę.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Możesz ponownie odświeżyć za %d minuty.</item>
+        <item quantity="many">Możesz ponownie odświeżyć za %d minut.</item>
+        <item quantity="other">Możesz ponownie odświeżyć za %d minuty.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wysłać %d wiadomość teraz?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wysłać %d wiadomości teraz?</item>
+        <item quantity="many">Wysłać %d wiadomości teraz?</item>
+        <item quantity="other">Wysłać %d wiadomości teraz?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trwa aktualizacja Twoich informacji. Poczekaj co najmniej %d minutę, a następnie spróbuj ponownie.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trwa aktualizacja Twoich informacji. Poczekaj co najmniej %d minuty, a następnie spróbuj ponownie.</item>
+        <item quantity="many">Trwa aktualizacja Twoich informacji. Poczekaj co najmniej %d minut, a następnie spróbuj ponownie.</item>
+        <item quantity="other">Trwa aktualizacja Twoich informacji. Poczekaj co najmniej %d minuty, a następnie spróbuj ponownie.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie można przypiąć więcej niż %d rozmowy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie można przypiąć więcej niż %d rozmów.</item>
+        <item quantity="many">Nie można przypiąć więcej niż %d rozmów.</item>
+        <item quantity="other">Nie można przypiąć więcej niż %d rozmów.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s i innych: %2$d</item>
+        <item quantity="other">%1$s i innych: %2$d</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Usunąć %d kartę?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Usunąć %d karty?</item>
+        <item quantity="many">Usunąć %d kart?</item>
+        <item quantity="other">Usunąć %d kart?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wprowadź przyczynę (maksymalnie %d znak)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wprowadź przyczynę (maksymalnie %d znaki)</item>
+        <item quantity="many">Wprowadź przyczynę (maksymalnie %d znaków)</item>
+        <item quantity="other">Wprowadź przyczynę (maksymalnie %d znaku)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zaplanowano %d wiadomość</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zaplanowano %d wiadomości</item>
+        <item quantity="many">Zaplanowano %d wiadomości</item>
+        <item quantity="other">Zaplanowano %d wiadomości</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wybierz godzinę przypadającą co najmniej %d minutę od teraz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wybierz godzinę przypadającą co najmniej %d minuty od teraz.</item>
+        <item quantity="many">Wybierz godzinę przypadającą co najmniej %d minut od teraz.</item>
+        <item quantity="other">Wybierz godzinę przypadającą co najmniej %d minut od teraz.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Znaleziono %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Znaleziono %d</item>
+        <item quantity="many">Znaleziono %d</item>
+        <item quantity="other">Znaleziono %d</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Przenieść 1 rozmowę i %d inną wiadomość do Kosza?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Przenieść 1 rozmowę i %d inne wiadomości do Kosza?</item>
+        <item quantity="many">Przenieść 1 rozmowę i %d innych wiadomości do Kosza?</item>
+        <item quantity="other">Przenieść 1 rozmowę i %d innej wiadomości do Kosza?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Przenieść %d rozmowę i 1 inną wiadomość do Kosza?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Przenieść %d rozmowy i 1 inną wiadomość do Kosza?</item>
+        <item quantity="many">Przenieść %d rozmów i 1 inną wiadomość do Kosza?</item>
+        <item quantity="other">Przenieść %d rozmowy i 1 inną wiadomość do Kosza?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Wybierz maksymalnie %d osobę.
+(Widoczne są osoby używające numerów telefonów w tej rozmowie)."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Wybierz maksymalnie %d osoby.
+(Widoczne są osoby używające numerów telefonów w tej rozmowie)."</item>
+        <item quantity="many">"Wybierz maksymalnie %d osób.
+(Widoczne są osoby używające numerów telefonów w tej rozmowie)."</item>
+        <item quantity="other">"Wybierz maksymalnie %d osoby.
+(Widoczne są osoby używające numerów telefonów w tej rozmowie)."</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Czas snu: %d godzina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Czas snu: %d godziny</item>
+        <item quantity="many">Czas snu: %d godzin</item>
+        <item quantity="other">Czas snu: %d godziny</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Czas snu: %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Czas snu: %d minuty</item>
+        <item quantity="many">Czas snu: %d minut</item>
+        <item quantity="other">Czas snu: %d minuty</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pozostała %d godzina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pozostały %d godziny</item>
+        <item quantity="many">Pozostało %d godzin</item>
+        <item quantity="other">Pozostało %d godziny</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pozostała %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pozostały %d minuty</item>
+        <item quantity="many">Pozostało %d minut</item>
+        <item quantity="other">Pozostało %d minuty</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Została %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zostały %d sekundy</item>
+        <item quantity="many">Zostało %d sekund</item>
+        <item quantity="other">Zostało %d sekundy</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">Skopiowano wiadomość z karty SIM.</item>
+        <item quantity="other">Skopiowano wiadomości z karty SIM.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kategoria</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kategorie</item>
+        <item quantity="many">%d kategorii</item>
+        <item quantity="other">%d kategorii</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wybrano więcej niż %d odbiorcę, czyli limit SMS. Rozpocznij czat grupowy, aby wysłać wiadomość do wszystkich jednocześnie.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wybrano więcej niż %d odbiorców, czyli limit SMS. Rozpocznij czat grupowy, aby wysłać wiadomość do wszystkich jednocześnie.</item>
+        <item quantity="many">Wybrano więcej niż %d odbiorców, czyli limit SMS. Rozpocznij czat grupowy, aby wysłać wiadomość do wszystkich jednocześnie.</item>
+        <item quantity="other">Wybrano więcej niż %d odbiorców, czyli limit SMS. Rozpocznij czat grupowy, aby wysłać wiadomość do wszystkich jednocześnie.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Łącznie %d wiadomość</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Łącznie %d wiadomości</item>
+        <item quantity="many">Łącznie %d wiadomości</item>
+        <item quantity="other">Łącznie %d wiadomości</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d wiadomość została automatycznie odblokowana, ponieważ nadawcy nie są już uznawani za złośliwych.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d wiadomości zostały automatycznie odblokowane, ponieważ nadawcy nie są już uznawani za złośliwych.</item>
+        <item quantity="many">%d wiadomości zostało automatycznie odblokowanych, ponieważ nadawcy nie są już uznawani za złośliwych.</item>
+        <item quantity="other">%d wiadomości zostało automatycznie odblokowanych, ponieważ nadawcy nie są już uznawani za złośliwych.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">od %1$s i %2$d innej marki</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">od %1$s i %2$d inne marki</item>
+        <item quantity="many">od %1$s i %2$d innych marek</item>
+        <item quantity="other">od %1$s i %2$d innej marki</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nieprzeczytana wiadomość dotycząca dostawy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nieprzeczytane wiadomości dotyczące dostawy</item>
+        <item quantity="many">%d nieprzeczytanych wiadomości dotyczących dostawy</item>
+        <item quantity="other">%d nieprzeczytanej wiadomości dotyczącej dostawy</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">od %1$s i %2$d innego kontaktu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">od %1$s i %2$d innych kontaktów</item>
+        <item quantity="many">od %1$s i %2$d innych kontaktów</item>
+        <item quantity="other">od %1$s i %2$d innego kontaktu</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d nieprzeczytana wiadomość od %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d nieprzeczytane wiadomości od %2$s</item>
+        <item quantity="many">%1$d nieprzeczytanych wiadomości od %2$s</item>
+        <item quantity="other">%1$d nieprzeczytanej wiadomości od %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">w tym niektóre elementy od %1$s i %2$d innej marki</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">w tym niektóre elementy od %1$s i %2$d innych marek</item>
+        <item quantity="many">w tym niektóre elementy od %1$s i %2$d innych marek</item>
+        <item quantity="other">w tym niektóre elementy od %1$s i %2$d innej marki</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">w tym %d wiadomość dotycząca dostawy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">w tym %d wiadomości dotyczące dostawy</item>
+        <item quantity="many">w tym %d wiadomości dotyczących dostawy</item>
+        <item quantity="other">w tym %d wiadomości dotyczącej dostawy</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">w tym niektóre elementy od %1$s i %2$d innego kontaktu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">w tym niektóre elementy od %1$s i %2$d innych kontaktów</item>
+        <item quantity="many">w tym niektóre elementy od %1$s i %2$d innych kontaktów</item>
+        <item quantity="other">w tym niektóre elementy od %1$s i %2$d innego kontaktu</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nieprzeczytana wiadomość</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nieprzeczytane wiadomości</item>
+        <item quantity="many">%d nieprzeczytanych wiadomości</item>
+        <item quantity="other">%d nieprzeczytanych wiadomości</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nieprzeczytana wiadomość</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nieprzeczytane wiadomości</item>
+        <item quantity="many">%d nieprzeczytanych wiadomości</item>
+        <item quantity="other">%d nieprzeczytanych wiadomości</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zbliżający się alert dzisiaj</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zbliżające się alerty dzisiaj</item>
+        <item quantity="many">%d zbliżających się alertów dzisiaj</item>
+        <item quantity="other">%d zbliżającego się alertu dzisiaj</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W telefonie zapisano %d film.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W telefonie zapisano %d filmy.</item>
+        <item quantity="many">W telefonie zapisano %d filmów.</item>
+        <item quantity="other">W telefonie zapisano %d filmów.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Otrzymano dziś %1$s%2$d wiadomość dotyczącą dostawy%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Otrzymano dziś %1$s%2$d wiadomości dotyczące dostawy%3$s.</item>
+        <item quantity="many">Otrzymano dziś %1$s%2$d wiadomości dotyczących dostawy%3$s.</item>
+        <item quantity="other">Otrzymano dziś %1$s%2$d wiadomości dotyczącej dostawy%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Otrzymano dziś %1$s%2$d wiadomość dotyczącą dostaw%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Otrzymano dziś %1$s%2$d wiadomości dotyczące dostaw%3$s.</item>
+        <item quantity="many">Otrzymano dziś %1$s%2$d wiadomości dotyczących dostaw%3$s.</item>
+        <item quantity="other">Otrzymano dziś %1$s%2$d wiadomości dotyczącej dostaw%3$s.</item>
+    </plurals>
+</resources>

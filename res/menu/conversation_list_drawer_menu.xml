@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/conversation_list_menu" android:visible="true" android:orderInCategory="1">
+        <item android:id="@id/with_drawer_delete" android:visible="false" android:title="@string/delete" />
+        <item android:id="@id/with_drawer_menu_mark_as_read_all" android:visible="false" android:title="@string/mark_all_as_read" />
+        <item android:id="@id/with_drawer_menu_edit_category" android:visible="false" android:title="@string/edit_category" />
+        <item android:id="@id/with_drawer_menu_edit_pinned_conversation" android:visible="false" android:title="@string/reorder_pinned" />
+        <item android:id="@id/with_drawer_menu_start_group_chat" android:visible="false" android:title="@string/group_chat" />
+        <item android:id="@id/with_drawer_menu_scheduled_conversation" android:visible="false" android:title="@string/menu_scheduled_messages" />
+        <item android:id="@id/with_drawer_menu_starred_messages" android:visible="true" android:title="@string/starred_messages" />
+        <item android:id="@id/with_drawer_menu_blocked_messages" android:visible="false" android:title="@string/setting_blocked_title" />
+        <item android:id="@id/with_drawer_menu_group_list" android:visible="false" android:title="@string/group_list" />
+        <item android:id="@id/with_drawer_menu_safe_messages" android:visible="false" android:title="@string/menu_certification_messages" />
+        <item android:id="@id/with_drawer_menu_pc_client_management" android:visible="false" android:title="@string/menu_pc_client_management" />
+        <item android:id="@id/with_drawer_menu_pc_client_management_sim2" android:visible="false" />
+        <item android:id="@id/with_drawer_menu_official_document_box" android:visible="false" android:title="@string/menu_official_document_box" />
+        <item android:id="@id/with_drawer_menu_trash" android:visible="false" android:title="@string/menu_trash" />
+        <item android:id="@id/with_drawer_menu_quick_response_list" android:visible="false" android:title="@string/quick_responses" />
+        <item android:id="@id/with_drawer_menu_send_message_individually" android:visible="false" android:title="@string/setting_send_message_individually" />
+        <item android:id="@id/with_drawer_menu_cp_message" android:visible="false" android:title="@string/menu_cp_messages" />
+        <item android:id="@id/with_drawer_menu_notifications" android:visible="false" android:title="@string/pref_title_notification_enabled" />
+        <item android:id="@id/with_drawer_menu_notifications_two_phone" android:visible="false" android:title="@string/pref_title_notification_enabled" />
+    </group>
+</menu>

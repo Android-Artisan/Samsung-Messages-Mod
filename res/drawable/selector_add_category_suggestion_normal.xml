@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <corners android:radius="@dimen/add_category_dialog_button_radius" />
+            <solid android:color="@color/theme_category_tag_selected_bg_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+    <item android:state_focused="true">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <corners android:radius="@dimen/add_category_dialog_button_radius" />
+            <stroke android:width="@dimen/add_category_dialog_button_stroke_width" android:color="@color/theme_category_tag_selected_bg_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+    <item android:state_pressed="true">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <corners android:radius="@dimen/add_category_dialog_button_radius" />
+            <solid android:color="@color/ripple_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+    <item>
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <corners android:radius="@dimen/add_category_dialog_button_radius" />
+            <solid android:color="@color/theme_category_tag_bg_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/orc_ic_plus" android:id="@id/add" android:title="@string/setting_quick_response_add_quick_response" app:contentDescription="@string/setting_quick_response_add_quick_response" app:showAsAction="always" />
+    <item android:icon="@drawable/group_ic_delete" android:id="@id/delete" android:title="@string/delete_description" app:contentDescription="@string/delete_description" app:iconTint="@color/theme_toolbar_menu_icon_color" app:showAsAction="always" />
+</menu>

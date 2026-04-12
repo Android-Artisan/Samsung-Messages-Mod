@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 घंटा</item>
+        <item>6 घंटे</item>
+        <item>24 घंटे</item>
+        <item>2 दिन</item>
+        <item>नेटवर्क डिफॉल्ट</item>
+        <item>अधिकतम</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>मूल</item>
+        <item>उच्च</item>
+        <item>मध्यम</item>
+        <item>कम</item>
+        <item>हमेशा पूछें</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>मूल</item>
+        <item>उच्च गुणवत्ता</item>
+        <item>सामान्य गुणवत्ता</item>
+        <item>कम रिजॉल्यूशन</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>सभी चैनल</item>
+        <item>मेरा चैनल</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>स्वचालित</item>
+        <item>टेक्स्ट या मल्टीमीडिया</item>
+        <item>चैट</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>स्वचालित</item>
+        <item>टेक्स्ट या मल्टीमीडिया</item>
+        <item>RCS चैट मैसेज</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ब्लॉक करें</item>
+        <item>पहले पूछें</item>
+        <item>अनुमति दें</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>हमेशा</item>
+        <item>प्रॉम्प्ट</item>
+        <item>कभी नहीं</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM अक्षर</item>
+        <item>यूनिकोड</item>
+        <item>स्वचालित</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>टेक्स्ट या मल्टीमीडिया मैसेज के रूप में दोबारा भेजें</item>
+        <item>दोबारा न भेजें</item>
+        <item>दोबारा भेजने से पहले पूछें</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>टेक्‍स्‍ट या मल्टीमीडिया मैसेज का उपयोग करें</item>
+        <item>पुनः नहीं भेजें</item>
+        <item>हमेशा पूछें</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>मूल</item>
+        <item>नेटवर्क डिफॉल्ट</item>
+        <item>हमेशा पूछें</item>
+    </string-array>
+</resources>

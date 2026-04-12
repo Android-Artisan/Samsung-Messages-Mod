@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບໍ່ສາມາດເອີ້ນໃຊ້ຂໍ້ຄວາມຄືນໄດ້. ສາມາດເອີ້ນໃຊ້ຂໍ້ຄວາມຄືນໄດ້ພາຍໃນ %d ນາທີຫຼັງຈາກສົ່ງແລ້ວເທົ່ານັ້ນ.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ອອກຈາກແຊັດກຸ່ມ %d ບໍອີກດ້ວຍບໍ</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ອອກຈາກ %d ການສົນທະນາກຸ່ມນຳອີກ</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ລຶບຊຸດອີໂມຕິຄອນ %d ລາຍການບໍ?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຍ້າຍ %d ການສົນທະນາໃສ່ຖັງຂີ້ເຫຍື້ອບໍ?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຂໍ້ຄວາມໃນຖັງຂີ້ເຫຍື້ອຈະຖືກລຶບຢ່າງຖາວອນຫຼັງຈາກ %d ວັນ.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຂໍ້ຄວາມທີ່ລຶບຈະຢູ່ໃນຖັງຂີ້ເຫຍື້ອເປັນເວລາ %d ວັນກ່ອນພວກມັນຈະຖືກລຶບຖາວອນ.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຍ້າຍ %d ຂໍ້ຄວາມໃສ່ຖັງຂີ້ເຫຍື້ອບໍ?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ມື້ນີ້ແມ່ນວັນພິເສດ (%1$s ແລະ ອີກ %2$d ເຫດການ). ສົ່ງບາງສິ່ງບາງຢ່າງໃຫ້ພວກມັນບໍ?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ມັນເປັນວັນເກີດຂອງ %1$s ແລະ ຜູ້ຕິດຕໍ່ອີກ %2$d ຄົນ! ສົ່ງບາງຢາງພິເສດບໍ?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບລັອກ %d ຂໍ້ຄວາມໃນ 30 ວັນຜ່ານມາແລ້ວ</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເລືອກ %d ແລ້ວ</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບໍ່ສາມາດບລັອກ %d ທີ່ຢູ່ອີເມລ໌ໄດ້ເພາະວ່າພວກມັນບໍ່ຖືກຕ້ອງ.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບໍ່ສາມາດບລັອກ %d ເບີໂທລະສັບໄດ້ເພາະວ່າພວກມັນບໍ່ຖືກຕ້ອງ.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບໍ່ສາມາດບລັອກຜູ້ສົ່ງ %d ຄົນໄດ້ເພາະວ່າຂໍ້ມູນຂອງພວກເຂົາບໍ່ຖືກຕ້ອງ.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບໍ່ສາມາດເລືອກຜູ້ຕິດຕໍ່ໄດ້ຫຼາຍກວ່າ %d ຄົນ.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ບັດ %2$s</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຜູ້ຕິດຕໍ່ແຊັດ %d ຄົນ</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຜູ້ຕິດຕໍ່ໃນ Chatting+ %d ຄົນ</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ຖ້າທ່ານຖອນລົງທະບຽນຈາກ Chatting+, ທ່ານຈະບໍ່ສາມາດສ້າງ ຫຼື ເຂົ້າຮ່ວມການແຊັດໜຶ່ງຕໍ່ໜຶ່ງ ແລະ ແຊັດກຸ່ມ, ຮັບການຢືນຢັນທີ່ຂໍ້ຄວາມຂອງທ່ານຖືກອ່ານ ຫຼື ແຊຣ໌ໄຟລ໌ຂະໜາດໃຫຍ່. ທ່ານແນ່ໃຈບໍວ່າທ່ານຕ້ອງການຖອນລົງທະບຽນ?
+
+ທ່ານຈະຕ້ອງລໍຖ້າ %d ນາທີກ່ອນລົງທະບຽນອີກຄັ້ງ."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແຊັດບຸທ໌</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຜູ້ຕິດຕໍ່ %d ຄົນ</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເລືອກ %d ແລ້ວ</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ໝົດອາຍຸໃນ %d ວັນ</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ຄູປ໋ອງໝົດອາຍຸໃນໄວໆນີ້</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຄູປ໋ອງ %1$s ຂອງທ່ານຈະໝົດອາຍຸໃນ %2$d ວັນ.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຄູປ໋ອງຂອງທ່ານຈະໝົດອາຍຸໃນ %d ວັນ.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">ລຶບ %d ການສົນທະນາບໍ?</item>
+        <item quantity="other">ລຶບ %d ການສົນທະນາບໍ?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ລຶບ %d ການສົນທະນາຢ່າງຖາວອນບໍ?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">ລຶບ %d ຂໍ້ຄວາມບໍ?</item>
+        <item quantity="other">ລຶບ %d ຂໍ້ຄວາມບໍ?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ລຶບ %d ຂໍ້ຄວາມຢ່າງຖາວອນບໍ?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ຂໍ້ຄວາມການຈັດສົ່ງ</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ລຶບ %d ບັດ​ຖິ້ມ​ບໍ?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ສະເພາະ %1$d ໝວດເທົ່ານັ້ນທີ່ສາມາດສະແດງໃນໜ້າຈໍຫຼັກ. ສ່ວນທີເຫຼືອຖືກເຊື່ອງ. ເລືອກໝວດ %2$s ຖ້າທ່ານຕ້ອງການເຂົ້າເຖິງມັນຢ່າງວ່ອງໄວຈາກໜ້າຈໍຫຼັກ.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ນາທີ</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ວິນາທີ</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບັນທຶກ %d ໄຟລ໌ໃສ່ໂທລະສັບຂອງທ່ານແລ້ວ.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບັນທຶກ %d ໄຟລ໌ໃສ່ແທັບເລັດຂອງທ່ານແລ້ວ.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ການທຸລະກຳມື້ນີ້</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ແລະ %2$d ເບີໂທທີ່ບໍ່ຮູ້ຈັກ</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ເບີໂທທີ່ບໍ່ຮູ້ຈັກ</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ບໍ່ສາມາດເຂົ້າຮ່ວມແຊັດກຸ່ມໄດ້. ເອົາພວກເຂົາອອກຈາກຜູ້ຮັບທີ່ເລືອກໄວ້, ຫຼື ສົ່ງຂໍ້ຄວາມຕົວອັກສອນຫາຜູ້ຮັບໄດ້ບໍ່ເກີນ %2$d ຄົນແທນ.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ຜູ້ຮັບໜຶ່ງລາຍຂຶ້ນໄປທີ່ລວມເຂົ້າບໍ່ສາມາດໃຊ້ການສົ່ງຂໍ້ຄວາມຂັ້ນສູງໄດ້, ດັ່ງນັ້ນ ກຸ່ມຂອງທ່ານຖືກຈຳກັດສະມາຊິກທີ່ %d ຄົນ.
+
+ເພື່ອສືບຕໍ່, ເລືອກສະມາຊິກທີ່ສາມາດໃຊ້ການສົ່ງຂໍ້ຄວາມຂັ້ນສູງ. ພວກເຂົາຖືກໝາຍດ້ວຍໄອຄອນປຸ່ມສີຟ້າ."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເພື່ອເລີ່ມຕົ້ນແຊັດກຸ່ມ, ເອົາຜູ້ຮັບທີ່ເລືອກໄວ້ສຸດທ້າຍອອກ. ຖ້າທ່ານຕ້ອງການລວມເອົາຜູ້ຮັບສຸດທ້າຍ, ເອົາຜູ້ຮັບ %d ຄົນອອກເພື່ອສົ່ງຂໍ້ຄວາມ.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບັນທຶກ %d ຮູບໄປໃສ່ແທັບເລັດຂອງທ່ານແລ້ວ.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບັນທຶກ %d ຮູບໄປໃສ່ໂທລະສັບຂອງທ່ານແລ້ວ.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບັນທຶກ 1 ຮູບ ແລະ %d ວິດີໂອໃສ່ໂທລະສັບຂອງທ່ານແລ້ວ.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບັນທຶກ %d ຮູບ ແລະ 1 ວິດີໂອໄປໃສ່ໂທລະສັບຂອງທ່ານແລ້ວ.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ແລະອີກ %2$d ຄົນເຂົ້າຮ່ວມແລ້ວ</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຜູ້ຕິດຕໍ່ %d ຄົນ</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບໍ່ສາມາດເລືອກໄດ້ຫຼາຍກວ່າ %d ຄົນ.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເມື່ອທ່ານແຕະປຸ່ມຄຳແນະນຳຂໍ້ຄວາມ, %d ຂໍ້ຄວາມຫຼ້າສຸດໃນການສົນທະນາຂອງທ່ານຈະຖືກປະມວນຜົນທາງອອນໄລນ໌. ຄຳແນະນຳທີ່ສ້າງໂດຍ AI ອາດຈະບໍ່ຖືກຕ້ອງ ຫຼື ມີເນື້ອໃນທີ່ບໍ່ເໝາະສົມ.</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ແຊຣ໌ %d ໄຟລ໌ໂດຍໃຊ້ການແຊຣ໌ດ່ວນ</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ບັດທີ່ເປັນປະໂຫຍດໃໝ່</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ການສົນທະນາ</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d ຂໍ້ຄວາມ</item>
+        <item quantity="other">%d ຂໍ້ຄວາມ</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຮັກສາຂໍ້ຄວາມທີ່ລຶບໄວ້ເປັນເວລາ %d ວັນ.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ທ່ານສາມາດຣີເຟຣຊ໌ອີກຄັ້ງໃນ %d ນາທີ.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ສົ່ງ %d ຂໍ້ຄວາມດຽວນີ້ບໍ?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຂໍ້ມູນຂອງທ່ານຈະຖືກອັບເດດ. ລໍຖ້າຢ່າງໜ້ອຍ %d ນາທີ, ຈາກນັ້ນລອງໃໝ່ອີກ.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບໍ່ສາມາດປັກໝຸດໄດ້ຫຼາຍກວ່າ %d ການສົນທະນາ.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s ແລະອີກ %2$d ຄົນ</item>
+        <item quantity="other">%1$s ແລະອື່ນໆອີກ %2$d</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເອົາ %d ບັດອອກບໍ?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ປ້ອນເຫດຜົນ (ບໍ່ເກີນ %d ຕົວອັກສອນ)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ກຳນົດເວລາ %d ຂໍ້ຄວາມແລ້ວ</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເລືອກເວລາຢ່າງໜ້ອຍ %d ນາທີຈາກດຽວນີ້.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ພົບ %d</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຍ້າຍ 1 ການສົນທະນາ ແລະ %d ຂໍ້ຄວາມໃສ່ຖັງຂີ້ເຫຍື້ອບໍ?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຍ້າຍ %d ການສົນທະນາ ແລະ ອີກ 1 ຂໍ້ຄວາມໃສ່ຖັງຂີ້ເຫຍື້ອບໍ?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ເລືອກໄດ້ເຖິງ %d ຄົນ.
+(ສະແດງຜູ້ຄົນທີ່ກຳລັງໃຊ້ເບີໂທລະສັບຂອງພວກເຂົາໃນການສົນທະນານີ້.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເວລານອນຫຼັບ: %d ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເວລານອນຫຼັບ: %d ນາທີ</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເຫຼືອຢູ່ %d ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຍັງເຫຼືອ %d ນາທີ</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຍັງເຫຼືອອີກ %d ວິນາທີ</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">ຂໍ້ຄວາມກັອບປີ້ມາຈາກແຜ່ນ SIM.</item>
+        <item quantity="other">ຂໍ້ຄວາມຖືກກັອບປີ້ມາຈາກແຜ່ນ SIM.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ໝວດ</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ທ່ານເລືອກຜູ້ຮັບຫຼາຍກວ່າ %d ຄົນແລ້ວ, ເຊິ່ງເປັນຂີດຈຳກັດສຳລັບຂໍ້ຄວາມຕົວອັກສອນ. ເລີ່ມຕົ້ນແຊັດກຸ່ມເພື່ອສົ່ງຂໍ້ຄວາມຫາພວກເຂົາທັງໝົດພ້ອມກັນ.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ທັງໝົດ %d ຂໍ້ຄວາມ</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຂໍ້ຄວາມ %d ສະບັບຖືກປົດບລັອກອັດຕະໂນມັດເພາະວ່າຜູ້ສົ່ງບໍ່ຖືກຖືວ່າເປັນອັນຕະລາຍອີກຕໍ່ໄປ.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຈາກ %1$s ແລະ %2$d ຍີ່ຫໍ້ອື່ນໆ</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຂໍ້ຄວາມຈັດສົ່ງທີ່ບໍ່ໄດ້ອ່ານ %d ຂໍ້ຄວາມ</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຈາກ %1$s ແລະ %2$d ຜູ້ຕິດຕໍ່ອື່ນໆ</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ຂໍ້ຄວາມທີ່ບໍ່ໄດ້ອ່ານຈາກ %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ລວມທັງບາງຍີ່ຫໍ້ຈາກ %1$s ແລະ ອີກ %2$d ຍີ່ຫໍ້ອື່ນໆ</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ລວມທັງ %d ຂໍ້​ຄວາມຈັດສົ່ງ</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ລວມທັງບາງຄົນຈາກ %1$s ແລະ ອີກ %2$d ຜູ້ຕິດຕໍ່ອື່ນໆ</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ຂໍ້ຄວາມບໍ່ໄດ້ອ່ານ</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ຂໍ້ຄວາມບໍ່ໄດ້ອ່ານ</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ແຈ້ງເຕືອນທີ່ຈະມາເຖິງມື້ນີ້</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບັນທຶກ %d ວິດີໂອໄປໃສ່ໂທລະສັບຂອງທ່ານແລ້ວ.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ທ່ານໄດ້ຮັບ %1$s%2$d ຂໍ້ຄວາມກ່ຽວກັບການຈັດສົ່ງ%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ທ່ານໄດ້ຮັບ %1$s%2$d ຂໍ້ຄວາມກ່ຽວກັບການຈັດສົ່ງ%3$s.</item>
+    </plurals>
+</resources>

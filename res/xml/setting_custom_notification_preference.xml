@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="@string/screen_Message_Setting_Custom_Notifications"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.setting.widget.SettingSwitchBarPreference android:layout="@layout/setting_preference_switch_bar_layout" android:key="pref_key_custom_noti_switch_bar" />
+    <com.samsung.android.messaging.ui.view.setting.widget.CustomUnclickablePreference android:title="@string/notification_setting_off_info" android:key="pref_key_custom_noti_off_description" />
+    <com.samsung.android.messaging.ui.view.setting.widget.DepthInSwitchSettingPreference android:title="@string/pref_title_notification_sound" android:key="pref_key_custom_noti_sound" android:defaultValue="content://settings/system/notification_sound" app:eventForSwitchView="@string/event_Sound_switch" app:screen="@string/screen_Message_Setting_Custom_Notifications">
+        <intent android:targetPackage="@string/package_name" android:targetClass="com.samsung.android.messaging.ui.view.setting.notification.picker.SoundPickerActivity" />
+    </com.samsung.android.messaging.ui.view.setting.widget.DepthInSwitchSettingPreference>
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/pref_title_notification_vibrateWhen" android:key="pref_key_custom_noti_vibrate" android:defaultValue="true" app:eventForSwitchView="@string/event_Vibrate_switch" app:screen="@string/screen_Message_Setting_Custom_Notifications" />
+    <com.samsung.android.messaging.ui.view.setting.widget.CustomUnclickablePreference android:title="@string/notification_setting_silent_info" android:key="pref_key_custom_noti_silent_info" />
+    <androidx.preference.PreferenceCategory android:title="@string/notification_setting_notification_type" android:key="pref_key_custom_noti_menu_divider">
+        <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/pref_title_message_popup" android:key="pref_key_custom_noti_popup" android:defaultValue="true" app:eventForSwitchView="@string/event_Messages_popup_switch" app:screen="@string/screen_Message_Setting_Custom_Notifications" />
+        <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/pref_title_preview_message_notification" android:key="pref_key_custom_noti_preview" android:summary="@string/pref_summary_preview_message_notification" android:defaultValue="true" app:eventForSwitchView="@string/event_Preview_new_messages_switch" app:screen="@string/screen_Message_Setting_Custom_Notifications" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

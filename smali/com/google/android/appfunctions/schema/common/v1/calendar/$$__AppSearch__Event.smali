@@ -1,0 +1,910 @@
+.class public final Lcom/google/android/appfunctions/schema/common/v1/calendar/$$__AppSearch__Event;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lh/w;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lh/w;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final SCHEMA_NAME:Ljava/lang/String; = "com.google.android.appfunctions.schema.common.v1.calendar.Event"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public fromGenericDocument(Lh/z;Ljava/util/Map;)Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;
+    .locals 19
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lh/z;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;>;)",
+            "Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;"
+        }
+    .end annotation
+
+    move-object/from16 v0, p1
+
+    move-object/from16 v1, p2
+
+    .line 2
+    iget-object v2, v0, Lh/z;->a:Landroidx/appsearch/safeparcel/GenericDocumentParcel;
+
+    .line 3
+    iget-object v4, v2, Landroidx/appsearch/safeparcel/GenericDocumentParcel;->a:Ljava/lang/String;
+
+    .line 4
+    iget-object v5, v2, Landroidx/appsearch/safeparcel/GenericDocumentParcel;->b:Ljava/lang/String;
+
+    .line 5
+    const-string v2, "title"
+
+    invoke-virtual {v0, v2}, Lh/z;->m(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v3, 0x0
+
+    if-eqz v2, :cond_0
+
+    .line 6
+    array-length v7, v2
+
+    if-eqz v7, :cond_0
+
+    .line 7
+    aget-object v2, v2, v3
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v2, 0x0
+
+    .line 8
+    :goto_0
+    const-string v7, "description"
+
+    invoke-virtual {v0, v7}, Lh/z;->m(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v7
+
+    if-eqz v7, :cond_1
+
+    .line 9
+    array-length v8, v7
+
+    if-eqz v8, :cond_1
+
+    .line 10
+    aget-object v7, v7, v3
+
+    goto :goto_1
+
+    :cond_1
+    const/4 v7, 0x0
+
+    .line 11
+    :goto_1
+    const-string v8, "startDate"
+
+    invoke-virtual {v0, v8}, Lh/z;->g(Ljava/lang/String;)Lh/z;
+
+    move-result-object v8
+
+    .line 12
+    const-class v9, Lcom/google/android/appfunctions/schema/common/v1/types/DateTime;
+
+    if-eqz v8, :cond_2
+
+    .line 13
+    invoke-virtual {v8, v9, v1}, Lh/z;->p(Ljava/lang/Class;Ljava/util/Map;)Ljava/lang/Object;
+
+    move-result-object v8
+
+    check-cast v8, Lcom/google/android/appfunctions/schema/common/v1/types/DateTime;
+
+    goto :goto_2
+
+    :cond_2
+    const/4 v8, 0x0
+
+    .line 14
+    :goto_2
+    const-string v10, "endDate"
+
+    invoke-virtual {v0, v10}, Lh/z;->g(Ljava/lang/String;)Lh/z;
+
+    move-result-object v10
+
+    if-eqz v10, :cond_3
+
+    .line 15
+    invoke-virtual {v10, v9, v1}, Lh/z;->p(Ljava/lang/Class;Ljava/util/Map;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/google/android/appfunctions/schema/common/v1/types/DateTime;
+
+    move-object v9, v1
+
+    goto :goto_3
+
+    :cond_3
+    const/4 v9, 0x0
+
+    .line 16
+    :goto_3
+    const-string v1, "attendeeIds"
+
+    invoke-virtual {v0, v1}, Lh/z;->m(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_4
+
+    .line 17
+    invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v1
+
+    move-object v10, v1
+
+    goto :goto_4
+
+    :cond_4
+    const/4 v10, 0x0
+
+    .line 18
+    :goto_4
+    const-string v1, "allDay"
+
+    invoke-virtual {v0, v1}, Lh/z;->e(Ljava/lang/String;)[Z
+
+    move-result-object v1
+
+    if-eqz v1, :cond_5
+
+    .line 19
+    array-length v11, v1
+
+    if-eqz v11, :cond_5
+
+    .line 20
+    aget-boolean v1, v1, v3
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    move-object v11, v1
+
+    goto :goto_5
+
+    :cond_5
+    const/4 v11, 0x0
+
+    .line 21
+    :goto_5
+    const-string v1, "location"
+
+    invoke-virtual {v0, v1}, Lh/z;->m(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_6
+
+    .line 22
+    array-length v12, v1
+
+    if-eqz v12, :cond_6
+
+    .line 23
+    aget-object v1, v1, v3
+
+    move-object v12, v1
+
+    goto :goto_6
+
+    :cond_6
+    const/4 v12, 0x0
+
+    .line 24
+    :goto_6
+    const-string v1, "recurrenceSchedule"
+
+    invoke-virtual {v0, v1}, Lh/z;->m(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_7
+
+    .line 25
+    array-length v13, v1
+
+    if-eqz v13, :cond_7
+
+    .line 26
+    aget-object v1, v1, v3
+
+    move-object v13, v1
+
+    goto :goto_7
+
+    :cond_7
+    const/4 v13, 0x0
+
+    .line 27
+    :goto_7
+    const-string v1, "eventStatus"
+
+    invoke-virtual {v0, v1}, Lh/z;->m(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_8
+
+    .line 28
+    array-length v14, v1
+
+    if-eqz v14, :cond_8
+
+    .line 29
+    aget-object v1, v1, v3
+
+    move-object v14, v1
+
+    goto :goto_8
+
+    :cond_8
+    const/4 v14, 0x0
+
+    .line 30
+    :goto_8
+    const-string v1, "isReadOnly"
+
+    invoke-virtual {v0, v1}, Lh/z;->e(Ljava/lang/String;)[Z
+
+    move-result-object v1
+
+    if-eqz v1, :cond_9
+
+    .line 31
+    array-length v15, v1
+
+    if-eqz v15, :cond_9
+
+    .line 32
+    aget-boolean v1, v1, v3
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    move-object v15, v1
+
+    goto :goto_9
+
+    :cond_9
+    const/4 v15, 0x0
+
+    .line 33
+    :goto_9
+    const-string v1, "isInPublicCalendar"
+
+    invoke-virtual {v0, v1}, Lh/z;->e(Ljava/lang/String;)[Z
+
+    move-result-object v1
+
+    if-eqz v1, :cond_a
+
+    .line 34
+    array-length v6, v1
+
+    if-eqz v6, :cond_a
+
+    .line 35
+    aget-boolean v1, v1, v3
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    move-object/from16 v16, v1
+
+    goto :goto_a
+
+    :cond_a
+    const/16 v16, 0x0
+
+    .line 36
+    :goto_a
+    const-string v1, "isOrganizer"
+
+    invoke-virtual {v0, v1}, Lh/z;->e(Ljava/lang/String;)[Z
+
+    move-result-object v1
+
+    if-eqz v1, :cond_b
+
+    .line 37
+    array-length v6, v1
+
+    if-eqz v6, :cond_b
+
+    .line 38
+    aget-boolean v1, v1, v3
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    move-object/from16 v17, v1
+
+    goto :goto_b
+
+    :cond_b
+    const/16 v17, 0x0
+
+    .line 39
+    :goto_b
+    const-string v1, "selfAttendeeStatus"
+
+    invoke-virtual {v0, v1}, Lh/z;->m(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_c
+
+    .line 40
+    array-length v1, v0
+
+    if-eqz v1, :cond_c
+
+    .line 41
+    aget-object v0, v0, v3
+
+    move-object/from16 v18, v0
+
+    goto :goto_c
+
+    :cond_c
+    const/16 v18, 0x0
+
+    .line 42
+    :goto_c
+    new-instance v0, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;
+
+    move-object v3, v0
+
+    move-object v6, v2
+
+    invoke-direct/range {v3 .. v18}, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/android/appfunctions/schema/common/v1/types/DateTime;Lcom/google/android/appfunctions/schema/common/v1/types/DateTime;Ljava/util/List;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic fromGenericDocument(Lh/z;Ljava/util/Map;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/appfunctions/schema/common/v1/calendar/$$__AppSearch__Event;->fromGenericDocument(Lh/z;Ljava/util/Map;)Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public getDependencyDocumentClasses()Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/Class<",
+            "*>;>;"
+        }
+    .end annotation
+
+    const-class p0, Lcom/google/android/appfunctions/schema/common/v1/types/DateTime;
+
+    invoke-static {p0}, Lf1/d;->w(Ljava/lang/Class;)Ljava/util/ArrayList;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public getSchema()Lh/u;
+    .locals 6
+
+    new-instance p0, Lh/h;
+
+    const-string v0, "com.google.android.appfunctions.schema.common.v1.calendar.Event"
+
+    invoke-direct {p0, v0}, Lh/h;-><init>(Ljava/lang/String;)V
+
+    const-string v0, "title"
+
+    const/4 v1, 0x3
+
+    const/4 v2, 0x0
+
+    invoke-static {v0, v1, v2, v2, v2}, Lf1/d;->n(Ljava/lang/String;IIII)Lh/t;
+
+    move-result-object v0
+
+    const-string v3, "description"
+
+    const/4 v4, 0x2
+
+    invoke-static {p0, v0, v3, v4, v2}, Lf1/d;->i(Lh/h;Lh/t;Ljava/lang/String;II)Lh/s;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2}, Lh/s;->c(I)V
+
+    invoke-virtual {v0, v2}, Lh/s;->d(I)V
+
+    invoke-virtual {v0}, Lh/s;->a()Lh/t;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lh/h;->a(Lh/r;)V
+
+    const-string v0, "startDate"
+
+    const-string v3, "com.google.android.appfunctions.schema.common.v1.types.DateTime"
+
+    invoke-static {v1, v0, v3}, Lf1/d;->e(ILjava/lang/String;Ljava/lang/String;)Lh/k;
+
+    move-result-object v0
+
+    iput-boolean v2, v0, Lh/k;->d:Z
+
+    const-string v5, "endDate"
+
+    invoke-static {v0, p0, v5, v3, v1}, Lf1/d;->g(Lh/k;Lh/h;Ljava/lang/String;Ljava/lang/String;I)Lh/k;
+
+    move-result-object v0
+
+    iput-boolean v2, v0, Lh/k;->d:Z
+
+    const-string v1, "attendeeIds"
+
+    const/4 v3, 0x1
+
+    invoke-static {v0, p0, v1, v3, v2}, Lf1/d;->j(Lh/k;Lh/h;Ljava/lang/String;II)Lh/s;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2}, Lh/s;->c(I)V
+
+    invoke-virtual {v0, v2}, Lh/s;->d(I)V
+
+    invoke-virtual {v0}, Lh/s;->a()Lh/t;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lh/h;->a(Lh/r;)V
+
+    new-instance v0, Lh/f;
+
+    const-string v1, "allDay"
+
+    invoke-direct {v0, v1}, Lh/f;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, v4}, Lh/f;->b(I)V
+
+    invoke-virtual {v0}, Lh/f;->a()Lh/g;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lh/h;->a(Lh/r;)V
+
+    new-instance v0, Lh/s;
+
+    const-string v1, "location"
+
+    invoke-direct {v0, v1}, Lh/s;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, v4}, Lh/s;->b(I)V
+
+    invoke-virtual {v0, v2}, Lh/s;->e(I)V
+
+    invoke-virtual {v0, v2}, Lh/s;->c(I)V
+
+    invoke-virtual {v0, v2}, Lh/s;->d(I)V
+
+    invoke-virtual {v0}, Lh/s;->a()Lh/t;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lh/h;->a(Lh/r;)V
+
+    const-string v0, "recurrenceSchedule"
+
+    invoke-static {v0, v4, v2, v2, v2}, Lf1/d;->n(Ljava/lang/String;IIII)Lh/t;
+
+    move-result-object v0
+
+    const-string v1, "eventStatus"
+
+    invoke-static {p0, v0, v1, v4, v2}, Lf1/d;->i(Lh/h;Lh/t;Ljava/lang/String;II)Lh/s;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2}, Lh/s;->c(I)V
+
+    invoke-virtual {v0, v2}, Lh/s;->d(I)V
+
+    invoke-virtual {v0}, Lh/s;->a()Lh/t;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lh/h;->a(Lh/r;)V
+
+    new-instance v0, Lh/f;
+
+    const-string v1, "isReadOnly"
+
+    invoke-direct {v0, v1}, Lh/f;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, v4}, Lh/f;->b(I)V
+
+    invoke-virtual {v0}, Lh/f;->a()Lh/g;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lh/h;->a(Lh/r;)V
+
+    new-instance v0, Lh/f;
+
+    const-string v1, "isInPublicCalendar"
+
+    invoke-direct {v0, v1}, Lh/f;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, v4}, Lh/f;->b(I)V
+
+    invoke-virtual {v0}, Lh/f;->a()Lh/g;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lh/h;->a(Lh/r;)V
+
+    new-instance v0, Lh/f;
+
+    const-string v1, "isOrganizer"
+
+    invoke-direct {v0, v1}, Lh/f;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, v4}, Lh/f;->b(I)V
+
+    invoke-virtual {v0}, Lh/f;->a()Lh/g;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lh/h;->a(Lh/r;)V
+
+    new-instance v0, Lh/s;
+
+    const-string v1, "selfAttendeeStatus"
+
+    invoke-direct {v0, v1}, Lh/s;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, v4}, Lh/s;->b(I)V
+
+    invoke-virtual {v0, v2}, Lh/s;->e(I)V
+
+    invoke-virtual {v0, v2}, Lh/s;->c(I)V
+
+    invoke-virtual {v0, v2}, Lh/s;->d(I)V
+
+    invoke-virtual {v0}, Lh/s;->a()Lh/t;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lh/h;->a(Lh/r;)V
+
+    invoke-virtual {p0}, Lh/h;->b()Lh/u;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public getSchemaName()Ljava/lang/String;
+    .locals 0
+
+    const-string p0, "com.google.android.appfunctions.schema.common.v1.calendar.Event"
+
+    return-object p0
+.end method
+
+.method public toGenericDocument(Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;)Lh/z;
+    .locals 5
+
+    const/4 p0, 0x1
+
+    const/4 v0, 0x0
+
+    .line 2
+    new-instance v1, Lh/z$a;
+
+    .line 3
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->a:Ljava/lang/String;
+
+    .line 4
+    const-string v3, "com.google.android.appfunctions.schema.common.v1.calendar.Event"
+
+    iget-object v4, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->b:Ljava/lang/String;
+
+    invoke-direct {v1, v2, v4, v3}, Lh/z$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 5
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->c:Ljava/lang/String;
+
+    if-eqz v2, :cond_0
+
+    .line 6
+    const-string v3, "title"
+
+    filled-new-array {v2}, [Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v3, v2}, Lh/z$a;->g(Ljava/lang/String;[Ljava/lang/String;)Lh/z$a;
+
+    .line 7
+    :cond_0
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->d:Ljava/lang/String;
+
+    if-eqz v2, :cond_1
+
+    .line 8
+    const-string v3, "description"
+
+    filled-new-array {v2}, [Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v3, v2}, Lh/z$a;->g(Ljava/lang/String;[Ljava/lang/String;)Lh/z$a;
+
+    .line 9
+    :cond_1
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->e:Lcom/google/android/appfunctions/schema/common/v1/types/DateTime;
+
+    if-eqz v2, :cond_2
+
+    .line 10
+    invoke-static {v2}, Lh/z;->b(Ljava/lang/Object;)Lh/z;
+
+    move-result-object v2
+
+    .line 11
+    const-string v3, "startDate"
+
+    filled-new-array {v2}, [Lh/z;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v3, v2}, Lh/z$a;->d(Ljava/lang/String;[Lh/z;)Lh/z$a;
+
+    .line 12
+    :cond_2
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->f:Lcom/google/android/appfunctions/schema/common/v1/types/DateTime;
+
+    if-eqz v2, :cond_3
+
+    .line 13
+    invoke-static {v2}, Lh/z;->b(Ljava/lang/Object;)Lh/z;
+
+    move-result-object v2
+
+    .line 14
+    const-string v3, "endDate"
+
+    filled-new-array {v2}, [Lh/z;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v3, v2}, Lh/z$a;->d(Ljava/lang/String;[Lh/z;)Lh/z$a;
+
+    .line 15
+    :cond_3
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->g:Ljava/util/List;
+
+    if-eqz v2, :cond_4
+
+    .line 16
+    new-array v3, v0, [Ljava/lang/String;
+
+    invoke-interface {v2, v3}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, [Ljava/lang/String;
+
+    .line 17
+    const-string v3, "attendeeIds"
+
+    invoke-virtual {v1, v3, v2}, Lh/z$a;->g(Ljava/lang/String;[Ljava/lang/String;)Lh/z$a;
+
+    .line 18
+    :cond_4
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->h:Ljava/lang/Boolean;
+
+    if-eqz v2, :cond_5
+
+    .line 19
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v2
+
+    new-array v3, p0, [Z
+
+    aput-boolean v2, v3, v0
+
+    const-string v2, "allDay"
+
+    invoke-virtual {v1, v2, v3}, Lh/z$a;->b(Ljava/lang/String;[Z)Lh/z$a;
+
+    .line 20
+    :cond_5
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->i:Ljava/lang/String;
+
+    if-eqz v2, :cond_6
+
+    .line 21
+    const-string v3, "location"
+
+    filled-new-array {v2}, [Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v3, v2}, Lh/z$a;->g(Ljava/lang/String;[Ljava/lang/String;)Lh/z$a;
+
+    .line 22
+    :cond_6
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->j:Ljava/lang/String;
+
+    if-eqz v2, :cond_7
+
+    .line 23
+    const-string v3, "recurrenceSchedule"
+
+    filled-new-array {v2}, [Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v3, v2}, Lh/z$a;->g(Ljava/lang/String;[Ljava/lang/String;)Lh/z$a;
+
+    .line 24
+    :cond_7
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->k:Ljava/lang/String;
+
+    if-eqz v2, :cond_8
+
+    .line 25
+    const-string v3, "eventStatus"
+
+    filled-new-array {v2}, [Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v3, v2}, Lh/z$a;->g(Ljava/lang/String;[Ljava/lang/String;)Lh/z$a;
+
+    .line 26
+    :cond_8
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->l:Ljava/lang/Boolean;
+
+    if-eqz v2, :cond_9
+
+    .line 27
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v2
+
+    new-array v3, p0, [Z
+
+    aput-boolean v2, v3, v0
+
+    const-string v2, "isReadOnly"
+
+    invoke-virtual {v1, v2, v3}, Lh/z$a;->b(Ljava/lang/String;[Z)Lh/z$a;
+
+    .line 28
+    :cond_9
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->m:Ljava/lang/Boolean;
+
+    if-eqz v2, :cond_a
+
+    .line 29
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v2
+
+    new-array v3, p0, [Z
+
+    aput-boolean v2, v3, v0
+
+    const-string v2, "isInPublicCalendar"
+
+    invoke-virtual {v1, v2, v3}, Lh/z$a;->b(Ljava/lang/String;[Z)Lh/z$a;
+
+    .line 30
+    :cond_a
+    iget-object v2, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->n:Ljava/lang/Boolean;
+
+    if-eqz v2, :cond_b
+
+    .line 31
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v2
+
+    new-array p0, p0, [Z
+
+    aput-boolean v2, p0, v0
+
+    const-string v0, "isOrganizer"
+
+    invoke-virtual {v1, v0, p0}, Lh/z$a;->b(Ljava/lang/String;[Z)Lh/z$a;
+
+    .line 32
+    :cond_b
+    iget-object p0, p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;->o:Ljava/lang/String;
+
+    if-eqz p0, :cond_c
+
+    .line 33
+    const-string p1, "selfAttendeeStatus"
+
+    filled-new-array {p0}, [Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p1, p0}, Lh/z$a;->g(Ljava/lang/String;[Ljava/lang/String;)Lh/z$a;
+
+    .line 34
+    :cond_c
+    invoke-virtual {v1}, Lh/z$a;->a()Lh/z;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public bridge synthetic toGenericDocument(Ljava/lang/Object;)Lh/z;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;
+
+    invoke-virtual {p0, p1}, Lcom/google/android/appfunctions/schema/common/v1/calendar/$$__AppSearch__Event;->toGenericDocument(Lcom/google/android/appfunctions/schema/common/v1/calendar/Event;)Lh/z;
+
+    move-result-object p0
+
+    return-object p0
+.end method

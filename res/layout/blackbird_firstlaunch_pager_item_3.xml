@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/blackbird_first_launch_third_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/common_first_launch_padding" android:paddingEnd="@dimen/common_first_launch_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/NewSECLight" android:textSize="@dimen/common_first_launch_title_text_size" android:textColor="@color/colorPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_first_launch_title_top_margin" android:layout_marginBottom="@dimen/common_first_launch_title_bottom_margin" android:text="@string/group_chat" android:maxLines="5" android:lineBreakWordStyle="phrase" />
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/common_first_launch_description_text_size" android:textColor="@color/first_launch_primary_text_color" android:gravity="center" android:id="@id/blackbird_first_launch_third_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/first_launch_title_padding" android:text="@string/first_launch_third_subtitle" android:layout_marginStart="@dimen/first_launch_title_padding" android:layout_marginEnd="@dimen/first_launch_title_padding" android:lineBreakWordStyle="phrase" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <Button android:theme="@style/FirstLaunchButtonTheme" android:id="@id/blackbird_first_launch_next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dp" android:layout_marginBottom="25.0dp" android:text="@string/first_launch_button_start" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

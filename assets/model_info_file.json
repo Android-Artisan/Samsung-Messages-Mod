@@ -1,0 +1,15 @@
+{
+  "file_version": "1.2",
+  "models_info": [
+    {
+      "model_type": "EXTRACTOR_PRODUCT_NAME",
+      "name": "ELECTRA_KPE_UNIT8_MODEL",
+      "display_name": "홍석추출",
+      "ort_file": "Electra_koElectra_kpe_v0_05_tiny_pretrained_7M_v2_pretrained_512_seq_len.ort",
+      "max_token_len": 512,
+      "tokenizer_type": "WORD_PIECE",
+      "description": "ELECTRA_KPE_DYNAMIC_UNIT8_MODEL",
+      "tokenizer_file_name": "tokenizer.json"
+    }
+  ]
+}

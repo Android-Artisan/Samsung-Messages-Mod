@@ -1,0 +1,24 @@
+version: 3.0.1
+apkFileName: com.samsung.android.messaging_16.2.10.27-1621000027_minAPI35(arm64-v8a)(nodpi)_apkmirror.com.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 35
+  targetSdkVersion: 36
+versionInfo:
+  versionCode: 1621000027
+  versionName: 16.2.10.27
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- dex
+- gif
+- ogg
+- png
+- so
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- res/drawable/messages_list_img_rcs_application_account.bmp

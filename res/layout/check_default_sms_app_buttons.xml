@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/check_default_sms_app_buttons_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/check_default_sms_app_buttons_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/about_page_raised_button_gap">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/check_default_sms_app_buttons" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="percent" app:layout_constraintWidth_percent="0.6">
+            <Button android:id="@id/change_app" android:tag="binding_1" android:layout_marginBottom="@dimen/about_page_raised_button_gap" android:text="@string/ok" style="@style/AboutPageRaisedButtonStyle" />
+            <Button android:id="@id/cancel" android:tag="binding_2" android:text="@string/cancel" style="@style/AboutPageRaisedButtonStyle" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 گھنٹہ</item>
+        <item>6گھنٹے</item>
+        <item>24 گھنٹے</item>
+        <item>2 دن</item>
+        <item>نیٹ ورک ڈیفالٹ</item>
+        <item>زيادہ سے زيادہ</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>اصلی</item>
+        <item>زیادہ</item>
+        <item>درمیانہ</item>
+        <item>کم</item>
+        <item>ہمیشہ پوچھیں</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>اصلی</item>
+        <item>اعلی معیار</item>
+        <item>عام معیار</item>
+        <item>کمتر ریزولیوشن</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>تمام چینلز</item>
+        <item>میرا چینل</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>خودکار</item>
+        <item>متن یا ملٹی میڈیا</item>
+        <item>چیٹ</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>خودکار</item>
+        <item>متن یا ملٹی میڈیا</item>
+        <item>‏RCS چیٹ کے پیغامات</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>بلاک کریں</item>
+        <item>پہلے پوچھیں</item>
+        <item>اجازت دیں</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ہمیشہ</item>
+        <item>چست</item>
+        <item>کبھی نہیں</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>‏GSM - الفابیٹ</item>
+        <item>یونی کوڈ</item>
+        <item>آٹومیٹک</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>بطور متن یا ملٹی میڈیا پیغام دوبارہ بھیجیں</item>
+        <item>دوبارہ نہ بھیجیں</item>
+        <item>دوبارہ بھیجنے سے پہلے پوچھیں</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>متن یا ملٹی میڈیا پیغامات استعمال کریں</item>
+        <item>پھر سے نہ بھیجیں</item>
+        <item>ہمیشہ پوچھیں</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>اصل</item>
+        <item>نیٹ ورک ڈیفالٹ</item>
+        <item>کبھی بھی پوچھیں</item>
+    </string-array>
+</resources>

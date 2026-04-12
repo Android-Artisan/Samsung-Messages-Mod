@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להשיב הודעות. ניתן להשיב הודעות רק תוך דקה %d מרגע השליחה.</item>
+        <item quantity="two">לא ניתן להשיב הודעות. ניתן להשיב הודעות רק תוך %d דקות מרגע השליחה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להשיב הודעות. ניתן להשיב הודעות רק תוך %d דקות מרגע השליחה.</item>
+        <item quantity="other">לא ניתן להשיב הודעות. ניתן להשיב הודעות רק תוך %d דקות מרגע השליחה.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"בנוסף, צא מ-%d צ'אט קבוצתי"</item>
+        <item quantity="two">"בנוסף, צא מ-%d צ'אטים קבוצתיים"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"בנוסף, צא מ-%d צ'אטים קבוצתיים"</item>
+        <item quantity="other">"בנוסף, צא מ-%d צ'אטים קבוצתיים"</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בנוסף, צא מ-%d שיחה קבוצתית</item>
+        <item quantity="two">בנוסף, צא מ-%d שיחות קבוצתיות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בנוסף, צא מ-%d הודעות קבוצתיות</item>
+        <item quantity="other">בנוסף, צא מ-%d שיחות קבוצתיות</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק חבילת סמלי הבעה אחת (%d)?</item>
+        <item quantity="two">למחוק %d חבילות של סמלי הבעה?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d חבילות של סמלי הבעה?</item>
+        <item quantity="other">למחוק %d חבילות של סמלי הבעה?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר שיחה %d לסל המיחזור?</item>
+        <item quantity="two">האם להעביר %d שיחות לסל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d שיחות לסל המיחזור?</item>
+        <item quantity="other">האם להעביר %d שיחות לסל המיחזור?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ההודעות בסל המיחזור יימחקו לצמיתות לאחר יום %d.</item>
+        <item quantity="two">ההודעות בסל המיחזור יימחקו לצמיתות לאחר %d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ההודעות בסל המיחזור יימחקו לצמיתות לאחר %d ימים.</item>
+        <item quantity="other">ההודעות בסל המיחזור יימחקו לצמיתות לאחר %d ימים.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הודעות שנמחקו יישמרו בסל המיחזור למשך יום (%d) ולאחר מכן יימחקו לצמיתות.</item>
+        <item quantity="two">הודעות שנמחקו יישמרו בסל המיחזור למשך %d ימים ולאחר מכן יימחקו לצמיתות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הודעות שנמחקו יישמרו בסל המיחזור למשך %d ימים ולאחר מכן יימחקו לצמיתות.</item>
+        <item quantity="other">הודעות שנמחקו יישמרו בסל המיחזור למשך %d ימים ולאחר מכן יימחקו לצמיתות.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר הודעה %d לסל המיחזור?</item>
+        <item quantity="two">האם להעביר %d הודעות לסל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d הודעות לסל המיחזור?</item>
+        <item quantity="other">האם להעביר %d הודעות לסל המיחזור?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">היום הוא יום מיוחד (%1$s וגם אירוע נוסף %2$d). רוצה לשלוח להם משהו?</item>
+        <item quantity="two">היום הוא יום מיוחד (%1$s וגם %2$d אירועים נוספים). רוצה לשלוח להם משהו?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">היום הוא יום מיוחד (%1$s וגם %2$d אירועים נוספים). רוצה לשלוח להם משהו?</item>
+        <item quantity="other">היום הוא יום מיוחד (%1$s וגם %2$d אירועים נוספים). רוצה לשלוח להם משהו?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">היום יום ההולדת של ‏‎%1$s‎‏‎‏‎‎‏‎ ושל עוד ‏‎%2$d‎‏‎‏‎‎‏‎ איש קשר! רוצה לשלוח להם משהו מיוחד?</item>
+        <item quantity="two">היום יום ההולדת של ‏‎%1$s‎‏‎‏‎‎‏‎ ושל עוד ‏‎%2$d‎‏‎‏‎‎‏‎ אנשי קשר! רוצה לשלוח להם משהו מיוחד?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">היום יום ההולדת של ‏‎%1$s‎‏‎‏‎‎‏‎ ושל עוד ‏‎%2$d‎‏‎‏‎‎‏‎ אנשי קשר! רוצה לשלוח להם משהו מיוחד?</item>
+        <item quantity="other">היום יום ההולדת של ‏‎%1$s‎‏‎‏‎‎‏‎ ושל עוד ‏‎%2$d‎‏‎‏‎‎‏‎ אנשי קשר! רוצה לשלוח להם משהו מיוחד?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הודעה %d נחסמה ב-30 הימים האחרונים</item>
+        <item quantity="two">%d הודעות נחסמו ב-30 הימים האחרונים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הודעות נחסמו ב-30 הימים האחרונים</item>
+        <item quantity="other">%d הודעות נחסמו ב-30 הימים האחרונים</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+        <item quantity="other">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן לחסום כתובת דוא\"ל אחת (%d) מכיוון שהיא לא תקינה.</item>
+        <item quantity="two">לא ניתן לחסום %d כתובות דוא\"ל מכיוון שהן לא תקינות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן לחסום %d כתובות דוא\"ל מכיוון שהן לא תקינות.</item>
+        <item quantity="other">לא ניתן לחסום %d כתובות דוא\"ל מכיוון שהן לא תקינות.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן לחסום את מספר הטלפון %d כי הוא לא חוקי.</item>
+        <item quantity="two">לא ניתן לחסום את מספרי הטלפון %d כי הם לא חוקיים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן לחסום את מספרי הטלפון %d כי הם לא חוקיים.</item>
+        <item quantity="other">לא ניתן לחסום את מספרי הטלפון %d כי הם לא חוקיים.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן לחסום שולח אחד (%d) מכיוון שהמידע שלו לא תקין.</item>
+        <item quantity="two">לא ניתן לחסום %d שולחים מכיוון שהמידע שלהם לא תקין.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן לחסום %d שולחים מכיוון שהמידע שלהם לא תקין.</item>
+        <item quantity="other">לא ניתן לחסום %d שולחים מכיוון שהמידע שלהם לא תקין.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן לבחור לכל היותר איש קשר %d.</item>
+        <item quantity="two">ניתן לבחור לכל היותר %d אנשי קשר.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן לבחור לכל היותר %d אנשי קשר.</item>
+        <item quantity="other">ניתן לבחור לכל היותר %d אנשי קשר.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d כרטיס %2$s</item>
+        <item quantity="two">%1$d כרטיסים %2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d כרטיסים %2$s</item>
+        <item quantity="other">%1$d כרטיסים %2$s</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d איש קשר לצ'אט"</item>
+        <item quantity="two">"%d אנשי קשר לצ'אט"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%d אנשי קשר לצ'אט"</item>
+        <item quantity="other">"%d אנשי קשר לצ'אט"</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d איש קשר של Chatting+</item>
+        <item quantity="two">%d אנשי קשר של Chatting+</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשי קשר של Chatting+</item>
+        <item quantity="other">%d אנשי קשר של Chatting+</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"אם תבטל את הרישום לשירות Chatting+‎, לא תוכל עוד ליצור או להצטרף לצ'אטים (אישיים וקבוצתיים), לקבל אישור שההודעות שלך נקראו או לשתף קבצים גדולים. האם אתה בטוח שברצונך לבטל את הרישום?
+
+בנוסף, עליך להמתין דקה (%d) לפני שתוכל להירשם שוב מחדש."</item>
+        <item quantity="two">"אם תבטל את הרישום לשירות Chatting+‎, לא תוכל עוד ליצור או להצטרף לצ'אטים (אישיים וקבוצתיים), לקבל אישור שההודעות שלך נקראו או לשתף קבצים גדולים. האם אתה בטוח שברצונך לבטל את הרישום?
+
+בנוסף, עליך להמתין %d דקות לפני שתוכל להירשם שוב מחדש."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"אם תבטל את הרישום לשירות Chatting+‎, לא תוכל עוד ליצור או להצטרף לצ'אטים (אישיים וקבוצתיים), לקבל אישור שההודעות שלך נקראו או לשתף קבצים גדולים. האם אתה בטוח שברצונך לבטל את הרישום?
+
+בנוסף, עליך להמתין %d דקות לפני שתוכל להירשם שוב מחדש."</item>
+        <item quantity="other">"אם תבטל את הרישום לשירות Chatting+‎, לא תוכל עוד ליצור או להצטרף לצ'אטים (אישיים וקבוצתיים), לקבל אישור שההודעות שלך נקראו או לשתף קבצים גדולים. האם אתה בטוח שברצונך לבטל את הרישום?
+
+בנוסף, עליך להמתין %d דקות לפני שתוכל להירשם שוב מחדש."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d צ'אטבוט"</item>
+        <item quantity="two">"%d צ'אטבוטים"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%d צ'אטבוטים"</item>
+        <item quantity="other">"%d צ'אטבוטים"</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d איש קשר</item>
+        <item quantity="two">%d אנשי קשר</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשי קשר</item>
+        <item quantity="other">%d אנשי קשר</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+        <item quantity="other">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יפוג בעוד יום %d</item>
+        <item quantity="two">יפוג בעוד %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יפוג בעוד %d ימים</item>
+        <item quantity="other">יפוג בעוד %d ימים</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קופון %d פג תוקף בקרוב</item>
+        <item quantity="two">%d קופונים פגי תוקף בקרוב</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קופונים פגי תוקף בקרוב</item>
+        <item quantity="other">%d קופונים פגי תוקף בקרוב</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קופון %1$s פג תוקף בעוד יום %2$d.</item>
+        <item quantity="two">קופון %1$s פג תוקף בעוד %2$d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">קופון %1$s פג תוקף בעוד %2$d ימים.</item>
+        <item quantity="other">קופון %1$s פג תוקף בעוד %2$d ימים.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הקופון פג תוקף בעוד יום %d.</item>
+        <item quantity="two">הקופון פג תוקף בעוד %d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הקופון פג תוקף בעוד %d ימים.</item>
+        <item quantity="other">הקופון פג תוקף בעוד %d ימים.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">האם למחוק שיחה %d?</item>
+        <item quantity="other">האם למחוק שיחות %d?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק לצמיתות שיחה %d?</item>
+        <item quantity="two">האם למחוק לצמיתות %d שיחות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק לצמיתות %d שיחות?</item>
+        <item quantity="other">האם למחוק לצמיתות %d שיחות?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">האם למחוק הודעה %d?</item>
+        <item quantity="other">האם למחוק %d הודעות?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק לצמיתות הודעה %d?</item>
+        <item quantity="two">האם למחוק לצמיתות %d הודעות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק לצמיתות %d הודעות?</item>
+        <item quantity="other">האם למחוק לצמיתות %d הודעות?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הודעה %d על משלוח</item>
+        <item quantity="two">%d הודעות על משלוח</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הודעות על משלוח</item>
+        <item quantity="other">%d הודעות על משלוח</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להתעלם מכרטיס %d?</item>
+        <item quantity="two">להתעלם מ-%d כרטיסים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להתעלם מ-%d כרטיסים?</item>
+        <item quantity="other">להתעלם מ-%d כרטיסים?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להציג רק את כרטיסיית הקטגוריה של %1$d על-גבי המסך הראשי. השאר מוסתרות. בחר את הקטגוריה %2$s אם אתה מעוניין בגישה מהירה אליה מן המסך הראשי.</item>
+        <item quantity="two">ניתן להציג רק את כרטיסיות הקטגוריה של %1$d. השאר מוסתרות. בחר את הקטגוריה %2$s אם אתה מעוניין בגישה מהירה אליה מן המסך הראשי.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להציג רק את כרטיסיות הקטגוריה של %1$d. השאר מוסתרות. בחר את הקטגוריה %2$s אם אתה מעוניין בגישה מהירה אליה מן המסך הראשי.</item>
+        <item quantity="other">ניתן להציג רק את כרטיסיות הקטגוריה של %1$d. השאר מוסתרות. בחר את הקטגוריה %2$s אם אתה מעוניין בגישה מהירה אליה מן המסך הראשי.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d דקה</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דקות</item>
+        <item quantity="other">%d דקות</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d שנייה</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שניות</item>
+        <item quantity="other">%d שניות</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d קובץ נשמר בטלפון.</item>
+        <item quantity="two">%d קבצים נשמרו בטלפון.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קבצים נשמרו בטלפון.</item>
+        <item quantity="other">%d קבצים נשמרו בטלפון.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d קובץ נשמר בטאבלט.</item>
+        <item quantity="two">%d קבצים נשמרו בטאבלט.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קבצים נשמרו בטאבלט.</item>
+        <item quantity="other">%d קבצים נשמרו בטאבלט.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עסקה %d היום</item>
+        <item quantity="two">%d עסקאות היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d עסקאות היום</item>
+        <item quantity="other">%d עסקאות היום</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ו-%2$d מספר לא ידוע</item>
+        <item quantity="two">%1$s ו-%2$d מספרים לא ידועים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s ו-%2$d מספרים לא ידועים</item>
+        <item quantity="other">%1$s ו-%2$d מספרים לא ידועים</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מספר לא מזוהה %d</item>
+        <item quantity="two">%d מספרים לא מזוהים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מספרים לא מזוהים</item>
+        <item quantity="other">%d מספרים לא מזוהים</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%1$s לא יכולים להצטרף לצ'אטים קבוצתיים. הסר אותם מרשימת הנמענים שנבחרו או שלח במקום זאת הודעת טקסט ל-%2$d נמען."</item>
+        <item quantity="two">"%1$s לא יכולים להצטרף לצ'אטים קבוצתיים. הסר אותם מרשימת הנמענים שנבחרו או שלח במקום זאת הודעת טקסט לעד %2$d נמענים."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%1$s לא יכולים להצטרף לצ'אטים קבוצתיים. הסר אותם מרשימת הנמענים שנבחרו או שלח במקום זאת הודעת טקסט לעד %2$d נמענים."</item>
+        <item quantity="other">"%1$s לא יכולים להצטרף לצ'אטים קבוצתיים. הסר אותם מרשימת הנמענים שנבחרו או שלח במקום זאת הודעת טקסט לעד %2$d נמענים."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"אצל לפחות אחד מהנמענים שנכללו אין תמיכה ב'העברת הודעות מתקדמת', לכן הקבוצה מוגבלת ל%d חבר.
+
+כדי להמשיך, בחר רק חברים עם תמיכה ב'העברת הודעות מתקדמת'. חברים אלה מסומנים בנקודה כחולה."</item>
+        <item quantity="two">"אצל לפחות אחד מהנמענים שנכללו אין תמיכה ב'העברת הודעות מתקדמת', לכן הקבוצה מוגבלת ל%d חברים.
+
+כדי להמשיך, בחר רק חברים עם תמיכה ב'העברת הודעות מתקדמת'. חברים אלה מסומנים בנקודה כחולה."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"אצל לפחות אחד מהנמענים שנכללו אין תמיכה ב'העברת הודעות מתקדמת', לכן הקבוצה מוגבלת ל%d חברים.
+
+כדי להמשיך, בחר רק חברים עם תמיכה ב'העברת הודעות מתקדמת'. חברים אלה מסומנים בנקודה כחולה."</item>
+        <item quantity="other">"אצל לפחות אחד מהנמענים שנכללו אין תמיכה ב'העברת הודעות מתקדמת', לכן הקבוצה מוגבלת ל%d חברים.
+
+כדי להמשיך, בחר רק חברים עם תמיכה ב'העברת הודעות מתקדמת'. חברים אלה מסומנים בנקודה כחולה."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"כדי להתחיל צ'אט קבוצתי, הסר את הנמען האחרון שנבחר. כדי לכלול אותו בהודעה שאתה שולח, הסר %d נמען."</item>
+        <item quantity="two">"כדי להתחיל צ'אט קבוצתי, הסר את הנמען האחרון שנבחר. כדי לכלול אותו בהודעה שאתה שולח, הסר %d נמענים."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"כדי להתחיל צ'אט קבוצתי, הסר את הנמען האחרון שנבחר. כדי לכלול אותו בהודעה שאתה שולח, הסר %d נמענים."</item>
+        <item quantity="other">"כדי להתחיל צ'אט קבוצתי, הסר את הנמען האחרון שנבחר. כדי לכלול אותו בהודעה שאתה שולח, הסר %d נמענים."</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d התמונה נשמרה בטאבלט.</item>
+        <item quantity="two">%d התמונות נשמרו בטאבלט.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d התמונות נשמרו בטאבלט.</item>
+        <item quantity="other">%d התמונות נשמרו בטאבלט.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d תמונה נשמרה בטלפון.</item>
+        <item quantity="two">%d תמונות נשמרו בטלפון.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d תמונות נשמרו בטלפון.</item>
+        <item quantity="other">%d תמונות נשמרו בטלפון.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">תמונה אחת ו-%d סרטוני וידאו נשמרו בטלפון.</item>
+        <item quantity="two">תמונה אחת ו-%d סרטוני וידאו נשמרו בטלפון.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">תמונה אחת ו-%d סרטוני וידאו נשמרו בטלפון.</item>
+        <item quantity="other">תמונה אחת ו-%d סרטוני וידאו נשמרו בטלפון.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d תמונה וסרטון וידאו אחד נשמרו בטלפון.</item>
+        <item quantity="two">%d תמונות וסרטון וידאו אחד נשמרו בטלפון.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d תמונות וסרטון וידאו אחד נשמרו בטלפון.</item>
+        <item quantity="other">%d תמונות וסרטון וידאו אחד נשמרו בטלפון.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הצטרפו %1$s ועוד %2$d אדם</item>
+        <item quantity="two">הצטרפו %1$s ועוד %2$d אנשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הצטרפו %1$s ועוד %2$d אנשים</item>
+        <item quantity="other">הצטרפו %1$s ועוד %2$d אנשים</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d איש קשר</item>
+        <item quantity="two">%d אנשי קשר</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשי קשר</item>
+        <item quantity="other">%d אנשי קשר</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן לבחור רק %d אדם.</item>
+        <item quantity="two">ניתן לבחור לכל היותר %d אנשים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן לבחור לכל היותר %d אנשים.</item>
+        <item quantity="other">ניתן לבחור לכל היותר %d אנשים.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"בעת הקשה על לחצן 'הצעות להודעות', ההודעה %d האחרונה בשיחה שלך תעובד באופן מקוון. ייתכן שההצעות, המבוססות על בינה מלאכותית, לא יהיו מדויקות או יכילו תוכן בלתי הולם."</item>
+        <item quantity="two">"בעת הקשה על לחצן 'הצעות להודעות', %d ההודעות האחרונות בשיחה שלך יעובדו באופן מקוון. ייתכן שההצעות, המבוססות על בינה מלאכותית, לא יהיו מדויקות או יכילו תוכן בלתי הולם."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"בעת הקשה על לחצן 'הצעות להודעות', %d ההודעות האחרונות בשיחה שלך יעובדו באופן מקוון. ייתכן שההצעות, המבוססות על בינה מלאכותית, לא יהיו מדויקות או יכילו תוכן בלתי הולם."</item>
+        <item quantity="other">"בעת הקשה על לחצן 'הצעות להודעות', %d ההודעות האחרונות בשיחה שלך יעובדו באופן מקוון. ייתכן שההצעות, המבוססות על בינה מלאכותית, לא יהיו מדויקות או יכילו תוכן בלתי הולם."</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d התראות חדשות</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="other">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"קובץ %d שותף באמצעות 'שיתוף מהיר'"</item>
+        <item quantity="two">"%d קבצים שותפו באמצעות 'שיתוף מהיר'"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%d קבצים שותפו באמצעות 'שיתוף מהיר'"</item>
+        <item quantity="other">"%d קבצים שותפו באמצעות 'שיתוף מהיר'"</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כרטיס שימושי %d חדש</item>
+        <item quantity="two">%d כרטיסים שימושיים חדשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d כרטיסים שימושיים חדשים</item>
+        <item quantity="other">%d כרטיסים שימושיים חדשים</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שיחה %d</item>
+        <item quantity="two">%d שיחות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שיחות</item>
+        <item quantity="other">%d שיחות</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d הודעות</item>
+        <item quantity="other">%d הודעות</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שמור הודעות שנמחקו למשך יום אחד (%d).</item>
+        <item quantity="two">שמור הודעות שנמחקו למשך %d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">שמור הודעות שנמחקו למשך %d ימים.</item>
+        <item quantity="other">שמור הודעות שנמחקו למשך %d ימים.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">תוכל לרענן שוב בעוד דקה %d.</item>
+        <item quantity="two">תוכל לרענן שוב בעוד %d דקות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">תוכל לרענן שוב בעוד %d דקות.</item>
+        <item quantity="other">תוכל לרענן שוב בעוד %d דקות.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם לשלוח %d הודעה עכשיו?</item>
+        <item quantity="two">האם לשלוח %d הודעות עכשיו?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם לשלוח %d הודעות עכשיו?</item>
+        <item quantity="other">האם לשלוח %d הודעות עכשיו?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אנו מעדכנים את המידע שלך. המתן לפחות דקה %d ונסה שוב.</item>
+        <item quantity="two">אנו מעדכנים את המידע שלך. המתן לפחות %d דקות‎ ונסה שוב.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">אנו מעדכנים את המידע שלך. המתן לפחות %d דקות‎ ונסה שוב.</item>
+        <item quantity="other">אנו מעדכנים את המידע שלך. המתן לפחות %d דקות‎ ונסה שוב.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להצמיד לכל היותר %d שיחה.</item>
+        <item quantity="two">ניתן להצמיד לכל היותר %d שיחות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להצמיד לכל היותר %d שיחות.</item>
+        <item quantity="other">ניתן להצמיד לכל היותר %d שיחות.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s ו-%2$d נוסף</item>
+        <item quantity="other">%1$s ו-%2$d נוספים</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להסיר %d כרטיס?</item>
+        <item quantity="two">האם להסיר %d כרטיסים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להסיר %d כרטיסים?</item>
+        <item quantity="other">האם להסיר %d כרטיסים?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הזן סיבה (עד תו %d)</item>
+        <item quantity="two">הזן סיבה (עד %d תווים)</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הזן סיבה (עד %d תווים)</item>
+        <item quantity="other">הזן סיבה (עד %d תווים)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הודעות מתוזמנות %d</item>
+        <item quantity="two">%d הודעות מתוזמנות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הודעות מתוזמנות</item>
+        <item quantity="other">%d הודעות מתוזמנות</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בחר שעה שתהיה לפחות %d דקה מעכשיו.</item>
+        <item quantity="two">בחר שעה שתהיה לפחות %d דקות מעכשיו.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בחר שעה שתהיה לפחות %d דקות מעכשיו.</item>
+        <item quantity="other">בחר שעה שתהיה לפחות %d דקות מעכשיו.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נמצא %d</item>
+        <item quantity="two">נמצאו %d</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נמצאו %d</item>
+        <item quantity="other">נמצאו %d</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר שיחה אחת והודעה נוספת %d לסל המיחזור?</item>
+        <item quantity="two">האם להעביר שיחה אחת ו-%d הודעות נוספות לסל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר שיחה אחת ו-%d הודעות נוספות לסל המיחזור?</item>
+        <item quantity="other">האם להעביר שיחה אחת ו-%d הודעות נוספות לסל המיחזור?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר שיחה %d והודעה אחת נוספת לסל המיחזור?</item>
+        <item quantity="two">האם להעביר %d שיחות והודעה אחת נוספת לסל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d שיחות והודעה אחת נוספת לסל המיחזור?</item>
+        <item quantity="other">האם להעביר %d שיחות והודעה אחת נוספת לסל המיחזור?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"בחר עד אדם אחד (%d)‏.
+(מראה אנשים שמשתמשים במספרי הטלפון שלהם בשיחה זו.)"</item>
+        <item quantity="two">"בחר עד %d אנשים‏.
+(מראה אנשים שמשתמשים במספרי הטלפון שלהם בשיחה זו.)"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"בחר עד %d אנשים‏.
+(מראה אנשים שמשתמשים במספרי הטלפון שלהם בשיחה זו.)"</item>
+        <item quantity="other">"בחר עד %d אנשים‏.
+(מראה אנשים שמשתמשים במספרי הטלפון שלהם בשיחה זו.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זמן שינה: שעה %d</item>
+        <item quantity="two">זמן שינה: %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זמן שינה: %d שעות</item>
+        <item quantity="other">זמן שינה: %d שעות</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זמן שינה: דקה %d</item>
+        <item quantity="two">זמן שינה: %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זמן שינה: %d דקות</item>
+        <item quantity="other">זמן שינה: %d דקות</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נותרה שעה אחת (%d)</item>
+        <item quantity="two">נותרו %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נותרו %d שעות</item>
+        <item quantity="other">נותרו %d שעות</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נותרה דקה אחת (%d)</item>
+        <item quantity="two">נותרו %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נותרו %d דקות</item>
+        <item quantity="other">נותרו %d דקות</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נותרה שנייה %d</item>
+        <item quantity="two">נותרו %d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נותרו %d שניות</item>
+        <item quantity="other">נותרו %d שניות</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">ההודעה הועתקה מכרטיס SIM.</item>
+        <item quantity="other">הודעות הועתקו מכרטיס SIM.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d קטגוריה</item>
+        <item quantity="two">%d קטגוריות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קטגוריות</item>
+        <item quantity="other">%d קטגוריות</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"בחרת יותר מ-%d נמען (המספר המרבי להודעות טקסט). התחל צ'אט קבוצתי כדי לשלוח הודעות אל כולם בבת-אחת."</item>
+        <item quantity="two">"בחרת יותר מ-%d נמענים (המספר המרבי להודעות טקסט). התחל צ'אט קבוצתי כדי לשלוח הודעות אל כולם בבת-אחת."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"בחרת יותר מ-%d נמענים (המספר המרבי להודעות טקסט). התחל צ'אט קבוצתי כדי לשלוח הודעות אל כולם בבת-אחת."</item>
+        <item quantity="other">"בחרת יותר מ-%d נמענים (המספר המרבי להודעות טקסט). התחל צ'אט קבוצתי כדי לשלוח הודעות אל כולם בבת-אחת."</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">סה\"כ הודעה %d</item>
+        <item quantity="two">סה\"כ %d הודעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סה\"כ %d הודעות</item>
+        <item quantity="other">סה\"כ %d הודעות</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">החסימה של הודעה %d בוטלה באופן אוטומטי מכיוון שהשולחים כבר לא נחשבים זדוניים.</item>
+        <item quantity="two">החסימה של %d הודעות בוטלה באופן אוטומטי מכיוון שהשולחים כבר לא נחשבים זדוניים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">החסימה של %d הודעות בוטלה באופן אוטומטי מכיוון שהשולחים כבר לא נחשבים זדוניים.</item>
+        <item quantity="other">החסימה של %d הודעות בוטלה באופן אוטומטי מכיוון שהשולחים כבר לא נחשבים זדוניים.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מ-%1$s ומ-%2$d מותג נוסף</item>
+        <item quantity="two">מ-%1$s ומ-%2$d מותגים נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">מ-%1$s ומ-%2$d מותגים נוספים</item>
+        <item quantity="other">מ-%1$s ומ-%2$d מותגים נוספים</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d הודעה שלא נקראה בנושא משלוח</item>
+        <item quantity="two">%d הודעות שלא נקראו בנושא משלוח</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הודעות שלא נקראו בנושא משלוח</item>
+        <item quantity="other">%d הודעות שלא נקראו בנושא משלוח</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מ-%1$s ומ-%2$d איש קשר נוסף</item>
+        <item quantity="two">מ-%1$s ומ-%2$d אנשי קשר נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">מ-%1$s ומ-%2$d אנשי קשר נוספים</item>
+        <item quantity="other">מ-%1$s ומ-%2$d אנשי קשר נוספים</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הודעה %1$d שלא נקראה מ-%2$s</item>
+        <item quantity="two">%1$d הודעות שלא נקראו מ-%2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d הודעות שלא נקראו מ-%2$s</item>
+        <item quantity="other">%1$d הודעות שלא נקראו מ-%2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כולל כמה מ-%1$s ומ-%2$d מותג נוסף</item>
+        <item quantity="two">כולל כמה מ-%1$s ומ-%2$d מותגים נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כולל כמה מ-%1$s ומ-%2$d מותגים נוספים</item>
+        <item quantity="other">כולל כמה מ-%1$s ומ-%2$d מותגים נוספים</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כולל %d הודעה בנושא משלוח</item>
+        <item quantity="two">כולל %d הודעות בנושא משלוח</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כולל %d הודעות בנושא משלוח</item>
+        <item quantity="other">כולל %d הודעות בנושא משלוח</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כולל כמה מ-%1$s ומ-%2$d איש קשר נוסף</item>
+        <item quantity="two">כולל כמה מ-%1$s ומ-%2$d אנשי קשר נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כולל כמה מ-%1$s ומ-%2$d אנשי קשר נוספים</item>
+        <item quantity="other">כולל כמה מ-%1$s ומ-%2$d אנשי קשר נוספים</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d הודעה שלא נקראה</item>
+        <item quantity="two">%d הודעות שלא נקראו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הודעות שלא נקראו</item>
+        <item quantity="other">%d הודעות שלא נקראו</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d הודעה שלא נקראה</item>
+        <item quantity="two">%d הודעות שלא נקראו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הודעות שלא נקראו</item>
+        <item quantity="other">%d הודעות שלא נקראו</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התראה קרובה %d היום</item>
+        <item quantity="two">%d התראות קרובות היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d התראות קרובות היום</item>
+        <item quantity="other">%d התראות קרובות היום</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d סרטון וידאו נשמר בטלפון.</item>
+        <item quantity="two">%d סרטוני וידאו נשמרו בטלפון.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d סרטוני וידאו נשמרו בטלפון.</item>
+        <item quantity="other">%d סרטוני וידאו נשמרו בטלפון.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קיבלת היום הודעה ‏‎%1$s‎‏‎‏‎‎‏‎‏‎%2$d‎‏‎‏‎‎‏‎ על משלוח‏‎%3$s‎‏‎‏‎‎‏‎.</item>
+        <item quantity="two">קיבלת היום ‏‎%1$s‎‏‎‏‎‎‏‎‏‎%2$d‎‏‎‏‎‎‏‎ הודעות על משלוח‏‎%3$s‎‏‎‏.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">קיבלת היום ‏‎%1$s‎‏‎‏‎‎‏‎‏‎%2$d‎‏‎‏‎‎‏‎ הודעות על משלוח‏‎%3$s‎‏‎‏.</item>
+        <item quantity="other">קיבלת היום ‏‎%1$s‎‏‎‏‎‎‏‎‏‎%2$d‎‏‎‏‎‎‏‎ הודעות על משלוח‏‎%3$s‎‏‎‏.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קיבלת היום הודעה ‏‎%1$s‎‏‎‏‎‎‏‎‏‎%2$d‎‏‎‏‎‎‏‎ על ‏‎%3$s‎‏‎‏‎‎‏‎משלוחים.</item>
+        <item quantity="two">קיבלת היום ‏‎%1$s‎‏‎‏‎‎‏‎‏‎%2$d‎‏‎‏‎‎‏‎ הודעות על ‏‎%3$s‎‏‎‏‎משלוחים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">קיבלת היום ‏‎%1$s‎‏‎‏‎‎‏‎‏‎%2$d‎‏‎‏‎‎‏‎ הודעות על ‏‎%3$s‎‏‎‏‎משלוחים.</item>
+        <item quantity="other">קיבלת היום ‏‎%1$s‎‏‎‏‎‎‏‎‏‎%2$d‎‏‎‏‎‎‏‎ הודעות על ‏‎%3$s‎‏‎‏‎משלוחים.</item>
+    </plurals>
+</resources>

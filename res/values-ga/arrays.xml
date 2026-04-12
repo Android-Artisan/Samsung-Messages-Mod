@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 uair an chloig</item>
+        <item>6 huaire an chloig</item>
+        <item>24 uair an chloig</item>
+        <item>2 lá</item>
+        <item>Réamhshocrú líonra</item>
+        <item>Uaslíon</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Bunúsach</item>
+        <item>Ard</item>
+        <item>Meánach</item>
+        <item>Íseal</item>
+        <item>Iarr i gcónaí</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Bunúsach</item>
+        <item>Ardcháilíocht</item>
+        <item>Gnáthcháilíocht</item>
+        <item>Taifeach íseal</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Gach caineál</item>
+        <item>Mo Chainéal</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Uathoibríoch</item>
+        <item>Téacs nó ilmheáin</item>
+        <item>Comhrá</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Uathoibríoch</item>
+        <item>Téacs nó ilmheáin</item>
+        <item>Teachtaireachtaí comhrá RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Cuir bac air</item>
+        <item>Iarr ar dtús</item>
+        <item>Ceadaigh</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>I gcónaí</item>
+        <item>Léid</item>
+        <item>Choíche</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Aibítir GSM</item>
+        <item>Unicode</item>
+        <item>Uathoibríoch</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Athsheol mar theachtaireacht téacs nó ilmheán</item>
+        <item>Ná seol arís</item>
+        <item>Iarr roimh athsheoladh</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Úsáid tchtaí. téacs nó ilmheán</item>
+        <item>Ná hathsheol</item>
+        <item>Iarr i gcónaí</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Bunleagan</item>
+        <item>Réamhshocrú líonra</item>
+        <item>Fiafraigh i gcónaí</item>
+    </string-array>
+</resources>

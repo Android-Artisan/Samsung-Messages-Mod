@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانێت پەیامەکە بگەڕێنێتەوە. پەیامەکان تەنها لە ماوەی %d خولەک پاش ناردن دەکرێت بگەڕێنرێنەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانێت پەیامەکە بگەڕێنێتەوە. پەیامەکان تەنها لە ماوەی %d خولەک پاش ناردن دەکرێت بگەڕێنرێنەوە.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هەروەها %d چاتی بەکۆمەڵ بەجێ بهێڵە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">هەروەها %d چاتی بەکۆمەڵ بەجێ بهێڵە</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هەروەها %d گفتوگۆی بەکۆمەڵ بەجێ بهێڵە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">هەروەها %d گفتوگۆی بەکۆمەڵ بەجێ بهێڵە</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">Delete %d emoticon packs?</item>
+        <item quantity="one">Delete %d emoticon pack?</item>
+        <item quantity="two">Delete %d emoticon packs?</item>
+        <item quantity="few">Delete %d emoticon packs?</item>
+        <item quantity="many">Delete %d emoticon packs?</item>
+        <item quantity="other">Delete %d emoticon packs?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ڕووداو بۆ خاشاک بگوازێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d گفتوگۆ بۆ خاشاک بگوازێتەوە؟</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ئەو پەیامانەی کە لە خاشاکدان دوای %d ڕۆژ بۆ ھەمیشە دەسڕدرێنەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ئەو پەیامانەی کە لە خاشاکدان دوای %d ڕۆژ بۆ ھەمیشە دەسڕدرێنەوە.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">پەیامە سڕدراوەکان بۆ ماوەی %d ڕۆژ بەرلەوەی بۆ ھەمیشە بسڕدرێتوە لە خاشاکدا دەمێننەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">پەیامە سڕدراوەکان بۆ ماوەی %d ڕۆژ بەرلەوەی بۆ ھەمیشە بسڕدرێتوە لە خاشاکدا دەمێننەوە.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پەیام بۆ خاشاک بگوازێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d پەیام بۆ خاشاک بگوازێتەوە؟</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">"Today's a special day (%1$s and %2$d other events). Send them something?"</item>
+        <item quantity="one">ئەمڕۆ ڕۆژێکی تایبەتە (%1$s و %2$d بۆنەی تر). شتێکیان بۆ دەنێریت؟</item>
+        <item quantity="two">"Today's a special day (%1$s and %2$d other events). Send them something?"</item>
+        <item quantity="few">"Today's a special day (%1$s and %2$d other events). Send them something?"</item>
+        <item quantity="many">"Today's a special day (%1$s and %2$d other events). Send them something?"</item>
+        <item quantity="other">ئەمڕۆ ڕۆژێکی تایبەتە (%1$s و %2$d بۆنەی تر). شتێکیان بۆ دەنێریت؟</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ڕۆژی لەداییکبوونی %1$s و %2$d پەیوەندیی دیکەیە! شتێکی تایبەت دەنێریت؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ڕۆژی لەداییکبوونی %1$s و %2$d پەیوەندیی دیکەیە! شتێکی تایبەت دەنێریت؟</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دەسنیشانکرا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d دەسنیشانکرا</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">"Can't block %d email addresses because they aren't valid."</item>
+        <item quantity="one">ناتوانێت %d ناونیشانی ئیمەیل بلۆک بکات چونکە ڕەوا نییە.</item>
+        <item quantity="two">"Can't block %d email addresses because they aren't valid."</item>
+        <item quantity="few">"Can't block %d email addresses because they aren't valid."</item>
+        <item quantity="many">"Can't block %d email addresses because they aren't valid."</item>
+        <item quantity="other">ناتوانێت %d ناونیشانی ئیمەیل بلۆک بکات چونکە ڕەوا نین.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">"Can't block %d phone numbers because they aren't valid."</item>
+        <item quantity="one">ناتوانێت %d ژمارە تەلەفۆن بلۆک بکات چونکە ڕەوا نییە.</item>
+        <item quantity="two">"Can't block %d phone numbers because they aren't valid."</item>
+        <item quantity="few">"Can't block %d phone numbers because they aren't valid."</item>
+        <item quantity="many">"Can't block %d phone numbers because they aren't valid."</item>
+        <item quantity="other">ناتوانێت %d ژمارە تەلەفۆن بلۆک بکات چونکە ڕەوا نین.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">"Can't block %d senders because their information isn't valid."</item>
+        <item quantity="one">ناتوانێت %d نێرەر بلۆک بکات چونکە زانیارییەکەی ڕەوا نییە.</item>
+        <item quantity="two">"Can't block %d senders because their information isn't valid."</item>
+        <item quantity="few">"Can't block %d senders because their information isn't valid."</item>
+        <item quantity="many">"Can't block %d senders because their information isn't valid."</item>
+        <item quantity="other">ناتوانێت %d نێرەر بلۆک بکات چونکە زانیارییەکەیان ڕەوا نییە.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d %2$s کارت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d %2$s کارت</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ناوی چات</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ناوی چات</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d چاتکردن + ناوەکان</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d چاتکردن + ناو</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ئەگەر لە تۆمارکردنی Chatting+ دەربچیت، ناتوانیت چاتی بەکۆمەڵ دروست بکەیت یان تێیدا بەشدار بیت، پشتڕاستکردنەوە وەربگریت کە نامەکانت خوێندراوەتەوە، یان فایلە گەورەکان هاوبەش بکەیت.ئایا دڵنیای کە دەتەوێت لە تۆمارکردن دەربچیت؟
+
+هەروەها پێویستە بەرلەوەی لەوەی لە تۆمارکردن دەربچیت پێویستە %d خولەک چاوەڕێ بکەیت."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ئەگەر لە تۆمارکردنی Chatting+ دەربچیت، ناتوانیت چاتی بەکۆمەڵ دروست بکەیت یان تێیدا بەشدار بیت، پشتڕاستکردنەوە وەربگریت کە نامەکانت خوێندراوەتەوە، یان فایلە گەورەکان هاوبەش بکەیت.ئایا دڵنیای کە دەتەوێت لە تۆمارکردن دەربچیت؟
+
+هەروەها پێویستە بەرلەوەی لەوەی لە تۆمارکردن دەربچیت پێویستە %d خولەک چاوەڕێ بکەیت."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d چاتی ڕبۆتی</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d چاتبۆت</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ناو</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ناو</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دەسنیشانکرا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d دەسنیشانکرا</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">Expires in %d days</item>
+        <item quantity="one">Expires in %d day</item>
+        <item quantity="two">Expires in %d days</item>
+        <item quantity="few">Expires in %d days</item>
+        <item quantity="many">Expires in %d days</item>
+        <item quantity="other">Expires in %d days</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کۆپۆن بەم زووانە بەسەردەچێت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کۆپۆن بەم زووانە بەسەر دەچن</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">کۆپۆنی %1$sـەکەت لە %2$d ڕۆژدا بەسەردەچێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">کۆپۆنی %1$sـەکەت لە %2$d ڕۆژدا بەسەردەچێت.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">کۆپۆنەکەت لە %d ڕۆژدا بەسەردەچێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">کۆپۆنەکەت لە %d ڕۆژدا بەسەردەچێت.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">گفتوگۆی %d دەسڕیتەوە؟</item>
+        <item quantity="other">گفتوگۆکانی %d دەسڕیتەوە؟</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بۆ ھەمیشە %d گفتوگۆ بسڕێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">بۆ ھەمیشە %d گفتوگۆ بسڕێتەوە؟</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">نامەی %d دەسڕیتەوە؟</item>
+        <item quantity="other">نامەکان %d دەسڕیتەوە؟</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بۆ ھەمیشە %d پەیام بسڕێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">بۆ ھەمیشە %d پەیام بسڕێتەوە؟</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کارت ڕەت بکاتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کارت ڕەت بکاتەوە؟</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تەنیا %1$d خشتەبەندی جۆر دەکرێ لەسەر شاشەی سەرەکی پیشان بدرێن. ئەوانی تریش شاراوەن. ئەگەر دەتەوێت لە شاشەی سەرەکییەوە بە خێرایی دەستت پێیبگات پۆلی %2$s دەسنیشان بکە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">تەنیا %1$d خشتەبەندی جۆر دەکرێ لەسەر شاشەی سەرەکی پیشان بدرێن. ئەوانی تریش شاراوەن. ئەگەر دەتەوێت لە شاشەی سەرەکییەوە بە خێرایی دەستت پێیبگات پۆلی %2$s دەسنیشان بکە.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d خولەک</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d خولەک</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d چرکە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d چرکە</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فایل لەسەر تەلەفۆنەکەت هەڵگیرا.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d فایل لەسەر تەلەفۆنەکەت هەڵگیرا.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فایل لەسەر تابلێتەکەت هەڵگیرا.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d فایل لەسەر تابلێتەکەت هەڵگیرا.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مامەڵەی ئەمڕۆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d مامەڵەی ئەمڕۆ</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s و %2$d ئەندامی نەناسراو</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s و %2$d ئەندامی نەناسراو</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەندامی نەناسراو</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەندامی نەناسراو</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ناتوانێت پەیوەندی بە چاتە بەکۆمەڵەکان بکات. ئەوان لە وەرگرە دەستنیشانکراوەکان لابدە یان لەجیاتی ئەوە پەیامێکی تێکستی بۆ ئەوپەڕی %2$d وەرگر بنێرە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ناتوانێت پەیوەندی بە چاتە بەکۆمەڵەکان بکات. ئەوان لە وەرگرە دەستنیشانکراوەکان لابدە یان لەجیاتی ئەوە پەیامێکی تێکستی بۆ ئەوپەڕی %2$d وەرگر بنێرە.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"یەک یان چەند وەرگرێک توانایی ناردنی پەیامی پێشکەوتوویان نییە. بۆیە کۆمەڵەەکەت بە %d ئەندام سنووردارکراوە.
+
+ بۆ بەردەوامبوون، تەنیا کەسانێک هەڵبژێرە کە توانایی وەرگرتنی پەیامی پێشکەوتوویان هەیە. بە ئایکۆنی شین دیاری کراون."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"یەک یان چەند وەرگرێک توانایی ناردنی پەیامی پێشکەوتوویان نییە. بۆیە کۆمەڵەەکەت بە %d ئەندام سنووردارکراوە.
+
+ بۆ بەردەوامبوون، تەنیا کەسانێک هەڵبژێرە کە توانایی وەرگرتنی پەیامی پێشکەوتوویان هەیە. بە ئایکۆنی شین دیاری کراون."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بۆ ئەوەی دەست بە چاتی بەکۆمەڵ بکەیت، دوا وەرگری دەسنیشانکراو بسڕەوە. ئەگەر دەتەوێت دوا وەرگر زیاد بکەیت، بۆ ئەوەی پەیامێک بنێریت %d وەرگر بسڕەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">بۆ ئەوەی دەست بکەیت بە چاتی بەکۆمەڵ، دوا وەرگری هەڵبژێردراو بسڕەوە. ئەگەر دەتهەوێت دوا وەرگر زیاد بکەیت، بۆ ناردنی پەیام %d وەرگر بسڕەوە.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">1 image and %d videos saved to your phone.</item>
+        <item quantity="one">1 image and %d video saved to your phone.</item>
+        <item quantity="two">1 image and %d videos saved to your phone.</item>
+        <item quantity="few">1 image and %d videos saved to your phone.</item>
+        <item quantity="many">1 image and %d videos saved to your phone.</item>
+        <item quantity="other">1 وێنە و %d ڤیدیۆ لە تەلەفۆنەکەتدا هەڵگیراوە.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">%d images and 1 video saved to your phone.</item>
+        <item quantity="one">%d image and 1 video saved to your phone.</item>
+        <item quantity="two">%d images and 1 video saved to your phone.</item>
+        <item quantity="few">%d images and 1 video saved to your phone.</item>
+        <item quantity="many">%d images and 1 video saved to your phone.</item>
+        <item quantity="other">%d وێنە و 1 ڤیدیۆ لە تەلەفۆنەکەتدا هەڵگیروە.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s و %2$d کەسیی تر پەیوەندییان کرد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s و %2$d کەسیی تر پەیوەندییانکرد</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانێت زیاتر لە %d کەس دیاری بکات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانێت زیاتر لە %d کەس دیاری بکات.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">کاتێک پەنجە لە دوگمەی پێشنیارەکانی پەیام دەدەیت، کۆتا %d پەیام لە گفتوگۆکەتدا بەشێوەی سەرھێڵ پێواژۆ دەکرێن. پێشنیارە دروستکراوەکانی ژیریی دەستکرد لەوانەیە ورد نەبن یان ناوەڕۆکی نەشیاویان تێدابێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">کاتێکپەنجە لە دوگمەی پێشنیارەکانی پەیام دەدەیت، کۆتا %d پەیام لە گفتوگۆکەتدا بەشێوەی سەرھێڵ پێواژۆ دەکرێن. پێشنیارە دروستکراوەکانی ژیریی دەستکرد لەوانەیە ورد نەبن یان ناوەڕۆکی نەشیاویان تێدابێت.</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فایل بە بەکارهێنانی هاوبەشکردنی خێرا هاوبەشکرا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d فایل بە بەکارهێنانی هاوبەشکردنی خێرا هاوبەشکرا</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کارتی سوودبەخشی نوێ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کارتی سوودبەخشی نوێ</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d گفتوگۆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d گفتوگۆ</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">پەیامە سڕدراوەکان بۆ ماوەی %d ڕۆژ بھێڵەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">پەیامە سڕدراوەکان بۆ ماوەی %d ڕۆژ بھێڵەوە.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">دەتوانی تا %d خولەکی تر دیسان شاشەکە نوێ بکەیتەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">دەتوانی لە %d خولەکدا دیسان شاشەکە نوێ بکەیتەوە.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ئێستا %d پەیام بنێرێت؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ئێستا %d پەیام بنێرێت؟</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">زانیارییەکەت وا نوێ دەبێتەوە. لانیکەم %d خولەک چاوەڕێ بکە، ئنجا دووبارە هەوڵدەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">زانیارییەکەت وا نوێ دەبێتەوە. لانیکەم %d خولەک چاوەڕێ بکە، ئنجا دووبارە ھەوڵدەوە.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">"Can't pin more than %d conversations."</item>
+        <item quantity="one">ناتوانێت زیاتر لە %d گفتگۆ جێگیر بکات.</item>
+        <item quantity="two">"Can't pin more than %d conversations."</item>
+        <item quantity="few">"Can't pin more than %d conversations."</item>
+        <item quantity="many">"Can't pin more than %d conversations."</item>
+        <item quantity="other">ناتوانێت زیاتر لە %d گفتگۆ جێگیر بکات.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s و %2$d هیتر</item>
+        <item quantity="other">%1$s و %2$d ئەوانی تر</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">Remove %d cards?</item>
+        <item quantity="one">Remove %d card?</item>
+        <item quantity="two">Remove %d cards?</item>
+        <item quantity="few">Remove %d cards?</item>
+        <item quantity="many">Remove %d cards?</item>
+        <item quantity="other">%d کارت بسڕێتەوە؟</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هۆکارێک بنووسە (تا %d نووسە)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">هۆکارێک بنووسە (تا %d نووسە)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">%d messages scheduled</item>
+        <item quantity="one">%d message scheduled</item>
+        <item quantity="two">%d messages scheduled</item>
+        <item quantity="few">%d messages scheduled</item>
+        <item quantity="many">%d messages scheduled</item>
+        <item quantity="other">%d پەیام بەرنامەی بۆ داڕێژراوە</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">Select a time at least %d minutes from now.</item>
+        <item quantity="one">لانیکەم %d خولەک هەر دوای ئێستا دەسنیشان بکە</item>
+        <item quantity="two">Select a time at least %d minutes from now.</item>
+        <item quantity="few">Select a time at least %d minutes from now.</item>
+        <item quantity="many">Select a time at least %d minutes from now.</item>
+        <item quantity="other">لانیکەم %d خولەک لە دوای ئێستا دەسنیشان بکە</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 گفتوگۆ و %d پەیامی تر بۆ خاشاک بگوازێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 گفتوگۆ و %d پەیامی تر بۆ خاشاک بگوازێتەوە؟</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d گفتوگۆ و 1 پەیامی تر بۆ خاشاک بگوازێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d گفتوگۆ و 1 پەیامی تر بۆ خاشاک بگوازێتەوە؟</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"تا %d کەس دەسنیشان بکە.
+(پیشاندانی ئەو کەسانەی کە لەم گفتوگۆیەدا ژمارە تەلەفۆنیان بەکاردەهێنن.)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"تا %d کەس دەسنیشان بکە.
+(پیشاندانی ئەو کەسانەی کە لەم گفتوگۆیەدا ژمارە تەلەفۆنیان بەکاردەهێنن.)"</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کاتژمێر ماوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کاتژمێر ماوە</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d خولەک ماوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d خولەک ماوە</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d چرکە ماوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d چرکە ماوە</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">نامە کۆپیکرا لە سیمکارت.</item>
+        <item quantity="other">نامەکان کۆپیکران لە سیمکارت.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">%d categories</item>
+        <item quantity="one">%d ھاوپۆل</item>
+        <item quantity="two">%d categories</item>
+        <item quantity="few">%d categories</item>
+        <item quantity="many">%d categories</item>
+        <item quantity="other">%d ھاوپۆل</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">زیاتر لە %d وەرگرت دەسنیشانکردووە، کە سنوورداری پەیامەکانە. چاتی بەکۆمەڵ دەست پێبکە بۆ ئەوەی بە یەکجار بۆ هەموویان پەیام بنێریت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">زیاتر لە %d وەرگرت دەسنیشانکردووە، کە سنوورداری پەیامەکانە. چاتی بەکۆمەڵ دەست پێبکە بۆ ئەوەی بە یەکجار بۆ هەموویان پەیام بنێریت.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">کۆی پەیام %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">کۆی پەیام %d</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پەیام خۆکارانە بلۆک نەماوە چونکە چیتر نێرەرەکانی بە زیانبەخش دانانرێن.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d پەیام خۆکارانە بلۆک نەماون چونکە چیتر نێرەرەکانیان بە زیانبەخش دانانرێن.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">لە %1$s و %2$d بڕاندی ترەوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">لە %1$s و %2$d بڕاندی ترەوە</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نامەی گەیاندنی نەخوێندراوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d نامەی گەیاندنی نەخوێندراوە</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">لە %1$s و %2$d پەیوەندی ترەوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">لە %1$s و %2$d پەیوەندی ترەوە</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d نامەی نەخوێندراوە لە %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d نامەی نەخوێندراوە لە %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هەندێک لە %1$s و %2$d بڕاندی تر لەخۆ دەگرێت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">هەندێک لە %1$s و %2$d بڕاندی تر لەخۆ دەگرێت</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نامەی گەیاندن لەخۆ دەگرێت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d نامەی گەیاندن لەخۆ دەگرێت</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هەندێک لە %1$s و %2$d پەیوەندی تر لەخۆ دەگرێت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">هەندێک لە %1$s و %2$d پەیوەندی تر لەخۆ دەگرێت</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پەیامی نەخوێنراوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d پەیامی نەخوێنراوە</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">%d unread messages</item>
+        <item quantity="one">%d unread message</item>
+        <item quantity="two">%d unread messages</item>
+        <item quantity="few">%d unread messages</item>
+        <item quantity="many">%d unread messages</item>
+        <item quantity="other">%d unread messages</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d هۆشداری ئەمڕۆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d هۆشداری ئەمڕۆ</item>
+    </plurals>
+</resources>

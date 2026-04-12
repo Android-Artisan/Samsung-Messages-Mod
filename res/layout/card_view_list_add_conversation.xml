@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/card_view_list_item_container" android:tag="layout/card_view_list_add_conversation_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerRelativeLayout android:id="@id/card_view_list_item_rounded_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.messaging.uicommon.widget.checkablelayout.CheckableRelativeLayout android:theme="@style/ListItemBackground" android:gravity="center_vertical" android:id="@id/card_view_list_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:minHeight="@dimen/setting_list_item_min_height" android:paddingStart="@dimen/card_view_margin" android:paddingEnd="@dimen/card_view_end_margin" app:ghost="false" app:roundMode="12">
+            <FrameLayout android:id="@id/list_avatar_panel_outline" android:layout_width="@dimen/convlist_avatar_panel_size" android:layout_height="@dimen/setting_list_item_min_height" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="start|center" android:layout_width="@dimen/convlist_avatar_size" android:layout_height="@dimen/convlist_avatar_size" android:src="@drawable/theme_conversation_list_add_icon" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/list_avatar_panel_outline" android:paddingVertical="14.0dp">
+                <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/card_view_list_item_name_text_size" android:textColor="@color/theme_list_main_text_color" android:ellipsize="end" android:id="@id/add_conversation_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_conversation" android:maxLines="1" android:textDirection="locale" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/card_view_list_item_content_text_size" android:textColor="@color/theme_list_sub_text_color" android:ellipsize="end" android:id="@id/suggested_conversation_titles" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" />
+            </LinearLayout>
+        </com.samsung.android.messaging.uicommon.widget.checkablelayout.CheckableRelativeLayout>
+    </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerRelativeLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.BubbleReactionViewLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/reaction_view_layout" android:background="@drawable/bubble_reaction_bg" android:padding="4.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationZ="1.0dp" android:elevation="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bubble_reaction_item" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dp" layout="@layout/bubble_reaction_item" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dp" layout="@layout/bubble_reaction_item" />
+    <include layout="@layout/reaction_more_view" />
+</com.samsung.android.messaging.ui.view.bubble.item.BubbleReactionViewLayout>

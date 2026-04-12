@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bot_detail_related_bots_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_about_bot_title" android:textColor="@color/theme_list_sub_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:text="@string/bot_related_bots" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_related_bots_item_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/theme_list_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/list_divider_height" android:layout_marginTop="16.0dp" />
+</LinearLayout>

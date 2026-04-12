@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.messageeditor.component.EditorReplyView android:orientation="horizontal" android:background="@color/theme_composer_menu_panel_bg_color" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/composer_editor_reply_divider_margin_top" android:layout_weight="1.0" android:layout_marginStart="@dimen/composer_editor_reply_original_start_margin">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/theme_attachment_reply_sender_text_color" android:gravity="start|center" android:id="@id/reply_recipient_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_marginBottom="4.0dp">
+            <FrameLayout android:id="@id/reply_image_view_container" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_marginEnd="8.0dp">
+                <com.samsung.android.messaging.ui.view.widget.AsyncImageView android:id="@id/reply_image_view" android:background="@drawable/editor_reply_thumbnail_bg" android:layout_width="32.0dp" android:layout_height="32.0dp" android:scaleType="centerCrop" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+                <ImageView android:layout_gravity="center" android:id="@id/reply_video_play_icon" android:visibility="visible" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/orc_video_play_small" />
+            </FrameLayout>
+            <ImageView android:id="@id/reply_icon_view" android:visibility="gone" android:layout_width="14.0dp" android:layout_height="14.0dp" android:importantForAccessibility="no" android:layout_marginEnd="8.0dp" />
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="12.0dp" android:textColor="@color/theme_editor_reply_original_contents_color" android:gravity="center_vertical" android:id="@id/reply_original_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="15.0dp" android:maxLines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/reply_cancel_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/attachment_remove_all_button_margin_top" android:layout_marginEnd="@dimen/attachment_remove_all_button_margin_end">
+        <ImageButton android:id="@id/reply_cancel_button" android:background="?android:selectableItemBackgroundBorderless" android:clickable="false" android:layout_width="@dimen/editor_all_remove_attachment_button_width_height" android:layout_height="@dimen/editor_all_remove_attachment_button_width_height" android:src="@drawable/attachment_editor_remove_all" android:contentDescription="@string/message_editor_cancel_reply_content_description" />
+    </LinearLayout>
+</com.samsung.android.messaging.ui.view.composer.messageeditor.component.EditorReplyView>

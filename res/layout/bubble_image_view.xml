@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.BubbleImageView android:orientation="vertical" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/bubble_image_container_layout" />
+        <ViewStub android:layout_gravity="center_vertical" android:id="@id/split_multi_window_button_stub" android:layout="@layout/web_preview_multi_window_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_marginStart="@dimen/bubble_indicator_margin" android:layout_marginEnd="@dimen/bubble_indicator_margin" />
+        <ViewStub android:layout_gravity="bottom" android:id="@id/list_image_cancel_fail_stub" android:layout="@layout/list_image_cancel_fail_layout" android:layout_width="@dimen/bubble_badge_cancel_size" android:layout_height="@dimen/bubble_badge_cancel_size" android:layout_weight="0.0" android:layout_marginStart="@dimen/bubble_indicator_margin" android:layout_marginEnd="@dimen/bubble_indicator_margin" />
+        <ViewStub android:layout_gravity="bottom" android:id="@id/badge_view_stub" android:layout="@layout/bubble_badge_layout" android:layout_width="@dimen/bubble_badge_cancel_size" android:layout_height="@dimen/bubble_badge_cancel_size" android:layout_weight="0.0" android:layout_marginStart="@dimen/bubble_indicator_margin" android:layout_marginEnd="@dimen/bubble_indicator_margin" />
+    </LinearLayout>
+    <ViewStub android:id="@id/bubble_suggestion_layout_stub" android:visibility="gone" android:layout="@layout/bubble_suggestion_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/bubble_info_bottom_view" />
+</com.samsung.android.messaging.ui.view.bubble.item.BubbleImageView>

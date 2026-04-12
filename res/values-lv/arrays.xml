@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 stunda</item>
+        <item>6 stundas</item>
+        <item>24 stundas</item>
+        <item>2 dienas</item>
+        <item>Tīkla noklusējums</item>
+        <item>Maksimāli</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Sākotnējais</item>
+        <item>Augsta</item>
+        <item>Vidēja</item>
+        <item>Zema</item>
+        <item>Jautāt vienmēr</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Sākotnējais</item>
+        <item>Augsta kvalitāte</item>
+        <item>Parasta kvalitāte</item>
+        <item>Zema izšķirtspēja</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Visi kanāli</item>
+        <item>Mans kanāls</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automātiski</item>
+        <item>Īsziņa vai multiziņa</item>
+        <item>Tērzēt</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automātiski</item>
+        <item>Īsziņa vai multiziņa</item>
+        <item>RCS tērzēšanas ziņas</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Bloķēt</item>
+        <item>Vispirms jautāt</item>
+        <item>Atļaut</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Vienmēr</item>
+        <item>Jautāt</item>
+        <item>Nekad</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM alfabēts</item>
+        <item>Unikods</item>
+        <item>Automātiski</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Sūtīt vēlreiz kā īsziņu vai multiziņu</item>
+        <item>Nesūtīt vēlreiz</item>
+        <item>Jautāt pirms atkārtotas sūtīšanas</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Izmantot īsziņas vai multiziņas</item>
+        <item>Nesūtīt atkārtoti</item>
+        <item>Jautāt vienmēr</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Sākotnējā</item>
+        <item>Tīkla noklusējums</item>
+        <item>Vienmēr jautāt</item>
+    </string-array>
+</resources>

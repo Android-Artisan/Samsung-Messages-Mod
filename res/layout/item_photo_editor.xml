@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.groupchatsetting.PhotoEditorView android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/photo_container" android:layout_width="@dimen/editor_photo_size" android:layout_height="@dimen/editor_photo_size">
+        <ViewStub android:id="@id/stub_fragment_container" android:visibility="gone" android:layout="@layout/preview_fragment_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.samsung.android.messaging.ui.view.widget.avatar.AvatarImageView android:layout_gravity="bottom" android:id="@id/profile_view" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="@dimen/editor_photo_size" android:layout_height="@dimen/editor_photo_size" android:scaleType="centerCrop" android:cropToPadding="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/setgroup_camera" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_photo_size_margin" android:src="@drawable/ic_contacts_edit_ic_btn_camera" android:tint="@color/setgroup_camera_color" android:layout_marginEnd="@dimen/editor_photo_size_margin" />
+        <ImageButton android:layout_gravity="bottom" android:id="@id/frame" android:background="@drawable/photo_action_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/editor_photo_size" android:layout_height="@dimen/editor_photo_size" android:contentDescription="@string/group_chat_image" />
+    </FrameLayout>
+</com.samsung.android.messaging.ui.view.groupchatsetting.PhotoEditorView>

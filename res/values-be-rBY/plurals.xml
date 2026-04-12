@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма адклікаць паведамленне. Паведамленні можна адклікаць толькі ў межах %d хвіліны пасля адпраўкі.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма адклікаць паведамленне. Паведамленні можна адклікаць толькі ў межах %d хвілін пасля адпраўкі.</item>
+        <item quantity="many">Немагчыма адклікаць паведамленне. Паведамленні можна адклікаць толькі ў межах %d хвілін пасля адпраўкі.</item>
+        <item quantity="other">Немагчыма адклікаць паведамленне. Паведамленні можна адклікаць толькі ў межах %d хвілін пасля адпраўкі.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Таксама выйсці з %d групавога чату</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Таксама выйсці з %d групавых чатаў</item>
+        <item quantity="many">Таксама выйсці з %d групавых чатаў</item>
+        <item quantity="other">Таксама выйсці з %d групавых чатаў</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Таксама выйсці з %d групавой размовы</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Таксама выйсці з %d групавых размоў</item>
+        <item quantity="many">Таксама выйсці з %d групавых размоў</item>
+        <item quantity="other">Таксама выйсці з %d групавых размоў</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d пакет эматыконаў?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d пакеты эматыконаў?</item>
+        <item quantity="many">Выдаліць %d пакетаў эматыконаў?</item>
+        <item quantity="other">Выдаліць %d пакетаў эматыконаў?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d размову ў сметніцу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d размовы ў сметніцу?</item>
+        <item quantity="many">Перамясціць %d размоў у сметніцу?</item>
+        <item quantity="other">Перамясціць %d размоў у сметніцу?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паведамленні ў сметніцы будуць выдалены назаўсёды праз %d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паведамленні ў сметніцы будуць выдалены назаўсёды праз %d дні.</item>
+        <item quantity="many">Паведамленні ў сметніцы будуць выдалены назаўсёды праз %d дзён.</item>
+        <item quantity="other">Паведамленні ў сметніцы будуць выдалены назаўсёды праз %d дзён.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаленыя паведамленні застануцца ў сметніцы на %d дзень, перад тым як будуць выдалены назаўсёды.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаленыя паведамленні застануцца ў сметніцы на %d дні, перад тым як будуць выдалены назаўсёды.</item>
+        <item quantity="many">Выдаленыя паведамленні застануцца ў сметніцы на %d дзён, перад тым як будуць выдалены назаўсёды.</item>
+        <item quantity="other">Выдаленыя паведамленні застануцца ў сметніцы на %d дзён, перад тым як будуць выдалены назаўсёды.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d паведамленне ў сметніцу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d паведамленні ў сметніцу?</item>
+        <item quantity="many">Перамясціць %d паведамленняў у сметніцу?</item>
+        <item quantity="other">Перамясціць %d паведамленняў у сметніцу?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння адмысловы дзень (%1$s і яшчэ %2$d падзея). Адправіць нешта?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння адмысловы дзень (%1$s і яшчэ %2$d падзеі). Адправіць нешта?</item>
+        <item quantity="many">Сёння адмысловы дзень (%1$s і яшчэ %2$d падзей). Адправіць нешта?</item>
+        <item quantity="other">Сёння адмысловы дзень (%1$s і яшчэ %2$d падзей). Адправіць нешта?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння дзень нараджэння %1$s і яшчэ %2$d кантакта! Адправіць штосьці асаблівае?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння дзень нараджэння %1$s і яшчэ %2$d кантактаў! Адправіць штосьці асаблівае?</item>
+        <item quantity="many">Сёння дзень нараджэння %1$s і яшчэ %2$d кантактаў! Адправіць штосьці асаблівае?</item>
+        <item quantity="other">Сёння дзень нараджэння %1$s і яшчэ %2$d кантактаў! Адправіць штосьці асаблівае?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За апошнія 30 дзён заблакіравана %d паведамленне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За апошнія 30 дзён заблакіраваны %d паведамленні</item>
+        <item quantity="many">За апошнія 30 дзён заблакіравана %d паведамленняў</item>
+        <item quantity="other">За апошнія 30 дзён заблакіравана %d паведамленняў</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрана: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрана: %d</item>
+        <item quantity="many">Выбрана: %d</item>
+        <item quantity="other">Выбрана: %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма заблакіраваць %d адрас электроннай пошты, таму што ён несапраўдны.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма заблакіраваць %d адрасы электроннай пошты, таму што яны несапраўдныя.</item>
+        <item quantity="many">Немагчыма заблакіраваць %d адрасоў электроннай пошты, таму што яны несапраўдныя.</item>
+        <item quantity="other">Немагчыма заблакіраваць %d адрасоў электроннай пошты, таму што яны несапраўдныя.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма заблакіраваць %d нумар тэлефона, таму што ён несапраўдны.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма заблакіраваць %d нумары тэлефонаў, таму што яны несапраўдныя.</item>
+        <item quantity="many">Немагчыма заблакіраваць %d нумароў тэлефонаў, таму што яны несапраўдныя.</item>
+        <item quantity="other">Немагчыма заблакіраваць %d нумароў тэлефонаў, таму што яны несапраўдныя.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма заблакіраваць %d адпраўшчыка, таму што яго інфармацыя несапраўдная.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма заблакіраваць %d адпраўшчыкаў, таму што іх інфармацыя несапраўдная.</item>
+        <item quantity="many">Немагчыма заблакіраваць %d адпраўшчыкаў, таму што іх інфармацыя несапраўдная.</item>
+        <item quantity="other">Немагчыма заблакіраваць %d адпраўшчыкаў, таму што іх інфармацыя несапраўдная.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма выбраць больш %d кантакта.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма выбраць больш %d кантактаў.</item>
+        <item quantity="many">Немагчыма выбраць больш %d кантактаў.</item>
+        <item quantity="other">Немагчыма выбраць больш %d кантактаў.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d %2$s карта</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d %2$s карты</item>
+        <item quantity="many">%1$d %2$s карт</item>
+        <item quantity="other">%1$d %2$s карт</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d кантакт чату</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d кантакты чату</item>
+        <item quantity="many">%d кантактаў чату</item>
+        <item quantity="other">%d кантактаў чату</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d кантакт Chatting+</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d кантакты Chatting+</item>
+        <item quantity="many">%d кантактаў Chatting+</item>
+        <item quantity="other">%d кантактаў Chatting+</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Калі вы скасуеце рэгістрацыю ў Chatting+, вы не зможаце ствараць прыватныя і групавыя чаты або далучацца да іх, атрымліваць пацвярджэнні аб тым, што вашы паведамленні былі прачытаны, або дзяліцца вялікімі файламі. Вы ўпэўнены, што хочаце скасаваць рэгістрацыю?
+
+Перад паўторнай рэгістрацыяй вам таксама трэба будзе пачакаць %d хвіліну."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Калі вы скасуеце рэгістрацыю ў Chatting+, вы не зможаце ствараць прыватныя і групавыя чаты або далучацца да іх, атрымліваць пацвярджэнні аб тым, што вашы паведамленні былі прачытаны, або дзяліцца вялікімі файламі. Вы ўпэўнены, што хочаце скасаваць рэгістрацыю?
+
+Перад паўторнай рэгістрацыяй вам таксама трэба будзе пачакаць %d хвіліны."</item>
+        <item quantity="many">"Калі вы скасуеце рэгістрацыю ў Chatting+, вы не зможаце ствараць прыватныя і групавыя чаты або далучацца да іх, атрымліваць пацвярджэнні аб тым, што вашы паведамленні былі прачытаны, або дзяліцца вялікімі файламі. Вы ўпэўнены, што хочаце скасаваць рэгістрацыю?
+
+Перад паўторнай рэгістрацыяй вам таксама трэба будзе пачакаць %d хвілін."</item>
+        <item quantity="other">"Калі вы скасуеце рэгістрацыю ў Chatting+, вы не зможаце ствараць прыватныя і групавыя чаты або далучацца да іх, атрымліваць пацвярджэнні аб тым, што вашы паведамленні былі прачытаны, або дзяліцца вялікімі файламі. Вы ўпэўнены, што хочаце скасаваць рэгістрацыю?
+
+Перад паўторнай рэгістрацыяй вам таксама трэба будзе пачакаць %d хвілін."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d чат-бот</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d чат-боты</item>
+        <item quantity="many">%d чат-ботаў</item>
+        <item quantity="other">%d чат-ботаў</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d кантакт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d кантакты</item>
+        <item quantity="many">%d кантактаў</item>
+        <item quantity="other">%d кантактаў</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрана: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрана: %d</item>
+        <item quantity="many">Выбрана: %d</item>
+        <item quantity="other">Выбрана: %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Тэрмін дзеяння скончыцца праз %d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Тэрмін дзеяння скончыцца праз %d дні</item>
+        <item quantity="many">Тэрмін дзеяння скончыцца праз %d дзён</item>
+        <item quantity="other">Тэрмін дзеяння скончыцца праз %d дзён</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Тэрмін дзеяння %d купона хутка скончыцца</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Тэрмін дзеяння %d купонаў хутка скончыцца</item>
+        <item quantity="many">Тэрмін дзеяння %d купонаў хутка скончыцца</item>
+        <item quantity="other">Тэрмін дзеяння %d купонаў хутка скончыцца</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Тэрмін дзеяння %1$s вашага купона скончыцца праз %2$d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Тэрмін дзеяння %1$s вашага купона скончыцца праз %2$d дні.</item>
+        <item quantity="many">Тэрмін дзеяння %1$s вашага купона скончыцца праз %2$d дзён.</item>
+        <item quantity="other">Тэрмін дзеяння %1$s вашага купона скончыцца праз %2$d дзён.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Тэрмін дзеяння купона скончыцца праз %d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Тэрмін дзеяння купона скончыцца праз %d дні.</item>
+        <item quantity="many">Тэрмін дзеяння купона скончыцца праз %d дзён.</item>
+        <item quantity="other">Тэрмін дзеяння купона скончыцца праз %d дзён.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">Выдаліць размову (%d)?</item>
+        <item quantity="other">Выдаліць размовы (%d)?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d размову назаўсёды?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d размовы назаўсёды?</item>
+        <item quantity="many">Выдаліць %d размоў назаўсёды?</item>
+        <item quantity="other">Выдаліць %d размоў назаўсёды?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">Выдаліць паведамленне (%d)?</item>
+        <item quantity="other">Выдаліць паведамленні (%d)?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d паведамленне назаўсёды?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d паведамленні назаўсёды?</item>
+        <item quantity="many">Выдаліць %d паведамленняў назаўсёды?</item>
+        <item quantity="other">Выдаліць %d паведамленняў назаўсёды?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d паведамленне пра дастаўку</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d паведамленні пра дастаўку</item>
+        <item quantity="many">%d паведамленняў пра дастаўку</item>
+        <item quantity="other">%d паведамленняў пра дастаўку</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адхіліць %d карту?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адхіліць %d карты?</item>
+        <item quantity="many">Адхіліць %d карт?</item>
+        <item quantity="other">Адхіліць %d карт?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На галоўным экране можна паказваць толькі %1$d ўкладку катэгорый. Астатнія застаюцца схаванымі. Выберыце катэгорыю %2$s, калі вы хочаце атрымліваць да яе хуткі доступ з галоўнага экрана.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На галоўным экране можна паказваць толькі %1$d ўкладкі катэгорый. Астатнія застаюцца схаванымі. Выберыце катэгорыю %2$s, калі вы хочаце атрымліваць да яе хуткі доступ з галоўнага экрана.</item>
+        <item quantity="many">На галоўным экране можна паказваць толькі %1$d укладак катэгорый. Астатнія застаюцца схаванымі. Выберыце катэгорыю %2$s, калі вы хочаце атрымліваць да яе хуткі доступ з галоўнага экрана.</item>
+        <item quantity="other">На галоўным экране можна паказваць толькі %1$d укладак катэгорый. Астатнія застаюцца схаванымі. Выберыце катэгорыю %2$s, калі вы хочаце атрымліваць да яе хуткі доступ з галоўнага экрана.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвіліны</item>
+        <item quantity="many">%d хвілін</item>
+        <item quantity="other">%d хвілін</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d файл захаваны на тэлефон.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d файлы захаваны на тэлефон.</item>
+        <item quantity="many">%d файлаў захавана на тэлефон.</item>
+        <item quantity="other">%d файлаў захавана на тэлефон.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d файл захаваны на планшэт.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d файлы захаваны на планшэт.</item>
+        <item quantity="many">%d файлаў захавана на планшэт.</item>
+        <item quantity="other">%d файлаў захавана на планшэт.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d трансакцыя сёння</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d трансакцыі сёння</item>
+        <item quantity="many">%d трансакцый сёння</item>
+        <item quantity="other">%d трансакцый сёння</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s і %2$d невядомы нумар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s і %2$d невядомыя нумары</item>
+        <item quantity="many">%1$s і %2$d невядомых нумароў</item>
+        <item quantity="other">%1$s і %2$d невядомых нумароў</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d невядомы нумар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d невядомых нумары</item>
+        <item quantity="many">%d невядомых нумароў</item>
+        <item quantity="other">%d невядомых нумароў</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s не могуць далучацца да групавых чатаў. Выдаліце іх з выбраных атрымальнікаў або адпраўце замест гэтага тэкставае паведамленне максімальна %2$d атрымальніку.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s не могуць далучацца да групавых чатаў. Выдаліце іх з выбраных атрымальнікаў або адпраўце замест гэтага тэкставае паведамленне максімальна %2$d атрымальнікам.</item>
+        <item quantity="many">%1$s не могуць далучацца да групавых чатаў. Выдаліце іх з выбраных атрымальнікаў або адпраўце замест гэтага тэкставае паведамленне максімальна %2$d атрымальнікам.</item>
+        <item quantity="other">%1$s не могуць далучацца да групавых чатаў. Выдаліце іх з выбраных атрымальнікаў або адпраўце замест гэтага тэкставае паведамленне максімальна %2$d атрымальнікам.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"У аднаго або некалькіх з уключаных атрымальнікаў не падтрымліваюцца адмысловыя паведамленні, таму колькасць членаў у групе абмежавана да %d.
+
+Каб працягнуць, выберыце толькі ўдзельнікаў, у якіх падтрымліваюцца адмысловыя паведамленні. Яны адзначаны сіняй кропкай."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"У аднаго або некалькіх з уключаных атрымальнікаў не падтрымліваюцца адмысловыя паведамленні, таму колькасць членаў у групе абмежавана да %d.
+
+Каб працягнуць, выберыце толькі ўдзельнікаў, у якіх падтрымліваюцца адмысловыя паведамленні. Яны адзначаны сіняй кропкай."</item>
+        <item quantity="many">"У аднаго або некалькіх з уключаных атрымальнікаў не падтрымліваюцца адмысловыя паведамленні, таму колькасць членаў у групе абмежавана да %d.
+
+Каб працягнуць, выберыце толькі ўдзельнікаў, у якіх падтрымліваюцца адмысловыя паведамленні. Яны адзначаны сіняй кропкай."</item>
+        <item quantity="other">"У аднаго або некалькіх з уключаных атрымальнікаў не падтрымліваюцца адмысловыя паведамленні, таму колькасць членаў у групе абмежавана да %d.
+
+Каб працягнуць, выберыце толькі ўдзельнікаў, у якіх падтрымліваюцца адмысловыя паведамленні. Яны адзначаны сіняй кропкай."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб пачаць групавы чат, выдаліце апошняга выбранага атрымальніка. Калі вы хочаце ўключыць апошняга атрымальніка, выдаліце %d атрымальніка, каб адправіць паведамленне.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб пачаць групавы чат, выдаліце апошняга выбранага атрымальніка. Калі вы хочаце ўключыць апошняга атрымальніка, выдаліце %d атрымальнікаў, каб адправіць паведамленне.</item>
+        <item quantity="many">Каб пачаць групавы чат, выдаліце апошняга выбранага атрымальніка. Калі вы хочаце ўключыць апошняга атрымальніка, выдаліце %d атрымальнікаў, каб адправіць паведамленне.</item>
+        <item quantity="other">Каб пачаць групавы чат, выдаліце апошняга выбранага атрымальніка. Калі вы хочаце ўключыць апошняга атрымальніка, выдаліце %d атрымальнікаў, каб адправіць паведамленне.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d відарыс захаваны на планшэт.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d відарысы захаваны на планшэт.</item>
+        <item quantity="many">%d відарысаў захавана на планшэт.</item>
+        <item quantity="other">%d відарысаў захавана на планшэт.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d відарыс захаваны на тэлефон.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d відарысы захаваны на тэлефон.</item>
+        <item quantity="many">%d відарысаў захавана на тэлефон.</item>
+        <item quantity="other">%d відарысаў захавана на тэлефон.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 відарыс і %d відэаролік захаваны на тэлефон.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 відарыс і %d відэаролікі захаваны на тэлефон.</item>
+        <item quantity="many">1 відарыс і %d відэаролікаў захаваны на тэлефон.</item>
+        <item quantity="other">1 відарыс і %d відэаролікаў захавана на тэлефон.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d відарыс і 1 відэаролік захаваны на тэлефон.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d відарысы і 1 відэаролік захаваны на тэлефон.</item>
+        <item quantity="many">%d відарысаў і 1 відэаролік захаваны на тэлефон.</item>
+        <item quantity="other">%d відарысаў і 1 відэаролік захаваны на тэлефон.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Далучыўся карыстальнік %1$s і яшчэ %2$d чалавек</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Далучыўся карыстальнік %1$s і яшчэ %2$d чалавекі</item>
+        <item quantity="many">Далучыўся карыстальнік %1$s і яшчэ %2$d чалавек</item>
+        <item quantity="other">Далучыўся карыстальнік %1$s і яшчэ %2$d чалавек</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d кантакт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d кантакты</item>
+        <item quantity="many">%d кантактаў</item>
+        <item quantity="other">%d кантактаў</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма выбраць больш за %d чалавека.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма выбраць больш за %d чалавекі.</item>
+        <item quantity="many">Немагчыма выбраць больш за %d чалавек.</item>
+        <item quantity="other">Немагчыма выбраць больш за %d чалавек.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пры націсканні кнопкі «Прапановы паведамленняў» апошняе %d паведамленне ў размове будзе апрацоўвацца анлайн. Прапановы, створаныя штучным інтэлектам, могуць быць недакладнымі або ўтрымліваць недапушчальнае змесціва.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Пры націсканні кнопкі «Прапановы паведамленняў» апошнія %d паведамленні ў размове будуць апрацоўвацца анлайн. Прапановы, створаныя штучным інтэлектам, могуць быць недакладнымі або ўтрымліваць недапушчальнае змесціва.</item>
+        <item quantity="many">Пры націсканні кнопкі «Прапановы паведамленняў» апошнія %d паведамленняў у размове будуць апрацоўвацца анлайн. Прапановы, створаныя штучным інтэлектам, могуць быць недакладнымі або ўтрымліваць недапушчальнае змесціва.</item>
+        <item quantity="other">Пры націсканні кнопкі «Прапановы паведамленняў» апошнія %d паведамленняў у размове будуць апрацоўвацца анлайн. Прапановы, створаныя штучным інтэлектам, могуць быць недакладнымі або ўтрымліваць недапушчальнае змесціва.</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d файл абагулены з дапамогай Хуткага абагульвання</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d файлы абагулены з дапамогай Хуткага абагульвання</item>
+        <item quantity="many">%d файлаў абагулена з дапамогай Хуткага абагульвання</item>
+        <item quantity="other">%d файлаў абагулена з дапамогай Хуткага абагульвання</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d новая карысная карта</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d новыя карысныя карты</item>
+        <item quantity="many">%d новых карысных карт</item>
+        <item quantity="other">%d новых карысных карт</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d размова</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d размовы</item>
+        <item quantity="many">%d размоў</item>
+        <item quantity="other">%d размоў</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d паведамленне</item>
+        <item quantity="other">Паведамленняў: %d</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Захоўваць выдаленыя паведамленні %d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Захоўваць выдаленыя паведамленні %d дні.</item>
+        <item quantity="many">Захоўваць выдаленыя паведамленні %d дзён.</item>
+        <item quantity="other">Захоўваць выдаленыя паведамленні %d дзён.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы можаце абнавіць зноў праз %d хвіліну.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы можаце абнавіць зноў праз %d хвіліны.</item>
+        <item quantity="many">Вы можаце абнавіць зноў праз %d хвілін.</item>
+        <item quantity="other">Вы можаце абнавіць зноў праз %d хвілін.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адправіць %d паведамленне зараз?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адправіць %d паведамленні зараз?</item>
+        <item quantity="many">Адправіць %d паведамленняў зараз?</item>
+        <item quantity="other">Адправіць %d паведамленняў зараз?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ваша інфармацыя абнаўляецца. Пачакайце мінімум %d хвіліну, потым паўтарыце спробу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ваша інфармацыя абнаўляецца. Пачакайце мінімум %d хвіліны, потым паўтарыце спробу.</item>
+        <item quantity="many">Ваша інфармацыя абнаўляецца. Пачакайце мінімум %d хвілін, потым паўтарыце спробу.</item>
+        <item quantity="other">Ваша інфармацыя абнаўляецца. Пачакайце мінімум %d хвілін, потым паўтарыце спробу.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма замацаваць больш %d размовы.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма замацаваць больш %d размоў.</item>
+        <item quantity="many">Немагчыма замацаваць больш %d размоў.</item>
+        <item quantity="other">Немагчыма замацаваць больш %d размоў.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s і %2$d іншы</item>
+        <item quantity="other">%1$s і %2$d іншых</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d карту?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d карты?</item>
+        <item quantity="many">Выдаліць %d карт?</item>
+        <item quantity="other">Выдаліць %d карт?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Увядзіце прычыну (да %d сімвала)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Увядзіце прычыну (да %d сімвалаў)</item>
+        <item quantity="many">Увядзіце прычыну (да %d сімвалаў)</item>
+        <item quantity="other">Увядзіце прычыну (да %d сімвалаў)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">Запланавана %d паведамленняў</item>
+        <item quantity="one">Запланавана %d паведамленне</item>
+        <item quantity="two">Запланавана %d паведамленні</item>
+        <item quantity="few">Запланаваны %d паведамленні</item>
+        <item quantity="many">Запланавана %d паведамленняў</item>
+        <item quantity="other">Запланавана %d паведамленняў</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выберыце момант часу як мінімум праз %d хвіліну.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выберыце момант часу як мінімум праз %d хвіліны.</item>
+        <item quantity="many">Выберыце момант часу як мінімум праз %d хвілін.</item>
+        <item quantity="other">Выберыце момант часу як мінімум праз %d хвілін.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Знойдзены %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Знойдзены %d</item>
+        <item quantity="many">Знойдзена %d</item>
+        <item quantity="other">Знойдзена %d</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць 1 размову і яшчэ %d паведамленне ў сметніцу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць 1 размову і яшчэ %d паведамленні ў сметніцу?</item>
+        <item quantity="many">Перамясціць 1 размову і яшчэ %d паведамленняў ў сметніцу?</item>
+        <item quantity="other">Перамясціць 1 размову і яшчэ %d паведамленняў ў сметніцу?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d размову і яшчэ 1 паведамленне ў сметніцу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d размовы і яшчэ 1 паведамленне ў сметніцу?</item>
+        <item quantity="many">Перамясціць %d размоў і яшчэ 1 паведамленне ў сметніцу?</item>
+        <item quantity="other">Перамясціць %d размоў і яшчэ 1 паведамленне ў сметніцу?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Выберыце да %d чалавека.
+(Паказаны людзі, якія выкарыстоўваюць свае нумары тэлефонаў у гэтай размове.)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Выберыце да %d чалавек.
+(Паказаны людзі, якія выкарыстоўваюць свае нумары тэлефонаў у гэтай размове.)"</item>
+        <item quantity="many">"Выберыце да %d чалавек.
+(Паказаны людзі, якія выкарыстоўваюць свае нумары тэлефонаў у гэтай размове.)"</item>
+        <item quantity="other">"Выберыце да %d чалавек.
+(Паказаны людзі, якія выкарыстоўваюць свае нумары тэлефонаў у гэтай размове.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d гадзіна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d гадзіны</item>
+        <item quantity="many">Час сну: %d гадзін</item>
+        <item quantity="other">Час сну: %d гадзін</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d хвіліны</item>
+        <item quantity="many">Час сну: %d хвілін</item>
+        <item quantity="other">Час сну: %d хвілін</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Засталася %d гадзіна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Засталося %d гадзіны</item>
+        <item quantity="many">Засталося %d гадзін</item>
+        <item quantity="other">Засталося %d гадзін</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Засталася %d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Засталося %d хвіліны</item>
+        <item quantity="many">Засталося %d хвілін</item>
+        <item quantity="other">Засталося %d хвілін</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Застаецца %d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Застаецца %d секунды</item>
+        <item quantity="many">Застаецца %d секунд</item>
+        <item quantity="other">Застаецца %d секунд</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">Паведамленне скапіравана з SIM-карты.</item>
+        <item quantity="other">Паведамленні скапіраваны з SIM-карты.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d катэгорыя</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d катэгорыі</item>
+        <item quantity="many">%d катэгорый</item>
+        <item quantity="other">%d катэгорый</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы выбралі больш %d атрымальніка, што з’яўляецца лімітам для тэкставых паведамленняў. Пачніце групавы чат, каб адправіць паведамленне ўсім адначасова.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы выбралі больш %d атрымальнікаў, што з’яўляецца лімітам для тэкставых паведамленняў. Пачніце групавы чат, каб адправіць паведамленне ўсім адначасова.</item>
+        <item quantity="many">Вы выбралі больш %d атрымальнікаў, што з’яўляецца лімітам для тэкставых паведамленняў. Пачніце групавы чат, каб адправіць паведамленне ўсім адначасова.</item>
+        <item quantity="other">Вы выбралі больш %d атрымальнікаў, што з’яўляецца лімітам для тэкставых паведамленняў. Пачніце групавы чат, каб адправіць паведамленне ўсім адначасова.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Усяго %d паведамленне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Усяго %d паведамленні</item>
+        <item quantity="many">Усяго %d паведамленняў</item>
+        <item quantity="other">Усяго %d паведамленняў</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d паведамленне аўтаматычна разблакіравана, таму што адпраўшчыкі больш не лічацца шкоднаснымі.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d паведамленні аўтаматычна разблакіраваны, таму што адпраўшчыкі больш не лічацца шкоднаснымі.</item>
+        <item quantity="many">%d паведамленняў аўтаматычна разблакіравана, таму што адпраўшчыкі больш не лічацца шкоднаснымі.</item>
+        <item quantity="other">%d паведамленняў аўтаматычна разблакіравана, таму што адпраўшчыкі больш не лічацца шкоднаснымі.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ад %1$s і яшчэ %2$d брэнда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">ад %1$s і яшчэ %2$d брэндаў</item>
+        <item quantity="many">ад %1$s і яшчэ %2$d брэндаў</item>
+        <item quantity="other">ад %1$s і яшчэ %2$d брэндаў</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d непрачытанае паведамленне пра дастаўку</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d непрачытаных паведамленні пра дастаўку</item>
+        <item quantity="many">%d непрачытаных паведамленняў пра дастаўку</item>
+        <item quantity="other">%d непрачытаных паведамленняў пра дастаўку</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ад %1$s і яшчэ %2$d кантакту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">ад %1$s і яшчэ %2$d кантактаў</item>
+        <item quantity="many">ад %1$s і яшчэ %2$d кантактаў</item>
+        <item quantity="other">ад %1$s і яшчэ %2$d кантактаў</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d непрачытанае паведамленне ад %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d непрачытаныя паведамленні ад %2$s</item>
+        <item quantity="many">%1$d непрачытаных паведамленняў ад %2$s</item>
+        <item quantity="other">%1$d непрачытаных паведамленняў ад %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">у тым ліку некалькі ад %1$s і яшчэ %2$d брэнда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">у тым ліку некалькі ад %1$s і яшчэ %2$d брэндаў</item>
+        <item quantity="many">у тым ліку некалькі ад %1$s і яшчэ %2$d брэндаў</item>
+        <item quantity="other">у тым ліку некалькі ад %1$s і яшчэ %2$d брэндаў</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">у тым ліку %d паведамленне пра дастаўку</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">у тым ліку %d паведамленні пра дастаўку</item>
+        <item quantity="many">у тым ліку %d паведамленняў пра дастаўку</item>
+        <item quantity="other">у тым ліку %d паведамленняў пра дастаўку</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">у тым ліку ад %1$s і яшчэ %2$d кантакту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">у тым ліку некалькі ад %1$s і яшчэ %2$d кантактаў</item>
+        <item quantity="many">у тым ліку некалькі ад %1$s і яшчэ %2$d кантактаў</item>
+        <item quantity="other">у тым ліку некалькі ад %1$s і яшчэ %2$d кантактаў</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d непрачытанае паведамленне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d непрачытаныя паведамленні</item>
+        <item quantity="many">%d непрачытаных паведамленняў</item>
+        <item quantity="other">%d непрачытаных паведамленняў</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d непрачытанае паведамленне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d непрачытаныя паведамленні</item>
+        <item quantity="many">%d непрачытаных паведамленняў</item>
+        <item quantity="other">%d непрачытаных паведамленняў</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d будучая абвестка сёння</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d будучыя абвесткі сёння</item>
+        <item quantity="many">%d будучых абвестак сёння</item>
+        <item quantity="other">%d будучых абвестак сёння</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d відэаролік захаваны на тэлефон.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d відэаролікі захаваны на тэлефон.</item>
+        <item quantity="many">%d відэаролікаў захавана на тэлефон.</item>
+        <item quantity="other">%d відэаролікаў захавана на тэлефон.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння вы атрымалі %1$s%2$d паведамленне пра дастаўку%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння вы атрымалі %1$s%2$d паведамленні пра дастаўку%3$s.</item>
+        <item quantity="many">Сёння вы атрымалі %1$s%2$d паведамленняў пра дастаўку%3$s.</item>
+        <item quantity="other">Сёння вы атрымалі %1$s%2$d паведамленняў пра дастаўку%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння вы атрымалі %1$s%2$d паведамленне пра дастаўкі%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння вы атрымалі %1$s%2$d паведамленні пра дастаўкі%3$s.</item>
+        <item quantity="many">Сёння вы атрымалі %1$s%2$d паведамленняў пра дастаўкі%3$s.</item>
+        <item quantity="other">Сёння вы атрымалі %1$s%2$d паведамленняў пра дастаўкі%3$s.</item>
+    </plurals>
+</resources>

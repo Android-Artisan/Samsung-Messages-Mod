@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.extension.chn.announcement.fontdo.view.otherview.ImageViewRatio android:id="@id/ad_image" android:layout_marginTop="@dimen/component_frame_padding_6dp" style="@style/imageview_fitxy"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

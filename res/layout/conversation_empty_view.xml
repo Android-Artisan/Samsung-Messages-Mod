@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:background="@color/theme_control_area_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/conversation_list_empty_view_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@id/conversation_list_header_tips" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/conversation_list_header_tips" />
+                <include android:id="@id/progress_tip_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/conversation_list_header_progress_tip_card" />
+                <RelativeLayout android:id="@id/conversation_list_empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="vertical" android:id="@id/no_item_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                            <TextView android:textAppearance="@style/TextAppearanceNoItem" android:gravity="center" android:id="@id/no_item_text" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/no_conversations_in_conversation" android:layout_weight="0.75" />
+                        </LinearLayout>
+                        <com.airbnb.lottie.LottieAnimationView android:id="@id/useful_card_intro_animation" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/alive_sms_introduction_animation_height" android:layout_marginTop="12.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" app:lottie_autoPlay="true" app:lottie_loop="true" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/no_item_sub_text_top_margin" android:weightSum="1.0" android:layout_below="@id/no_item_container" android:layout_centerHorizontal="true">
+                        <TextView android:textAppearance="@style/TextAppearanceNoItemSubText" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/no_item_sub_text" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.75" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="1.0" android:layout_centerInParent="true">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.75">
+                            <TextView android:textAppearance="@style/TextAppearanceNoItem" android:gravity="center" android:id="@id/select_conversations_button" android:background="@drawable/ripple_add_conversation_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_conversation" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/no_item_sub_text_search_select_mode" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textAppearance="@style/TextAppearanceNoSearchItem" android:gravity="center" android:id="@id/no_item_text_select_mode" android:paddingTop="@dimen/search_container_in_select_mode_margin" android:paddingBottom="@dimen/search_container_in_select_mode_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_results_found" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

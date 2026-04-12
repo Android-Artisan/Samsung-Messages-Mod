@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 hora</item>
+        <item>6 hores</item>
+        <item>24 hores</item>
+        <item>2 dies</item>
+        <item>Predeterminat de la xarxa</item>
+        <item>Màxima</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Original</item>
+        <item>Alta</item>
+        <item>Mitjana</item>
+        <item>Baixa</item>
+        <item>Preguntar sempre</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Original</item>
+        <item>Qualitat alta</item>
+        <item>Qualitat normal</item>
+        <item>Resolució baixa</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Tots els canals</item>
+        <item>El meu canal</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automàtic</item>
+        <item>Text o multimèdia</item>
+        <item>Xat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automàtic</item>
+        <item>Text o multimèdia</item>
+        <item>Missatges de xat RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Bloquejar</item>
+        <item>Preguntar primer</item>
+        <item>Concedir</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Sempre</item>
+        <item>Preguntar</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alfabet GSM</item>
+        <item>Unicode</item>
+        <item>Automàtica</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Reenviar com a missatge de text o multimèdia</item>
+        <item>No reenviar</item>
+        <item>Preguntar abans de reenviar</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Utilitzar miss text o multimèdia</item>
+        <item>No reenviar</item>
+        <item>Preguntar sempre</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Original</item>
+        <item>Xarxa predeterminada</item>
+        <item>Preguntar sempre</item>
+    </string-array>
+</resources>

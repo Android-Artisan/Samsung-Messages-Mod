@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ಗಂಟೆ</item>
+        <item>6 ಗಂಟೆಗಳು</item>
+        <item>24 ಗಂಟೆಗಳು</item>
+        <item>2 ದಿನಗಳು</item>
+        <item>ನೆಟ್‌ವರ್ಕ್ ಡೀಫಾಲ್ಟ್</item>
+        <item>ಗರಿಷ್ಠ</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>ಮೂಲ</item>
+        <item>ಅಧಿಕ</item>
+        <item>ಮಧ್ಯಮ</item>
+        <item>ಕಡಿಮೆ</item>
+        <item>ಸದಾ ಕೇಳಿರಿ</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>ಮೂಲ</item>
+        <item>ಅಧಿಕ ಗುಣಮಟ್ಟ</item>
+        <item>ಸಾಮಾನ್ಯ ಗುಣಮಟ್ಟ</item>
+        <item>ಕಡಿಮೆ ರೆಸೊಲ್ಯೂಶನ್</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>ಎಲ್ಲಾ ಚಾನಲ್‌ಗಳು</item>
+        <item>ನನ್ನ ಚಾನೆಲ್</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>ಸ್ವಯಂಚಾಲಿತ</item>
+        <item>ಪಠ್ಯ ಅಥವಾ ಮಲ್ಟಿಮೀಡಿಯಾ</item>
+        <item>ಚಾಟ್‌</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>ಸ್ವಯಂಚಾಲಿತ</item>
+        <item>ಪಠ್ಯ ಅಥವಾ ಮಲ್ಟಿಮೀಡಿಯಾ</item>
+        <item>RCS ಚಾಟ್ ಸಂದೇಶಗಳು</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ನಿರ್ಬಂಧಿಸಿ</item>
+        <item>ಮೊದಲು ಕೇಳಿ</item>
+        <item>ಅನುಮತಿಸಿ</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ಯಾವಾಗಲೂ</item>
+        <item>ಪ್ರಾಂಪ್ಟ್</item>
+        <item>ಎಂದಿಗೂ ಇಲ್ಲ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM ಅಕ್ಷರಮಾಲೆ</item>
+        <item>ಯುನಿಕೋಡ್</item>
+        <item>ಸ್ವಯಂಚಾಲಿತ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>ಪಠ್ಯ ಅಥವಾ ಮಲ್ಟಿಮೀಡಿಯಾ ಸಂದೇಶವಾಗಿ ಮರುಕಳುಹಿಸಿ</item>
+        <item>ಮರುಕಳುಹಿಸಬೇಡ</item>
+        <item>ಮರುಕಳುಹಿಸುವ ಮೊದಲು ಕೇಳಿ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>ಪಠ್ಯ ಅಥವಾ ಮಲ್ಟಿಮೀಡಿಯಾ ಸಂದೇಶಗಳನ್ನು ಬಳಸಿ</item>
+        <item>ಮತ್ತೆ ಕಳುಹಿಸಿಲ್ಲ</item>
+        <item>ಸದಾ ಕೇಳಿರಿ</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>ಮೂಲ</item>
+        <item>ನೆಟ್‌ವರ್ಕ್ ಡೀಫಾಲ್ಟ್</item>
+        <item>ಯಾವಾಗಲೂ ಕೇಳಿ</item>
+    </string-array>
+</resources>

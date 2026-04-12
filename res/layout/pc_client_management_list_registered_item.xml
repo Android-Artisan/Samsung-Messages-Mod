@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/registered_devices_sub_header" android:focusable="false" android:text="@string/registered_devices" android:paddingStart="@dimen/list_subheader_start_padding_flexible" android:accessibilityHeading="true" style="@style/CustomSubHeaderStyle" />
+    <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout android:orientation="horizontal" android:id="@id/registered_item" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/device_image" android:layout_width="36.0dp" android:layout_height="36.0dp" android:tint="@color/theme_list_main_text_color" android:layout_marginStart="16.0dp" android:layout_marginEnd="12.0dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="69.0dp" android:layout_marginEnd="16.0dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingVertical="@dimen/card_view_top_bottom_padding">
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="17.0sp" android:textColor="@color/theme_list_main_text_color" android:ellipsize="marquee" android:id="@id/device_name" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_list_sub_text_color" android:id="@id/last_connected_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/device_name" />
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_list_sub_text_color" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="10.0dp" app:layout_constraintStart_toEndOf="@id/last_connected_time" app:layout_constraintTop_toBottomOf="@id/device_name" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/more_menu" android:background="?android:selectableItemBackgroundBorderless" android:padding="4.0dp" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/tw_ic_ab_more_mtrl" android:tint="@color/theme_list_main_text_color" android:contentDescription="@string/more_options" android:layout_marginStart="16.0dp" />
+            </LinearLayout>
+            <View android:id="@id/list_divider" android:background="@color/theme_list_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/conversation_list_divider_height" android:layout_marginEnd="4.0dp" />
+        </LinearLayout>
+    </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout>
+</LinearLayout>

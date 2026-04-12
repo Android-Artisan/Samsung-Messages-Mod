@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/select_all_layout" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="54.0dp" android:layout_marginStart="@dimen/msg_popup_checkbox_margin" android:layout_marginEnd="@dimen/msg_popup_checkbox_margin">
+        <CheckBox android:id="@id/select_all_checkbox" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="32.0dp" android:layout_height="match_parent" android:layout_marginEnd="16.0dp" />
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="17.0sp" android:textColor="@color/theme_popup_body_text_color" android:ellipsize="middle" android:gravity="center_vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/select_all" android:maxLines="1" android:scrollHorizontally="true" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/attachment_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent" android:paddingStart="@dimen/msg_popup_checkbox_margin" android:paddingEnd="@dimen/msg_popup_checkbox_margin" />
+</LinearLayout>

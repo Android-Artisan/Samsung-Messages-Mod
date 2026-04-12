@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/bubble_text_url_card_button_text_size" android:textColor="@color/theme_rich_card_button_default_color" android:ellipsize="end" android:gravity="center" android:id="@id/suggestion_view" android:background="@drawable/bubble_text_url_card_button_background" android:longClickable="true" android:layout_width="match_parent" android:layout_height="@dimen/bubble_text_url_card_button_height" android:singleLine="true" android:maxLength="25" android:textAlignment="center" android:stateListAnimator="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

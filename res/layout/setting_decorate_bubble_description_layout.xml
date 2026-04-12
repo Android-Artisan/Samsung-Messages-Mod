@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_control_area_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/im_help_bubble_flair" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/description_used_with_list_text_size" android:textColor="@color/theme_list_description_text_color" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_suggestions_description_base" android:paddingHorizontal="@dimen/setting_description_margin_horizontal_flexible" android:paddingVertical="@dimen/description_used_with_list_margin_bottom" android:lineBreakWordStyle="phrase" />
+</LinearLayout>

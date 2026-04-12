@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 tund</item>
+        <item>6 tundi</item>
+        <item>24 tundi</item>
+        <item>2 päev</item>
+        <item>Võrgu vaikevalik</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Originaal</item>
+        <item>Kõrge</item>
+        <item>Keskmine</item>
+        <item>Madal</item>
+        <item>Küsi alati</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Originaal</item>
+        <item>Kõrge kvaliteet</item>
+        <item>Tavaline kvaliteet</item>
+        <item>Madal eraldusvõime</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Kõik kanalid</item>
+        <item>Minu kanal</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automaatne</item>
+        <item>Test või multimeedium</item>
+        <item>Vestlus</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automaatne</item>
+        <item>Test või multimeedium</item>
+        <item>RCS-vestluse sõnumid</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokeeri</item>
+        <item>Küsi enne</item>
+        <item>Luba</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Alati</item>
+        <item>Küsi</item>
+        <item>Mitte kunagi</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-tähestik</item>
+        <item>Unicode</item>
+        <item>Automaatne</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Saada uuesti tekst- või multimeediumsõnumina</item>
+        <item>Ära saada uuesti</item>
+        <item>Küsi enne uuesti saatmist</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Tekst- või multim.sõnumite kas.</item>
+        <item>Uuesti ei saada</item>
+        <item>Küsi alati</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Originaal</item>
+        <item>Vaikimisi võrk</item>
+        <item>Küsi alati</item>
+    </string-array>
+</resources>

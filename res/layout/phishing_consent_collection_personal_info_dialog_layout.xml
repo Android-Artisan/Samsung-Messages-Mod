@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/sem_dialog_title_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sem_dialog_scroll_view_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/consent_scroll_view" android:paddingBottom="@dimen/sem_dialog_body_text_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sem_dialog_body_text_scroll_padding_start" android:paddingEnd="@dimen/sem_dialog_body_text_scroll_padding_end">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/consent_collection_personal_information_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/setting_phishing_block_explain_for_consent_collection_personal_information_1" android:lineSpacingExtra="@dimen/sem_dialog_body_text_line_spacing_extra" android:textAlignment="viewStart" android:layout_marginStart="@dimen/sem_dialog_body_text_margin_start" android:layout_marginEnd="@dimen/sem_dialog_body_text_margin_end" android:breakStrategy="simple" style="?android:textAppearance" />
+            <TextView android:id="@id/consent_collection_personal_information_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sem_dialog_paragraph_margin_top" android:text="@string/setting_phishing_block_explain_for_consent_collection_personal_information_2" android:lineSpacingExtra="@dimen/sem_dialog_body_text_line_spacing_extra" android:textAlignment="viewStart" android:layout_marginStart="@dimen/sem_dialog_body_text_margin_start" android:layout_marginEnd="@dimen/sem_dialog_body_text_margin_end" android:breakStrategy="simple" style="?android:textAppearance" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

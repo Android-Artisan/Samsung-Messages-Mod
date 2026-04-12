@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <solid android:color="@color/theme_audio_progress_received" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+                <solid android:color="@color/theme_bubble_progress_color_received" />
+            </androidx.appcompat.util.SeslShapeDrawable>
+        </clip>
+    </item>
+</layer-list>

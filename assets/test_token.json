@@ -1,0 +1,11 @@
+{
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+    "accessTokenExpiredAt": "2025-05-27T12:34:56Z",
+    "refreshToken": "dE7m23...kLs9c",
+    "refreshTokenExpiredAt": "2025-07-26T12:34:56Z",
+    "cookies": [
+        "OID_AUT=e4cd0f3ff626402d8d280e9dde9ce62f3eaa20ca1991490d941c52a25221be9b; Path=/; Domain=.ogq.me; SameSite=Lax;",
+        "OID_SCID=eEmrcrBy25rovUc467zN56M7kOy6R1O5WpAF7f4xe0T-dmJaC2SaYmJk7knTaYxx7owk; Path=/; Domain=.ogq.me; HttpOnly; SameSite=Lax;",
+        "OID_SUID=TDGXJcg2Z10j9WYyHn8raA; Path=/; Domain=.ogq.me; Secure; HttpOnly; SameSite=Lax;"
+    ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$smart_reply_progress_material__25" android:duration="133" android:valueFrom="0.263" android:valueTo="0.27" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@drawable/$smart_reply_progress_material__26" android:duration="750" android:valueFrom="0.27" android:valueTo="0.037" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@drawable/$smart_reply_progress_material__27" android:duration="616" android:valueFrom="0.037" android:valueTo="0" android:propertyName="scaleX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$smart_reply_progress_material__28" android:duration="133" android:valueFrom="0.263" android:valueTo="0.27" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$smart_reply_progress_material__29" android:duration="750" android:valueFrom="0.27" android:valueTo="0.037" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$smart_reply_progress_material__30" android:duration="616" android:valueFrom="0.037" android:valueTo="0" android:propertyName="scaleY" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$smart_reply_progress_material__31" android:duration="883" android:valueFrom="8.27" android:valueTo="25.779" android:propertyName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$smart_reply_progress_material__32" android:duration="616" android:valueFrom="25.779" android:valueTo="15.216" android:propertyName="translateX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$smart_reply_progress_material__33" android:duration="883" android:valueFrom="23.612" android:valueTo="33.648" android:propertyName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$smart_reply_progress_material__34" android:duration="616" android:valueFrom="33.648" android:valueTo="27.593" android:propertyName="translateY" />
+    </set>
+</set>

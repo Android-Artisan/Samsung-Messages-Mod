@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ժամ</item>
+        <item>6 ժամ</item>
+        <item>24 ժամ</item>
+        <item>2 օր</item>
+        <item>Ցանցի լռելյայն</item>
+        <item>Առավելագույն</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Սկզբնական</item>
+        <item>Բարձր</item>
+        <item>Միջին</item>
+        <item>Ցածր</item>
+        <item>Միշտ հարցնել</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Սկզբնական</item>
+        <item>Բարձր որակ</item>
+        <item>Նորմալ որակ</item>
+        <item>Ցածր լուծաչափ</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Բոլոր ալիքները</item>
+        <item>Իմ կապուղին</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Ինքնաշխատ</item>
+        <item>Տեքստ կամ մուլտիմեդիա</item>
+        <item>Զրույց</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Ինքնաշխատ</item>
+        <item>Տեքստ կամ մուլտիմեդիա</item>
+        <item>RCS զրույցի հաղորդագրություններ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Արգելափակել</item>
+        <item>Նախ հարցնել</item>
+        <item>Թույլ տալ</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Միշտ</item>
+        <item>Հուշել</item>
+        <item>Երբեք</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-այբուբեն</item>
+        <item>Unicode</item>
+        <item>Ավտոմատ կերպով</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Նորից ուղարկել որպես տեքստային կամ մուլտիմեդիա հաղորդագրություն</item>
+        <item>Նորից չուղարկել</item>
+        <item>Հարցնել նորից ուղարկելուց առաջ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Օգտ. տեքստ. կամ մլտմեդիա հղգներ</item>
+        <item>Առանց վերաուղարկման</item>
+        <item>Միշտ հարցնել</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Սկզբնական</item>
+        <item>Ցանցի կանխադրված</item>
+        <item>Միշտ հարցնել</item>
+    </string-array>
+</resources>

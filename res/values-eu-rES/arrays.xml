@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>Ordu 1</item>
+        <item>6 ordu</item>
+        <item>24 ordu</item>
+        <item>2 egun</item>
+        <item>Sare lehenetsia</item>
+        <item>Gehienezkoa</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Originala</item>
+        <item>Handia</item>
+        <item>Ertaina</item>
+        <item>Txikia</item>
+        <item>Beti galdetu</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Originala</item>
+        <item>Kalitate handia</item>
+        <item>Kalitate arrunta</item>
+        <item>Bereizmen baxua</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Kanal guztiak</item>
+        <item>Nire kanela</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatikoa</item>
+        <item>Testua edo multimedia</item>
+        <item>Txata</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatikoa</item>
+        <item>Testua edo multimedia</item>
+        <item>RCS txat mezuak</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokeatu</item>
+        <item>Aurrena, galdetu</item>
+        <item>Baimendu</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Beti</item>
+        <item>Abisua</item>
+        <item>Inoiz ez</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alfabetoa</item>
+        <item>Unicode</item>
+        <item>Automatikoa</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Birbidali testu edo multimedia mezu gisa</item>
+        <item>Ez birbidali</item>
+        <item>Galdetu birbidali aurretik</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Erabili testu / multimedia mezuak</item>
+        <item>Ez birbidali</item>
+        <item>Beti galdetu</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Jatorrizkoa</item>
+        <item>Sarearen ezarpen lehenetsiak</item>
+        <item>Galdetu beti</item>
+    </string-array>
+</resources>

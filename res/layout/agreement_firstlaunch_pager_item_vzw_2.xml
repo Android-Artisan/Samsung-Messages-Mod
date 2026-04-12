@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/first_launch_webview_container" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/first_launch_webview" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/first_launch_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/first_launch_error_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/common_first_launch_padding" android:paddingEnd="@dimen/common_first_launch_padding">
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/common_first_launch_description_text_size" android:textColor="@color/first_launch_primary_text_color" android:gravity="center" android:id="@id/first_launch_error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_error_try_again" android:lineBreakWordStyle="phrase" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/first_launch_view_pager_height2" android:layout_weight="0.0">
+            <LinearLayout android:id="@id/first_launch_later_button" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/body_contained_button_text_size" android:textColor="@color/first_launch_bottom_button_text_color" android:gravity="center" android:id="@id/first_launch_later_text" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/first_launch_button_later" android:layout_marginStart="@dimen/first_launch_padding" android:layout_marginEnd="@dimen/first_launch_padding" android:lineBreakWordStyle="phrase" style="@style/NewSECSemiBold" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/first_launch_retry_button" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/body_contained_button_text_size" android:textColor="@color/first_launch_bottom_button_text_color" android:gravity="center" android:id="@id/first_launch_retry_text" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/first_launch_button_retry" android:layout_marginStart="@dimen/first_launch_padding" android:layout_marginEnd="@dimen/first_launch_padding" android:lineBreakWordStyle="phrase" style="@style/NewSECSemiBold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

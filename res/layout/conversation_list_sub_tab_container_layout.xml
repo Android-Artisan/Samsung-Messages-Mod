@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:id="@id/conversation_list_sub_tab_container" android:background="@drawable/sesl_floating_appbar_round_background_light" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@android:color/transparent" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="center_vertical" android:id="@id/sub_tab_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/category_floating_sub_tab_height" app:tabGravity="fill" app:tabIndicatorColor="@color/theme_category_subtab_indicator_tint_color" app:tabMode="scrollable" app:tabSelectedTextColor="@color/theme_category_subtab_selected_text_color" app:tabTextAppearance="@style/CategoryItemTabTextStyle" app:tabTextColor="@color/theme_category_subtab_unselected_text_color" />
+</FrameLayout>

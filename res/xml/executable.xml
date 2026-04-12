@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <command android:label="@string/task_edge_compose_message" android:icon="@mipmap/ic_launcher" android:enabled="true" android:tag="3063483042" android:smallIcon="@drawable/small_icon_new_message">
+        <extras-attr android:name="category" android:value="10@message" />
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="action" android:value="com.samsung.android.messaging.action.CREATE_MESSAGE" />
+        <extras-attr android:name="packageName" android:value="com.samsung.android.messaging" />
+        <extras-attr android:name="componentName" android:value="com.samsung.android.messaging.ui.view.taskEdge.TaskEdgeActivity" />
+        <extras-attr android:name="launchMode" android:value="newTask|singleTop" />
+    </command>
+    <command android:label="@string/send_message" android:icon="@drawable/orc_share_thumbnail_default" android:enabled="true" android:tag="3641066833" android:smallIcon="@drawable/task_edge_contact_sendmessage">
+        <extras-attr android:name="category" android:value="20@message" />
+        <extras-attr android:name="type" android:value="activityForResult" />
+        <extras-attr android:name="action" android:value="intent.action.CREATE_EDGE_SHORTCUT_SMS" />
+        <extras-attr android:name="packageName" android:value="com.samsung.android.messaging" />
+        <extras-attr android:name="componentName" android:value="com.samsung.android.messaging.ui.view.taskEdge.TaskEdgeActivity" />
+        <extras-attr android:name="launchMode" android:value="singleTop" />
+    </command>
+</executable>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/announcement_card_button_background"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cover" style="@style/secondary_image" />
+    <TextView android:id="@id/title" style="@style/secondary_text" />
+</LinearLayout>

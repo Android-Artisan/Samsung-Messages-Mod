@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/search_filter_fragment_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:id="@id/search_filter_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:roundMode="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/search_recent_chip_title_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/search_recent_chip_title_padding_start" android:paddingEnd="0.0dp">
+                <TextView android:textSize="13.0sp" android:textColor="@color/theme_sub_header_text_color" android:ellipsize="end" android:paddingTop="@dimen/search_recent_chip_title_padding_top" android:paddingBottom="@dimen/search_recent_chip_title_padding_bottom" android:focusableInTouchMode="true" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/search_filter_title" android:maxLines="1" android:layout_weight="1.0" android:importantForAccessibility="yes" android:textAlignment="viewStart" style="@style/NewSECSemiBold" />
+            </LinearLayout>
+            <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:id="@id/search_filter_list_container" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" app:roundMode="15">
+                <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/search_filter_list" android:paddingBottom="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:paddingHorizontal="@dimen/search_filter_list_padding_horizontal" android:paddingVertical="@dimen/search_filter_list_padding_vertical" />
+            </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>
+        </LinearLayout>
+    </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>
+</LinearLayout>

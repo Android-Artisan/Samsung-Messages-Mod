@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.BubbleHistoryTextView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/info_split_multi_window_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <LinearLayout android:layout_gravity="end|bottom" android:id="@id/info_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/bubble_info_side_view" />
+                <ViewStub android:layout_gravity="bottom" android:id="@id/badge_view_stub" android:layout="@layout/bubble_badge_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bubble_badge_icon_margin_vertical" android:layout_marginBottom="3.0dp" android:layout_marginEnd="@dimen/bubble_indicator_margin" />
+            </LinearLayout>
+            <ViewStub android:layout_gravity="end|center" android:id="@id/split_multi_window_button_stub" android:layout="@layout/web_preview_multi_window_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/bubble_indicator_margin" android:layout_marginEnd="@dimen/bubble_indicator_margin" />
+        </FrameLayout>
+        <com.samsung.android.messaging.ui.view.bubble.item.DoubleTabLinearLayout android:orientation="vertical" android:id="@id/contents_container" android:focusable="true" android:clickable="true" android:longClickable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:importantForAccessibility="no" android:paddingStart="@dimen/bubble_circle_icon_view_start_margin" android:paddingEnd="@dimen/bubble_circle_icon_view_end_margin">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bubble_text_size" android:textColor="@color/bubble_content_font_color" android:textColorLink="#ff0033f1" android:gravity="center_vertical" android:id="@id/content_text_view" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/bubble_text_min_width" android:minHeight="32.0dp" android:importantForAccessibility="no" android:textDirection="firstStrongLtr" app:emojiCompatEnabled="false" />
+            <View android:id="@id/view_all_divider" android:background="@color/theme_bubble_divider_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/view_all_divider_height" />
+            <ViewStub android:id="@id/view_all_layout_stub" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:visibility="gone" android:layout="@layout/view_all_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" />
+        </com.samsung.android.messaging.ui.view.bubble.item.DoubleTabLinearLayout>
+    </LinearLayout>
+    <include layout="@layout/bubble_info_bottom_view" />
+</com.samsung.android.messaging.ui.view.bubble.item.BubbleHistoryTextView>

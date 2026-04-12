@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.attachsheet.smartdecorate.SmartDecorateBubbleView android:layout_gravity="center" android:orientation="vertical" android:id="@id/bubble_text_view_with_deco_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bubble_text_preview_with_deco_content_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginHorizontal="40.0dp">
+            <include android:layout_gravity="center_vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="22.0dp" layout="@layout/bubble_item_checkbox_layout" />
+            <com.samsung.android.messaging.ui.view.composer.messageeditor.component.DecorateBubbleListView android:gravity="end" android:orientation="vertical" android:id="@id/bubble_deco_preview_layout" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <include android:id="@id/bubble_text_view_decorate" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/bubble_text_view" />
+                <View android:id="@id/dummy_deco_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </com.samsung.android.messaging.ui.view.composer.messageeditor.component.DecorateBubbleListView>
+        </LinearLayout>
+        <FrameLayout android:id="@id/send_button_container" android:paddingBottom="8.0dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:importantForAccessibility="yes" android:paddingEnd="8.0dp" android:layout_alignParentEnd="true">
+            <ImageButton android:id="@id/send_button" android:background="@drawable/send_button_im_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/send_button_width" android:layout_height="@dimen/send_button_height" android:contentDescription="@string/send" android:tooltipText="@string/send" />
+            <ImageView android:layout_gravity="center" android:id="@id/send_button_icon" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/send_button_src" />
+        </FrameLayout>
+    </RelativeLayout>
+</com.samsung.android.messaging.ui.view.composer.attachsheet.smartdecorate.SmartDecorateBubbleView>

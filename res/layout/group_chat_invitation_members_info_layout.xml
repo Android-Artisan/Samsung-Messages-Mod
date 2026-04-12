@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/group_chat_invitation_member_info" android:tag="layout/group_chat_invitation_members_info_layout_0" android:background="@drawable/group_chat_invitation_background" android:paddingTop="54.0dp" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/group_chat_invitation_member_info_margin_horizontal" android:paddingHorizontal="14.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.core.widget.NestedScrollView android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constrainedHeight="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_horizontal" android:id="@id/host_address" android:tag="binding_2" android:layout_marginHorizontal="33.5dp" style="@style/GroupChatInvitationSubTitleStyle" />
+                <TextView android:gravity="center_horizontal" android:text="@string/group_chat_invitation_host" android:layout_marginHorizontal="9.5dp" style="@style/GroupChatInvitationDescriptionStyle" />
+                <View android:id="@id/list_divider" android:background="@color/theme_list_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/list_divider_height" android:layout_marginTop="8.0dp" android:layout_marginBottom="23.0dp" android:layout_marginHorizontal="6.0dp" />
+                <TextView android:tag="binding_3" android:layout_marginHorizontal="9.5dp" style="@style/GroupChatInvitationSubTitleStyle" />
+                <TextView android:id="@id/participants_addresses" android:tag="binding_4" android:layout_marginHorizontal="10.0dp" android:lineBreakWordStyle="phrase" style="@style/GroupChatInvitationDescriptionStyle" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

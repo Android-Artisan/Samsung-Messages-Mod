@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/orc_logs_ic_sent_01" android:tint="@color/msgtype_sent_image_tint_color" android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

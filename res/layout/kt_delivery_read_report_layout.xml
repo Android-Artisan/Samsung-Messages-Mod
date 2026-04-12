@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/kt_delivery_report" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orc_ic_title_received_check_msg_kr" android:tint="@color/theme_bubble_info_color" />
+    <ImageView android:id="@id/kt_read_report" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orc_ic_title_read_check_msg_kr" android:tint="@color/theme_bubble_info_color" />
+</LinearLayout>

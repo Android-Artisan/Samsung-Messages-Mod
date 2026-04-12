@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 மணிநேரம்</item>
+        <item>6 மணிநேரங்கள்</item>
+        <item>24 மணிநேரம்</item>
+        <item>2 நாட்கள்</item>
+        <item>நெட்வொர்க் டீஃபால்ட்</item>
+        <item>அதிகபட்சம்</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>அசல்</item>
+        <item>உயர் தரம்</item>
+        <item>நடுத்தரம்</item>
+        <item>குறைந்த தரம்</item>
+        <item>எப்போதும் கேட்கவும்</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>அசல்</item>
+        <item>உயர் தரம்</item>
+        <item>வழக்கமான தரம்</item>
+        <item>குறைந்த தெளிவுத்திறன்</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>எல்லா சேனல்களும்</item>
+        <item>எனது சேனல்</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>தானியக்கம்</item>
+        <item>உரை அல்லது பல்லூடகம்</item>
+        <item>அரட்டை</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>தானியக்கம்</item>
+        <item>உரை அல்லது பல்லூடகம்</item>
+        <item>RCS அரட்டை தகவல்கள்</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>தடை செய்யவும்</item>
+        <item>முதலில் கேட்கவும்</item>
+        <item>அனுமதிக்கவும்</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>எப்போதும்</item>
+        <item>ப்ராம்ப்ட்</item>
+        <item>ஒருபோதுமில்லை</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM அகரவரிசை</item>
+        <item>யுனிகோடு முறை</item>
+        <item>தானியக்கம்</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>உரை அல்லது பல்லூடக தகவலை மீண்டும் அனுப்பவா?</item>
+        <item>மீண்டும் அனுப்ப வேண்டாம்</item>
+        <item>மீண்டும் அனுப்புவதற்கு முன் கேட்கவும்</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>உரை அல்லது பல்லூடக தகவல்களை ப.படுத்து.</item>
+        <item>மீண்டும் அனுப்ப வேண்டாம்</item>
+        <item>எப்போதும் கேட்கவும்</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>அசல்</item>
+        <item>நெட்வொர்க் டீஃபால்ட்</item>
+        <item>எப்போதும் கேட்கவும்</item>
+    </string-array>
+</resources>

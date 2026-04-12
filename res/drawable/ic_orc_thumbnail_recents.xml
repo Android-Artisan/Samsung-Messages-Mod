@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dp" android:width="36.0dp" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/theme_avatar_image_tint_color" android:pathData="M18.5,8.229C24.173,8.229 28.771,12.827 28.771,18.5C28.771,24.173 24.173,28.771 18.5,28.771C12.828,28.771 8.229,24.173 8.229,18.5C8.229,12.827 12.828,8.229 18.5,8.229ZM18.5,12.272C18,12.272 17.594,12.678 17.594,13.178L17.594,18.347C17.594,18.848 18,19.254 18.5,19.254L22.821,19.254C23.322,19.254 23.727,18.848 23.727,18.347L23.719,18.224C23.659,17.782 23.28,17.441 22.821,17.441L19.406,17.441L19.406,13.178C19.406,12.678 19.001,12.272 18.5,12.272Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

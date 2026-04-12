@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@drawable/announcement_menu_button_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/custom_menu_view" android:background="@drawable/show_row" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/custom_menu_view_margin_top" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/custom_menu_name_text_size" android:textColor="@color/text_gray_black" android:id="@id/custom_menu_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="@dimen/custom_menu_name_drawable_padding" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:layout_gravity="center" android:background="@color/menu_border_color" android:visibility="invisible" android:layout_width="0.049999952dp" android:layout_height="match_parent" />
+</LinearLayout>

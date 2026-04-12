@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@anim/dynamic_title_container_interpolator" android:duration="@integer/dynamic_title_translate_duration" android:valueFrom="@dimen/dynamic_title_start_y_position" android:valueTo="0.0dp" android:propertyName="translationY" />
+</set>

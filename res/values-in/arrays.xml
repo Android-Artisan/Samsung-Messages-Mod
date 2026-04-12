@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 jam</item>
+        <item>6 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>Default jaringan</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Asli</item>
+        <item>Tinggi</item>
+        <item>Sedang</item>
+        <item>Rendah</item>
+        <item>Selalu menanyakan</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Asli</item>
+        <item>Kualitas tinggi</item>
+        <item>Kualitas normal</item>
+        <item>Resolusi rendah</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Semua saluran</item>
+        <item>Saluran Saya</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Otomatis</item>
+        <item>Teks atau multimedia</item>
+        <item>Obrolan</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Otomatis</item>
+        <item>Teks atau multimedia</item>
+        <item>Pesan obrolan RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokir</item>
+        <item>Tanyakan terlebih dulu</item>
+        <item>Izinkan</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Selalu</item>
+        <item>Tanyakan</item>
+        <item>Tidak pernah</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM alphabet</item>
+        <item>Unicode</item>
+        <item>Otomatis</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Kirim ulang sebagai pesan teks atau multimedia</item>
+        <item>Jangan kirim ulang</item>
+        <item>Tanyakan sebelum mengirim</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Gnkn pesan teks atau multimedia</item>
+        <item>Tak ada kirim ulang</item>
+        <item>Selalu menanyakan</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Asli</item>
+        <item>Default jaringan</item>
+        <item>Selalu tanya</item>
+    </string-array>
+</resources>

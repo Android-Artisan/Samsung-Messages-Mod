@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 godzina</item>
+        <item>6 godz.</item>
+        <item>24 godz.</item>
+        <item>2 dni</item>
+        <item>Domyślne ustawienia sieci</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Oryginalny</item>
+        <item>Wysoka</item>
+        <item>Średnia</item>
+        <item>Niska</item>
+        <item>Zawsze pytaj</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Oryginalny</item>
+        <item>Wysoka jakość</item>
+        <item>Normalna jakość</item>
+        <item>Niska rozdzielczość</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Wszystkie kanały</item>
+        <item>Mój kanał</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatycznie</item>
+        <item>SMS lub MMS</item>
+        <item>Czat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatycznie</item>
+        <item>SMS lub MMS</item>
+        <item>Wiadomości Czatu RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokuj</item>
+        <item>Najpierw zapytaj</item>
+        <item>Zezwól</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Zawsze</item>
+        <item>Pytaj każdorazowo</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alfabet GSM</item>
+        <item>Unicode</item>
+        <item>Automatyczny</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Wyślij ponownie jako SMS lub MMS</item>
+        <item>Nie wysyłaj ponownie</item>
+        <item>Pytaj przed ponownym wysłaniem</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Używaj SMS lub MMS</item>
+        <item>Nie wysyłaj ponownie</item>
+        <item>Zawsze pytaj</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Oryginał</item>
+        <item>Domyślne ustawienia sieci</item>
+        <item>Zawsze pytaj</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@drawable/viewer_image_container_wallet_mark_bg" android:padding="@dimen/bubble_wallet_mark_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <ImageView android:layout_width="@dimen/bubble_wallet_mark_icon_size" android:layout_height="@dimen/bubble_wallet_mark_icon_size" android:src="@drawable/samsung_wallet_app_icon" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/search_conversation_container_root" android:background="@color/theme_control_area_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/search_conversation_container" android:layout_width="match_parent" android:layout_height="@dimen/search_container_height" android:layout_marginStart="@dimen/search_view_start_end_margin" android:layout_marginEnd="@dimen/search_view_start_end_margin">
+            <com.samsung.android.messaging.ui.view.widget.SearchLayout android:id="@id/search_conversation_view_custom" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/custom_search_view_height" android:layout_marginTop="@dimen/search_view_vertical_margin" android:layout_marginBottom="@dimen/search_view_vertical_margin" app:layoutId="@layout/search_layout_with_mic" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+            <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/recipient_recycle_listview" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:id="@id/conversation_list_empty_view" android:background="@color/theme_control_area_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textAppearance="@style/TextAppearanceNoItem" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_results_found" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</LinearLayout>

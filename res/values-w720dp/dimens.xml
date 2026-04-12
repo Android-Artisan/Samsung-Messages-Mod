@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bubble_max_width_circle_text">405.0dp</dimen>
+</resources>

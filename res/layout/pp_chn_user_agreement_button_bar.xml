@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/pp_linearLayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/cancelBtn" android:text="@string/cancel" style="@style/pp_button_style" />
+    <View style="@style/button_line_style" />
+    <TextView android:id="@id/continueBtn" android:text="@string/opt_in_button_continue" style="@style/pp_button_style" />
+</LinearLayout>

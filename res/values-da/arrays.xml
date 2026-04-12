@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 time</item>
+        <item>6 timer</item>
+        <item>24 timer</item>
+        <item>2 dage</item>
+        <item>Netværksstandard</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Originalt</item>
+        <item>Høj</item>
+        <item>Middel</item>
+        <item>Lav</item>
+        <item>Spørg altid</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Originalt</item>
+        <item>Høj kvalitet</item>
+        <item>Normal kvalitet</item>
+        <item>Lav opløsning</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Alle kanaler</item>
+        <item>Min kanal</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatisk</item>
+        <item>Sms eller mms</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatisk</item>
+        <item>Sms eller mms</item>
+        <item>RCS-chatbeskeder</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Bloker</item>
+        <item>Spørg først</item>
+        <item>Tillad</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Altid</item>
+        <item>Spørg</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alfabet</item>
+        <item>Unicode</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Gensend som sms eller mms</item>
+        <item>Send ikke igen</item>
+        <item>Spørg før gensend</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>"Brug sms eller mms'er"</item>
+        <item>Ingen gensending</item>
+        <item>Spørg altid</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Oprindelig</item>
+        <item>Netværksstandard</item>
+        <item>Spørg altid</item>
+    </string-array>
+</resources>

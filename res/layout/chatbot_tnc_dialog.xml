@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/add_bot_popup_padding_top" android:paddingBottom="@dimen/add_bot_popup_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/add_bot_popup_padding_left_right" android:paddingEnd="@dimen/add_bot_popup_padding_left_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideInset" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:paddingEnd="@dimen/add_bot_scrollbar_padding">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/add_bot_cp_description_text_size" android:textColor="@color/primary_text_color" android:id="@id/chatbot_tnc_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <CheckBox android:id="@id/chatbot_tnc_agree_1_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/add_bot_cp_description_text_size" android:textColor="@color/theme_popup_label_text_color" android:id="@id/chatbot_tnc_agree_1_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chatbot_service_privacy_policy" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/chatbot_tnc_agree_2_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/add_bot_cp_description_text_size" android:textColor="@color/theme_popup_label_text_color" android:id="@id/chatbot_tnc_agree_2_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chatbot_service_provision_personal_data" />
+    </LinearLayout>
+</LinearLayout>

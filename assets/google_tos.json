@@ -1,0 +1,7 @@
+{
+  "cct": {
+    "reprompting_enabled": true,
+    "reprompting_cooldown": [604800000, 2419200000],
+    "max_reprompt_count": 2
+  }
+}

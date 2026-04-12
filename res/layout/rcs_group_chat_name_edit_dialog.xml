@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/rcs_group_chat_name_edit_text" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:inputType="textCapSentences" android:privateImeOptions="disableImage=true" android:paddingEnd="@dimen/group_chat_edit_cancel" />
+    <ImageButton android:layout_gravity="end|bottom" android:id="@id/group_chat_edit_cancel" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="@dimen/group_chat_edit_cancel" android:layout_height="@dimen/group_chat_edit_cancel" android:layout_marginBottom="@dimen/group_chat_edit_cancel_bottom_margin" android:src="@drawable/orc_ic_group_chat_cancel" android:tint="@color/theme_group_chat_clear_icon_color" android:contentDescription="@string/clear_text_field" android:tooltipText="@string/clear_text_field" />
+</FrameLayout>

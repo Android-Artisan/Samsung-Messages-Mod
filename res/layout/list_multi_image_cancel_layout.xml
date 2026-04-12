@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/list_multi_image_cancel" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="31.0dp" android:layout_height="31.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/list_multi_image_progress_bar" android:background="@drawable/item_multi_image_progress_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:max="30" android:indeterminate="false" android:progressDrawable="@drawable/item_multi_image_progress_bar" style="?android:progressBarStyleHorizontal" />
+    <ImageView android:layout_gravity="center" android:id="@id/list_image_cancel_fail" android:duplicateParentState="false" android:layout_width="26.0dp" android:layout_height="26.0dp" android:src="@drawable/orc_messages_cancel" android:tint="@color/theme_multi_image_cancel_button_color" android:contentDescription="@string/cancel" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.contactslist.ContactListPhotoView android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/round_photo" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+    <ViewStub android:id="@id/round_stub_2" android:layout="@layout/round_image_stub_2" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+    <ViewStub android:id="@id/round_stub_3" android:layout="@layout/round_image_stub_3" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+    <ViewStub android:id="@id/round_stub_4" android:layout="@layout/round_image_stub_4" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+    <ImageView android:id="@id/round_select" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/contacts_list_select_icon" android:alpha="0.85" />
+    <include android:id="@id/animation_select" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/caller_id_animation_view" />
+</com.samsung.android.dialtacts.common.contactslist.ContactListPhotoView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/local_browser_layout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/AppTheme.ActionBar" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height" android:layout_above="@id/webview">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/sesl_action_button_min_width">
+            <TextView android:textSize="16.0dp" android:textColor="@color/theme_toolbar_main_text_color" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@id/webview_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/webview" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

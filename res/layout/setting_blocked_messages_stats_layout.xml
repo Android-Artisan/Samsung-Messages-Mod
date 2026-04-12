@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.setting.widget.BlockedMessagesStatsLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/blocked_messages_stats_background" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:orientation="vertical" android:background="#00000000" android:paddingTop="19.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="20.0dp">
+                <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="30.0sp" android:textColor="@color/theme_blocked_messages_dashboard_main_text_color" android:id="@id/all_blocked_messages_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="13.0sp" android:textColor="@color/theme_blocked_messages_dashboard_main_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/setting_messages_blocked_last_thirty_days" android:layout_alignBaseline="@id/all_blocked_messages_count" android:textDirection="locale" android:layout_marginStart="6.0dp" android:layout_toEndOf="@id/all_blocked_messages_count" />
+            </RelativeLayout>
+            <com.samsung.android.messaging.ui.view.setting.blockconversation.kor.UsageProgressBar android:id="@id/blocked_messages_usage_progressbar" android:layout_width="match_parent" android:layout_height="@dimen/usage_progressbar_height" android:layout_marginHorizontal="16.0dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dp" android:layout_marginHorizontal="24.0dp">
+                <RelativeLayout android:gravity="fill|start" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:gravity="top" android:id="@id/list_item_malicious_messages_dot_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/malicious_messages_badge" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_blocked_malicious_messages" android:layout_toStartOf="@id/malicious_messages_count" android:layout_toEndOf="@id/list_item_malicious_messages_dot_badge" style="@style/BlockMessageDashboardLabelTextStyle" />
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_blocked_messages_dashboard_label_text_color" android:id="@id/malicious_messages_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 messages" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="fill|start" android:id="@id/block_spam_by_ai_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:gravity="top" android:id="@id/list_item_blocked_spam_by_ai_dot_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blocked_spam_by_ai_badge" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_messages_ai_blocked" android:layout_toStartOf="@id/blocked_spam_by_ai_messages_count" android:layout_toEndOf="@id/list_item_blocked_spam_by_ai_dot_badge" style="@style/BlockMessageDashboardLabelTextStyle" />
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_blocked_messages_dashboard_label_text_color" android:id="@id/blocked_spam_by_ai_messages_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 messages" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="fill|start" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:gravity="top" android:id="@id/list_item_block_by_you_dot_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blocked_by_you_badge" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_blocked_by_you" android:layout_toStartOf="@id/blocked_by_user_messages_count" android:layout_toEndOf="@id/list_item_block_by_you_dot_badge" style="@style/BlockMessageDashboardLabelTextStyle" />
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_blocked_messages_dashboard_label_text_color" android:id="@id/blocked_by_user_messages_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 messages" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</com.samsung.android.messaging.ui.view.setting.widget.BlockedMessagesStatsLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:textSize="19.0dp" android:gravity="left|center" android:id="@id/video_calling_dialog_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/do_not_show_again" android:paddingStart="8.0dp" android:layout_marginStart="16.0dp" />
+</RelativeLayout>

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zprávu nelze zrušit. Zprávy lze zrušit pouze do %d minuty od odeslání.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zprávu nelze zrušit. Zprávy lze zrušit pouze do %d minut od odeslání.</item>
+        <item quantity="many">Zprávu nelze zrušit. Zprávy lze zrušit pouze do %d minut od odeslání.</item>
+        <item quantity="other">Zprávu nelze zrušit. Zprávy lze zrušit pouze do %d minut od odeslání.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opustit také %d skupinový chat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opustit také %d skupinové chaty</item>
+        <item quantity="many">Opustit také %d skupinových chatů</item>
+        <item quantity="other">Opustit také %d skupinových chatů</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opustit také %d skupinovou konverzaci</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opustit také %d skupinové konverzace</item>
+        <item quantity="many">Opustit také %d skupinových konverzací</item>
+        <item quantity="other">Opustit také %d skupinových konverzací</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit %d sadu emotikon?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit %d sady emotikon?</item>
+        <item quantity="many">Odstranit %d sad emotikon?</item>
+        <item quantity="other">Odstranit %d sad emotikon?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d konverzaci do Koše?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d konverzace do Koše?</item>
+        <item quantity="many">Přesunout %d konverzací do Koše?</item>
+        <item quantity="other">Přesunout %d konverzací do Koše?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zprávy v Koši budou trvale odstraněny za %d den.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zprávy v Koši budou trvale odstraněny za %d dny.</item>
+        <item quantity="many">Zprávy v Koši budou trvale odstraněny za %d dnů.</item>
+        <item quantity="other">Zprávy v Koši budou trvale odstraněny za %d dnů.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstraněné zprávy zůstanou v Koši %d den, než budou odstraněny navždy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstraněné zprávy zůstanou v Koši %d dny, než budou odstraněny navždy.</item>
+        <item quantity="many">Odstraněné zprávy zůstanou v Koši %d dnů, než budou odstraněny navždy.</item>
+        <item quantity="other">Odstraněné zprávy zůstanou v Koši %d dnů, než budou odstraněny navždy.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d zprávu do Koše?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d zprávy do Koše?</item>
+        <item quantity="many">Přesunout %d zpráv do Koše?</item>
+        <item quantity="other">Přesunout %d zpráv do Koše?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dnes je speciální den (%1$s a %2$d další událost). Chcete jim něco poslat?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dnes je speciální den (%1$s a %2$d další události). Chcete jim něco poslat?</item>
+        <item quantity="many">Dnes je speciální den (%1$s a %2$d dalších událostí). Chcete jim něco poslat?</item>
+        <item quantity="other">Dnes je speciální den (%1$s a %2$d dalších událostí). Chcete jim něco poslat?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s a %2$d další kontakt mají narozeniny! Chcete poslat něco speciálního?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s a %2$d další kontakty mají narozeniny! Chcete poslat něco speciálního?</item>
+        <item quantity="many">%1$s a %2$d dalších kontaktů mají narozeniny! Chcete poslat něco speciálního?</item>
+        <item quantity="other">%1$s a %2$d dalších kontaktů mají narozeniny! Chcete poslat něco speciálního?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za posledních 30 dnů byla zablokována %d zpráva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za posledních 30 dnů byly zablokovány %d zprávy</item>
+        <item quantity="many">Za posledních 30 dnů bylo zablokováno %d zpráv</item>
+        <item quantity="other">Za posledních 30 dnů bylo zablokováno %d zpráv</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vybráno: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vybráno: %d</item>
+        <item quantity="many">Vybráno: %d</item>
+        <item quantity="other">Vybráno: %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d e-mailovou adresu nelze zablokovat, protože není platná.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d e-mailové adresy nelze zablokovat, protože nejsou platné.</item>
+        <item quantity="many">%d e-mailových adres nelze zablokovat, protože nejsou platné.</item>
+        <item quantity="other">%d e-mailových adres nelze zablokovat, protože nejsou platné.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d telefonní číslo nelze zablokovat, protože není platné.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d telefonní čísla nelze zablokovat, protože nejsou platná.</item>
+        <item quantity="many">%d telefonních čísel nelze zablokovat, protože nejsou platná.</item>
+        <item quantity="other">%d telefonních čísel nelze zablokovat, protože nejsou platná.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d odesílatele nelze zablokovat, protože informace o něm nejsou platné.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d odesílatele nelze zablokovat, protože informace o nich nejsou platné.</item>
+        <item quantity="many">%d odesílatelů nelze zablokovat, protože informace o nich nejsou platné.</item>
+        <item quantity="other">%d odesílatelů nelze zablokovat, protože informace o nich nejsou platné.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze vybrat více než %d kontakt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze vybrat více než %d kontakty.</item>
+        <item quantity="many">Nelze vybrat více než %d kontaktů.</item>
+        <item quantity="other">Nelze vybrat více než %d kontaktů.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d %2$s karta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d %2$s karty</item>
+        <item quantity="many">%1$d %2$s karet</item>
+        <item quantity="other">%1$d %2$s karet</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt chatu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kontakty chatu</item>
+        <item quantity="many">%d kontaktů chatu</item>
+        <item quantity="other">%d kontaktů chatu</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt Chatting+</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kontakty Chatting+</item>
+        <item quantity="many">%d kontaktů Chatting+</item>
+        <item quantity="other">%d kontaktů Chatting+</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Pokud zrušíte registraci služby Chatting+, nebudete moci vytvářet jednotlivé ani skupinové chaty nebo se k nim připojovat, dostávat potvrzení o přečtení vašich zpráv ani sdílet velké soubory. Opravdu chcete zrušit registraci?
+
+Před opětovnou registrací budete muset případně vyčkat %d minutu."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Pokud zrušíte registraci služby Chatting+, nebudete moci vytvářet jednotlivé ani skupinové chaty nebo se k nim připojovat, dostávat potvrzení o přečtení vašich zpráv ani sdílet velké soubory. Opravdu chcete zrušit registraci?
+
+Před opětovnou registrací budete muset případně vyčkat %d minuty."</item>
+        <item quantity="many">"Pokud zrušíte registraci služby Chatting+, nebudete moci vytvářet jednotlivé ani skupinové chaty nebo se k nim připojovat, dostávat potvrzení o přečtení vašich zpráv ani sdílet velké soubory. Opravdu chcete zrušit registraci?
+
+Před opětovnou registrací budete muset případně vyčkat %d minut."</item>
+        <item quantity="other">"Pokud zrušíte registraci služby Chatting+, nebudete moci vytvářet jednotlivé ani skupinové chaty nebo se k nim připojovat, dostávat potvrzení o přečtení vašich zpráv ani sdílet velké soubory. Opravdu chcete zrušit registraci?
+
+Před opětovnou registrací budete muset případně vyčkat %d minut."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chatbot</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d chatboty</item>
+        <item quantity="many">%d chatbotů</item>
+        <item quantity="other">%d chatbotů</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kontakty</item>
+        <item quantity="many">%d kontaktů</item>
+        <item quantity="other">%d kontaktů</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vybráno: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vybráno: %d</item>
+        <item quantity="many">Vybráno: %d</item>
+        <item quantity="other">Vybráno: %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vyprší za %d den</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vyprší za %d dny</item>
+        <item quantity="many">Vyprší za %d dnů</item>
+        <item quantity="other">Vyprší za %d dnů</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Platnost %d poukazu brzy vyprší</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Platnost %d poukazů brzy vyprší</item>
+        <item quantity="many">Platnost %d poukazů brzy vyprší</item>
+        <item quantity="other">Platnost %d poukazů brzy vyprší</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Platnost poukazu %1$s vyprší za %2$d den.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Platnost poukazu %1$s vyprší za %2$d dny.</item>
+        <item quantity="many">Platnost poukazu %1$s vyprší za %2$d dnů.</item>
+        <item quantity="other">Platnost poukazu %1$s vyprší za %2$d dnů.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Platnost poukazu vyprší za %d den.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Platnost poukazu vyprší za %d dny.</item>
+        <item quantity="many">Platnost poukazu vyprší za %d dnů.</item>
+        <item quantity="other">Platnost poukazu vyprší za %d dnů.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">Odstranit %d konverzaci?</item>
+        <item quantity="other">Odstranit %d konverzací?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit trvale %d konverzaci?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit trvale %d konverzace?</item>
+        <item quantity="many">Odstranit trvale %d konverzací?</item>
+        <item quantity="other">Odstranit trvale %d konverzací?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">Odstranit %d zprávu?</item>
+        <item quantity="other">Odstranit %d zpráv?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit trvale %d zprávu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit trvale %d zprávy?</item>
+        <item quantity="many">Odstranit trvale %d zpráv?</item>
+        <item quantity="other">Odstranit trvale %d zpráv?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zpráva o zásilce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zprávy o zásilce</item>
+        <item quantity="many">%d zpráv o zásilce</item>
+        <item quantity="other">%d zpráv o zásilce</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zrušit %d kartu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zrušit %d karty?</item>
+        <item quantity="many">Zrušit %d karet?</item>
+        <item quantity="other">Zrušit %d karet?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na hlavní obrazovce se může zobrazit pouze %1$d karta kategorií. Zbývající jsou skryté. Pokud chcete získat rychlý přístup do kategorie %2$s z hlavní obrazovky, vyberte tuto kategorii.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Na hlavní obrazovce se mohou zobrazit pouze %1$d karty kategorií. Zbývající jsou skryté. Pokud chcete získat rychlý přístup do kategorie %2$s z hlavní obrazovky, vyberte tuto kategorii.</item>
+        <item quantity="many">Na hlavní obrazovce se může zobrazit pouze %1$d karet kategorií. Zbývající jsou skryté. Pokud chcete získat rychlý přístup do kategorie %2$s z hlavní obrazovky, vyberte tuto kategorii.</item>
+        <item quantity="other">Na hlavní obrazovce se může zobrazit pouze %1$d karet kategorií. Zbývající jsou skryté. Pokud chcete získat rychlý přístup do kategorie %2$s z hlavní obrazovky, vyberte tuto kategorii.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+        <item quantity="other">%d minut</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+        <item quantity="other">%d sekund</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do telefonu byl uložen %d soubor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do telefonu byly uloženy %d soubory.</item>
+        <item quantity="many">Do telefonu bylo uloženo %d souborů.</item>
+        <item quantity="other">Do telefonu bylo uloženo %d souboru.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do tabletu byl uložen %d soubor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do tabletu byly uloženy %d soubory.</item>
+        <item quantity="many">Do tabletu bylo uloženo %d souborů.</item>
+        <item quantity="other">Do tabletu bylo uloženo %d souboru.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dnes %d transakce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dnes %d transakce</item>
+        <item quantity="many">Dnes %d transakcí</item>
+        <item quantity="other">Dnes %d transakcí</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s a %2$d neznámé číslo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s a %2$d neznámá čísla</item>
+        <item quantity="many">%1$s a %2$d neznámých čísel</item>
+        <item quantity="other">%1$s a %2$d neznámých čísel</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d neznámé číslo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d neznámá čísla</item>
+        <item quantity="many">%d neznámých čísel</item>
+        <item quantity="other">%d neznámých čísel</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kontakt %1$s se nemůže připojit ke skupinovým chatům. Odeberte ho z vybraných příjemců, nebo místo toho odešlete textovou zprávu až %2$d příjemci.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kontakt %1$s se nemůže připojit ke skupinovým chatům. Odeberte ho z vybraných příjemců, nebo místo toho odešlete textovou zprávu až %2$d příjemcům.</item>
+        <item quantity="many">Kontakt %1$s se nemůže připojit ke skupinovým chatům. Odeberte ho z vybraných příjemců, nebo místo toho odešlete textovou zprávu až %2$d příjemcům.</item>
+        <item quantity="other">Kontakt %1$s se nemůže připojit ke skupinovým chatům. Odeberte ho z vybraných příjemců, nebo místo toho odešlete textovou zprávu až %2$d příjemcům.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Jeden nebo více zahrnutých příjemců nemůže používat Rozšířené zprávy, takže vaše skupina je omezena na %d člena.
+
+Abyste mohli pokračovat, vyberte jen členy, kteří mohou používat Rozšířené zprávy. Tito členové jsou označeni ikonou s modrou tečkou."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Jeden nebo více zahrnutých příjemců nemůže používat Rozšířené zprávy, takže vaše skupina je omezena na %d členy.
+
+Abyste mohli pokračovat, vyberte jen členy, kteří mohou používat Rozšířené zprávy. Tito členové jsou označeni ikonou s modrou tečkou."</item>
+        <item quantity="many">"Jeden nebo více zahrnutých příjemců nemůže používat Rozšířené zprávy, takže vaše skupina je omezena na %d členů.
+
+Abyste mohli pokračovat, vyberte jen členy, kteří mohou používat Rozšířené zprávy. Tito členové jsou označeni ikonou s modrou tečkou."</item>
+        <item quantity="other">"Jeden nebo více zahrnutých příjemců nemůže používat Rozšířené zprávy, takže vaše skupina je omezena na %d členů.
+
+Abyste mohli pokračovat, vyberte jen členy, kteří mohou používat Rozšířené zprávy. Tito členové jsou označeni ikonou s modrou tečkou."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Chcete-li zahájit skupinový chat, odeberte posledního vybraného příjemce. Pokud chcete zahrnout posledního příjemce, odeberte %d příjemce a odešlete zprávu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Chcete-li zahájit skupinový chat, odeberte posledního vybraného příjemce. Pokud chcete zahrnout posledního příjemce, odeberte %d příjemce a odešlete zprávu.</item>
+        <item quantity="many">Chcete-li zahájit skupinový chat, odeberte posledního vybraného příjemce. Pokud chcete zahrnout posledního příjemce, odeberte %d příjemců a odešlete zprávu.</item>
+        <item quantity="other">Chcete-li zahájit skupinový chat, odeberte posledního vybraného příjemce. Pokud chcete zahrnout posledního příjemce, odeberte %d příjemců a odešlete zprávu.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do tabletu byl uložen %d obrázek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do telefonu byly uloženy %d obrázky.</item>
+        <item quantity="many">Do telefonu bylo uloženo %d obrázků.</item>
+        <item quantity="other">Do telefonu bylo uloženo %d obrázků.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do telefonu byl uložen %d obrázek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do telefonu byly uloženy %d obrázky.</item>
+        <item quantity="many">Do telefonu bylo uloženo %d obrázků.</item>
+        <item quantity="other">Do telefonu bylo uloženo %d obrázků.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do telefonu byl uložen 1 obrázek a %d video.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do telefonu byl uložen 1 obrázek a %d videa.</item>
+        <item quantity="many">Do telefonu byl uložen 1 obrázek a %d videí.</item>
+        <item quantity="other">Do telefonu byl uložen 1 obrázek a %d videí.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do telefonu byl uložen %d obrázek a 1 video.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do telefonu byly uloženy %d obrázky a 1 video.</item>
+        <item quantity="many">Do telefonu bylo uloženo %d obrázků a 1 video.</item>
+        <item quantity="other">Do telefonu bylo uloženo %d obrázků a 1 video.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s a %2$d další osoba se připojili</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s a %2$d další osoby se připojili</item>
+        <item quantity="many">%1$s a %2$d dalších osob se připojili</item>
+        <item quantity="other">%1$s a %2$d dalších osob se připojili</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kontakty</item>
+        <item quantity="many">%d kontaktů</item>
+        <item quantity="other">%d kontaktů</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze vybrat více než %d osobu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze vybrat více než %d osoby.</item>
+        <item quantity="many">Nelze vybrat více než %d osob.</item>
+        <item quantity="other">Nelze vybrat více než %d osob.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Když klepnete na tlačítko Návrhy zpráv, poslední %d zpráva v konverzaci bude zpracována online. Návrhy generované umělou inteligencí mohou být nepřesné nebo mohou obsahovat nevhodný obsah.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Když klepnete na tlačítko Návrhy zpráv, poslední %d zprávy v konverzaci budou zpracovány online. Návrhy generované umělou inteligencí mohou být nepřesné nebo mohou obsahovat nevhodný obsah.</item>
+        <item quantity="many">Když klepnete na tlačítko Návrhy zpráv, posledních %d zpráv v konverzaci bude zpracováno online. Návrhy generované umělou inteligencí mohou být nepřesné nebo mohou obsahovat nevhodný obsah.</item>
+        <item quantity="other">Když klepnete na tlačítko Návrhy zpráv, posledních %d zpráv v konverzaci bude zpracováno online. Návrhy generované umělou inteligencí mohou být nepřesné nebo mohou obsahovat nevhodný obsah.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+        <item quantity="other">%d nových oznámení</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soubor sdílen pomocí Quick Share</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d soubory sdíleny pomocí Quick Share</item>
+        <item quantity="many">%d souborů sdíleno pomocí Quick Share</item>
+        <item quantity="other">%d souborů sdíleno pomocí Quick Share</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nová užitečná karta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nové užitečné karty</item>
+        <item quantity="many">%d nových užitečných karet</item>
+        <item quantity="other">%d nových užitečných karet</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d konverzace</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d konverzace</item>
+        <item quantity="many">%d konverzací</item>
+        <item quantity="other">%d konverzací</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d zpráv</item>
+        <item quantity="other">%d zpráv</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ponechá odstraněné zprávy %d den.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ponechá odstraněné zprávy %d dny.</item>
+        <item quantity="many">Ponechá odstraněné zprávy %d dnů.</item>
+        <item quantity="other">Ponechá odstraněné zprávy %d dnů.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aktualizaci můžete znovu provést za %d minutu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aktualizaci můžete znovu provést za %d minuty.</item>
+        <item quantity="many">Aktualizaci můžete znovu provést za %d minut.</item>
+        <item quantity="other">Aktualizaci můžete znovu provést za %d minut.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odeslat %d zprávu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odeslat %d zprávy?</item>
+        <item quantity="many">Odeslat %d zpráv?</item>
+        <item quantity="other">Odeslat %d zpráv?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Informace se aktualizují. Počkejte alespoň %d minutu a potom opakujte akci.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Informace se aktualizují. Počkejte alespoň %d minuty a potom opakujte akci.</item>
+        <item quantity="many">Informace se aktualizují. Počkejte alespoň %d minut a potom opakujte akci.</item>
+        <item quantity="other">Informace se aktualizují. Počkejte alespoň %d minut a potom opakujte akci.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze připnout více než %d konverzaci.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze připnout více než %d konverzace.</item>
+        <item quantity="many">Nelze připnout více než %d konverzací.</item>
+        <item quantity="other">Nelze připnout více než %d konverzací.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s a %2$d dalších</item>
+        <item quantity="other">%1$s a %2$d dalších</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odebrat %d kartu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odebrat %d karty?</item>
+        <item quantity="many">Odebrat %d karet?</item>
+        <item quantity="other">Odebrat %d karet?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zadejte důvod (maximálně %d znak)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zadejte důvod (maximálně %d znaky)</item>
+        <item quantity="many">Zadejte důvod (maximálně %d znaků)</item>
+        <item quantity="other">Zadejte důvod (maximálně %d znaků)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Naplánována %d zpráva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Naplánovány %d zprávy</item>
+        <item quantity="many">Naplánováno %d zpráv</item>
+        <item quantity="other">Naplánováno %d zpráv</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vyberte čas alespoň %d minutu odteď.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vyberte čas alespoň %d minuty odteď.</item>
+        <item quantity="many">Vyberte čas alespoň %d minut odteď.</item>
+        <item quantity="other">Vyberte čas alespoň %d minut odteď.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nalezen %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nalezeny %d</item>
+        <item quantity="many">Nalezeno %d</item>
+        <item quantity="other">Nalezeno %d</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout 1 konverzaci a %d další zprávu do Koše?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout 1 konverzaci a %d další zprávy do Koše?</item>
+        <item quantity="many">Přesunout 1 konverzaci a %d dalších zpráv do Koše?</item>
+        <item quantity="other">Přesunout 1 konverzaci a %d dalších zpráv do Koše?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d konverzaci a 1 další zprávu do Koše?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d konverzace a 1 další zprávu do Koše?</item>
+        <item quantity="many">Přesunout %d konverzací a 1 další zprávu do Koše?</item>
+        <item quantity="other">Přesunout %d konverzací a 1 další zprávu do Koše?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Můžete vybrat maximálně %d osobu.
+(Zobrazí se lidé, kteří používají v této konverzaci svá telefonní čísla.)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Můžete vybrat maximálně %d osoby.
+(Zobrazí se lidé, kteří používají v této konverzaci svá telefonní čísla.)"</item>
+        <item quantity="many">"Můžete vybrat maximálně %d osob.
+(Zobrazí se lidé, kteří používají v této konverzaci svá telefonní čísla.)"</item>
+        <item quantity="other">"Můžete vybrat maximálně %d osob.
+(Zobrazí se lidé, kteří používají v této konverzaci svá telefonní čísla.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Doba spánku: %d hodina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Doba spánku: %d hodiny</item>
+        <item quantity="many">Doba spánku: %d hodin</item>
+        <item quantity="other">Doba spánku: %d hodin</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Doba spánku: %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Doba spánku: %d minuty</item>
+        <item quantity="many">Doba spánku: %d minut</item>
+        <item quantity="other">Doba spánku: %d minut</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zbývá %d hodina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zbývají %d hodiny</item>
+        <item quantity="many">Zbývá %d hodin</item>
+        <item quantity="other">Zbývá %d hodin</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zbývá %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zbývají %d minuty</item>
+        <item quantity="many">Zbývá %d minut</item>
+        <item quantity="other">Zbývá %d minut</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zbývá %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zbývají %d sekundy</item>
+        <item quantity="many">Zbývá %d sekund</item>
+        <item quantity="other">Zbývá %d sekund</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">Zpráva byla zkopírována ze SIM karty.</item>
+        <item quantity="other">Zprávy byly zkopírovány ze SIM karty.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kategorie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kategorie</item>
+        <item quantity="many">%d kategorií</item>
+        <item quantity="other">%d kategorií</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vybrali jste více než %d příjemce, což je limit pro textové zprávy. Zahajte skupinový chat, abyste mohli poslat zprávu všem najednou.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vybrali jste více než %d příjemce, což je limit pro textové zprávy. Zahajte skupinový chat, abyste mohli poslat zprávu všem najednou.</item>
+        <item quantity="many">Vybrali jste více než %d příjemců, což je limit pro textové zprávy. Zahajte skupinový chat, abyste mohli poslat zprávu všem najednou.</item>
+        <item quantity="other">Vybrali jste více než %d příjemců, což je limit pro textové zprávy. Zahajte skupinový chat, abyste mohli poslat zprávu všem najednou.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Celkem %d zpráva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Celkem %d zprávy</item>
+        <item quantity="many">Celkem %d zpráv</item>
+        <item quantity="other">Celkem %d zpráv</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zpráva byla automaticky odblokována, protože odesílatelé již nejsou považováni za škodlivé.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zprávy byly automaticky odblokovány, protože odesílatelé již nejsou považováni za škodlivé.</item>
+        <item quantity="many">%d zpráv bylo automaticky odblokováno, protože odesílatelé již nejsou považováni za škodlivé.</item>
+        <item quantity="other">%d zpráv bylo automaticky odblokováno, protože odesílatelé již nejsou považováni za škodlivé.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">od %1$s a %2$d další značky</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">od %1$s a %2$d dalších značek</item>
+        <item quantity="many">od %1$s a %2$d dalších značek</item>
+        <item quantity="other">od %1$s a %2$d dalších značek</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nepřečtená zpráva o doručení zásilky</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nepřečtené zprávy o doručení zásilky</item>
+        <item quantity="many">%d nepřečtených zpráv o doručení zásilky</item>
+        <item quantity="other">%d nepřečtených zpráv o doručení zásilky</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">od %1$s a %2$d dalšího kontaktu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">od %1$s a %2$d dalších kontaktů</item>
+        <item quantity="many">od %1$s a %2$d dalších kontaktů</item>
+        <item quantity="other">od %1$s a %2$d dalších kontaktů</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d nepřečtená zpráva od kontaktu %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d nepřečtené zprávy od kontaktu %2$s</item>
+        <item quantity="many">%1$d nepřečtených zpráv od kontaktu %2$s</item>
+        <item quantity="other">%1$d nepřečtených zpráv od kontaktu %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">včetně některých od %1$s a %2$d další značky</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">včetně některých od %1$s a %2$d dalších značek</item>
+        <item quantity="many">včetně některých od %1$s a %2$d dalších značek</item>
+        <item quantity="other">včetně některých od %1$s a %2$d dalších značek</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">včetně %d zprávy o doručení zásilky</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">včetně %d zpráv o doručení zásilky</item>
+        <item quantity="many">včetně %d zpráv o doručení zásilky</item>
+        <item quantity="other">včetně %d zpráv o doručení zásilky</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">včetně některých od %1$s a %2$d dalšího kontaktu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">včetně některých od %1$s a %2$d dalších kontaktů</item>
+        <item quantity="many">včetně některých od %1$s a %2$d dalších kontaktů</item>
+        <item quantity="other">včetně některých od %1$s a %2$d dalších kontaktů</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nepřečtená zpráva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nepřečtené zprávy</item>
+        <item quantity="many">%d nepřečtených zpráv</item>
+        <item quantity="other">%d nepřečtených zpráv</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nepřečtená zpráva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nepřečtené zprávy</item>
+        <item quantity="many">%d nepřečtených zpráv</item>
+        <item quantity="other">%d nepřečtených zpráv</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dnes %d nadcházející upozornění</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dnes %d nadcházející upozornění</item>
+        <item quantity="many">Dnes %d nadcházejících upozornění</item>
+        <item quantity="other">Dnes %d nadcházejících upozornění</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do telefonu bylo uloženo %d video.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do telefonu byla uložena %d videa.</item>
+        <item quantity="many">Do telefonu bylo uloženo %d videí.</item>
+        <item quantity="other">Do telefonu bylo uloženo %d videí.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dnes máte %1$s%2$d zprávu o zásilce%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dnes máte %1$s%2$d zprávy o zásilce%3$s.</item>
+        <item quantity="many">Dnes máte %1$s%2$d zpráv o zásilce%3$s.</item>
+        <item quantity="other">Dnes máte %1$s%2$d zpráv o zásilce%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dnes máte %1$s%2$d zprávu o zásilkách%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dnes máte %1$s%2$d zprávy o zásilkách%3$s.</item>
+        <item quantity="many">Dnes máte %1$s%2$d zpráv o zásilkách%3$s.</item>
+        <item quantity="other">Dnes máte %1$s%2$d zpráv o zásilkách%3$s.</item>
+    </plurals>
+</resources>

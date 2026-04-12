@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/chatting_plus_tips_rounded_corner" />
+    <gradient android:startColor="@color/person_profile_tips_bg_color_start" android:endColor="@color/person_profile_tips_bg_color_end" android:angle="45.0" android:type="linear" android:centerY="0.7" android:gradientRadius="100.0dp" android:centerColor="@color/person_profile_tips_bg_color_center" android:startY="0.0" android:endY="1.0" />
+</androidx.appcompat.util.SeslShapeDrawable>

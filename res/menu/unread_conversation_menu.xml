@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/group_ic_delete" android:id="@id/delete" app:contentDescription="@string/delete_description" app:showAsAction="always" />
+    <item android:icon="@drawable/orc_ic_markasread" android:id="@id/mark_as_read" app:contentDescription="@string/edit_read" app:showAsAction="always" />
+</menu>

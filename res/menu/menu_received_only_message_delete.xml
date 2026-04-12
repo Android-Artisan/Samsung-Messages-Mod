@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/group_ic_delete" android:id="@id/delete" android:title="@string/delete" app:iconTint="@color/theme_toolbar_menu_icon_color" app:showAsAction="always" />
+    <item android:icon="@drawable/orc_ic_setting" android:id="@id/emergency_settings" android:title="@string/composer_cmas_setting_menu_for_kor" app:iconTint="@color/theme_toolbar_menu_icon_color" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bubble_deco_top_layout" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:translationZ="1.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/bubble_deco_item_stub_0" android:layout="@layout/bubble_deco_emoji" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

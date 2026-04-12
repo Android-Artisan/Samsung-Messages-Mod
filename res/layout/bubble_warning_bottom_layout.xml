@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/bubble_warning_bottom_view" android:visibility="gone" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="13.0sp" android:layout_height="13.0sp" android:src="@drawable/ic_malicious_kt" android:scaleType="centerCrop" android:tint="#ffd93e36" android:layout_marginStart="4.0dp" />
+    <TextView android:textColor="#ffd93e36" android:id="@id/warning_bottom_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bubble_warning_suspected_malicious_message" android:layout_marginStart="2.0dp" android:textFontWeight="400" />
+</LinearLayout>

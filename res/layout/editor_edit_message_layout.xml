@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.messageeditor.component.EditMessageView android:orientation="horizontal" android:background="@color/theme_composer_menu_panel_bg_color" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/composer_editor_reply_divider_margin_top" android:layout_weight="1.0" android:layout_marginStart="@dimen/composer_editor_reply_original_start_margin">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/theme_attachment_reply_sender_text_color" android:gravity="start|center" android:id="@id/edit_messaging_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/edited_message" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/edit_message_cancel_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/attachment_remove_all_button_margin_top" android:layout_marginEnd="@dimen/attachment_remove_all_button_margin_end">
+        <ImageButton android:id="@id/edit_message_cancel_button" android:background="?android:selectableItemBackgroundBorderless" android:clickable="false" android:layout_width="@dimen/editor_all_remove_attachment_button_width_height" android:layout_height="@dimen/editor_all_remove_attachment_button_width_height" android:src="@drawable/attachment_editor_remove_all" android:contentDescription="@string/close_edit_box" />
+    </LinearLayout>
+</com.samsung.android.messaging.ui.view.composer.messageeditor.component.EditMessageView>

@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_CANT_RECALL_MESSAGE_MESSAGES_CAN_ONLY_BE_RECALLED_WITHIN_PD_MINUTES_OF_BEING_SENT %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_CANT_RECALL_MESSAGE_MESSAGES_CAN_ONLY_BE_RECALLED_WITHIN_PD_MINUTES_OF_BEING_SENT %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_CANT_RECALL_MESSAGE_MESSAGES_CAN_ONLY_BE_RECALLED_WITHIN_PD_MINUTES_OF_BEING_SENT %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_CANT_RECALL_MESSAGE_MESSAGES_CAN_ONLY_BE_RECALLED_WITHIN_PD_MINUTES_OF_BEING_SENT %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_CANT_RECALL_MESSAGE_MESSAGES_CAN_ONLY_BE_RECALLED_WITHIN_PD_MINUTES_OF_BEING_SENT %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_CANT_RECALL_MESSAGE_MESSAGES_CAN_ONLY_BE_RECALLED_WITHIN_PD_MINUTES_OF_BEING_SENT %d</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_ALSO_LEAVE_PD_GROUP_CHATS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_ALSO_LEAVE_PD_GROUP_CHATS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_ALSO_LEAVE_PD_GROUP_CHATS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_ALSO_LEAVE_PD_GROUP_CHATS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_ALSO_LEAVE_PD_GROUP_CHATS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_ALSO_LEAVE_PD_GROUP_CHATS %d</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_ALSO_LEAVE_PD_GROUP_CONVERSATIONS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_ALSO_LEAVE_PD_GROUP_CONVERSATIONS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_ALSO_LEAVE_PD_GROUP_CONVERSATIONS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_ALSO_LEAVE_PD_GROUP_CONVERSATIONS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_ALSO_LEAVE_PD_GROUP_CONVERSATIONS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_ALSO_LEAVE_PD_GROUP_CONVERSATIONS %d</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_DELETE_PD_EMOTICON_PACKS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_DELETE_PD_EMOTICON_PACKS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_DELETE_PD_EMOTICON_PACKS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_DELETE_PD_EMOTICON_PACKS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_DELETE_PD_EMOTICON_PACKS_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_DELETE_PD_EMOTICON_PACKS_Q %d</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_MOVE_PD_CONVERSATIONS_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_MOVE_PD_CONVERSATIONS_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_MOVE_PD_CONVERSATIONS_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_MOVE_PD_CONVERSATIONS_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_MOVE_PD_CONVERSATIONS_TO_THE_TRASH_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_MOVE_PD_CONVERSATIONS_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_MESSAGES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_MESSAGES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_MESSAGES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_MESSAGES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_MESSAGES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_MESSAGES_IN_THE_TRASH_WILL_BE_PERMANENTLY_DELETED_AFTER_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_DELETED_MESSAGES_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_DELETED_MESSAGES_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_DELETED_MESSAGES_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_DELETED_MESSAGES_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_DELETED_MESSAGES_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_DELETED_MESSAGES_WILL_STAY_IN_THE_TRASH_FOR_PD_DAYS_BEFORE_THEYRE_DELETED_FOREVER %d</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_MOVE_PD_MESSAGES_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_MOVE_PD_MESSAGES_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_MOVE_PD_MESSAGES_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_MOVE_PD_MESSAGES_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_MOVE_PD_MESSAGES_TO_THE_TRASH_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_MOVE_PD_MESSAGES_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_TODAYS_A_SPECIAL_DAY_HP1SS_AND_P2SD_OTHER_EVENTS_SEND_THEM_SOMETHING_Q_ABB %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_TODAYS_A_SPECIAL_DAY_HP1SS_AND_P2SD_OTHER_EVENTS_SEND_THEM_SOMETHING_Q_ABB %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_TODAYS_A_SPECIAL_DAY_HP1SS_AND_P2SD_OTHER_EVENTS_SEND_THEM_SOMETHING_Q_ABB %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_TODAYS_A_SPECIAL_DAY_HP1SS_AND_P2SD_OTHER_EVENTS_SEND_THEM_SOMETHING_Q_ABB %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_TODAYS_A_SPECIAL_DAY_HP1SS_AND_P2SD_OTHER_EVENTS_SEND_THEM_SOMETHING_Q_ABB %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_TODAYS_A_SPECIAL_DAY_HP1SS_AND_P2SD_OTHER_EVENTS_SEND_THEM_SOMETHING_Q_ABB %1$s %2$d</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_ITS_P1SS_AND_P2SD_OTHER_CONTACTS_BIRTHDAY_E_SEND_SOMETHING_SPECIAL_Q %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_ITS_P1SS_AND_P2SD_OTHER_CONTACTS_BIRTHDAY_E_SEND_SOMETHING_SPECIAL_Q %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_ITS_P1SS_AND_P2SD_OTHER_CONTACTS_BIRTHDAY_E_SEND_SOMETHING_SPECIAL_Q %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_ITS_P1SS_AND_P2SD_OTHER_CONTACTS_BIRTHDAY_E_SEND_SOMETHING_SPECIAL_Q %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_ITS_P1SS_AND_P2SD_OTHER_CONTACTS_BIRTHDAY_E_SEND_SOMETHING_SPECIAL_Q %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_ITS_P1SS_AND_P2SD_OTHER_CONTACTS_BIRTHDAY_E_SEND_SOMETHING_SPECIAL_Q %1$s %2$d</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_PD_MESSAGES_BLOCKED_IN_LAST_30_DAYS_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_PD_MESSAGES_BLOCKED_IN_LAST_30_DAYS_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_PD_MESSAGES_BLOCKED_IN_LAST_30_DAYS_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_PD_MESSAGES_BLOCKED_IN_LAST_30_DAYS_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_PD_MESSAGES_BLOCKED_IN_LAST_30_DAYS_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_PD_MESSAGES_BLOCKED_IN_LAST_30_DAYS_ABB %d</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">PLURAL_ZERO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="other">PLURAL_OTHER_IDLE_HEADER_PD_SELECTED %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_CANT_BLOCK_PD_EMAIL_ADDRESSES_BECAUSE_THEY_ARENT_VALID %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_CANT_BLOCK_PD_EMAIL_ADDRESSES_BECAUSE_THEY_ARENT_VALID %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_CANT_BLOCK_PD_EMAIL_ADDRESSES_BECAUSE_THEY_ARENT_VALID %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_CANT_BLOCK_PD_EMAIL_ADDRESSES_BECAUSE_THEY_ARENT_VALID %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_CANT_BLOCK_PD_EMAIL_ADDRESSES_BECAUSE_THEY_ARENT_VALID %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_CANT_BLOCK_PD_EMAIL_ADDRESSES_BECAUSE_THEY_ARENT_VALID %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_CANT_BLOCK_PD_PHONE_NUMBERS_BECAUSE_THEY_ARENT_VALID %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_CANT_BLOCK_PD_PHONE_NUMBERS_BECAUSE_THEY_ARENT_VALID %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_CANT_BLOCK_PD_PHONE_NUMBERS_BECAUSE_THEY_ARENT_VALID %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_CANT_BLOCK_PD_PHONE_NUMBERS_BECAUSE_THEY_ARENT_VALID %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_CANT_BLOCK_PD_PHONE_NUMBERS_BECAUSE_THEY_ARENT_VALID %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_CANT_BLOCK_PD_PHONE_NUMBERS_BECAUSE_THEY_ARENT_VALID %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_CANT_BLOCK_PD_SENDERS_BECAUSE_THEIR_INFORMATION_ISNT_VALID %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_CANT_BLOCK_PD_SENDERS_BECAUSE_THEIR_INFORMATION_ISNT_VALID %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_CANT_BLOCK_PD_SENDERS_BECAUSE_THEIR_INFORMATION_ISNT_VALID %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_CANT_BLOCK_PD_SENDERS_BECAUSE_THEIR_INFORMATION_ISNT_VALID %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_CANT_BLOCK_PD_SENDERS_BECAUSE_THEIR_INFORMATION_ISNT_VALID %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_CANT_BLOCK_PD_SENDERS_BECAUSE_THEIR_INFORMATION_ISNT_VALID %d</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">PLURAL_ZERO_PB_BODY_CANT_SELECT_MORE_THAN_PD_CONTACTS %d</item>
+        <item quantity="one">PLURAL_ONE_PB_BODY_CANT_SELECT_MORE_THAN_PD_CONTACTS %d</item>
+        <item quantity="two">PLURAL_TWO_PB_BODY_CANT_SELECT_MORE_THAN_PD_CONTACTS %d</item>
+        <item quantity="few">PLURAL_FEW_PB_BODY_CANT_SELECT_MORE_THAN_PD_CONTACTS %d</item>
+        <item quantity="many">PLURAL_MANY_PB_BODY_CANT_SELECT_MORE_THAN_PD_CONTACTS %d</item>
+        <item quantity="other">PLURAL_OTHER_PB_BODY_CANT_SELECT_MORE_THAN_PD_CONTACTS %d</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_P1SD_P2SS_CARDS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_P1SD_P2SS_CARDS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_P1SD_P2SS_CARDS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_P1SD_P2SS_CARDS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_P1SD_P2SS_CARDS %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_P1SD_P2SS_CARDS %1$d %2$s</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_PD_CHAT_CONTACTS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_PD_CHAT_CONTACTS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_PD_CHAT_CONTACTS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_PD_CHAT_CONTACTS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_PD_CHAT_CONTACTS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_PD_CHAT_CONTACTS %d</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_PD_CHATTINGPLUS_CONTACTS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_PD_CHATTINGPLUS_CONTACTS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_PD_CHATTINGPLUS_CONTACTS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_PD_CHATTINGPLUS_CONTACTS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_PD_CHATTINGPLUS_CONTACTS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_PD_CHATTINGPLUS_CONTACTS %d</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_IF_YOU_DEREGISTER_FROM_CHATTINGPLUS_YOU_WONT_BE_ABLE_TO_CREATE_OR_JOIN_ONE_ON_ONE_AND_GROUP_CHATS_GET_CONFIRMATION_MSG %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_IF_YOU_DEREGISTER_FROM_CHATTINGPLUS_YOU_WONT_BE_ABLE_TO_CREATE_OR_JOIN_ONE_ON_ONE_AND_GROUP_CHATS_GET_CONFIRMATION_MSG %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_IF_YOU_DEREGISTER_FROM_CHATTINGPLUS_YOU_WONT_BE_ABLE_TO_CREATE_OR_JOIN_ONE_ON_ONE_AND_GROUP_CHATS_GET_CONFIRMATION_MSG %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_IF_YOU_DEREGISTER_FROM_CHATTINGPLUS_YOU_WONT_BE_ABLE_TO_CREATE_OR_JOIN_ONE_ON_ONE_AND_GROUP_CHATS_GET_CONFIRMATION_MSG %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_IF_YOU_DEREGISTER_FROM_CHATTINGPLUS_YOU_WONT_BE_ABLE_TO_CREATE_OR_JOIN_ONE_ON_ONE_AND_GROUP_CHATS_GET_CONFIRMATION_MSG %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_IF_YOU_DEREGISTER_FROM_CHATTINGPLUS_YOU_WONT_BE_ABLE_TO_CREATE_OR_JOIN_ONE_ON_ONE_AND_GROUP_CHATS_GET_CONFIRMATION_MSG %d</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_PD_CHATBOTS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_PD_CHATBOTS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_PD_CHATBOTS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_PD_CHATBOTS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_PD_CHATBOTS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_PD_CHATBOTS %d</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_PD_CONTACTS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_PD_CONTACTS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_PD_CONTACTS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_PD_CONTACTS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_PD_CONTACTS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_PD_CONTACTS %d</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">PLURAL_ZERO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="other">PLURAL_OTHER_IDLE_HEADER_PD_SELECTED %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">PLURAL_ZERO_MSG_STATUS_EXPIRES_IN_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_STATUS_EXPIRES_IN_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_STATUS_EXPIRES_IN_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_STATUS_EXPIRES_IN_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_STATUS_EXPIRES_IN_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_STATUS_EXPIRES_IN_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_PD_COUPONS_EXPIRE_SOON %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_PD_COUPONS_EXPIRE_SOON %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_PD_COUPONS_EXPIRE_SOON %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_PD_COUPONS_EXPIRE_SOON %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_PD_COUPONS_EXPIRE_SOON %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_PD_COUPONS_EXPIRE_SOON %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_YOUR_P1SS_COUPON_EXPIRES_IN_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_YOUR_P1SS_COUPON_EXPIRES_IN_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_YOUR_P1SS_COUPON_EXPIRES_IN_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_YOUR_P1SS_COUPON_EXPIRES_IN_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_YOUR_P1SS_COUPON_EXPIRES_IN_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_YOUR_P1SS_COUPON_EXPIRES_IN_P2SD_DAYS %1$s %2$d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_YOUR_COUPON_EXPIRES_IN_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_YOUR_COUPON_EXPIRES_IN_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_YOUR_COUPON_EXPIRES_IN_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_YOUR_COUPON_EXPIRES_IN_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_YOUR_COUPON_EXPIRES_IN_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_YOUR_COUPON_EXPIRES_IN_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">DREAM_MSG_BODY_DELETE_PD_CONVERSATION_Q %d</item>
+        <item quantity="other">DREAM_MSG_BODY_DELETE_PD_CONVERSATIONS_Q %d</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_PERMANENTLY_DELETE_PD_CONVERSATIONS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_PERMANENTLY_DELETE_PD_CONVERSATIONS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_PERMANENTLY_DELETE_PD_CONVERSATIONS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_PERMANENTLY_DELETE_PD_CONVERSATIONS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_PERMANENTLY_DELETE_PD_CONVERSATIONS_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_PERMANENTLY_DELETE_PD_CONVERSATIONS_Q %d</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">DREAM_MSG_BODY_DELETE_PD_MESSAGE_Q %d</item>
+        <item quantity="other">DREAM_MSG_BODY_DELETE_PD_MESSAGES_Q %d</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_PERMANENTLY_DELETE_PD_MESSAGES_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_PERMANENTLY_DELETE_PD_MESSAGES_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_PERMANENTLY_DELETE_PD_MESSAGES_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_PERMANENTLY_DELETE_PD_MESSAGES_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_PERMANENTLY_DELETE_PD_MESSAGES_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_PERMANENTLY_DELETE_PD_MESSAGES_Q %d</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_PD_DELIVERY_MESSAGES %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_PD_DELIVERY_MESSAGES %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_PD_DELIVERY_MESSAGES %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_PD_DELIVERY_MESSAGES %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_PD_DELIVERY_MESSAGES %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_PD_DELIVERY_MESSAGES %d</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_DISMISS_PD_CARDS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_DISMISS_PD_CARDS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_DISMISS_PD_CARDS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_DISMISS_PD_CARDS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_DISMISS_PD_CARDS_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_DISMISS_PD_CARDS_Q %d</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_ONLY_P1SD_CATEGORY_TABS_CAN_BE_SHOWN_ON_THE_MAIN_SCREEN_MSG %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_ONLY_P1SD_CATEGORY_TABS_CAN_BE_SHOWN_ON_THE_MAIN_SCREEN_MSG %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_ONLY_P1SD_CATEGORY_TABS_CAN_BE_SHOWN_ON_THE_MAIN_SCREEN_MSG %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_ONLY_P1SD_CATEGORY_TABS_CAN_BE_SHOWN_ON_THE_MAIN_SCREEN_MSG %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_ONLY_P1SD_CATEGORY_TABS_CAN_BE_SHOWN_ON_THE_MAIN_SCREEN_MSG %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_ONLY_P1SD_CATEGORY_TABS_CAN_BE_SHOWN_ON_THE_MAIN_SCREEN_MSG %1$d %2$s</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_ST_OPT_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_ST_OPT_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_ST_OPT_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_ST_OPT_PD_MINUTES %d</item>
+        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_SECONDS %d</item>
+        <item quantity="one">PLURAL_ONE_ST_OPT_PD_SECONDS %d</item>
+        <item quantity="two">PLURAL_TWO_ST_OPT_PD_SECONDS %d</item>
+        <item quantity="few">PLURAL_FEW_ST_OPT_PD_SECONDS %d</item>
+        <item quantity="many">PLURAL_MANY_ST_OPT_PD_SECONDS %d</item>
+        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_SECONDS %d</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_PD_TRANSACTIONS_TODAY %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_PD_TRANSACTIONS_TODAY %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_PD_TRANSACTIONS_TODAY %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_PD_TRANSACTIONS_TODAY %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_PD_TRANSACTIONS_TODAY %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_PD_TRANSACTIONS_TODAY %d</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_P1SS_AND_P2SD_UNKNOWN_NUMBERS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_P1SS_AND_P2SD_UNKNOWN_NUMBERS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_P1SS_AND_P2SD_UNKNOWN_NUMBERS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_P1SS_AND_P2SD_UNKNOWN_NUMBERS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_P1SS_AND_P2SD_UNKNOWN_NUMBERS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_P1SS_AND_P2SD_UNKNOWN_NUMBERS %1$s %2$d</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_PD_UNKNOWN_NUMBERS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_PD_UNKNOWN_NUMBERS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_PD_UNKNOWN_NUMBERS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_PD_UNKNOWN_NUMBERS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_PD_UNKNOWN_NUMBERS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_PD_UNKNOWN_NUMBERS %d</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_P1SS_CANT_JOIN_GROUP_CHATS_REMOVE_THEM_FROM_THE_SELECTED_RECIPIENTS_OR_SEND_A_TEXT_MESSAGE_TO_UP_TO_P2SD_RECIPIENTS_INSTEAD %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_P1SS_CANT_JOIN_GROUP_CHATS_REMOVE_THEM_FROM_THE_SELECTED_RECIPIENTS_OR_SEND_A_TEXT_MESSAGE_TO_UP_TO_P2SD_RECIPIENTS_INSTEAD %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_P1SS_CANT_JOIN_GROUP_CHATS_REMOVE_THEM_FROM_THE_SELECTED_RECIPIENTS_OR_SEND_A_TEXT_MESSAGE_TO_UP_TO_P2SD_RECIPIENTS_INSTEAD %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_P1SS_CANT_JOIN_GROUP_CHATS_REMOVE_THEM_FROM_THE_SELECTED_RECIPIENTS_OR_SEND_A_TEXT_MESSAGE_TO_UP_TO_P2SD_RECIPIENTS_INSTEAD %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_P1SS_CANT_JOIN_GROUP_CHATS_REMOVE_THEM_FROM_THE_SELECTED_RECIPIENTS_OR_SEND_A_TEXT_MESSAGE_TO_UP_TO_P2SD_RECIPIENTS_INSTEAD %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_P1SS_CANT_JOIN_GROUP_CHATS_REMOVE_THEM_FROM_THE_SELECTED_RECIPIENTS_OR_SEND_A_TEXT_MESSAGE_TO_UP_TO_P2SD_RECIPIENTS_INSTEAD %1$s %2$d</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_ONE_OR_MORE_OF_THE_INCLUDED_RECIPIENTS_ARENT_ADVANCED_MESSAGING_CAPABLE_SO_YOUR_GROUP_IS_LIMITED_TO_PD_MEMBERS_MSG %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_ONE_OR_MORE_OF_THE_INCLUDED_RECIPIENTS_ARENT_ADVANCED_MESSAGING_CAPABLE_SO_YOUR_GROUP_IS_LIMITED_TO_PD_MEMBERS_MSG %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_ONE_OR_MORE_OF_THE_INCLUDED_RECIPIENTS_ARENT_ADVANCED_MESSAGING_CAPABLE_SO_YOUR_GROUP_IS_LIMITED_TO_PD_MEMBERS_MSG %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_ONE_OR_MORE_OF_THE_INCLUDED_RECIPIENTS_ARENT_ADVANCED_MESSAGING_CAPABLE_SO_YOUR_GROUP_IS_LIMITED_TO_PD_MEMBERS_MSG %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_ONE_OR_MORE_OF_THE_INCLUDED_RECIPIENTS_ARENT_ADVANCED_MESSAGING_CAPABLE_SO_YOUR_GROUP_IS_LIMITED_TO_PD_MEMBERS_MSG %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_ONE_OR_MORE_OF_THE_INCLUDED_RECIPIENTS_ARENT_ADVANCED_MESSAGING_CAPABLE_SO_YOUR_GROUP_IS_LIMITED_TO_PD_MEMBERS_MSG %d</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_TO_START_A_GROUP_CHAT_REMOVE_THE_LAST_SELECTED_RECIPIENT_MSG %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_TO_START_A_GROUP_CHAT_REMOVE_THE_LAST_SELECTED_RECIPIENT_MSG %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_TO_START_A_GROUP_CHAT_REMOVE_THE_LAST_SELECTED_RECIPIENT_MSG %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_TO_START_A_GROUP_CHAT_REMOVE_THE_LAST_SELECTED_RECIPIENT_MSG %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_TO_START_A_GROUP_CHAT_REMOVE_THE_LAST_SELECTED_RECIPIENT_MSG %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_TO_START_A_GROUP_CHAT_REMOVE_THE_LAST_SELECTED_RECIPIENT_MSG %d</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_1_IMAGE_AND_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_1_IMAGE_AND_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_1_IMAGE_AND_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_1_IMAGE_AND_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_1_IMAGE_AND_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_1_IMAGE_AND_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_PD_IMAGES_AND_1_VIDEO_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_PD_IMAGES_AND_1_VIDEO_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_PD_IMAGES_AND_1_VIDEO_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_PD_IMAGES_AND_1_VIDEO_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_PD_IMAGES_AND_1_VIDEO_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_PD_IMAGES_AND_1_VIDEO_SAVED_TO_YOUR_PHONE %d</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">PLURAL_ZERO_MSG_NPBODY_P1SS_AND_P2SD_OTHER_PEOPLE_JOINED %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_MSG_NPBODY_P1SS_AND_P2SD_OTHER_PEOPLE_JOINED %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_MSG_NPBODY_P1SS_AND_P2SD_OTHER_PEOPLE_JOINED %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_MSG_NPBODY_P1SS_AND_P2SD_OTHER_PEOPLE_JOINED %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_MSG_NPBODY_P1SS_AND_P2SD_OTHER_PEOPLE_JOINED %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_NPBODY_P1SS_AND_P2SD_OTHER_PEOPLE_JOINED %1$s %2$d</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_CANT_SELECT_MORE_THAN_PD_PEOPLE %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_CANT_SELECT_MORE_THAN_PD_PEOPLE %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_CANT_SELECT_MORE_THAN_PD_PEOPLE %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_CANT_SELECT_MORE_THAN_PD_PEOPLE %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_CANT_SELECT_MORE_THAN_PD_PEOPLE %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_CANT_SELECT_MORE_THAN_PD_PEOPLE %d</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_WHEN_YOU_TAP_THE_MESSAGE_SUGGESTIONS_BUTTON_THE_LAST_PD_MESSAGES_IN_YOUR_CONVERSATION_WILL_BE_PROCESSED_ONLINE_AI_GENERATED_SUGGESTIONS_MAY_BE_INACCURATE_MSG %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_WHEN_YOU_TAP_THE_MESSAGE_SUGGESTIONS_BUTTON_THE_LAST_PD_MESSAGES_IN_YOUR_CONVERSATION_WILL_BE_PROCESSED_ONLINE_AI_GENERATED_SUGGESTIONS_MAY_BE_INACCURATE_MSG %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_WHEN_YOU_TAP_THE_MESSAGE_SUGGESTIONS_BUTTON_THE_LAST_PD_MESSAGES_IN_YOUR_CONVERSATION_WILL_BE_PROCESSED_ONLINE_AI_GENERATED_SUGGESTIONS_MAY_BE_INACCURATE_MSG %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_WHEN_YOU_TAP_THE_MESSAGE_SUGGESTIONS_BUTTON_THE_LAST_PD_MESSAGES_IN_YOUR_CONVERSATION_WILL_BE_PROCESSED_ONLINE_AI_GENERATED_SUGGESTIONS_MAY_BE_INACCURATE_MSG %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_WHEN_YOU_TAP_THE_MESSAGE_SUGGESTIONS_BUTTON_THE_LAST_PD_MESSAGES_IN_YOUR_CONVERSATION_WILL_BE_PROCESSED_ONLINE_AI_GENERATED_SUGGESTIONS_MAY_BE_INACCURATE_MSG %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_WHEN_YOU_TAP_THE_MESSAGE_SUGGESTIONS_BUTTON_THE_LAST_PD_MESSAGES_IN_YOUR_CONVERSATION_WILL_BE_PROCESSED_ONLINE_AI_GENERATED_SUGGESTIONS_MAY_BE_INACCURATE_MSG %d</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_PD_FILES_SHARED_USING_QUICK_SHARE %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_PD_FILES_SHARED_USING_QUICK_SHARE %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_PD_FILES_SHARED_USING_QUICK_SHARE %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_PD_FILES_SHARED_USING_QUICK_SHARE %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_PD_FILES_SHARED_USING_QUICK_SHARE %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_PD_FILES_SHARED_USING_QUICK_SHARE %d</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">PLURAL_ZERO_MSG_STATUS_PD_NEW_USEFUL_CARDS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_STATUS_PD_NEW_USEFUL_CARDS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_STATUS_PD_NEW_USEFUL_CARDS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_STATUS_PD_NEW_USEFUL_CARDS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_STATUS_PD_NEW_USEFUL_CARDS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_STATUS_PD_NEW_USEFUL_CARDS %d</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_PD_CONVERSATIONS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_PD_CONVERSATIONS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_PD_CONVERSATIONS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_PD_CONVERSATIONS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_PD_CONVERSATIONS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_PD_CONVERSATIONS %d</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">DREAM_MSG_BODY_PD_MESSAGE %d</item>
+        <item quantity="other">DREAM_MSG_BODY_PD_MESSAGES %d</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_KEEP_DELETED_MESSAGES_FOR_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_KEEP_DELETED_MESSAGES_FOR_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_KEEP_DELETED_MESSAGES_FOR_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_KEEP_DELETED_MESSAGES_FOR_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_KEEP_DELETED_MESSAGES_FOR_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_KEEP_DELETED_MESSAGES_FOR_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_YOU_CAN_REFRESH_AGAIN_IN_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_YOU_CAN_REFRESH_AGAIN_IN_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_YOU_CAN_REFRESH_AGAIN_IN_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_YOU_CAN_REFRESH_AGAIN_IN_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_YOU_CAN_REFRESH_AGAIN_IN_PD_MINUTES %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_YOU_CAN_REFRESH_AGAIN_IN_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_SEND_PD_MESSAGES_NOW_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_SEND_PD_MESSAGES_NOW_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_SEND_PD_MESSAGES_NOW_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_SEND_PD_MESSAGES_NOW_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_SEND_PD_MESSAGES_NOW_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_SEND_PD_MESSAGES_NOW_Q %d</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_YOUR_INFORMATION_IS_BEING_UPDATED_WAIT_AT_LEAST_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_YOUR_INFORMATION_IS_BEING_UPDATED_WAIT_AT_LEAST_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_YOUR_INFORMATION_IS_BEING_UPDATED_WAIT_AT_LEAST_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_YOUR_INFORMATION_IS_BEING_UPDATED_WAIT_AT_LEAST_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_YOUR_INFORMATION_IS_BEING_UPDATED_WAIT_AT_LEAST_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_YOUR_INFORMATION_IS_BEING_UPDATED_WAIT_AT_LEAST_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_CANT_PIN_MORE_THAN_PD_CONVERSATIONS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_CANT_PIN_MORE_THAN_PD_CONVERSATIONS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_CANT_PIN_MORE_THAN_PD_CONVERSATIONS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_CANT_PIN_MORE_THAN_PD_CONVERSATIONS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_CANT_PIN_MORE_THAN_PD_CONVERSATIONS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_CANT_PIN_MORE_THAN_PD_CONVERSATIONS %d</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">IDS_MSG_BODY_P1SS_AND_P2SD_OTHER_M_NOUN %1$s %2$d</item>
+        <item quantity="other">IDS_MSG_BODY_P1SS_AND_P2SD_OTHERS %1$s %2$d</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_REMOVE_PD_CARDS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_REMOVE_PD_CARDS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_REMOVE_PD_CARDS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_REMOVE_PD_CARDS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_REMOVE_PD_CARDS_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_REMOVE_PD_CARDS_Q %d</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">PLURAL_ZERO_MSG_NPBODY_ENTER_A_REASON_HUP_TO_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_NPBODY_ENTER_A_REASON_HUP_TO_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_NPBODY_ENTER_A_REASON_HUP_TO_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_NPBODY_ENTER_A_REASON_HUP_TO_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_NPBODY_ENTER_A_REASON_HUP_TO_PD_CHARACTERS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_NPBODY_ENTER_A_REASON_HUP_TO_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">PLURAL_ZERO_MSG_STATUS_PD_MESSAGES_SCHEDULED %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_STATUS_PD_MESSAGES_SCHEDULED %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_STATUS_PD_MESSAGES_SCHEDULED %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_STATUS_PD_MESSAGES_SCHEDULED %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_STATUS_PD_MESSAGES_SCHEDULED %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_STATUS_PD_MESSAGES_SCHEDULED %d</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_SELECT_A_TIME_AT_LEAST_PD_MINUTES_FROM_NOW %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_SELECT_A_TIME_AT_LEAST_PD_MINUTES_FROM_NOW %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_SELECT_A_TIME_AT_LEAST_PD_MINUTES_FROM_NOW %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_SELECT_A_TIME_AT_LEAST_PD_MINUTES_FROM_NOW %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_SELECT_A_TIME_AT_LEAST_PD_MINUTES_FROM_NOW %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_SELECT_A_TIME_AT_LEAST_PD_MINUTES_FROM_NOW %d</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">PLURAL_ZERO_PB_OPT_PD_FOUND %d</item>
+        <item quantity="one">PLURAL_ONE_PB_OPT_PD_FOUND %d</item>
+        <item quantity="two">PLURAL_TWO_PB_OPT_PD_FOUND %d</item>
+        <item quantity="few">PLURAL_FEW_PB_OPT_PD_FOUND %d</item>
+        <item quantity="many">PLURAL_MANY_PB_OPT_PD_FOUND %d</item>
+        <item quantity="other">PLURAL_OTHER_PB_OPT_PD_FOUND %d</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_MOVE_1_CONVERSATION_AND_PD_OTHER_MESSAGES_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_MOVE_1_CONVERSATION_AND_PD_OTHER_MESSAGES_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_MOVE_1_CONVERSATION_AND_PD_OTHER_MESSAGES_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_MOVE_1_CONVERSATION_AND_PD_OTHER_MESSAGES_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_MOVE_1_CONVERSATION_AND_PD_OTHER_MESSAGES_TO_THE_TRASH_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_MOVE_1_CONVERSATION_AND_PD_OTHER_MESSAGES_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_MOVE_PD_CONVERSATIONS_AND_1_OTHER_MESSAGE_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_MOVE_PD_CONVERSATIONS_AND_1_OTHER_MESSAGE_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_MOVE_PD_CONVERSATIONS_AND_1_OTHER_MESSAGE_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_MOVE_PD_CONVERSATIONS_AND_1_OTHER_MESSAGE_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_MOVE_PD_CONVERSATIONS_AND_1_OTHER_MESSAGE_TO_THE_TRASH_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_MOVE_PD_CONVERSATIONS_AND_1_OTHER_MESSAGE_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_SELECT_UP_TO_PD_PEOPLE_NHSHOWING_PEOPLE_WHO_ARE_USING_THEIR_PHONE_NUMBERS_IN_THIS_CONVERSATION %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_SELECT_UP_TO_PD_PEOPLE_NHSHOWING_PEOPLE_WHO_ARE_USING_THEIR_PHONE_NUMBERS_IN_THIS_CONVERSATION %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_SELECT_UP_TO_PD_PEOPLE_NHSHOWING_PEOPLE_WHO_ARE_USING_THEIR_PHONE_NUMBERS_IN_THIS_CONVERSATION %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_SELECT_UP_TO_PD_PEOPLE_NHSHOWING_PEOPLE_WHO_ARE_USING_THEIR_PHONE_NUMBERS_IN_THIS_CONVERSATION %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_SELECT_UP_TO_PD_PEOPLE_NHSHOWING_PEOPLE_WHO_ARE_USING_THEIR_PHONE_NUMBERS_IN_THIS_CONVERSATION %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_SELECT_UP_TO_PD_PEOPLE_NHSHOWING_PEOPLE_WHO_ARE_USING_THEIR_PHONE_NUMBERS_IN_THIS_CONVERSATION %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="other">PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="other">PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_PD_HOURS_REMAINING %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_PD_HOURS_REMAINING %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_PD_HOURS_REMAINING %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_PD_HOURS_REMAINING %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_PD_HOURS_REMAINING %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_PD_HOURS_REMAINING %d</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_PD_MINUTES_REMAINING %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_PD_MINUTES_REMAINING %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_PD_MINUTES_REMAINING %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_PD_MINUTES_REMAINING %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_PD_MINUTES_REMAINING %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_PD_MINUTES_REMAINING %d</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_PD_SECONDS_REMAINING %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_PD_SECONDS_REMAINING %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_PD_SECONDS_REMAINING %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_PD_SECONDS_REMAINING %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_PD_SECONDS_REMAINING %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_PD_SECONDS_REMAINING %d</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">IDS_MSGF_POP_MESSAGE_COPIED_FROM_SIM_CARD</item>
+        <item quantity="other">IDS_MSGF_POP_MESSAGES_COPIED_FROM_SIM_CARD</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_PD_CATEGORIES %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_PD_CATEGORIES %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_PD_CATEGORIES %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_PD_CATEGORIES %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_PD_CATEGORIES %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_PD_CATEGORIES %d</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_YOU_SELECTED_MORE_THAN_PD_RECIPIENTS_WHICH_IS_THE_LIMIT_FOR_TEXT_MESSAGES_START_A_GROUP_CHAT_TO_MESSAGE_THEM_ALL_AT_ONCE %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_YOU_SELECTED_MORE_THAN_PD_RECIPIENTS_WHICH_IS_THE_LIMIT_FOR_TEXT_MESSAGES_START_A_GROUP_CHAT_TO_MESSAGE_THEM_ALL_AT_ONCE %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_YOU_SELECTED_MORE_THAN_PD_RECIPIENTS_WHICH_IS_THE_LIMIT_FOR_TEXT_MESSAGES_START_A_GROUP_CHAT_TO_MESSAGE_THEM_ALL_AT_ONCE %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_YOU_SELECTED_MORE_THAN_PD_RECIPIENTS_WHICH_IS_THE_LIMIT_FOR_TEXT_MESSAGES_START_A_GROUP_CHAT_TO_MESSAGE_THEM_ALL_AT_ONCE %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_YOU_SELECTED_MORE_THAN_PD_RECIPIENTS_WHICH_IS_THE_LIMIT_FOR_TEXT_MESSAGES_START_A_GROUP_CHAT_TO_MESSAGE_THEM_ALL_AT_ONCE %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_YOU_SELECTED_MORE_THAN_PD_RECIPIENTS_WHICH_IS_THE_LIMIT_FOR_TEXT_MESSAGES_START_A_GROUP_CHAT_TO_MESSAGE_THEM_ALL_AT_ONCE %d</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_PD_TOTAL_MESSAGES %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_PD_TOTAL_MESSAGES %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_PD_TOTAL_MESSAGES %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_PD_TOTAL_MESSAGES %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_PD_TOTAL_MESSAGES %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_PD_TOTAL_MESSAGES %d</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_PD_MESSAGES_AUTOMATICALLY_UNBLOCKED_BECAUSE_THE_SENDERS_ARE_NO_LONGER_CONSIDERED_MALICIOUS %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_PD_MESSAGES_AUTOMATICALLY_UNBLOCKED_BECAUSE_THE_SENDERS_ARE_NO_LONGER_CONSIDERED_MALICIOUS %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_PD_MESSAGES_AUTOMATICALLY_UNBLOCKED_BECAUSE_THE_SENDERS_ARE_NO_LONGER_CONSIDERED_MALICIOUS %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_PD_MESSAGES_AUTOMATICALLY_UNBLOCKED_BECAUSE_THE_SENDERS_ARE_NO_LONGER_CONSIDERED_MALICIOUS %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_PD_MESSAGES_AUTOMATICALLY_UNBLOCKED_BECAUSE_THE_SENDERS_ARE_NO_LONGER_CONSIDERED_MALICIOUS %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_PD_MESSAGES_AUTOMATICALLY_UNBLOCKED_BECAUSE_THE_SENDERS_ARE_NO_LONGER_CONSIDERED_MALICIOUS %d</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_PD_UNREAD_DELIVERY_MESSAGES %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_PD_UNREAD_DELIVERY_MESSAGES %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_PD_UNREAD_DELIVERY_MESSAGES %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_PD_UNREAD_DELIVERY_MESSAGES %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_PD_UNREAD_DELIVERY_MESSAGES %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_PD_UNREAD_DELIVERY_MESSAGES %d</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_P1SD_UNREAD_MESSAGES_FROM_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_P1SD_UNREAD_MESSAGES_FROM_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_P1SD_UNREAD_MESSAGES_FROM_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_P1SD_UNREAD_MESSAGES_FROM_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_P1SD_UNREAD_MESSAGES_FROM_P2SS %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_P1SD_UNREAD_MESSAGES_FROM_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_BRANDS_LC %1$s %2$d</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_INCLUDING_PD_DELIVERY_MESSAGES_LC %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_INCLUDING_PD_DELIVERY_MESSAGES_LC %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_INCLUDING_PD_DELIVERY_MESSAGES_LC %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_INCLUDING_PD_DELIVERY_MESSAGES_LC %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_INCLUDING_PD_DELIVERY_MESSAGES_LC %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_INCLUDING_PD_DELIVERY_MESSAGES_LC %d</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">PLURAL_ZERO_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_OPT_INCLUDING_SOME_FROM_P1SS_AND_P2SD_OTHER_CONTACTS_LC %1$s %2$d</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_PD_UNREAD_MESSAGES %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_PD_UNREAD_MESSAGES %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_PD_UNREAD_MESSAGES %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_PD_UNREAD_MESSAGES %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_PD_UNREAD_MESSAGES %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_PD_UNREAD_MESSAGES %d</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_PD_UNREAD_MESSAGES %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_PD_UNREAD_MESSAGES %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_PD_UNREAD_MESSAGES %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_PD_UNREAD_MESSAGES %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_PD_UNREAD_MESSAGES %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_PD_UNREAD_MESSAGES %d</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">PLURAL_ZERO_MSG_HEADER_PD_UPCOMING_ALERTS_TODAY %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_HEADER_PD_UPCOMING_ALERTS_TODAY %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_HEADER_PD_UPCOMING_ALERTS_TODAY %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_HEADER_PD_UPCOMING_ALERTS_TODAY %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_HEADER_PD_UPCOMING_ALERTS_TODAY %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_HEADER_PD_UPCOMING_ALERTS_TODAY %d</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_PD_VIDEOS_SAVED_TO_YOUR_PHONE %d</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_A_DELIVERYP3SS %1$s %2$d %3$s</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_A_DELIVERYP3SS %1$s %2$d %3$s</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_A_DELIVERYP3SS %1$s %2$d %3$s</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_A_DELIVERYP3SS %1$s %2$d %3$s</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_A_DELIVERYP3SS %1$s %2$d %3$s</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_A_DELIVERYP3SS %1$s %2$d %3$s</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">PLURAL_ZERO_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_DELIVERIESP3SS %1$s %2$d %3$s</item>
+        <item quantity="one">PLURAL_ONE_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_DELIVERIESP3SS %1$s %2$d %3$s</item>
+        <item quantity="two">PLURAL_TWO_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_DELIVERIESP3SS %1$s %2$d %3$s</item>
+        <item quantity="few">PLURAL_FEW_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_DELIVERIESP3SS %1$s %2$d %3$s</item>
+        <item quantity="many">PLURAL_MANY_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_DELIVERIESP3SS %1$s %2$d %3$s</item>
+        <item quantity="other">PLURAL_OTHER_MSG_BODY_YOU_GOT_P1SSP2SD_MESSAGES_TODAY_ABOUT_DELIVERIESP3SS %1$s %2$d %3$s</item>
+    </plurals>
+</resources>

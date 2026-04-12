@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:textSize="16.0sp" android:textColor="@color/msg_popup_subtext_color" android:id="@id/do_not_show_again_check_box" android:paddingLeft="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/msg_popup_checkbox_margin" android:layout_marginRight="@dimen/msg_popup_margin" android:checked="false" android:text="@string/do_not_show_again" />
+</LinearLayout>

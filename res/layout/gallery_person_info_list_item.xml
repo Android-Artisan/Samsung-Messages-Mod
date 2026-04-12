@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/person_info_container" android:background="@drawable/gallery_person_info_item_bg" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/gallery_person_info_item_height" android:maxWidth="@dimen/gallery_person_info_item_max_width" android:paddingStart="@dimen/gallery_person_info_item_padding_start" android:paddingEnd="@dimen/gallery_person_info_item_padding_end" android:layout_marginEnd="@dimen/gallery_person_info_item_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/person_avatar" android:layout_width="@dimen/gallery_person_info_item_avatar_size" android:layout_height="@dimen/gallery_person_info_item_avatar_size" android:layout_marginEnd="@dimen/gallery_person_info_item_avatar_margin_end" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/gallery_person_info_item_text_size" android:textColor="@color/gallery_person_info_item_text_color" android:ellipsize="end" android:id="@id/person_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</LinearLayout>

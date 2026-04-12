@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.widget.AnnouncementIllustrationPreference android:layout="@layout/services_illustration_layout" />
+    <PreferenceCategory android:key="announcements_settings_divider" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/auto_update_message_card" android:key="pref_key_announcements_message_card_use_data" android:summary="@string/use_mobile_data_to_download_card_templates_and_conversation_avatars" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/show_interactive_content" android:key="pref_key_announcements_aim_show_interactive_content" android:summary="@string/get_interactive_content_including_pictures_and_videos" android:defaultValue="true" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/privacy_protection_setting" android:key="pref_key_announcements_payroll_hiding" android:summary="@string/privacy_protection_summary" android:defaultValue="false" />
+    <PreferenceCategory android:key="announcements_settings_divider" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/bot_legal_info_dialog_link_pp" android:key="pref_key_announcements_3rd_privacy_policy" />
+</androidx.preference.PreferenceScreen>

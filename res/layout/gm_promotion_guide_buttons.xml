@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/gm_promotion_guide_buttons_0" android:paddingTop="@dimen/gm_promotion_guide_description_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/gm_promotion_guide_buttons_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/gm_promotion_guide_button" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="percent" app:layout_constraintWidth_percent="0.8">
+            <Button android:theme="@style/GmPromotionButtonTheme" android:textSize="@dimen/gm_promotion_guide_button_text_size" android:textColor="@color/theme_about_update_button_text_color" android:id="@id/open_gm_button" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/about_page_raised_button_gap" android:text="@string/gm_promotion_guide_open_google_messages" android:backgroundTint="@color/theme_primary_color" />
+            <Button android:theme="@style/AboutPageRaisedButtonTheme" android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/gm_promotion_guide_button_text_size" android:textColor="@color/theme_no_message_text" android:id="@id/use_sm_button" android:tag="binding_2" android:background="@drawable/ripple_add_conversation_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gm_promotion_guide_continue_with_samsung_messages" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

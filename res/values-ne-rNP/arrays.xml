@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 घण्‍टा</item>
+        <item>6 घण्‍टा</item>
+        <item>24 घण्‍टा</item>
+        <item>2 दिन</item>
+        <item>नेटवर्क डिफल्ट</item>
+        <item>अधिकतम</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>मौलिक</item>
+        <item>उच्च</item>
+        <item>मध्यम</item>
+        <item>कम</item>
+        <item>सधैं सोध्नुहोस्</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>मौलिक</item>
+        <item>उच्च क्वालिटी</item>
+        <item>सामान्य क्वालिटी</item>
+        <item>न्यून रेजोल्यूसन</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>सबै च्यानलहरू</item>
+        <item>मेरो च्यानल</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>स्वचालित</item>
+        <item>पाठ संदेश वा मल्टिमिडिया</item>
+        <item>च्याट</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>स्वचालित</item>
+        <item>पाठ संदेश वा मल्टिमिडिया</item>
+        <item>RCS च्याटका संदेशहरू</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ब्लक गर्नुहोस्</item>
+        <item>पहिले सोध्नुहोस्</item>
+        <item>अनुमति दिनुहोस्</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>सधैं</item>
+        <item>प्रम्प्ट</item>
+        <item>कहिल्यै होइन</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM अल्फाबेट</item>
+        <item>यूनीकोड</item>
+        <item>स्वचालित</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>पाठ वा मल्टिमिडिया संदेशका रूपमा पुनः पठाउने हो?</item>
+        <item>पुनः नपठाउनुहोस्</item>
+        <item>पुनः पठाउनुअघि सोध्नुहोस्</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>पाठ वा मल्टिमिडिया संदेशहरू प्रयोग गर्नुहोस्</item>
+        <item>पुनः पठाउनु छैन</item>
+        <item>सधैं सोध्नुहोस्</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>मूल</item>
+        <item>नेटवर्क डिफल्ट</item>
+        <item>सधैँ सोध्‍नुहोस्</item>
+    </string-array>
+</resources>

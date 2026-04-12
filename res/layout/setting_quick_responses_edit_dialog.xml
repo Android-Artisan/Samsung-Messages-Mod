@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="@dimen/dialog_edit_text_size" android:id="@id/quick_responses_dialog_edit_text" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_edit_text_margin_top" android:maxHeight="@dimen/setting_edit_text_max_height" android:hint="@string/setting_quick_responses_hint" android:maxLength="@integer/quick_responses_max_count_value" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" android:imeOptions="flagNoExtractUi" android:layout_marginStart="@dimen/dialog_edit_text_margin_start" android:layout_marginEnd="@dimen/dialog_edit_text_margin_end" android:layout_alignParentStart="true" app:emojiCompatEnabled="false" />
+    <RelativeLayout android:id="@id/quick_response_dialog_text_description_and_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_edit_text_margin_bottom" android:layout_below="@id/quick_responses_dialog_edit_text" android:layout_marginStart="@dimen/edit_text_start_padding" android:layout_alignStart="@id/quick_responses_dialog_edit_text" android:layout_alignEnd="@id/quick_responses_dialog_edit_text">
+        <include layout="@layout/quick_response_description_view" />
+    </RelativeLayout>
+</RelativeLayout>

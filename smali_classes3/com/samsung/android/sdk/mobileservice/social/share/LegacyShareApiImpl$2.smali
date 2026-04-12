@@ -1,0 +1,118 @@
+.class Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl$2;
+.super Lcom/samsung/android/sdk/mobileservice/social/share/IShareSyncResultCallback$Stub;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl;->createShareSyncCallback(Lcom/samsung/android/sdk/mobileservice/social/share/ShareApi$ShareSyncResultCallback;)Lcom/samsung/android/sdk/mobileservice/social/share/IShareSyncResultCallback;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl;
+
+.field final synthetic val$callback:Lcom/samsung/android/sdk/mobileservice/social/share/ShareApi$ShareSyncResultCallback;
+
+
+# direct methods
+.method public constructor <init>(Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl;Lcom/samsung/android/sdk/mobileservice/social/share/ShareApi$ShareSyncResultCallback;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl$2;->this$0:Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl;
+
+    iput-object p2, p0, Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl$2;->val$callback:Lcom/samsung/android/sdk/mobileservice/social/share/ShareApi$ShareSyncResultCallback;
+
+    invoke-direct {p0}, Lcom/samsung/android/sdk/mobileservice/social/share/IShareSyncResultCallback$Stub;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onFailure(JLjava/lang/String;)V
+    .locals 3
+
+    iget-object v0, p0, Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl$2;->this$0:Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl;
+
+    const-string/jumbo v1, "requestSync onFailure : code=["
+
+    const-string v2, "], message=["
+
+    invoke-static {p1, p2, v1, v2, p3}, Lcom/samsung/android/messaging/common/cmstore/a;->i(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v2, "] "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl;->access$400(Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl$2;->val$callback:Lcom/samsung/android/sdk/mobileservice/social/share/ShareApi$ShareSyncResultCallback;
+
+    if-eqz v0, :cond_0
+
+    invoke-static {p1, p2}, Lcom/samsung/android/sdk/mobileservice/common/ErrorCodeConvertor;->convertErrorcode(J)I
+
+    move-result v0
+
+    iget-object p0, p0, Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl$2;->val$callback:Lcom/samsung/android/sdk/mobileservice/social/share/ShareApi$ShareSyncResultCallback;
+
+    new-instance v1, Lcom/samsung/android/sdk/mobileservice/common/result/BooleanResult;
+
+    new-instance v2, Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;
+
+    invoke-static {p1, p2}, Ljava/lang/Long;->toString(J)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {v2, v0, p3, p1}, Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+
+    const/4 p1, 0x0
+
+    invoke-direct {v1, v2, p1}, Lcom/samsung/android/sdk/mobileservice/common/result/BooleanResult;-><init>(Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;Z)V
+
+    invoke-interface {p0, v1}, Lcom/samsung/android/sdk/mobileservice/social/share/ShareApi$ShareSyncResultCallback;->onResult(Lcom/samsung/android/sdk/mobileservice/common/result/BooleanResult;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public onSuccess()V
+    .locals 3
+
+    iget-object v0, p0, Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl$2;->this$0:Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl;
+
+    const-string/jumbo v1, "requestSync onSuccess "
+
+    invoke-static {v0, v1}, Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl;->access$300(Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lcom/samsung/android/sdk/mobileservice/social/share/LegacyShareApiImpl$2;->val$callback:Lcom/samsung/android/sdk/mobileservice/social/share/ShareApi$ShareSyncResultCallback;
+
+    if-eqz p0, :cond_0
+
+    new-instance v0, Lcom/samsung/android/sdk/mobileservice/common/result/BooleanResult;
+
+    new-instance v1, Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;
+
+    const/4 v2, 0x1
+
+    invoke-direct {v1, v2}, Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;-><init>(I)V
+
+    invoke-direct {v0, v1, v2}, Lcom/samsung/android/sdk/mobileservice/common/result/BooleanResult;-><init>(Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;Z)V
+
+    invoke-interface {p0, v0}, Lcom/samsung/android/sdk/mobileservice/social/share/ShareApi$ShareSyncResultCallback;->onResult(Lcom/samsung/android/sdk/mobileservice/common/result/BooleanResult;)V
+
+    :cond_0
+    return-void
+.end method

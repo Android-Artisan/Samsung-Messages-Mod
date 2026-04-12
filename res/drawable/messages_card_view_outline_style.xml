@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/bubble_corner_radius" />
+            <solid android:color="@color/bubble_item_pressed_color" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <stroke android:width="@dimen/bubble_stroke_focus" android:color="@color/bubble_color_stroke_focused" />
+            <corners android:radius="@dimen/bubble_corner_radius" />
+        </shape>
+    </item>
+</selector>

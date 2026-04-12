@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 saat</item>
+        <item>6 saat</item>
+        <item>24 saat</item>
+        <item>2 gün</item>
+        <item>Varsayılan ağ</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Orijinal</item>
+        <item>Yüksek</item>
+        <item>Orta</item>
+        <item>Düşük</item>
+        <item>Her zaman sor</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Orijinal</item>
+        <item>Yüksek kalite</item>
+        <item>Normal kalite</item>
+        <item>Düşük çözünürlük</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Tüm kanallar</item>
+        <item>Kanallarım</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Otomatik</item>
+        <item>Metin veya multimedya</item>
+        <item>Sohbet</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Otomatik</item>
+        <item>Metin veya multimedya</item>
+        <item>RCS sohbet mesajları</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Engelle</item>
+        <item>Önce sor</item>
+        <item>İzin ver</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Her zaman</item>
+        <item>Hemen</item>
+        <item>Hiçbir zaman</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM Alfabesi</item>
+        <item>Çoklu dil</item>
+        <item>Otomatik</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Metin veya multimedya mesajı olarak tekrar gönder</item>
+        <item>Tekrar gönderme</item>
+        <item>Yeniden göndermeden önce sor</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Metin/multimedya mesajı kullnmı</item>
+        <item>Tekrar gönderilmedi</item>
+        <item>Her zaman sor</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Orijinal</item>
+        <item>Ağ varsayılanı</item>
+        <item>Her zaman sor</item>
+    </string-array>
+</resources>

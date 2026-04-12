@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/kor_appbar_container" android:paddingTop="40.0dp" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/kor_appbar_logo" android:layout_width="259.0dp" android:layout_height="53.0dp" android:src="@drawable/first_launch_kor_appbar_chatplus_global" android:scaleType="fitXY" android:contentDescription="@string/chatting_plus" />
+</LinearLayout>

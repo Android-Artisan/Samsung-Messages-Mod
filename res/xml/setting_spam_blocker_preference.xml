@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.setting.widget.SettingSwitchBarPreference android:layout="@layout/setting_preference_switch_bar_layout" android:key="pref_key_auto_spam_blocker" />
+    <com.samsung.android.messaging.ui.view.setting.widget.CustomUnclickablePreference android:key="pref_key_spam_blocker_description" />
+    <PreferenceCategory android:title="@string/setting_advanced_intelligence" android:key="pref_key_setting_block_messages_with_ai_category">
+        <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/setting_block_messages_with_ai" android:key="pref_key_setting_block_messages_with_ai" android:defaultValue="false" app:event="@string/event_intelligent_detection_switch" app:screen="@string/screen_KR_Block_malicious_messages_on" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/setting_intelligent_detection_warning_description_layout" android:key="pref_key_setting_intelligent_detection_warning_description" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_layout_container" android:tag="layout/search_bot_activity_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/search_result" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+                <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/search_recycle_list_view" android:visibility="gone" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+            </LinearLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ProgressBar android:id="@id/search_paging_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dp" />
+            </RelativeLayout>
+            <androidx.core.widget.NestedScrollView android:id="@id/search_list_state_layout" android:tag="binding_1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+                <RelativeLayout android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ProgressBar android:id="@id/search_list_state_progress_bar" android:visibility="gone" android:layout_width="@dimen/search_progress_bar_size" android:layout_height="@dimen/search_progress_bar_size" android:layout_centerInParent="true" />
+                    <TextView android:textAppearance="@style/TextAppearanceNoSearchItem" android:gravity="center" android:id="@id/search_list_state_text" android:tag="binding_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_results_found" android:layout_centerInParent="true" />
+                    <include android:id="@id/search_no_result_online_bot_layout" android:visibility="gone" layout="@layout/online_bot_layout" />
+                </RelativeLayout>
+            </androidx.core.widget.NestedScrollView>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/recent_search" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.core.widget.NestedScrollView android:id="@id/recent_search_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_alignParentTop="true" android:importantForAccessibility="no" android:layout_alignParentStart="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/search_contents_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/bot_detail_view_more_margin" android:layout_marginEnd="@dimen/bot_detail_view_more_margin">
+                        <androidx.fragment.app.FragmentContainerView android:name="com.samsung.android.messaging.ui.view.search.SearchRecentUsedChatbotFragment" android:id="@id/search_recent_used_chatbot_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                        <androidx.fragment.app.FragmentContainerView android:name="com.samsung.android.messaging.ui.view.search.SearchMyChatbotFragment" android:id="@id/search_my_chatbot_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+            <androidx.core.widget.NestedScrollView android:id="@id/empty_search_string_layout" android:tag="binding_5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textAppearance="@style/TextAppearanceNoItem" android:gravity="center" android:id="@id/empty_recent_search_string" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" android:text="@string/search_no_items" />
+                </RelativeLayout>
+            </androidx.core.widget.NestedScrollView>
+        </RelativeLayout>
+        <androidx.core.widget.NestedScrollView android:tag="binding_6" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</FrameLayout>

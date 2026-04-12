@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alive_sms_introduction_animation_height">200.0dp</dimen>
+    <dimen name="bubble_bot_horizontal_image_size">102.0dp</dimen>
+    <dimen name="bubble_bot_horizontal_media_width">122.0dp</dimen>
+    <dimen name="bubble_bot_media_height_medium_vertical">168.0dp</dimen>
+    <dimen name="bubble_bot_media_height_short_vertical">112.0dp</dimen>
+    <dimen name="bubble_bot_media_height_tall_vertical">264.0dp</dimen>
+    <dimen name="bubble_bot_media_max_height">379.0dp</dimen>
+    <dimen name="bubble_bot_media_min_height">158.0dp</dimen>
+    <dimen name="bubble_bot_width">284.0dp</dimen>
+    <dimen name="bubble_bot_width_chn">262.0dp</dimen>
+    <dimen name="bubble_bot_width_selection">244.0dp</dimen>
+    <dimen name="bubble_bot_width_selection_chn">222.0dp</dimen>
+    <dimen name="bubble_max_width">258.0dp</dimen>
+    <dimen name="sesl_date_picker_calendar_day_height">32.0dp</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_height">36.0dp</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_width">36.0dp</dimen>
+    <dimen name="sesl_date_picker_calendar_header_height">36.0dp</dimen>
+    <dimen name="sesl_date_picker_calendar_view_height">192.0dp</dimen>
+    <dimen name="sesl_date_picker_calendar_week_height">32.0dp</dimen>
+    <dimen name="sesl_date_picker_gap_between_header_and_weekend">10.0dp</dimen>
+    <dimen name="sesl_date_picker_gap_between_weekend_and_calender">8.0dp</dimen>
+    <dimen name="sesl_date_picker_selected_day_circle_radius">14.0dp</dimen>
+    <dimen name="sesl_picker_spinner_height">164.0dp</dimen>
+    <dimen name="sesl_spinning_date_picker_height">278.0dp</dimen>
+    <dimen name="sesl_spinning_date_picker_height_dialog">278.0dp</dimen>
+</resources>

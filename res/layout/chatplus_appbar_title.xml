@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/extended_appbar_custom_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/extended_appbar_static_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/sesl_appbar_extended_title_padding">
+        <ViewStub android:id="@id/chatplus_appbar_logo_stub" android:layout="@layout/chatplus_appbar_logo_global" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/action_bar_en_title_start_margin" />
+    </LinearLayout>
+</LinearLayout>

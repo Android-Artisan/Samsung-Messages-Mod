@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/avatar_background_cmas" />
+    <item>
+        <com.samsung.android.spr.drawable.SprDrawable android:gravity="center" android:src="@drawable/orc_thumbnail_cmas_spr" android:tint="@color/cmas_sender_color_not_theme" />
+    </item>
+</layer-list>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bot_a2p_detail_body_additional_padding" android:paddingEnd="@dimen/bot_a2p_detail_body_additional_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_about_bot_call" android:background="?android:listChoiceBackgroundIndicator" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/bot_detail_about_bot_padding_top_bottom" android:paddingBottom="@dimen/bot_detail_about_bot_padding_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/bot_detail_about_bot_text_to_icon_margin">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_about_bot_title" android:textColor="@color/theme_list_sub_text_color" android:id="@id/bot_detail_about_bot_call_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bot_pref_title_phone_number" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_about_bot_body" android:textColor="@color/theme_list_main_text_color" android:id="@id/bot_detail_about_bot_call_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/bot_detail_about_bot_call_icon" android:layout_width="@dimen/bot_detail_about_bot_icon_size" android:layout_height="@dimen/bot_detail_about_bot_icon_size" android:src="@drawable/bot_detail_content_about_call" android:tint="@color/theme_list_icon_tint_color" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_about_bot_website" android:background="?android:listChoiceBackgroundIndicator" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/bot_detail_about_bot_padding_top_bottom" android:paddingBottom="@dimen/bot_detail_about_bot_padding_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/bot_detail_about_bot_text_to_icon_margin">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_about_bot_title" android:textColor="@color/theme_list_sub_text_color" android:id="@id/bot_detail_about_bot_website_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bot_pref_title_website" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_about_bot_body" android:textColor="@color/theme_list_main_text_color" android:id="@id/bot_detail_about_bot_website_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/bot_detail_about_bot_website_icon" android:layout_width="@dimen/bot_detail_about_bot_icon_size" android:layout_height="@dimen/bot_detail_about_bot_icon_size" android:src="@drawable/bot_detail_content_about_website" android:tint="@color/theme_list_icon_tint_color" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_about_bot_email" android:background="?android:listChoiceBackgroundIndicator" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/bot_detail_about_bot_padding_top_bottom" android:paddingBottom="@dimen/bot_detail_about_bot_padding_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/bot_detail_about_bot_text_to_icon_margin">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_about_bot_title" android:textColor="@color/theme_list_sub_text_color" android:id="@id/bot_detail_about_bot_email_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bot_pref_title_email" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_about_bot_body" android:textColor="@color/theme_list_main_text_color" android:id="@id/bot_detail_about_bot_email_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/bot_detail_about_bot_email_icon" android:layout_width="@dimen/bot_detail_about_bot_icon_size" android:layout_height="@dimen/bot_detail_about_bot_icon_size" android:src="@drawable/bot_detail_content_about_email" android:tint="@color/theme_list_icon_tint_color" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_about_bot_address" android:background="?android:listChoiceBackgroundIndicator" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/bot_detail_about_bot_padding_top_bottom" android:paddingBottom="@dimen/bot_detail_about_bot_padding_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/bot_detail_about_bot_text_to_icon_margin">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_about_bot_title" android:textColor="@color/theme_list_sub_text_color" android:id="@id/bot_detail_about_bot_address_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bot_pref_title_address" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_about_bot_body" android:textColor="@color/theme_list_main_text_color" android:id="@id/bot_detail_about_bot_address_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/bot_detail_about_bot_address_icon" android:layout_width="@dimen/bot_detail_about_bot_icon_size" android:layout_height="@dimen/bot_detail_about_bot_icon_size" android:src="@drawable/bot_detail_content_about_address" android:tint="@color/theme_list_icon_tint_color" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

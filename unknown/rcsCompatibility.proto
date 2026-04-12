@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+option java_package = "com.google.android.rcs.proto";
+option java_outer_classname = "RcsCompatibilityProto";
+// Contains information about the message that should be associated with them.
+// For example, it can contain bot info or rbm group info.
+// It can contain conference uri.
+// It could also contain other (invisible) info.
+// This is particularly useful when one wants to store something that is
+// "related" to the message, but should not be visible in the message upon
+// restore (or when other app restores the message).
+message MessageMetadata {
+  oneof message_type {
+    RcsMessage rcs_message = 2;
+    MmsMessage mms_message = 3;
+  }
+}
+
+message RcsMessage {
+  oneof rcs_message_type {
+    RcsGroup rcs_group = 2;
+    RbmBot rbm_bot = 3;
+  }
+  // If provided, the original message was an RCS message, and contains RCS
+  // message id.
+  string rcs_message_id = 5;
+}
+
+message RcsGroup {
+  string group_id = 1;
+  string group_name = 2;
+  // self_msisdn is deprecated and soon will be removed.
+  string self_msisdn = 3 [deprecated = true];
+  string conference_uri = 4;
+}
+// Similar to |buildRbmBotBackupContactName| except that it uses proto instead
+// of base32.
+message RbmBot {
+  string bot_id = 1;
+  string bot_name = 2;
+  string bot_color = 3;
+}
+
+message MmsMessage {
+  bytes transaction_id = 1;
+  // If provided, mmsMessage contains arbitrary data, in this case group name
+  // will be serialized and deserialized so that group names persist in a
+  // restoration
+  string group_name = 2;
+}
+
+// Generic message metadata can be shared with 3rd party apps. It contains
+// information on per-app basis (or per-feature basis, if needed).
+message GenericMessageMetadata {
+  // For example
+  // "com.google.android.apps.messaging" -> binary of the Bugle's proto
+  // "com.samsung.foo" -> binary of the Samsung's proto
+  // "com.google.android.apps.messaging" uses MessageMetadata proto.
+  map<string, bytes> app_to_proto_map = 1;
+}

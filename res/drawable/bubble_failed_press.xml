@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <corners android:radius="@dimen/bubble_corner_radius" />
+            <solid android:color="@color/theme_bubble_color_bg_failed" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+    <item>
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <corners android:radius="@dimen/attachment_stroke_radius" />
+            <solid android:color="@color/bubble_failed_item_pressed_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+</layer-list>

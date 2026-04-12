@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/theme_rcs_typing_icon_color" />
+            <size android:width="4.0dp" />
+            <size android:height="4.0dp" />
+        </shape>
+    </item>
+</layer-list>

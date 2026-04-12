@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/preset_picker_image_more" android:background="@drawable/editor_preset_more_btn" android:focusable="true" android:clickable="true" android:layout_width="@dimen/preset_picker_image_size" android:layout_height="@dimen/preset_picker_image_size" android:src="@drawable/orc_ic_setgroup_more" android:scaleType="center" android:tint="@color/theme_group_chat_more_icon_color" android:contentDescription="@string/more_images" android:tooltipText="@string/more_images" />
+</FrameLayout>

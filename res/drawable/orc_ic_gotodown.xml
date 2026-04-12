@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dp" android:width="32.0dp" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/bubble_new_message_noti_down_icon_up_color" android:pathData="M9.49,21.815L21.99,21.815A0.75,0.75 0,0 0,22.74 21.065L22.74,21.065A0.75,0.75 0,0 0,21.99 20.315L9.49,20.315A0.75,0.75 0,0 0,8.74 21.065L8.74,21.065A0.75,0.75 0,0 0,9.49 21.815z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/bubble_new_message_noti_down_icon_down_color" android:pathData="M14.65,19.144c0.561,0.59 1.47,0.625 2.071,0.105l0.11,-0.104 5.49,-5.78a0.8,0.8 0,0 0,-1.073 -1.181l-0.088,0.08 -5.42,5.705 -5.42,-5.705a0.8,0.8 0,0 0,-1.039 -0.104l-0.092,0.075a0.8,0.8 0,0 0,-0.104 1.04l0.075,0.09 5.49,5.78z" android:fillType="evenOdd" />
+</vector>

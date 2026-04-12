@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 മണിക്കൂര്‍</item>
+        <item>6 മണിക്കൂര്‍</item>
+        <item>24 മണിക്കൂര്‍</item>
+        <item>2 ദിവസം</item>
+        <item>നെറ്റ്‌വര്‍ക്ക് ഡിഫോള്‍ട്ട്</item>
+        <item>പരമാവധി</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>അസല്‍</item>
+        <item>ഉയർന്നത്</item>
+        <item>ഇടത്തരം</item>
+        <item>താഴ്ന്നത്</item>
+        <item>എപ്പോഴും ചോദിക്കുക</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>അസല്‍</item>
+        <item>ഉയർന്ന മേന്മ</item>
+        <item>സാധാരണ മേന്മ</item>
+        <item>കുറഞ്ഞ മിഴിവ്</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>എല്ലാ ചാനലുകളും</item>
+        <item>എന്‍റെ ചാനല്‍</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>ഓട്ടോമാറ്റിക്ക്</item>
+        <item>ടെക്സ്റ്റ് അല്ലെങ്കിൽ മൾട്ടിമീഡിയ</item>
+        <item>ചാറ്റ്</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>ഓട്ടോമാറ്റിക്ക്</item>
+        <item>ടെക്സ്റ്റ് അല്ലെങ്കിൽ മൾട്ടിമീഡിയ</item>
+        <item>RCS ചാറ്റ് സന്ദേശങ്ങൾ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>തടയുക</item>
+        <item>ആദ്യം ചോദിക്കുക</item>
+        <item>അനുവദിക്കുക</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>എല്ലായിപ്പോഴും</item>
+        <item>പ്രോമ്റ്റ്‌</item>
+        <item>ഒരിക്കലും അരുത്</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM അക്ഷരമാല</item>
+        <item>യൂണിക്കോഡ്</item>
+        <item>ഓട്ടോമാറ്റിക്</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>ഒരു ടെക്സ്റ്റ് അല്ലെങ്കിൽ മൾട്ടിമീഡിയ സന്ദേശമായി വീണ്ടും അയയ്ക്കുക</item>
+        <item>വീണ്ടും അയയ്ക്കരുത്</item>
+        <item>വീണ്ടും അയയ്ക്കുന്നതിന് മുമ്പ് ചോദിക്കുക</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>ടെക്സ്റ്റ് അല്ലെങ്കിൽ മൾട്ടിമീഡിയ സന്ദേശങ്ങൾ ഉപയോഗിക്കുക</item>
+        <item>വീണ്ടും അയയ്ക്കേണ്ട</item>
+        <item>എപ്പോഴും ചോദിക്കുക</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>ഒറിജിനല്‍</item>
+        <item>നെറ്റ്‌വർക്ക് ഡിഫോൾട്ട്</item>
+        <item>എപ്പോഴും ചോദിക്കുക</item>
+    </string-array>
+</resources>

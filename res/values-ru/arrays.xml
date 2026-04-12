@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 час</item>
+        <item>6 часов</item>
+        <item>24 часа</item>
+        <item>2 дня</item>
+        <item>По умолчанию</item>
+        <item>Максимум</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Исходный</item>
+        <item>Высокое</item>
+        <item>Среднее</item>
+        <item>Низкое</item>
+        <item>Всегда спрашивать</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Исходный</item>
+        <item>Высокое качество</item>
+        <item>Обычное качество</item>
+        <item>Низкое разрешение</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Все каналы</item>
+        <item>Мой канал</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Автоматически</item>
+        <item>SMS или MMS</item>
+        <item>Чат</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Автоматически</item>
+        <item>SMS или MMS</item>
+        <item>Сообщения RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Заблокировать</item>
+        <item>Сначала спрашивать</item>
+        <item>Разрешить</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Всегда</item>
+        <item>Спрашивать</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-алфавит</item>
+        <item>Юникод</item>
+        <item>Автоматически</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>По SMS или MMS</item>
+        <item>Не отправлять повторно</item>
+        <item>Всегда спрашивать</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Использование SMS и MMS</item>
+        <item>Не повторять отправку</item>
+        <item>Всегда спрашивать</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Оригинал</item>
+        <item>Сеть по умолчанию</item>
+        <item>Всегда спрашивать</item>
+    </string-array>
+</resources>

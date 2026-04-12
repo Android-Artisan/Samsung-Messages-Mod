@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/NewSECRegular" android:textSize="15.0sp" android:textColor="@color/theme_transfer_view_all_button_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/viewer_transfer_button" android:background="@drawable/round_transfer_action_button_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="12.0dp" android:minHeight="@dimen/contained_button_min_height" android:text="@string/menu_transfer_money" android:maxLines="1" android:layout_marginStart="40.0dp" android:layout_marginEnd="40.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

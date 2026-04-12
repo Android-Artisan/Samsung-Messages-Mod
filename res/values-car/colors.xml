@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="basic_tint_1">#26ebebeb</color>
+    <color name="basic_tint_2">#26ebebeb</color>
+    <color name="basic_tint_3">#26ebebeb</color>
+    <color name="basic_tint_4">#26ebebeb</color>
+    <color name="theme_fab_bg_tint_color">#ff3a3a3d</color>
+</resources>

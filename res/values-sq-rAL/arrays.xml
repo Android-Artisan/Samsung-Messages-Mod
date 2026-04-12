@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 orë</item>
+        <item>6 orë</item>
+        <item>24 orë</item>
+        <item>2 ditë</item>
+        <item>Default i rrjetit</item>
+        <item>Maksimumi</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Origjinal</item>
+        <item>E lartë</item>
+        <item>Mesatare</item>
+        <item>E ulët</item>
+        <item>Gjithnjë pyet</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Origjinal</item>
+        <item>Cilësi e lartë</item>
+        <item>Cilësi normale</item>
+        <item>Rezolucion i ulët</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Të gjitha kanalet</item>
+        <item>Kanali im</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatik</item>
+        <item>Tekst ose multimedia</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatik</item>
+        <item>Tekst ose multimedia</item>
+        <item>Mesazhet e chat-it RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blloko</item>
+        <item>Pyet më parë</item>
+        <item>Lejo</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Gjithmonë</item>
+        <item>Më pyet</item>
+        <item>Kurrë</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alfabeti GSM</item>
+        <item>Unicode</item>
+        <item>Automatik</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Ridërgo si mesazh tekst ose multimedia</item>
+        <item>Mos ridërgo</item>
+        <item>Pyet para se të ridërgosh</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Me mesazhe tekst ose multimedia</item>
+        <item>Pa ridërgim</item>
+        <item>Gjithnjë pyet</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Origjinali</item>
+        <item>Parazgjedhja e rrjetit</item>
+        <item>Gjithnjë pyet</item>
+    </string-array>
+</resources>

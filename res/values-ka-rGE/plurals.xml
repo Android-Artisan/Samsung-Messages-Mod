@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">შეტყობინების გაუქმება შეუძლებელია. შეტყობინების გაუქმება შესაძლებელია გაგზავნიდან მხოლოდ %d წუთის განმავლობაში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">შეტყობინების გაუქმება შეუძლებელია. შეტყობინების გაუქმება შესაძლებელია გაგზავნიდან მხოლოდ %d წუთის განმავლობაში.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ასევე გადით %d ჯგუფურ სასაუბროდან</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ასევე გადით %d ჯგუფურ სასაუბროდან</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ჯგუფური საუბრიდანაც გასვლა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ჯგუფური საუბრიდანაც გასვლა</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">წაიშალოს სიცილაკიების %d ნაკრები?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">წაიშალოს სიცილაკიების %d ნაკრები?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს ურნაში %d საუბარი?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">გადავიდეს ურნაში %d საუბარი?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ურნაში გადაყრილი შეტყობინებები სამუდამოდ წაიშლება %d დღეში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ურნაში გადაყრილი შეტყობინებები სამუდამოდ წაიშლება %d დღეში.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">წაშლილი შეტყობინებები ურნაში დარჩება %d დღის განმავლობაში, შემდეგ კი სამუდამოდ წაიშლება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">წაშლილი შეტყობინებები ურნაში დარჩება %d დღის განმავლობაში, შემდეგ კი სამუდამოდ წაიშლება.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს ურნაში %d შეტყობინება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">გადავიდეს ურნაში %d შეტყობინება?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დღეს განსაკუთრებული დღეა (%1$s და კიდევ %2$d სხვა ღონისძიებაა). გაუგზავნი რამეს?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">დღეს განსაკუთრებული დღეა (%1$s და კიდევ %2$d სხვა ღონისძიებაა). გაუგზავნი რამეს?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s და კიდევ %2$d კონტაქტის დაბადების დღეა! გაუგზავნით რაიმე განსაკუთრებულს?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s და კიდევ %2$d კონტაქტის დაბადების დღეა! გაუგზავნით რაიმე განსაკუთრებულს?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d შეტყობინება დაიბლოკა ბოლო 30 დღეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d შეტყობინება დაიბლოკა ბოლო 30 დღეში</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">არჩეულია %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">არჩეულია %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ელფოსტის მისამართის დაბლოკვა შეუძლებელია, რადგან ის არასწორია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ელფოსტის მისამართის დაბლოკვა შეუძლებელია, რადგან ისინი არასწორია.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ტელეფონის ნომრის დაბლოკვა შეუძლებელია, რადგან ის არასწორია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ტელეფონის ნომერის დაბლოკვა შეუძლებელია, რადგან ისინი არასწორია.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d გამომგზავნის დაბლოკვა შეუძლებელია, რადგან მისი ინფორმაცია არასწორია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d გამომგზავნის დაბლოკვა შეუძლებელია, რადგან მათი ინფორმაცია არასწორია.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ზე მეტი კონტაქტის არჩევა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-ზე მეტი კონტაქტის არჩევა შეუძლებელია.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d %2$s ბარათი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d %2$s ბარათი</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">სასაუბროს %d კონტაქტი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">სასაუბროს %d კონტაქტი</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Chatting+ კონტაქტი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Chatting+ კონტაქტები</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"თუ გააუქმებთ რეგისტრაციას Chatting+ სერვისზე, ვერ შეძლებთ საუბრის შექმნას და ვერ შეუერთდებით ერთი ერთზე და ჯგუფურ საუბრებს, ვერ მიიღებთ დადასტურებას შეტყობინების წაკითხვის შესახებ და ვერც დიდ ფაილებს გააზიარებთ. დარწმუნებული ხართ, რომ რეგისტრაციის გაუქმება გსურთ?
+
+ხელახალი რეგისტრაციისთვის უნდა დაიცადოთ %d წუთი."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"თუ გააუქმებთ რეგისტრაციას Chatting+ სერვისზე, ვერ შეძლებთ საუბრის შექმნას და ვერ შეუერთდებით ერთი ერთზე და ჯგუფურ საუბრებს, ვერ მიიღებთ დადასტურებას შეტყობინების წაკითხვის შესახებ და ვერც დიდ ფაილებს გააზიარებთ. დარწმუნებული ხართ, რომ რეგისტრაციის გაუქმება გსურთ?
+
+ხელახალი რეგისტრაციისთვის უნდა დაიცადოთ %d წუთი."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d მოსაუბრე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d მოსაუბრე</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d კონტაქტი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d კონტაქტი</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">არჩეულია %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">არჩეულია %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ვადა გასდის %d დღეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ვადა გასდის %d დღეში</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d კუპონს ვადა მალე გაუვა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d კუპონს მალე გასდის ვადა</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენს %1$s კუპონს ვადა %2$d დღეში გასდის.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">თქვენს %1$s კუპონს ვადა %2$d დღეში გასდის.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენს კუპონს ვადა %d დღეში გასდის.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">თქვენს კუპონს ვადა %d დღეში გასდის.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">წაიშალოს %d საუბარი?</item>
+        <item quantity="other">წაიშალოს %d საუბარი?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">სამუდამოდ წაიშალოს %d საუბარი?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">სამუდამოდ წაიშალოს %d საუბარი?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">წაიშალოს %d შეტყობინება?</item>
+        <item quantity="other">წაიშალოს %d შეტყობინება?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">სამუდამოდ წაიშალოს %d შეტყობინება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">სამუდამოდ წაიშალოს %d შეტყობინება?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d შეტყობინება მიტანის შესახებ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d შეტყობინება მიტანის შესახებ</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დაიხუროს %d ბარათი?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">დაიხუროს %d ბარათი?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მხოლოდ %1$d კატეგორიის გრაფა შეიძლება გამოჩნდეს ძირითად ეკრანზე. დანარჩენი დამალულია. აირჩიეთ %2$s კატეგორია, თუ სწრაფად გსურთ მასზე წვდომის განხორციელება ძირითადი ეკრანიდან.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მხოლოდ %1$d კატეგორიის გრაფა შეიძლება გამოჩნდეს ძირითად ეკრანზე. დანარჩენი დამალულია. აირჩიეთ %2$s კატეგორია, თუ სწრაფად გსურთ მასზე წვდომის განხორციელება ძირითადი ეკრანიდან.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d წუთი</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წამი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d წამი</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ფაილი შენახულია ტელეფონში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ფაილი შენახულია ტელეფონში.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ფაილი შენახულია პლანშეტში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ფაილი შენახულია პლანშეტში.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დღეს არის %d ტრანზაქცია</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">დღეს არის %d ტრანზაქცია</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s და %2$d უცნობი ნომერი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s და %2$d უცნობი ნომერი</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d უცნობი ნომერი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d უცნობი ნომერი</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ვერ უერთდება ჯგუფურ საუბრებს. წაშალეთ იგი შერჩეული ადრესატებიდან, ან %2$d მიმღებს გაუგზავნეთ ტექსტური შეტყობინება, სანაცვლოდ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ვერ უერთდება ჯგუფურ საუბრებს. წაშალეთ იგი შერჩეული ადრესატებიდან, ან %2$d მიმღებს გაუგზავნეთ ტექსტური შეტყობინება, სანაცვლოდ.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ერთ ან მეტ დამატებულ მიმღებს არ შეუძლია გაუმჯობესებული მიმოწერის გამოყენება და, ამიტომ, თქვენი ჯგუფი შემოიფარგლება მაქსიმუმ %d წევრით.
+
+იმისათვის რომ განაგრძოთ, აირჩიეთ გაუმჯობესებული მიმოწერის შესაძლებლობის მქონე წევრები. ისინი მონიშნულია ლურჯი წერტილით."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ერთ ან მეტ დამატებულ მიმღებს არ შეუძლია გაუმჯობესებული მიმოწერის გამოყენება და, ამიტომ, თქვენი ჯგუფი შემოიფარგლება მაქსიმუმ %d წევრით.
+
+იმისათვის რომ განაგრძოთ, აირჩიეთ გაუმჯობესებული მიმოწერის შესაძლებლობის მქონე წევრები. ისინი მონიშნულია ლურჯი წერტილით."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ჯგუფური საუბრის დასაწყებად, მოაცილეთ ბოლოს არჩეული მიმღები. თუ გსურთ ჩართოთ ეს ბოლო მიმღები, მოაცილეთ %d მიმღები, რომ გაგზავნოთ შეტყობინება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ჯგუფური საუბრის დასაწყებად, მოაცილეთ ბოლოს არჩეული მიმღები. თუ გსურთ ჩართოთ ეს ბოლო მიმღები, მოაცილეთ %d მიმღები, რომ გაგზავნოთ შეტყობინება.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">პლანშეტში შეინახა %d სურათი.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">პლანშეტში შეინახა %d სურათი.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ტელეფონში შეინახა %d სურათი.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ტელეფონში შეინახა %d სურათი.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ტელეფონში შეინახა 1 სურათი და %d ვიდეო.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ტელეფონში შეინახა 1 სურათი და %d ვიდეო.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ტელეფონში შეინახა %d სურათი და 1 ვიდეო.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ტელეფონში შეინახა %d სურათი და 1 ვიდეო.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s და კიდევ %2$d სხვა ადამიანი გაწევრიანდა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s და კიდევ %2$d სხვა ადამიანი გაწევრიანდა</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d კონტაქტი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d კონტაქტი</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ზე მეტი ადამიანის არჩევა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-ზე მეტი ადამიანის არჩევა შეუძლებელია.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">როდესაც შეტყობინების შემოთავაზებების ღილაკს შეეხებით, საუბრის ბოლო %d შეტყობინება ინტერნეტით დამუშავდება. ხელოვნური ინტერნეტით დაგენერირებული შემოთავაზებები შეიძლება არაზუსტი ან შეუსაბამო შინაარსის შემცველი იყოს.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">როდესაც შეტყობინების შემოთავაზებების ღილაკს შეეხებით, საუბრის ბოლო %d შეტყობინება ინტერნეტით დამუშავდება. ხელოვნური ინტერნეტით დაგენერირებული შემოთავაზებები შეიძლება არაზუსტი ან შეუსაბამო შინაარსის შემცველი იყოს.</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ფაილი გაზიარდა სწრაფი გაზიარების გამოყენებით</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ფაილი გაზიარდა სწრაფი გაზიარების გამოყენებით</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ახალი გამოსადეგი ბარათი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ახალი გამოსადეგი ბარათი</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d საუბარი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d საუბარი</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d შეტყობინება</item>
+        <item quantity="other">%d შეტყობინება</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">წაშლილი შეტყობინებები შენახული დარჩეს %d დღე.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">წაშლილი შეტყობინებები შენახული დარჩეს %d დღე.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">შეგიძლიათ ისევ განაახლოთ %d წუთში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">შეგიძლიათ ისევ განაახლოთ %d წუთში.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ახლა გაიგზავნოს %d შეტყობინება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ახლა გაიგზავნოს %d შეტყობინება?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მიმდინარეობს ინფორმაციის განახლება. დაიცადეთ მინიმუმ %d წუთი და შემდეგ ისევ სცადეთ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მიმდინარეობს ინფორმაციის განახლება. დაიცადეთ მინიმუმ %d წუთი და შემდეგ ისევ სცადეთ.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ზე მეტი საუბრის ჩამაგრება შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-ზე მეტი საუბრის ჩამაგრება შეუძლებელია.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s და კიდევ სხვა %2$d</item>
+        <item quantity="other">%1$s და კიდევ სხვა %2$d</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">წაიშალოს %d ბარათი?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">წაიშალოს %d ბარათი?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">შეიყვანეთ მიზეზი (მაქსიმუმ %d სიმბოლო)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">შეიყვანეთ მიზეზი (მაქსიმუმ %d სიმბოლო)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">დაგეგმილია %d შეტყობინება</item>
+        <item quantity="one">დაგეგმილია %d შეტყობინება</item>
+        <item quantity="two">დაგეგმილია %d შეტყობინება</item>
+        <item quantity="few">დაგეგმილია %d შეტყობინება</item>
+        <item quantity="many">დაგეგმილია %d შეტყობინება</item>
+        <item quantity="other">დაგეგმილია %d შეტყობინება</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">აირჩიეთ დრო, რომელიც არის მიმდინარე დროზე მინიმუმ %d წუთით გვიანი.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">აირჩიეთ დრო, რომელიც არის მიმდინარე დროზე მინიმუმ %d წუთით გვიანი.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ნაპოვნია %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ნაპოვნია %d</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს ურნაში 1 საუბარი და კიდევ %d შეტყობინება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">გადავიდეს ურნაში 1 საუბარი და კიდევ %d შეტყობინება?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს ურნაში %d საუბარი და კიდევ 1 შეტყობინება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">გადავიდეს ურნაში %d საუბარი და კიდევ 1 შეტყობინება?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"აირჩიეთ მაქსიმუმ %d ადამიანი.
+(ჩანს ისინი, რომლებიც ამ საუბარში იყენებენ თავიანთ ტელეფონის ნომრებს.)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"აირჩიეთ მაქსიმუმ %d ადამიანი.
+(ჩანს ისინი, რომლებიც ამ საუბარში იყენებენ თავიანთ ტელეფონის ნომრებს.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ძილის დრო: %d საათი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ძილის დრო: %d საათი</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ძილის დრო: %d წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ძილის დრო: %d წუთი</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დარჩა %d საათი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">დარჩა %d საათი</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დარჩა %d წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">დარჩა %d წუთი</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დარჩა %d წამი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">დარჩა %d წამი</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">წერილის დაკოპირდა SIM ბარათიდან.</item>
+        <item quantity="other">წერილების ასლი გადაიწერა SIM ბარათიდან.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d კატეგორია</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d კატეგორია</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენ აირჩიეთ %d-ზე მეტი მიმღები, რაც შეადგენს ტექსტური შეტყობინებებისთვის დაწესებულ ლიმიტს. დაიწყეთ ჯგუფური საუბარი, რომ ყველას ერთდროულად გაუგზავნოთ შეტყობინება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">თქვენ აირჩიეთ %d-ზე მეტი მიმღები, რაც შეადგენს ტექსტური შეტყობინებებისთვის დაწესებულ ლიმიტს. დაიწყეთ ჯგუფური საუბარი, რომ ყველას ერთდროულად გაუგზავნოთ შეტყობინება.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">სულ %d შეტყობინება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">სულ %d შეტყობინება</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d შეტყობინება ავტომატურად განიბლოკა, რადგან გამომგზავნი აღარ ითვლება ზიანის მომტანად.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d შეტყობინება ავტომატურად განიბლოკა, რადგან გამომგზავნი აღარ ითვლება ზიანის მომტანად.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s და კიდევ %2$d ბრენდიდან</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s და კიდევ %2$d ბრენდიდან</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მიტანის %d წაუკითხავი შეტყობინება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მიტანის %d წაუკითხავი შეტყობინება</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s და კიდევ %2$d კონტაქტისგან</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s და კიდევ %2$d კონტაქტისგან</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d წაუკითხავი შეტყობინებაა, რომელის გამომგზავნია %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d წაუკითხავი შეტყობინებაა, რომელის გამომგზავნია %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მათ შორის, %1$s და კიდევ %2$d ბრენდიდან</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მათ შორის, %1$s და კიდევ %2$d ბრენდიდან</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მათ შორის, მიტანის %d შეტყობინება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მათ შორის, მიტანის %d შეტყობინება</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მათ შორის, %1$s და კიდევ %2$d კონტაქტისგან</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მათ შორის, %1$s და კიდევ %2$d კონტაქტისგან</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წაუკითხავი შეტყობინება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d წაუკითხავი შეტყობინება</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წაუკითხავი შეტყობინება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d წაუკითხავი შეტყობინება</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დღეისთვის დაყენებულია %d სიგნალი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">დღეისთვის დაყენებულია %d სიგნალი</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ტელეფონში შეინახა %d ვიდეო.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ტელეფონში შეინახა %d ვიდეო.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დღეს თქვენ მიიღეთ %1$s%2$d შეტყობინება მიტანის შესახებ%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">დღეს თქვენ მიიღეთ %1$s%2$d შეტყობინება მიტანის შესახებ%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დღეს თქვენ მიიღეთ %1$s%2$d შეტყობინება მიტანის შესახებ%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">დღეს თქვენ მიიღეთ %1$s%2$d შეტყობინება მიტანის შესახებ%3$s.</item>
+    </plurals>
+</resources>

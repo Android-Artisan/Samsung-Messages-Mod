@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema name="com.samsung.android.messaging.message" version="9">
+    <defaultAnalyzer class="bs.LowerCaseSpaceAnalyzer"/>
+
+    <fieldType name="string" class="StringField" dataType="String"/>
+    <fieldType name="string_multi_value" dataType="MultiValuedString" class="StringField"/>
+    <fieldType name="text" class="TextField" dataType="String"/>
+    <fieldType name="text_multi_value" class="TextField" dataType="MultiValuedString"/>
+    <fieldType name="int_stored" class="StoredField" dataType="int"/>
+    <fieldType name="int_compare_field" dataType="int" class="IntPoint"/>
+    <fieldType name="long_sorted" class="NumericDocValuesField" dataType="long"/>
+    <fieldType name="long_stored" dataType="long" class="StoredField" />
+    <fieldType name="long_numeric_field" dataType="long" class="NumericDocValuesField" />
+    <fieldType name="sorting_field" class="SortedDocValuesField" dataType="BytesRef"/>
+
+    <fieldType name="chosung" dataType="String" class="TextField">
+        <analyzer type="index" class="bs.korean.ChosungAnalyzer" keepOtherLang="true"
+            removeSpace="true"/>
+    </fieldType>
+    <fieldType name="initial_field" dataType="String" class="TextField">
+        <analyzer type="index" class="bs.core.InitialAnalyzer"/>
+    </fieldType>
+    <fieldType name="korean_decomposed_field" dataType="String" class="TextField">
+        <analyzer class="bs.korean.KoreanDecompositionAnalyzer" lang="ko"
+            morphemeAnalysis="false" mergeOrigin="false"/>
+    </fieldType>
+    <fieldType name="phonetic_field" dataType="String" class="TextField">
+        <analyzer class="bs.core.PerLanguageAnalyzer">
+            <subAnalyzer class="bs.korean.phonetic.KoreanPhoneticAnalyzer" lang="ko"
+                enableLinkingRule="false" storeRawTermInPayload="true"/>
+            <subAnalyzer class="bs.latin.PhoneticAnalyzer" lang="la" storeRawTermInPayload="true"/>
+        </analyzer>
+    </fieldType>
+    <fieldType name="transliterated_field" dataType="String" class="TextField">
+        <analyzer type="index" class="bs.transliteration.TransliterationAnalyzer"
+            input="la" output="default" category="common" />
+        <analyzer type="search" class="bs.transliteration.TransliterationSearchAnalyzer"
+            input="la" output="default" category="common" />
+    </fieldType>
+    <fieldType name="fuzzy_field" dataType="String" class="TextField">
+        <analyzer class="bs.core.PerLanguageAnalyzer">
+            <subAnalyzer class="bs.korean.ConsonantAnalyzer" lang="ko" storeRawTermInPayload="true"/>
+        </analyzer>
+    </fieldType>
+    <fieldType name="korean_decomposed_multi_field" dataType="MultiValuedString" class="TextField">
+        <analyzer class="bs.korean.KoreanDecompositionAnalyzer"
+            morphemeAnalysis="false" mergeOrigin="false"/>
+    </fieldType>
+    <fieldType name="phonetic_multi_field" dataType="MultiValuedString" class="TextField">
+        <analyzer class="bs.core.PerLanguageAnalyzer">
+            <subAnalyzer class="bs.korean.phonetic.KoreanPhoneticAnalyzer" lang="ko"
+                enableLinkingRule="false" storeRawTermInPayload="true"/>
+            <subAnalyzer class="bs.latin.PhoneticAnalyzer" lang="la" storeRawTermInPayload="true"/>
+        </analyzer>
+    </fieldType>
+    <fieldType name="fuzzy_multi_field" dataType="MultiValuedString" class="TextField">
+        <analyzer class="bs.core.PerLanguageAnalyzer">
+            <subAnalyzer class="bs.korean.ConsonantAnalyzer" lang="ko" storeRawTermInPayload="true"/>
+            <subAnalyzer class="bs.LowerCaseSpaceAnalyzer" lang="default"/>
+        </analyzer>
+    </fieldType>
+
+    <field name="_id" type="string"/>
+    <field name="message_id" type="string" sort="true"/>
+    <field name="conversation_id" type="string"/>
+    <field name="recipients" type="string"/>
+    <field name="subject" type="text"/>
+    <field name="subject_chosung" type="chosung" src="subject" stored="false"/>
+    <field name="subject_initial" type="initial_field" src="subject" stored="false"/>
+    <field name="subject_phonetic" type="phonetic_field" src="subject" stored="false" termVector="true" termVectorPayload="true"/>
+    <field name="subject_decompose" type="korean_decomposed_field" src="subject" stored="false"/>
+    <field name="subject_transliterated" type="transliterated_field" src="subject" stored="false"/>
+    <field name="subject_fuzzy" type="fuzzy_field" src="subject" stored="false" termVector="true" termVectorPayload="true"/>
+    <field name="message_type" type="int_stored" compare="true"/>
+    <field name="message_box_type" type="int_stored"/>
+    <field name="created_timestamp" type="long_stored" sort="true" compare="true"/>
+    <field name="scheduled_timestamp" type="long_stored"/>
+    <field name="message_status" type="int_stored"/>
+    <field name="re_body" type="text" stored="false"/>
+    <field name="re_body_phonetic" type="phonetic_field" src="re_body" stored="false" termVector="true" termVectorPayload="true"/>
+    <field name="re_body_decompose" type="korean_decomposed_field" src="re_body" stored="false"/>
+    <field name="re_body_fuzzy" type="fuzzy_field" src="re_body" stored="false" termVector="true" termVectorPayload="true"/>
+
+    <field name="part_id" type="string" sort="true"/>
+    <field name="part_search_text" type="text_multi_value"/>
+    <field name="part_search_text_phonetic" type="phonetic_multi_field" src="part_search_text" stored="false" termVector="true" termVectorPayload="true"/>
+    <field name="part_search_text_decompose" type="korean_decomposed_multi_field" src="part_search_text" stored="false"/>
+    <field name="part_search_text_fuzzy" type="fuzzy_multi_field" src="part_search_text" stored="false" termVector="true" termVectorPayload="true"/>
+    <field name="part_content_type" type="string"/>
+
+    <fieldList type="projection_search">
+        <fieldItem name="message_id"/>
+        <fieldItem name="subject"/>
+        <fieldItem name="message_type"/>
+        <fieldItem name="conversation_id"/>
+        <fieldItem name="recipients"/>
+        <fieldItem name="message_box_type"/>
+        <fieldItem name="created_timestamp"/>
+        <fieldItem name="scheduled_timestamp"/>
+        <fieldItem name="message_status"/>
+        <fieldItem name="part_id"/>
+        <fieldItem name="part_search_text"/>
+        <fieldItem name="part_content_type"/>
+    </fieldList>
+
+    <sort type="index">
+        <sortedField name="part_id" order="ASC" />
+    </sort>
+</schema>

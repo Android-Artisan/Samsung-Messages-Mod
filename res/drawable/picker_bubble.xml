@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/picker_chips_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <solid android:color="@color/theme_chips_bg_color" />
+            <padding android:left="16.0dp" android:right="5.0dp" />
+            <corners android:radius="15.0dp" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+</ripple>

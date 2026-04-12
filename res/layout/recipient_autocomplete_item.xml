@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.recipient.recipientfilter.RecipientFilterItem android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0.0dp" android:paddingEnd="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/recipient_filter_item_height" android:layout_marginHorizontal="@dimen/list_divider_margin_start_end" android:layout_marginVertical="@dimen/list_divider_margin_vertical">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/recipient_filter_item_avatar_container_width" android:layout_height="@dimen/recipient_filter_item_avatar_container_height">
+            <ImageView android:id="@id/recipient_avatar" android:background="@drawable/recipient_address_item_icon_bg" android:layout_width="@dimen/recipient_filter_item_avatar_size" android:layout_height="@dimen/recipient_filter_item_avatar_size" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/rcs_badge" android:visibility="gone" android:layout_width="@dimen/list_rcs_badge_size" android:layout_height="@dimen/list_rcs_badge_size" android:layout_marginTop="@dimen/list_rcs_badge_margin_top" android:src="@drawable/rcs_badge" android:layout_marginEnd="@dimen/address_view_list_rcs_badge_margin_end" />
+        </FrameLayout>
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dp" android:layout_marginVertical="4.0dp">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="16.0sp" android:textColor="@color/theme_recipient_item_text_color" android:id="@id/name_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:emojiCompatEnabled="false" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/name_view" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_composer_sub_text_color" android:id="@id/number_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_composer_sub_text_color" android:layout_gravity="end" android:id="@id/label_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="6.0dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:layout_gravity="top" android:id="@id/item_list_divider" android:background="@color/theme_list_divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="76.0dp" android:layout_marginEnd="@dimen/list_divider_margin_start_end" />
+</com.samsung.android.messaging.ui.view.composer.recipient.recipientfilter.RecipientFilterItem>

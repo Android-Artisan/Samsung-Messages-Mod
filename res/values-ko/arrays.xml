@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1시간</item>
+        <item>6시간</item>
+        <item>24시간</item>
+        <item>2일</item>
+        <item>네트워크 기본 설정</item>
+        <item>최대</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>원본</item>
+        <item>고화질</item>
+        <item>일반 화질</item>
+        <item>저화질</item>
+        <item>항상 묻기</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>원본</item>
+        <item>고화질</item>
+        <item>일반 화질</item>
+        <item>낮은 해상도</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>모든 채널</item>
+        <item>내 채널</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>자동</item>
+        <item>문자 또는 멀티미디어</item>
+        <item>채팅 메시지</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>자동</item>
+        <item>문자 또는 멀티미디어</item>
+        <item>RCS 채팅 메시지</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>차단함</item>
+        <item>먼저 묻기</item>
+        <item>허용</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>항상</item>
+        <item>묻기</item>
+        <item>안 함</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM 알파벳</item>
+        <item>유니코드</item>
+        <item>자동</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>문자나 멀티미디어 메시지로 다시 보내기</item>
+        <item>다시 보내지 않기</item>
+        <item>다시 보내기 전에 묻기</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>문자/멀티미디어 메시지로 전환</item>
+        <item>다시 보내지 않음</item>
+        <item>항상 묻기</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>원본</item>
+        <item>기본 네트워크</item>
+        <item>항상 묻기</item>
+    </string-array>
+</resources>

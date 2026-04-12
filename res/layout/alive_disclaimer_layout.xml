@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_control_area_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp">
+            <TextView android:textSize="@dimen/alive_settings_disclaimer_message_text_size" android:textColor="@color/alive_settings_disclaimer_message_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="16.0dp" android:text="@string/pref_title_useful_cards_summary" android:fontFamily="Roboto-Regular" android:lineBreakWordStyle="phrase" />
+            <TextView android:textSize="@dimen/alive_settings_disclaimer_title_text_size" android:textColor="@color/alive_settings_disclaimer_title_text_color" android:id="@id/alive_disclaimer_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dp" android:text="@string/alive_disclaimer_title" android:fontFamily="Roboto-Medium" android:lineBreakWordStyle="phrase" />
+            <TextView android:textSize="@dimen/alive_settings_disclaimer_text_size" android:textColor="@color/alive_settings_disclaimer_text_color" android:id="@id/alive_disclaimer_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" android:text="@string/alive_disclaimer_text" android:fontFamily="Roboto-Regular" android:lineBreakWordStyle="phrase" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

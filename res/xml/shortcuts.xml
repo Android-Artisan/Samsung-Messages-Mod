@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <share-target android:targetClass="com.samsung.android.messaging.ui.view.main.WithActivity">
+        <data android:scheme="sms" />
+        <data android:scheme="smsto" />
+        <data android:mimeType="text/plain" />
+        <category android:name="com.samsung.android.messaging.category.SHARE_TEXT" />
+    </share-target>
+    <share-target android:targetClass="com.samsung.android.messaging.ui.ComposeMessageMms">
+        <data android:scheme="mms" />
+        <data android:scheme="mmsto" />
+        <data android:mimeType="image/*" />
+        <data android:mimeType="video/*" />
+        <data android:mimeType="audio/*" />
+        <data android:mimeType="text/x-vcard" />
+        <data android:mimeType="text/x-vCard" />
+        <data android:mimeType="text/x-vcalendar" />
+        <data android:mimeType="text/x-vCalendar" />
+        <data android:mimeType="text/x-vnote" />
+        <data android:mimeType="text/x-vtodo" />
+        <category android:name="com.samsung.android.messaging.category.SHARE_MMS" />
+    </share-target>
+    <share-target android:targetClass="com.samsung.android.messaging.ui.RcsTransferContent">
+        <data android:scheme="mms" />
+        <data android:scheme="mmsto" />
+        <data android:mimeType="image/*" />
+        <data android:mimeType="video/*" />
+        <data android:mimeType="audio/*" />
+        <data android:mimeType="text/x-vcard" />
+        <data android:mimeType="text/x-vCard" />
+        <data android:mimeType="text/x-vcalendar" />
+        <data android:mimeType="text/x-vCalendar" />
+        <data android:mimeType="text/x-vnote" />
+        <data android:mimeType="text/x-vtodo" />
+        <data android:mimeType="text/html" />
+        <data android:mimeType="text/comma-separated-values" />
+        <data android:mimeType="application/*" />
+        <category android:name="com.samsung.android.messaging.category.SHARE_RCS" />
+    </share-target>
+    <share-target android:targetClass="com.samsung.android.messaging.ui.RcsTransferContent">
+        <data android:scheme="mms" />
+        <data android:scheme="mmsto" />
+        <data android:mimeType="image/*" />
+        <data android:mimeType="video/*" />
+        <data android:mimeType="audio/*" />
+        <data android:mimeType="text/x-vcard" />
+        <data android:mimeType="text/x-vCard" />
+        <data android:mimeType="text/x-vcalendar" />
+        <data android:mimeType="text/x-vCalendar" />
+        <data android:mimeType="text/x-vnote" />
+        <data android:mimeType="text/x-vtodo" />
+        <data android:mimeType="text/html" />
+        <data android:mimeType="text/comma-separated-values" />
+        <category android:name="com.samsung.android.messaging.category.SHARE_RCS_EUR" />
+    </share-target>
+    <share-target android:targetClass="com.samsung.android.messaging.ui.TmoTransferContent">
+        <data android:scheme="mms" />
+        <data android:scheme="mmsto" />
+        <data android:mimeType="image/*" />
+        <data android:mimeType="video/*" />
+        <data android:mimeType="audio/*" />
+        <data android:mimeType="text/x-vCard" />
+        <data android:mimeType="text/x-vcard" />
+        <data android:mimeType="text/x-vCalendar" />
+        <data android:mimeType="text/x-vcalendar" />
+        <data android:mimeType="text/x-vnote" />
+        <data android:mimeType="text/x-vtodo" />
+        <category android:name="com.samsung.android.messaging.category.SHARE_RCS_TMO" />
+    </share-target>
+    <shortcut android:icon="@drawable/orc_shortcut_create_message" android:shortcutId="create_message" android:shortcutShortLabel="@string/create_message" android:shortcutLongLabel="@string/create_message">
+        <intent android:targetPackage="com.samsung.android.messaging" android:action="com.samsung.android.messaging.action.CREATE_MESSAGE" android:targetClass="com.samsung.android.messaging.ui.view.shortcuts.ShortcutProxyActivity" />
+    </shortcut>
+</shortcuts>

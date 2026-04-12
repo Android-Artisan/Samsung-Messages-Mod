@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:pathData="M20.5,12c0,-4.695 -3.805,-8.5 -8.5,-8.5 -4.694,0 -8.5,3.805 -8.5,8.5 0,4.694 3.806,8.5 8.5,8.5 4.695,0 8.5,-3.806 8.5,-8.5zM8.357,13.506c0.597,1.505 2.027,2.478 3.644,2.478 1.616,0 3.046,-0.973 3.643,-2.478" android:strokeColor="@color/theme_sticker_gif_icon_tint_color_off" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    <path android:fillColor="@color/theme_sticker_gif_icon_tint_color_off" android:pathData="M9.01,9.013c0.569,0 1.03,0.46 1.03,1.03 0,0.566 -0.461,1.027 -1.03,1.027 -0.566,0 -1.025,-0.46 -1.025,-1.028 0,-0.57 0.459,-1.029 1.026,-1.029zM14.942,9.013c0.568,0 1.029,0.46 1.029,1.03 0,0.566 -0.461,1.027 -1.03,1.027 -0.566,0 -1.025,-0.46 -1.025,-1.028 0,-0.57 0.459,-1.029 1.026,-1.029z" android:fillType="evenOdd" />
+</vector>

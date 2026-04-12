@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:tag="layout/conversation_filter_dialog_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/filter_conversation_item_margin_vertical">
+        <LinearLayout android:orientation="vertical" android:id="@id/sim_filter_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.messaging.ui.view.widget.SelectFilterItem android:id="@id/sim_filter_all" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.samsung.android.messaging.ui.view.widget.SelectFilterItem android:id="@id/sim_filter_sim1" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.samsung.android.messaging.ui.view.widget.SelectFilterItem android:id="@id/sim_filter_sim2" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/category_filter_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@id/category_filter_divider" android:background="@color/theme_list_divider_color" android:layout_width="wrap_content" android:layout_height="@dimen/sesl_list_divider_height" android:layout_marginHorizontal="@dimen/filter_conversation_divider_margin_horizontal" />
+            <com.samsung.android.messaging.ui.view.widget.SelectFilterItem android:id="@id/category_filter_all" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.samsung.android.messaging.ui.view.widget.SelectFilterItem android:id="@id/category_filter_uncategorized" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/card_view_list_item_tag_number_layout" android:tag="layout/card_view_list_item_tag_number_0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/card_view_list_item_content_text_size" android:textColor="@color/theme_list_item_tag_number_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/list_item_tag_number_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+</LinearLayout>

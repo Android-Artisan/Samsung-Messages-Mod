@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/sliding_tabs_container" android:background="@color/theme_tab_background_color" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.uicommon.widget.PickerSubTabLayout android:id="@id/sliding_tabs" android:layout_width="match_parent" android:layout_height="@dimen/list_page_indicator_height" android:layout_marginHorizontal="@dimen/list_page_indicator_start_end_margin" app:tabGravity="fill" app:tabIndicatorHeight="0.0dp" app:tabMaxWidth="@dimen/contact_picker_tab_max_width" app:tabMode="fixed" />
+</FrameLayout>

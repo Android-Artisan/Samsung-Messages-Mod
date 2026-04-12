@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bot_detail_suggest" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bot_a2p_detail_body_additional_padding" android:paddingEnd="@dimen/bot_a2p_detail_body_additional_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?android:listChoiceBackgroundIndicator" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="?android:listChoiceBackgroundIndicator" android:paddingTop="@dimen/bot_detail_about_bot_padding_top_bottom" android:paddingBottom="@dimen/bot_detail_about_bot_padding_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/bot_detail_about_bot_text_to_icon_margin">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_about_bot_body" android:textColor="@color/theme_list_main_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bot_pref_suggest" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/bot_detail_about_bot_icon_size" android:layout_height="@dimen/bot_detail_about_bot_icon_size" android:src="@drawable/bot_detail_content_suggest" android:tint="@color/theme_list_icon_tint_color" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

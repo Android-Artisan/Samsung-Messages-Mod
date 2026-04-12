@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/contact_list_sub_header_background_color" android:paddingTop="@dimen/w_section_divider_header_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header_container" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/dialtacts_ripple_button_bg_radius" android:minHeight="@dimen/w_section_divider_header_min_height" android:paddingStart="@dimen/w_list_left_right_padding" android:paddingEnd="@dimen/directory_header_margin_end" android:paddingVertical="@dimen/w_section_divider_header_top_bottom_padding">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/count">
+            <ImageView android:id="@id/workspace_icon" android:visibility="gone" android:layout_width="@dimen/list_header_knox_icon_size" android:layout_height="@dimen/list_header_knox_icon_size" android:tint="@color/header_text_color" android:layout_marginEnd="@dimen/list_header_knox_icon_margin_end" />
+            <TextView android:textAppearance="@style/HeaderTextViewStyle" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+            <TextView android:textAppearance="@style/HeaderTextViewStyle" android:id="@id/display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+        </LinearLayout>
+        <TextView android:textAppearance="@style/HeaderTextViewStyle" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/count_text_max_with" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:textDirection="anyRtl" android:layout_toStartOf="@id/indicator" />
+        <ImageView android:id="@id/indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/phone_search_ic_expander_close" android:tint="@color/header_indicator_color" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

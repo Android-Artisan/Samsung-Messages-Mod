@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.richcard.RichCardVideoView android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:id="@id/thumbnail_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.samsung.android.messaging.ui.view.widget.AsyncImageView android:id="@id/thumbnail_view" android:background="@color/rich_card_item_bg" android:layout_width="@dimen/bubble_bot_horizontal_media_width" android:layout_height="match_parent" android:scaleType="centerCrop" android:outlineProvider="bounds" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/thumbnail_load_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/video_preparing_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        <ImageView android:layout_gravity="center" android:id="@id/video_play_button" android:background="@drawable/orc_video_play" android:longClickable="true" android:layout_width="@dimen/video_play_button_size" android:layout_height="@dimen/video_play_button_size" android:contentDescription="@string/play" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" />
+        <FrameLayout android:id="@id/video_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/thumbnail_error_icon" android:focusable="false" android:visibility="gone" android:layout_width="33.0dp" android:layout_height="33.0dp" android:src="@drawable/orc_btn_video_normal" android:tint="@color/bubble_bot_media_error_tint_color" />
+        <include layout="@layout/richcard_media_download" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/summary_view" android:padding="15.0dp" android:longClickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/richcard_title" />
+        <include layout="@layout/richcard_description" />
+        <include layout="@layout/richcard_suggestion_container" />
+    </LinearLayout>
+</com.samsung.android.messaging.ui.view.bubble.item.richcard.RichCardVideoView>

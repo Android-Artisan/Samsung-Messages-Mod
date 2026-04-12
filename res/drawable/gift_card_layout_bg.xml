@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/bubble_webpreview_radius" />
+    <stroke android:width="0.5dp" android:color="@color/theme_bubble_gift_card_stroke_color" />
+    <solid android:color="@color/rich_card_bubble_bg" />
+</shape>

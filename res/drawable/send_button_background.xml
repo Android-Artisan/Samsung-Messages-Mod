@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/bottom_round_btn_press_bg_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_focused="true">
+                <shape android:shape="oval">
+                    <solid android:color="@color/theme_send_button_bg_color" />
+                    <stroke android:width="@dimen/send_button_stroke" android:color="@color/send_btn_focused_stroke_color" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/theme_send_button_bg_color" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

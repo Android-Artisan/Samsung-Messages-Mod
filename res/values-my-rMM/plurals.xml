@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မက်ဆေ့ကို ပြန်မခေါ်နိုင်ပါ။ ပေးပို့နေသည့် %d မိနစ်အတွင်းသာ မက်ဆေ့များကို ပြန်ခေါ်နိုင်သည်။</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အုပ်စုချတ် %d ခုထဲမှလည်း ထွက်ပါ</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အုပ်စုစကားစမြည် %d ခုမှလည်း ထွက်ပါ</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ရုပ်ပြောင်ပုံဖိုင် %d ခုကို ဖျက်မလား?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">စကားစမြည် ပြောဆိုမှု %d ခုကို အမှိုက်ပုံးထဲသို့ ရွှေ့မလား?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ရက်ကြာပြီးနောက် အမှိုက်ပုံးထဲရှိ မက်ဆေ့ချ်များကို အပြီးတိုင် ဖျက်ပစ်လိုက်ပါမည်။</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ဖျက်ထားသော မက်ဆေ့ချ်များကို အပြီး ဖျက်မပစ်မီ အမှိုက်ပုံးထဲတွင် %d ရက်ကြာ ရှိနေပါမည်။</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မက်ဆေ့ချ် %d ခုကို အမှိုက်ပုံးထဲသို့ ရွှေ့မလား?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ယနေ့သည် အထူးနေ့ဖြစ်သည် (%1$s နှင့် အခြားဖြစ်ရပ် %2$d ခု)။ ၎င်းတို့ကို တစ်ခုခု ပို့မလား?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s နဲ့ တခြားအဆက်အသွယ် %2$d ဦးရဲ့ မွေးနေ့ဖြစ်ပါတယ်! ထူးထူးခြားခြားတစ်ခုခု ပို့မလား?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မက်ဆေ့ချ် %d စောင်ကို လွန်ခဲ့သော ရက် ၃၀ အတွင်း ပိတ်ပင်ထားသည်</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ကို ရွေးထားသည်</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အီးမေးလ်လိပ်စာ %d ခု မမှန်ကန်သောကြောင့် ၎င်းတို့ကို ပိတ်ပင်၍ မရပါ။</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ဖုန်း နံပါတ် %d ခုမှာ မမှန်ကန်သောကြောင့် ၎င်းတို့ကို ပိတ်ပင်၍ မရပါ။</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ပေးပို့သူ %d ဦး၏ အချက်အလက် မမှန်ကန်သောကြောင့် ၎င်းတို့ကို ပိတ်ပင်၍ မရပါ။</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အဆက်အသွယ် %d ခုထက် ပိုရွေးချယ်၍မရပါ။</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s %1$d ကတ်</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ချတ်အဆက်အသွယ် %d ဦး</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Chatting+ အဆက်အသွယ်များ</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Chatting+ တွင် မှတ်ပုံတင်ခြင်းကို ပယ်ဖျက်ပါက တစ်ယောက်ချင်းချတ်နှင့် အုပ်စုချတ်ကို ဖန်တီးနိုင်မည် (သို့) ၎င်းတို့တွင် ပါဝင်နိုင်မည် မဟုတ်ပါ၊ သင့်မက်ဆေ့ချ်များကို ဖတ်ထားပြီးကြောင်း အတည်ပြုချက် ရရှိမည် မဟုတ်ပါ (သို့) ဖိုင်အကြီးများကို မျှဝေနိုင်မည် မဟုတ်ပါ။ မှတ်ပုံတင်ခြင်းကို ပယ်ဖျက်လိုသလား?
+
+မှတ်ပုံပြန်မတင်မီ %d မိနစ်လည်း စောင့်ရပါမည်။"</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ချတ်ပ်ဘောက် %d ခု</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အဆက်အသွယ် %d ခု</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ကို ရွေးထားသည်</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ရက်အကြာမှာ သက်တမ်းကုန်ပါမည်</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ကူပွန် %d ခုသည် မကြာမီ သက်တမ်းကုန်မည်</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သင်၏ %1$s ကူပွန်သည် %2$d ရက်အကြာတွင် သက်တမ်းကုန်မည်။</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သင်၏ကူပွန်သည် %d ရက်အကြာတွင် သက်တမ်းကုန်မည်။</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">စကားပြောဆိုထားမှု %d ခုကို ဖျက်ပစ်မလား?</item>
+        <item quantity="other">စကားပြောဆိုထားမှု %d ခုကို ဖျက်ပစ်မလား?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">စကားစမြည် ပြောဆိုမှု %d ခုကို အပြီးတိုင် ဖျက်ပစ်မလား?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">မက်ဆေ့ချ် %d ခုကို ဖျက်မလား?</item>
+        <item quantity="other">မက်ဆေ့ချ် %d ခုကို ဖျက်ပစ်မလား?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မက်ဆေ့ချ် %d ခုကို အပြီးတိုင် ဖျက်ပစ်မလား?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ပစ္စည်းပို့ဆောင်မှု မက်ဆေ့ချ် %d ခု</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ကတ် %d ကတ်ကို ဖယ်ထုတ်မလား?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d အမျိုးအစား တဘ်များကိုသာ ပင်မမျက်နှာပြင်တွင်ပြသနိုင်သည်။ ကျန်သည့်မျက်နှာပြင်များကို ဝှက်ထားသည်။ ပင်မမျက်နှာပြင်မှအမြန်ဝင်ရောက်လိုပါက %2$s အမျိုးအစားကိုရွေးချယ်ပါ။</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d မိနစ်</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d စက္ကန့်</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ဖိုင် %d ဖိုင်ကို ဖုန်းထဲ သိမ်းလိုက်ပြီ။</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ဖိုင် %d ဖိုင်ကို တက်ဘလက်ထဲ သိမ်းလိုက်ပြီ။</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ဒီနေ့ လုပ်ငန်း %d ခု</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s နှင့် %2$d မသိသော နံပါတ်</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မသိသောနံပါတ် %d ခု</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s သည် အဖွဲ့ချတ်ပ်များတွင် ပါဝင်၍မရပါ။ ၎င်းတို့ကို ရွေးထားသည့် လက်ခံသူများမှ ဖယ်ရှားပါ၊ (သို့) စာသားမက်ဆေ့ချ်ကို လက်ခံသူ %2$d ဦးအထိ အစားထိုး၍ ပို့ပါ။</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ထည့်ထားသော လက်ခံသူ တစ်ယောက် (သို့) တစ်ယောက်ထက်မကသည် အဆင့်မြင့် မက်ဆေ့ချ်ပေးပို့ခြင်းကို အသုံးမပြုနိုင်သဖြင့် သင့်အုပ်စုတွင် အဖွဲ့ဝင် %d ယောက်ထိသာ ထည့်နိုင်သည်။
+
+ဆက်လုပ်ဆောင်ရန် အဆင့်မြင့် မက်ဆေ့ချ်ပေးပို့ခြင်းကို လုပ်ဆောင်နိုင်သော အဖွဲ့ဝင်များကိုသာ ရွေးချယ်ပါ။ ၎င်းတို့ကို အပြာရောင်အစက် အိုင်ကွန်ဖြင့် အမှတ်အသားပြုလုပ်ထားသည်။"</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အုပ်စုချတ်ကို စတင်ရန် နောက်ဆုံး ရွေးထားသည့် လက်ခံသူကို ဖယ်ရှားပါ။ နောက်ဆုံး လက်ခံသူကို ထည့်သွင်းလိုလျှင် မက်ဆေ့ချ်ပို့ရန် လက်ခံသူ %d ဦးကို ဖယ်ရှားပါ။</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ရုပ်ပုံ %d ပုံကို သင့်တက်ဘလက်ထဲ သိမ်းလိုက်ပြီ။</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ရုပ်ပုံ %d ပုံကို ဖုန်းထဲ သိမ်းဆည်းထားသည်။</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ရုပ်ပုံ ၁ ပုံနှင့် ဗီဒီယို %d ခုကို ဖုန်းထဲ သိမ်းဆည်းထားသည်။</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ရုပ်ပုံ %d ပုံနှင့် ဗီဒီယို ၁ ခုကို ဖုန်းထဲ သိမ်းဆည်းထားသည်။</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s နှင့် အခြား လူ %2$d ယောက်တို့ ပါဝင်ခဲ့သည်</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အဆက်အသွယ် %d ခု</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">လူ %d ဦးထက် ပိုရွေးချယ်၍ မရပါ။</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မက်ဆေ့ချ်အကြံပြုချက်များ ခလုတ်ကို နှိပ်သည့်အခါ စကားဝိုင်းထဲရှိ နောက်ဆုံး မက်ဆေ့ချ် %d စောင်ကို အွန်လိုင်းတွင် ဆောင်ရွက်မည်။ AI က ထုတ်ပေးသော အကြံပြုချက်များသည် မှန်ကန်တိကျမှု မရှိခြင်း (သို့) မသင့်လျော်သည့်အကြောင်းအရာ ပါဝင်နေခြင်း ရှိနိုင်သည်။</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အမြန် မျှဝေမှုသုံး၍ %d ဖိုင် မျှဝေထားသည်</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အသုံးဝင်သော ကတ်အသစ် %d ကတ်</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">စကားဝိုင်း %d ခု</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">မက်ဆေ့ချ် %d စောင်</item>
+        <item quantity="other">မက်ဆေ့ချ် %d စောင်</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ဖျက်လိုက်သော မက်ဆေ့ချ်များကို %d ရက်ကြာ ထားထားပါ။</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d မိနစ်အကြာတွင် ရီဖရက်ရှ် ထပ်လုပ်နိုင်ပါသည်။</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မက်ဆေ့ချ် %d စောင်ကို ခု ပို့မလား?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သင့်အချက်အလက်ကို အပ်ဒိတ်လုပ်နေသည်။ အနည်းဆုံး %d မိနစ် စောင့်ပြီးမှ ထပ်မံကြိုးစားပါ။</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">စကားဝိုင်း %d ခုထက် ပိုတွဲ၍မရပါ။</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s နှင့် အခြား %2$d</item>
+        <item quantity="other">%1$s နှင့် အခြား %2$d ခု</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ကတ် %d ကတ်ကို ဖယ်ရှားမလား?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အကြောင်းရင်းတစ်ခု ထည့်ပါ (စာလုံး %d လုံးအထိ)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မက်ဆေ့ချ် %d စောင်ကို စီစဉ်ထားသည်</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ယခုမှစ၍ အနည်းဆုံး %d မိနစ်တွင် အချိန်တစ်ခုကို ရွေးချယ်ပါ။</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ခု ရှာတွေ့သည်</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">စကားစမြည် ပြောဆိုမှု ၁ ခုနှင့် အခြားမက်ဆေ့ချ် %d ခုကို အမှိုက်ပုံးထဲသို့ ရွှေ့မလား?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">စကားစမြည် ပြောဆိုမှု %d ခုနှင့် အခြားမက်ဆေ့ချ် ၁ ခုကို အမှိုက်ပုံးထဲသို့ ရွှေ့မလား?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d ဦးအထိ ရွေးချယ်ပါ။
+(ဤစကားစမြည်ပြောဆိုမှုတွင် ၎င်းတို့၏ ဖုန်းနံပါတ်များကို အသုံးပြုသည့်သူများကို ပြသထားသည်။)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အိပ်စက်ချိန် : %d နာရီ</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အိပ်စက်ချိန် : %d မိနစ်</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d နာရီ ကျန်သေးသည်</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d မိနစ် ကျန်သည်</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d စက္ကန့် ကျန်သေးသည်</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">SIM ကတ် မှ မက်ဆေ့ချ်အား ကူးယူပြီးပြီ။</item>
+        <item quantity="other">SIM ကဒ်မှ ကူးယူထားသည့် မက်ဆေ့ချ်များ။</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အမျိုးအစား %d ခု</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">စာသားမက်ဆေ့ချ်များအတွက် အကန့်အသတ်ဖြစ်သော လက်ခံသူ %d ဦးထက် ကျော်လွန်၍ ရွေးထားသည်။ ၎င်းတို့အားလုံးဆီ တစ်ပြိုင်နက် မက်ဆေ့ချ်ပို့ရန် အုပ်စုချတ်ပ်ကို စတင်ပါ။</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">စုစုပေါင်း မက်ဆေ့ချ် %d စောင်</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">အန္တရာယ်ရှိသည့် ပေးပို့သူများဟု မယူဆတော့သောကြောင့် မက်ဆေ့ချ် %d ခုကို အလိုအလျောက် လော့ခ်ဖွင့်လိုက်သည်။</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s နှင့် အခြားတံဆိပ် %2$d ခုမှ</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မဖတ်ရသေးသော ပစ္စည်းပို့ဆောင်မှုမက်ဆေ့ချ် %d စောင်</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s နှင့် အခြားအဆက်အသွယ် %2$d ခုမှ</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s ထံမှ မဖတ်ရသေးသော မက်ဆေ့ချ် %1$d စောင်</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s နှင့် အခြားတံဆိပ် %2$d ခုမှ အချို့အပါအဝင်</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ပစ္စည်းပို့ဆောင်မှုမက်ဆေ့ဂျ် %d ခု အပါအဝင်</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s နှင့် အခြားအဆက်အသွယ် %2$d ခုမှ အချို့အပါအဝင်</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မဖတ်ရသေးသည့် မက်ဆေ့ချ် %d ခု</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">မဖတ်ရသေးသော မက်ဆေ့ချ် %d စောင်</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ဒီနေ့ လာမည့် သတိပေးချက် %d ခု</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ဗီဒီယို %d ခုကို ဖုန်းထဲ သိမ်းဆည်းထားသည်။</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သင်သည် %1$sပစ္စည်းပို့ဆောင်မှုအကြောင်း မက်ဆေ့ချ် %2$d ခု ယနေ့ ရထားသည်%3$s။</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">သင်သည် %1$sပစ္စည်းပို့ဆောင်မှုများအကြောင်း မက်ဆေ့ချ် %2$d ခု ယနေ့ ရထားသည်%3$s။</item>
+    </plurals>
+</resources>

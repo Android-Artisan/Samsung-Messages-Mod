@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.extension.chn.announcement.fontdo.view.aimview.AimAirOrderView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/background_circle" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/announcement_card_head_text_size" android:textStyle="bold" android:textColor="@color/card_main_text_color_no_theme" android:ellipsize="end" android:id="@id/trip_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/component_frame_margin" android:layout_marginTop="@dimen/component_frame_margin" android:layout_marginRight="@dimen/component_frame_margin" android:maxLines="1" />
+        <TextView android:textSize="@dimen/announcement_card_main_text_size" android:textColor="@color/card_sub_text_color_no_theme" android:ellipsize="end" android:id="@id/order_number" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/component_frame_margin" android:layout_marginTop="@dimen/component_frame_padding_6dp" android:layout_marginRight="@dimen/component_frame_margin" android:maxLines="1" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/component_frame_padding_18dp" android:layout_marginStart="@dimen/component_frame_margin" android:layout_marginEnd="@dimen/component_frame_margin">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/start_address" style="@style/trip_main_text_style" />
+                <ImageView android:id="@id/air_icon" android:paddingTop="@dimen/component_frame_padding_8dp" android:layout_width="90.0dp" android:layout_height="16.0dp" android:layout_marginTop="@dimen/component_frame_padding_8dp" android:scaleType="fitXY" android:tint="@color/card_train_icon_tint_color_no_theme" />
+                <TextView android:gravity="end" android:id="@id/dest_address" style="@style/trip_main_text_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/start_time" style="@style/trip_highlight_text_style" />
+                <TextView android:gravity="center" android:id="@id/duration_time" style="@style/trip_main_text_style" />
+                <TextView android:gravity="end" android:id="@id/end_time" style="@style/trip_highlight_text_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/start_date" style="@style/trip_sub_text_style" />
+                <TextView android:gravity="end" android:id="@id/end_date" style="@style/trip_sub_text_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/component_frame_padding_18dp">
+                <TextView android:id="@id/person_title" style="@style/trip_sub_text_style" />
+                <TextView android:gravity="center" android:id="@id/order_title" style="@style/trip_sub_text_style" />
+                <TextView android:gravity="end" android:id="@id/port_title" style="@style/trip_sub_text_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/person_name" style="@style/trip_main_text_style" />
+                <TextView android:gravity="center" android:id="@id/order_name" style="@style/trip_main_text_style" />
+                <TextView android:gravity="end" android:id="@id/port_name" style="@style/trip_main_text_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/aim_btn_layout" />
+    </LinearLayout>
+    <include layout="@layout/aim_ad_image" />
+</com.samsung.android.messaging.extension.chn.announcement.fontdo.view.aimview.AimAirOrderView>

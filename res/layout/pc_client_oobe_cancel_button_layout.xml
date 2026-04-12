@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:gravity="center_horizontal" android:id="@id/oobe_cancel_button_container" android:tag="layout/pc_client_oobe_cancel_button_layout_0" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/sesl_figma_elevation_sm">
+        <Button android:theme="@style/PcClientOobeCancelButtonTheme" android:layout_gravity="center" android:id="@id/oobe_cancel_button" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.extension.chn.announcement.fontdo.view.aimview.AimChargesView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/background_circle" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/announcement_card_head_text_size" android:textStyle="bold" android:textColor="@color/card_main_text_color_no_theme" android:ellipsize="end" android:id="@id/charge_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/component_frame_margin" android:maxLines="1" android:layout_marginStart="@dimen/component_frame_margin" android:layout_marginEnd="@dimen/component_frame_margin" />
+        <TextView android:textSize="@dimen/announcement_card_main_text_size" android:textColor="@color/card_sub_text_color_no_theme" android:ellipsize="end" android:id="@id/charge_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/component_frame_margin" android:layout_marginTop="@dimen/component_frame_padding_10dp" android:layout_marginRight="@dimen/component_frame_margin" android:maxLines="1" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_25" android:textStyle="bold" android:textColor="@color/card_main_text_color_no_theme" android:ellipsize="end" android:id="@id/charge_first_form" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/component_frame_margin" />
+            <TextView android:textSize="@dimen/announcement_card_main_text_size" android:textColor="@color/card_sub_text_color_no_theme" android:ellipsize="end" android:id="@id/charge_first_form_field" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="3.0dp" android:layout_marginEnd="@dimen/component_frame_margin" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/form_layout" android:paddingLeft="@dimen/component_frame_margin" android:paddingRight="@dimen/component_frame_margin" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/component_frame_padding_10dp" />
+        <include layout="@layout/aim_btn_layout" />
+    </LinearLayout>
+    <include layout="@layout/aim_ad_image" />
+</com.samsung.android.messaging.extension.chn.announcement.fontdo.view.aimview.AimChargesView>

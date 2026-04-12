@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/theme_extend_app_bar_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/rcs_switch_page_margin_bottom">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/rcs_page_view" android:layout_width="284.0dp" android:layout_height="159.0dp" android:layout_marginTop="21.0dp" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/primary_text_color" android:gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dp" android:layout_marginTop="21.0dp" android:layout_marginRight="28.0dp" android:text="@string/new_rcs_detail" style="@style/NewSECRegular" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/rcs_page_view_1" android:visibility="gone" android:layout_width="284.0dp" android:layout_height="159.0dp" android:layout_marginTop="9.0dp" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/primary_text_color" android:gravity="left" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dp" android:layout_marginTop="21.0dp" android:layout_marginRight="28.0dp" android:text="@string/new_rcs_detail_more" style="@style/NewSECRegular" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

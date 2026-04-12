@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="location_search_view_margin_top_landscape">28.0dp</dimen>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/composer_root_view" android:background="@drawable/white_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/color_black" android:gravity="center" android:id="@id/cmas_more_info" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow>
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:id="@id/cmas_msg_id_menu" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="500.0px" android:text="@string/cmas_message_id" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:layout_gravity="bottom" android:id="@id/cmas_msg_id_value" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:id="@id/cmas_cmae_category_menu" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="500.0px" android:text="@string/cmas_cmae_category" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:layout_gravity="bottom" android:id="@id/cmas_cmae_category_value" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:id="@id/cmas_service_category_menu" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="500.0px" android:text="@string/cmas_service_category_broadcast" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:layout_gravity="bottom" android:id="@id/cmas_service_category_value" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:id="@id/cmas_response_type_menu" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="500.0px" android:text="@string/cmas_response_type" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:layout_gravity="bottom" android:id="@id/cmas_response_type_value" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:id="@id/cmas_severity_menu" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="500.0px" android:text="@string/cmas_severity" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:layout_gravity="bottom" android:id="@id/cmas_severity_value" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:id="@id/cmas_urgency_menu" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="500.0px" android:text="@string/cmas_urgency" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:layout_gravity="bottom" android:id="@id/cmas_urgency_value" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:id="@id/cmas_certainty_menu" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="500.0px" android:text="@string/cmas_certainty" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_black" android:layout_gravity="bottom" android:id="@id/cmas_certainty_value" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

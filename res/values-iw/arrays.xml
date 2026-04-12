@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>שעה אחת</item>
+        <item>6 שעות</item>
+        <item>24 שעות</item>
+        <item>יומיים</item>
+        <item>לפי רשת</item>
+        <item>מקסימום</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>מקורי</item>
+        <item>גבוהה</item>
+        <item>בינונית</item>
+        <item>נמוכה</item>
+        <item>שאל תמיד</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>מקורי</item>
+        <item>איכות גבוהה</item>
+        <item>איכות רגילה</item>
+        <item>רזולוציה נמוכה</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>כל הערוצים</item>
+        <item>הערוץ שלי</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>אוטומטי</item>
+        <item>טקסט או מולטימדיה</item>
+        <item>"צ'אט"</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>אוטומטי</item>
+        <item>טקסט או מולטימדיה</item>
+        <item>"הודעות צ'אט RCS"</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>חסום</item>
+        <item>שאל קודם</item>
+        <item>אפשר</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>תמיד</item>
+        <item>שאל</item>
+        <item>אף פעם</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>אלפבית של GSM</item>
+        <item>Unicode</item>
+        <item>אוטומטי</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>שלח מחדש כהודעת טקסט או כהודעת מולטימדיה</item>
+        <item>אל תשלח מחדש</item>
+        <item>שאל לפני שליחה מחדש</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>שימוש בהודעות טקסט או מולטימדיה</item>
+        <item>ללא שליחה מחדש</item>
+        <item>שאל תמיד</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>מקורי</item>
+        <item>ברירת המחדל של הרשת</item>
+        <item>שאל תמיד</item>
+    </string-array>
+</resources>

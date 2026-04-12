@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 sat</item>
+        <item>6 sati</item>
+        <item>24 sata</item>
+        <item>2 dana</item>
+        <item>Mrežno postavljeno</item>
+        <item>Maksimalno</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Originalna</item>
+        <item>Visoka</item>
+        <item>Srednja</item>
+        <item>Niska</item>
+        <item>Uvijek pitaj</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Originalna</item>
+        <item>Visoka kvaliteta</item>
+        <item>Normalna kvaliteta</item>
+        <item>Niska rezolucija</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Svi kanali</item>
+        <item>Moj kanal</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatsko</item>
+        <item>Tekstna ili multimedijska</item>
+        <item>Čavrljanje</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatsko</item>
+        <item>Tekstna ili multimedijska</item>
+        <item>Poruke čavrljanja RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokiraj</item>
+        <item>Prvo pitaj</item>
+        <item>Dopusti</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Uvijek</item>
+        <item>Pitaj</item>
+        <item>Nikad</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM abeceda</item>
+        <item>Unicode</item>
+        <item>Automatski</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Ponovno pošalji kao tekstnu ili multimedijsku poruku</item>
+        <item>Nemoj ponovno slati</item>
+        <item>Pitaj prije ponovnog slanja</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Upotr. tekstne ili mult. poruke</item>
+        <item>Nema ponovnog slanja</item>
+        <item>Uvijek pitaj</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Izvorno</item>
+        <item>Zadana za mrežu</item>
+        <item>Uvijek pitaj</item>
+    </string-array>
+</resources>

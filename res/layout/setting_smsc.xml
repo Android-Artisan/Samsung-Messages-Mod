@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/smsc_editor_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:gravity="center" android:id="@id/smsc_editor_layout" android:paddingTop="@dimen/dialog_edit_text_margin_top" android:paddingBottom="@dimen/dialog_edit_text_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56.0dp">
+                <com.samsung.android.messaging.ui.view.setting.sms.SmscEditText android:id="@id/smsc_editor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_text_margin_bottom" android:layout_marginBottom="@dimen/edit_text_margin_bottom" android:maxLines="1" android:scrollHorizontally="true" android:maxLength="21" android:inputType="phone|textNoSuggestions" android:imeOptions="actionDone|flagNoExtractUi" android:layout_marginStart="@dimen/edit_text_margin_start" android:layout_marginEnd="@dimen/edit_text_margin_start" />
+            </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>
+        </LinearLayout>
+    </ScrollView>
+    <androidx.core.widget.NestedScrollView android:background="@color/theme_control_area_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <View android:layout_width="match_parent" android:layout_height="match_parent" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:tag="layout/preview_dialog_layout_0" android:paddingTop="@dimen/preview_dialog_layout_margin_top" android:paddingBottom="11.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:tag="binding_1" android:paddingTop="@dimen/no_margin" android:paddingRight="@dimen/no_margin" android:paddingBottom="@dimen/no_margin" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/close_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:layout_gravity="center|top" android:id="@id/close_button" android:tag="binding_3" android:layout_marginTop="10.0dp" android:layout_marginBottom="5.0dp" android:src="@drawable/preview_ic_close" android:contentDescription="@string/close" android:layout_marginHorizontal="@dimen/preview_dialog_elevation_value" style="@style/PreviewCancelButtonStyle" />
+            </LinearLayout>
+            <include android:id="@id/preview_content_layout" layout="@layout/preview_content_layout" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@id/preview_menu_items_layout" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_gravity="top" android:orientation="vertical" android:id="@id/preview_menu_items_container" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:elevation="@dimen/preview_dialog_elevation_value" android:layout_marginHorizontal="@dimen/preview_dialog_elevation_value" android:paddingVertical="6.0dp" bind:cardCornerRadius="@dimen/preview_dialog_layout_corner_radius">
+            <include android:id="@id/preview_menu_items" layout="@layout/preview_menu_items" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/attachment_stroke_radius" />
+            <solid android:color="@color/theme_bubble_color_bg_sent_rcs" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/attachment_stroke_radius" />
+            <stroke android:width="@dimen/attachment_stroke_normal_press_width" android:color="@color/bubble_item_pressed_color" />
+            <solid android:color="@color/bubble_item_pressed_color" />
+        </shape>
+    </item>
+</layer-list>

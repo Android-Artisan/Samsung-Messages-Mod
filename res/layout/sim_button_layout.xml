@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.messageeditor.component.SimButtonLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/editor_sim_button_layout" android:background="@drawable/ripple_edit_panel_button" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/new_sticker_button_layout_width" android:layout_height="@dimen/edit_text_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/editor_sim_button_bg" android:background="@drawable/ic_messages_icon_sim_sim_24_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="@color/editor_usim_icon_bg_color">
+        <com.samsung.android.messaging.ui.view.widget.DefaultPointerIconImageView android:id="@id/editor_sim_button" android:layout_width="@dimen/editor_sim_dropdown_sim_button_width" android:layout_height="@dimen/editor_sim_dropdown_sim_button_width" android:src="@drawable/orc_ic_send_sim_01" android:layout_centerVertical="true" />
+    </LinearLayout>
+</com.samsung.android.messaging.ui.view.composer.messageeditor.component.SimButtonLayout>

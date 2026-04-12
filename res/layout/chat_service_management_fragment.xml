@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_viewer_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/sim_message_list_empty_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="14.0sp" android:textColor="@color/theme_viewer_sub_text_color" android:id="@id/chat_service_management_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:lineSpacingExtra="4.0sp" android:layout_marginHorizontal="24.0dp" android:lineBreakWordStyle="phrase" />
+            <Button android:theme="@style/BodyContainedButtonTheme" android:textColor="@color/selector_raised_button_text_color" android:id="@id/chat_service_management_button_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/chat_service_management_service_on_skt" />
+            <Button android:theme="@style/BodyContainedButtonTheme" android:textColor="@color/selector_raised_button_text_color" android:id="@id/chat_service_management_button_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/chat_service_management_service_off_skt" />
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_edit_text_error_text_color" android:id="@id/chat_service_management_guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginHorizontal="24.0dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

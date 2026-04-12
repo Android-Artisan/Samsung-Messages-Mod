@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/theme_send_button_src_color" android:height="25.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="25.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M8.3511,15.0345C8.6965,15.1504 8.9665,15.4204 9.0825,15.7658L11.1108,21.8358C11.5014,22.96 12.1423,23.142 12.4924,23.1524C13.1368,23.1698 13.7453,22.6332 14.122,21.7175L20.7761,5.8768C21.1227,5.0238 20.9789,4.1777 20.4585,3.6584C19.9393,3.1391 19.0943,2.9954 18.2401,3.342L2.3994,9.9938C1.4837,10.3716 0.9471,10.9801 0.9656,11.6257C0.9761,11.9734 1.1569,12.6167 2.2823,13.0061L8.3511,15.0345ZM14.0943,10.0225L8.8994,15.2174" android:strokeColor="#fafafa" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+</vector>

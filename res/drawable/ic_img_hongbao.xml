@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/red_package_color" />
+            <corners android:radius="@dimen/bubble_announcement_and_aim_radius" />
+        </shape>
+    </item>
+    <item android:height="@dimen/bubble_announcement_and_aim_radius">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/red_package_color_light" />
+            <corners android:topLeftRadius="@dimen/bubble_announcement_and_aim_radius" android:topRightRadius="@dimen/bubble_announcement_and_aim_radius" />
+        </shape>
+    </item>
+    <item android:height="@dimen/image_oval_height" android:drawable="@drawable/ic_hongbao_oval" android:top="@dimen/bubble_announcement_and_aim_radius" />
+    <item android:gravity="center_horizontal" android:height="@dimen/image_logo_container_height" android:width="@dimen/image_logo_container_height" android:top="@dimen/image_logo_container_top">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="0.0dp" android:thickness="@dimen/image_logo_container_radius">
+            <solid android:color="@color/red_package_color_ring" />
+        </shape>
+    </item>
+</layer-list>

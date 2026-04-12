@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/theme_category_tag_text_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/category_chip_button" android:background="@drawable/selector_add_category_suggestion_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/category_chip_button_margin" android:singleLine="true" android:paddingHorizontal="12.0dp" />
+</LinearLayout>

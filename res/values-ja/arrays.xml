@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1時間</item>
+        <item>6時間</item>
+        <item>24時間</item>
+        <item>2日</item>
+        <item>ネットワークの標準設定</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>オリジナル</item>
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+        <item>毎回確認</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>オリジナル</item>
+        <item>高画質</item>
+        <item>標準画質</item>
+        <item>低解像度</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>全てのチャンネル</item>
+        <item>マイチャンネル</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>自動</item>
+        <item>テキストまたはマルチメディアメッセージ</item>
+        <item>チャット</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>自動</item>
+        <item>テキストまたはマルチメディアメッセージ</item>
+        <item>RCSチャットメッセージ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ブロック</item>
+        <item>最初に確認</item>
+        <item>許可</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>毎回</item>
+        <item>プロンプト</item>
+        <item>なし</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSMアルファベット</item>
+        <item>Unicode</item>
+        <item>自動</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>テキストまたはマルチメディアメッセージとして再送信</item>
+        <item>再送信しない</item>
+        <item>再送信する前に確認</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>ﾃｷｽﾄまたはﾏﾙﾁﾒﾃﾞｨｱﾒｯｾｰｼﾞを使用</item>
+        <item>再送信しない</item>
+        <item>毎回確認</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>オリジナル</item>
+        <item>ネットワークの標準設定</item>
+        <item>毎回確認</item>
+    </string-array>
+</resources>

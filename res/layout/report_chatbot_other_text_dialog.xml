@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dialog_with_title_margin_top" android:paddingBottom="@dimen/msg_popup_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dialog_edit_text_margin_start" android:layout_marginEnd="18.0dp">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <EditText android:textSize="@dimen/dialog_body_text_size" android:ellipsize="end" android:id="@id/other_text_editor" android:paddingRight="@dimen/group_chat_edit_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="40" android:inputType="textCapSentences" android:privateImeOptions="disableImage=true" android:imeOptions="flagNoExtractUi" android:textCursorDrawable="@drawable/edit_text_cursor_color" android:layout_marginEnd="6.0dp" android:backgroundTint="@color/color_primary" android:layout_marginVertical="8.0dp" />
+            <FrameLayout android:layout_gravity="end|center" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:layout_gravity="end|center" android:id="@id/other_text_clear_button" android:background="?android:selectableItemBackgroundBorderless" android:padding="6.0dp" android:visibility="gone" android:layout_width="@dimen/ripple_button_flat_icon_only_size" android:layout_height="@dimen/ripple_button_flat_icon_only_size" android:src="@drawable/orc_ic_group_chat_cancel" android:tint="@color/theme_group_chat_clear_icon_color" android:contentDescription="@string/text_input_delete" />
+            </FrameLayout>
+        </FrameLayout>
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/edit_text_error_message_size" android:textColor="@color/theme_edit_text_error_text_color" android:id="@id/other_text_error_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edit_text_error_message_min_height" android:layout_marginStart="6.0dp" />
+    </LinearLayout>
+</ScrollView>

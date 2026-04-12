@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/AppTheme.ActionBar" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/Toolbar.TitleText" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/official_document_box_toolbar_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/menu_official_document_box" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/official_document_box_close_button" android:background="?android:actionBarItemBackground" android:focusable="true" android:layout_width="@dimen/search_view_icon_width_inside_search_bar" android:layout_height="@dimen/custom_search_view_height" android:src="@drawable/ic_search_close" android:scaleType="center" android:tint="@color/theme_search_view_cancel_icon_color" android:contentDescription="@string/close" android:layout_marginEnd="@dimen/search_view_icon_margin_start_end_inside_search_bar" android:paddingHorizontal="@dimen/search_view_icon_padding_start_end_inside_search_bar" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/official_document_box_webview" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="top" android:id="@id/official_document_box_webview_progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-8.0dp" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+</LinearLayout>

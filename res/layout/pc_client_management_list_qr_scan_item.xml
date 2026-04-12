@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/register_new_device" android:accessibilityHeading="true" style="@style/CustomSubHeaderStyle" />
+    <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout android:orientation="vertical" android:paddingTop="18.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dp" app:roundMode="15">
+        <TextView android:id="@id/register_description_view" style="@style/PcClientDescription" />
+        <TextView android:id="@id/register_description_view_faq" android:paddingTop="20.0dp" android:paddingBottom="16.0dp" style="@style/PcClientDescription" />
+        <Button android:theme="@style/BodyContainedButtonTheme" android:layout_gravity="center_horizontal" android:id="@id/register_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_new_device_button" />
+    </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout>
+</LinearLayout>

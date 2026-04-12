@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_alphabet_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/search_alphabet_header_text" style="@style/CustomSubHeaderStyleGhost" />
+    </LinearLayout>
+    <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:id="@id/search_list_item_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:ghost="true" app:roundMode="0">
+        <View android:id="@id/divider" android:background="@color/theme_list_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/list_divider_height" android:layout_marginStart="@dimen/list_divider_margin_start_end_flexible" android:layout_marginEnd="@dimen/list_divider_margin_start_end_flexible" />
+        <LinearLayout android:layout_gravity="center" android:id="@id/search_list_item" android:background="@drawable/ripple_flat_text_only_button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/search_list_item_view_more_height" android:layout_alignParentEnd="true">
+            <TextView android:textAppearance="@style/SearchHistoryClearButtonStyle" android:ellipsize="end" android:gravity="center" android:id="@id/search_name" android:paddingTop="2.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="1" android:paddingHorizontal="6.0dp" />
+        </LinearLayout>
+    </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.richcard.BubbleRichCardCarouselView android:orientation="vertical" android:id="@id/bubble_richcard_carousel_view_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/bubble_bot_container_min_height" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="31.0dp">
+        <ViewStub android:id="@id/bubble_header_viewstub" android:visibility="gone" android:layout="@layout/bubble_header_message_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/bubble_header_safe_logo_viewstub" android:visibility="gone" android:layout="@layout/bubble_header_safe_logo_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <HorizontalScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/bot_contents_container_scrollview" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/contents_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/bot_content_list_divider" android:showDividers="middle|end" android:paddingStart="@dimen/bubble_list_padding_start_end" />
+        </HorizontalScrollView>
+        <View android:id="@id/avatar_click_view" android:visibility="gone" android:layout_width="@dimen/bubble_list_contact_badge" android:layout_height="@dimen/bubble_list_contact_badge" android:importantForAccessibility="no" android:layout_marginStart="@dimen/bubble_list_padding_start_end" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/bubble_list_padding_start_end">
+        <include layout="@layout/bubble_info_bottom_view" />
+        <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/bubble_info_bottom" android:layout_alignParentEnd="true" layout="@layout/bubble_richcard_footer_view" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/bubble_suggestion_layout_stub" android:visibility="gone" android:layout="@layout/bubble_suggestion_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.samsung.android.messaging.ui.view.bubble.item.richcard.BubbleRichCardCarouselView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 соат</item>
+        <item>6 соат</item>
+        <item>24 соат</item>
+        <item>2 рӯз</item>
+        <item>Пешфарзи шабака</item>
+        <item>Ҷойи зиёдтарин</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Аслӣ</item>
+        <item>Баланд</item>
+        <item>Миёна</item>
+        <item>Паст</item>
+        <item>Ҳамеша пурсидан</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Аслӣ</item>
+        <item>Сифати баланд</item>
+        <item>Сифати муқаррарӣ</item>
+        <item>Гузарониши паст</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Ҳамаи каналҳо</item>
+        <item>Канали ман</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Худкор</item>
+        <item>Матн ё мултимедиа</item>
+        <item>Чат</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Худкор</item>
+        <item>Матн ё мултимедиа</item>
+        <item>Паёмҳои RCS-чат</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Мамнуъ кардан</item>
+        <item>Аввал пурсида шавад</item>
+        <item>Иҷозат додан</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Ҳамеша</item>
+        <item>Дархост</item>
+        <item>Ҳеҷ гоҳ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Алифбои GSM</item>
+        <item>Юникод</item>
+        <item>Худкор</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Ҳамчун паёми матнӣ ё мултимедиа дубора фиристодан</item>
+        <item>Дубора нафиристодан</item>
+        <item>Пеш аз дубора фиристодан, пурсида шавад</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Истиф паёмҳ матнӣ ё мултимедиа</item>
+        <item>Ягон фиристодани дубора</item>
+        <item>Ҳамеша пурсидан</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Аслӣ</item>
+        <item>Пешфарзи шабака</item>
+        <item>Ҳамеша пурсидан</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.messageeditor.component.sendbutton.SendButtonLayout android:paddingBottom="@dimen/send_button_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/send_button_margin_bottom" android:paddingStart="@dimen/send_buttons_margin_start" android:paddingEnd="@dimen/send_buttons_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/send_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="yes">
+        <ImageButton android:layout_gravity="center" android:id="@id/send_button" android:background="@drawable/send_button_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/send_button_width" android:layout_height="@dimen/send_button_height" android:tooltipText="@string/send" />
+        <ImageView android:layout_gravity="center" android:id="@id/send_button_icon" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/send_button_src" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/send_button_progressbar" android:visibility="gone" android:layout_width="@dimen/send_button_progress_bar_size" android:layout_height="@dimen/send_button_progress_bar_size" android:layout_margin="@dimen/send_button_progress_bar_margin" android:indeterminate="true" android:indeterminateDrawable="@drawable/send_button_progress_material" />
+    </FrameLayout>
+</com.samsung.android.messaging.ui.view.composer.messageeditor.component.sendbutton.SendButtonLayout>

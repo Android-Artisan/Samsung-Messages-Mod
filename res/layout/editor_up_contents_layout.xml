@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/editor_up_contents_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/composer_panel_divider" android:showDividers="beginning"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/scheduled_time_stub" android:layout="@layout/scheduled_time_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/subject_editor_stub" android:layout="@layout/subject_editor_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/editor_reply_top_stub" android:layout="@layout/editor_reply_layout" android:inflatedId="@id/editor_reply_top" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/editor_edit_message_top_stub" android:layout="@layout/editor_edit_message_layout" android:inflatedId="@id/editor_edit_message_top" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

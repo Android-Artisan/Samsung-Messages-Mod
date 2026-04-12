@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.BubbleMultiContentView android:orientation="vertical" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/media_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/custom_link_content_view_stub" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/text_url_card_view_stub" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/text_content_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" layout="@layout/bubble_text_view" />
+    <include android:id="@id/bubble_info_bottom_view" layout="@layout/bubble_info_bottom_view" />
+</com.samsung.android.messaging.ui.view.bubble.item.BubbleMultiContentView>

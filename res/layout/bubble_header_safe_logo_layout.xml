@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/bubble_header_safe_logo_layout" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_vertical" android:id="@id/bubble_header_safe_logo_icon" android:focusable="false" android:clickable="false" android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/ic_messages_icon_safe_orc_ic_safe" app:lottie_loop="false" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bubble_bot_header_info_text_size" android:textColor="#ff0381fe" android:id="@id/bubble_header_safe_text" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bubble_header_safe_logo_text" android:maxLines="1" android:paddingEnd="4.0dp" android:paddingVertical="@dimen/bubble_bot_header_info_padding_bottom" />
+</LinearLayout>

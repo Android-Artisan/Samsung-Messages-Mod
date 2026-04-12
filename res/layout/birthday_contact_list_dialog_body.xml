@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/birthday_contact_list_dialog_body_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/card_view_top_bottom_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="14.0sp" android:textColor="@color/theme_list_description_text_color" android:id="@id/birthday_text_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/birthday_dialog_padding_horizontal" />
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/birthday_contact_list" android:paddingTop="@dimen/birthday_dialog_list_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent" />
+</LinearLayout>

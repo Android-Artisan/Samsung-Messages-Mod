@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/switch_layout" android:background="@color/theme_control_area_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSwitchBar android:id="@id/switch_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sub_app_bar_layout_margin_top" android:layout_marginBottom="@dimen/sub_app_bar_layout_margin_bottom" style="@style/CustomSwitchBarStyle" />
+</LinearLayout>

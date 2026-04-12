@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.contactslist.Itemview.ContactListItemView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.dialtacts.common.widget.RoundedCornerConstraintLayout android:theme="@style/RoundedCornerColor" android:id="@id/contact_list_calllogs_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/contact_list_calllogs_item_content" android:background="?android:listChoiceBackgroundIndicator" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contact_list_calllogs_item" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/contact_list_calllogs_item_icon" android:background="@drawable/call_log_icon_bg" android:layout_width="@dimen/contact_photo_size" android:layout_height="@dimen/contact_photo_size" android:src="@drawable/ic_orc_thumbnail_recents" android:layout_marginStart="@dimen/contact_list_icon_margin_start" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="?list_item_primary_text_size" android:textColor="?list_item_primary_text_color" android:id="@id/contact_list_calllogs_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_list_call_log_title" android:layout_marginStart="16.0dp" android:layout_marginVertical="@dimen/contact_list_margin_bottom" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.samsung.android.dialtacts.common.widget.RoundedCornerConstraintLayout>
+</com.samsung.android.dialtacts.common.contactslist.Itemview.ContactListItemView>

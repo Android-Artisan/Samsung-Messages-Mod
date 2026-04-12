@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" app:roundMode="0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="@dimen/bot_home_fragment_padding" android:paddingRight="@dimen/bot_home_fragment_padding" android:paddingBottom="@dimen/bot_home_fragment_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bot_home_favorite_layout" android:background="@drawable/bot_favorite_layout_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/bot_favorite_layout_min_width" android:minHeight="@dimen/contained_button_min_height" android:paddingHorizontal="@dimen/contained_button_padding_horizontal" android:paddingVertical="@dimen/contained_button_padding_vertical">
+            <ImageView android:layout_gravity="center" android:id="@id/bot_favorite_icon" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_favorite_icon_size" android:layout_height="@dimen/bot_favorite_icon_size" android:layout_marginRight="@dimen/bot_favorite_icon_margin" android:src="@drawable/orc_ic_add" android:tint="@color/bot_favorite_add_icon_tint_color" />
+            <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/bot_home_favorite_text_size" android:textColor="@color/bot_home_favorite_text_color" android:ellipsize="end" android:layout_gravity="center" android:id="@id/bot_favorite_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bot_favorite_chatbots" />
+        </LinearLayout>
+    </LinearLayout>
+</com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>

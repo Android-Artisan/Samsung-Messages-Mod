@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/pp_scrollview_style">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:paddingBottom="@dimen/pp_frame_margin" android:text="@string/anti_phishing_can_identify_malicious_urls_in_text" style="@style/announcement_card_sub_text_style" />
+            <LinearLayout android:id="@id/info_collected_OAID" style="@style/pp_info_collected_h_style">
+                <ImageView android:id="@id/Oaid_avatar" android:src="@drawable/legal_dialog_chn_info_collected_device_oaid" style="@style/pp_image_style" />
+                <LinearLayout style="@style/pp_info_collected_v_style">
+                    <TextView android:text="@string/title_of_info_collected_oaid" style="@style/announcement_card_main_text_style" />
+                    <TextView android:text="@string/tencent_service_user_analytics" style="@style/announcement_card_sub_text_style" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/pp_terms_and_policy_list" style="@style/pp_terms_and_policy_list_style">
+                <TextView android:id="@id/tvTermsAndPolicy" style="@style/announcement_card_sub_text_style" />
+            </LinearLayout>
+            <TextView android:text="@string/if_you_wish_to_withdraw_your_consent" style="@style/announcement_card_sub_text_style" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/pp_chn_user_agreement_button_bar" />
+</LinearLayout>

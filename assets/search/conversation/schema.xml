@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema name="com.samsung.android.messaging.conversation" version="9">
+    <defaultAnalyzer class="bs.LowerCaseSpaceAnalyzer"/>
+
+    <fieldType name="string" class="StringField" dataType="String"/>
+    <fieldType name="string_multi_value" dataType="MultiValuedString" class="StringField"/>
+    <fieldType name="text" class="TextField" dataType="String"/>
+    <fieldType name="text_multi_value" class="TextField" dataType="MultiValuedString"/>
+    <fieldType name="long_sorted" class="NumericDocValuesField" dataType="long"/>
+    <fieldType name="long_stored" dataType="long" class="StoredField" />
+    <fieldType name="chosung" dataType="String" class="TextField">
+        <analyzer type="index" class="bs.korean.ChosungAnalyzer" keepOtherLang="true"
+            removeSpace="true"/>
+    </fieldType>
+    <fieldType name="initial_field" dataType="String" class="TextField">
+        <analyzer type="index" class="bs.core.InitialAnalyzer"/>
+    </fieldType>
+    <fieldType name="korean_decomposed_field" dataType="String" class="TextField">
+        <analyzer class="bs.korean.KoreanDecompositionAnalyzer"
+            morphemeAnalysis="false" mergeOrigin="false"/>
+    </fieldType>
+    <fieldType name="phonetic_field" dataType="String" class="TextField">
+        <analyzer class="bs.core.PerLanguageAnalyzer">
+            <subAnalyzer class="bs.korean.phonetic.KoreanPhoneticAnalyzer" lang="ko"
+                enableLinkingRule="false"/>
+            <subAnalyzer class="bs.latin.PhoneticAnalyzer" lang="la"/>
+        </analyzer>
+    </fieldType>
+    <fieldType name="transliterated_field" dataType="String" class="TextField">
+        <analyzer type="index" class="bs.transliteration.TransliterationAnalyzer"
+            input="la" output="default" category="common" />
+        <analyzer type="search" class="bs.transliteration.TransliterationSearchAnalyzer"
+            input="la" output="default" category="common" />
+    </fieldType>
+    <fieldType name="fuzzy_field" dataType="String" class="TextField">
+        <analyzer class="bs.core.PerLanguageAnalyzer">
+            <subAnalyzer class="bs.korean.ConsonantAnalyzer" lang="ko"/>
+        </analyzer>
+    </fieldType>
+
+    <field name="_id" type="string"/>
+    <field name="timestamp_sort" type="long_sorted"/>
+    <field name="last_updated_timestamp" type="long_stored"/>
+
+</schema>

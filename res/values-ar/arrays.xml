@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>ساعة واحدة</item>
+        <item>٦ ساعات</item>
+        <item>٢٤ ساعة</item>
+        <item>يومان</item>
+        <item>افتراضيات الشبكة</item>
+        <item>الحد الأقصى</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>أصلي</item>
+        <item>عالية</item>
+        <item>متوسطة</item>
+        <item>منخفضة</item>
+        <item>اسأل دائما</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>أصلي</item>
+        <item>جوده عالية</item>
+        <item>جودة عادية</item>
+        <item>دقة منخفضة</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>كل القنوات</item>
+        <item>قناتي</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>تلقائي</item>
+        <item>نصية أو وسائط متعددة</item>
+        <item>الدردشة</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>تلقائي</item>
+        <item>نصية أو وسائط متعددة</item>
+        <item>رسائل دردشة RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>حظر</item>
+        <item>السؤال أولاً</item>
+        <item>سماح</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>دائما</item>
+        <item>إسأل أولا</item>
+        <item>أبداً</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>أبجدية GSM</item>
+        <item>الرمز الموحد</item>
+        <item>تلقائي</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>إعادة الإرسال كرسالة نصية أو رسالة وسائط متعددة</item>
+        <item>عدم إعادة الإرسال</item>
+        <item>‏‫السؤال قبل إعادة الإرسال</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>استخدام الرسائل النصية أو رسائل الوسائط المتعددة</item>
+        <item>عدم إعادة الإرسال</item>
+        <item>اسأل دائما</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>الأصلية</item>
+        <item>الجودة الافتراضية على الشبكة</item>
+        <item>السؤال دائماً</item>
+    </string-array>
+</resources>

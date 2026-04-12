@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="end|center" android:id="@id/web_iframeview_share_button_sent_stub" android:layout="@layout/web_preview_share_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dp" />
+    <com.samsung.android.messaging.ui.view.bubble.item.WebIframeviewLayout android:orientation="vertical" android:id="@id/web_iframeview_layout" android:background="@drawable/messages_bubble_receivedmessage_bot_style_00" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/iframe_webview_layout" android:background="@color/rich_card_item_bg" android:layout_width="@dimen/bubble_iframeview_media_width" android:layout_height="@dimen/bubble_iframeview_media_height">
+            <ProgressBar android:layout_gravity="center" android:id="@id/loading_progress_bar" android:visibility="gone" android:layout_width="@dimen/network_error_view_progress_bar_size" android:layout_height="@dimen/network_error_view_progress_bar_size" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+            <ImageView android:layout_gravity="center" android:id="@id/loading_error_image" android:visibility="gone" android:layout_width="@dimen/network_error_view_progress_bar_size" android:layout_height="@dimen/network_error_view_progress_bar_size" android:src="@drawable/orc_btn_gallery_normal" android:contentDescription="@string/failed_to_retrieve" />
+            <com.samsung.android.messaging.ui.view.bubble.common.CustomWebView android:id="@id/iframe_webview" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/summary_view" android:paddingTop="@dimen/bubble_bot_content_padding_start_end" android:paddingBottom="@dimen/bubble_bot_text_description_padding_bottom" android:longClickable="true" android:layout_width="@dimen/bubble_iframeview_media_width" android:layout_height="wrap_content" android:paddingStart="@dimen/bubble_bot_content_padding_start_end" android:paddingEnd="@dimen/bubble_bot_content_padding_start_end">
+            <include layout="@layout/richcard_title" />
+            <include layout="@layout/richcard_url_description" />
+        </LinearLayout>
+    </com.samsung.android.messaging.ui.view.bubble.item.WebIframeviewLayout>
+    <ViewStub android:layout_gravity="end|center" android:id="@id/web_iframeview_share_button_receive_stub" android:layout="@layout/web_preview_share_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dp" />
+</LinearLayout>

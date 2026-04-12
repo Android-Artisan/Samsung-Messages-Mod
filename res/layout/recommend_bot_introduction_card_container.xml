@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.widget.avatar.AvatarImageView android:id="@id/recommend_bot_introduction_card_avatar" android:layout_width="@dimen/recommend_bot_brand_home_image_width_height" android:layout_height="@dimen/recommend_bot_brand_home_image_width_height" android:src="@drawable/bot_default_icon" android:scaleType="centerCrop" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="17.0dp" android:textColor="@color/theme_brandhome_chatbot_introduction_title_color" android:gravity="center" android:id="@id/recommend_bot_introduction_card_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="14.0dp" android:textColor="@color/theme_brandhome_chatbot_introduction_description_color" android:ellipsize="end" android:gravity="center" android:id="@id/recommend_bot_introduction_card_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:maxLines="2" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" />
+</LinearLayout>

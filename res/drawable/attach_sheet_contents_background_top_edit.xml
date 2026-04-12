@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="26.0dp" android:topRightRadius="26.0dp" />
+            <solid android:color="@color/theme_attach_sheet_edit_panel_bg_color" />
+        </shape>
+    </item>
+</layer-list>

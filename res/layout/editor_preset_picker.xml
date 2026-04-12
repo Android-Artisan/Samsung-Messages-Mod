@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/preset_picker_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/editor_preset_picker_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/parent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/preset_button_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_preset_button_top_margin">
+        <Button android:textSize="15.0sp" android:textColor="@color/theme_group_chat_button_text_color" android:id="@id/preset_button_camera" android:background="@drawable/group_profile_editor_button_bg" android:layout_width="0.0dp" android:layout_height="@dimen/preset_button_height" android:text="@string/camera" android:layout_weight="1.0" />
+        <Button android:textSize="15.0sp" android:textColor="@color/theme_group_chat_button_text_color" android:id="@id/preset_button_gallery" android:background="@drawable/group_profile_editor_button_bg" android:layout_width="0.0dp" android:layout_height="@dimen/preset_button_height" android:text="@string/gallery" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+    </LinearLayout>
+</LinearLayout>

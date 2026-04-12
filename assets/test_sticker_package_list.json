@@ -1,0 +1,48 @@
+[
+    {
+        "stickerId": "5ba8fd2cab428",
+        "animation": false,
+        "mainImageUrl": "https://preview.files.stg.api.ogq.me/v1/stickers/STICKER/8337c62d/5ba8fd26c7338/main.png?format=o240_240",
+        "tabImageUrl": "https://preview.files.stg.api.ogq.me/v1/stickers/STICKER_TAB/00ee5c2d/5ba8fd2c5ee00/tab.png?format=w97",
+        "title": "멍청새와 배틀그라운드 모바일 함께하자!",
+        "sourceType": "BUILT_IN",
+        "expired": false
+    },
+    {
+        "stickerId": "618f3761fccc7",
+        "animation": false,
+        "mainImageUrl": "https://preview.files.stg.api.ogq.me/v1/stickers/STICKER_MAIN/6a017657/618f3756710a6/main.png?format=o240_240",
+        "tabImageUrl": "https://preview.files.stg.api.ogq.me/v1/stickers/STICKER_TAB/767d4957/618f37594d767/tab.png?format=w97",
+        "title": "QA TEST39(무료)",
+        "sourceType": "BUILT_IN",
+        "expired": false
+    },
+    {
+        "stickerId": "5cd421c1bc653",
+        "animation": false,
+        "mainImageUrl": "https://preview.files.stg.api.ogq.me/v1/stickers/STICKER/366e6cb1/5cd421bc6e663/main.png?format=o240_240",
+        "tabImageUrl": "https://preview.files.stg.api.ogq.me/v1/stickers/STICKER_TAB/d3d961c1/5cd421c169d3d/tab.png?format=w97",
+        "title": "멍청새의 야구응원",
+        "sourceType": "BUILT_IN",
+        "expired": false
+    },
+    {
+        "stickerId": "62ff5e648435f",
+        "animation": false,
+        "mainImageUrl": "https://preview.files.stg.api.ogq.me/v1/stickers/NEW-STICKER_MAIN/5c9b771c6ce99/62ff5e5f3776e/main.png?format=o240_240",
+        "tabImageUrl": "https://preview.files.stg.api.ogq.me/v1/stickers/NEW-STICKER_MAIN/5c9b771c6ce99/62ff5e5f3776e/main.png?format=o240_240",
+        "title": "저는 카피바라 입니다.",
+        "sourceType": "PURCHASE",
+        "expired": false
+    },
+    {
+        "stickerId": "62ff5ed119961",
+        "animation": false,
+        "mainImageUrl": "https://preview.files.stg.api.ogq.me/v1/stickers/NEW-STICKER_MAIN/5c9b771c6ce99/62ff5ecb5e3d0/main.png?format=o240_240",
+        "tabImageUrl": "https://preview.files.stg.api.ogq.me/v1/stickers/NEW-STICKER_MAIN/5c9b771c6ce99/62ff5ecb5e3d0/main.png?format=o240_240",
+        "title": "반다리는 반달곰",
+        "sourceType": "PURCHASE",
+        "expired": false
+    }
+]
+

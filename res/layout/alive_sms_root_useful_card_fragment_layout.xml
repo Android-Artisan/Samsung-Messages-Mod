@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/theme_control_area_bg_color_ghost_rounded" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/offercards_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/theme_tab_background_color_ghost_rounded" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.tabs.TabLayout android:theme="@style/MainTab" android:id="@id/tabLayout" android:layout_width="match_parent" android:layout_height="@dimen/list_page_indicator_height" android:layout_marginStart="@dimen/list_page_indicator_start_end_margin" android:layout_marginEnd="@dimen/list_page_indicator_start_end_margin" app:tabIndicatorColor="@color/theme_category_subtab_indicator_tint_color" app:tabMaxWidth="0.0dp" app:tabMode="fixed" app:tabSelectedTextColor="@color/theme_category_subtab_selected_text_color" app:tabTextColor="@color/theme_category_subtab_unselected_text_color" />
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:id="@id/finance_disclaimer_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/alive_useful_card_finance_disclaimer_margin_bottom" android:layout_marginStart="@dimen/alive_useful_card_finance_disclaimer_margin_start" android:layout_marginEnd="@dimen/alive_useful_card_finance_disclaimer_margin_end">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/alive_useful_card_item_size5" android:textColor="@color/theme_useful_card_v2_finance_disclaimer_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/finance_message_presence_disclaimer_text" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/offer_spinner_layout" android:background="@color/theme_tab_background_color_ghost_rounded" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/alive_useful_card_spinner_margin_start" android:paddingEnd="@dimen/alive_useful_card_spinner_margin_end">
+            <Spinner android:layout_gravity="start" android:id="@id/offer_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.samsung.android.messaging.ui.view.usefulcards.UsefulCardsViewPager android:id="@id/viewpager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>

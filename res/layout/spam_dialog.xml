@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/msg_popup_padding_top" android:paddingBottom="@dimen/msg_popup_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/msg_popup_body_text_size" android:textColor="@color/theme_popup_body_text_color" android:id="@id/spam_body" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/menu_block_number_body" android:lineSpacingExtra="@dimen/msg_popup_body_line_space" android:layout_marginStart="@dimen/msg_popup_margin" android:layout_marginEnd="@dimen/msg_popup_margin" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/check_box_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/msg_popup_checkbox_margin_top" android:layout_marginStart="@dimen/msg_popup_checkbox_margin" android:layout_marginEnd="@dimen/msg_popup_checkbox_margin">
+            <CheckBox android:textSize="@dimen/msg_popup_checkbox_text_size" android:textColor="@color/theme_popup_label_text_color" android:id="@id/delete_thread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm_delete_thread_popup_checkbox_text" android:paddingStart="@dimen/msg_popup_checkbox_padding" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

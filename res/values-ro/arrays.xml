@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 oră</item>
+        <item>6 ore</item>
+        <item>24 ore</item>
+        <item>2 zile</item>
+        <item>Valoare implicită rețea</item>
+        <item>Maxim</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Original</item>
+        <item>Ridicată</item>
+        <item>Medie</item>
+        <item>Redusă</item>
+        <item>Se întreabă întotdeauna</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Original</item>
+        <item>Calitate înaltă</item>
+        <item>Calitate normală</item>
+        <item>Rezoluție joasă</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Toate canalele</item>
+        <item>Canalul meu</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automat</item>
+        <item>Text sau multimedia</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automat</item>
+        <item>Text sau multimedia</item>
+        <item>Mesaje de chat RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blocați</item>
+        <item>Întrebați mai întâi</item>
+        <item>Permitere</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Întotdeauna</item>
+        <item>Confirmare</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alfabet GSM</item>
+        <item>Unicode</item>
+        <item>Automat</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Retrimitere ca mesaj text sau multimedia</item>
+        <item>Nu se trimite din nou</item>
+        <item>Întrebați înainte de retrimitere</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Util. mesaje text sau multimedia</item>
+        <item>Fără retrimitere</item>
+        <item>Se întreabă întotdeauna</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Original</item>
+        <item>Valoare implicită rețea</item>
+        <item>Se întreabă mereu</item>
+    </string-array>
+</resources>

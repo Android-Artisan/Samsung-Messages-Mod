@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_filter_by" android:id="@id/action_filter" android:visible="false" android:orderInCategory="1" android:title="@string/filter_conversations" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_new_composer" android:id="@id/action_new_composer" android:visible="false" android:orderInCategory="0" android:title="@string/menu_compose_new" app:showAsAction="always" />
+    <item android:icon="@drawable/tw_ic_ab_search_mtrl_tint" android:id="@id/action_search" android:orderInCategory="1" android:title="@string/search" app:showAsAction="always" />
+    <item android:id="@id/with_drawer_menu_scan_entry" android:visible="false" android:orderInCategory="1" android:title="@string/scan_to_find_chatbots" />
+    <item android:id="@id/with_drawer_menu_setting" android:visible="true" android:orderInCategory="10" android:title="@string/menu_preferences" />
+</menu>

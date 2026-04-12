@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/video_resize_dialog_body" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RadioGroup android:orientation="vertical" android:id="@id/video_resize_method" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/msg_popup_checkbox_margin" android:layout_marginRight="@dimen/msg_popup_margin">
+            <RadioButton android:textSize="18.0sp" android:textColor="@color/msg_popup_text_color" android:gravity="center_vertical" android:id="@id/video_send_full_size" android:clickable="true" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/video_send_full_size_button" android:layout_weight="100.0" />
+            <RadioButton android:textSize="18.0sp" android:textColor="@color/msg_popup_text_color" android:gravity="center_vertical" android:id="@id/video_send_resize" android:clickable="true" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/video_resize_button" />
+        </RadioGroup>
+        <View android:id="@id/video_resize_divider" android:background="@drawable/attach_images_resize_video_divider" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="23.0dp" android:layout_marginLeft="24.0dp" android:layout_marginRight="24.0dp" />
+        <CheckBox android:textSize="17.0sp" android:textColor="@color/msg_popup_text_color" android:id="@id/checkbox_do_not_show_again" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/msg_popup_checkbox_margin" android:layout_marginRight="@dimen/msg_popup_margin" android:checked="false" android:text="@string/im_swipe_tip_dialog_do_not_show_again" />
+    </LinearLayout>
+</ScrollView>

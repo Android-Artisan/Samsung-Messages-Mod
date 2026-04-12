@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/search_list_menu_chn" android:visible="true" android:orderInCategory="1">
+        <item android:id="@id/search_nearby_chatbot_item" android:visible="true" android:title="@string/find_current_location_chatbots" app:contentDescription="@string/find_current_location_chatbots" />
+    </group>
+</menu>

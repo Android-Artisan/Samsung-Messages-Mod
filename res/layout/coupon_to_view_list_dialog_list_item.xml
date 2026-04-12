@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="14.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="17.0sp" android:textColor="@color/theme_popup_body_text_color" android:ellipsize="marquee" android:id="@id/coupon_title_view" android:focusable="true" android:focusableInTouchMode="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_about_description_text_color" android:ellipsize="end" android:id="@id/coupon_description_view" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:marqueeRepeatLimit="marquee_forever" />
+</LinearLayout>

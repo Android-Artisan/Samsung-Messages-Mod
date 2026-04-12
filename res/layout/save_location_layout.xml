@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/save_location_container" android:background="@color/theme_control_area_bg_color_ghost_rounded" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/save_location_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/save_location_add" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/save_location_item_height" android:paddingStart="@dimen/save_location_add_padding_start" android:paddingEnd="@dimen/save_location_add_padding_end">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/save_location_add_button_width" android:layout_height="match_parent" android:src="@drawable/orc_ic_location_plus" android:tint="@color/theme_save_location_icon_tint_color" android:paddingStart="@dimen/save_location_button_padding_side" android:paddingEnd="@dimen/save_location_button_padding_side" />
+        <TextView android:textAppearance="@style/LocationListItemTextStyle" android:ellipsize="end" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_location" android:maxLines="1" />
+    </LinearLayout>
+    <ListView android:id="@id/save_location_list" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" />
+</LinearLayout>

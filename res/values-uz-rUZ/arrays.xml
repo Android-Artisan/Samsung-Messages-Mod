@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 soat</item>
+        <item>6 saot</item>
+        <item>24 soat</item>
+        <item>2 kun</item>
+        <item>Birlamchi tarmoq</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Asl nusxa</item>
+        <item>Baland</item>
+        <item>Oʻrtacha</item>
+        <item>Past</item>
+        <item>Har doim so‘ralsin</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Asl nusxa</item>
+        <item>Yuqori sifatli</item>
+        <item>Normal sifat</item>
+        <item>Past aniqlik</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Barcha kanallar</item>
+        <item>Mening kanalim</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Avtomatik</item>
+        <item>Matn yoki multimedia</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Avtomatik</item>
+        <item>Matn yoki multimedia</item>
+        <item>RCS chat xabarlari</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Bloklash</item>
+        <item>Avval soʻra</item>
+        <item>Ruxsat berish</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Har doim</item>
+        <item>Maslahat</item>
+        <item>Hech qachon</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM alifbo</item>
+        <item>Yunikod</item>
+        <item>Avtomatik</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Matnli yoki multimedia xabari sifatida qayta yuborish</item>
+        <item>Qayta yuborilmasin</item>
+        <item>Qayta yuborishdan avval soʻra</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Matn yoki multimed. xbr. ishlat</item>
+        <item>Qayta yuborish yo‘q</item>
+        <item>Har doim so‘ralsin</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Asl nusxa</item>
+        <item>Birlamchi tarmoq</item>
+        <item>Har doim so‘ralsin</item>
+    </string-array>
+</resources>

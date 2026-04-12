@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.messageeditor.component.StickerButtonLayout android:layout_gravity="bottom" android:id="@id/new_editor_sticker_button_layout" android:visibility="gone" android:layout_width="@dimen/new_sticker_button_layout_width" android:layout_height="@dimen/edit_text_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.widget.DefaultPointerIconImageView android:id="@id/editor_sticker_button" android:background="@drawable/ripple_edit_panel_button" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/orc_ic_sticker" android:scaleType="centerInside" android:layout_centerVertical="true" android:paddingHorizontal="@dimen/sticker_button_padding_horizontal" />
+</com.samsung.android.messaging.ui.view.composer.messageeditor.component.StickerButtonLayout>

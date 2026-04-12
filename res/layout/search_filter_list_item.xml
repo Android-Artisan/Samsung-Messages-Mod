@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_filter_layout" android:layout_width="@dimen/search_filter_item_width" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/search_filter_item_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.widget.avatar.AvatarGroupBadge android:layout_gravity="center_horizontal" android:id="@id/avatar_container" android:focusable="false" android:layout_width="@dimen/avatar_size" android:layout_height="@dimen/avatar_size" android:importantForAccessibility="no" app:useThemeShape="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/search_filter_item_title_font_size" android:textStyle="normal" android:textColor="@color/theme_search_chips_text_color" android:ellipsize="end" android:layout_gravity="center|top" android:id="@id/textView" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_filter_item_title_margin_top" android:maxLines="2" android:layout_weight="1.0" android:textAlignment="center" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/content_icon_image" android:visibility="gone" android:layout_width="@dimen/card_view_list_item_content_image_size" android:layout_height="@dimen/card_view_list_item_content_image_size" android:src="@drawable/contents_preview_ic_restricted_number" android:tint="@color/theme_list_sub_text_color" android:layout_marginStart="2.0dp" />
+    </LinearLayout>
+</LinearLayout>

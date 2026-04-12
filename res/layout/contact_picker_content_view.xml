@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/picker_activity_main" android:tag="layout/contact_picker_content_view_0" android:background="@color/theme_status_bar_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:focusable="true" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" app:expanded="false">
+                <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:supportActionModeOverLay="false" style="@style/CustomCollapsingToolbarStyle">
+                    <View android:layout_gravity="bottom" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:background="@android:color/transparent" />
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/list_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <FrameLayout android:id="@id/conversation_list_fragment_container" android:tag="binding_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <FrameLayout android:id="@id/contact_list_fragment_container" android:tag="binding_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+                </FrameLayout>
+            </LinearLayout>
+            <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/app_bar">
+                <androidx.appcompat.widget.Toolbar android:theme="@style/Theme.AppCompat.DayNight" android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:background="@android:color/transparent" />
+            </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/floating_contacts_picker_window_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_anchor="@id/sesl_floating_toolbar_layout" app:layout_anchorGravity="bottom">
+                <com.samsung.android.messaging.ui.view.widget.common.MaxHeightScrollView android:layout_gravity="bottom" android:id="@id/selection_window_scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/selection_window_margin_top" android:layout_marginBottom="@dimen/selection_window_margin_bottom" android:layout_marginStart="@dimen/contact_picker_floating_chips_padding_horizontal" app:maxHeight="@dimen/selection_window_max_height">
+                    <com.samsung.android.dialtacts.common.contactslist.view.selection.SelectionWindow android:id="@id/contacts_picker_window" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/selection_window_chip_groups_padding_horizontal" />
+                </com.samsung.android.messaging.ui.view.widget.common.MaxHeightScrollView>
+            </FrameLayout>
+            <com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar android:layout_gravity="center|bottom" android:id="@id/floating_bottom_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/floating_bottom_margin_offset_for_elevation_md" app:enableScrollTransition="false" app:showFloatingItemBackground="false">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@id/chat_with_button_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/floating_chat_with_button_container_margin_bottom">
+                        <com.samsung.android.dialtacts.common.publicpicker.view.ChatWithButton android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/floating_chat_with_button_text_size" android:layout_gravity="center_horizontal" android:id="@id/chat_with_button" android:tag="binding_3" android:background="@drawable/contact_picker_search_view_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/floating_search_view_elevation_for_shadow" android:layout_marginBottom="@dimen/floating_chat_with_button_margin_bottom" android:foreground="@drawable/custom_search_view_background_border" android:elevation="@dimen/sesl_figma_elevation_md" android:paddingHorizontal="@dimen/chat_with_floating_button_padding_horizontal">
+                            <include layout="@layout/chat_with_button_layout" />
+                        </com.samsung.android.dialtacts.common.publicpicker.view.ChatWithButton>
+                    </FrameLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <FrameLayout android:layout_gravity="center|bottom" android:id="@id/contact_list_search_view_container" android:tag="binding_4" android:background="@drawable/contact_picker_search_view_background" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="@dimen/contact_picker_search_view_height" android:layout_marginTop="@dimen/floating_search_view_elevation_for_shadow" android:layout_marginBottom="@dimen/floating_bottom_margin_value_for_elevation_md" android:foreground="@drawable/custom_search_view_background_border" android:elevation="@dimen/sesl_figma_elevation_md" android:layout_marginHorizontal="@dimen/floating_picker_search_container_padding_horizontal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/floating_search_view_width_collapse">
+                            <com.samsung.android.dialtacts.common.contactslist.view.search.ContactPickerMessageSearchView android:id="@id/contact_list_search_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+                        </FrameLayout>
+                        <FrameLayout android:layout_gravity="center|bottom" android:id="@id/floating_bottom_search_container" android:tag="binding_5" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/floating_search_view_width_collapse_for_conversation">
+                            <com.samsung.android.messaging.ui.view.widget.SearchLayout android:id="@id/search_conversation_view_custom" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/floating_picker_search_container_padding_horizontal" app:layoutId="@layout/search_layout_with_mic" />
+                        </FrameLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+            </com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/bottom_container" android:background="@color/theme_tab_background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_bar_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.messaging.ui.view.widget.common.BottomBar android:layout_gravity="top" android:id="@id/bottom_bar" android:tag="binding_6" android:layout_width="match_parent" android:layout_height="@dimen/bottom_bar_with_text_height" style="@style/Widget.BottomBar.Text" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

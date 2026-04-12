@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.chip.Chip android:textColor="@color/theme_composer_smart_action_text_color" android:id="@id/smart_action_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_marginEnd="@dimen/bubble_smart_action_margin" android:layout_marginVertical="@dimen/bubble_smart_action_margin" app:chipBackgroundColor="@color/theme_bubble_gift_card_bg_color" app:closeIconVisible="false" app:ensureMinTouchTargetSize="false" style="@style/SmartActionChipItemStyle" />
+</LinearLayout>

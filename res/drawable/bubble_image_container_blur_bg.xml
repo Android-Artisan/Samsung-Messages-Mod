@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/attachment_stroke_radius" />
+    <solid android:color="@color/bubble_image_coupon_used_dim_color" />
+</shape>

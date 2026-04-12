@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="appbar_default_collapsed">false</bool>
+    <bool name="attach_editor_toolbar_single_line">true</bool>
+    <bool name="config_default_display_order_primary">true</bool>
+    <bool name="config_default_sort_order_primary">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="main_title_single_line_enabled">false</bool>
+    <bool name="need_extra_margin_for_split">true</bool>
+    <bool name="need_reduced_margin">true</bool>
+    <bool name="night_mode">false</bool>
+    <bool name="picker_immersive_mode_enabled">true</bool>
+    <bool name="scheduled_single_picker_mode">true</bool>
+    <bool name="sesl_action_bar_text_item_mode">false</bool>
+    <bool name="sesl_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="sesl_config_desktop_mode">false</bool>
+    <bool name="sesl_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="sesl_seekbar_sliding_animation">true</bool>
+    <bool name="show_status_bar_in_landscape">false</bool>
+    <bool name="split_mode_enabled">false</bool>
+    <bool name="theme_about_navigation_bar_icon_color">true</bool>
+    <bool name="theme_about_status_bar_icon_color">@bool/theme_about_navigation_bar_icon_color</bool>
+    <bool name="theme_composer_navigation_bar_icon_color">@bool/theme_navigation_bar_icon_color_2</bool>
+    <bool name="theme_navigation_bar_icon_color">true</bool>
+    <bool name="theme_navigation_bar_icon_color_2">true</bool>
+    <bool name="theme_status_bar_icon_color">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="30.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="받는사람 전화번호" />
+        <EditText android:id="@id/sender_number" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dp">
+            <CheckBox android:id="@id/vertical_checkbox" android:layout_width="wrap_content" android:layout_height="30.0dp" android:text="세로 리치카드" android:layout_weight="1.0" />
+            <CheckBox android:id="@id/left_align_checkbox" android:layout_width="wrap_content" android:layout_height="30.0dp" android:text="왼쪽부터 배치" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/activity_btn_bg_with_shape" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dp">
+            <TextView android:textSize="17.0dp" android:layout_width="wrap_content" android:layout_height="20.0dp" android:layout_marginBottom="5.0dp" android:text="Media 설정" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/activity_btn_bg_with_shape" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="Dummy 이미지 해상도(PX단위)" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/image_size_width" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dp" android:hint="default = 100" android:layout_weight="1.0" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="X" />
+                    <EditText android:id="@id/image_size_height" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:hint="default = 100" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/activity_btn_bg_with_shape" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp">
+                <TextView android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="Device 이미지 사용" />
+                <Button android:id="@id/image_pick_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:layout_marginTop="3.0dp" android:layout_marginBottom="3.0dp" android:text="ACTION_PICK" />
+                <ImageView android:id="@id/pick_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+            </LinearLayout>
+            <CheckBox android:id="@id/not_image_checkbox" android:layout_width="wrap_content" android:layout_height="30.0dp" android:text="이미지 없음" android:layout_weight="1.0" />
+            <CheckBox android:id="@id/video_file_checkbox" android:layout_width="wrap_content" android:layout_height="28.0dp" android:text="동영상 파일" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="미디어 높이" />
+        <RadioGroup android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dp">
+            <RadioButton android:id="@id/media_height_short" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SHORT" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/media_height_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MEDIUM" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/media_height_tall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TALL" android:layout_weight="1.0" />
+        </RadioGroup>
+        <TextView android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="Title line수" />
+        <RadioGroup android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginBottom="30.0dp">
+            <RadioButton android:id="@id/title_0" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="0" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/title_1" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="1" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/title_3" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="3" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/title_5" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="5" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/title_10" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="10" android:layout_weight="1.0" />
+        </RadioGroup>
+        <TextView android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="Description line수" />
+        <RadioGroup android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginBottom="30.0dp">
+            <RadioButton android:id="@id/desc_0" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="0" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/desc_1" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="1" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/desc_3" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="3" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/desc_5" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="5" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/desc_10" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="10" android:layout_weight="1.0" />
+        </RadioGroup>
+        <TextView android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="Suggestion 수" />
+        <RadioGroup android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginBottom="30.0dp">
+            <RadioButton android:id="@id/suggest_0" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="0" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/suggest_1" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="1" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/suggest_3" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="3" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/suggest_5" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="5" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/suggest_10" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="10" android:layout_weight="1.0" />
+        </RadioGroup>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dp">
+            <Button android:layout_gravity="center" android:id="@id/send_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="보내기" android:layout_weight="1.0" />
+            <Button android:layout_gravity="center" android:id="@id/add_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="추가하기" android:layout_weight="1.0" />
+        </LinearLayout>
+        <Button android:id="@id/all_message_send" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dp" android:text="전체 메시지" />
+        <CheckBox android:id="@id/is_carousel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dp" android:text="케로솔 리치카드" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/width_for_carousel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginBottom="30.0dp">
+            <RadioButton android:id="@id/small_width" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="SMALL_WIDTH" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/medium_width" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="MEDIUM_WIDTH" android:layout_weight="1.0" />
+        </RadioGroup>
+        <Button android:layout_gravity="center" android:id="@id/read_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="파일 읽어오기" />
+    </LinearLayout>
+</ScrollView>

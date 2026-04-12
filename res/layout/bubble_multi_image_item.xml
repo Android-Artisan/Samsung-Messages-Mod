@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/bubble_multi_image_padding_size" android:clickable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bubble_image_container_layout" />
+    <TextView android:gravity="center" android:id="@id/image_last_reaction_text_view" android:layout_width="17.0dp" android:layout_height="17.0dp" android:layout_margin="5.0dp" android:includeFontPadding="false" android:layout_alignParentEnd="true" android:autoSizeTextType="uniform" />
+    <ImageView android:gravity="center" android:id="@id/image_last_reaction_image_view" android:visibility="gone" android:layout_width="17.0dp" android:layout_height="17.0dp" android:layout_margin="5.0dp" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@id/recall_image_layout" android:background="@drawable/selector_bubble_recall" android:visibility="gone" android:longClickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignTop="@id/bubble_image_view" android:layout_alignBottom="@id/bubble_image_view" android:layout_alignStart="@id/bubble_image_view" android:layout_alignEnd="@id/bubble_image_view">
+        <ImageView android:background="@drawable/ripple_bubble_badge_queued" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/orc_ic_failed" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/attach_more_grid_margin_side" android:paddingVertical="@dimen/attach_more_grid_margin_top_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/item_icon_container" android:background="@drawable/attach_more_item_background" android:layout_width="@dimen/attach_more_icon_background" android:layout_height="@dimen/attach_more_icon_background" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/attach_icon" android:layout_width="@dimen/attach_more_icon_size" android:layout_height="@dimen/attach_more_icon_size" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxHeight="@dimen/attach_more_icon_size" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/attach_more_grid_text_size" android:textColor="@color/theme_picker_label_text_color" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/attach_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/attach_more_text_height" android:lines="2" android:breakStrategy="simple" />
+</LinearLayout>

@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν είναι δυνατή η ανάκληση του μηνύματος. Τα μηνύματα μπορούν να ανακληθούν μόνο εντός %d λεπτού από την αποστολή τους.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν είναι δυνατή η ανάκληση του μηνύματος. Τα μηνύματα μπορούν να ανακληθούν μόνο εντός %d λεπτών από την αποστολή τους.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Αποχώρηση και από %d ομαδική συνομιλία</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Αποχώρηση και από %d ομαδικές συνομιλίες</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Αποχώρηση και από %d ομαδική συζήτηση</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Αποχώρηση και από %d ομαδικές συζητήσεις</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Να διαγραφεί %d πακέτο emoticon;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Να διαγραφούν %d πακέτα emoticon;</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Να μεταφερθεί %d συζήτηση στα Απορρίμματα;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Να μεταφερθούν %d συζητήσεις στα Απορρίμματα;</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Τα μηνύματα στα Απορρίμματα θα διαγραφούν οριστικά μετά από %d ημέρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Τα μηνύματα στα Απορρίμματα θα διαγραφούν οριστικά μετά από %d ημέρες.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Τα διαγραμμένα μηνύματα θα παραμείνουν στα Απορρίμματα για %d ημέρα προτού διαγραφούν οριστικά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Τα διαγραμμένα μηνύματα θα παραμείνουν στα Απορρίμματα για %d ημέρες προτού διαγραφούν οριστικά.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Να μεταφερθεί %d μήνυμα στα Απορρίμματα;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Να μεταφερθούν %d μηνύματα στα Απορρίμματα;</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Σήμερα είναι μια ξεχ. ημέρα (%1$s και %2$d άλλο γεγονός). Να τους στείλω κάτι;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Σήμερα είναι μια ξεχωρ ημέρα (%1$s και %2$d άλλα γεγονότα). Να τους στείλω κάτι;</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Έχει γενέθλια ο χρήστης %1$s και %2$d ακόμα χρήστης! Θέλετε να στείλετε κάτι σπέσιαλ;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Έχει γενέθλια ο χρήστης %1$s και %2$d ακόμα χρήστες! Θέλετε να στείλετε κάτι σπέσιαλ;</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d μήνυμα αποκλείστηκε τις τελευταίες 30 ημέρες</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d μηνύματα αποκλείστηκαν τις τελευταίες 30 ημέρες</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Επιλέχθηκε %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Επιλέχθηκαν %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν είναι δυνατός ο αποκλεισμός %d διεύθυνσης email επειδή δεν είναι έγκυρη.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν είναι δυνατός ο αποκλεισμός %d διευθύνσεων email επειδή δεν είναι έγκυρες.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν είναι δυνατός ο αποκλεισμός %d αριθμού τηλεφώνου επειδή δεν είναι έγκυρος.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν είναι δυνατός ο αποκλεισμός %d αριθμών τηλεφώνου επειδή δεν είναι έγκυροι.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν είναι δυνατός ο αποκλεισμός %d αποστολέα επειδή τα στοιχεία του δεν είναι έγκυρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν είναι δυνατός ο αποκλεισμός %d αποστολέων επειδή τα στοιχεία τους δεν είναι έγκυρα.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να επιλέξετε πάνω από %d επαφή.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν μπορείτε να επιλέξετε πάνω από %d επαφές.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d %2$s κάρτα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d %2$s κάρτες</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d επαφή συνομιλίας</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d επαφές συνομιλίας</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d επαφή Chatting+</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d επαφές Chatting+</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Αν καταργήσετε την εγγραφή σας από το Chatting+, δεν θα μπορείτε να δημιουργείτε ή να συμμετέχετε σε συνομιλίες ένας προς έναν και σε ομαδικές συνομιλίες, να λαμβάνετε επιβεβαίωση ανάγνωσης των μηνυμάτων σας ή να μοιράζεστε μεγάλα αρχεία. Είστε σίγουροι ότι θέλετε να καταργήσετε την εγγραφή σας;
+
+Θα πρέπει, επίσης, να περιμένετε %d λεπτό για να εγγραφείτε ξανά."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Αν καταργήσετε την εγγραφή σας από το Chatting+, δεν θα μπορείτε να δημιουργείτε ή να συμμετέχετε σε συνομιλίες ένας προς έναν και σε ομαδικές συνομιλίες, να λαμβάνετε επιβεβαίωση ανάγνωσης των μηνυμάτων σας ή να μοιράζεστε μεγάλα αρχεία. Είστε σίγουροι ότι θέλετε να καταργήσετε την εγγραφή σας;
+
+Θα πρέπει, επίσης, να περιμένετε %d λεπτά για να εγγραφείτε ξανά."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bot συνομιλίας</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d bot συνομιλίας</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d επαφή</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d επαφές</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Επιλέχθηκε %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Επιλέχθηκαν %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Λήγει σε %d ημέρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Λήγει σε %d ημέρες</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d κουπόνι λήγει σύντομα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d κουπόνια λήγουν σύντομα</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Το κουπόνι %1$s λήγει σε %2$d ημέρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Το κουπόνι %1$s λήγει σε %2$d ημέρες.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Το κουπόνι σας λήγει σε %d ημέρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Το κουπόνι σας λήγει σε %d ημέρες.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">Θέλετε να διαγράψετε %d συζήτηση;</item>
+        <item quantity="other">Θέλετε να διαγράψετε %d συζητήσεις;</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Να διαγραφεί οριστικά %d συζήτηση;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Να διαγραφούν οριστικά %d συζητήσεις;</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">Θέλετε να διαγράψετε %d μηνύματα;</item>
+        <item quantity="other">Να διαγραφούν %d μηνύματα;</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Να διαγραφεί οριστικά %d μήνυμα;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Να διαγραφούν οριστικά %d μηνύματα;</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d μήνυμα για παράδοση</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d μηνύματα για παράδοση</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Απόρριψη %d κάρτας;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Απόρριψη %d καρτών;</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μόνο %1$d καρτέλα κατηγορίας μπορεί να εμφανίζεται στην κύρια οθόνη. Οι υπόλοιπες δεν θα είναι ορατές. Επιλέξτε την κατηγορία %2$s, εάν θέλετε να έχετε γρήγορη πρόσβαση σε αυτήν από την κύρια οθόνη.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Μόνο %1$d καρτέλες κατηγορίας μπορούν να εμφανίζονται στην κύρια οθόνη. Οι υπόλοιπες δεν θα είναι ορατές. Επιλέξτε την κατηγορία %2$s, εάν θέλετε να έχετε γρήγορη πρόσβαση σε αυτήν από την κύρια οθόνη.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d λεπτά</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d αρχείο αποθηκεύτηκε στο τηλέφωνο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d αρχεία αποθηκεύτηκαν στο τηλέφωνο.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d αρχείο αποθηκεύτηκε στο tablet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d αρχεία αποθηκεύτηκαν στο tablet.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d συναλλαγή σήμερα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d συναλλαγές σήμερα</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s και %2$d άγνωστος αριθμός</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s και %2$d άγνωστοι αριθμοί</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d άγνωστος αριθμός</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d άγνωστοι αριθμοί</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ο χρήστης %1$s δεν μπορεί να συμμετέχει σε ομαδικές συνομιλίες. Καταργήστε τον από τους επιλεγμένους παραλήπτες ή στείλτε ένα μήνυμα κειμένου σε έως και %2$d παραλήπτη.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ο χρήστης %1$s δεν μπορεί να συμμετέχει σε ομαδικές συνομιλίες. Καταργήστε τον από τους επιλεγμένους παραλήπτες ή στείλτε ένα μήνυμα κειμένου σε έως και %2$d παραλήπτες.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ένας ή περισσότεροι από τους παραλήπτες που περιλαμβάνονται δεν μπορούν να χρησιμοποιήσουν τη λειτουργία «Σύνθετη ανταλλαγή μηνυμάτων» και για αυτόν το λόγο η ομάδα σας περιορίζεται στο %d μέλος.
+
+Για να συνεχίσετε, επιλέξτε μόνο επαφές που μπορούν να χρησιμοποιήσουν τη λειτουργία «Σύνθετη ανταλλαγή μηνυμάτων». Επισημαίνονται με ένα εικονίδιο μπλε κουκκίδας."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Ένας ή περισσότεροι από τους παραλήπτες που περιλαμβάνονται δεν μπορούν να χρησιμοποιήσουν τη λειτουργία «Σύνθετη ανταλλαγή μηνυμάτων» και για αυτόν το λόγο η ομάδα σας περιορίζεται στα %d μέλη.
+
+Για να συνεχίσετε, επιλέξτε μόνο επαφές που μπορούν να χρησιμοποιήσουν τη λειτουργία «Σύνθετη ανταλλαγή μηνυμάτων». Επισημαίνονται με ένα εικονίδιο μπλε κουκκίδας."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Για να ξεκινήσετε μια ομαδική συνομιλία, καταργήστε τον τελευταίο επιλεγμένο παραλήπτη. Αν θέλετε να συμπεριλάβετε τον τελευταίο παραλήπτη, καταργήστε %d παραλήπτη, για να στείλετε ένα μήνυμα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Για να ξεκινήσετε μια ομαδική συνομιλία, καταργήστε τον τελευταίο επιλεγμένο παραλήπτη. Αν θέλετε να συμπεριλάβετε τον τελευταίο παραλήπτη, καταργήστε %d παραλήπτες, για να στείλετε ένα μήνυμα.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d εικόνα αποθηκεύτηκε στο tablet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d εικόνες αποθηκεύτηκαν στο tablet.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d φωτογραφία αποθηκεύτηκε στο τηλέφωνο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d φωτογραφίες αποθηκεύτηκαν στο τηλέφωνο.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 φωτογραφία και %d βίντεο αποθηκεύτηκαν στο τηλέφωνο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 φωτογραφία και %d βίντεο αποθηκεύτηκαν στο τηλέφωνο.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d φωτογραφία και 1 βίντεο αποθηκεύτηκαν στο τηλέφωνο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d φωτογραφίες και 1 βίντεο αποθηκεύτηκαν στο τηλέφωνο.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Συμμετέχει ο χρήστης %1$s και %2$d ακόμη χρήστης</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Συμμετέχει ο χρήστης %1$s και %2$d ακόμη χρήστες</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d επαφή</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d επαφές</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να επιλέξετε πάνω από %d άτομο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν μπορείτε να επιλέξετε πάνω από %d άτομα.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Όταν πατήσετε το κουμπί Προτάσεις μηνυμάτων, το τελευταίο %d μήνυμα στη συνομιλία σας θα επεξεργαστεί online. Οι προτάσεις που δημιουργούνται μέσω AI ενδέχεται να είναι ανακριβείς ή να περιέχουν ακατάλληλο περιεχόμενο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Όταν πατήσετε το κουμπί Προτάσεις μηνυμάτων, τα τελευταία %d μηνύματα στη συνομιλία σας θα επεξεργαστεί online. Οι προτάσεις που δημιουργούνται μέσω AI ενδέχεται να είναι ανακριβείς ή να περιέχουν ακατάλληλο περιεχόμενο.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d νέα ειδοποίηση</item>
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Κοινοποιήθηκε %d αρχείο μέσω Quick Share</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Κοινοποιήθηκαν %d αρχεία μέσω Quick Share</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d νέα χρήσιμη κάρτα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d νέες χρήσιμες κάρτες</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d συζήτηση</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d συζητήσεις</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d μήνυμα</item>
+        <item quantity="other">%d μηνύματα</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Διατηρήστε τα διαγραμμένα μηνύματα για %d ημέρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Διατηρήστε τα διαγραμμένα μηνύματα για %d ημέρες.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μπορείτε να κάνετε ξανά ανανέωση σε %d λεπτό.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Μπορείτε να κάνετε ξανά ανανέωση σε %d λεπτά.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Θέλετε να στείλετε %d μήνυμα τώρα;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Θέλετε να στείλετε %d μηνύματα τώρα;</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Οι πληροφορίες σας ενημερώνονται. Περιμένετε τουλάχιστον %d λεπτό και, στη συνέχεια, δοκιμάστε ξανά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Οι πληροφορίες σας ενημερώνονται. Περιμένετε τουλάχιστον %d λεπτά και, στη συνέχεια, δοκιμάστε ξανά.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να καρφιτσώσετε πάνω από %d συζήτηση.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν μπορείτε να καρφιτσώσετε πάνω από %d συζητήσεις.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s &amp; %2$d άλλος</item>
+        <item quantity="other">%1$s &amp; %2$d άλλοι</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Κατάργηση %d κάρτας;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Κατάργηση %d καρτών;</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Καταχωρήστε ένα λόγο (έως %d χαρακτήρα)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Καταχωρήστε ένα λόγο (έως %d χαρακτήρες)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d προγραμματισμένο μήνυμα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d προγραμματισμένα μηνύματα</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Επιλέξτε μια ώρα τουλάχιστον %d λεπτό από τώρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Επιλέξτε μια ώρα τουλάχιστον %d λεπτά από τώρα.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Βρέθηκε %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Βρέθηκαν %d</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Να μεταφερθούν 1 συζήτηση και %d άλλο μήνυμα στα Απορρίμματα;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Να μεταφερθούν 1 συζήτηση και %d άλλα μηνύματα στα Απορρίμματα;</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Να μεταφερθούν %d συζήτηση και 1 άλλο μήνυμα στα Απορρίμματα;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Να μεταφερθούν %d συζητήσεις και 1 άλλο μήνυμα στα Απορρίμματα;</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Επιλέξτε έως και %d άτομο.
+(Εμφανίζονται τα άτομα που χρησιμοποιούν τους αριθμούς τηλεφώνου τους σε αυτήν τη συζήτηση.)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Επιλέξτε έως και %d άτομα.
+(Εμφανίζονται τα άτομα που χρησιμοποιούν τους αριθμούς τηλεφώνου τους σε αυτήν τη συζήτηση.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Χρόνος ύπνου: %d ώρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Χρόνος ύπνου: %d ώρες</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Χρόνος ύπνου: %d λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Χρόνος ύπνου: %d λεπτά</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Απομένει %d ώρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Απομένουν %d ώρες</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Απομένει %d λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Απομένουν %d λεπτά</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Απομένει %d δευτερόλεπτο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Απομένουν %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">Το μήνυμα αντιγράφηκε από την κάρτα SIM.</item>
+        <item quantity="other">Αντιγράφηκαν μηνύματα από την κάρτα SIM.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d κατηγορία</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d κατηγορίες</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Επιλέξατε πάνω από %d παραλήπτη, αριθμός που αποτελεί το όριο για τα μηνύματα κειμένου. Ξεκινήστε μια ομαδική συνομιλία για να στείλετε μηνύματα σε όλους ταυτόχρονα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Επιλέξατε πάνω από %d παραλήπτες, αριθμός που αποτελεί το όριο για τα μηνύματα κειμένου. Ξεκινήστε μια ομαδική συνομιλία για να στείλετε μηνύματα σε όλους ταυτόχρονα.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d μήνυμα συνολικά</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d μηνύματα συνολικά</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Καταργήθηκε αυτόματα ο αποκλεισμός %d μηνύματος επειδή οι αποστολείς δεν θεωρούνται πλέον κακόβουλοι.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Καταργήθηκε αυτόματα ο αποκλεισμός %d μηνυμάτων επειδή οι αποστολείς δεν θεωρούνται πλέον κακόβουλοι.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">από %1$s και %2$d ακόμη επωνυμία</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">από %1$s και %2$d ακόμη επωνυμίες</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d μη αναγνωσμένο μήνυμα για παράδοση</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d μη αναγνωσμένα μηνύματα για παράδοση</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">από %1$s και %2$d ακόμη επαφή</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">από %1$s και %2$d ακόμη επαφές</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d μη αναγνωσμένο μήνυμα από %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d μη αναγνωσμένα μηνύματα από %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">συμπεριλαμβανομένων ορισμένων από %1$s και %2$d ακόμη επωνυμία</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">συμπεριλαμβανομένων ορισμένων από %1$s και %2$d ακόμη επωνυμίες</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">συμπεριλαμβανομένου %d μηνύματος για παράδοση</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">συμπεριλαμβανομένων %d μηνυμάτων για παράδοση</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">συμπεριλαμβανομένων ορισμένων από %1$s και %2$d ακόμη επαφή</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">συμπεριλαμβανομένων ορισμένων από %1$s και %2$d ακόμη επαφές</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d μη αναγνωσμένο μήνυμα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d μη αναγνωσμένα μηνύματα</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d μη αναγνωσμένο μήνυμα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d μη αναγνωσμένα μηνύματα</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d προσεχής ειδοποίηση σήμερα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d προσεχείς ειδοποιήσεις σήμερα</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d βίντεο αποθηκεύτηκε στο τηλέφωνο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d βίντεο αποθηκεύτηκαν στο τηλέφωνο.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Έχετε %1$s%2$d μήνυμα σήμερα σχετικά με μια παράδοση%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Έχετε %1$s%2$d μηνύματα σήμερα σχετικά με μια παράδοση%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Έχετε %1$s%2$d μήνυμα σήμερα σχετικά με παραδόσεις%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Έχετε %1$s%2$d μηνύματα σήμερα σχετικά με παραδόσεις%3$s.</item>
+    </plurals>
+</resources>

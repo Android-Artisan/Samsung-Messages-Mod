@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/edit_dialog_title" />
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_edit_text_with_title_margin_top" android:layout_marginBottom="@dimen/msg_popup_padding_bottom">
+                <LinearLayout android:orientation="vertical" android:id="@id/suggested_category_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/add_category_dialog_title_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="29.25dp" android:layout_marginHorizontal="@dimen/add_category_dialog_horizontal_margin">
+                        <TextView android:textSize="@dimen/add_category_item_text_size" android:textColor="@color/theme_sub_header_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversation_base_suggested_category" style="@style/NewSECSemiBold" />
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/category_chip_list_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/category_chip_list_horizontal_margin" />
+                    <LinearLayout android:gravity="center" android:id="@id/go_manual_category_layout" android:padding="@dimen/edit_category_button_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/add_category_manually_button_margin_top">
+                        <Button android:textAppearance="@style/TextAppearanceEditCategory" android:ellipsize="end" android:gravity="center" android:id="@id/go_manual_category" android:background="@drawable/ripple_add_conversation_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_category_manually" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/manual_category_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dialog_edit_text_margin_start" android:layout_marginEnd="18.0dp">
+                        <EditText android:textSize="@dimen/setting_edit_text_size" android:ellipsize="end" android:id="@id/category_name_edit_field" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/category_name" android:maxLines="1" android:inputType="textCapSentences|textAutoCorrect" android:imeOptions="flagNoExtractUi" android:layout_marginEnd="6.0dp" android:backgroundTint="@color/theme_edit_text_line_color" android:layout_marginVertical="8.0dp" />
+                        <FrameLayout android:layout_gravity="end|center" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/category_name_edit_cancel" android:background="?android:selectableItemBackgroundBorderless" android:padding="6.0dp" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/ripple_button_flat_icon_only_size" android:layout_height="@dimen/ripple_button_flat_icon_only_size" android:src="@drawable/orc_ic_group_chat_cancel" android:tint="@color/theme_group_chat_clear_icon_color" android:contentDescription="@string/clear_text_field" android:tooltipText="@string/clear_text_field" />
+                        </FrameLayout>
+                    </FrameLayout>
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/edit_text_error_message_size" android:textColor="@color/theme_edit_text_error_text_color" android:ellipsize="end" android:id="@id/category_name_edit_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/add_category_dialog_horizontal_margin" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

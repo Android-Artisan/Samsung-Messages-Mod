@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 saat</item>
+        <item>6 saat</item>
+        <item>24 saat</item>
+        <item>2 gün</item>
+        <item>Şəbəkə standartı</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Original</item>
+        <item>Yüksək</item>
+        <item>Orta</item>
+        <item>Aşağı</item>
+        <item>Həmişə soruş</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Original</item>
+        <item>Yüksək keyfiyyət</item>
+        <item>Normal keyfiyyət</item>
+        <item>Aşağı ölçü</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Bütün kanallar</item>
+        <item>Mənim Kanalım</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Avtomatik</item>
+        <item>Mətn və ya multimedia</item>
+        <item>Söhbət</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Avtomatik</item>
+        <item>Mətn və ya multimedia</item>
+        <item>RCS çat mesajları</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokla</item>
+        <item>Əvvəlcə soruş</item>
+        <item>İcazə ver</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Həmişə</item>
+        <item>Cəld</item>
+        <item>Heç vaxt</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-əlifba</item>
+        <item>Yunikod</item>
+        <item>Avtomatik</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Mətn və ya multimedia mesajı şəklində təkrar göndər</item>
+        <item>Təkrar göndərmə</item>
+        <item>Təkrar göndərməzdən əvvəl soruş</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Mətn və ya multimed mes ist et</item>
+        <item>Təkr gönd yox</item>
+        <item>Həmişə soruş</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Orijinal</item>
+        <item>Standart şəbəkə</item>
+        <item>Həmişə soruş</item>
+    </string-array>
+</resources>

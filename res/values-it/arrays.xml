@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ora</item>
+        <item>6 ore</item>
+        <item>24 ore</item>
+        <item>2 giorni</item>
+        <item>Impostazioni predefinite rete</item>
+        <item>Massimo</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Originale</item>
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Bassa</item>
+        <item>Chiedi sempre</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Originale</item>
+        <item>Alta qualità</item>
+        <item>Qualità normale</item>
+        <item>Bassa risoluzione</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Tutti i canali</item>
+        <item>Canale personale</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatico</item>
+        <item>Testo o multimediale</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatico</item>
+        <item>Testo o multimediale</item>
+        <item>Messaggi di chat RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blocca</item>
+        <item>Chiedi conferma</item>
+        <item>Consenti</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Sempre</item>
+        <item>Chiedi</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alfabeto GSM</item>
+        <item>Unicode</item>
+        <item>Automatico</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Invia di nuovo come messaggio di testo o multimediale</item>
+        <item>Non inviare di nuovo</item>
+        <item>Chiedi prima di inviare di nuovo</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Usa mess. testo o multimediali</item>
+        <item>Non rinviare</item>
+        <item>Chiedi sempre</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Originale</item>
+        <item>Impostazioni predefinite di rete</item>
+        <item>Chiedi sempre</item>
+    </string-array>
+</resources>

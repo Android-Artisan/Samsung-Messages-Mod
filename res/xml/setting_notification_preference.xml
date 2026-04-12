@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="@string/screen_Message_Setting_Notifications"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/pref_title_preview_message_notification" android:key="pref_key_enable_statusbar_preview_message" android:summary="@string/pref_summary_preview_message_notification" android:defaultValue="true" app:event="@string/event_Message_Settings_Notifications_More_Setting" app:screen="@string/screen_Message_Setting_Notifications" />
+    <androidx.preference.PreferenceCategory android:layout="@layout/subheader_divider_layout" android:key="pref_key_category_notification_sim" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/pref_title_preview_message_notification" android:key="pref_key_enable_statusbar_preview_message_sim2" android:summary="@string/pref_summary_preview_message_notification" android:defaultValue="true" app:event="@string/event_Message_Settings_Notifications_More_Setting" app:screen="@string/screen_Message_Setting_Notifications" />
+    <androidx.preference.PreferenceCategory android:layout="@layout/subheader_divider_layout" android:key="pref_key_category_notification_sim2" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/pref_title_preview_message_notification" android:key="pref_key_enable_statusbar_preview_message_two_phone_B" android:summary="@string/pref_summary_preview_message_notification" android:defaultValue="true" app:event="@string/event_Message_Settings_Notifications_More_Setting" app:screen="@string/screen_Message_Setting_Notifications" />
+    <androidx.preference.PreferenceCategory android:layout="@layout/subheader_divider_layout" android:title="@string/two_phone_business" android:key="pref_key_category_notification_two_phone_B" />
+</androidx.preference.PreferenceScreen>

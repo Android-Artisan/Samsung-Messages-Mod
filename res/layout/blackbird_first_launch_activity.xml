@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/list_activity_background_color" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.samsung.android.messaging.ui.view.firstlaunch.FirstLaunchViewPager android:id="@id/pager_introduction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/viewPagerIndicatorContainer" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/viewPagerIndicatorContainer" android:layout_width="match_parent" android:layout_height="@dimen/first_launch_view_pager_height2" android:layout_alignParentBottom="true">
+            <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2.0">
+                <LinearLayout android:orientation="horizontal" android:id="@id/btn_skip" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/first_launch_view_pager_height2">
+                    <TextView android:textAppearance="@style/SamsungOneUI700" android:textSize="@dimen/first_launch_view_pager_text_size" android:textColor="@color/first_launch_bottom_button_text_color" android:gravity="center_vertical" android:id="@id/txt_skip" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/first_launch_button_skip" android:textAllCaps="true" android:layout_marginStart="@dimen/first_launch_padding" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/viewPagerCountDots" android:layout_width="match_parent" android:layout_height="@dimen/first_launch_view_pager_height2" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2.0">
+                <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/btn_next" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/first_launch_view_pager_height2">
+                    <TextView android:textAppearance="@style/SamsungOneUI700" android:textSize="@dimen/first_launch_view_pager_text_size" android:textColor="@color/first_launch_bottom_button_text_color" android:id="@id/txt_next" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next" android:textAllCaps="true" android:layout_marginEnd="@dimen/first_launch_padding" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="51.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dp" android:gravity="center" android:id="@id/bubble_reaction_list_menu_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <ImageView android:gravity="center" android:id="@id/bubble_reaction_custom_sticker_menu_icon" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:includeFontPadding="false" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="17.0dp" android:textColor="@color/theme_bubble_reaction_menu_sender_info_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bubble_reaction_list_menu_sender_info" android:layout_width="wrap_content" android:layout_height="51.0dp" android:singleLine="true" android:layout_marginStart="10.0dp" />
+</LinearLayout>

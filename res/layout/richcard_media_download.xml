@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/download_preview_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/download_icon" android:background="@drawable/orc_btn_gallery_normal" android:layout_width="48.0dp" android:layout_height="48.0dp" android:contentDescription="@string/download" android:backgroundTint="#d9fafafa" />
+        <com.samsung.android.messaging.ui.view.widget.StrokeTextView android:textAppearance="@style/NewSECLight" android:textSize="12.0dp" android:textColor="@color/bubble_image_download_size_text" android:layout_gravity="center" android:id="@id/download_preview_size" android:layout_width="wrap_content" android:layout_height="12.0dp" android:layout_marginTop="5.0dp" android:includeFontPadding="false" android:textAlignment="center" app:textStroke="true" app:textStrokeColor="@color/bubble_image_download_size_text_stroke" app:textStrokeWidth="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/download_progress_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:id="@id/download_progress" android:layout_width="33.0dp" android:layout_height="33.0dp" android:max="100" android:progressDrawable="@drawable/item_img_video_progress_bar" style="?android:progressBarStyleHorizontal" />
+        <com.samsung.android.messaging.ui.view.widget.StrokeTextView android:textAppearance="@style/NewSECLight" android:textSize="12.0dp" android:textColor="@color/bubble_image_download_size_text" android:layout_gravity="center" android:id="@id/download_progress_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:shadowColor="@color/download_size_text_color" android:textAlignment="center" app:textStroke="true" app:textStrokeColor="@color/bubble_image_download_size_text_stroke" app:textStrokeWidth="1.0" />
+    </LinearLayout>
+</merge>

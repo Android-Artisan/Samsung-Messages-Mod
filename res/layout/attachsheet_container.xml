@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.attachsheet.container.AttachSheetContainer android:id="@id/attach_sheet" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_hideable="true" app:behavior_peekHeight="250.0dp" app:layout_insetEdge="bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/attach_sheet_contents_background" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/attach_sheet_contents" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/attach_unavailable_guide" android:background="@color/no_recipient_description_bg_color" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/no_recipient_description_text_size" android:textColor="@color/no_recipient_description_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/attach_unavailable_description" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/add_recipient_to_attach_from_gallery" android:layout_marginStart="@dimen/no_recipient_description_margin" android:layout_marginEnd="@dimen/no_recipient_description_margin" />
+    </FrameLayout>
+</com.samsung.android.messaging.ui.view.composer.attachsheet.container.AttachSheetContainer>

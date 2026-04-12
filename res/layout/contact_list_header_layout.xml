@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contacts_list_header_container" android:paddingTop="@dimen/w_section_divider_header_margin_top" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/contacts_list_header_text" android:paddingTop="@dimen/w_section_divider_header_padding_top_bottom" android:paddingBottom="@dimen/w_section_divider_header_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/contact_list_icon_margin_start" style="@style/HeaderTextViewStyle" />
+    <View android:id="@id/contacts_list_divider" android:background="@drawable/subheader_divider" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/w_section_divider_header_min_height" android:layout_centerVertical="true" android:layout_marginStart="@dimen/w_section_divider_header_text_start_margin" android:layout_marginEnd="@dimen/w_section_divider_header_start_margin" android:layout_toEndOf="@id/contacts_list_divider_text" />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/db_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textviewCryptoKey" android:paddingLeft="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp" android:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <Button android:id="@id/btnBackup" android:layout_width="match_parent" android:layout_height="50.0dp" />
+                        <TextView android:textColor="@color/color_black" android:id="@id/backup_result_filename" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="center_vertical" android:background="@color/theme_list_divider_color" android:focusable="false" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/restoreLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <Button android:id="@id/btnLoadList" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginBottom="15.0dp" />
+                        <Button android:id="@id/btnRestore" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginBottom="15.0dp" />
+                        <Button android:id="@id/btnRestoreForSmartSwitch" android:layout_width="match_parent" android:layout_height="50.0dp" />
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="40.0dp">
+                            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/chkRestoreTitle" android:paddingLeft="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                            <CheckBox android:id="@id/chkRestore" android:padding="8.0dp" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                        <ImageView android:layout_gravity="center_vertical" android:background="@color/theme_list_divider_color" android:focusable="false" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                        <TextView android:textColor="@color/color_black" android:id="@id/restore_result_filename" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                        <ImageView android:layout_gravity="center_vertical" android:background="@color/theme_list_divider_color" android:focusable="false" android:layout_width="match_parent" android:layout_height="3.0dp" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <ListView android:id="@id/restoreFileList" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.5" />
+                        </LinearLayout>
+                        <ImageView android:layout_gravity="center_vertical" android:background="@color/theme_list_divider_color" android:focusable="false" android:layout_width="match_parent" android:layout_height="3.0dp" android:layout_marginBottom="15.0dp" />
+                        <ImageView android:layout_gravity="center_vertical" android:background="@color/theme_list_divider_color" android:focusable="false" android:layout_width="match_parent" android:layout_height="3.0dp" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <ListView android:id="@id/restoreMetaDataList" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.5" />
+                        </LinearLayout>
+                        <ImageView android:layout_gravity="center_vertical" android:background="@color/theme_list_divider_color" android:focusable="false" android:layout_width="match_parent" android:layout_height="3.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/kt_twophone_regi_layout" android:paddingLeft="8.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp" android:layout_marginTop="20.0dp" android:layout_marginBottom="10.0dp">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/kt_twophone_regi_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:text="@string/kttwophone_regi_title" android:singleLine="true" android:layout_centerVertical="true" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginBottom="5.0dp">
+                    <TextView android:ellipsize="end" android:id="@id/text_local_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kttwophone_text_local_number" android:maxLines="1" />
+                    <EditText android:textSize="@dimen/number_entry_input_text_size" android:textColor="@color/number_entry_edit_text_color" android:id="@id/edit_text_local_number" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:hint="@string/kttwophone_text_local_number_empty" android:maxLines="1" android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginBottom="5.0dp">
+                    <TextView android:ellipsize="end" android:id="@id/text_twophone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kttwophone_text_twophone_number" android:maxLines="1" />
+                    <EditText android:textSize="@dimen/number_entry_input_text_size" android:textColor="@color/number_entry_edit_text_color" android:id="@id/edit_text_twophone_number" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:hint="@string/kttwophone_text_twophone_number_hint" android:maxLines="1" android:inputType="numberDecimal" />
+                </LinearLayout>
+                <TextView android:textSize="10.0dp" android:textColor="@color/colorPrimary" android:id="@id/kt_twophone_regi_subscribe_guide_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" />
+                <Button android:id="@id/btn_kt_twophone_regi_subscribe" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="10.0dp" android:text="TWOPHONE REG SUBSCRIBE" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

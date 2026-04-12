@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/pp_frame_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/pp_frame_margin" android:paddingEnd="@dimen/pp_frame_margin">
+        <TextView android:textSize="@dimen/announcement_card_head_text_size" android:textStyle="bold" android:textColor="@color/theme_announcement_card_main_text_color" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/duoqu_select_destination" />
+        <TextView android:id="@id/subtitle" android:text="@string/duoqu_select_warn" style="@style/announcement_card_sub_text_style" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout style="@style/pp_linearLayout_style">
+        <TextView android:id="@id/cancle" android:text="@string/cancel" style="@style/pp_button_style" />
+        <View style="@style/button_line_style" />
+        <TextView android:id="@id/sure" android:text="@string/button_ok" style="@style/pp_button_style" />
+    </LinearLayout>
+</LinearLayout>

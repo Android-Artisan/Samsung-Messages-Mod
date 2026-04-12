@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">يتعذر استدعاء الرسالة. يمكن استدعاء الرسائل خلال %d دقيقة فقط من إرسالها.</item>
+        <item quantity="one">يتعذر استدعاء الرسالة. يمكن استدعاء الرسائل خلال دقيقة واحدة فقط من إرسالها.</item>
+        <item quantity="two">يتعذر استدعاء الرسالة. يمكن استدعاء الرسائل خلال دقيقتين فقط من إرسالها.</item>
+        <item quantity="few">يتعذر استدعاء الرسالة. يمكن استدعاء الرسائل خلال %d دقائق فقط من إرسالها.</item>
+        <item quantity="many">يتعذر استدعاء الرسالة. يمكن استدعاء الرسائل خلال %d دقيقةً فقط من إرسالها.</item>
+        <item quantity="other">يتعذر استدعاء الرسالة. يمكن استدعاء الرسائل خلال %d دقيقة فقط من إرسالها.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">مغادرة %d دردشة جماعية أيضاً</item>
+        <item quantity="one">مغادرة دردشة جماعية واحدة أيضاً</item>
+        <item quantity="two">مغادرة دردشتَين جماعيتَين أيضاً</item>
+        <item quantity="few">مغادرة %d دردشات جماعية أيضاً</item>
+        <item quantity="many">مغادرة %d دردشة جماعية أيضاً</item>
+        <item quantity="other">مغادرة %d دردشة جماعية أيضاً</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">مغادرة %d محادثة جماعية أيضاً</item>
+        <item quantity="one">مغادرة محادثة جماعية واحدة أيضاً</item>
+        <item quantity="two">مغادرة محادثتَين جماعيتَين أيضاً</item>
+        <item quantity="few">مغادرة %d محادثات جماعية أيضاً</item>
+        <item quantity="many">مغادرة %d محادثة جماعية أيضاً</item>
+        <item quantity="other">مغادرة %d محادثة جماعية أيضاً</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">هل تريد حذف %d حزمة رمز تعبيري؟</item>
+        <item quantity="one">هل تريد حذف حزمة رمز تعبيري واحدة؟</item>
+        <item quantity="two">هل تريد حذف حزمتي رمز تعبيري؟</item>
+        <item quantity="few">هل تريد حذف %d حزم رمز تعبيري؟</item>
+        <item quantity="many">هل تريد حذف %d حزمة رمز تعبيري؟</item>
+        <item quantity="other">هل تريد حذف %d حزمة رمز تعبيري؟</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">هل تريد نقل %d محادثة إلى سلة المحذوفات؟</item>
+        <item quantity="one">هل تريد نقل محادثة إلى سلة المحذوفات؟</item>
+        <item quantity="two">هل تريد نقل محادثتين إلى سلة المحذوفات؟</item>
+        <item quantity="few">هل تريد نقل %d محادثات إلى سلة المحذوفات؟</item>
+        <item quantity="many">هل تريد نقل %d محادثةً إلى سلة المحذوفات؟</item>
+        <item quantity="other">هل تريد نقل %d محادثة إلى سلة المحذوفات؟</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">سيتم حذف الرسائل الموجودة في سلة المحذوفات نهائياً بعد %d يوم.</item>
+        <item quantity="one">سيتم حذف الرسائل الموجودة في سلة المحذوفات نهائياً بعد يوم.</item>
+        <item quantity="two">سيتم حذف الرسائل الموجودة في سلة المحذوفات نهائياً بعد يومين.</item>
+        <item quantity="few">سيتم حذف الرسائل الموجودة في سلة المحذوفات نهائياً بعد %d أيام.</item>
+        <item quantity="many">سيتم حذف الرسائل الموجودة في سلة المحذوفات نهائياً بعد %d يوماً.</item>
+        <item quantity="other">سيتم حذف الرسائل الموجودة في سلة المحذوفات نهائياً بعد %d يوم.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">ستبقى الرسائل المحذوفة في سلة المحذوفات لمدة %d يوم قبل حذفها نهائياً.</item>
+        <item quantity="one">ستبقى الرسائل المحذوفة في سلة المحذوفات لمدة يوم واحد قبل حذفها نهائياً.</item>
+        <item quantity="two">ستبقى الرسائل المحذوفة في سلة المحذوفات لمدة يومين قبل حذفها نهائياً.</item>
+        <item quantity="few">ستبقى الرسائل المحذوفة في سلة المحذوفات لمدة %d أيام قبل حذفها نهائياً.</item>
+        <item quantity="many">ستبقى الرسائل المحذوفة في سلة المحذوفات لمدة %d يوماً قبل حذفها نهائياً.</item>
+        <item quantity="other">ستبقى الرسائل المحذوفة في سلة المحذوفات لمدة %d يوم قبل حذفها نهائياً.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">هل تريد نقل %d رسالة إلى سلة المحذوفات؟</item>
+        <item quantity="one">هل تريد نقل رسالة إلى سلة المحذوفات؟</item>
+        <item quantity="two">هل تريد نقل رسالتين إلى سلة المحذوفات؟</item>
+        <item quantity="few">هل تريد نقل %d رسائل إلى سلة المحذوفات؟</item>
+        <item quantity="many">هل تريد نقل %d رسالةً إلى سلة المحذوفات؟</item>
+        <item quantity="other">هل تريد نقل %d رسالة إلى سلة المحذوفات؟</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">اليوم هو يوم مميز (%1$s و%2$d حدث آخر). هل تريد إرسال شيء لهم؟</item>
+        <item quantity="one">اليوم هو يوم مميز (%1$s و حدث واحد آخر). هل تريد إرسال شيء لهم؟</item>
+        <item quantity="two">اليوم هو يوم مميز (%1$s وحدثان آخران). هل تريد إرسال شيء لهم؟</item>
+        <item quantity="few">اليوم هو يوم مميز (%1$s و%2$d أحداث أخرى). هل تريد إرسال شيء لهم؟</item>
+        <item quantity="many">اليوم هو يوم مميز (%1$s و%2$d حدثاً آخراً). هل تريد إرسال شيء لهم؟</item>
+        <item quantity="other">اليوم هو يوم مميز (%1$s و%2$d حدث آخر). هل تريد إرسال شيء لهم؟</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">إنه عيد ميلاد %1$s و%2$d جهة اتصال أخرى! هل تريد إرسال شيء مميز؟</item>
+        <item quantity="one">إنه عيد ميلاد %1$s وجهة اتصال واحدة أخرى! هل تريد إرسال شيء مميز؟</item>
+        <item quantity="two">إنه عيد ميلاد %1$s وجهتي اتصال أخريين! هل تريد إرسال شيء مميز؟</item>
+        <item quantity="few">إنه عيد ميلاد %1$s و%2$d جهات اتصال أخرى! هل تريد إرسال شيء مميز؟</item>
+        <item quantity="many">إنه عيد ميلاد %1$s و%2$d جهة اتصال أخرى! هل تريد إرسال شيء مميز؟</item>
+        <item quantity="other">إنه عيد ميلاد %1$s و%2$d جهة اتصال أخرى! هل تريد إرسال شيء مميز؟</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">تم حظر %d رسالة في آخر ٣٠‬ يوم</item>
+        <item quantity="one">تم حظر رسالة واحدة في آخر ٣٠‬ يوم</item>
+        <item quantity="two">تم حظر رسالتين في آخر ٣٠‬ يوم</item>
+        <item quantity="few">تم حظر %d رسائل في آخر ٣٠‬ يوم</item>
+        <item quantity="many">تم حظر %d رسالةً في آخر ٣٠‬ يوم</item>
+        <item quantity="other">تم حظر %d رسالة في آخر ٣٠‬ يوم</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+        <item quantity="other">تم تحديد %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">يتعذر حظر %d عنوان بريد إلكتروني لأنه ليس صالحاً.</item>
+        <item quantity="one">يتعذر حظر عنوان بريد إلكتروني واحد لأنه ليس صالحاً.</item>
+        <item quantity="two">يتعذر حظر عنواني بريد إلكتروني لأنهما ليسا صالحين.</item>
+        <item quantity="few">يتعذر حظر %d عناوين بريد إلكتروني لأنها ليست صالحة.</item>
+        <item quantity="many">يتعذر حظر %d عنوان بريد إلكتروني لأنه ليس صالحاً.</item>
+        <item quantity="other">يتعذر حظر %d عنوان بريد إلكتروني لأنه ليس صالحاً.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">يتعذر حظر %d رقم هاتف لأنه ليس صالحاً.</item>
+        <item quantity="one">يتعذر حظر رقم هاتف واحد لأنه ليس صالحاً.</item>
+        <item quantity="two">يتعذر حظر رقمي هاتف لأنهما ليسا صالحين.</item>
+        <item quantity="few">يتعذر حظر %d أرقام هاتف لأنها ليست صالحة.</item>
+        <item quantity="many">يتعذر حظر %d رقم هاتف لأنه ليس صالحاً.</item>
+        <item quantity="other">يتعذر حظر %d رقم هاتف لأنه ليس صالحاً.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">يتعذر حظر %d مرسل لأن معلوماته ليست صالحة.</item>
+        <item quantity="one">يتعذر حظر مرسل واحد لأن معلوماته ليست صالحة.</item>
+        <item quantity="two">يتعذر حظر مُرسَلَين لأن معلوماتهما ليست صالحة.</item>
+        <item quantity="few">يتعذر حظر %d مرسلين لأن معلوماتهم ليست صالحة.</item>
+        <item quantity="many">يتعذر حظر %d مرسلاً لأن معلوماته ليست صالحة.</item>
+        <item quantity="other">يتعذر حظر %d مرسل لأن معلوماته ليست صالحة.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">يتعذر تحديد أكثر من %d جهة اتصال.</item>
+        <item quantity="one">يتعذر تحديد أكثر من جهة اتصال واحدة.</item>
+        <item quantity="two">يتعذر تحديد أكثر من جهتي اتصال.</item>
+        <item quantity="few">يتعذر تحديد أكثر من %d جهات اتصال.</item>
+        <item quantity="many">يتعذر تحديد أكثر من %d جهة اتصال.</item>
+        <item quantity="other">يتعذر تحديد أكثر من %d جهة اتصال.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">%1$d بطاقة %2$s</item>
+        <item quantity="one">بطاقة واحدة %2$s</item>
+        <item quantity="two">بطاقتان %2$s</item>
+        <item quantity="few">%1$d بطاقات %2$s</item>
+        <item quantity="many">%1$d بطاقة %2$s</item>
+        <item quantity="other">%1$d بطاقة %2$s</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">%d جهة اتصال مشتركة في الدردشة</item>
+        <item quantity="one">جهة اتصال واحدة مشتركة في الدردشة</item>
+        <item quantity="two">جهتا اتصال مشتركتان في الدردشة</item>
+        <item quantity="few">%d جهات اتصال مشتركة في الدردشة</item>
+        <item quantity="many">%d جهة اتصال مشتركة في الدردشة</item>
+        <item quantity="other">%d جهة اتصال مشتركة في الدردشة</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">%d جهة اتصال على +Chatting</item>
+        <item quantity="one">جهة اتصال واحدة على +Chatting</item>
+        <item quantity="two">جهتا اتصال على +Chatting</item>
+        <item quantity="few">%d جهات اتصال على +Chatting</item>
+        <item quantity="many">%d جهة اتصال على +Chatting</item>
+        <item quantity="other">%d جهة اتصال على +Chatting</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">"إذا قمت بإلغاء التسجيل من Chatting+، فلن تتمكن من إنشاء الدردشات الفردية والجماعية أو الانضمام إليها، أو تلقي تأكيد على أنه تمت قراءة رسائلك أو مشاركة الملفات الكبيرة. هل تريد بالتأكيد إلغاء التسجيل؟
+
+يجب أيضاً الانتظار لمدة %d دقيقة قبل التسجيل مرة أخرى.‬"</item>
+        <item quantity="one">"إذا قمت بإلغاء التسجيل من Chatting+، فلن تتمكن من إنشاء الدردشات الفردية والجماعية أو الانضمام إليها، أو تلقي تأكيد على أنه تمت قراءة رسائلك أو مشاركة الملفات الكبيرة. هل تريد بالتأكيد إلغاء التسجيل؟
+
+يجب أيضاً الانتظار لمدة دقيقة واحدة قبل التسجيل مرة أخرى.‬"</item>
+        <item quantity="two">"إذا قمت بإلغاء التسجيل من Chatting+، فلن تتمكن من إنشاء الدردشات الفردية والجماعية أو الانضمام إليها، أو تلقي تأكيد على أنه تمت قراءة رسائلك أو مشاركة الملفات الكبيرة. هل تريد بالتأكيد إلغاء التسجيل؟
+
+يجب أيضاً الانتظار لمدة دقيقتين قبل التسجيل مرة أخرى.‬"</item>
+        <item quantity="few">"إذا قمت بإلغاء التسجيل من Chatting+، فلن تتمكن من إنشاء الدردشات الفردية والجماعية أو الانضمام إليها، أو تلقي تأكيد على أنه تمت قراءة رسائلك أو مشاركة الملفات الكبيرة. هل تريد بالتأكيد إلغاء التسجيل؟
+
+يجب أيضاً الانتظار لمدة %d دقائق قبل التسجيل مرة أخرى.‬"</item>
+        <item quantity="many">"إذا قمت بإلغاء التسجيل من Chatting+، فلن تتمكن من إنشاء الدردشات الفردية والجماعية أو الانضمام إليها، أو تلقي تأكيد على أنه تمت قراءة رسائلك أو مشاركة الملفات الكبيرة. هل تريد بالتأكيد إلغاء التسجيل؟
+
+يجب أيضاً الانتظار لمدة %d دقيقةً قبل التسجيل مرة أخرى.‬"</item>
+        <item quantity="other">"إذا قمت بإلغاء التسجيل من Chatting+، فلن تتمكن من إنشاء الدردشات الفردية والجماعية أو الانضمام إليها، أو تلقي تأكيد على أنه تمت قراءة رسائلك أو مشاركة الملفات الكبيرة. هل تريد بالتأكيد إلغاء التسجيل؟
+
+يجب أيضاً الانتظار لمدة %d دقيقة قبل التسجيل مرة أخرى.‬"</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">%d روبوت دردشة</item>
+        <item quantity="one">روبوت دردشة واحد</item>
+        <item quantity="two">روبوتا دردشة</item>
+        <item quantity="few">%d روبوتات دردشة</item>
+        <item quantity="many">%d روبوت دردشة</item>
+        <item quantity="other">%d روبوت دردشة</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">%d جهة اتصال</item>
+        <item quantity="one">جهة اتصال واحدة</item>
+        <item quantity="two">جهتا اتصال</item>
+        <item quantity="few">%d جهات اتصال</item>
+        <item quantity="many">%d جهة اتصال</item>
+        <item quantity="other">%d جهة اتصال</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+        <item quantity="other">تم تحديد %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">تنتهي الصلاحية خلال %d يوم</item>
+        <item quantity="one">تنتهي الصلاحية خلال يوم واحد</item>
+        <item quantity="two">تنتهي الصلاحية خلال يومين</item>
+        <item quantity="few">تنتهي الصلاحية خلال %d أيام</item>
+        <item quantity="many">تنتهي الصلاحية خلال %d يوماً</item>
+        <item quantity="other">تنتهي الصلاحية خلال %d يوم</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">ستنتهي صلاحية %d قسيمة قريباً</item>
+        <item quantity="one">ستنتهي صلاحية قسيمة واحدة قريباً</item>
+        <item quantity="two">ستنتهي صلاحية قسيمتين قريباً</item>
+        <item quantity="few">ستنتهي صلاحية %d قسائم قريباً</item>
+        <item quantity="many">ستنتهي صلاحية %d قسيمةً قريباً</item>
+        <item quantity="other">ستنتهي صلاحية %d قسيمة قريباً</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">تنتهي صلاحية قسيمة %1$s الخاصة بك خلال %2$d يوم.</item>
+        <item quantity="one">تنتهي صلاحية قسيمة %1$s الخاصة بك خلال يوم واحد.</item>
+        <item quantity="two">تنتهي صلاحية قسيمة %1$s الخاصة بك خلال يومين.</item>
+        <item quantity="few">تنتهي صلاحية قسيمة %1$s الخاصة بك خلال %2$d أيام.</item>
+        <item quantity="many">تنتهي صلاحية قسيمة %1$s الخاصة بك خلال %2$d يوماً.</item>
+        <item quantity="other">تنتهي صلاحية قسيمة %1$s الخاصة بك خلال %2$d يوم.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">تنتهي صلاحية قسيمتك في غضون %d يوم.</item>
+        <item quantity="one">تنتهي صلاحية قسيمتك في غضون يوم واحد.</item>
+        <item quantity="two">تنتهي صلاحية قسيمتك في غضون يومين.</item>
+        <item quantity="few">تنتهي صلاحية قسيمتك في غضون %d أيام.</item>
+        <item quantity="many">تنتهي صلاحية قسيمتك في غضون %d يوماً.</item>
+        <item quantity="other">تنتهي صلاحية قسيمتك في غضون %d يوم.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">هل تريد حذف %d محادثة؟</item>
+        <item quantity="other">هل تريد حذف %d من المحادثات؟</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">هل تريد حذف %d محادثة نهائياً؟</item>
+        <item quantity="one">هل تريد حذف رسالة نهائياً؟</item>
+        <item quantity="two">هل تريد حذف محادثتين نهائياً؟</item>
+        <item quantity="few">هل تريد حذف %d محادثات نهائياً؟</item>
+        <item quantity="many">هل تريد حذف %d محادثةً نهائياً؟</item>
+        <item quantity="other">هل تريد حذف %d محادثة نهائياً؟</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">هل تريد حذف %d رسالة؟</item>
+        <item quantity="other">هل تريد حذف %d من الرسائل؟</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">هل تريد حذف %d رسالة نهائياً؟</item>
+        <item quantity="one">هل تريد حذف رسالة نهائياً؟</item>
+        <item quantity="two">هل تريد حذف رسالتين نهائياً؟</item>
+        <item quantity="few">هل تريد حذف %d رسائل نهائياً؟</item>
+        <item quantity="many">هل تريد حذف %d رسالةً نهائياً؟</item>
+        <item quantity="other">هل تريد حذف %d رسالة نهائياً؟</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">%d رسالة تسليم</item>
+        <item quantity="one">رسالة تسليم واحدة</item>
+        <item quantity="two">رسالتي تسليم</item>
+        <item quantity="few">%d رسائل تسليم</item>
+        <item quantity="many">%d رسالة تسليم</item>
+        <item quantity="other">%d رسالة تسليم</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">هل تريد استبعاد %d بطاقة؟</item>
+        <item quantity="one">هل تريد استبعاد بطاقة؟</item>
+        <item quantity="two">هل تريد استبعاد بطاقتين؟</item>
+        <item quantity="few">هل تريد استبعاد %d بطاقات؟</item>
+        <item quantity="many">هل تريد استبعاد %d بطاقةً؟</item>
+        <item quantity="other">هل تريد استبعاد %d بطاقة؟</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">يمكن عرض فقط %1$d علامة تبويب فئة على الشاشة الرئيسية. يتم إخفاء المتبقي. حدد فئة %2$s إذا كنت تريد الوصول السريع إليها من الشاشة الرئيسية.</item>
+        <item quantity="one">يمكن عرض فقط علامة تبويب فئة واحدة على الشاشة الرئيسية. يتم إخفاء المتبقي. حدد فئة %2$s إذا كنت تريد الوصول السريع إليها من الشاشة الرئيسية.</item>
+        <item quantity="two">يمكن عرض فقط علامتي تبويب فئة على الشاشة الرئيسية. يتم إخفاء المتبقي. حدد فئة %2$s إذا كنت تريد الوصول السريع إليها من الشاشة الرئيسية.</item>
+        <item quantity="few">يمكن عرض فقط %1$d علامات تبويب فئة على الشاشة الرئيسية. يتم إخفاء المتبقي. حدد فئة %2$s إذا كنت تريد الوصول السريع إليها من الشاشة الرئيسية.</item>
+        <item quantity="many">يمكن عرض فقط %1$d علامة تبويب فئة على الشاشة الرئيسية. يتم إخفاء المتبقي. حدد فئة %2$s إذا كنت تريد الوصول السريع إليها من الشاشة الرئيسية.</item>
+        <item quantity="other">يمكن عرض فقط %1$d علامة تبويب فئة على الشاشة الرئيسية. يتم إخفاء المتبقي. حدد فئة %2$s إذا كنت تريد الوصول السريع إليها من الشاشة الرئيسية.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+        <item quantity="other">%d دقيقة</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">%d ثانية</item>
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">%d ثوانٍ</item>
+        <item quantity="many">%d ثانية</item>
+        <item quantity="other">%d ثانية</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">تم حفظ %d ملف على هاتفك.</item>
+        <item quantity="one">تم حفظ ملف واحد على هاتفك.</item>
+        <item quantity="two">تم حفظ ملفَين على هاتفك.</item>
+        <item quantity="few">تم حفظ %d ملفات على هاتفك.</item>
+        <item quantity="many">تم حفظ %d ملفاً على هاتفك.</item>
+        <item quantity="other">تم حفظ %d ملف على هاتفك.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">تم حفظ %d ملف على جهازك اللوحي.</item>
+        <item quantity="one">تم حفظ ملف واحد على جهازك اللوحي.</item>
+        <item quantity="two">تم حفظ ملفَين على جهازك اللوحي.</item>
+        <item quantity="few">تم حفظ %d ملفات على جهازك اللوحي.</item>
+        <item quantity="many">تم حفظ %d ملفاً على جهازك اللوحي.</item>
+        <item quantity="other">تم حفظ %d ملف على جهازك اللوحي.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">%d معاملة اليوم</item>
+        <item quantity="one">معاملة واحدة اليوم</item>
+        <item quantity="two">معاملتان اليوم</item>
+        <item quantity="few">%d معاملات اليوم</item>
+        <item quantity="many">%d معاملةً اليوم</item>
+        <item quantity="other">%d معاملة اليوم</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">%1$s و%2$d رقم غير معروف</item>
+        <item quantity="one">%1$s ورقم واحد غير معروف</item>
+        <item quantity="two">%1$s ورقمان غير معروفان</item>
+        <item quantity="few">%1$s و%2$d أرقام غير معروفة</item>
+        <item quantity="many">%1$s و%2$d رقماً غير معروفاً</item>
+        <item quantity="other">%1$s و%2$d رقم غير معروف</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">%d رقم غير معروف</item>
+        <item quantity="one">رقم واحد غير معروف</item>
+        <item quantity="two">رقمان غير معروفان</item>
+        <item quantity="few">%d أرقام غير معروفة</item>
+        <item quantity="many">%d رقماً غير معروفاً</item>
+        <item quantity="other">%d رقم غير معروف</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">يتعذر على %1$s الانضمام إلى الدردشات الجماعية. قم بإزالة هذا المستلم من المستلمين المحددين، أو أرسل رسالة نصية إلى ما يصل إلى %2$d مستلم بدلاً منه.</item>
+        <item quantity="one">يتعذر على %1$s الانضمام إلى الدردشات الجماعية. قم بإزالة هذا المستلم من المستلمين المحددين، أو أرسل رسالة نصية إلى ما يصل إلى مستلم واحد بدلاً منه.</item>
+        <item quantity="two">يتعذر على %1$s الانضمام إلى الدردشات الجماعية. قم بإزالة هذا المستلم من المستلمين المحددين، أو أرسل رسالة نصية إلى ما يصل إلى مستلمَين بدلاً منه.</item>
+        <item quantity="few">يتعذر على %1$s الانضمام إلى الدردشات الجماعية. قم بإزالة هذا المستلم من المستلمين المحددين، أو أرسل رسالة نصية إلى ما يصل إلى %2$d مستلمين بدلاً منه.</item>
+        <item quantity="many">يتعذر على %1$s الانضمام إلى الدردشات الجماعية. قم بإزالة هذا المستلم من المستلمين المحددين، أو أرسل رسالة نصية إلى ما يصل إلى %2$d مستلماً بدلاً منه.</item>
+        <item quantity="other">يتعذر على %1$s الانضمام إلى الدردشات الجماعية. قم بإزالة هذا المستلم من المستلمين المحددين، أو أرسل رسالة نصية إلى ما يصل إلى %2$d مستلم بدلاً منه.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">"لا يمكن لمستلم واحد أو أكثر من المستلمين المضمنين استخدام المراسلة المتقدمة، لذا تقتصر مجموعتك على %d عضو.
+
+للمتابعة، حدد الأعضاء الذين يمكنهم استخدام المراسلة المتقدمة فقط. تم تمييزهم برمز نقطة زرقاء."</item>
+        <item quantity="one">"لا يمكن لمستلم واحد أو أكثر من المستلمين المضمنين استخدام المراسلة المتقدمة، لذا تقتصر مجموعتك على عضو واحد.
+
+للمتابعة، حدد الأعضاء الذين يمكنهم استخدام المراسلة المتقدمة فقط. تم تمييزهم برمز نقطة زرقاء."</item>
+        <item quantity="two">"لا يمكن لمستلم واحد أو أكثر من المستلمين المضمنين استخدام المراسلة المتقدمة، لذا تقتصر مجموعتك على عضوَين.
+
+للمتابعة، حدد الأعضاء الذين يمكنهم استخدام المراسلة المتقدمة فقط. تم تمييزهم برمز نقطة زرقاء."</item>
+        <item quantity="few">"لا يمكن لمستلم واحد أو أكثر من المستلمين المضمنين استخدام المراسلة المتقدمة، لذا تقتصر مجموعتك على %d أعضاء.
+
+للمتابعة، حدد الأعضاء الذين يمكنهم استخدام المراسلة المتقدمة فقط. تم تمييزهم برمز نقطة زرقاء."</item>
+        <item quantity="many">"لا يمكن لمستلم واحد أو أكثر من المستلمين المضمنين استخدام المراسلة المتقدمة، لذا تقتصر مجموعتك على %d عضواً.
+
+للمتابعة، حدد الأعضاء الذين يمكنهم استخدام المراسلة المتقدمة فقط. تم تمييزهم برمز نقطة زرقاء."</item>
+        <item quantity="other">"لا يمكن لمستلم واحد أو أكثر من المستلمين المضمنين استخدام المراسلة المتقدمة، لذا تقتصر مجموعتك على %d عضو.
+
+للمتابعة، حدد الأعضاء الذين يمكنهم استخدام المراسلة المتقدمة فقط. تم تمييزهم برمز نقطة زرقاء."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">لبدء دردشة جماعية، قم بإزالة آخر مستلم محدد. إذا أردت تضمين آخر مستلم، فقم بإزالة %d مستلم لإرسال رسالة.</item>
+        <item quantity="one">لبدء دردشة جماعية، قم بإزالة آخر مستلم محدد. إذا أردت تضمين آخر مستلم، فقم بإزالة مستلم واحد لإرسال رسالة.</item>
+        <item quantity="two">لبدء دردشة جماعية، قم بإزالة آخر مستلم محدد. إذا أردت تضمين آخر مستلم، فقم بإزالة مستلمَين لإرسال رسالة.</item>
+        <item quantity="few">لبدء دردشة جماعية، قم بإزالة آخر مستلم محدد. إذا أردت تضمين آخر مستلم، فقم بإزالة %d مستلمين لإرسال رسالة.</item>
+        <item quantity="many">لبدء دردشة جماعية، قم بإزالة آخر مستلم محدد. إذا أردت تضمين آخر مستلم، فقم بإزالة %d مستلماً لإرسال رسالة.</item>
+        <item quantity="other">لبدء دردشة جماعية، قم بإزالة آخر مستلم محدد. إذا أردت تضمين آخر مستلم، فقم بإزالة %d مستلم لإرسال رسالة.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">تم حفظ %d صورة على جهازك اللوحي.</item>
+        <item quantity="one">تم حفظ صورة واحدة على جهازك اللوحي.</item>
+        <item quantity="two">تم حفظ صورتين على جهازك اللوحي.</item>
+        <item quantity="few">تم حفظ %d صور على جهازك اللوحي.</item>
+        <item quantity="many">تم حفظ %d صورةً على جهازك اللوحي.</item>
+        <item quantity="other">تم حفظ %d صورة على جهازك اللوحي.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">تم حفظ %d صورة على هاتفك.</item>
+        <item quantity="one">تم حفظ صورة واحدة على هاتفك.</item>
+        <item quantity="two">تم حفظ صورتَين على هاتفك.</item>
+        <item quantity="few">تم حفظ %d صور على هاتفك.</item>
+        <item quantity="many">تم حفظ %d صورة على هاتفك.</item>
+        <item quantity="other">تم حفظ %d صورة على هاتفك.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">تم حفظ صورة واحدة و%d مقطع فيديو على هاتفك.</item>
+        <item quantity="one">تم حفظ صورة واحدة ومقطع فيديو واحد على هاتفك.</item>
+        <item quantity="two">تم حفظ صورة واحدة ومقطعَي فيديو على هاتفك.</item>
+        <item quantity="few">تم حفظ صورة واحدة و%d مقاطع فيديو على هاتفك.</item>
+        <item quantity="many">تم حفظ صورة واحدة و%d مقطع فيديو على هاتفك.</item>
+        <item quantity="other">تم حفظ صورة واحدة و%d مقطع فيديو على هاتفك.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">تم حفظ %d صورة ومقطع فيديو واحد على هاتفك.</item>
+        <item quantity="one">تم حفظ صورة واحدة ومقطع فيديو واحد على هاتفك.</item>
+        <item quantity="two">تم حفظ صورتَين ومقطع فيديو واحد على هاتفك.</item>
+        <item quantity="few">تم حفظ %d صور ومقطع فيديو واحد على هاتفك.</item>
+        <item quantity="many">تم حفظ %d صورة ومقطع فيديو واحد على هاتفك.</item>
+        <item quantity="other">تم حفظ %d صورة ومقطع فيديو واحد على هاتفك.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">تم الانضمام من قبل %1$s و%2$d شخص آخر</item>
+        <item quantity="one">تم الانضمام من قبل %1$s وشخص واحد آخر</item>
+        <item quantity="two">تم الانضمام من قبل %1$s وشخصَين آخرين</item>
+        <item quantity="few">تم الانضمام من قبل %1$s و%2$d أشخاص آخرين</item>
+        <item quantity="many">تم الانضمام من قبل %1$s و%2$d شخصاً آخر</item>
+        <item quantity="other">تم الانضمام من قبل %1$s و%2$d شخص آخر</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">%d جهة اتصال</item>
+        <item quantity="one">جهة اتصال واحدة</item>
+        <item quantity="two">جهتا اتصال</item>
+        <item quantity="few">%d جهات اتصال</item>
+        <item quantity="many">%d جهة اتصال</item>
+        <item quantity="other">%d جهة اتصال</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">يتعذر تحديد أكثر من %d شخص.</item>
+        <item quantity="one">يتعذر تحديد أكثر من شخص واحد.</item>
+        <item quantity="two">يتعذر تحديد أكثر من شخصَين.</item>
+        <item quantity="few">يتعذر تحديد أكثر من %d أشخاص.</item>
+        <item quantity="many">يتعذر تحديد أكثر من %d شخصاً.</item>
+        <item quantity="other">يتعذر تحديد أكثر من %d شخص.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">عندما تقوم بالنقر فوق زر ‏‫اقتراحات الرسالة‬، ستتم معالجة آخر %d رسالة في محادثتك عبر الإنترنت. قد تكون الاقتراحات التي تم إنشاؤها بواسطة الذكاء الاصطناعي غير دقيقة أو تتضمن محتوى غير لائق.</item>
+        <item quantity="one">عندما تقوم بالنقر فوق زر ‏‫اقتراحات الرسالة‬، ستتم معالجة آخر رسالة واحدة في محادثتك عبر الإنترنت. قد تكون الاقتراحات التي تم إنشاؤها بواسطة الذكاء الاصطناعي غير دقيقة أو تتضمن محتوى غير لائق.</item>
+        <item quantity="two">عندما تقوم بالنقر فوق زر ‏‫اقتراحات الرسالة‬، ستتم معالجة آخر رسالتين في محادثتك عبر الإنترنت. قد تكون الاقتراحات التي تم إنشاؤها بواسطة الذكاء الاصطناعي غير دقيقة أو تتضمن محتوى غير لائق.</item>
+        <item quantity="few">عندما تقوم بالنقر فوق زر ‏‫اقتراحات الرسالة‬، ستتم معالجة آخر %d رسائل في محادثتك عبر الإنترنت. قد تكون الاقتراحات التي تم إنشاؤها بواسطة الذكاء الاصطناعي غير دقيقة أو تتضمن محتوى غير لائق.</item>
+        <item quantity="many">عندما تقوم بالنقر فوق زر ‏‫اقتراحات الرسالة‬، ستتم معالجة آخر %d رسالةً في محادثتك عبر الإنترنت. قد تكون الاقتراحات التي تم إنشاؤها بواسطة الذكاء الاصطناعي غير دقيقة أو تتضمن محتوى غير لائق.</item>
+        <item quantity="other">عندما تقوم بالنقر فوق زر ‏‫اقتراحات الرسالة‬، ستتم معالجة آخر %d رسالة في محادثتك عبر الإنترنت. قد تكون الاقتراحات التي تم إنشاؤها بواسطة الذكاء الاصطناعي غير دقيقة أو تتضمن محتوى غير لائق.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">تمت مشاركة %d ملف عبر Quick Share</item>
+        <item quantity="one">تمت مشاركة ملف واحد عبر Quick Share</item>
+        <item quantity="two">تمت مشاركة ملفين عبر Quick Share</item>
+        <item quantity="few">تمت مشاركة %d ملفات عبر Quick Share</item>
+        <item quantity="many">تمت مشاركة %d ملفاً عبر Quick Share</item>
+        <item quantity="other">تمت مشاركة %d ملف عبر Quick Share</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">%d بطاقة مفيدة جديدة</item>
+        <item quantity="one">بطاقة مفيدة جديدة</item>
+        <item quantity="two">بطاقتان مفيدتان جديدتان</item>
+        <item quantity="few">%d بطاقات مفيدة جديدة</item>
+        <item quantity="many">%d بطاقةً مفيدة جديدة</item>
+        <item quantity="other">%d بطاقة مفيدة جديدة</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">%d محادثة</item>
+        <item quantity="one">محادثة واحدة</item>
+        <item quantity="two">محادثتان</item>
+        <item quantity="few">%d محادثات</item>
+        <item quantity="many">%d محادثةً</item>
+        <item quantity="other">%d محادثة</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d من الرسائل</item>
+        <item quantity="other">%d من الرسائل</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">احتفظ بالرسائل المحذوفة لمدة %d يوم.</item>
+        <item quantity="one">احتفظ بالرسائل المحذوفة لمدة يوم واحد.</item>
+        <item quantity="two">احتفظ بالرسائل المحذوفة لمدة يومين.</item>
+        <item quantity="few">احتفظ بالرسائل المحذوفة لمدة %d أيام.</item>
+        <item quantity="many">احتفظ بالرسائل المحذوفة لمدة %d يوماً.</item>
+        <item quantity="other">احتفظ بالرسائل المحذوفة لمدة %d يوم.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">يمكنك التحديث مرة أخرى خلال %d دقيقة.</item>
+        <item quantity="one">يمكنك التحديث مرة أخرى خلال دقيقة.</item>
+        <item quantity="two">يمكنك التحديث مرة أخرى خلال دقيقتين.</item>
+        <item quantity="few">يمكنك التحديث مرة أخرى خلال %d دقائق.</item>
+        <item quantity="many">يمكنك التحديث مرة أخرى خلال %d دقيقةً.</item>
+        <item quantity="other">يمكنك التحديث مرة أخرى خلال %d دقيقة.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">أتريد إرسال %d رسالة الآن؟</item>
+        <item quantity="one">أتريد إرسال رسالة واحدة الآن؟</item>
+        <item quantity="two">أتريد إرسال رسالتَين الآن؟</item>
+        <item quantity="few">أتريد إرسال %d رسائل الآن؟</item>
+        <item quantity="many">أتريد إرسال %d رسالة الآن؟</item>
+        <item quantity="other">أتريد إرسال %d رسالة الآن؟</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">يتم تحديث معلوماتك. انتظر %d دقيقة على الأقل، ثم حاول مرة أخرى.</item>
+        <item quantity="one">يتم تحديث معلوماتك. انتظر دقيقة واحدة على الأقل، ثم حاول مرة أخرى.</item>
+        <item quantity="two">يتم تحديث معلوماتك. انتظر دقيقتين على الأقل، ثم حاول مرة أخرى.</item>
+        <item quantity="few">يتم تحديث معلوماتك. انتظر %d دقائق على الأقل، ثم حاول مرة أخرى.</item>
+        <item quantity="many">يتم تحديث معلوماتك. انتظر %d دقيقةً على الأقل، ثم حاول مرة أخرى.</item>
+        <item quantity="other">يتم تحديث معلوماتك. انتظر %d دقيقة على الأقل، ثم حاول مرة أخرى.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">يتعذر تثبيت أكثر من %d محادثة.</item>
+        <item quantity="one">يتعذر تثبيت أكثر من محادثة واحدة.</item>
+        <item quantity="two">يتعذر تثبيت أكثر من محادثتَين.</item>
+        <item quantity="few">يتعذر تثبيت أكثر من %d محادثات.</item>
+        <item quantity="many">يتعذر تثبيت أكثر من %d محادثة.</item>
+        <item quantity="other">يتعذر تثبيت أكثر من %d محادثة.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s و%2$d آخر</item>
+        <item quantity="other">%1$s و%2$d آخرون</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">أتريد إزالة %d بطاقة؟</item>
+        <item quantity="one">أتريد إزالة بطاقة واحدة؟</item>
+        <item quantity="two">أتريد إزالة بطاقتين؟</item>
+        <item quantity="few">أتريد %d بطاقات؟</item>
+        <item quantity="many">أتريد إزالة %d بطاقة؟</item>
+        <item quantity="other">أتريد إزالة %d بطاقة؟</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">أدخل سبباً (حتى %d حرف)</item>
+        <item quantity="one">أدخل سبباً (حتى حرف واحد)</item>
+        <item quantity="two">أدخل سبباً (حتى حرفين)</item>
+        <item quantity="few">أدخل سبباً (حتى %d أحرف)</item>
+        <item quantity="many">أدخل سبباً (حتى %d حرفاً)</item>
+        <item quantity="other">أدخل سبباً (حتى %d حرف)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">تمت جدولة %dرسالة</item>
+        <item quantity="one">تمت جدولة رسالة واحدة</item>
+        <item quantity="two">تمت جدولة رسالتين</item>
+        <item quantity="few">تمت جدولة %d رسائل</item>
+        <item quantity="many">تمت جدولة %d رسالةً</item>
+        <item quantity="other">تمت جدولة %dرسالة</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">حدد وقتاً بعد %d دقيقة من الآن على الأقل.</item>
+        <item quantity="one">حدد وقتاً بعد دقيقة واحدة من الآن على الأقل.</item>
+        <item quantity="two">حدد وقتاً بعد دقيقتَين من الآن على الأقل.</item>
+        <item quantity="few">حدد وقتاً بعد %d دقائق من الآن على الأقل.</item>
+        <item quantity="many">حدد وقتاً بعد %d دقيقة من الآن على الأقل.</item>
+        <item quantity="other">حدد وقتاً بعد %d دقيقة من الآن على الأقل.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">تم العثور على %d عملية بحث</item>
+        <item quantity="one">تم العثور على عملية بحث واحدة</item>
+        <item quantity="two">تم العثور على عمليتي بحث</item>
+        <item quantity="few">تم العثور على %d عمليات بحث</item>
+        <item quantity="many">تم العثور على %d عملية بحث</item>
+        <item quantity="other">تم العثور على %d عملية بحث</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">هل تريد نقل محادثة و%d رسالة أخرى إلى سلة المحذوفات؟</item>
+        <item quantity="one">هل تريد نقل محادثة ورسالة أخرى إلى سلة المحذوفات؟</item>
+        <item quantity="two">هل تريد نقل محادثة ورسالتين أخريين إلى سلة المحذوفات؟</item>
+        <item quantity="few">هل تريد نقل محادثة و%d رسائل أخرى إلى سلة المحذوفات؟</item>
+        <item quantity="many">هل تريد نقل محادثة و%d رسالةً أخرى إلى سلة المحذوفات؟</item>
+        <item quantity="other">هل تريد نقل محادثة و%d رسالة أخرى إلى سلة المحذوفات؟</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">هل تريد نقل %d محادثة ورسالة أخرى إلى سلة المحذوفات؟</item>
+        <item quantity="one">هل تريد نقل محادثة ورسالة أخرى إلى سلة المحذوفات؟</item>
+        <item quantity="two">هل تريد نقل محادثتين ورسالة أخرى إلى سلة المحذوفات؟</item>
+        <item quantity="few">هل تريد نقل %d محادثات ورسالة أخرى إلى سلة المحذوفات؟</item>
+        <item quantity="many">هل تريد نقل %d محادثةً ورسالة أخرى إلى سلة المحذوفات؟</item>
+        <item quantity="other">هل تريد نقل %d محادثة ورسالة أخرى إلى سلة المحذوفات؟</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">"‏‫حدد %d شخص بحد أقصى.
+(يتم عرض الأشخاص الذين يستخدمون أرقام هواتفهم في هذه المحادثة)."</item>
+        <item quantity="one">"‏‫حدد شخصاً واحداً بحد أقصى.
+(يتم عرض الأشخاص الذين يستخدمون أرقام هواتفهم في هذه المحادثة)."</item>
+        <item quantity="two">"‏‫حدد شخصين بحد أقصى.
+(يتم عرض الأشخاص الذين يستخدمون أرقام هواتفهم في هذه المحادثة)."</item>
+        <item quantity="few">"‏‫حدد %d أشخاص بحد أقصى.
+(يتم عرض الأشخاص الذين يستخدمون أرقام هواتفهم في هذه المحادثة)."</item>
+        <item quantity="many">"‏‫حدد %d شخصاً بحد أقصى.
+(يتم عرض الأشخاص الذين يستخدمون أرقام هواتفهم في هذه المحادثة)."</item>
+        <item quantity="other">"‏‫حدد %d شخص بحد أقصى.
+(يتم عرض الأشخاص الذين يستخدمون أرقام هواتفهم في هذه المحادثة)."</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">وقت النوم: %d ساعة</item>
+        <item quantity="one">وقت النوم: ساعة واحدة</item>
+        <item quantity="two">وقت النوم: ساعتان</item>
+        <item quantity="few">وقت النوم: %d ساعات</item>
+        <item quantity="many">وقت النوم: %d ساعةً</item>
+        <item quantity="other">وقت النوم: %d ساعة</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">وقت النوم: %d دقيقة</item>
+        <item quantity="one">وقت النوم: دقيقة واحدة</item>
+        <item quantity="two">وقت النوم: دقيقتان</item>
+        <item quantity="few">وقت النوم: %d دقائق</item>
+        <item quantity="many">وقت النوم: %d دقيقةً</item>
+        <item quantity="other">وقت النوم: %d دقيقة</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">يتبقى %d ساعة</item>
+        <item quantity="one">يتبقى ساعة واحدة</item>
+        <item quantity="two">يتبقى ساعتان</item>
+        <item quantity="few">يتبقى %d ساعات</item>
+        <item quantity="many">يتبقى %d ساعةً</item>
+        <item quantity="other">يتبقى %d ساعة</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">تتبقى %d دقيقة</item>
+        <item quantity="one">تتبقى دقيقة واحدة</item>
+        <item quantity="two">تتبقى دقيقتان</item>
+        <item quantity="few">تتبقى %d دقائق</item>
+        <item quantity="many">تتبقى %d دقيقةً</item>
+        <item quantity="other">تتبقى %d دقيقة</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">تبقت %d ثانية</item>
+        <item quantity="one">تبقت ثانية</item>
+        <item quantity="two">تبقت ثانيتان</item>
+        <item quantity="few">تبقت %d ثوانٍ</item>
+        <item quantity="many">تبقت %d ثانيةً</item>
+        <item quantity="other">تبقت %d ثانية</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">تم نسخ الرسالة من بطاقة SIM.</item>
+        <item quantity="other">تم نسخ الرسائل من بطاقة SIM.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">%d فئة</item>
+        <item quantity="one">فئة واحدة</item>
+        <item quantity="two">فئتان</item>
+        <item quantity="few">%d فئات</item>
+        <item quantity="many">%d فئة</item>
+        <item quantity="other">%d فئة</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">لقد حددت أكثر من %d مستلم، ما يشكل حد عدد الرسائل النصية. ابدأ دردشة جماعية لمراسلة الجميع مرة واحدة.</item>
+        <item quantity="one">لقد حددت أكثر من مستلم واحد، ما يشكل حد عدد الرسائل النصية. ابدأ دردشة جماعية لمراسلة الجميع مرة واحدة.</item>
+        <item quantity="two">لقد حددت أكثر من مستلمَين، ما يشكل حد عدد الرسائل النصية. ابدأ دردشة جماعية لمراسلة الجميع مرة واحدة.</item>
+        <item quantity="few">لقد حددت أكثر من %d مستلمين، ما يشكل حد عدد الرسائل النصية. ابدأ دردشة جماعية لمراسلة الجميع مرة واحدة.</item>
+        <item quantity="many">لقد حددت أكثر من %d مستلماً، ما يشكل حد عدد الرسائل النصية. ابدأ دردشة جماعية لمراسلة الجميع مرة واحدة.</item>
+        <item quantity="other">لقد حددت أكثر من %d مستلم، ما يشكل حد عدد الرسائل النصية. ابدأ دردشة جماعية لمراسلة الجميع مرة واحدة.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">%d رسالة إجمالاً</item>
+        <item quantity="one">رسالة واحدة إجمالاً</item>
+        <item quantity="two">رسالتان إجمالاً</item>
+        <item quantity="few">%d رسائل إجمالاً</item>
+        <item quantity="many">%d رسالةً إجمالاً</item>
+        <item quantity="other">%d رسالة إجمالاً</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">‏‫تم إلغاء حظر %d رسالة تلقائياً لأنه لم يعد اعتبار المرسلين بأنهم ضاريين.</item>
+        <item quantity="one">‏‫تم إلغاء حظر رسالة واحدة تلقائياً لأنه لم يعد اعتبار المرسلين بأنهم ضاريين.</item>
+        <item quantity="two">‏‫تم إلغاء حظر رسالتين تلقائياً لأنه لم يعد اعتبار المرسلين بأنهم ضاريين.</item>
+        <item quantity="few">‏‫تم إلغاء حظر %d رسائل تلقائياً لأنه لم يعد اعتبار المرسلين بأنهم ضاريين.</item>
+        <item quantity="many">‏‫تم إلغاء حظر %d رسالةً تلقائياً لأنه لم يعد اعتبار المرسلين بأنهم ضاريين.</item>
+        <item quantity="other">‏‫تم إلغاء حظر %d رسالة تلقائياً لأنه لم يعد اعتبار المرسلين بأنهم ضاريين.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">من %1$s و%2$d علامة تجارية أخرى</item>
+        <item quantity="one">من %1$s وعلامة تجارية واحدة أخرى</item>
+        <item quantity="two">من %1$s وعلامتين تجاريتين أخريين</item>
+        <item quantity="few">من %1$s و%2$d علامات تجارية أخرى</item>
+        <item quantity="many">من %1$s و%2$d علامةً تجاريةً أخرى</item>
+        <item quantity="other">من %1$s و%2$d علامة تجارية أخرى</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">%d رسالة تسليم غير مقروءة</item>
+        <item quantity="one">رسالة تسليم واحدة غير مقروءة</item>
+        <item quantity="two">رسالتا تسليم غير مقروءتين</item>
+        <item quantity="few">%d رسائل تسليم غير مقروءة</item>
+        <item quantity="many">%d رسالة تسليم غير مقروءة</item>
+        <item quantity="other">%d رسالة تسليم غير مقروءة</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">من %1$s و%2$d جهة اتصال أخرى</item>
+        <item quantity="one">من %1$s وجهة اتصال واحدة أخرى</item>
+        <item quantity="two">من %1$s وجهتي اتصال أخريين</item>
+        <item quantity="few">من %1$s و%2$d جهات اتصال أخرى</item>
+        <item quantity="many">من %1$s و%2$d جهة اتصال أخرى</item>
+        <item quantity="other">من %1$s و%2$d جهة اتصال أخرى</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">%1$d رسالة غير مقروءة من %2$s</item>
+        <item quantity="one">رسالة واحدة غير مقروءة من %2$s</item>
+        <item quantity="two">رسالتان غير مقروءتان من %2$s</item>
+        <item quantity="few">%1$d رسائل غير مقروءة من %2$s</item>
+        <item quantity="many">%1$d رسالةً غير مقروءة من %2$s</item>
+        <item quantity="other">%1$d رسالة غير مقروءة من %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">بما في ذلك بعض من %1$s و%2$d علامة تجارية أخرى</item>
+        <item quantity="one">بما في ذلك بعض من %1$s وعلامة تجارية واحدة أخرى</item>
+        <item quantity="two">بما في ذلك بعض من %1$s وعلامتين تجاريتين أخريين</item>
+        <item quantity="few">بما في ذلك بعض من %1$s و%2$d علامات تجارية أخرى</item>
+        <item quantity="many">بما في ذلك بعض من %1$s و%2$d علامةً تجاريةً أخرى</item>
+        <item quantity="other">بما في ذلك بعض من %1$s و%2$d علامة تجارية أخرى</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">بما في ذلك %d رسالة تسليم</item>
+        <item quantity="one">بما في ذلك رسالة تسليم واحدة</item>
+        <item quantity="two">بما في ذلك رسالتي تسليم</item>
+        <item quantity="few">بما في ذلك %d رسائل تسليم</item>
+        <item quantity="many">بما في ذلك %d رسالة تسليم</item>
+        <item quantity="other">بما في ذلك %d رسالة تسليم</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">بما في ذلك بعض من %1$s و%2$d جهة اتصال أخرى</item>
+        <item quantity="one">بما في ذلك بعض من %1$s وجهة اتصال واحدة أخرى</item>
+        <item quantity="two">بما في ذلك بعض من %1$s وجهتي اتصال أخريين</item>
+        <item quantity="few">بما في ذلك بعض من %1$s و%2$d جهات اتصال أخرى</item>
+        <item quantity="many">بما في ذلك بعض من %1$s و%2$d جهة اتصال أخرى</item>
+        <item quantity="other">بما في ذلك بعض من %1$s و%2$d جهة اتصال أخرى</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">%d رسالة غير مقروءة</item>
+        <item quantity="one">رسالة غير مقروءة واحدة</item>
+        <item quantity="two">رسالتان غير مقروئتين</item>
+        <item quantity="few">%d رسائل غير مقروءة</item>
+        <item quantity="many">%d رسالة غير مقروءة</item>
+        <item quantity="other">%d رسالة غير مقروءة</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">%d رسالة غير مقروءة</item>
+        <item quantity="one">رسالة واحدة غير مقروءة</item>
+        <item quantity="two">رسالتان غير مقروءتَين</item>
+        <item quantity="few">%d رسائل غير مقروءة</item>
+        <item quantity="many">%d رسالة غير مقروءة</item>
+        <item quantity="other">%d رسالة غير مقروءة</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">%d تنبيه قادم اليوم</item>
+        <item quantity="one">تنبيه واحد قادم اليوم</item>
+        <item quantity="two">تنبيهان قادمان اليوم</item>
+        <item quantity="few">%d تنبيهات قادمة اليوم</item>
+        <item quantity="many">%d تنبيهاً قادم اليوم</item>
+        <item quantity="other">%d تنبيه قادم اليوم</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">تم حفظ %d مقطع فيديو على هاتفك.</item>
+        <item quantity="one">تم حفظ مقطع فيديو واحد على هاتفك.</item>
+        <item quantity="two">تم حفظ مقطعَي فيديو على هاتفك.</item>
+        <item quantity="few">تم حفظ %d مقاطع فيديو على هاتفك.</item>
+        <item quantity="many">تم حفظ %d مقطع فيديو على هاتفك.</item>
+        <item quantity="other">تم حفظ %d مقطع فيديو على هاتفك.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">لقد تلقيت %1$s%2$d رسالة اليوم حول عملية تسليم%3$s.</item>
+        <item quantity="one">لقد تلقيت %1$sرسالة واحدة اليوم حول عملية تسليم%3$s.</item>
+        <item quantity="two">لقد تلقيت %1$sرسالتين اليوم حول عملية تسليم%3$s.</item>
+        <item quantity="few">لقد تلقيت %1$s%2$d رسائل اليوم حول عملية تسليم%3$s.</item>
+        <item quantity="many">لقد تلقيت %1$s%2$d رسالةً اليوم حول عملية تسليم%3$s.</item>
+        <item quantity="other">لقد تلقيت %1$s%2$d رسالة اليوم حول عملية تسليم%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">لقد تلقيت %1$s%2$d رسالة اليوم حول عمليات تسليم%3$s.</item>
+        <item quantity="one">لقد تلقيت %1$sرسالة واحدة اليوم حول عمليات تسليم%3$s.</item>
+        <item quantity="two">لقد تلقيت %1$sرسالتين اليوم حول عمليات تسليم%3$s.</item>
+        <item quantity="few">لقد تلقيت %1$s%2$d رسائل اليوم حول عمليات تسليم%3$s.</item>
+        <item quantity="many">لقد تلقيت %1$s%2$d رسالةً اليوم حول عمليات تسليم%3$s.</item>
+        <item quantity="other">لقد تلقيت %1$s%2$d رسالة اليوم حول عمليات تسليم%3$s.</item>
+    </plurals>
+</resources>

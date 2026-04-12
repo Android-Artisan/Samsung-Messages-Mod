@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.attachsheet.others.AttachSheetOthersView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/attach_others_view" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/others_reorder_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_alignParentBottom="true">
+        <com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar android:id="@id/floating_bottom_layout" android:paddingTop="20.0dp" android:paddingBottom="13.0dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:clipToOutline="false">
+            <com.google.android.material.oneui.dividerbuttonlayout.DividerButtonLayout android:layout_gravity="center_horizontal" android:id="@id/bottom_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar>
+    </LinearLayout>
+</com.samsung.android.messaging.ui.view.composer.attachsheet.others.AttachSheetOthersView>

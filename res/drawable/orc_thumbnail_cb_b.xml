@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <com.samsung.android.spr.drawable.SprDrawable android:src="@drawable/orc_thumbnail_cb_b_spr" android:tint="@color/avatar_cb_wab_tint_color" />
+    </item>
+</layer-list>

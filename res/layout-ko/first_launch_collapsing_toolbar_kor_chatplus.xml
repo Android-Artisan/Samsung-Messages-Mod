@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:background="@color/list_activity_background_color" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_scrollFlags="scroll|enterAlways" app:subtitle=" " app:title="@string/app_name" style="@style/CustomCollapsingToolbarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/FirstLaunch.ActionBar" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height" app:layout_collapseMode="pin">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/kor_toolbar_title_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/kor_toolbar_logo" android:layout_width="48.0dp" android:layout_height="23.0dp" android:src="@drawable/first_launch_kor_appbar_chatplus_kr" android:scaleType="fitXY" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.CollapsingToolbarLayout>

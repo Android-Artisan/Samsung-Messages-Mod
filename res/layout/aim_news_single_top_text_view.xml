@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.extension.chn.announcement.fontdo.view.aimview.AimTextImageCardView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/background_circle" android:paddingTop="@dimen/component_frame_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:layout_marginTop="0.0dp" style="@style/text_title" />
+        <TextView android:id="@id/content" android:maxLines="18" style="@style/text_context" />
+        <include layout="@layout/aim_btn_layout" />
+    </LinearLayout>
+    <include layout="@layout/aim_ad_image" />
+</com.samsung.android.messaging.extension.chn.announcement.fontdo.view.aimview.AimTextImageCardView>

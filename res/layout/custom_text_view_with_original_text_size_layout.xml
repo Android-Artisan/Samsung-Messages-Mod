@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.CustomTextViewWithOriginalTextSize android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/content_text_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:id="@id/view_all_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+        <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="12.0dp" android:textColor="@color/rich_card_main_text" android:gravity="center_vertical" android:id="@id/view_all_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_all" />
+        <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/view_all_go" android:layout_width="15.0dp" android:layout_height="15.0dp" android:src="@drawable/orc_ic_close" android:tint="@color/rich_card_main_text" />
+    </LinearLayout>
+</com.samsung.android.messaging.ui.view.bubble.item.CustomTextViewWithOriginalTextSize>

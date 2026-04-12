@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="0.0dp" android:topRightRadius="0.0dp" android:bottomLeftRadius="0.0dp" android:bottomRightRadius="@dimen/bubble_wallet_mark_radius_bottom_right" />
+    <solid android:color="@color/bubble_image_coupon_add_to_wallet_mark_bg" />
+</shape>

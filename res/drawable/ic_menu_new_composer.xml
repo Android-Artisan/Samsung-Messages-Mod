@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="26.0" android:viewportHeight="26.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M15.887,20.861C15.005,20.955 14.074,20.988 13.111,20.988C12.164,20.988 11.247,20.956 10.378,20.866C9.136,22.031 7.862,22.734 6.557,22.976C6.143,23.053 5.936,22.945 6.173,22.628L6.335,22.403C6.534,22.107 6.756,21.695 6.848,21.156C6.929,20.678 6.891,20.261 6.731,19.905C6.235,19.659 5.779,19.357 5.369,18.989C3.891,17.665 3,15.5 3,11.994C3,8.488 3.89,6.323 5.369,4.999C7.146,3.406 9.773,3.03 12.724,3.002L13.111,3C16.219,3 18.999,3.337 20.853,4.999C22.332,6.323 23.222,8.488 23.222,11.994C23.222,12.913 23.161,13.74 23.044,14.484" android:strokeColor="@color/theme_toolbar_menu_icon_color" android:strokeWidth="1.62" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M18.944,20.023L24,20.023" android:strokeColor="@color/theme_toolbar_menu_icon_color" android:strokeWidth="1.296" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M21.472,22.523L21.472,17.523" android:strokeColor="@color/theme_toolbar_menu_icon_color" android:strokeWidth="1.296" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+</vector>

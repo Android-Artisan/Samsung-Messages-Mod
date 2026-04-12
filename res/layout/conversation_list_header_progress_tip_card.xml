@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/conversation_progress_tip_card_layout" android:paddingBottom="@dimen/list_sync_progress_layout_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/list_sync_progress_layout_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="center_vertical" android:id="@id/tip_card_progressbar" android:layout_width="@dimen/list_sync_progress_icon_size" android:layout_height="@dimen/list_sync_progress_icon_size" android:indeterminate="true" android:layout_marginEnd="@dimen/list_sync_progress_icon_margin_end" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/list_sync_progress_text_font_size" android:textColor="@color/theme_list_description_text_color" android:layout_gravity="center_vertical" android:id="@id/tip_card_guide_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversation_header_progress_tipcard_title" android:layout_marginVertical="@dimen/list_sync_progress_text_margin_vertical" />
+</LinearLayout>

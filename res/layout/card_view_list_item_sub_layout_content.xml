@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/list_item_content" android:tag="layout/card_view_list_item_sub_layout_content_0" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.widget.ListItemTextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/card_view_list_item_content_text_size" android:textColor="@color/theme_list_sub_text_color" android:ellipsize="end" android:gravity="start" android:id="@id/text_content" android:tag="binding_1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" app:emojiCompatEnabled="false" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/content_icon_view" android:tag="binding_2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/content_icon_image" android:visibility="gone" android:layout_width="@dimen/card_view_list_item_content_image_size" android:layout_height="@dimen/card_view_list_item_content_image_size" android:tint="@color/theme_list_sub_text_color" android:layout_marginEnd="5.0dp" />
+        <ViewStub android:id="@id/content_icon_sticker_container_stub" android:layout="@layout/card_view_list_item_sub_layout_content_for_sticker" android:layout_width="@dimen/card_view_list_item_content_sticker_size" android:layout_height="@dimen/card_view_list_item_content_sticker_size" android:layout_marginEnd="4.0dp" />
+        <TextView android:textSize="@dimen/card_view_list_item_list_message_status" android:textColor="@color/theme_list_sub_text_color" android:ellipsize="end" android:id="@id/content_icon_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

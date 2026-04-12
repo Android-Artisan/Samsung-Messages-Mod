@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/component_frame_margin" android:paddingRight="@dimen/component_frame_margin" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/verification_origin_msg" android:layout_width="match_parent" style="@style/announcement_card_sub_text_style" />
+    <TextView android:id="@id/tip_msg" android:layout_width="match_parent" android:layout_marginTop="@dimen/component_frame_padding_10dp" android:text="@string/verification_tip" style="@style/announcement_card_sub_text_style" />
+</LinearLayout>

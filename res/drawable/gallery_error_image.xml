@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/image_error_image_background_color" />
+            <size android:height="@dimen/gallery_grid_item_width" android:width="@dimen/gallery_grid_item_width" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/image_error_icon_size" android:width="@dimen/image_error_icon_size">
+        <bitmap android:src="@drawable/orc_ic_error" android:tint="@color/image_error_icon_tint_color" />
+    </item>
+</layer-list>

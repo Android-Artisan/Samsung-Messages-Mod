@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/NewSECRegular" android:textSize="12.0sp" android:textColor="@color/theme_bubble_sender_info_color" android:layout_gravity="center_vertical" android:id="@id/bubble_sender_name" android:paddingBottom="2.0dp" android:layout_width="match_parent" android:layout_height="16.0dp" android:maxLines="1" android:singleLine="true" android:layout_marginStart="11.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

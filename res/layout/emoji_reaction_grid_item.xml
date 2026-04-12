@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="28.0dp" android:layout_margin="7.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/reaction_item_selected" android:background="@drawable/reaction_selected_shape_for_custom_reaction" android:visibility="invisible" android:layout_width="28.0dp" android:layout_height="28.0dp" />
+    <TextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/emoji_text_view" android:layout_width="28.0dp" android:layout_height="28.0dp" android:textAlignment="center" android:autoSizeTextType="uniform" />
+</FrameLayout>

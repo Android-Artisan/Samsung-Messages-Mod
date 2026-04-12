@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="attachsheet_item_min_width">115.0dp</dimen>
+</resources>

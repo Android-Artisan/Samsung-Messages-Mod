@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 giờ</item>
+        <item>6 giờ</item>
+        <item>24 giờ</item>
+        <item>2 ngày</item>
+        <item>Mặc định mạng</item>
+        <item>Tối đa</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>File gốc</item>
+        <item>Cao</item>
+        <item>Trung bình</item>
+        <item>Thấp</item>
+        <item>Luôn luôn hỏi</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>File gốc</item>
+        <item>Chất lượng cao</item>
+        <item>Chất lượng bình thường</item>
+        <item>Độ phân giải thấp</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Tất cả các kênh</item>
+        <item>Kênh của bạn</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Tự động</item>
+        <item>Văn bản hoặc đa phương tiện</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Tự động</item>
+        <item>Văn bản hoặc đa phương tiện</item>
+        <item>Tin nhắn chat RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Chặn</item>
+        <item>Hỏi trước</item>
+        <item>Cho phép</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Luôn luôn</item>
+        <item>Hỏi trước</item>
+        <item>Không bao giờ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Ký tự GSM</item>
+        <item>Unicode</item>
+        <item>Tự động</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Gửi lại dưới dạng tin nhắn văn bản hoặc đa phương tiện</item>
+        <item>Không gửi lại</item>
+        <item>Hỏi trước khi gửi lại</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Sử dụng tin nhắn SMS hoặc MMS</item>
+        <item>Không gửi lại</item>
+        <item>Luôn luôn hỏi</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Gốc</item>
+        <item>Mạng mặc định</item>
+        <item>Luôn hỏi</item>
+    </string-array>
+</resources>

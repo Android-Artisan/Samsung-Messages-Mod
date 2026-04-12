@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/component_frame_padding_10dp" />
+    <solid android:color="@color/theme_announcement_card_more_train_bg_color" />
+</androidx.appcompat.util.SeslShapeDrawable>

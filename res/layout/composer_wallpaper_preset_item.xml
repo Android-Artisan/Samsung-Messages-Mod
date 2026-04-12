@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/composer_wallpaper_preset_item_0" android:padding="@dimen/preset_item_padding" android:focusable="true" android:layout_width="@dimen/preset_item_layout_width_height" android:layout_height="@dimen/preset_item_layout_width_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/preset_item_mono_color" android:tag="binding_1" android:background="@drawable/composer_bg_preset_background_shape" android:layout_width="@dimen/preset_item_width_height" android:layout_height="@dimen/preset_item_width_height" android:scaleType="fitCenter" android:tintMode="src_over" android:outlineProvider="background" />
+    <ImageView android:layout_gravity="center" android:id="@id/preset_item_selected" android:tag="binding_2" android:layout_width="@dimen/preset_item_stroke_width_height" android:layout_height="@dimen/preset_item_stroke_width_height" android:src="@drawable/composer_bg_preset_selected_shape" android:scaleType="fitCenter" />
+</FrameLayout>

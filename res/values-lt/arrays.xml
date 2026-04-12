@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 valanda</item>
+        <item>6 valandos</item>
+        <item>24 valandų</item>
+        <item>2 dienos</item>
+        <item>Numatytasis tinklas</item>
+        <item>Daugiausiai</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Originalas</item>
+        <item>Aukštas</item>
+        <item>Vidutinė</item>
+        <item>Žema</item>
+        <item>Visada klausti</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Originalas</item>
+        <item>Aukšta kokybė</item>
+        <item>Įprasta kokybė</item>
+        <item>Maža raiška</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Visi kanalai</item>
+        <item>Mano kanalas</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatinis</item>
+        <item>Tekstas arba multimedija</item>
+        <item>Pokalbis</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatinis</item>
+        <item>Tekstas arba multimedija</item>
+        <item>RCS pokalbio žinutes</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokuoti</item>
+        <item>Pirma paklausti</item>
+        <item>Leisti</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Visada</item>
+        <item>Raginimas</item>
+        <item>Niekada</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM abėcėlė</item>
+        <item>Unikodas</item>
+        <item>Automatinis</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Siųsti dar kartą kaip teksto arba multimedijos žinutę</item>
+        <item>Nepersiųsti</item>
+        <item>Prieš siunčiant pakartotinai klausti</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Naud. teksto ar multim. žin.</item>
+        <item>Nepersiųsti</item>
+        <item>Visada klausti</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Originalas</item>
+        <item>Tinklas neveikia</item>
+        <item>Visada klausti</item>
+    </string-array>
+</resources>

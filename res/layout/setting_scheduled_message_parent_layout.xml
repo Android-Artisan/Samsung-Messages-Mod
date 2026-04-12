@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/setting_scheduled_message_layout" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/schedule_set_time_layout" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/scheduled_set_time_layout_margin_bottom" android:minHeight="@dimen/scheduled_set_time_layout_height" android:layout_weight="0.0">
+        <CheckBox android:id="@id/schedule_set_time_checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/check_box_margin_start_end" />
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/scheduled_dialog_text_size" android:textColor="@color/theme_picker_title_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/scheduled_picker_dialog_check_box_text" android:layout_marginEnd="@dimen/check_box_text_margin_end" android:elegantTextHeight="false" />
+    </LinearLayout>
+</LinearLayout>

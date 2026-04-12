@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <stroke android:width="0.30000007dp" android:color="@color/theme_drawer_shared_content_preview_item_stroke_color" />
+            <solid android:color="@color/theme_drawer_shared_content_preview_item_bg_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+</layer-list>

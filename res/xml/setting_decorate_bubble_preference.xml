@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.setting.widget.SettingSwitchBarPreference android:layout="@layout/setting_preference_switch_bar_layout" android:key="pref_key_setting_decorate_bubble_switch_bar" />
+    <PreferenceCategory android:layout="@layout/setting_decorate_bubble_description_layout" android:key="pref_key_setting_decorate_bubble_description" />
+</androidx.preference.PreferenceScreen>

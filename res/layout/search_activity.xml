@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_layout_container" android:background="@color/theme_control_area_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/search_result" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/search_recycle_list_view" android:visibility="gone" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="yes" />
+        <androidx.core.widget.NestedScrollView android:id="@id/search_list_state_layout" android:background="@color/theme_control_area_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <ProgressBar android:id="@id/search_list_state_progress_bar" android:visibility="gone" android:layout_width="@dimen/search_progress_bar_size" android:layout_height="@dimen/search_progress_bar_size" android:layout_centerInParent="true" />
+                <TextView android:textAppearance="@style/TextAppearanceNoSearchItem" android:gravity="center" android:id="@id/search_list_state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_results_found" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+        <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ProgressBar android:id="@id/search_paging_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/search_main_recycler_view" android:background="@color/theme_control_area_bg_color" android:visibility="visible" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" android:importantForAccessibility="yes" />
+    <RelativeLayout android:id="@id/empty_search_string_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="@style/TextAppearanceNoItem" android:gravity="center" android:id="@id/empty_recent_search_string" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_no_items" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

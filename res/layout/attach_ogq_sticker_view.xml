@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.attachsheet.ogq.AttachSheetOgqStickerView android:id="@id/attach_sheet_ogq_sticker_view" android:background="@color/theme_attach_sheet_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/container_divider_line" android:background="@color/theme_list_divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ogq_header_view" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_below="@id/container_divider_line">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/sticker_list_recyclerview" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <View android:id="@id/shop_divider_line" android:background="@color/theme_list_divider_color" android:layout_width="1.0dp" android:layout_height="match_parent" android:layout_marginVertical="3.0dp" />
+        <ImageButton android:id="@id/shop_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="50.0dp" android:layout_height="50.0dp" android:src="@drawable/ic_ogq_web_store" android:tint="@color/theme_picker_tab_unselected_icon_color" android:contentDescription="@string/attach_sheet_ogq_store_button_description" android:tooltipText="@string/attach_sheet_ogq_store_button_description" />
+    </LinearLayout>
+    <View android:id="@id/content_divider_line" android:background="@color/theme_list_divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_below="@id/ogq_header_view" />
+    <com.samsung.android.messaging.ui.view.widget.ListViewPager android:id="@id/ogq_view_pager" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/content_divider_line" />
+</com.samsung.android.messaging.ui.view.composer.attachsheet.ogq.AttachSheetOgqStickerView>

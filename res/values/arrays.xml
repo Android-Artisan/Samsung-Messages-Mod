@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alive_offer_types">
+        <item>@string/alive_all_offers</item>
+        <item>@string/alive_food_offers</item>
+        <item>@string/alive_hotel_offers</item>
+        <item>@string/alive_shopping_offers</item>
+        <item>@string/alive_cab_offers</item>
+        <item>@string/alive_flight_offers</item>
+        <item>@string/alive_movie_offers</item>
+        <item>@string/alive_other_offers</item>
+    </string-array>
+    <string-array name="common_entry_values_0_2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="common_entry_values_0_5">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <array name="composer_background_brightness_value_array">
+        <item>@color/composer_bg_setting_brightness_seekbar0</item>
+        <item>@color/composer_bg_setting_brightness_seekbar1</item>
+        <item>@color/composer_bg_setting_brightness_seekbar2</item>
+        <item>@color/composer_bg_setting_brightness_seekbar3</item>
+    </array>
+    <array name="composer_background_default_color_array">
+        <item>@color/composer_bg_default_color1</item>
+        <item>@color/composer_bg_default_color1</item>
+        <item>@color/composer_bg_default_color2</item>
+        <item>@color/composer_bg_default_color2</item>
+    </array>
+    <array name="composer_background_preset_item_array">
+        <item>@drawable/composer_bg_preset_item_background_default</item>
+        <item>@drawable/composer_bg_preset_item_background_default</item>
+        <item>@drawable/composer_bg_preset_item_background1</item>
+        <item>@drawable/composer_bg_preset_item_background2</item>
+        <item>@drawable/composer_bg_preset_item_background3</item>
+        <item>@drawable/composer_bg_preset_item_background4</item>
+        <item>@drawable/composer_bg_preset_item_background5</item>
+    </array>
+    <array name="composer_custom_statusbar_preset_value_array">
+        <item>@color/composer_bg_statusbar_color_preset1</item>
+        <item>@color/composer_bg_statusbar_color_preset2</item>
+        <item>@color/composer_bg_statusbar_color_preset3</item>
+        <item>@color/composer_bg_statusbar_color_preset4</item>
+        <item>@color/composer_bg_statusbar_color_preset5</item>
+    </array>
+    <string-array name="composer_reaction_description_type">
+        <item>@string/thumb_up</item>
+        <item>@string/heart</item>
+        <item>@string/ok_hand_sign</item>
+        <item>@string/smiley_face</item>
+        <item>@string/thinking_face</item>
+        <item>@string/crying_face</item>
+        <item>@string/thumb_down</item>
+    </string-array>
+    <string-array name="composer_reaction_type">
+        <item>👍</item>
+        <item>❤</item>
+        <item>👌</item>
+        <item>😄</item>
+        <item>🤔</item>
+        <item>😭</item>
+        <item>👎</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Reserved</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 hour</item>
+        <item>6 hours</item>
+        <item>24 hours</item>
+        <item>2 days</item>
+        <item>Network default</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="finance_type_entries">
+        <item>@string/offercards_tab3_all</item>
+        <item>@string/credit</item>
+        <item>@string/debit</item>
+    </string-array>
+    <string-array name="gallery_resolution_popup_global_str_list">
+        <item>@string/resolution_full</item>
+        <item>@string/resolution_high</item>
+        <item>@string/resolution_normal</item>
+    </string-array>
+    <array name="group_chat_preset_images">
+        <item>@drawable/contacts_photoid_animal_list_1</item>
+        <item>@drawable/contacts_photoid_animal_list_2</item>
+        <item>@drawable/contacts_photoid_animal_list_3</item>
+        <item>@drawable/contacts_photoid_animal_list_4</item>
+        <item>@drawable/contacts_photoid_animal_list_5</item>
+        <item>@drawable/contacts_photoid_animal_list_6</item>
+        <item>@drawable/contacts_photoid_animal_list_7</item>
+        <item>@drawable/contacts_photoid_animal_list_8</item>
+        <item>@drawable/contacts_photoid_animal_list_9</item>
+        <item>@drawable/contacts_photoid_animal_list_10</item>
+        <item>@drawable/contacts_photoid_nature_list_1</item>
+        <item>@drawable/contacts_photoid_nature_list_2</item>
+        <item>@drawable/contacts_photoid_nature_list_3</item>
+        <item>@drawable/contacts_photoid_nature_list_4</item>
+        <item>@drawable/contacts_photoid_nature_list_5</item>
+        <item>@drawable/contacts_photoid_nature_list_6</item>
+        <item>@drawable/contacts_photoid_nature_list_7</item>
+        <item>@drawable/contacts_photoid_nature_list_8</item>
+        <item>@drawable/contacts_photoid_nature_list_9</item>
+        <item>@drawable/contacts_photoid_nature_list_10</item>
+        <item>@drawable/contacts_photoid_lifestyle_list_1</item>
+        <item>@drawable/contacts_photoid_lifestyle_list_2</item>
+        <item>@drawable/contacts_photoid_lifestyle_list_3</item>
+        <item>@drawable/contacts_photoid_lifestyle_list_4</item>
+        <item>@drawable/contacts_photoid_lifestyle_list_5</item>
+        <item>@drawable/contacts_photoid_lifestyle_list_6</item>
+        <item>@drawable/contacts_photoid_lifestyle_list_7</item>
+        <item>@drawable/contacts_photoid_lifestyle_list_8</item>
+        <item>@drawable/contacts_photoid_lifestyle_list_9</item>
+        <item>@drawable/contacts_photoid_lifestyle_list_10</item>
+        <item>@drawable/contacts_photoid_object_list_1</item>
+        <item>@drawable/contacts_photoid_object_list_2</item>
+        <item>@drawable/contacts_photoid_object_list_3</item>
+        <item>@drawable/contacts_photoid_object_list_4</item>
+        <item>@drawable/contacts_photoid_object_list_6</item>
+        <item>@drawable/contacts_photoid_object_list_7</item>
+        <item>@drawable/contacts_photoid_object_list_9</item>
+        <item>@drawable/contacts_photoid_object_list_10</item>
+    </array>
+    <string-array name="group_chat_preset_images_name">
+        <item>@string/description_preset_image_1</item>
+        <item>@string/description_preset_image_2</item>
+        <item>@string/description_preset_image_3</item>
+        <item>@string/description_preset_image_4</item>
+        <item>@string/description_preset_image_5</item>
+        <item>@string/description_preset_image_6</item>
+        <item>@string/description_preset_image_7</item>
+        <item>@string/description_preset_image_8</item>
+        <item>@string/description_preset_image_9</item>
+        <item>@string/description_preset_image_10</item>
+        <item>@string/description_preset_image_11</item>
+        <item>@string/description_preset_image_12</item>
+        <item>@string/description_preset_image_13</item>
+        <item>@string/description_preset_image_14</item>
+        <item>@string/description_preset_image_15</item>
+        <item>@string/description_preset_image_16</item>
+        <item>@string/description_preset_image_17</item>
+        <item>@string/description_preset_image_18</item>
+        <item>@string/description_preset_image_19</item>
+        <item>@string/description_preset_image_20</item>
+        <item>@string/description_preset_image_21</item>
+        <item>@string/description_preset_image_22</item>
+        <item>@string/description_preset_image_23</item>
+        <item>@string/description_preset_image_24</item>
+        <item>@string/description_preset_image_25</item>
+        <item>@string/description_preset_image_26</item>
+        <item>@string/description_preset_image_27</item>
+        <item>@string/description_preset_image_28</item>
+        <item>@string/description_preset_image_29</item>
+        <item>@string/description_preset_image_30</item>
+        <item>@string/description_preset_image_31</item>
+        <item>@string/description_preset_image_32</item>
+        <item>@string/description_preset_image_33</item>
+        <item>@string/description_preset_image_34</item>
+        <item>@string/description_preset_image_35</item>
+        <item>@string/description_preset_image_36</item>
+        <item>@string/description_preset_image_37</item>
+        <item>@string/description_preset_image_38</item>
+    </string-array>
+    <string-array name="hosts_allowlist_sample">
+        <item>fdb00c43dbde8b51cb312aa81d3b5fa17713adb94b28f598d77f8eb89daceedf, com.google.android.projection.gearhead</item>
+        <item>70811a3eacfd2e83e18da9bfede52df16ce91f2e69a44d21f18ab66991130771, com.google.android.projection.gearhead</item>
+        <item>1975b2f17177bc89a5dff31f9e64a6cae281a53dc1d1d59b1d147fe1c82afa00, com.google.android.projection.gearhead</item>
+        <item>c241ffbc8e287c4e9a4ad19632ba1b1351ad361d5177b7d7b29859bd2b7fc631, com.google.android.apps.automotive.templates.host</item>
+        <item>dd66deaf312d8daec7adbe85a218ecc8c64f3b152f9b5998d5b29300c2623f61, com.google.android.apps.automotive.templates.host</item>
+        <item>50e603d333c6049a37bd751375d08f3bd0abebd33facd30bd17b64b89658b421, com.google.android.apps.automotive.templates.host</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Original</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <item>Always ask</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Original</item>
+        <item>High quality</item>
+        <item>Normal quality</item>
+        <item>Low resolution</item>
+    </string-array>
+    <string-array name="index_string_favorite_array_compare_stroke">
+        <item>Favorites</item>
+        <item>Groups</item>
+        <item>&amp;</item>
+        <item>1劃</item>
+        <item>2劃</item>
+        <item>3劃</item>
+        <item>4劃</item>
+        <item>5劃</item>
+        <item>6劃</item>
+        <item>7劃</item>
+        <item>8劃</item>
+        <item>9劃</item>
+        <item>10劃</item>
+        <item>11劃</item>
+        <item>12劃</item>
+        <item>13劃</item>
+        <item>14劃</item>
+        <item>15劃</item>
+        <item>16劃</item>
+        <item>17劃</item>
+        <item>18劃</item>
+        <item>19劃</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="index_string_favorite_array_compare_stroke_no_favorite">
+        <item>Groups</item>
+        <item>&amp;</item>
+        <item>1劃</item>
+        <item>2劃</item>
+        <item>3劃</item>
+        <item>4劃</item>
+        <item>5劃</item>
+        <item>6劃</item>
+        <item>7劃</item>
+        <item>8劃</item>
+        <item>9劃</item>
+        <item>10劃</item>
+        <item>11劃</item>
+        <item>12劃</item>
+        <item>13劃</item>
+        <item>14劃</item>
+        <item>15劃</item>
+        <item>16劃</item>
+        <item>17劃</item>
+        <item>18劃</item>
+        <item>19劃</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="index_string_favorite_array_compare_stroke_no_favorite_no_groups">
+        <item>1劃</item>
+        <item>2劃</item>
+        <item>3劃</item>
+        <item>4劃</item>
+        <item>5劃</item>
+        <item>6劃</item>
+        <item>7劃</item>
+        <item>8劃</item>
+        <item>9劃</item>
+        <item>10劃</item>
+        <item>11劃</item>
+        <item>12劃</item>
+        <item>13劃</item>
+        <item>14劃</item>
+        <item>15劃</item>
+        <item>16劃</item>
+        <item>17劃</item>
+        <item>18劃</item>
+        <item>19劃</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="index_string_favorite_array_compare_stroke_no_groups">
+        <item>Favorites</item>
+        <item>&amp;</item>
+        <item>1劃</item>
+        <item>2劃</item>
+        <item>3劃</item>
+        <item>4劃</item>
+        <item>5劃</item>
+        <item>6劃</item>
+        <item>7劃</item>
+        <item>8劃</item>
+        <item>9劃</item>
+        <item>10劃</item>
+        <item>11劃</item>
+        <item>12劃</item>
+        <item>13劃</item>
+        <item>14劃</item>
+        <item>15劃</item>
+        <item>16劃</item>
+        <item>17劃</item>
+        <item>18劃</item>
+        <item>19劃</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="index_string_favorite_array_stroke">
+        <item>☆</item>
+        <item>👥︎</item>
+        <item>&amp;</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="index_string_favorite_array_stroke_no_favorite">
+        <item>👥︎</item>
+        <item>&amp;</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="index_string_favorite_array_stroke_no_favorite_no_groups">
+        <item>&amp;</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="index_string_favorite_array_stroke_no_groups">
+        <item>☆</item>
+        <item>&amp;</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="message_editor_camera_chooser_str">
+        <item>@string/message_editor_camera_picture</item>
+        <item>@string/message_editor_camera_video</item>
+    </string-array>
+    <string-array name="message_type">
+        <item>@string/header_group_chat</item>
+        <item>@string/setting_send_message_individually</item>
+    </string-array>
+    <string-array name="offercards_tabs">
+        <item>@string/offercards_tab3_reminders</item>
+        <item>@string/offercards_tab3_offers</item>
+        <item>@string/offercards_tab3_finance</item>
+    </string-array>
+    <string-array name="pref_entries_auto_download_file_transfer">
+        <item>Automatically accept all</item>
+        <item>Automatically accept files less than %s MB in size</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>All channels</item>
+        <item>My channel</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatic</item>
+        <item>Text or multimedia</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatic</item>
+        <item>Text or multimedia</item>
+        <item>RCS chat messages</item>
+    </string-array>
+    <string-array name="pref_entries_file_transfer_multimedia_limit">
+        <item>Automatically send/receive all files</item>
+        <item>Warn me when trying to send/receive files greater than %dMB</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>@string/multimedia_message_block</item>
+        <item>@string/multimedia_message_ask_first</item>
+        <item>@string/multimedia_message_allow</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Always</item>
+        <item>Prompt</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>@string/msg_opt_0day</item>
+        <item>@string/msg_opt_1day</item>
+        <item>@string/msg_opt_2day</item>
+        <item>@string/msg_opt_3day</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM alphabet</item>
+        <item>Unicode</item>
+        <item>Automatic</item>
+    </string-array>
+    <integer-array name="pref_entry_values_auto_download_file_transfer">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="pref_entry_values_cb_selection">
+        <item>All channels</item>
+        <item>My channel</item>
+    </string-array>
+    <string-array name="pref_entry_values_mms_creation_mode">
+        <item>restricted</item>
+        <item>warning</item>
+        <item>free</item>
+    </string-array>
+    <string-array name="pref_entry_values_service_loading_action">
+        <item>Always</item>
+        <item>Prompt</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_entry_values_sms_expiry_date">
+        <item>0 day</item>
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+    </string-array>
+    <string-array name="pref_entry_values_sms_input_mode">
+        <item>GSM alphabet</item>
+        <item>Unicode</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="pref_set_period">
+        <item>Never</item>
+        <item>10</item>
+        <item>30</item>
+        <item>90</item>
+        <item>Customize</item>
+    </string-array>
+    <string-array name="preset_image_content_descriptions">
+        <item>@string/preset_wallpaper</item>
+        <item>@string/open_gallery</item>
+        <item>@string/pink_gradient</item>
+        <item>@string/yellow_gradient</item>
+        <item>@string/green_gradient</item>
+        <item>@string/blue_gradient</item>
+        <item>@string/violet_gradient</item>
+    </string-array>
+    <string-array name="quick_responses_templates_from_string">
+        <item>@string/quick_responses_template1</item>
+        <item>@string/quick_responses_template2</item>
+        <item>@string/quick_responses_template3</item>
+        <item>@string/quick_responses_template4</item>
+        <item>@string/quick_responses_template5</item>
+        <item>@string/quick_responses_template6</item>
+        <item>@string/quick_responses_template7</item>
+        <item>@string/quick_responses_template8</item>
+        <item>@string/quick_responses_template9</item>
+    </string-array>
+    <string-array name="report_chatbot_templates_from_string">
+        <item>@string/report_chatbot_template1</item>
+        <item>@string/report_chatbot_template2</item>
+        <item>@string/report_chatbot_template3</item>
+        <item>@string/report_chatbot_template4</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>domestic</item>
+    </string-array>
+    <string-array name="smart_call_support_country_code">
+        <item>1,US</item>
+        <item>1,CA</item>
+        <item>39,IT</item>
+        <item>52,MX</item>
+        <item>55,BR</item>
+        <item>44,GB</item>
+        <item>33,FR</item>
+        <item>90,TR</item>
+        <item>46,SE</item>
+        <item>852,HK</item>
+        <item>65,SG</item>
+        <item>61,AU</item>
+        <item>972,IL</item>
+        <item>971,AE</item>
+        <item>34,ES</item>
+        <item>49,DE</item>
+        <item>63,PH</item>
+        <item>82,KR</item>
+    </string-array>
+    <string-array name="sprint_templates_from_string">
+        <item>@string/quick_responses_template_sprint1</item>
+        <item>@string/quick_responses_template_sprint2</item>
+        <item>@string/quick_responses_template_sprint3</item>
+        <item>@string/quick_responses_template_sprint4</item>
+        <item>@string/quick_responses_template_sprint5</item>
+        <item>@string/quick_responses_template_sprint6</item>
+        <item>@string/quick_responses_template_sprint7</item>
+        <item>@string/quick_responses_template_sprint8</item>
+        <item>@string/quick_responses_template_sprint9</item>
+        <item>@string/quick_responses_template_sprint10</item>
+        <item>@string/quick_responses_template_sprint11</item>
+        <item>@string/quick_responses_template_sprint12</item>
+        <item>@string/quick_responses_template_sprint13</item>
+        <item>@string/quick_responses_template_sprint14</item>
+        <item>@string/quick_responses_template_sprint15</item>
+        <item>@string/quick_responses_template_sprint16</item>
+        <item>@string/quick_responses_template_sprint17</item>
+        <item>@string/quick_responses_template_sprint18</item>
+        <item>@string/quick_responses_template_sprint19</item>
+        <item>@string/quick_responses_template_sprint20</item>
+    </string-array>
+    <string-array name="text_slider_content_description">
+        <item>@string/very_high_contrast</item>
+        <item>@string/high_contrast</item>
+        <item>@string/low_contrast</item>
+        <item>@string/very_low_contrast</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Resend as a text or multimedia message</item>
+        <item>"Don't resend"</item>
+        <item>Ask before resending</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Use text or multimedia messages</item>
+        <item>No resend</item>
+        <item>Always ask</item>
+    </string-array>
+    <string-array name="verification_code_except_auto_delete_chn">
+        <item>订单</item>
+        <item>提货</item>
+        <item>领货</item>
+        <item>取件</item>
+        <item>拒收</item>
+        <item>退订</item>
+        <item>配送</item>
+        <item>签收</item>
+        <item>派件</item>
+        <item>送货</item>
+        <item>反诈中心</item>
+        <item>收货</item>
+        <item>退货</item>
+        <item>申领</item>
+    </string-array>
+    <string-array name="verification_code_spec_auto_delete_chn">
+        <item>尾号</item>
+        <item>和多号</item>
+        <item>发送</item>
+    </string-array>
+    <string-array name="verification_code_spec_chn">
+        <item>尾号</item>
+        <item>和多号</item>
+        <item>发送</item>
+    </string-array>
+    <string-array name="verification_code_strong_auto_delete_chn">
+        <item>校验码</item>
+        <item>验证码</item>
+        <item>动态码</item>
+        <item>动态密码</item>
+    </string-array>
+    <string-array name="verification_code_strong_chn">
+        <item>校验码</item>
+        <item>随机码</item>
+        <item>验证码</item>
+        <item>口令</item>
+        <item>认证码</item>
+        <item>动态码</item>
+        <item>动态密码</item>
+        <item>随机密码</item>
+        <item>验证密码</item>
+    </string-array>
+    <string-array name="verification_code_strong_ind">
+        <item>kode verifikasi</item>
+        <item>kode masuk</item>
+        <item>kode otentikasi</item>
+        <item>kode konfirmasi</item>
+        <item>kode aktivasi</item>
+        <item>kode keamanan</item>
+        <item>paycode</item>
+    </string-array>
+    <string-array name="verification_code_strong_kor">
+        <item>인증번호</item>
+        <item>인증코드</item>
+        <item>인증 번호</item>
+        <item>인증 코드</item>
+        <item>승인번호</item>
+        <item>승인 번호</item>
+    </string-array>
+    <string-array name="verification_code_strong_mal">
+        <item>kod pengesahan</item>
+        <item>kod pengaktifan</item>
+        <item>kod keselamatan</item>
+        <item>kod log masuk</item>
+    </string-array>
+    <array name="verification_code_strong_mym" />
+    <string-array name="verification_code_strong_otp_default">
+        <item>one-time password</item>
+        <item>one-time-password</item>
+        <item>one-time pin</item>
+        <item>one-time-pin</item>
+        <item>one time password</item>
+        <item>one time pin</item>
+        <item>otp</item>
+        <item>verification code</item>
+        <item>activation code</item>
+        <item>confirmation code</item>
+        <item>authentication code</item>
+        <item>security code</item>
+        <item>login code</item>
+        <item>etac</item>
+        <item>pin</item>
+        <item>校验码</item>
+        <item>随机码</item>
+        <item>验证码</item>
+        <item>口令</item>
+        <item>认证码</item>
+        <item>动态码</item>
+        <item>动态密码</item>
+    </string-array>
+    <string-array name="verification_code_strong_phi">
+        <item>code ng pagpapatunay</item>
+        <item>code ng seguridad</item>
+    </string-array>
+    <array name="verification_code_strong_sin" />
+    <string-array name="verification_code_strong_thl">
+        <item>รหัสยืนยัน</item>
+        <item>รหัสเปิดใช้งาน</item>
+        <item>รหัสยืนยัน</item>
+        <item>รหัสรับรองความถูกต้อง</item>
+        <item>รหัสความปลอดภัย</item>
+        <item>รหัสเข้าสู่ระบบ</item>
+    </string-array>
+    <string-array name="verification_code_strong_vn">
+        <item>ma xac thuc</item>
+        <item>mã xác thực</item>
+        <item>ma xac minh</item>
+        <item>mã xác minh</item>
+        <item>ma xac nhan</item>
+        <item>mã xác nhận</item>
+        <item>ma kich hoat</item>
+        <item>mã kích hoạt</item>
+        <item>ma bao mat</item>
+        <item>mã bảo mật</item>
+        <item>ma su dung</item>
+        <item>mã sủ dụng</item>
+        <item>ma giao dich</item>
+        <item>mã giao dịch</item>
+        <item>ma dang ky</item>
+        <item>mã đăng ký</item>
+        <item>ma so</item>
+        <item>mã số</item>
+        <item>day so</item>
+        <item>dãy số</item>
+    </string-array>
+    <string-array name="verification_code_weak_ind">
+        <item>kode</item>
+        <item>kata sandi</item>
+    </string-array>
+    <string-array name="verification_code_weak_kor">
+        <item>코드</item>
+        <item>인증</item>
+    </string-array>
+    <string-array name="verification_code_weak_mal">
+        <item>kod</item>
+        <item>laluan</item>
+    </string-array>
+    <array name="verification_code_weak_mym" />
+    <string-array name="verification_code_weak_otp_default">
+        <item>code</item>
+        <item>tac</item>
+        <item>password</item>
+        <item>verify</item>
+        <item>尾号</item>
+    </string-array>
+    <array name="verification_code_weak_phi" />
+    <array name="verification_code_weak_sin" />
+    <string-array name="verification_code_weak_thl">
+        <item>รหัส</item>
+        <item>รหัสผ่าน</item>
+    </string-array>
+    <string-array name="verification_code_weak_vn">
+        <item>mat khau</item>
+        <item>mật khẩu</item>
+        <item>xac thuc</item>
+        <item>xác thực</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Original</item>
+        <item>Network default</item>
+        <item>Always ask</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/orc_ic_location_edit" android:id="@id/rename" android:title="@string/rename" app:contentDescription="@string/rename" app:showAsAction="always" />
+    <item android:icon="@drawable/group_ic_delete" android:id="@id/delete" android:title="@string/delete_description" app:contentDescription="@string/delete_description" app:showAsAction="always" />
+</menu>

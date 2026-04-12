@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 గంట</item>
+        <item>6 గంటలు</item>
+        <item>24 గంటలు</item>
+        <item>2 రోజులు</item>
+        <item>నెట్‌వర్క్ డిఫాల్ట్</item>
+        <item>గరిష్ఠం</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>అసలు</item>
+        <item>ఎక్కువ</item>
+        <item>మధ్యస్థం</item>
+        <item>తక్కువ</item>
+        <item>ఎల్లప్పుడూ అడుగు</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>అసలు</item>
+        <item>అధిక నాణ్యత</item>
+        <item>సాధారణ నాణ్యత</item>
+        <item>తక్కువ స్పష్టత</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>అన్ని ఛానెళ్లు</item>
+        <item>నా ఛానెల్</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>స్వయంచాలకం</item>
+        <item>టెక్స్ట్ లేదా మల్టీమీడియా</item>
+        <item>చాట్</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>స్వయంచాలకం</item>
+        <item>టెక్స్ట్ లేదా మల్టీమీడియా</item>
+        <item>RCS చాట్ సందేశాలు</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>నిరోధించు</item>
+        <item>మొదట అడగండి</item>
+        <item>అనుమతించు</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ఎల్లప్పుడూ</item>
+        <item>ప్రాంప్ట్</item>
+        <item>ఎప్పటికీ వద్దు</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM ఆల్ఫాబేట్</item>
+        <item>యునీకోడ్</item>
+        <item>స్వయంచాలకం</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>టెక్స్ట్ లేదా మల్టీమీడియా సందేశంలా పంపాలా?</item>
+        <item>తిరిగి పంపవద్దు</item>
+        <item>మళ్లీ పంపే ముందు అడగండి</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>టెక్స్ట్ లేదా మల్టీమీడియా సందేశాలను ఉపయోగించు</item>
+        <item>తిరిగి పంపవద్దు</item>
+        <item>ఎల్లప్పుడూ అడుగు</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>అసలు</item>
+        <item>నెట్‌వర్క్ డిఫాల్ట్</item>
+        <item>ఎల్లప్పుడూ అడుగు</item>
+    </string-array>
+</resources>

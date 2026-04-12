@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.widget.SquareLayout android:id="@id/photo_and_video_item" android:tag="layout/search_photo_and_videos_item_0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/search_content_item_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="binding_1" android:padding="@dimen/search_photo_video_item_stroke_width" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.samsung.android.messaging.ui.view.widget.AsyncImageView android:id="@id/search_photo_and_video_image" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:minWidth="@dimen/search_view_more_photo_video_item_min_width" android:minHeight="@dimen/search_view_more_photo_video_item_min_width" android:importantForAccessibility="no" />
+        </LinearLayout>
+        <RelativeLayout android:tag="binding_4" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:tag="binding_5" android:background="@drawable/search_photo_video_item_text_bg" android:layout_width="match_parent" android:layout_height="@dimen/search_photo_video_item_text_bg_height" android:layout_alignParentBottom="true" />
+            <ImageView android:layout_gravity="center" android:id="@id/video_play_icon" android:tag="binding_6" android:layout_width="@dimen/search_photo_video_item_play_icon_size" android:layout_height="@dimen/search_photo_video_item_play_icon_size" android:layout_marginBottom="@dimen/search_photo_video_item_play_button_bottom_margin" android:src="@drawable/ic_messages_icon_attach_orc_video_play_small" android:layout_above="@id/search_recipient" android:importantForAccessibility="no" />
+            <TextView android:textAppearance="@style/NewSECRegular" android:textColor="@color/color_white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/search_recipient" android:tag="binding_7" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/search_photo_video_item_text_min_height" android:lines="1" android:layout_alignParentBottom="true" app:emojiCompatEnabled="false" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/pressed_background" android:tag="binding_8" android:background="@color/search_pressed_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</com.samsung.android.messaging.ui.view.widget.SquareLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/check_default_sms_app_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/top_scrollview" android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="7.0">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@id/check_default_sms_app_icon_and_name_layout" layout="@layout/check_default_sms_app_icon_and_name" />
+            <include android:id="@id/check_default_sms_app_detail_info_layout" layout="@layout/check_default_sms_app_detail_info" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView android:tag="binding_2" android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="3.0">
+        <include android:id="@id/check_default_sms_app_buttons_layout" layout="@layout/check_default_sms_app_buttons" />
+    </ScrollView>
+</LinearLayout>

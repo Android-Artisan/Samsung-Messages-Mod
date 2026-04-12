@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ঘণ্টা</item>
+        <item>6 ঘণ্টা</item>
+        <item>24 ঘণ্টা</item>
+        <item>2 দিন</item>
+        <item>নেটওয়ার্ক ডিফল্ট</item>
+        <item>সর্বাধিক</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>মূল</item>
+        <item>উচ্চ</item>
+        <item>মাঝারি</item>
+        <item>নিম্ন</item>
+        <item>সর্বদা জিজ্ঞাসা করুন</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>মূল</item>
+        <item>উচ্চ গুণমান</item>
+        <item>সাধারণ গুণমান</item>
+        <item>স্বল্প রেজোলিউশন</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>সমস্ত চ্যানেল</item>
+        <item>আমার চ্যানেল</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>স্বয়ংক্রিয়</item>
+        <item>পাঠ্য বা মাল্টিমিডিয়া</item>
+        <item>চ্যাট</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>স্বয়ংক্রিয়</item>
+        <item>পাঠ্য বা মাল্টিমিডিয়া</item>
+        <item>RCS চ্যাট মেসেজগুলি</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ব্লক করুন</item>
+        <item>প্রথমে জিজ্ঞাসা করুন</item>
+        <item>অনুমতি দিন</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>সর্বদা</item>
+        <item>প্রম্পট</item>
+        <item>কখনও না</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM বর্ণমালা</item>
+        <item>ইউনিকোড</item>
+        <item>স্বয়ংক্রিয়</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>কোনও টেক্সট বা মাল্টিমিডিয়া মেসেজ হিসাবে পুনরায় পাঠান</item>
+        <item>পুনরায় পাঠাবেন না</item>
+        <item>পুনরায় পাঠানোর আগে জিজ্ঞাসা করুন</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>টেক্সট বা মাল্টিমিডিয়া মেসেজ ব্যব. করুন</item>
+        <item>কোনও পুনরায় পাঠানো নেই</item>
+        <item>সর্বদা জিজ্ঞাসা করুন</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>মূল</item>
+        <item>নেটওয়ার্ক ডিফল্ট</item>
+        <item>সর্বদা জিজ্ঞাসা করুন</item>
+    </string-array>
+</resources>

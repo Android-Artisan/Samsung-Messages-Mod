@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ հետ կանչել հաղորդագրությունը: Հաղորդագրությունները կարող են հետ կանչվել ուղարկումից հետո միայն %d րոպեի ընթացքում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ հետ կանչել հաղորդագրությունը: Հաղորդագրությունները կարող են հետ կանչվել ուղարկումից հետո միայն %d րոպեի ընթացքում:</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Նաև լքել %d խմբազրույց</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Նաև լքել %d խմբազրույց</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Նաև լքել %d խմբակային խոսակցություն</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Նաև լքել %d խմբակային խոսակցություն</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Վերացնե՞լ հուզապատկերակների %d փաթեթ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Վերացնե՞լ հուզապատկերակների %d փաթեթ:</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d խոսակցություն տեղափոխե՞լ Աղբարկղ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d խոսակցություն տեղափոխե՞լ Աղբարկղ:</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Աղբարկղում առկա հաղորդագրություններն ընդմիշտ կվերացվեն %d օր հետո:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Աղբարկղում առկա հաղորդագրություններն ընդմիշտ կվերացվեն %d օր հետո:</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Վերացված հաղորդագրությունները նախքան ընդմիշտ վերացվելը %d օր կմնան Աղբարկղում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Վերացված հաղորդագրությունները նախքան ընդմիշտ վերացվելը %d օր կմնան Աղբարկղում:</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d հաղորդագրություն տեղափոխե՞լ Աղբարկղ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d հաղորդագրություն տեղափոխե՞լ Աղբարկղ:</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Այսօր հատուկ օր է (%1$s ու ևս %2$d իրադարձություն): Ինչ-որ բան ուղարկե՞լ նրանց:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Այսօր հատուկ օր է (%1$s ու ևս %2$d իրադարձություն): Ինչ-որ բան ուղարկե՞լ նրանց:</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Դա %1$s-ի ու ևս %2$d կոնտակտի ծննդյան օ՜րն է: Ուղարկե՞լ ինչ-որ հատուկ բան:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Դա %1$s-ի ու ևս %2$d կոնտակտի ծննդյան օ՜րն է: Ուղարկե՞լ ինչ-որ հատուկ բան:</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d հաղորդագրություն է արգելափակվել վերջին 30 օրում</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d հաղորդագրություն է արգելափակվել վերջին 30 օրում</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ընտրված</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ընտրված</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ արգելափակել %d էլփոստի հասցե, որովհետև այն վավեր չէ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ արգելափակել %d էլփոստի հասցե, որովհետև դրանք վավեր չեն:</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ արգելափակել %d հեռախոսահամար, որովհետև այն վավեր չէ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ արգելափակել %d հեռախոսահամար, որովհետև դրանք վավեր չեն:</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ արգելափակել %d ուղարկողի, որովհետև նրա տվյալները վավեր չեն:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ արգելափակել %d ուղարկողի, որովհետև նրանց տվյալները վավեր չեն:</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ընտրել %d կոնտակտից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ ընտրել %d կոնտակտից ավելի:</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d %2$s քարտ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d %2$s քարտ</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Զրույցի %d կոնտակտ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Զրույցի %d կոնտակտ</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Chatting+ կոնտակտ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Chatting+ կոնտակտ</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Եթե դուրս գաք Chatting+-ի գրանցումից, չեք կարողանա ստեղծել անհատական և խմբակային զրույցներ կամ միանալ դրանց, ստանալ հաստատում այն մասին, որ Ձեր հաղորդագրություններն ընթերցվել են, կամ փոխանակել մեծ ֆայլեր: Վստա՞հ եք, որ ուզում եք գրանցումից դուրս գալ:
+
+Նաև ստիպված կլինեք %d րոպե սպասել նորից գրանցվելուց առաջ:"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Եթե դուրս գաք Chatting+-ի գրանցումից, չեք կարողանա ստեղծել անհատական և խմբակային զրույցներ կամ միանալ դրանց, ստանալ հաստատում այն մասին, որ Ձեր հաղորդագրություններն ընթերցվել են, կամ փոխանակել մեծ ֆայլեր: Վստա՞հ եք, որ ուզում եք գրանցումից դուրս գալ:
+
+Նաև ստիպված կլինեք %d րոպե սպասել նորից գրանցվելուց առաջ:"</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d վիրտուալ զրուցակից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d վիրտուալ զրուցակից</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կոնտակտ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կոնտակտ</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ընտրված</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ընտրված</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ժամկետը կավարտվի %d օրից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ժամկետը կավարտվի %d օրից</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կտրոնի ժամկետը շուտով կավարտվի</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կտրոնի ժամկետը շուտով կավարտվի</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր %1$s կտրոնի ժամկետը կավարտվի %2$d օրից:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ձեր %1$s կտրոնի ժամկետը կավարտվի %2$d օրից:</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր կտրոնի ժամկետը կավարտվի %d օրից:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ձեր կտրոնի ժամկետը կավարտվի %d օրից:</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">Վերացնե՞լ %d խոսակցություն:</item>
+        <item quantity="other">Վերացնե՞լ %d խոսակցություններ:</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ընդմիշտ վերացնե՞լ %d խոսակցություն:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ընդմիշտ վերացնե՞լ %d խոսակցություն:</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">Վերացնե՞լ %d հաղորդագրություն:</item>
+        <item quantity="other">Վերացնե՞լ %d հաղորդագրություն:</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ընդմիշտ վերացնե՞լ %d հաղորդագրություն:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ընդմիշտ վերացնե՞լ %d հաղորդագրություն:</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d հաղորդագրություն առաքման մասին</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d հաղորդագրություն առաքման մասին</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հեռացնե՞լ %d քարտ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հեռացնե՞լ %d քարտ:</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Կատեգորիայի միայն %1$d ներդիր կարող է ցուցադրվել գլխավոր էկրանում: Մնացածը թաքցված են: Ընտրեք %2$s կատեգորիան, եթե ուզում եք գլխավոր էկրանից արագ մուտք ունենալ դեպի այն:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Կատեգորիայի միայն %1$d ներդիր կարող է ցուցադրվել գլխավոր էկրանում: Մնացածը թաքցված են: Ընտրեք %2$s կատեգորիան, եթե ուզում եք գլխավոր էկրանից արագ մուտք ունենալ դեպի այն:</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d րոպե</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d րոպե</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d վայրկյան</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ֆայլ պահպանվեց հեռախոսում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ֆայլ պահպանվեց հեռախոսում:</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ֆայլ պահպանվեց պլանշետում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ֆայլ պահպանվեց պլանշետում:</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d գործարք այսօր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d գործարք այսօր</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s և %2$d անհայտ համար</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s և %2$d անհայտ համար</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d անհայտ համար</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d անհայտ համար</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ը չի կարող միանալ խմբազրույցներին: Նրան հեռացրեք ընտրված հասցեատերերից կամ, փոխարենը, տեքստային հաղորդագրություն ուղարկեք մինչև %2$d հասցեատիրոջ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-ը չի կարող միանալ խմբազրույցներին: Նրան հեռացրեք ընտրված հասցեատերերից կամ, փոխարենը, տեքստային հաղորդագրություն ուղարկեք մինչև %2$d հասցեատիրոջ:</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ընդգրկված հասցեատերերից մեկը կամ մի քանիսը չի կարող օգտագործել Ընդլայնված հնարավորություններով հաղորդագրում, ուստի Ձեր խումբը սահմանափակված է %d անդամով:
+
+Շարունակելու համար ընտրեք միայն այն անդամներին, որոնք կարող են Ընդլայնված հնարավորություններով հաղորդագրում օգտագործել: Նրանք նշված են կապույտ կետիկի պատկերակով:"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Ընդգրկված հասցեատերերից մեկը կամ մի քանիսը չի կարող օգտագործել Ընդլայնված հնարավորություններով հաղորդագրում, ուստի Ձեր խումբը սահմանափակված է %d անդամով:
+
+Շարունակելու համար ընտրեք միայն այն անդամներին, որոնք կարող են Ընդլայնված հնարավորություններով հաղորդագրում օգտագործել: Նրանք նշված են կապույտ կետիկի պատկերակով:"</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Խմբազրույց սկսելու համար հեռացրեք վերջին ընտրված հասցեատիրոջը: Եթե ուզում եք ընդգրկել վերջին հասցեատիրոջը, հեռացրեք %d հասցեատիրոջ՝ հաղորդագրություն ուղարկելու համար:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Խմբազրույց սկսելու համար հեռացրեք վերջին ընտրված հասցեատիրոջը: Եթե ուզում եք ընդգրկել վերջին հասցեատիրոջը, հեռացրեք %d հասցեատերերի՝ հաղորդագրություն ուղարկելու համար:</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d պատկեր պահպանվեց պլանշետում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d պատկեր պահպանվեց պլանշետում:</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d պատկեր պահպանվեց Ձեր հեռախոսում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d պատկեր պահպանվեց Ձեր հեռախոսում:</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 պատկեր և %d տեսանյութ պահպանվեցին Ձեր հեռախոսում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 պատկեր և %d տեսանյութ պահպանվեցին Ձեր հեռախոսում:</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d պատկեր և 1 տեսանյութ պահպանվեցին Ձեր հեռախոսում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d պատկեր և 1 տեսանյութ պահպանվեցին Ձեր հեռախոսում:</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ն ու ևս %2$d հոգի միացել են</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-ն ու ևս %2$d հոգի միացել են</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կոնտակտ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կոնտակտ</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ընտրել %d անձից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ ընտրել %d անձից ավելի:</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Երբ թակեք «Հաղորդագրությունների առաջարկներ» կոճակը, Ձեր խոսակցության վերջին %d հաղորդագրությունը կմշակվի առցանց: Արհեստական բանականությամբ ստեղծված առաջարկները կարող են ճշգրիտ չլինել կամ պարունակել անպատշաճ բովանդակություն:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Երբ թակեք «Հաղորդագրությունների առաջարկներ» կոճակը, Ձեր խոսակցության վերջին %d հաղորդագրությունները կմշակվեն առցանց: Արհեստական բանականությամբ ստեղծված առաջարկները կարող են ճշգրիտ չլինել կամ պարունակել անպատշաճ բովանդակություն:</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ֆայլ է համօգտագործվել Quick Share-ի միջոցով</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ֆայլ է համօգտագործվել Quick Share-ի միջոցով</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d նոր օգտակար քարտ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d նոր օգտակար քարտ</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d խոսակցություն</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d խոսակցություն</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d հաղորդագրություն</item>
+        <item quantity="other">%d հաղորդագրություն</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Վերացված հաղորդագրությունները պահել %d օր:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Վերացված հաղորդագրությունները պահել %d օր:</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Կարող եք նորից թարմացնել %d րոպեից:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Կարող եք նորից թարմացնել %d րոպեից:</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հիմա ուղարկե՞լ %d հաղորդագրություն:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հիմա ուղարկե՞լ %d հաղորդագրություն:</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր տեղեկությունները թարմացվում են: Սպասեք առնվազն %d րոպե, հետո նորից փորձեք:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ձեր տեղեկությունները թարմացվում են: Սպասեք առնվազն %d րոպե, հետո նորից փորձեք:</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ամրակցել %d-ից ավելի խոսակցություն:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ ամրակցել %d-ից ավելի խոսակցություններ:</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s և %2$d ուրիշներ</item>
+        <item quantity="other">%1$s և %2$d ուրիշներ</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հեռացնե՞լ %d քարտ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հեռացնե՞լ %d քարտ:</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Մուտքագրեք պատճառ (մինչև %d նիշ)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Մուտքագրեք պատճառ (մինչև %d նիշ)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">%d հաղորդագրություն է պլանավորված</item>
+        <item quantity="one">%d հաղորդագրություն է պլանավորված</item>
+        <item quantity="two">%d հաղորդագրություն է պլանավորված</item>
+        <item quantity="few">%d հաղորդագրություն է պլանավորված</item>
+        <item quantity="many">%d հաղորդագրություն է պլանավորված</item>
+        <item quantity="other">%d հաղորդագրություն է պլանավորված</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ընտրեք ժամ՝ այս պահից հաշված առնվազն %d րոպե հետո:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ընտրեք ժամ՝ այս պահից հաշված առնվազն %d րոպե հետո:</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d գտնված</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d գտնված</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 խոսակցություն և %d այլ հաղորդագրություն տեղափոխե՞լ Աղբարկղ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 խոսակցություն և %d այլ հաղորդագրություններ տեղափոխե՞լ Աղբարկղ:</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d խոսակցություն և 1 այլ հաղորդագրություն տեղափոխե՞լ Աղբարկղ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d խոսակցություն և 1 այլ հաղորդագրություն տեղափոխե՞լ Աղբարկղ:</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ընտրեք մինչև %d հոգի:
+(Ցուցադրվում են այս խոսակցության մեջ իրենց հեռախոսահամարներն օգտագործող մարդիկ:)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Ընտրեք մինչև %d հոգի:
+(Ցուցադրվում են այս խոսակցության մեջ իրենց հեռախոսահամարներն օգտագործող մարդիկ:)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Քնի տևողությունը՝ %d ժամ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Քնի տևողությունը՝ %d ժամ</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Քնի տևողությունը՝ %d րոպե</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Քնի տևողությունը՝ %d րոպե</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ժամ է մնացել</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ժամ է մնացել</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d րոպե է մնացել</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d րոպե է մնացել</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d վայրկյան է մնացել</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d վայրկյան է մնացել</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">Հաղորդագրությունը պատճենվեց SIM քարտից:</item>
+        <item quantity="other">SIM քարտից պատճենված կոնտակտներ:</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կատեգորիա</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կատեգորիա</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Դուք ընտրել եք %d-ից ավելի հասցեատեր, ինչը տեքստային հաղորդագրությունների սահմանաչափն է: Սկսեք խմբազրույց, որպեսզի հաղորդագրություն ուղարկեք նրանց բոլորին միանգամից:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Դուք ընտրել եք %d-ից ավելի հասցեատերեր, ինչը տեքստային հաղորդագրությունների սահմանաչափն է: Սկսեք խմբազրույց, որպեսզի հաղորդագրություն ուղարկեք նրանց բոլորին միանգամից:</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ընդամենը %d հաղորդագրություն</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ընդամենը %d հաղորդագրություն</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d հաղորդագրություն ինքնաբերաբար արգելահանվել է, որովհետև ուղարկողներն այլևս չեն համարվում չարակամ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d հաղորդագրություն ինքնաբերաբար արգելահանվել է, որովհետև ուղարկողներն այլևս չեն համարվում չարակամ:</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ից ու ևս %2$d ապրանքանիշից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-ից ու ևս %2$d ապրանքանիշից</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d չկարդացված հաղորդագրություն առաքման մասին</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d չկարդացված հաղորդագրություն առաքման մասին</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ից ու ևս %2$d կոնտակտից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-ից ու ևս %2$d կոնտակտից</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d չկարդացված հաղորդագրություն %2$s-ից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d չկարդացված հաղորդագրություն %2$s-ից</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ներառյալ որոշ հաղորդագրություններ %1$s-ից ու ևս %2$d ապրանքանիշից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ներառյալ որոշ հաղորդագրություններ %1$s-ից ու ևս %2$d ապրանքանիշից</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ներառյալ %d հաղորդագրություն առաքման մասին</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ներառյալ %d հաղորդագրություն առաքման մասին</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ներառյալ որոշ հաղորդագրություններ %1$s-ից ու ևս %2$d կոնտակտից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ներառյալ որոշ հաղորդագրություններ %1$s-ից ու ևս %2$d կոնտակտից</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d չկարդացված հաղորդագրություն</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d չկարդացված հաղորդագրություն</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d չկարդացված հաղորդագրություն</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d չկարդացված հաղորդագրություն</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d առաջիկա զգուշացում այսօր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d առաջիկա զգուշացում այսօր</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d տեսանյութ պահպանվեց Ձեր հեռախոսում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d տեսանյութ պահպանվեց Ձեր հեռախոսում:</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Դուք %1$sայսօր առաքման մասին %2$d հաղորդագրություն%3$s եք ստացել:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Դուք %1$sայսօր առաքման մասին %2$d հաղորդագրություն%3$s եք ստացել:</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Դուք %1$sայսօր առաքումների մասին %2$d հաղորդագրություն%3$s եք ստացել:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Դուք %1$sայսօր առաքումների մասին %2$d հաղորդագրություն%3$s եք ստացել:</item>
+    </plurals>
+</resources>

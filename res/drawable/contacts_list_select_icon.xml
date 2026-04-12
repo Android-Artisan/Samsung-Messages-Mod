@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/c_photo_size" android:width="@dimen/c_photo_size" />
+            <solid android:color="?colorPrimary" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/tw_list_icon_check_to_caller_id_mtrl_modified" />
+</layer-list>

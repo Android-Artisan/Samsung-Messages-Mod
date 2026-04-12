@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.setting.chat.common.RcsSwitchSettingPreference android:title="@string/menu_advanced_messaging_setting_title" android:key="pref_key_rcs_service_us" android:summary="@string/pref_summary_rcs_service_us" android:defaultValue="true" />
+    <com.samsung.android.messaging.ui.view.setting.chat.common.RcsSwitchSettingPreference android:title="@string/menu_advanced_messaging_setting_title" android:key="pref_key_rcs_service_us_sim2" android:summary="@string/pref_summary_rcs_service_us" android:defaultValue="true" />
+    <androidx.preference.PreferenceCategory android:title="@string/pref_dual_rcs_common_category_text" android:key="pref_key_common_category" />
+    <com.samsung.android.messaging.ui.view.setting.chat.common.RcsSwitchSettingPreference android:title="@string/pref_title_send_display_status_us_att" android:key="pref_key_send_display_status" android:summary="@string/pref_title_send_display_status_us_summary_att" android:defaultValue="true" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/pref_show_my_typing" android:key="pref_key_rcs_show_typing" android:summary="@string/pref_show_my_typing_summary" android:defaultValue="true" />
+</androidx.preference.PreferenceScreen>

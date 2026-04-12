@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:id="@id/label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="VerificationCodeFinder" />
+    <LinearLayout android:id="@id/linear_search" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_below="@id/label">
+        <EditText android:id="@id/keyword" android:layout_width="300.0dp" android:layout_height="wrap_content" android:hint="Input keyword" />
+        <Button android:id="@id/btn_find" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Find" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/linear_save" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_below="@id/linear_search">
+        <Button android:id="@id/btn_save" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save file" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/linear_save">
+        <TextView android:id="@id/messages" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="prov_root_Key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="Current UAP(User Agent Profile)">
+        <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="Use current UAP" android:key="prov_uap_current_key" android:defaultValue="true" />
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="UA string" android:selectable="false" android:key="prov_uastring_current_key" android:defaultValue="SAMSUNG-ANDROID-MMS" />
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="UAP url" android:selectable="false" android:key="prov_uapurl_current_key" android:defaultValue="http://wap.samsungmobile.com/uaprof/samsung_android_mms.xml" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="Alternative UAP" android:key="prov_uap_category_key">
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="UA string" android:key="prov_uastring_key" />
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="UAP url" android:key="prov_uapurl_key" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="MMSC" android:key="prov_mmsc_category_key">
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="MMSC address" android:key="prov_mmsc_key" />
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="MMS proxy" android:key="prov_mmsc_proxy_key" />
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="MMS port" android:key="prov_mmsc_port_key" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="Kor SpamReport " android:key="prov_kor_spam_report_category_key">
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="Spam report server URL" android:key="prov_spam_report_server_key" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="VZW MMS Resizing Transaction Timer" android:key="prov_transaction_timeout_category_key">
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="Transaction Timer" android:key="prov_transaction_timeout_key" android:defaultValue="240" android:inputType="number" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:visible="false" android:title="Test mode (for Verizon)" android:key="prov_vzw_test_mode_category_key">
+        <androidx.preference.ListPreference android:entries="@array/select_vzw_test_mode_item" android:title="Select test mode" android:key="prov_vzw_test_mode_select_key" android:summary="Change mms test environments just for Verizon." android:defaultValue="commercial" android:dialogTitle="Select test mode" android:entryValues="@array/select_vzw_test_mode_item" />
+        <androidx.preference.PreferenceScreen android:title="Edit test mode values" android:key="prov_edit_test_mode_key" android:summary="Modify mms test mode values.">
+            <androidx.preference.PreferenceCategory android:title="Commercial mode">
+                <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="MMSC" android:key="prov_vzw_test_mode_commercial_mmsc" android:defaultValue="http://mms.vtext.com/servelets/mms" />
+                <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="User ID" android:key="prov_vzw_test_mode_commercial_uid" android:defaultValue="MDN@vzw3g.com" />
+                <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="Password" android:key="prov_vzw_test_mode_commercial_password" android:defaultValue="vzw" />
+            </androidx.preference.PreferenceCategory>
+            <androidx.preference.PreferenceCategory android:title="Lab mode">
+                <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="MMSC" android:key="prov_vzw_test_mode_lab_mmsc" android:defaultValue="http://vzpix.com/servlets/mms" />
+                <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="User ID" android:key="prov_vzw_test_mode_lab_uid" android:defaultValue="hrltest@vzwtest.com" />
+                <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="Password" android:key="prov_vzw_test_mode_lab_password" android:defaultValue="vzwtest" />
+            </androidx.preference.PreferenceCategory>
+            <androidx.preference.PreferenceCategory android:title="Domestic mode">
+                <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="MMSC" android:key="prov_vzw_test_mode_domestic_mmsc" android:defaultValue="http://222.231.61.41/mms" />
+                <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="User ID" android:key="prov_vzw_test_mode_domestic_uid" android:defaultValue="sktelecom" />
+                <com.samsung.android.messaging.ui.view.widget.base.salogger.SaEditTextPreference android:title="Password" android:key="prov_vzw_test_mode_domestic_password" android:defaultValue="" />
+            </androidx.preference.PreferenceCategory>
+        </androidx.preference.PreferenceScreen>
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

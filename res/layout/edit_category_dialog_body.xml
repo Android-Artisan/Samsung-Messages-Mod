@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_category_dialog_title_margin_top" android:layout_marginBottom="@dimen/edit_category_button_margin_bottom">
+            <LinearLayout android:paddingBottom="@dimen/edit_category_dialog_title_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/add_category_dialog_horizontal_margin">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/edit_category_item_text_size" android:textColor="@color/theme_popup_body_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_category_description" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/edit_category_dialog_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/category_chip_list_horizontal_margin" />
+            <LinearLayout android:gravity="center" android:id="@id/edit_category_button_layout" android:padding="@dimen/edit_category_button_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_category_button_margin_top">
+                <TextView android:textAppearance="@style/TextAppearanceEditCategory" android:gravity="center" android:id="@id/edit_category_button" android:background="@drawable/ripple_add_conversation_button" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_category_more_settings" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

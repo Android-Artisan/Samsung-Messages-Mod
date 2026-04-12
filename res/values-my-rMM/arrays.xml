@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 နာရီ</item>
+        <item>၆ နာရီ</item>
+        <item>၂၄ နာရီ</item>
+        <item>၂ ရက်</item>
+        <item>သတ်မှတ်ထားသည့် ကွန်ယက်</item>
+        <item>အများဆုံး</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>မူလ</item>
+        <item>မြင့်</item>
+        <item>အသင့်တင့်</item>
+        <item>နိမ့်</item>
+        <item>အမြဲတမ်းမေးပါ</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>မူလ</item>
+        <item>အရည်အသွေးမြင့်</item>
+        <item>ပုံမှန်အရည်အသွေး</item>
+        <item>ပုံပြတ်သားမှု အနိမ့်</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>အသံလွှင့်လှိုင်းများအားလုံး</item>
+        <item>ကျွန်မ၏ အသံလွှင့်လှိုင်း</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>အလိုအလျောက်</item>
+        <item>စာသား (သို့) မာတီမီဒီယာ</item>
+        <item>စကားစမြည်ပြောဆိုမှု</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>အလိုအလျောက်</item>
+        <item>စာသား (သို့) မာတီမီဒီယာ</item>
+        <item>RCS ချတ် မက်ဆေ့ချ်များ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ပိတ်ပင်ပါ</item>
+        <item>ဦးစွာ မေးမြန်းပါ</item>
+        <item>ခွင့်ပြုရန်</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>အမြဲတမ်း</item>
+        <item>ချက်ချင်း</item>
+        <item>ဘယ်တော့မှ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM အက္ခရာ</item>
+        <item>ယူနီကုဒ်</item>
+        <item>အလိုအလျောက်</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>စာသား (သို့) မာတီမီဒီယာ မက်ဆေ့ချ်အဖြစ် ပြန်ပို့ပါ</item>
+        <item>ပြန်မပို့ပါနှင့်</item>
+        <item>ပြန်လည်မပေးပို့မီ မေးမြန်းပါ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>စာသား (သို့) မာလ်တီမီဒီယာ မက်ဆေ့ချ်များကို သုံးပါ</item>
+        <item>ပြန်မပို့ပါ</item>
+        <item>အမြဲတမ်းမေးပါ</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>မူလ</item>
+        <item>သတ်မှတ်ထားသည့် ကွန်ယက်</item>
+        <item>အမြဲတမ်းမေးပါ</item>
+    </string-array>
+</resources>

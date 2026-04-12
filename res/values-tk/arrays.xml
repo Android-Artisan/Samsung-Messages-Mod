@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 sagat</item>
+        <item>6 sagat</item>
+        <item>24 sagat</item>
+        <item>2 gün</item>
+        <item>Ulgam ýalňyşy</item>
+        <item>Iň köp</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Original</item>
+        <item>Ýokary</item>
+        <item>Orta</item>
+        <item>Pes</item>
+        <item>Hemişe sora</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Original</item>
+        <item>Ýokary hil</item>
+        <item>Kadaly hili</item>
+        <item>Pes ukyplylyk</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Ähli kanallar</item>
+        <item>Meniň Kanalym</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Awtomatik</item>
+        <item>Tekst ýa-da multimedia</item>
+        <item>Söhbet et</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Awtomatik</item>
+        <item>Tekst ýa-da multimedia</item>
+        <item>RCS söhbet hatlary</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Bekle</item>
+        <item>Ilki bilen sora</item>
+        <item>Rugsat ber</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Hemişe</item>
+        <item>Gönükdirme</item>
+        <item>Hiç wagt</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM elipbiý</item>
+        <item>Unicode</item>
+        <item>Awtomatik</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Tekst ýa-da multimedia haty edip iber</item>
+        <item>Täzeden iberme</item>
+        <item>Täzeden ibermezden öň sora</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Teksti ýa-da multmda hatlry uln</item>
+        <item>Täzeden iberme ýok</item>
+        <item>Hemişe sora</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Asyl</item>
+        <item>Tor standardy</item>
+        <item>Hemişe sora</item>
+    </string-array>
+</resources>

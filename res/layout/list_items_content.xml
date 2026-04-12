@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/list_items_height" android:paddingStart="@dimen/pp_frame_margin" android:paddingEnd="@dimen/pp_frame_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item" android:layout_width="match_parent" android:layout_height="@dimen/list_items_height" android:text="@string/aim_play" android:singleLine="true" android:drawablePadding="@dimen/component_frame_padding_18dp" android:drawableStart="?android:listChoiceIndicatorSingle" style="@style/announcement_card_main_text_style" />
+</FrameLayout>

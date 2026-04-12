@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="date_picker_12_hr_weight">56</integer>
+    <integer name="date_picker_24_hr_weight">62</integer>
+    <integer name="time_picker_12_hr_weight">44</integer>
+    <integer name="time_picker_24_hr_weight">38</integer>
+</resources>

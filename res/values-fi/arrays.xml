@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 tunti</item>
+        <item>6 tuntia</item>
+        <item>24 tuntia</item>
+        <item>2 päivää</item>
+        <item>Oletusverkkoasetukset</item>
+        <item>Maksimi</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Alkuperäinen</item>
+        <item>Suuri</item>
+        <item>Normaali</item>
+        <item>Pieni</item>
+        <item>Kysy aina</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Alkuperäinen</item>
+        <item>Hyvä laatu</item>
+        <item>Normaali laatu</item>
+        <item>Pieni tarkkuus</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Kaikki kanavat</item>
+        <item>Oma kanava</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automaattinen</item>
+        <item>Teksti tai multimedia</item>
+        <item>Keskustelu</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automaattinen</item>
+        <item>Teksti tai multimedia</item>
+        <item>RCS-keskusteluviestit</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Estä</item>
+        <item>Kysy ensin</item>
+        <item>Salli</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Aina</item>
+        <item>Kehote</item>
+        <item>Ei koskaan</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-merkistö</item>
+        <item>Unicode-merkistö</item>
+        <item>Automaattinen</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Lähetä uudelleen teksti- tai multimediaviestinä</item>
+        <item>Älä lähetä uudelleen</item>
+        <item>Kysy ennen uudelleenlähetystä</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Käytä teksti-/multimediaviestejä</item>
+        <item>Ei uudelleenlähetystä</item>
+        <item>Kysy aina</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Alkuperäinen</item>
+        <item>Oletusverkko</item>
+        <item>Kysy aina</item>
+    </string-array>
+</resources>

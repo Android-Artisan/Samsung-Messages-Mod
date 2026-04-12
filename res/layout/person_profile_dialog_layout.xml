@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parentPanel" android:tag="layout/person_profile_dialog_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/middlePanel" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/customPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/bubble_menu_layout_menu_bottom_menu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bubble_custom_context_menu_bottom_menu_layout_bottom_margin">
+                <FrameLayout android:gravity="center" android:orientation="vertical" android:id="@id/first_item_view" android:tag="binding_1" android:background="@drawable/ripple_bubble_custom_context_menu_bottom_item" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stateListAnimator="?seslSmallTouchAnimator">
+                    <ImageView android:id="@id/first_image_view" android:layout_width="@dimen/person_profile_dialog_avatar_size" android:layout_height="@dimen/person_profile_dialog_avatar_size" />
+                    <include android:id="@id/first_animation_select" android:visibility="invisible" android:layout_width="@dimen/person_profile_dialog_avatar_size" android:layout_height="@dimen/person_profile_dialog_avatar_size" layout="@layout/caller_id_animation_view" />
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:orientation="vertical" android:id="@id/second_item_view" android:tag="binding_2" android:background="@drawable/ripple_bubble_custom_context_menu_bottom_item" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stateListAnimator="?seslSmallTouchAnimator">
+                    <ImageView android:id="@id/second_image_view" android:layout_width="@dimen/person_profile_dialog_avatar_size" android:layout_height="@dimen/person_profile_dialog_avatar_size" />
+                    <include android:id="@id/second_animation_select" android:visibility="invisible" android:layout_width="@dimen/person_profile_dialog_avatar_size" android:layout_height="@dimen/person_profile_dialog_avatar_size" layout="@layout/caller_id_animation_view" />
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:orientation="vertical" android:id="@id/third_item_view" android:tag="binding_3" android:background="@drawable/ripple_bubble_custom_context_menu_bottom_item" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stateListAnimator="?seslSmallTouchAnimator">
+                    <ImageView android:id="@id/third_image_view" android:layout_width="@dimen/person_profile_dialog_avatar_size" android:layout_height="@dimen/person_profile_dialog_avatar_size" />
+                    <include android:id="@id/third_animation_select" android:visibility="invisible" android:layout_width="@dimen/person_profile_dialog_avatar_size" android:layout_height="@dimen/person_profile_dialog_avatar_size" layout="@layout/caller_id_animation_view" />
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

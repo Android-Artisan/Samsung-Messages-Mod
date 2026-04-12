@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/use_previous_group_chat_dialog_root" android:tag="layout/use_your_previous_group_chat_dialog_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/use_previous_group_chat_dialog_info_text_size" android:textColor="@color/theme_use_previous_group_chat_description_text_color" android:id="@id/use_previous_group_chat_message" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/use_previous_group_chat_dialog_description_margin_top" android:text="@string/you_already_have_a_group_chat_with_selected_people" android:lineSpacingExtra="4.0sp" android:layout_marginHorizontal="@dimen/msg_popup_margin" android:lineBreakWordStyle="phrase" />
+            <include layout="@layout/group_chat_info_text" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <androidx.recyclerview.widget.RecyclerView android:name="com.samsung.android.messaging.ui.view.main.picker.contact.groupchat.UsePreviousGroupChatDialog" android:layout_gravity="center_horizontal" android:id="@id/group_chat_members" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/use_previous_group_chat_dialog_member_list_margin_horizontal" bind:layoutManager="androidx.recyclerview.widget.GridLayoutManager" bind:layout_constrainedHeight="true" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintHeight_max="@dimen/use_previous_group_chat_dialog_member_list_max_height" bind:layout_constraintHeight_min="@dimen/use_previous_group_chat_dialog_member_height" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" bind:spanCount="5" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/create_new_group_chat_button" android:tag="binding_4" android:text="@string/create_new_group_chat" style="@style/UsePreviousGroupChatDialogButtonStyle" />
+        <Button android:id="@id/use_previous_group_chat_button" android:tag="binding_5" android:layout_marginTop="@dimen/use_previous_group_chat_dialog_button_margin_top" android:layout_marginBottom="@dimen/use_previous_group_chat_dialog_button_margin_bottom" android:text="@string/use_previous_group_chat" style="@style/UsePreviousGroupChatDialogButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

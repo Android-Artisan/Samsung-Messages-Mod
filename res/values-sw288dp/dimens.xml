@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alive_sms_introduction_animation_height">154.0dp</dimen>
+    <dimen name="bubble_bot_horizontal_image_size">71.0dp</dimen>
+    <dimen name="bubble_bot_horizontal_media_width">91.0dp</dimen>
+    <dimen name="bubble_bot_media_height_medium_vertical">125.0dp</dimen>
+    <dimen name="bubble_bot_media_height_short_vertical">84.0dp</dimen>
+    <dimen name="bubble_bot_media_height_tall_vertical">197.0dp</dimen>
+    <dimen name="bubble_bot_media_max_height">283.0dp</dimen>
+    <dimen name="bubble_bot_media_min_height">118.0dp</dimen>
+    <dimen name="bubble_bot_width">212.0dp</dimen>
+    <dimen name="bubble_bot_width_chn">195.0dp</dimen>
+    <dimen name="bubble_bot_width_selection">172.0dp</dimen>
+    <dimen name="bubble_bot_width_selection_chn">155.0dp</dimen>
+    <dimen name="bubble_max_width">189.0dp</dimen>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource-map>
+    <color>
+        <match overlay="theme_status_bar_bg_color">
+            <original>theme_status_bar_bg_color_ghost_rounded</original>
+        </match>
+        <match overlay="theme_toolbar_background_color">
+            <original>theme_toolbar_background_color_ghost_rounded</original>
+        </match>
+        <match overlay="theme_extend_app_bar_bg_color">
+            <original>theme_extend_app_bar_bg_color_ghost_rounded</original>
+        </match>
+        <match overlay="theme_control_area_bg_color">
+            <original>theme_control_area_bg_color_ghost_rounded</original>
+        </match>
+        <match overlay="theme_rounded_corner_color">
+            <original>theme_rounded_corner_color_ghost_rounded</original>
+        </match>
+        <match overlay="window_background_color">
+            <original>window_background_color_ghost_rounded</original>
+        </match>
+        <match overlay="theme_list_divider_color">
+            <original>theme_list_divider_color_ghost_rounded</original>
+        </match>
+        <match overlay="theme_bottom_bar_bg_color">
+            <original>theme_bottom_bar_bg_color_ghost_rounded</original>
+        </match>
+        <match overlay="theme_sub_header_bg_color">
+            <original>theme_sub_header_bg_color_ghost_rounded</original>
+        </match>
+        <match overlay="theme_tab_background_color">
+            <original>theme_tab_background_color_ghost_rounded</original>
+        </match>
+        <match overlay="theme_attach_sheet_bg_color">
+            <original>theme_attach_sheet_bg_color_ghost_rounded</original>
+        </match>
+    </color>
+    <drawable>
+        <match overlay="window_background">
+            <original>window_background_ghost_rounded</original>
+        </match>
+    </drawable>
+</resource-map>

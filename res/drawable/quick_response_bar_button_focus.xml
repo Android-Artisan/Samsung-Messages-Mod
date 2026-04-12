@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/selector_quick_response_button_radius" />
+    <stroke android:width="@dimen/bubble_stroke_focus" android:color="@color/theme_bubble_color_stroke_focused" />
+    <solid android:color="@color/theme_quick_response_bar_button_normal" />
+</androidx.appcompat.util.SeslShapeDrawable>

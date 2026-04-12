@@ -1,0 +1,38 @@
+.class public LOk/s0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LEk/a;
+
+
+# instance fields
+.field public final a:LOk/t0;
+
+
+# direct methods
+.method public constructor <init>(LOk/t0;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LOk/s0;->a:LOk/t0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    sget v0, LOk/t0;->w:I
+
+    new-instance v0, LOk/t0$a;
+
+    iget-object p0, p0, LOk/s0;->a:LOk/t0;
+
+    invoke-direct {v0, p0}, LOk/t0$a;-><init>(LOk/t0;)V
+
+    return-object v0
+.end method

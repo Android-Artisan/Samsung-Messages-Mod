@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SeslProgressBar android:id="@id/base_list_item_info_progress_bar" android:visibility="gone" android:layout_width="@dimen/bubble_side_info_child_layout_size" android:layout_height="@dimen/bubble_side_info_child_layout_size" android:indeterminate="true" android:contentDescription="@string/status_sending" android:backgroundTint="@color/theme_bubble_badge_progress_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

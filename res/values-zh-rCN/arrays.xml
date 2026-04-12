@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 小时</item>
+        <item>6 小时</item>
+        <item>24 小时</item>
+        <item>2 天</item>
+        <item>网络默认设置</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>原图</item>
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+        <item>总是询问</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>原图</item>
+        <item>高画质</item>
+        <item>一般质量</item>
+        <item>低分辨率</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>全部频道</item>
+        <item>个人频道</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>自动</item>
+        <item>短信或彩信</item>
+        <item>聊天</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>自动</item>
+        <item>短信或彩信</item>
+        <item>RCS 聊天信息</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>阻止</item>
+        <item>先询问</item>
+        <item>允许</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>始终</item>
+        <item>提示</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM 字母系统</item>
+        <item>单一码</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>以短信或彩信形式重新发送</item>
+        <item>不重新发送</item>
+        <item>重新发送前询问</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>使用短信或彩信</item>
+        <item>不重新发送</item>
+        <item>总是询问</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>原始</item>
+        <item>网络默认设置</item>
+        <item>始终询问</item>
+    </string-array>
+</resources>

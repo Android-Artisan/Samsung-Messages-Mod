@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 сағат</item>
+        <item>6 cағат</item>
+        <item>24 сағат</item>
+        <item>2 күн</item>
+        <item>Желінің әдепкі мәні</item>
+        <item>Максимум</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Түпнұсқа</item>
+        <item>Жоғары</item>
+        <item>Орташа</item>
+        <item>Төмен</item>
+        <item>Әрқашан сұрау</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Түпнұсқа</item>
+        <item>Жоғары сапа</item>
+        <item>Қалыпты сапа</item>
+        <item>Төмен ажыратымдылық</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Барлық арна</item>
+        <item>Менің арнам</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Автоматты</item>
+        <item>Мәтін немесе мультимедиа</item>
+        <item>Чат</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Автоматты</item>
+        <item>Мәтін немесе мультимедиа</item>
+        <item>RCS чат хабарлары</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Бұғаттау</item>
+        <item>Алдымен сұрау</item>
+        <item>Рұқсат беру</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Әрқашан</item>
+        <item>Сұрау</item>
+        <item>Ешқашан</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM алфавиті</item>
+        <item>Юникод</item>
+        <item>Автоматты түрде</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Мәтіндік немесе мультимедиалық хабар ретінде қайта жіберу</item>
+        <item>Қайта жібермеу</item>
+        <item>Қайта жібермес бұрын сұрау</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Мәтін не мультим. хабар қолдану</item>
+        <item>Қайта жіберу жоқ</item>
+        <item>Әрқашан сұрау</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Түпнұсқа</item>
+        <item>Әдепкі желі</item>
+        <item>Әрқашан сұрау</item>
+    </string-array>
+</resources>

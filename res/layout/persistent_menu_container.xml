@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bot.persistent.PersistentMenuContainer android:id="@id/persistent_menu_root" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="-0.75dp" android:layout_above="@id/composer_editor_panel_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/persistent_menu_content" android:background="@drawable/persistent_menu_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="8.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:layout_gravity="center_horizontal" android:id="@id/header_image" android:background="@drawable/persistent_menu_top_divider" android:layout_width="15.0dp" android:layout_height="2.0dp" android:layout_marginTop="@dimen/persistent_menu_handler_margin_top_bottom" android:layout_marginBottom="@dimen/persistent_menu_handler_margin_top_bottom" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/persistent_menu_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.samsung.android.messaging.ui.view.bot.persistent.PersistentMenuContainer>

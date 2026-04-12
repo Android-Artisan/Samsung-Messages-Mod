@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:id="@id/card_view_list_item_container" android:tag="layout/card_view_list_item_on_pinned_conversation_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/reorder_background_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerRelativeLayout android:id="@id/card_view_list_item_rounded_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.messaging.uicommon.widget.checkablelayout.CheckableRelativeLayout android:theme="@style/ListItemBackground" android:id="@id/card_view_list_item" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:paddingStart="@dimen/card_view_margin" android:paddingEnd="@dimen/reorder_button_margin_end_flexible" app:ghost="false" app:roundMode="0">
+                <include layout="@layout/card_view_list_item_avatar_panel" />
+                <LinearLayout android:orientation="vertical" android:id="@id/list_content_panel_outline" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/setting_list_item_min_height" android:layout_toStartOf="@id/list_reorder" android:layout_toEndOf="@id/list_avatar_panel_outline">
+                    <View android:layout_width="match_parent" android:layout_height="@dimen/card_view_top_bottom_padding" />
+                    <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.5" />
+                    <LinearLayout android:orientation="horizontal" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                        <include layout="@layout/card_view_list_item_main_layout_name" />
+                    </LinearLayout>
+                    <ViewStub android:id="@id/list_item_tag_number_stub" android:layout="@layout/card_view_list_item_tag_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/card_view_sub_layout_on_pinned_conversation" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <include layout="@layout/card_view_list_item_sub_layout_content" />
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.5" />
+                    <View android:layout_width="match_parent" android:layout_height="@dimen/card_view_top_bottom_padding" />
+                </LinearLayout>
+                <ImageView android:id="@id/list_reorder" android:focusable="true" android:layout_width="@dimen/list_add_delete_button_width" android:layout_height="@dimen/list_add_delete_button_height" android:src="@drawable/tw_list_icon_reorder" android:tint="@color/theme_category_reorder_icon_tint_color" android:layout_centerVertical="true" android:contentDescription="@string/reorder" android:layout_marginStart="@dimen/reorder_button_margin_start" android:layout_alignParentEnd="true" android:tooltipText="@string/reorder" />
+                <View android:id="@id/list_divider" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="@dimen/conversation_list_divider_height" android:layout_below="@id/list_content_panel_outline" android:layout_toEndOf="@id/list_avatar_panel_outline" />
+            </com.samsung.android.messaging.uicommon.widget.checkablelayout.CheckableRelativeLayout>
+        </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerRelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/reorder_stroke" android:background="@drawable/reorder_stroke_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

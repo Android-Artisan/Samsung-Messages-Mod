@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable android:drawable="@drawable/contacts_default_caller_id_list" class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

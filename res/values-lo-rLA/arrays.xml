@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ຊົ່ວໂມງ</item>
+        <item>6 ຊົ່ວໂມງ</item>
+        <item>24 ຊົ່ວໂມງ</item>
+        <item>2 ວັນ</item>
+        <item>ຄ່າມາດຕະຖານເຄືອຂ່າຍ</item>
+        <item>ສູງສຸດ</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>ຕົ້ນສະບັບ</item>
+        <item>ສູງ</item>
+        <item>ປານກາງ</item>
+        <item>ຕ່ຳ</item>
+        <item>ຖາມທຸກຄັ້ງ</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>ຕົ້ນສະບັບ</item>
+        <item>ຄຸນນະພາບສູງ</item>
+        <item>ຄຸນນະພາບປົກກະຕິ</item>
+        <item>ຄວາມລະອຽດຕໍ່າ</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>ທຸກຊ່ອງ</item>
+        <item>ຊ່ອງຂອງຂ້ອຍ</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>ອັດຕະໂນມັດ</item>
+        <item>ຂໍ້ຄວາມ ຫຼື ມັລຕິມີເດຍ</item>
+        <item>ແຊັດ</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>ອັດຕະໂນມັດ</item>
+        <item>ຂໍ້ຄວາມ ຫຼື ມັລຕິມີເດຍ</item>
+        <item>ຂໍ້ຄວາມແຊັດ RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ບລັອກ</item>
+        <item>ຖາມກ່ອນ</item>
+        <item>ອະນຸຍາດ</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ທຸກຄັ້ງ</item>
+        <item>​ເຕືອນ</item>
+        <item>ບໍ່ເຄີຍ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>ລຳດັບ​ຕາມ​ຕົວ​ອັກສອນ​ GSM</item>
+        <item>ຢູນີໂຄດ</item>
+        <item>ອັດຕະໂນມັດ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>ສົ່ງຄືນໃໝ່ເປັນຂໍ້ຄວາມຕົວອັກສອນ ຫຼື ມັລຕິມີເດຍ</item>
+        <item>ຢ່າສົ່ງຄືນໃໝ່</item>
+        <item>ຖາມກ່ອນສົ່ງຄືນໃໝ່</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>ໃຊ້ຂໍ້ຄວາມຕົວອັກສອນ ຫຼື ມັລຕິມີເດຍ</item>
+        <item>ບໍ່​ໄດ້​ສົ່ງ​ໃໝ່</item>
+        <item>ຖາມທຸກຄັ້ງ</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>ຕົ້ນສະບັບ</item>
+        <item>ຄ່າມາດຕະຖານເຄືອຂ່າຍ</item>
+        <item>ຖາມເລື້ອຍໆ</item>
+    </string-array>
+</resources>

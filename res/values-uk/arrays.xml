@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 година</item>
+        <item>6 годин</item>
+        <item>24 години</item>
+        <item>2 дні</item>
+        <item>Стандартні налаштування мережі</item>
+        <item>Максимум</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Оригінал</item>
+        <item>Висока</item>
+        <item>Середня</item>
+        <item>Низька</item>
+        <item>Завжди запитувати</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Оригінал</item>
+        <item>Висока якість</item>
+        <item>Звичайна якість</item>
+        <item>Низька розділ.здатність</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Всі канали</item>
+        <item>Мій канал</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Автоматично</item>
+        <item>SMS або MMS</item>
+        <item>Чат</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Автоматично</item>
+        <item>SMS або MMS</item>
+        <item>Повідомлення чату RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Блокувати</item>
+        <item>Спочатку запитувати</item>
+        <item>Дозволити</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Завжди</item>
+        <item>Запитати</item>
+        <item>Ніколи</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-алфавіт</item>
+        <item>Юнікод</item>
+        <item>Автоматично</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Повторно надіслати у вигляді SMS або MMS</item>
+        <item>Не надсилати повторно</item>
+        <item>Запитувати перед повторним надсиланням</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Використання SMS або MMS</item>
+        <item>Не надсилати повторно</item>
+        <item>Завжди запитувати</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Як в оригіналі</item>
+        <item>Стандартна мережа</item>
+        <item>Завжди запитувати</item>
+    </string-array>
+</resources>

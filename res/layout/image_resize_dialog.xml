@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/theme_dialog_section_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/recipient_panel_divider_normal_height" android:layout_marginBottom="12.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:textSize="16.0dp" android:textColor="@color/msg_popup_text_color" android:id="@id/checkbox_do_not_show_again" android:paddingLeft="18.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/msg_popup_checkbox_margin" android:layout_marginRight="@dimen/msg_popup_margin" android:checked="false" android:text="@string/im_swipe_tip_dialog_do_not_show_again" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

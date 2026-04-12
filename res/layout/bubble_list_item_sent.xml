@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.BubbleListItem android:orientation="vertical" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bubble_list_group_chat_start_info_stub" android:visibility="gone" android:layout="@layout/bubble_list_group_chat_start_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bubble_list_margin_top" android:layout_marginBottom="@dimen/bubble_list_margin_bottom" android:layout_marginEnd="@dimen/bubble_list_padding_start_end" />
+    <include android:layout_gravity="center" android:id="@id/base_list_date_stub" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bubble_list_margin_top" android:layout_marginBottom="@dimen/bubble_list_margin_bottom" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" layout="@layout/bubble_list_date_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bubble_list_item_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+        <ViewStub android:layout_gravity="start" android:id="@id/bubble_item_checkbox_stub" android:focusable="false" android:clickable="false" android:layout="@layout/bubble_item_checkbox_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_marginStart="10.0dp" android:layout_marginEnd="@dimen/bubble_checkbox_margin_start_end" />
+        <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/list_item_content_container" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:layout_marginBottom="-3.0dp" android:layout_marginEnd="24.0dp" layout="@layout/bubble_reaction_view_layout" />
+        </LinearLayout>
+    </LinearLayout>
+</com.samsung.android.messaging.ui.view.bubble.item.BubbleListItem>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dp" android:width="16.0dp" android:viewportWidth="16.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/theme_map_view_pin_color" android:pathData="M7.9994,11.3471C6.1634,11.3471 4.6733,9.8581 4.6733,8.0187C4.6733,6.1838 6.1634,4.6948 7.9994,4.6948C9.8366,4.6948 11.3256,6.1838 11.3256,8.0187C11.3256,9.8581 9.8366,11.3471 7.9994,11.3471M7.9983,0.1024C3.5878,0.1024 0,3.6903 0,8.0996C0,11.1542 2.3228,13.7264 2.4137,13.824L6.7366,19.4197C7.4007,20.1936 8.5982,20.1936 9.2623,19.4186L13.5752,13.834C13.675,13.7264 16,11.1542 16,8.0996C16,3.6903 12.4111,0.1024 7.9983,0.1024" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M-59,-16h103v56h-103z" android:strokeColor="#ff6600" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

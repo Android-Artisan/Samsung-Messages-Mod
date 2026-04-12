@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="@string/screen_Block_Messages"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:selectable="false" android:key="pref_description_block_number_and_messages" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_blocked_title" android:key="pref_key_spam_messages_manager" app:event="@string/event_Message_Settings_Block_Messages_Block_Messages" app:screen="@string/screen_Block_Messages">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.blockconversation.BlockConversationActivity" />
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <PreferenceCategory android:key="pref_key_block_spam_settings_divider" />
+    <com.samsung.android.messaging.ui.view.setting.widget.DepthInSwitchSettingPreference android:title="@string/setting_auto_spam_blocker" android:key="pref_key_auto_spam_blocker" app:event="@string/event_KR_Spam_blocker_details" app:screen="@string/screen_KR_Block_numbers_and_spam">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.spamblocker.SpamBlockerActivity" />
+    </com.samsung.android.messaging.ui.view.setting.widget.DepthInSwitchSettingPreference>
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/setting_block_international_senders" android:key="pref_key_spam_international_number_enable" android:defaultValue="false" app:event="@string/event_Block_international_senders_dialog" app:screen="@string/screen_KR_Block_numbers_and_spam" app:status="true" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/setting_block_unknown_senders" android:key="pref_key_spam_filter_unknown_enable" android:defaultValue="true" app:event="@string/event_Message_Settings_Block_Numbers_And_Spam_Block_Unknown_Senders" app:screen="@string/screen_KR_Block_numbers_and_spam" app:status="true" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_block_phrases_title" android:key="pref_key_spam_phrase_add" app:event="@string/event_Message_Settings_Block_Messages_Block_Phrase" app:screen="@string/screen_Block_Messages">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.block.BlockPhrasesSettingActivity" />
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_block_number_title" android:key="pref_key_spam_num_add" app:event="@string/event_Message_Settings_Block_Messages_Block_Numbers" app:screen="@string/screen_Block_Messages" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_block_list_title" android:key="pref_key_spam_block_list" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_allow_list_title" android:key="pref_key_spam_allow_list" />
+    <PreferenceCategory android:key="pref_key_caller_id_settings_divider" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_smart_call" android:key="pref_key_enable_smart_call" app:event="@string/event_Message_Settings_Block_Messages_Caller_Id" app:screen="@string/screen_Block_Messages" />
+    <PreferenceCategory android:title="@string/blocked_message_spam" android:key="pref_key_explain_spam_report_settings_divider" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_block_reporting_numbers_as_spam" android:key="pref_key_explain_spamreport" app:event="@string/event_Report_numbers_as_spam" app:screen="@string/screen_KR_Block_numbers_and_spam" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_block_menu_consent_collection_personal_information" android:key="pref_key_spam_consent_collection_personal_information" app:event="@string/event_Consent_personal_info_spam" app:screen="@string/screen_KR_Block_numbers_and_spam" />
+    <PreferenceCategory android:title="@string/blocked_message_phishing" android:key="pref_key_explain_phishing_report_settings_divider" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_block_reporting_messages_as_phishing" android:key="pref_key_explain_phishing_report" app:event="@string/event_Report_messages_as_phishing" app:screen="@string/screen_KR_Block_numbers_and_spam" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_block_menu_consent_collection_personal_information" android:key="pref_key_phishing_consent_collection_personal_information" app:event="@string/event_Consent_personal_info_phishing" app:screen="@string/screen_KR_Block_numbers_and_spam" />
+</androidx.preference.PreferenceScreen>

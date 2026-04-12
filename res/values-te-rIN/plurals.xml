@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">సందేశాన్ని వెనక్కు రీకాల్ చేయలేరు. పంపిన %d నిమిషంలోపు మాత్రమే సందేశాన్ని రీకాల్ చేయగలరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">సందేశాన్ని వెనక్కు రీకాల్ చేయలేరు. పంపిన %d నిమిషాలలోపు మాత్రమే సందేశాలను రీకాల్ చేయగలరు.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సమూహ చాట్ నుండి కూడా నిష్క్రమించు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సమూహ చాట్‌ల నుండి కూడా నిష్క్రమించు</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సమూహ సంభాషణ నుండి కూడా నిష్క్రమించు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సమూహ సంభాషణల నుండి కూడా నిష్క్రమించు</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఎమోటికాన్ ప్యాక్‌ను తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఎమోటికాన్ ప్యాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సంభాషణను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సంభాషణలను ట్రాష్‌కు తరలించాలా?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d రోజు తర్వాత ట్రాష్‌లో ఉన్న సందేశాలు శాశ్వతంగా తొలగించబడతాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d రోజుల తర్వాత ట్రాష్‌లో ఉన్న సందేశాలు శాశ్వతంగా తొలగించబడతాయి.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">తొలగించబడిన సందేశాలను శాశ్వతంగా తొలగించబడడానికి ముందు అవి %d రోజు పాటు ట్రాష్‌లో ఉంటాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">తొలగించబడిన సందేశాలను శాశ్వతంగా తొలగించబడడానికి ముందు అవి %d రోజుల పాటు ట్రాష్‌లో ఉంటాయి.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సందేశాన్ని ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సందేశాలను ట్రాష్‌కు తరలించాలా?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ రోజు ప్రత్యేకమైన రోజు (%1$s మరియు %2$d ఇతర ఈవెంట్). వారికి ఏదైనా పంపాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ఈ రోజు ప్రత్యేకమైన రోజు (%1$s మరియు %2$d ఇతర ఈవెంట్‌లు). వారికి ఏదైనా పంపాలా?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ రోజు %1$s మరియు మరో %2$d పరిచయం పుట్టినరోజు! ప్రత్యేకంగా శుభాకాంక్షలు ఏమైనా పంపాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ఈ రోజు %1$s మరియు మరో %2$d పరిచయాల పుట్టినరోజు! ప్రత్యేకంగా శుభాకాంక్షలు ఏమైనా పంపాలా?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">గత 30 రోజుల్లో %d సందేశం నిరోధించబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">గత 30 రోజుల్లో %d సందేశాలు నిరోధించబడ్డాయి</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఎంచుకోబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఎంచుకోబడింది</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఇమెయిల్ చిరునామా చెల్లుబాటు కానందున దాన్ని నిరోధించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఇమెయిల్ చిరునామాలు చెల్లుబాటు కానందున వాటిని నిరోధించలేరు.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫోన్ నంబర్ చెల్లుబాటు కానందున దాన్ని నిరోధించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఫోన్ నంబర్‌లు చెల్లుబాటు కానందున వాటిని నిరోధించలేరు.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d పంపినవారి సమాచారం చెల్లుబాటు కానందున వారిని నిరోధించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d మంది పంపినవాళ్ల సమాచారం చెల్లుబాటు కానందున వాళ్లను నిరోధించలేరు.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ పరిచయాన్ని ఎంచుకోలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కంటే ఎక్కువ పరిచయాలను ఎంచుకోలేరు.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d %2$s కార్డ్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d %2$s కార్డ్‌లు</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చాట్ పరిచయం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d చాట్ పరిచయాలు</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Chatting+ పరిచయం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Chatting+ పరిచయాలు</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"మీరు Chatting+ నుండి నమోదు తీసివేస్తే,మీరు ముఖాముఖి మరియు సమూహ చాట్‌లను సృష్టించడం లేదా చేరడం చేయలేరు, మీ సందేశాలు చదివినట్లు నిర్ధారణ పొందలేరు లేదా పెద్ద ఫైల్‌లను భాగస్వామ్యం చేయలేరు. మీరు ఖచ్చితంగా నమోదు తీసివేయాలనుకుంటున్నారా?
+
+మళ్లీ నమోదు చేయడానికి మీ %d నిమిషం వేచి ఉండాలి."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"మీరు Chatting+ నుండి నమోదు తీసివేస్తే,మీరు ముఖాముఖి మరియు సమూహ చాట్‌లను సృష్టించడం లేదా చేరడం చేయలేరు, మీ సందేశాలు చదివినట్లు నిర్ధారణ పొందలేరు లేదా పెద్ద ఫైల్‌లను భాగస్వామ్యం చేయలేరు. మీరు ఖచ్చితంగా నమోదు తీసివేయాలనుకుంటున్నారా?
+
+మళ్లీ నమోదు చేయడానికి మీ %d నిమిషాలు వేచి ఉండాలి."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చాట్‌బాట్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d చాట్‌బాట్‌లు</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d పరిచయం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d పరిచయాలు</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఎంచుకోబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఎంచుకోబడింది</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d రోజులో గడువు ముగుస్తుంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d రోజులలో గడువు ముగుస్తుంది</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కూపన్ గడువు త్వరలో ముగుస్తుంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కూపన్‌ల గడువు త్వరలో ముగుస్తుంది</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ %1$s కూపన్ గడువు %2$d రోజులో ముగుస్తుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీ %1$s కూపన్ గడువు %2$d రోజులలో ముగుస్తుంది.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ కూపన్ గడువు %d రోజులో ముగుస్తుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీ కూపన్ గడువు %d రోజులలో ముగుస్తుంది.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">%d సంభాషణను తొలగించాలా?</item>
+        <item quantity="other">%d సంభాషణలను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సంభాషణని శాశ్వతంగా తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సంభాషణలను శాశ్వతంగా తొలగించాలా?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">%d సందేశాన్ని తొలగించాలా?</item>
+        <item quantity="other">%d సందేశాలను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సందేశాన్ని శాశ్వతంగా తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సందేశాలను శాశ్వతంగా తొలగించాలా?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d డెలివరీ సందేశం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d డెలివరీ సందేశాలు</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కార్డ్‌ని విస్మరించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కార్డ్‌లను విస్మరించాలా?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ప్రధాన స్క్రీన్‌పై %1$d వర్గం ట్యాబ్ మాత్రమే చూపబడింది. మిగిలినవి దాచబడ్డాయి. ప్రధాన స్క్రీన్ నుండి %2$s వర్గానికి త్వరిత ప్రాప్యత మీకు కావలసినట్టయితే, దాన్ని ఎంచుకోండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ప్రధాన స్క్రీన్‌పై %1$d వర్గం ట్యాబ్‌లు మాత్రమే చూపబడ్డాయి. మిగిలినవి దాచబడ్డాయి. ప్రధాన స్క్రీన్ నుండి %2$s వర్గానికి త్వరిత ప్రాప్యత మీకు కావలసినట్టయితే, దాన్ని ఎంచుకోండి.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d నిమిషాలు</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సెకన్లు</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫైల్ మీ ఫోన్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఫైల్‌లు మీ ఫోన్‌కు సేవ్ చేయబడ్డాయి.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫైల్ మీ టాబ్లెట్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఫైల్‌లు మీ టాబ్లెట్‌కు సేవ్ చేయబడ్డాయి.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ రోజు %d లావాదేవీ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ఈ రోజు %d లావాదేవీలు</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s మరియు %2$d తెలియని నంబర్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s మరియు %2$d తెలియని నంబర్‌లు</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d తెలియని నంబర్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d తెలియని నంబర్‌లు</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s సమూహ చాట్‌లలో చేరలేరు. ఎంచుకున్న గ్రహీతల నుండి వారిని తీసివేయండి లేదా బదులుగా %2$d గ్రహీతకు టెక్స్ట్ సందేశాన్ని పంపండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s సమూహ చాట్‌లలో చేరలేరు. ఎంచుకున్న గ్రహీతల నుండి వారిని తీసివేయండి లేదా బదులుగా %2$d గ్రహీతలకు టెక్స్ట్ సందేశాన్ని పంపండి.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"చేర్చబడిన గ్రహీతలలో ఒకరు లేదా మరింత మందికి అధునాతన మెసేజింగ్ సామర్థ్యం లేదు, కాబట్టి మీ సమూహం %d సభ్యుడికి పరిమితం చేయబడింది.
+
+కొనసాగించడానికి, అధునాతన మెసేజింగ్ సామర్థ్యం ఉన్న సభ్యులను మాత్రమే ఎంచుకోండి. వారు నీలి రంగు డాట్ చిహ్నంతో గుర్తు పెట్టబడతారు."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"చేర్చబడిన గ్రహీతలలో ఒకరు లేదా మరింత మందికి అధునాతన మెసేజింగ్ సామర్థ్యం లేదు, కాబట్టి మీ సమూహం %d సభ్యులకు పరిమితం చేయబడింది.
+
+కొనసాగించడానికి, అధునాతన మెసేజింగ్ సామర్థ్యం ఉన్న సభ్యులను మాత్రమే ఎంచుకోండి. వారు నీలి రంగు డాట్ చిహ్నంతో గుర్తు పెట్టబడతారు."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">సమూహ చాట్‌ని ప్రారంభించడానికి, చివరగా ఎంచుకున్న గ్రహీతని తీసివేయండి. మీరు చివరి గ్రహీతని చేర్చాలనుకుంటే, సందేశాన్ని పంపడానికి %d గ్రహీతని తీసివేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">సమూహ చాట్‌ని ప్రారంభించడానికి, చివరగా ఎంచుకున్న గ్రహీతని తీసివేయండి. మీరు చివరి గ్రహీతని చేర్చాలనుకుంటే, సందేశాన్ని పంపడానికి %d గ్రహీతలను తీసివేయండి.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చిత్రం మీ టాబ్లెట్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d చిత్రాలు మీ టాబ్లెట్‌కు సేవ్ చేయబడ్డాయి.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చిత్రం మీ ఫోన్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d చిత్రాలు మీ ఫోన్‌కు సేవ్ చేయబడ్డాయి.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 చిత్రం మరియు %d వీడియో మీ ఫోన్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 చిత్రం మరియు %d వీడియోలు మీ ఫోన్‌కు సేవ్ చేయబడ్డాయి.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చిత్రం మరియు 1 వీడియో మీ ఫోన్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d చిత్రాలు మరియు 1 వీడియో మీ ఫోన్‌కు సేవ్ చేయబడ్డాయి.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s మరియు మరో %2$d వ్యక్తి చేరారు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s మరియు మరో %2$d మంది వ్యక్తలు చేరారు</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d పరిచయం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d పరిచయాలు</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ వ్యక్తిని ఎంచుకోలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కంటే ఎక్కువ వ్యక్తులను ఎంచుకోలేరు.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీరు సందేశం సూచనల బటన్‌ని నొక్కినప్పుడు, మీ సంభాషణలోని చివరి %d సందేశం ఆన్‌లైన్‌లో ప్రాసెస్ చేయబడుతుంది. AI-రూపొందించిన సూచనలు ఖచ్చితంగా లేకపోవచ్చు లేదా అనుచితమైన కంటెంట్‌ను కలిగి ఉండవచ్చు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీరు సందేశం సూచనల బటన్‌ని నొక్కినప్పుడు, మీ సంభాషణలోని చివరి %d సందేశాలు ఆన్‌లైన్‌లో ప్రాసెస్ చేయబడతాయి. AI-రూపొందించిన సూచనలు ఖచ్చితంగా లేకపోవచ్చు లేదా అనుచితమైన కంటెంట్‌ను కలిగి ఉండవచ్చు.</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫైల్ త్వరిత భాగస్వామ్యంని ఉపయోగించి భాగస్వామ్యం చేయబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ఫైల్‌లు త్వరిత భాగస్వామ్యంని ఉపయోగించి భాగస్వామ్యం చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కొత్త ఉపయోగకరమైన కార్డ్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కొత్త ఉపయోగకరమైన కార్డ్‌లు</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సంభాషణ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సంభాషణలు</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d సందేశం</item>
+        <item quantity="other">%d సందేశాలు</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">తొలగించిన సందేశాలను %d రోజు పాటు ఉంచుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">తొలగించిన సందేశాలను %d రోజుల పాటు ఉంచుతుంది.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీరు మళ్లీ %d నిమిషంలో రీఫ్రెష్ చేయవచ్చు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీరు మళ్లీ %d నిమిషాలలో రీఫ్రెష్ చేయవచ్చు.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇప్పుడే %d సందేశాన్ని పంపాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ఇప్పుడే %d సందేశాలను పంపాలా?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ సమాచారం అప్‌డేట్ అవుతోంది. కనీసం %d నిమిషం పాటు వేచి ఉండి, ఆపై మళ్లీ ప్రయత్నించండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీ సమాచారం అప్‌డేట్ అవుతోంది. కనీసం %d నిమిషాల పాటు వేచి ఉండి, ఆపై మళ్లీ ప్రయత్నించండి.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ సంభాషణని పిన్ చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కంటే ఎక్కువ సంభాషణలను పిన్ చేయలేరు.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s మరియు %2$d ఇతరులు</item>
+        <item quantity="other">%1$s మరియు %2$d మంది ఇతరులు</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కార్డ్‌ని తీసివేయాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కార్డ్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">కారణాన్ని నమోదు చేయండి (%d అక్షరం వరకు)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">కారణాన్ని నమోదు చేయండి (%d అక్షరాల వరకు)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సందేశం షెడ్యూల్ చేయబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సందేశాలు షెడ్యూల్ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇప్పటి నుండి కనీసం %d నిమిషం సమయాన్ని ఎంచుకోండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ఇప్పటి నుండి కనీసం %d నిమిషాల సమయాన్ని ఎంచుకోండి.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కనుగొనబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d కనుగొనబడ్డాయి</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 సంభాషణ మరియు %d ఇతర సందేశాన్ని ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 సంభాషణ మరియు %d ఇతర సందేశాలను ట్రాష్‌కు తరలించాలా?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సంభాషణ మరియు 1 ఇతర సందేశాన్ని ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సంభాషణలు మరియు 1 ఇతర సందేశాన్ని ట్రాష్‌కు తరలించాలా?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d వరకు వ్యక్తిని ఎంచుకోండి.
+(ఈ సంభాషణలో వారి ఫోన్ నంబర్‌లను ఉపయోగిస్తున్న వ్యక్తులను చూపుతోంది.)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d వరకు వ్యక్తులను ఎంచుకోండి.
+(ఈ సంభాషణలో వారి ఫోన్ నంబర్‌లను ఉపయోగిస్తున్న వ్యక్తులను చూపుతోంది.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">నిద్ర సమయం: %d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">నిద్ర సమయం: %d గంటలు</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">నిద్ర సమయం: %d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">నిద్ర సమయం: %d నిమిషాలు</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట మిగిలి ఉంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d గంటలు మిగిలి ఉన్నాయి</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషం మిగిలి ఉంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d నిమిషాలు మిగిలి ఉన్నాయి</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సెకను మిగిలి ఉంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d సెకన్లు మిగిలి ఉన్నాయి</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">SIM కార్డునుండి సందేశం కాపీ అయ్యింది.</item>
+        <item quantity="other">SIM కార్డునుండి సందేశాలు కాపీ అయ్యాయి.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d వర్గం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d వర్గాలు</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీరు టెక్స్ట్ సందేశాల కోసం పరిమితిని కలిగి ఉన్న %d కంటే ఎక్కువ గ్రహీతని ఎంచుకున్నారు. అందరికీ ఒకేసారి సందేశాన్ని పంపడానికి సమూహ చాట్‌ని ప్రారంభించండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీరు టెక్స్ట్ సందేశాల కోసం పరిమితిని కలిగి ఉన్న %d కంటే ఎక్కువ గ్రహీతలను ఎంచుకున్నారు. అందరికీ ఒకేసారి సందేశాన్ని పంపడానికి సమూహ చాట్‌ని ప్రారంభించండి.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d మొత్తం సందేశం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d మొత్తం సందేశాలు</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">పంపినవారు ఇకపై మోసపూరితమైన వారుగా పరిగణించబడనందున %d సందేశం స్వయంచాలకంగా అనుమతించబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">పంపినవారు ఇకపై మోసపూరితమైన వారుగా పరిగణించబడనందున %d సందేశాలు స్వయంచాలకంగా అనుమతించబడ్డాయి.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s మరియు మరో %2$d బ్రాండ్ నుండి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s మరియు మరో %2$d బ్రాండ్‌ల నుండి</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చదవనివి డెలివరీ సందేశం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d చదవనివి డెలివరీ సందేశాలు</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s మరియు మరో %2$d పరిచయం నుండి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s మరియు మరో %2$d పరిచయాల నుండి</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s నుండి %1$d చదవని సందేశం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s నుండి %1$d చదవని సందేశాలు</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s మరియు మరో %2$d బ్రాండ్ నుండి కొంత మందితో సహా</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s మరియు మరో %2$d బ్రాండ్‌ల నుండి కొంత మందితో సహా</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d డెలివరీ సందేశంతో సహా</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d డెలివరీ సందేశాలతో సహా</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s మరియు మరో %2$d పరిచయం నుండి కొంత మందితో సహా</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s మరియు మరో %2$d పరిచయాల నుండి కొంత మందితో సహా</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చదవని సందేశం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d చదవని సందేశాలు</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చదవని సందేశం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d చదవని సందేశాలు</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ రోజు %d రానున్న హెచ్చరిక</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ఈ రోజు %d రానున్ను హెచ్చరికలు</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d వీడియో మీ ఫోన్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d వీడియోలు మీ ఫోన్‌కు సేవ్ చేయబడ్డాయి.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీరు %1$sఈ రోజు డెలివరీకి సంబంధించి %2$d సందేశాన్ని పొందారు%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీరు %1$sఈ రోజు డెలివరీకి సంబంధించి %2$d సందేశాలను పొందారు%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీరు %1$sఈ రోజు డెలివరీలకు సంబంధించి %2$d సందేశాన్ని పొందారు%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">మీరు %1$sఈ రోజు డెలివరీలకు సంబంధించి %2$d సందేశాలను పొందారు%3$s.</item>
+    </plurals>
+</resources>

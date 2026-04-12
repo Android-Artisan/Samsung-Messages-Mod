@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>۱ ساعت</item>
+        <item>۶ساعت</item>
+        <item>24 ساعته</item>
+        <item>2روز</item>
+        <item>پیش فرض شبکه</item>
+        <item>حداکثر</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>اصلی</item>
+        <item>زیاد</item>
+        <item>متوسط</item>
+        <item>کم</item>
+        <item>پرسش</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>اصلی</item>
+        <item>کیفیت بالا</item>
+        <item>کیفیت عادی</item>
+        <item>وضوح پایین</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>همه کانال ها</item>
+        <item>کانال من</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>خودکار</item>
+        <item>متنی یا چندرسانه‌ای</item>
+        <item>چت</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>خودکار</item>
+        <item>متنی یا چندرسانه‌ای</item>
+        <item>پیام‌های چت RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>مسدود شود</item>
+        <item>ابتدا پرسیده شود</item>
+        <item>اجازه دادن</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>همیشه</item>
+        <item>اعلان</item>
+        <item>هرگز</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>الفبای GSM</item>
+        <item>یونیکد</item>
+        <item>خودکار</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>به‌صورت پیام چندرسانه‌ای یا متنی مجدداً ارسال شود</item>
+        <item>مجدداً ارسال نشود</item>
+        <item>قبل از ارسال دوباره پرسیده شود</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>استفاده از پیام متنی یا چندرسانه</item>
+        <item>بدون ارسال مجدد</item>
+        <item>پرسش</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>اصلی</item>
+        <item>پیش‌فرض شبکه</item>
+        <item>همیشه سوال شود</item>
+    </string-array>
+</resources>

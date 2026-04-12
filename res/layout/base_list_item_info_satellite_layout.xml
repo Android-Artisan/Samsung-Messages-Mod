@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView android:id="@id/base_list_item_info_satellite_img" android:background="@drawable/ic_satellite_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_satellite" android:layout_marginEnd="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

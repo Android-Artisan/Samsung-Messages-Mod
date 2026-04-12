@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/delete_button_bg_color" />
+            <stroke android:width="@dimen/delete_button_focus_stroke" android:color="@color/item_focused_color" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/delete_button_bg_color" />
+                    <stroke android:width="@dimen/delete_button_stroke" android:color="@color/delete_button_stroke_color" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/item_pressed_color" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/delete_button_bg_color" />
+            <stroke android:width="@dimen/delete_button_stroke" android:color="@color/delete_button_stroke_color" />
+        </shape>
+    </item>
+</selector>

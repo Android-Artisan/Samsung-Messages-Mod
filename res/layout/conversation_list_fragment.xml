@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/theme_control_area_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/conversation_rcs_opt_in_view_stub" android:visibility="gone" android:layout="@layout/rcs_opt_in_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_fragment_padding_top" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/rcs_minapps_servicestatus_container" android:background="@color/theme_rounded_corner_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+        <ViewStub android:id="@id/rcs_service_status_stub" android:visibility="gone" android:layout="@layout/rcs_service_status_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    </LinearLayout>
+    <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:id="@id/conversationRecycleListView" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/rcs_minapps_servicestatus_container" android:layout_alignWithParentIfMissing="true" android:layout_alignParentStart="true" android:defaultFocusHighlightEnabled="false" />
+    <ViewStub android:gravity="center" android:orientation="vertical" android:id="@id/conversation_list_empty_view_stub" android:visibility="gone" android:layout="@layout/conversation_empty_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/rcs_minapps_servicestatus_container" android:layout_alignWithParentIfMissing="true" />
+</RelativeLayout>

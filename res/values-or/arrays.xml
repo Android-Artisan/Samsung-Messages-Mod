@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ଘଣ୍ଟା</item>
+        <item>6 ଘଣ୍ଟା</item>
+        <item>24 ଘଣ୍ଟା</item>
+        <item>2 ଦିନ</item>
+        <item>ନେଟୱାର୍କ୍‌ ଡିଫଲ୍ଟ</item>
+        <item>ସର୍ବାଧିକ</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>ପ୍ରକୃତ</item>
+        <item>ଅଧିକ</item>
+        <item>ମଧ୍ୟମ</item>
+        <item>କମ</item>
+        <item>ସର୍ବଦା ପଚାରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>ପ୍ରକୃତ</item>
+        <item>ଅଧିକ ଗୁଣବତ୍ତା</item>
+        <item>ସାମାନ୍ୟ ଗୁଣବତ୍ତା</item>
+        <item>ନିମ୍ନ ରିଜୋଲ୍ୟୁସନ୍</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>ସମସ୍ତ ଚ୍ୟାନେଲ୍‌</item>
+        <item>ମୋ ଚ୍ୟାନେଲ୍‌</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>ଅଟୋମେଟିକାଲି</item>
+        <item>ଟେକ୍ସଟ୍ କିମ୍ୱା ମଲ୍ଟିମିଡିଆ</item>
+        <item>ଚାଟ୍</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>ଅଟୋମେଟିକାଲି</item>
+        <item>ଟେକ୍ସଟ୍ କିମ୍ୱା ମଲ୍ଟିମିଡିଆ</item>
+        <item>RCS ଚାଟ୍ ସନ୍ଦେଶଗୁଡିକ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ବ୍ଲକ୍</item>
+        <item>ପ୍ରଥମେ ପଚାରନ୍ତୁ</item>
+        <item>ଅନୁମତି</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ସର୍ବଦା</item>
+        <item>ପ୍ରମ୍ପଟ୍</item>
+        <item>କେବେବି ନୁହେଁ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM ବର୍ଣ୍ଣ</item>
+        <item>ୟୁନିକୋଡ୍</item>
+        <item>ଅଟୋମେଟିକାଲି</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>ଏକ ଟେକ୍ସଟ୍ କିମ୍ୱା ମଲ୍ଟିମିଡିଆ ସନ୍ଦେଶ ଭାବେ ପୁନଃପ୍ରେରଣ କରନ୍ତୁ</item>
+        <item>ପୁନଃପ୍ରେରଣ କରନ୍ତୁ ନାହିଁ</item>
+        <item>ପୁନଃପ୍ରେରଣ କରିବା ପୂର୍ବରୁ ପଚାରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>ଟେକ୍ସ. କିମ୍ୱା ମଲ୍ଟି. ସନ୍ଦେ. ବ୍ୟବ.</item>
+        <item>ପୁନଃପ୍ରେରଣ ହୋଇନାହିଁ</item>
+        <item>ସର୍ବଦା ପଚାରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>ପ୍ରକୃତ</item>
+        <item>ନେଟୱାର୍କ୍ ଡିଫଲ୍ଟ</item>
+        <item>ସର୍ବଦା ପଚାରନ୍ତୁ</item>
+    </string-array>
+</resources>

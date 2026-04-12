@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/switch_default_sms_app_as_gm_layout_land_0" android:layout_width="wrap_content" android:layout_height="match_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="0.0dp" android:layout_height="match_parent" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/switch_default_sms_app_as_gm_title" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView android:layout_width="0.0dp" android:layout_height="match_parent" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/switch_default_sms_app_as_gm_descriptions" />
+            <include android:id="@id/switch_default_sms_app_as_gm_button" layout="@layout/switch_default_sms_app_as_gm_button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

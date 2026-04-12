@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="announcement_card_multi_select_mode_left_margin">39.0dp</dimen>
+    <dimen name="bubble_announcement_card_sideslip_width">217.0dp</dimen>
+    <dimen name="bubble_announcement_card_width">296.0dp</dimen>
+    <dimen name="bubble_max_width_circle_text">151.0dp</dimen>
+    <dimen name="bubble_text_font_size_change_threshold">21.0dp</dimen>
+</resources>

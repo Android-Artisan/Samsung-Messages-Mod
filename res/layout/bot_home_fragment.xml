@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bot_home_contents_margin_layout" android:background="@color/color_primary" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bot_home_contents_main_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bot_home_contents_main_layout_margin" android:layout_marginRight="@dimen/bot_home_contents_main_layout_margin">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:id="@id/bot_home_content_button_list_container_margin_view" android:layout_width="match_parent" android:layout_height="@dimen/section_empty_header_height" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bot_home_round_edge_background" android:paddingTop="@dimen/bot_home_fragment_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/bot_home_content_button_list_container" layout="@layout/bot_home_content_button_list" />
+                    <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bot_home_fragment_padding" android:layout_marginTop="@dimen/bot_home_title_text_margin_top" android:layout_marginRight="@dimen/bot_home_fragment_padding" android:layout_marginBottom="@dimen/bot_home_title_text_margin_bottom">
+                        <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/bot_home_name_text_size" android:textColor="@color/theme_list_main_text_color" android:id="@id/bot_detail_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+                        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/bot_detail_verified_mark" android:background="@drawable/ic_orc_bot_verified_mark" android:visibility="gone" android:layout_width="@dimen/bot_detail_icon_verified_height" android:layout_height="@dimen/bot_detail_icon_verified_height" android:layout_marginStart="@dimen/bot_list_item_verified_mark_start_margin" />
+                            <ImageView android:id="@id/bot_detail_critical_mark" android:background="@drawable/ic_orc_bot_critical_mark" android:visibility="gone" android:layout_width="@dimen/bot_detail_icon_verified_height" android:layout_height="@dimen/bot_detail_icon_verified_height" android:layout_marginStart="@dimen/bot_list_item_verified_mark_start_margin" />
+                        </FrameLayout>
+                    </LinearLayout>
+                    <include android:id="@id/bot_home_content_general_container" layout="@layout/bot_home_content_general" />
+                    <include android:id="@id/bot_home_favorite_container" layout="@layout/bot_home_favorite_button_layout" />
+                </LinearLayout>
+                <include android:id="@id/bot_home_content_tnc_container" layout="@layout/bot_home_content_tnc" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+</FrameLayout>

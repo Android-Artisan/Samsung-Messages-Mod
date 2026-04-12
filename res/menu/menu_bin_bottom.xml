@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/orc_ic_unblock" android:id="@id/block_numbers" android:visible="false" android:title="@string/block" app:contentDescription="@string/block" app:showAsAction="always" />
+    <item android:icon="@drawable/orc_ic_restore" android:id="@id/restore" android:title="@string/menu_restore" app:contentDescription="@string/menu_restore" app:showAsAction="always" />
+    <item android:icon="@drawable/group_ic_delete" android:id="@id/delete" android:title="@string/delete_description" app:contentDescription="@string/delete_description" app:showAsAction="always" />
+</menu>

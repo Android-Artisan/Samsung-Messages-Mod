@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 time</item>
+        <item>6 timer</item>
+        <item>24 timer</item>
+        <item>2 dager</item>
+        <item>Nettverkstandard</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Original</item>
+        <item>Høy</item>
+        <item>Middels</item>
+        <item>Lav</item>
+        <item>Spør alltid</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Original</item>
+        <item>Høy kvalitet</item>
+        <item>Normal kvalitet</item>
+        <item>Lav oppløsning</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Alle kanaler</item>
+        <item>Min kanal</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatisk</item>
+        <item>SMS eller MMS</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatisk</item>
+        <item>SMS eller MMS</item>
+        <item>RCS-chatmeldinger</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokker</item>
+        <item>Spør først</item>
+        <item>Tillat</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Alltid</item>
+        <item>Spør</item>
+        <item>Aldri</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alfabet</item>
+        <item>Unicode</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Send på nytt som SMS- eller MMS-melding</item>
+        <item>Ikke send igjen</item>
+        <item>Spør før ny sending</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Bruk tekst- eller multimediemeld.</item>
+        <item>Ikke send på nytt</item>
+        <item>Spør alltid</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Opprinnelig</item>
+        <item>Nettverksstandard</item>
+        <item>Spør alltid</item>
+    </string-array>
+</resources>

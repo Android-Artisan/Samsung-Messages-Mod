@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ne možete da opozovete poruku. Poruka može da se opozove samo u roku od %d minuta od slanja.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ne možete da opozovete poruku. Poruka može da se opozove samo u roku od %d minuta od slanja.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ne možete da opozovete poruku. Poruka može da se opozove samo u roku od %d minuta od slanja.</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Napustite i %d grupno ćaskanje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Napustite i %d grupna ćaskanja</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Napustite i %d grupnih ćaskanja</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Takođe napusti %d grupni razgovor</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Takođe napusti %d grupna razgovora</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Takođe napusti %d grupnih razgovora</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da izbrišete %d paket emotikona?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da izbrišete %d paketa emotikona?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da izbrišete %d paketa emotikona?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da premestite %d razgovor u Smeće?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da premestite %d razgovora u Smeće?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da premestite %d razgovora u Smeće?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poruke u Smeću će biti trajno izbrisane nakon %d dana.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Poruke u Smeću će biti trajno izbrisane nakon %d dana.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Poruke u Smeću će biti trajno izbrisane nakon %d dana.</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izbrisane poruke će ostati u Smeću %d dan pre nego što budu zauvek izbrisane.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izbrisane poruke će ostati u Smeću %d dana pre nego što budu zauvek izbrisane.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izbrisane poruke će ostati u Smeću %d dana pre nego što budu zauvek izbrisane.</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da premestite %d poruku u Smeće?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da premestite %d poruke u Smeće?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da premestite %d poruka u Smeće?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danas je poseban dan (%1$s i još %2$d događaj). Želite li da pošaljete nešto?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Danas je poseban dan (%1$s i još %2$d događaja). Želite li da pošaljete nešto?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danas je poseban dan (%1$s i još %2$d događaja). Želite li da pošaljete nešto?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s i još %2$d kontakt danas slave rođendane! Želite li da pošaljete nešto posebno?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s i još %2$d kontakta danas slave rođendane! Želite li da pošaljete nešto posebno?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s i još %2$d kontakta danas slave rođendane! Želite li da pošaljete nešto posebno?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d poruka je blokirana u poslednjih 30 dana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d poruke su blokirane u poslednjih 30 dana</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d poruka je blokirano u poslednjih 30 dana</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izabrano: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izabrano: %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izabrano: %d</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ne možete da blokirate %d e-adresu jer nije važeća.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ne možete da blokirate %d e-adrese jer nisu važeće.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ne možete da blokirate %d e-adresa jer nisu važeće.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ne možete da blokirate %d broj telefona jer nije važeći.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ne možete da blokirate %d broja telefona jer nisu važeći.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ne možete da blokirate %d brojeva telefona jer nisu važeći.</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ne možete da blokirate %d pošiljaoca jer njegove informacije nisu važeće.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ne možete da blokirate %d pošiljaoca jer njihove informacije nisu važeće.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ne možete da blokirate %d pošiljalaca jer njihove informacije nisu važeće.</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Možete da izaberete najviše %d kontakt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Možete da izaberete najviše %d kontakta.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Možete da izaberete najviše %d kontakata.</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d %2$s kartica</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d %2$s kartice</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d %2$s kartica</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt za ćaskanje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kontakta za ćaskanje</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakata za ćaskanje</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Chatting+ kontakt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d Chatting+ kontakta</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Chatting+ kontakata</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ako se deregistrujete sa usluge Chatting+, više nećete moći da se pridružujete ćaskanjima jedan na jedan i grupnim ćaskanjima, dobijate potvrde da su poruke pročitane niti da delite velike fajlove. Da li zaista želite da se deregistrujete?
+
+Moraćete i da sačekate %d minut da biste se ponovo registrovali."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Ako se deregistrujete sa usluge Chatting+, više nećete moći da se pridružujete ćaskanjima jedan na jedan i grupnim ćaskanjima, dobijate potvrde da su poruke pročitane niti da delite velike fajlove. Da li zaista želite da se deregistrujete?
+
+Moraćete i da sačekate %d minuta da biste se ponovo registrovali."</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Ako se deregistrujete sa usluge Chatting+, više nećete moći da se pridružujete ćaskanjima jedan na jedan i grupnim ćaskanjima, dobijate potvrde da su poruke pročitane niti da delite velike fajlove. Da li zaista želite da se deregistrujete?
+
+Moraćete i da sačekate %d minuta da biste se ponovo registrovali."</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bot za ćaskanje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d bota za ćaskanje</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d botova za ćaskanje</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kontakta</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakata</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izabrano: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izabrano: %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izabrano: %d</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ističe za %d dan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ističe za %d dana</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ističe za %d dana</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kupon uskoro ističe</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kupona uskoro ističu</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kupona uskoro ističe</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s kupon ističe za %2$d dan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s kupon ističe za %2$d dana.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s kupon ističe za %2$d dana.</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kupon ističe za %d dan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kupon ističe za %d dana.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kupon ističe za %d dana.</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">Želite li da izbrišete razgovor (%d)?</item>
+        <item quantity="other">Želite li da izbrišete razgovore (%d)?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da trajno izbrišete %d razgovor?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da trajno izbrišete %d razgovora?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da trajno izbrišete %d razgovora?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">Želite li da izbrišete poruku (%d)?</item>
+        <item quantity="other">Izbrisati sledeći broj poruka: %d?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da trajno izbrišete %d poruku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da trajno izbrišete %d poruke?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da trajno izbrišete %d poruka?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d poruka o dostavi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d poruke o dostavi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d poruka o dostavi</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da odbacite %d karticu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da odbacite %d kartice?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da odbacite %d kartica?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na glavnom ekranu može da se prikaže samo %1$d kartica kategorije. Ostale su sakrivene. Izaberite kategoriju %2$s ako želite da joj brzo pristupite na glavnom ekranu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Na glavnom ekranu mogu da se prikažu samo %1$d kartice kategorije. Ostale su sakrivene. Izaberite kategoriju %2$s ako želite da joj brzo pristupite na glavnom ekranu.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Na glavnom ekranu može da se prikaže samo %1$d kartica kategorije. Ostale su sakrivene. Izaberite kategoriju %2$s ako želite da joj brzo pristupite na glavnom ekranu.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuta</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d minuta</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sekundi</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na telefonu je sačuvan %d fajl.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Na telefonu su sačuvana %d fajla.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Na telefonu je sačuvano %d fajlova.</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na tabletu je sačuvan %d fajl.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Na tabletu su sačuvana %d fajla.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Na tabletu je sačuvano %d fajlova.</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d transakcija danas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d transakcije danas</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d transakcija danas</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s i %2$d nepoznat broj</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s i %2$d nepoznata broja</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s i %2$d nepoznatih brojeva</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nepoznati broj</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nepoznata broja</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d nepoznatih brojeva</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Član %1$s ne može da se pridruži grupnom ćaskanju. Uklonite ga iz izabranih primalaca ili pošaljite SMS poruku najviše %2$d primaocu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Član %1$s ne može da se pridruži grupnom ćaskanju. Uklonite ga iz izabranih primalaca ili pošaljite SMS poruku najviše %2$d primalaca.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Član %1$s ne može da se pridruži grupnom ćaskanju. Uklonite ga iz izabranih primalaca ili pošaljite SMS poruku najviše %2$d primalaca.</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Obuhvaćeni primaoci (jedan ili više njih) nemaju mogućnost korišćenja funkcije Napredna razmena poruka, tako da je grupa ograničena na %d člana.
+
+Da biste nastavili, izaberite samo one članove koji imaju mogućnost korišćenja funkcije Napredna razmena poruka. Oni su obeleženi ikonom sa plavom tačkom."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Obuhvaćeni primaoci (jedan ili više njih) nemaju mogućnost korišćenja funkcije Napredna razmena poruka, tako da je grupa ograničena na %d člana.
+
+Da biste nastavili, izaberite samo one članove koji imaju mogućnost korišćenja funkcije Napredna razmena poruka. Oni su obeleženi ikonom sa plavom tačkom."</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Obuhvaćeni primaoci (jedan ili više njih) nemaju mogućnost korišćenja funkcije Napredna razmena poruka, tako da je grupa ograničena na %d članova.
+
+Da biste nastavili, izaberite samo one članove koji imaju mogućnost korišćenja funkcije Napredna razmena poruka. Oni su obeleženi ikonom sa plavom tačkom."</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Da biste započeli grupno ćaskanje, uklonite poslednjeg izabranog primaoca. Ako želite da uključite poslednjeg primaoca, uklonite %d primaoca da biste poslali poruku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Da biste započeli grupno ćaskanje, uklonite poslednjeg izabranog primaoca. Ako želite da uključite poslednjeg primaoca, uklonite %d primaoca da biste poslali poruku.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Da biste započeli grupno ćaskanje, uklonite poslednjeg izabranog primaoca. Ako želite da uključite poslednjeg primaoca, uklonite %d primalaca da biste poslali poruku.</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Slika (%d) je sačuvana na tabletu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Slike (%d) su sačuvane na tabletu.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Slike (%d) su sačuvane na tabletu.</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Slika (%d) je sačuvana na telefonu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Slike (%d) su sačuvane na telefonu.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Slike (%d) su sačuvane na telefonu.</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jedna slika i %d video zapis su sačuvani na telefonu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jedna slika i %d video zapisa je sačuvano na telefonu.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jedna slika i %d video zapisa su sačuvani na telefonu.</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Slika (%d) i 1 video zapis su sačuvani na telefonu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Slike (%d) i 1 video zapis su sačuvani na telefonu.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Slike (%d) i 1 video zapis su sačuvani na telefonu.</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Priključio/la se %1$s i još %2$d osoba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Priključio/la se %1$s i još %2$d osobe</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Priključio/la se %1$s i još %2$d osoba</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Možete izabrati najviše %d osobu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Možete izabrati najviše %d osobe.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Možete izabrati najviše %d osoba.</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kada kucnete na dugme Predlozi poruka, poslednja %d poruka u razgovoru će biti obrađena na mreži. Predlozi koje generiše veštačka inteligencija mogu biti netačni ili mogu da sadrže neprimeren sadržaj.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kada kucnete na dugme Predlozi poruka, poslednje %d poruke u razgovoru će biti obrađene na mreži. Predlozi koje generiše veštačka inteligencija mogu biti netačni ili mogu da sadrže neprimeren sadržaj.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kada kucnete na dugme Predlozi poruka, poslednjih %d poruka u razgovoru će biti obrađeno na mreži. Predlozi koje generiše veštačka inteligencija mogu biti netačni ili mogu da sadrže neprimeren sadržaj.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d novo obaveštenje</item>
+        <item quantity="few">%d nova obaveštenja</item>
+        <item quantity="other">%d novih obaveštenja</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fajl je podeljen uz Quick Share</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fajla su podeljena uz Quick Share</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fajlova je podeljeno uz Quick Share</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nova korisna kartica</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nove korisne kartice</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d novih korisnih kartica</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d razgovor</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d razgovora</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d razgovora</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">Poruka: %d</item>
+        <item quantity="other">Broj poruka: %d</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zadržite izbrisane poruke %d dan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zadržite izbrisane poruke %d dana.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Zadržite izbrisane poruke %d dana.</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Možete ponovo da osvežite za %d minut.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Možete ponovo da osvežite za %d minuta.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Možete ponovo da osvežite za %d minuta.</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da pošaljete %d poruku sada?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da pošaljete %d poruke sada?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da pošaljete %d poruka sada?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Informacije se ažuriraju. Sačekajte bar %d minut, pa pokušajte ponovo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Informacije se ažuriraju. Sačekajte bar %d minuta, pa pokušajte ponovo.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Informacije se ažuriraju. Sačekajte bar %d minuta, pa pokušajte ponovo.</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Možete da zakačite najviše %d razgovor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Možete da zakačite najviše %d razgovora.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Možete da zakačite najviše %d razgovora.</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s i još %2$d njih</item>
+        <item quantity="other">%1$s i %2$d drugih</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da uklonite %d karticu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da uklonite %d kartice?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da uklonite %d kartica?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Unesite razlog (najviše %d karakter)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Unesite razlog (najviše %d karaktera)</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Unesite razlog (najviše %d karaktera)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zakazana poruka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zakazane poruke</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zakazanih poruka</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izaberite vreme koje će nastupiti za najmanje %d minut.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izaberite vreme koje će nastupiti za najmanje %d minuta.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izaberite vreme koje će nastupiti za najmanje %d minuta.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pronađeno: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pronađeno: %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pronađeno: %d</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da premestite 1 razgovor i još %d poruku u Smeće?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da premestite 1 razgovor i još %d poruke u Smeće?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da premestite 1 razgovor i još %d poruka u Smeće?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da premestite %d razgovor i još 1 poruku u Smeće?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da premestite %d razgovora i još 1 poruku u Smeće?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da premestite %d razgovora i još 1 poruku u Smeće?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Izaberite najviše %d osobu.
+(Prikazuju se ljudi koji koriste brojeve telefona u ovom razgovoru.)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Izaberite najviše %d osobe.
+(Prikazuju se ljudi koji koriste brojeve telefona u ovom razgovoru.)"</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Izaberite najviše %d osoba.
+(Prikazuju se ljudi koji koriste brojeve telefona u ovom razgovoru.)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vreme spavanja: %d sat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vreme spavanja: %d sata</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vreme spavanja: %d sati</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vreme spavanja: %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vreme spavanja: %d minuta</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vreme spavanja: %d minuta</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Preostao je %d sat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Preostala su %d sata</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Preostalo je %d sati</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Preostao je %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Preostala su %d minuta</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Preostalo je %d minuta</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Preostala je %d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Preostale su %d sekunde</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Preostalo je %d sekundi</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">Poruka je kopirana sa SIM kartice.</item>
+        <item quantity="other">Kopiraj poruke sa SIM kartice.</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kategorija</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kategorije</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kategorija</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izabrali ste više od %d primaoca, što je granica za SMS poruke. Pokrenite grupno ćaskanje da biste ih poslali sve odjednom.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izabrali ste više od %d primaoca, što je granica za SMS poruke. Pokrenite grupno ćaskanje da biste ih poslali sve odjednom.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izabrali ste više od %d primalaca, što je granica za SMS poruke. Pokrenite grupno ćaskanje da biste ih poslali sve odjednom.</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ukupno %d poruka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ukupno %d poruke</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ukupno %d poruka</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d poruka je automatski odblokirana jer se pošiljaoci više ne smatraju zlonamernima.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d poruke su automatski odblokirane jer se pošiljaoci više ne smatraju zlonamernima.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d poruka je automatski odblokirano jer se pošiljaoci više ne smatraju zlonamernima.</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">od brenda %1$s i još %2$d brenda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">od brenda %1$s i još %2$d brenda</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">od brenda %1$s i još %2$d brendova</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nepročitana poruka o dostavi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nepročitane poruke o dostavi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d nepročitanih poruka o dostavi</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">od kontakta %1$s i još %2$d kontakta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">od kontakta %1$s i još %2$d kontakta</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">od kontakta %1$s i još %2$d kontakata</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d nepročitana poruka od osobe %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d nepročitane poruke od osobe %2$s</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d nepročitanih poruka od osobe %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">uključujući neke od brenda %1$s i još %2$d brenda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">uključujući neke od brenda %1$s i još %2$d brenda</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">uključujući neke od brenda %1$s i još %2$d brendova</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">uključujući %d poruku o dostavi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">uključujući %d poruke o dostavi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">uključujući %d poruka o dostavi</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">uključujući neke od kontakta %1$s i još %2$d kontakta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">uključujući neke od kontakta %1$s i još %2$d kontakta</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">uključujući neke od kontakta %1$s i još %2$d kontakata</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nepročitana poruka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nepročitane poruke</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d nepročitanih poruka</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nepročitana poruka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nepročitane poruke</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d nepročitanih poruka</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d predstojeće upozorenje danas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d predstojeća upozorenja danas</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d predstojećih upozorenja danas</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Video zapis (%d) je sačuvan na telefonu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Video zapisi (%d) su sačuvani na telefonu.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Video zapisi (%d) su sačuvani na telefonu.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danas ste primili %1$s%2$d poruku o dostavi%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Danas ste primili %1$s%2$d poruke o dostavi%3$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danas ste primili %1$s%2$d poruka o dostavi%3$s.</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danas ste primili %1$s%2$d poruku o dostavama%3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Danas ste primili %1$s%2$d poruke o dostavama%3$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danas ste primili %1$s%2$d poruka o dostavama%3$s.</item>
+    </plurals>
+</resources>

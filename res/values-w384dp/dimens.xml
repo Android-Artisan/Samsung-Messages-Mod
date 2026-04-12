@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="announcement_card_multi_select_mode_left_margin">45.0dp</dimen>
+    <dimen name="bubble_announcement_card_sideslip_width">268.0dp</dimen>
+    <dimen name="bubble_announcement_card_width">360.0dp</dimen>
+</resources>

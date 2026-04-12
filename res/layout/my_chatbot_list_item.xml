@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout android:id="@id/my_chatbot_view_rounded_corner" android:background="?android:listChoiceBackgroundIndicator" android:layout_width="match_parent" android:layout_height="wrap_content" app:checkable="true" app:ghost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0dp" android:textColor="@color/theme_sub_header_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/my_chatbot_list_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="26.0dp" android:layout_marginTop="6.0dp" android:text="Services" android:paddingStart="@dimen/contact_list_start_margin" android:paddingEnd="@dimen/contact_list_start_margin" android:layout_marginStart="29.0dp" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/my_chatbot_list_item" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/card_view_margin" android:paddingEnd="@dimen/card_view_end_margin">
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/my_chatbot_avatar_badge_layout" android:layout_width="@dimen/convlist_avatar_panel_size" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+            <com.samsung.android.messaging.ui.view.widget.avatar.AvatarImageView android:id="@id/my_chatbot_avatar_image" android:layout_width="@dimen/avatar_size" android:layout_height="@dimen/avatar_size" />
+            <ViewStub android:id="@id/photo_check_box_stub" android:layout="@layout/list_photo_check_box_layout" android:layout_width="@dimen/avatar_size" android:layout_height="@dimen/avatar_size" />
+        </FrameLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/my_chatbot_list_item_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" android:paddingVertical="@dimen/card_view_top_bottom_padding">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_list_item_title_text_size" android:textColor="@color/theme_list_main_text_color" android:ellipsize="end" android:id="@id/my_chatbot_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+                    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/my_chatbot_verified_mark" android:background="@drawable/ic_orc_bot_verified_mark" android:visibility="gone" android:layout_width="@dimen/bot_list_item_verified_mark_size" android:layout_height="@dimen/bot_list_item_verified_mark_size" android:layout_marginStart="@dimen/bot_list_item_verified_mark_start_margin" />
+                        <ImageView android:id="@id/my_chatbot_critical_mark" android:background="@drawable/ic_orc_bot_critical_mark" android:visibility="gone" android:layout_width="@dimen/bot_list_item_verified_mark_size" android:layout_height="@dimen/bot_list_item_verified_mark_size" android:layout_marginStart="@dimen/bot_list_item_verified_mark_start_margin" />
+                    </FrameLayout>
+                </LinearLayout>
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_list_item_sub_title_text_size" android:textColor="@color/theme_list_sub_text_color" android:ellipsize="end" android:id="@id/my_chatbot_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/bot_list_item_name_start_margin" />
+            </LinearLayout>
+            <View android:id="@id/my_chatbot_divider" android:background="@color/theme_list_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/list_divider_height" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout>

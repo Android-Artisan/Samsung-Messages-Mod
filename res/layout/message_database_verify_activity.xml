@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/realtime_diagnose_database" android:background="@color/theme_sub_app_bar_bg_color_off" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/list_primary_text_size" android:textColor="@color/theme_list_main_text_color" android:gravity="center" android:id="@id/realtime_diagnose_database_text" android:layout_width="0.0dp" android:layout_height="50.0dp" android:maxLines="1" android:layout_weight="1.0" android:textAllCaps="true" />
+        <Switch android:id="@id/realtime_diagnose_database_switch" android:background="?android:actionBarItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_marginEnd="24.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp" android:layout_marginBottom="8.0dp">
+        <Button android:id="@id/execute_verify_database" android:layout_width="match_parent" android:layout_height="50.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/verify_database_result" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/verify_backup_type_layout" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56.0dp" android:paddingStart="@dimen/block_number_match_criteria_padding_start_end" android:paddingEnd="@dimen/block_number_match_criteria_padding_start_end">
+            <TextView android:textSize="@dimen/list_primary_text_size" android:textColor="@color/theme_list_main_text_color" android:id="@id/verify_backup_type_text_main" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/theme_primary_color" android:id="@id/verify_backup_type_text_sub" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Spinner android:id="@id/verify_backup_type_spinner" android:background="?android:selectableItemBackground" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="26.0dp" android:paddingEnd="0.0dp" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/verify_database_result_layout" android:background="@drawable/verify_database_result" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp">
+        <TextView android:textSize="20.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/verify_database_result" android:layout_width="match_parent" android:layout_height="50.0dp" />
+    </LinearLayout>
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8.0dp" android:scrollIndicators="top|bottom">
+        <LinearLayout android:orientation="vertical" android:id="@id/fail_reason_layout" android:background="@drawable/verify_database_result" android:paddingLeft="19.0dp" android:paddingRight="19.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/color_black" android:id="@id/verify_database_fail_reason" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

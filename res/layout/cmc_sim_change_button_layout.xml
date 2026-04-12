@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textAppearance="@style/NewSECRegular" android:gravity="center" android:layout_gravity="center" android:id="@id/cmc_sim_change_button_tablet_linear_layout" android:background="@drawable/sim_change_button_background" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cmc_switcher_width" android:minHeight="@dimen/cmc_switcher_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="20.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="5.0dp">
+        <ImageView android:id="@id/cmc_sim_change_button_icon" android:layout_width="@dimen/bubble_side_info_child_layout_size" android:layout_height="@dimen/bubble_side_info_child_layout_size" android:layout_marginTop="2.0dp" android:tint="@color/cmc_sim_change_button_icon_text_color" />
+        <ImageView android:layout_gravity="end|bottom" android:id="@id/cmc_icon_rcs_dot" android:background="@drawable/cmc_switcher_rcs_dot" android:layout_width="6.0dp" android:layout_height="6.0dp" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="15.0sp" android:textColor="@color/cmc_sim_change_button_icon_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/cmc_sim_change_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="16.0dp" android:autoSizeTextType="uniform" android:autoSizeMaxTextSize="15.0sp" />
+</LinearLayout>

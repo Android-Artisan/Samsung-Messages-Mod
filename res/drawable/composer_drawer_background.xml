@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetRight="@dimen/sesl_drawer_view_floating_start_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+        <solid android:color="@color/theme_drawer_bg_color" />
+        <corners android:radius="@dimen/sesl_drawer_view_floating_corner_radius" />
+    </androidx.appcompat.util.SeslShapeDrawable>
+</inset>

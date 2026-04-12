@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/pc_client_management_oobe_contents_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/pc_client_management_oobe_contents" android:tag="binding_1" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/pc_client_management_oobe_title_text_size" android:textColor="@color/theme_toolbar_main_text_color" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/pc_client_management_oobe_title" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="9.0sp" />
+            </LinearLayout>
+            <ImageView android:tag="binding_3" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginHorizontal="@dimen/pc_client_management_oobe_image_margin_horizontal" />
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/pc_client_management_oobe_description_container" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:id="@id/pc_client_management_oobe_summary" android:tag="binding_5" style="@style/PcClientOobeSubTitle" />
+                <TextView android:id="@id/pc_client_management_oobe_description" android:tag="binding_6" style="@style/PcClientOobeDescription" />
+                <TextView android:id="@id/pc_client_management_oobe_summary_2nd" android:tag="binding_7" android:visibility="gone" android:layout_marginTop="@dimen/pc_client_management_oobe_sub_title_margin_top" style="@style/PcClientOobeSubTitle" />
+                <TextView android:id="@id/pc_client_management_oobe_description_2nd" android:tag="binding_8" android:visibility="gone" style="@style/PcClientOobeDescription" />
+                <TextView android:id="@id/pc_client_management_oobe_summary_3rd" android:tag="binding_9" android:visibility="gone" android:layout_marginTop="@dimen/pc_client_management_oobe_sub_title_margin_top" style="@style/PcClientOobeSubTitle" />
+                <TextView android:id="@id/pc_client_management_oobe_description_3rd" android:tag="binding_10" android:visibility="gone" style="@style/PcClientOobeDescription" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

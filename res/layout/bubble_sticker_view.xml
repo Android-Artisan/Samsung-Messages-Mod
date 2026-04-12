@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.BubbleStickerView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.samsung.android.messaging.ui.view.bubble.item.DoubleTabRelativeLayout android:id="@id/content_sticker_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+            <com.samsung.android.messaging.ui.view.widget.AsyncImageView android:id="@id/content_sticker_view" android:layout_width="@dimen/sticker_bubble_width" android:layout_height="@dimen/sticker_bubble_width" android:contentDescription="@string/sticker" />
+            <View android:id="@id/list_item_view_border" android:background="@drawable/messages_card_view_outline_style" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignTop="@id/content_sticker_view" android:layout_alignBottom="@id/content_sticker_view" android:layout_alignStart="@id/content_sticker_view" android:layout_alignEnd="@id/content_sticker_view" />
+        </com.samsung.android.messaging.ui.view.bubble.item.DoubleTabRelativeLayout>
+        <ImageView android:id="@id/bubble_sticker_sound_icon" android:background="@drawable/sticker_sound_bg" android:visibility="gone" android:layout_width="17.0dp" android:layout_height="17.0dp" android:layout_marginTop="5.0dp" android:src="@drawable/orc_ic_sticker_sound" android:tint="@color/single_attach_item_sound_icon_tint_color" android:layout_marginEnd="5.0dp" android:layout_alignEnd="@id/content_sticker_view_container" />
+        <ViewStub android:id="@id/badge_view_stub" android:layout="@layout/bubble_badge_layout" android:layout_width="@dimen/bubble_badge_cancel_size" android:layout_height="@dimen/bubble_badge_cancel_size" android:layout_alignBottom="@id/content_sticker_view_container" android:layout_marginStart="@dimen/bubble_indicator_margin" android:layout_marginEnd="@dimen/bubble_indicator_margin" />
+    </RelativeLayout>
+    <include layout="@layout/bubble_info_bottom_view" />
+</com.samsung.android.messaging.ui.view.bubble.item.BubbleStickerView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/tip_popup_balloon_panel" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/tip_popup_balloon_bg_01" android:background="@drawable/tip_popup_balloon_background_left" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:id="@id/tip_popup_balloon_bg_02" android:background="@drawable/tip_popup_balloon_background_right" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:gravity="top" android:orientation="vertical" android:id="@id/tip_popup_balloon_content" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/tip_popup_balloon_message_text_size" android:layout_gravity="start|top" android:id="@id/tip_popup_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/tip_popup_button_padding_horizontal" android:layout_marginEnd="@dimen/tip_popup_button_padding_horizontal" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

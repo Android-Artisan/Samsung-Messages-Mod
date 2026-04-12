@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dp" android:paddingTop="@dimen/msg_popup_padding_top" android:paddingRight="20.0dp" android:paddingBottom="@dimen/msg_popup_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/bot_report_dialog_text_size_cmcc" android:textColor="@color/theme_popup_body_text_color" android:textColorHint="@color/theme_list_sub_text_color" android:id="@id/report_bot_reason_cmcc" android:layout_width="match_parent" android:layout_height="match_parent" android:lineSpacingExtra="@dimen/msg_popup_body_line_space" />
+        <TextView android:textSize="@dimen/bot_report_dialog_text_size_cmcc" android:textColor="@color/theme_list_sub_text_color" android:layout_gravity="end" android:id="@id/report_bot_reason_size_cmcc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/300" />
+    </LinearLayout>
+</ScrollView>

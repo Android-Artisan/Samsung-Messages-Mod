@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/contact_list_search_view_root" android:background="@color/dialtacts_background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/picker_search_view_margin_top">
+        <FrameLayout android:id="@id/contact_list_search_view_container" android:paddingTop="@dimen/public_picker_padding_top" android:paddingBottom="@dimen/public_picker_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/add_to_recipients_button">
+            <com.samsung.android.dialtacts.common.contactslist.view.search.ContactPickerMessageSearchView android:id="@id/contact_list_search_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ContactSearchViewStyle" />
+        </FrameLayout>
+        <include layout="@layout/add_to_recipients_button_layout" />
+        <include layout="@layout/search_done_button_usa_layout" />
+        <com.samsung.android.dialtacts.common.publicpicker.view.ChatWithButton android:id="@id/chat_with_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/contact_list_search_view_container" android:layout_centerHorizontal="true" style="@style/PickerChatWithButtonStyle" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

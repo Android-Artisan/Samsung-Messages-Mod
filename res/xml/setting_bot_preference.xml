@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="@string/screen_Bot_Home_Bot_Page_Location"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/bot_pref_title_location" android:key="pref_key_enable_location" android:defaultValue="false" app:event="@string/event_Bots_Bot_page_Location_Enable_Location" app:eventWithValue="false" app:screen="@string/screen_Bot_Home_Bot_Page_Location" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/bot_pref_title_access_phone_information" android:key="pref_key_enable_device_information" android:defaultValue="false" app:event="@string/event_Bots_Bot_page_Location_Enable_Device" app:eventWithValue="false" app:screen="@string/screen_Bot_Home_Bot_Page_Location" />
+</androidx.preference.PreferenceScreen>

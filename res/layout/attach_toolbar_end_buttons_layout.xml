@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/attach_toolbar_end_buttons" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/attach_toolbar_button_height" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="bottom" android:id="@id/input_voice_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/input_voice_buttons_layout" />
+    <include android:layout_gravity="bottom" android:id="@id/send_buttons" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/send_buttons_layout" />
+</FrameLayout>

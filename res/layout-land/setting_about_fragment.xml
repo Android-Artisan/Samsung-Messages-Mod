@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/about_layout_container" android:background="@color/theme_about_background_color" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_weight="0.5" android:scrollIndicators="top">
+        <LinearLayout android:orientation="vertical" android:id="@id/about_content_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:orientation="vertical" android:id="@id/top_empty_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <include layout="@layout/setting_about_top_layout" />
+            <View android:orientation="vertical" android:id="@id/middle_empty_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_weight="0.5" android:scrollIndicators="top">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/setting_about_bottom_layout" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

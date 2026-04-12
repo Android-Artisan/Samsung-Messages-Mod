@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 óra</item>
+        <item>6 óra</item>
+        <item>24 óra</item>
+        <item>2 nap</item>
+        <item>Hálózati alapértelmezés</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Eredeti</item>
+        <item>Kiváló</item>
+        <item>Közepes</item>
+        <item>Gyenge</item>
+        <item>Mindig kérdezzen rá</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Eredeti</item>
+        <item>Jó minőség</item>
+        <item>Normál minőség</item>
+        <item>Kis felbontás</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Összes csatorna</item>
+        <item>Saját csatorna</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatikus</item>
+        <item>Szöveges vagy multimédiás</item>
+        <item>Csevegés</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatikus</item>
+        <item>Szöveges vagy multimédiás</item>
+        <item>RCS-csevegőüzenetek</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokkolás</item>
+        <item>Először kérdezzen rá</item>
+        <item>Engedélyezés</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Mindig</item>
+        <item>Kérdés</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Ékezet nélkül</item>
+        <item>Ékezetes</item>
+        <item>Automatikus</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Újraküldés szöveges vagy multimédiás üzenetként</item>
+        <item>Ne küldje újra</item>
+        <item>Rákérdezés újraküldés előtt</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Szöv./multiméd. üzenetek haszn.</item>
+        <item>Nincs újraküldés</item>
+        <item>Mindig kérdezzen rá</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Eredeti</item>
+        <item>Hálózati alapértelmezés</item>
+        <item>Rákérdezés mindig</item>
+    </string-array>
+</resources>

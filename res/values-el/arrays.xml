@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ώρα</item>
+        <item>6 ώρες</item>
+        <item>24 ώρες</item>
+        <item>2 ημέρες</item>
+        <item>Προεπιλογή δικτύου</item>
+        <item>Μέγιστο</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Αρχικό</item>
+        <item>Υψηλή</item>
+        <item>Μεσαία</item>
+        <item>Χαμηλή</item>
+        <item>Να γίνεται πάντα ερώτηση</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Αρχικό</item>
+        <item>Υψηλή ποιότητα</item>
+        <item>Κανονική ποιότητα</item>
+        <item>Χαμηλή ανάλυση</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Όλα τα κανάλια</item>
+        <item>Το κανάλι μου</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Αυτόματα</item>
+        <item>Κείμενο ή πολυμέσα</item>
+        <item>Συνομιλία</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Αυτόματα</item>
+        <item>Κείμενο ή πολυμέσα</item>
+        <item>Μηνύματα συνομιλίας RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Αποκλεισμός</item>
+        <item>Ερώτηση πρώτα</item>
+        <item>Να επιτρέπεται</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Πάντα</item>
+        <item>Ερώτηση</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Αλφάβητο GSM</item>
+        <item>Unicode</item>
+        <item>Αυτόματo</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Αποστολή ξανά ως μήνυμα κειμένου ή πολυμέσων</item>
+        <item>Να μην αποσταλεί ξανά</item>
+        <item>Ερώτηση πριν από την επανάληψη της αποστολής</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Χρήση μην. κειμένου ή πολυμέσων</item>
+        <item>Χωρίς επανάληψη αποστολής</item>
+        <item>Να γίνεται πάντα ερώτηση</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Αρχική</item>
+        <item>Προεπιλογή δικτύου</item>
+        <item>Ερώτηση πάντα</item>
+    </string-array>
+</resources>

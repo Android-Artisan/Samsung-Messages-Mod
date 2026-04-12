@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/picker_layout" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:picker="http://schemas.android.com/apk/res-auto">
+    <com.android.internal.widget.DialogViewAnimator android:id="@id/view_animator" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureAllChildren="true" android:inAnimation="@anim/sesl_date_picker_fade_in" android:outAnimation="@anim/sesl_date_picker_fade_out">
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/scheduled_picker_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/scheduled_dialog_picker_height">
+            <androidx.picker.widget.SeslSpinningDatePicker android:theme="@style/CustomDatePickerStyle" android:id="@id/date_picker" android:layout_width="0.0dp" android:layout_height="wrap_content" android:startYear="1970" android:endYear="2100" android:layout_weight="@integer/date_picker_12_hr_weight" picker:pickerLayoutMode="phoneMode" />
+            <androidx.picker.widget.SeslTimePicker android:theme="@style/CustomTimePickerStyle" android:id="@id/time_picker" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="@integer/time_picker_12_hr_weight" picker:timeLayoutMode="phoneMode" style="@style/DateTimePicker" />
+        </LinearLayout>
+    </com.android.internal.widget.DialogViewAnimator>
+</LinearLayout>

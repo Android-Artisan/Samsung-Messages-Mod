@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@anim/smart_reply_bubble_animation_interpolator" android:duration="300" android:fromYDelta="15.0dp" android:toYDelta="0.0" />
+    <alpha android:interpolator="@android:anim/linear_interpolator" android:duration="150" android:fromAlpha="0.0" android:toAlpha="1.0" />
+</set>

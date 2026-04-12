@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/switch_default_sms_app_as_gm_descriptions_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingHorizontal="32.0dp" android:paddingVertical="@dimen/gm_promotion_guide_sub_description_padding_vertical">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_list_description_text_color" android:layout_gravity="center_vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/change_message_to_gm_description_top" android:lineBreakWordStyle="phrase" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:tag="binding_2" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingHorizontal="32.0dp">
+        <LinearLayout android:orientation="horizontal" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/dot_layout" />
+            <TextView android:tag="binding_4" android:text="@string/change_message_to_gm_description_item_4" style="@style/SwitchToGmGuideItemsStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/dot_layout" />
+            <TextView android:tag="binding_6" android:text="@string/change_message_to_gm_description_item_3" style="@style/SwitchToGmGuideItemsStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_7" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/dot_layout" />
+            <TextView android:tag="binding_8" android:text="@string/change_message_to_gm_description_item_6" style="@style/SwitchToGmGuideItemsStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/gm_promotion_guide_sub_description_padding_vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingHorizontal="32.0dp">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_list_description_text_color" android:layout_gravity="center_vertical" android:tag="binding_9" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/change_message_to_gm_description_mid" android:lineBreakWordStyle="phrase" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingHorizontal="32.0dp" android:paddingVertical="@dimen/gm_promotion_guide_sub_description_padding_vertical">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0sp" android:textColor="@color/theme_list_sub_text_color" android:layout_gravity="center_vertical" android:tag="binding_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/change_message_to_gm_description_bottom" android:lineBreakWordStyle="phrase" />
+    </LinearLayout>
+</LinearLayout>

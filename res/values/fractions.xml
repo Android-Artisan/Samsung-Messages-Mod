@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="letter_to_tile_ratio">50.0%</fraction>
+    <fraction name="split_layout_left_min_weight">29.999996%</fraction>
+    <fraction name="split_layout_right_min_weight">29.999996%</fraction>
+</resources>

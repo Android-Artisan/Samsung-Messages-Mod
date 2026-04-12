@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/license_textview_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/open_source_licenses_text_size" android:textColor="@color/theme_about_opensource_text_color" android:id="@id/license_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/open_source_licenses_layout_margin_start" android:lineBreakWordStyle="phrase" />
+    </ScrollView>
+</FrameLayout>

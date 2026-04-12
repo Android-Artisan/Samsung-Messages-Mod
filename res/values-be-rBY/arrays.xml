@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 гадзіна</item>
+        <item>6 гадзін</item>
+        <item>24 гадзіны</item>
+        <item>2 дні</item>
+        <item>Стандартныя налады сеткі</item>
+        <item>Максімум</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Арыгінал</item>
+        <item>Высокі</item>
+        <item>Сярэдні</item>
+        <item>Нізкі</item>
+        <item>Заўсёды пытацца</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Арыгінал</item>
+        <item>Высокая якасць</item>
+        <item>Звычайная якасць</item>
+        <item>Нізкая раздзяляльнасць</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Усе каналы</item>
+        <item>Мой канал</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Аўтаматычна</item>
+        <item>Тэкставыя або мультымедыйныя паведамленні</item>
+        <item>Чат</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Аўтаматычна</item>
+        <item>Тэкставыя або мультымедыйныя паведамленні</item>
+        <item>Паведамленні чату RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Заблакіраваць</item>
+        <item>Спачатку пытаць</item>
+        <item>Дазволіць</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Заўжды</item>
+        <item>Запытваць</item>
+        <item>Ніколі</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Алфавіт GSM</item>
+        <item>Унікод</item>
+        <item>Аўтаматычна</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Адправіць паўторна ў выглядзе тэкставага або мультымедыйнага паведамлення</item>
+        <item>Не адпраўляць паўторна</item>
+        <item>Пытаць перад паўторнай адпраўкай</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Выкар. тэкст або мультымедыя</item>
+        <item>Няма паўторнай адпраўкі</item>
+        <item>Заўсёды пытацца</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Зыходная</item>
+        <item>Стандартныя налады сеткі</item>
+        <item>Заўсёды пытацца</item>
+    </string-array>
+</resources>

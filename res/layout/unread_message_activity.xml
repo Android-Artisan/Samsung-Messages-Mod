@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/unread_message_activity_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/recycler_view" android:tag="binding_1" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/unread_message_rounded_corner_frame_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:id="@id/unread_message_rounded_corner_frame" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/list_default_horizontal_padding" app:ghost="false" app:roundMode="12" />
+        <View android:layout_gravity="bottom" android:id="@id/unread_message_rounded_corner_frame_footer" android:background="@color/theme_rounded_corner_color" android:layout_width="match_parent" android:layout_height="0.0dp" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/list_empty_view" android:background="@color/theme_control_area_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <TextView android:textAppearance="@style/TextAppearanceNoItem" android:gravity="center" android:id="@id/no_item_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/zero_unread_messages" />
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

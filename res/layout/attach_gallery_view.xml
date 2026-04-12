@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.attachsheet.gallery.AttachSheetGalleryView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/gallery_view_attachment_container_parent" android:background="@color/theme_attach_sheet_bg_color_ghost_rounded" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:visibility="gone" layout="@layout/attachment_editor_layout" />
+            <include android:visibility="gone" layout="@layout/message_editor_size_info" />
+            <include android:visibility="gone" layout="@layout/custom_link_panel" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/attach_gallery_view_container" android:background="@color/theme_attach_sheet_bg_color_ghost_rounded" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/attachsheet_partial_permission_text_size" android:textColor="@color/attach_sheet_partial_permission_text_color" android:id="@id/partial_media_permission_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/attach_sheet_partial_permission_description" android:layout_alignParentTop="true" android:paddingHorizontal="@dimen/attachsheet_partial_permission_text_padding_horizontal" android:paddingVertical="@dimen/attachsheet_partial_permission_text_padding_vertical" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/person_info_title_container" android:paddingTop="@dimen/gallery_person_info_title_container_padding_top" android:paddingBottom="@dimen/gallery_person_info_title_container_padding_bottom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/partial_media_permission_view">
+                <ImageButton android:id="@id/person_info_up_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/gallery_person_info_title_up_button_size" android:layout_height="@dimen/gallery_person_info_title_up_button_size" android:src="@drawable/tw_ic_ab_back_mtrl_tint" android:layout_marginStart="@dimen/gallery_person_info_title_up_button_margin_start" android:layout_marginEnd="@dimen/gallery_person_info_title_up_button_margin_end" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/gallery_person_info_title_text_size" android:textColor="@color/theme_toolbar_main_text_color" android:id="@id/person_info_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.samsung.android.messaging.ui.view.composer.attachsheet.gallery.GalleryRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/gallery_recycler_view" android:background="@color/theme_attach_sheet_bg_color_ghost_rounded" android:paddingTop="@dimen/gallery_view_margin" android:paddingBottom="@dimen/gallery_expand_done_button_height" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/person_info_recycler_view_container" android:paddingHorizontal="@dimen/gallery_view_margin" app:columnWidth="@dimen/gallery_item_column_width" app:gotoTop="true" app:layoutManager="GridLayoutManager" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/person_info_recycler_view_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/person_info_title_container">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/person_info_recycler_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/gallery_person_info_container_padding_vertical" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/gallery_empty_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/partial_media_permission_view">
+                <include layout="@layout/empty_view_layout" />
+            </LinearLayout>
+            <include android:id="@id/send_buttons" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/gallery_empty_view" android:layout_alignParentEnd="true" layout="@layout/send_buttons_layout" />
+            <LinearLayout android:layout_gravity="center|bottom" android:orientation="horizontal" android:id="@id/gallery_done_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/gallery_empty_view" android:paddingStart="@dimen/bottom_bar_padding_start_end" android:paddingEnd="@dimen/bottom_bar_padding_start_end">
+                <com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar android:id="@id/floating_bottom_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false">
+                    <com.samsung.android.messaging.ui.view.widget.common.BottomBar android:layout_gravity="center_horizontal" android:id="@id/bottom_bar" android:layout_width="wrap_content" android:layout_height="@dimen/bottom_bar_with_icon_text_height" style="@style/FloatingBottomBarLabelStyle" />
+                </com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</com.samsung.android.messaging.ui.view.composer.attachsheet.gallery.AttachSheetGalleryView>

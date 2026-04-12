@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/messages_icon_conversationview_reaction_add" android:id="@id/reaction" android:visible="false" android:title="@string/viewer_menu_reaction" app:showAsAction="always" />
+    <item android:icon="@drawable/orc_ic_detail_album" android:id="@id/album" android:visible="false" android:title="@string/viewer_menu_shared_attachments" app:iconTint="@color/theme_toolbar_menu_icon_color" app:showAsAction="always" />
+    <item android:icon="@drawable/messages_icon_attach_orc_ic_location_edit" android:id="@id/photo_editor" android:visible="false" android:title="@string/viewer_menu_photo_editor" app:iconTint="@color/theme_toolbar_menu_icon_color" app:showAsAction="always" />
+</menu>

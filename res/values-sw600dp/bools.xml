@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="appbar_default_collapsed">true</bool>
+    <bool name="split_mode_enabled">true</bool>
+</resources>

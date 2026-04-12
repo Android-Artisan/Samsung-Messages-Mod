@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.attachsheet.widget.EmptyView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_empty_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/empty_view_sub_text" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/empty_view_image" android:visibility="gone" android:layout_width="@dimen/empty_view_image_size" android:layout_height="@dimen/empty_view_image_size" android:layout_marginBottom="@dimen/empty_view_text_padding" />
+            <TextView android:textAppearance="@style/EmptyView_TextAppearance" android:id="@id/empty_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_items" />
+        </LinearLayout>
+        <TextView android:textAppearance="@style/EmptyView_SubTextAppearance" android:gravity="center" android:id="@id/empty_view_sub_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/main_empty_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.samsung.android.messaging.ui.view.composer.attachsheet.widget.EmptyView>

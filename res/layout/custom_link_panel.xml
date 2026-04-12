@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.messageeditor.component.CustomLinkPanel android:id="@id/custom_link_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edit_text_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/custom_link_gallery" android:background="@drawable/ripple_edit_panel_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orc_ic_open" android:scaleType="centerInside" android:tint="@color/theme_sticker_gif_icon_tint_color_off" android:contentDescription="@string/link_sharing_gallery_tts" android:layout_marginHorizontal="10.0dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="15.0dp" android:textColor="@color/theme_link_sharing_main_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/custom_link_info_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/link_sharing_send_info_text" android:maxLines="1" />
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="11.0dp" android:textColor="@color/theme_link_sharing_sub_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/custom_link_size_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:layout_width="@dimen/new_sticker_button_layout_width" android:layout_height="@dimen/edit_text_min_height" layout="@layout/sim_button_layout" />
+</com.samsung.android.messaging.ui.view.composer.messageeditor.component.CustomLinkPanel>

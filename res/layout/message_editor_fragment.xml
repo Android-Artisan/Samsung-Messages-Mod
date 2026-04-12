@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.composer.messageeditor.component.MessageEditorContainer android:id="@id/editor_fragment_root_layout" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.composer.messageeditor.MessageEditorRecyclerView android:layout_gravity="bottom" android:id="@id/composer_scroll_view" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="#00000000" android:importantForAccessibility="no" />
+</com.samsung.android.messaging.ui.view.composer.messageeditor.component.MessageEditorContainer>

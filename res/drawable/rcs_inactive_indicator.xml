@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/theme_rcs_inactive_indicator_color" />
+    <stroke android:width="@dimen/rcs_badge_stroke" android:color="@color/theme_rcs_inactive_indicator_stroke_color" />
+    <size android:height="@dimen/composer_toolbar_recipient_item_avatar_inactive_image_size" android:width="@dimen/composer_toolbar_recipient_item_avatar_inactive_image_size" />
+</shape>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/previous_next_bg_color" />
+            <size android:height="@dimen/bubble_viewer_button_bg_size" android:width="@dimen/bubble_viewer_button_bg_size" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/bubble_viewer_button_icon_size" android:width="@dimen/bubble_viewer_button_icon_size">
+        <com.samsung.android.spr.drawable.SprDrawable android:src="@drawable/gallery_btn_icon_previous_mtrl" />
+    </item>
+</layer-list>

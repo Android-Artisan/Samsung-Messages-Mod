@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/preview_menu_items_scrollview" android:tag="layout/preview_menu_items_0" android:background="@color/theme_preview_dropdown_menu_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/preview_menu_container" android:layout_width="wrap_content" android:layout_height="@dimen/preview_menu_items_height" android:maxWidth="@dimen/preview_menu_items_max_width" android:minWidth="@dimen/preview_menu_items_min_width">
+        <TextView android:id="@id/edit_read" android:tag="binding_1" android:visibility="visible" android:text="@string/edit_read" style="@style/PreviewMenuItem" />
+        <TextView android:id="@id/noti_off" android:tag="binding_2" android:visibility="gone" style="@style/PreviewMenuItem" />
+        <TextView android:id="@id/delete" android:tag="binding_3" android:text="@string/delete" style="@style/PreviewMenuItem" />
+        <TextView android:id="@id/edit_pin" android:tag="binding_4" style="@style/PreviewMenuItem" />
+    </LinearLayout>
+</ScrollView>

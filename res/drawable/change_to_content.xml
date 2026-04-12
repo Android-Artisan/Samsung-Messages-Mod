@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dp" android:width="20.0dp" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/theme_announcement_card_switch_button_text_color" android:pathData="M6.624,5.125C6.624,5.317 6.698,5.51 6.845,5.656L11.072,9.865C11.116,9.908 11.125,9.958 11.125,9.991L11.125,9.992C11.125,10.025 11.116,10.075 11.073,10.118L6.844,14.345C6.551,14.638 6.551,15.112 6.844,15.405C7.137,15.698 7.611,15.698 7.904,15.405L12.133,11.179C12.45,10.862 12.625,10.44 12.625,9.992L12.625,9.99C12.625,9.541 12.449,9.119 12.131,8.802L7.903,4.594C7.609,4.302 7.135,4.303 6.843,4.596C6.697,4.742 6.624,4.934 6.624,5.125" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

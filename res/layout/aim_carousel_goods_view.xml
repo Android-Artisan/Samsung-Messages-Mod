@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.extension.chn.announcement.fontdo.view.aimview.CarouselGoodsView android:orientation="vertical" android:background="@drawable/background_circle" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/carouse_containers" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/aim_video_view" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/carouse_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/component_frame_margin" android:layout_marginTop="@dimen/component_frame_padding_10dp" android:layout_marginRight="@dimen/component_frame_margin">
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/card_electronic_text_color" android:id="@id/price_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" />
+        <TextView android:textSize="@dimen/text_size_25" android:textStyle="bold" android:textColor="@color/card_electronic_text_color" android:ellipsize="end" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="@dimen/announcement_card_main_text_size" android:textColor="@color/card_text_color_white_no_theme" android:ellipsize="end" android:gravity="center" android:id="@id/price_describe" android:background="@drawable/background_commerce_text_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:paddingStart="3.0dp" android:paddingEnd="3.0dp" android:layout_marginStart="@dimen/component_frame_padding_8dp" />
+    </LinearLayout>
+    <TextView android:id="@id/title" android:layout_marginTop="@dimen/component_frame_padding_6dp" style="@style/text_title" />
+    <TextView android:id="@id/content" style="@style/text_context" />
+    <include layout="@layout/aim_btn_layout" />
+</com.samsung.android.messaging.extension.chn.announcement.fontdo.view.aimview.CarouselGoodsView>

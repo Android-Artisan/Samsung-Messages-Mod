@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/add_bot_popup_padding_top" android:paddingBottom="@dimen/add_bot_popup_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/add_bot_popup_padding_left_right" android:paddingEnd="@dimen/add_bot_popup_padding_left_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/add_bot_cp_description_text_size" android:textColor="@color/primary_text_color" android:id="@id/rcs_notice_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:lineBreakWordStyle="phrase" />
+    </ScrollView>
+</LinearLayout>

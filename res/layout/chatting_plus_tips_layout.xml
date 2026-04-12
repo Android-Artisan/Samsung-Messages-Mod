@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/chatting_plus_tips_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/chatting_plus_tips" android:tag="binding_1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/chatting_plus_tips_image" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        <LinearLayout android:gravity="top" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <androidx.core.widget.NestedScrollView android:layout_gravity="top" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/chatting_plus_tips_description_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/chatting_plus_tips_description_max_width">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chatting_plus_tips_title_margin_top" android:layout_marginStart="@dimen/chatting_plus_tips_description_padding" android:layout_marginEnd="@dimen/chatting_plus_tips_title_margin_end">
+                            <ImageView android:id="@id/chatting_plus_logo" android:tag="binding_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerVertical="true" android:contentDescription="@string/chatting_plus" android:layout_marginEnd="@dimen/chatting_plus_tips_info_button_size" android:layout_alignParentStart="true" />
+                            <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/chatting_plus_tips_title_text_size" android:textColor="@color/theme_list_main_text_color" android:id="@id/chatting_plus_tips_title" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/chatting_plus_tips_info_button_size" android:layout_alignParentStart="true" />
+                            <ImageButton android:id="@id/chatting_plus_info_button" android:tag="binding_7" android:background="@drawable/chatting_plus_info_button_background" android:visibility="gone" android:layout_width="@dimen/chatting_plus_tips_info_button_size" android:layout_height="@dimen/chatting_plus_tips_info_button_size" android:src="@drawable/ic_info" android:adjustViewBounds="true" android:tint="@color/theme_list_main_text_color" android:layout_alignParentTop="true" android:contentDescription="@string/information" android:layout_alignParentEnd="true" />
+                        </RelativeLayout>
+                        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/chatting_plus_tips_description_text_size" android:textColor="@color/theme_list_main_text_color" android:id="@id/chatting_plus_tips_description" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chatting_plus_tips_description_margin_top" android:minLines="3" android:paddingHorizontal="@dimen/chatting_plus_tips_description_padding" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

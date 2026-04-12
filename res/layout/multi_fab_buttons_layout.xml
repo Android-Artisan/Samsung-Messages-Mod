@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fab_layout" android:tag="layout/multi_fab_buttons_layout_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="end|bottom" android:orientation="vertical" android:id="@id/fab_sub_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/multi_floating_action_button_margin_end">
+        <LinearLayout android:id="@id/chat_fab_layout" android:layout_marginTop="@dimen/multi_floating_action_button_size" style="@style/FabButtonLayoutStyle">
+            <TextView android:id="@id/chat_fab_text_view" android:text="@string/fab_one_to_one_chat_text" style="@style/FabTextViewStyle" />
+            <ImageButton android:id="@id/chat_fab" android:tag="binding_1" android:src="@drawable/orc_fab_ic_chat" android:contentDescription="@string/fab_one_to_one_chat_text" style="@style/SubFabButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/group_chat_fab_layout" android:tag="binding_2" android:visibility="visible" style="@style/FabButtonLayoutStyle">
+            <TextView android:id="@id/group_chat_fab_text_view" android:text="@string/fab_group_chat_text" style="@style/FabTextViewStyle" />
+            <ImageButton android:id="@id/group_chat_fab" android:tag="binding_3" android:src="@drawable/orc_fab_ic_group_chat" android:contentDescription="@string/fab_group_chat_text" style="@style/SubFabButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/group_mms_fab_layout" android:layout_marginBottom="@dimen/multi_floating_action_button_margin_bottom" style="@style/FabButtonLayoutStyle">
+            <TextView android:id="@id/group_mms_fab_text_view" android:text="@string/fab_group_mms_text" style="@style/FabTextViewStyle" />
+            <ImageButton android:id="@id/group_mms_fab" android:tag="binding_4" android:src="@drawable/orc_fab_ic_group_mms" android:contentDescription="@string/fab_group_mms_text" style="@style/SubFabButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:layout_gravity="end|bottom" android:id="@id/fab_close" android:tag="binding_5" android:layout_marginBottom="@dimen/floating_action_button_margin_bottom" android:src="@drawable/orc_fab_ic_close" android:contentDescription="@string/cancel" style="@style/MainFabButtonStyle" />
+    <LinearLayout android:gravity="center" android:layout_gravity="end|bottom" android:id="@id/fake_fab" android:background="@drawable/floating_action_button" android:visibility="gone" android:layout_width="@dimen/floating_action_button_size" android:layout_height="@dimen/floating_action_button_size" android:layout_marginBottom="@dimen/floating_action_button_margin_bottom" android:layout_marginHorizontal="@dimen/floating_action_button_margin_end">
+        <ImageView android:id="@id/fake_fab_image" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orc_fab_ic_add" />
+    </LinearLayout>
+</FrameLayout>

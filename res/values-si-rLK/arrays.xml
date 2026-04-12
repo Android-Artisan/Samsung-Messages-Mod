@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>පැය 1</item>
+        <item>පැය 6</item>
+        <item>පැය 24</item>
+        <item>දවස් 2</item>
+        <item>ජාල පෙරනිමිය</item>
+        <item>උපරිම</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>නියම</item>
+        <item>ඉහළ</item>
+        <item>මධ්‍යම</item>
+        <item>අඩුයි</item>
+        <item>සැමවිට අසන්න</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>නියම</item>
+        <item>ඉහළ ගුණත්වය</item>
+        <item>සාමාන්‍ය ගුණත්වය</item>
+        <item>අඩු විභේදනය</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>නාලිකා සියල්ල</item>
+        <item>මගේ නාලිකාව</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>ස්වයංක්‍රීය</item>
+        <item>පෙළ හෝ බහුමාධ්‍ය</item>
+        <item>කතාබහ</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>ස්වයංක්‍රීය</item>
+        <item>පෙළ හෝ බහුමාධ්‍ය</item>
+        <item>RCS කතාබස් පණිවිඩ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>අවහිරය</item>
+        <item>පළමුව විමසන්න</item>
+        <item>ඉඩ දෙන්න</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>සැමවිට</item>
+        <item>පොරොත්තුව</item>
+        <item>කවදාවත් නැත</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM හෝඩිය</item>
+        <item>යුනිකෝඩ්</item>
+        <item>ස්වයංක්‍රීය</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>පෙළ හෝ බහුමාධ්‍ය පණිවිඩයක් ලෙස යළි යවන්න</item>
+        <item>යළි නොයවන්න</item>
+        <item>යළි යැවීමට පෙර විමසන්න</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>පෙළ හෝ බහුමාධ්‍ය පණිවිඩ භාවිතය</item>
+        <item>නැවත යැවීමක් නැත</item>
+        <item>සැමවිට අසන්න</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>මුල්</item>
+        <item>ජාල පෙරනිමිය</item>
+        <item>සැමවිටම අසන්න</item>
+    </string-array>
+</resources>

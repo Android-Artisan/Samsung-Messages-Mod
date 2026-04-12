@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/picker_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:picker="http://schemas.android.com/apk/res-auto">
+    <com.android.internal.widget.DialogViewAnimator android:id="@id/view_animator" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureAllChildren="true" android:inAnimation="@anim/sesl_date_picker_fade_in" android:outAnimation="@anim/sesl_date_picker_fade_out">
+        <LinearLayout android:id="@id/picker_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.picker.widget.SeslDatePicker android:theme="@style/CustomDatePickerStyle" android:id="@id/composer_search_date_picker" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="22.0dp" android:layout_marginBottom="22.0dp" android:startYear="1970" android:endYear="2100" android:layout_weight="@integer/date_picker_12_hr_weight" picker:pickerLayoutMode="phoneMode" />
+        </LinearLayout>
+    </com.android.internal.widget.DialogViewAnimator>
+</ScrollView>

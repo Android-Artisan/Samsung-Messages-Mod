@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="temp" path="/" />
+    <external-cache-path name="external_temp" path="/" />
+    <files-path name="profile" path="profile/" />
+    <files-path name="composerBg" path="composerBg/" />
+    <external-files-path name="external" path="" />
+    <files-path name="ogqSticker" path="ogqSticker/" />
+</paths>

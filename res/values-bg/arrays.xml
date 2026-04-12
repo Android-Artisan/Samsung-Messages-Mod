@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 час</item>
+        <item>6 часа</item>
+        <item>24 часа</item>
+        <item>2 дена</item>
+        <item>Станд. мрежа</item>
+        <item>Максимyм</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Оригинален</item>
+        <item>Високо</item>
+        <item>Средно</item>
+        <item>Ниско</item>
+        <item>Винаги питай</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Оригинален</item>
+        <item>Високо качество</item>
+        <item>Нормално качество</item>
+        <item>Ниска раздел. способн.</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Всички канали</item>
+        <item>Мой канал</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Автоматично</item>
+        <item>Текст или мултимедия</item>
+        <item>Чат</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Автоматично</item>
+        <item>Текст или мултимедия</item>
+        <item>RCS чат съобщения</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Блокиране</item>
+        <item>Първо питай</item>
+        <item>Позволяване</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Винаги</item>
+        <item>Напомняне</item>
+        <item>Никога</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM азбука</item>
+        <item>Unicode</item>
+        <item>Автоматично</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Повторно изпращане като текстово или мултимедийно съобщение</item>
+        <item>Да не се изпраща повторно</item>
+        <item>Питане преди повторно изпращане</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Изп. текст. или мултим. съобщ.</item>
+        <item>Без повторно изпращане</item>
+        <item>Винаги питай</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Оригинално</item>
+        <item>Мрежа по подразбиране</item>
+        <item>Винаги да се пита</item>
+    </string-array>
+</resources>

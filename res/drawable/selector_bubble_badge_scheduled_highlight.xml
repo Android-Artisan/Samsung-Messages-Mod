@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <corners android:radius="@dimen/bubble_corner_radius" />
+            <stroke android:width="@dimen/bubble_stroke_focus" android:color="@color/theme_bubble_color_stroke_focused" />
+            <solid android:color="@color/theme_bubble_color_bg_scheduled" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+                    <corners android:radius="@dimen/bubble_corner_radius" />
+                    <solid android:color="@color/theme_bubble_color_bg_scheduled" />
+                </androidx.appcompat.util.SeslShapeDrawable>
+            </item>
+            <item>
+                <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+                    <corners android:radius="@dimen/bubble_corner_radius" />
+                    <stroke android:width="0.0dp" android:color="#00ffffff" />
+                    <solid android:color="@color/bubble_failed_item_pressed_color" />
+                </androidx.appcompat.util.SeslShapeDrawable>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/bubble_corner_radius" />
+            <stroke android:width="@dimen/bubble_stroke_focus" android:color="@color/theme_bubble_color_stroke_focused" />
+            <solid android:color="@color/theme_bubble_color_bg_scheduled" />
+        </shape>
+    </item>
+</selector>

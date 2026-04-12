@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ชั่วโมง</item>
+        <item>6 ​ชั่วโมง</item>
+        <item>24 ​ชั่วโมง</item>
+        <item>2 ​วัน</item>
+        <item>ค่าเริ่มต้นของเครือข่าย</item>
+        <item>สูง​สุด</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>ดั้ง​เดิม</item>
+        <item>สูง</item>
+        <item>ปานกลาง</item>
+        <item>ต่ำ</item>
+        <item>ถาม​ทุก​ครั้ง</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>ดั้ง​เดิม</item>
+        <item>คุณภาพสูง</item>
+        <item>คุณภาพปกติ</item>
+        <item>ความละเอียดต่ำ</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>สถานีทั้งหมด</item>
+        <item>สถานี​ส่วนตัว</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>อัตโนมัติ</item>
+        <item>ข้อความหรือมัลติมีเดีย</item>
+        <item>สนทนา</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>อัตโนมัติ</item>
+        <item>ข้อความหรือมัลติมีเดีย</item>
+        <item>ข้อความแชท RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>บล็อก</item>
+        <item>ถามก่อน</item>
+        <item>อนุญาต</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>เสมอ</item>
+        <item>เตือน​ก่อน</item>
+        <item>ไม่ปิด</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>ชุดตัวอักษร GSM</item>
+        <item>ยู​นิ​โค้ด</item>
+        <item>อัตโนมัติ</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>ส่งใหม่เป็นข้อความหรือข้อความมัลติมีเดีย</item>
+        <item>อย่าส่งใหม่</item>
+        <item>ถามก่อนส่งใหม่</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>ใช้ข้อความปกติหรือข้อความ MMS</item>
+        <item>ไม่มีการส่งใหม่</item>
+        <item>ถาม​ทุก​ครั้ง</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>ต้นฉบับ</item>
+        <item>ค่าเริ่มต้นของเครือข่าย</item>
+        <item>ถามทุกครั้ง</item>
+    </string-array>
+</resources>

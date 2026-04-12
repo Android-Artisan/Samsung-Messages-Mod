@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="end" android:tag="layout/group_chat_invitation_bottom_buttons_0" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <Button android:id="@id/join_button" android:tag="binding_1" android:text="@string/group_chat_invitation_accept" style="@style/GroupChatInvitationButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start" android:tag="layout/group_chat_invitation_bottom_buttons_2" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <Button android:id="@id/leave_button" android:tag="binding_3" android:text="@string/group_chat_invitation_decline" style="@style/GroupChatInvitationButtonStyle" />
+    </LinearLayout>
+</merge>

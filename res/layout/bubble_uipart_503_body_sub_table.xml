@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.extension.chn.announcement.cardsmssdk.popu.table.DoubleVerTable android:id="@id/double_ver_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/component_frame_margin" android:paddingEnd="@dimen/component_frame_margin" />
+</LinearLayout>

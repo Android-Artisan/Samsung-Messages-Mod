@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/about_page_app_label_text_size" android:textColor="@color/theme_about_text_color" android:id="@id/about_page_app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:textAlignment="center" android:layout_marginHorizontal="@dimen/about_page_margin_start_end" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/about_page_app_version_text_size" android:textColor="@color/theme_about_description_text_color" android:id="@id/about_page_version" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_page_app_version_margin_top" android:text="@string/version_name" android:textAlignment="center" android:layout_marginHorizontal="@dimen/about_page_margin_start_end" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/about_page_app_version_text_size" android:textColor="@color/theme_about_description_text_color" android:id="@id/Chn_Extension_version" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/version_name" android:textAlignment="center" android:layout_marginHorizontal="@dimen/about_page_margin_start_end" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/about_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/about_page_available_text_size" android:textColor="@color/theme_about_description_text_color" android:id="@id/about_page_available" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" android:layout_marginHorizontal="@dimen/about_page_margin_start_end" />
+            <Button android:theme="@style/AboutPageUpdateButtonTheme" android:layout_gravity="center" android:id="@id/about_page_update_button" android:visibility="gone" android:layout_width="@dimen/about_page_button_default_width" android:layout_height="wrap_content" android:text="@string/update" android:layout_marginVertical="@dimen/about_page_app_update_button_margin_top" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

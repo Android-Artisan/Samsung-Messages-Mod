@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="50.0dp" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+        <TextView android:textSize="15.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Select amount of preset data" />
+        <Spinner android:id="@id/preset_data_amount_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="50.0dp" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+        <TextView android:textSize="15.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Select message mode" />
+        <Spinner android:id="@id/spam_mode_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="50.0dp" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+        <TextView android:textSize="15.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Store large amount of preset conversations" />
+        <Button android:id="@id/store_preset_conversations" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/progress_conversations_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" />
+            <TextView android:id="@id/progress_conversations_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="50.0dp" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+        <TextView android:textSize="15.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Store large amount of preset messages" />
+        <Button android:id="@id/store_preset_messages" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/progress_messages_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" />
+            <TextView android:id="@id/progress_messages_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="50.0dp" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+        <TextView android:textSize="15.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Store large amount of preset conversations, messages" />
+        <Button android:id="@id/store_preset_conversations_messages" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/progress_conversations_messages_remote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" />
+            <TextView android:id="@id/progress_conversations_messages_attempt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" />
+            <TextView android:id="@id/progress_conversations_messages_conv_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" />
+            <TextView android:id="@id/progress_conversations_messages_conv_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" />
+            <TextView android:id="@id/progress_conversations_messages_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" />
+            <TextView android:id="@id/progress_conversations_messages_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

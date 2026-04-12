@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <corners android:radius="@dimen/chatting_plus_tips_rounded_corner" />
+            <solid android:color="@color/mass_text_tip_bg_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+</ripple>

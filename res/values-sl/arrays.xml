@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ura</item>
+        <item>6 ur</item>
+        <item>24 ur</item>
+        <item>2 dni</item>
+        <item>Omrežna privzeta vrednost</item>
+        <item>Največ</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Original</item>
+        <item>Visoka</item>
+        <item>Srednja</item>
+        <item>Nizka</item>
+        <item>Vedno vprašaj</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Original</item>
+        <item>Visoka kakovost</item>
+        <item>Običajna kakovost</item>
+        <item>Nizka ločljivost</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Vsi kanali</item>
+        <item>Moja postaja</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Samodejno</item>
+        <item>Besedilno ali večpredstavnostno sporočilo</item>
+        <item>Klepet</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Samodejno</item>
+        <item>Besedilno ali večpredstavnostno sporočilo</item>
+        <item>Sporočila klepeta RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Blokiraj</item>
+        <item>Najprej vprašaj</item>
+        <item>Dovoli</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Vedno</item>
+        <item>Vprašaj</item>
+        <item>Nikoli</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Abeceda GSM</item>
+        <item>Unicode</item>
+        <item>Samodejno</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Znova pošlji kot besedilno ali večpredstavnostno sporočilo</item>
+        <item>Ne pošlji znova</item>
+        <item>Vprašaj pred vnovičnim pošiljanjem</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Upor. bes. ali večpr. sporočil</item>
+        <item>Ne pošlji znova</item>
+        <item>Vedno vprašaj</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Izvirna</item>
+        <item>Omrežna privzeta vrednost</item>
+        <item>Vedno vprašaj</item>
+    </string-array>
+</resources>

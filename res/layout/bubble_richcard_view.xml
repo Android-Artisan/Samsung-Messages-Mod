@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.richcard.BubbleRichCardView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="11.0dp">
+        <ViewStub android:id="@id/bubble_header_viewstub" android:visibility="gone" android:layout="@layout/bubble_header_message_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/bubble_header_safe_logo_viewstub" android:visibility="gone" android:layout="@layout/bubble_header_safe_logo_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.samsung.android.messaging.ui.view.bubble.item.TruncateLinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/messages_bubble_receivedmessage_bot_style_00" android:focusable="false" android:clickable="false" android:longClickable="true" android:layout_width="@dimen/bubble_bot_carousel_medium_width" android:layout_height="match_parent" android:maxHeight="@dimen/bubble_bot_max_card_height_vertical_carousel_medium_width" android:minHeight="0.0dp" android:showDividers="middle">
+        <ViewStub android:id="@id/image_layout_horizontal" android:layout="@layout/richcard_image_h" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/image_layout_vertical" android:layout="@layout/richcard_image_v" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/video_layout_horizontal" android:layout="@layout/richcard_video_h" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/video_layout_vertical" android:layout="@layout/richcard_video_v" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/webvideo_layout_vertical" android:layout="@layout/richcard_webvideo_v" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/popup_webvideo_layout_vertical" android:layout="@layout/richcard_popup_webvideo_v" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/audio_layout_horizontal" android:layout="@layout/richcard_audio_h" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/audio_layout_vertical" android:layout="@layout/richcard_audio_v" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/richcard_suggestion_container" />
+        <View android:id="@id/richcard_bottom_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/bubble_bot_content_padding_bottom" />
+    </com.samsung.android.messaging.ui.view.bubble.item.TruncateLinearLayout>
+    <ViewStub android:id="@id/bubble_sender_only_viewstub" android:visibility="gone" android:layout="@layout/bubble_richcard_sender_only_view" android:layout_width="@dimen/bubble_pay_gift_width_height" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginEnd="6.0dp" />
+    <RelativeLayout android:id="@id/bubble_info_bottom_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/bubble_info_bottom_view" />
+        <ViewStub android:id="@id/bubble_footer_viewstub" android:visibility="gone" android:layout="@layout/bubble_richcard_footer_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/bubble_info_bottom" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/bubble_suggestion_layout_stub" android:visibility="gone" android:layout="@layout/bubble_suggestion_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.samsung.android.messaging.ui.view.bubble.item.richcard.BubbleRichCardView>

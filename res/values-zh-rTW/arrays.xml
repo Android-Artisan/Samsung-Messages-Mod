@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 小時</item>
+        <item>6 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>網路預設</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>原圖</item>
+        <item>高</item>
+        <item>中等</item>
+        <item>低</item>
+        <item>每次詢問</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>原圖</item>
+        <item>高畫質</item>
+        <item>標準畫質</item>
+        <item>低解析度</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>所有頻道</item>
+        <item>我的頻道</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>自動</item>
+        <item>文字或多媒體</item>
+        <item>聊天</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>自動</item>
+        <item>文字或多媒體</item>
+        <item>RCS 聊天訊息</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>封鎖</item>
+        <item>請先問我</item>
+        <item>允許</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>總是</item>
+        <item>提示</item>
+        <item>從不</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM 字母表</item>
+        <item>Unicode</item>
+        <item>自動</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>以文字或多媒體訊息重新傳送</item>
+        <item>不要重新傳送</item>
+        <item>重新傳送前詢問</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>使用文字或多媒體訊息</item>
+        <item>不重新傳送</item>
+        <item>每次詢問</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>原始圖像</item>
+        <item>網路預設</item>
+        <item>每次詢問</item>
+    </string-array>
+</resources>

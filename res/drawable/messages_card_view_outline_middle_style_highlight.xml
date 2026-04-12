@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/bubble_stroke_focus" android:color="@color/theme_bubble_color_stroke_focused" />
+    <corners android:topLeftRadius="@dimen/bubble_corner_small_radius" android:topRightRadius="@dimen/bubble_corner_small_radius" android:bottomLeftRadius="@dimen/bubble_corner_small_radius" android:bottomRightRadius="@dimen/bubble_corner_small_radius" />
+</shape>

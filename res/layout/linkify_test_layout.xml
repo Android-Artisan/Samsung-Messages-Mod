@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="30.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="25.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Linkify Test" />
+        <TextView android:textSize="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="text editor" />
+        <EditText android:id="@id/test_linkify_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="150.0dp" />
+        <Spinner android:id="@id/test_Linkify_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_linkify_by_API" android:layout_width="0.0dp" android:layout_height="60.0dp" android:layout_margin="10.0dp" android:text="Linkify start" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:layout_weight="1.0">
+                <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BDC LINKIFY" />
+                <TextView android:id="@id/bdc_linkify_result" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:layout_weight="1.0">
+                <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ORIGINAL LINKIFY" />
+                <TextView android:id="@id/original_linkify_result" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="20.0dp" android:id="@id/test_linkify_result_type" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+        <TextView android:id="@id/test_linkify_result" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="" />
+    </LinearLayout>
+</ScrollView>

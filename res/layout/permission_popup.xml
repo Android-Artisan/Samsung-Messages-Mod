@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="?android:dialogPreferredPadding" android:layout_marginTop="?android:dialogPreferredPadding" android:layout_marginRight="?android:dialogPreferredPadding" android:layout_marginBottom="8.0dp" android:layout_weight="0.9">
+        <TextView android:textSize="@dimen/permission_popup_title_text_size" android:textColor="@color/msg_popup_text_color" android:id="@id/Permissionpopup_body" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <CheckBox android:textSize="@dimen/permission_popup_title_text_size" android:textColor="@color/msg_popup_text_color" android:id="@id/allowPermission" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:checked="false" android:text="@string/do_not_show_again" android:paddingStart="8.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+</LinearLayout>

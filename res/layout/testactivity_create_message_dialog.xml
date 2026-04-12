@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_with_title_margin_top" android:layout_marginBottom="@dimen/msg_popup_padding_bottom" android:layout_marginStart="@dimen/dialog_edit_text_margin_start">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Input recipient for conversation" />
+            <EditText android:id="@id/edit_text_address" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingEnd="@dimen/group_chat_edit_cancel" android:layout_marginEnd="6.0dp" android:backgroundTint="@color/theme_primary_color" android:layout_marginVertical="8.0dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Input max count to create the web site message " />
+            <EditText android:id="@id/edit_text_create_message_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingEnd="@dimen/group_chat_edit_cancel" android:layout_marginEnd="6.0dp" android:backgroundTint="@color/theme_primary_color" android:layout_marginVertical="8.0dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

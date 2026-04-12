@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="@string/screen_Message_Setting"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:key="pref_key_chat_setting" app:event="@string/event_Message_Settings_Chat_Settings" app:screen="@string/screen_Message_Setting">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.chat.RcsChatSettingActivity">
+            <extra android:name="sim_slot" android:value="0" />
+        </intent>
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:key="pref_key_chat_setting_sim2" app:event="@string/event_Message_Settings_Chat_Settings" app:screen="@string/screen_Message_Setting">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.chat.SecondSimRcsChatSettingActivity">
+            <extra android:name="sim_slot" android:value="1" />
+        </intent>
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <PreferenceCategory android:key="pref_key_rcs_chat_setting_divider" />
+    <com.samsung.android.messaging.ui.view.setting.widget.DepthInSwitchSettingPreference android:title="@string/conversation_category" android:key="pref_key_conversation_category" app:eventForSwitchView="@string/event_Message_Settings_Conversation_Categories" app:screen="@string/screen_Message_Setting">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.conversationcategory.ManageCategoryActivity" />
+    </com.samsung.android.messaging.ui.view.setting.widget.DepthInSwitchSettingPreference>
+    <PreferenceCategory android:key="pref_key_conversation_category_divider" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/pref_bin_title" android:key="pref_key_enable_bin" android:defaultValue="true" app:event="@string/event_Message_Settings_Bin" app:screen="@string/screen_Message_Setting" />
+    <PreferenceCategory android:key="pref_key_bin_setting_divider" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_title_notification_enabled" android:key="pref_key_enable_notifications" app:event="@string/event_Message_Settings_Notification" app:screen="@string/screen_Message_Setting">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.notification.NotificationSettingActivity">
+            <extra android:name="sim_slot" android:value="0" />
+        </intent>
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_title_notification_enabled" android:key="pref_key_enable_notifications_sim2" app:event="@string/event_Message_Settings_Notification" app:screen="@string/screen_Message_Setting">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.notification.SecondSimNotificationSettingActivity">
+            <extra android:name="sim_slot" android:value="1" />
+        </intent>
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_title_notification_enabled" android:key="pref_key_enable_notifications_two_phone_B" app:event="@string/event_Message_Settings_Notification" app:screen="@string/screen_Message_Setting">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.notification.TwoPhoneOppositeNotificationSettingActivity">
+            <extra android:name="sim_slot" android:value="2" />
+        </intent>
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <PreferenceCategory android:key="pref_key_notification_setting_divider" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_title_block_numbers_and_messages" android:key="pref_key_contacts" app:event="@string/event_Message_Settings_Block_Messages" app:screen="@string/screen_Message_Setting">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.block.BlockNumbersAndMessagesActivity" />
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/announcement_title" android:key="pref_key_announcements_settings" android:defaultValue="true">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.announcement.AnnouncementsSettingActivity" />
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_title_more_settings" android:key="pref_key_more_settings" app:event="@string/event_Message_Settings_More_Settings" app:screen="@string/screen_Message_Setting">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.more.MoreSettingActivity" />
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_emergency_alert_history" android:key="pref_emergency_alert_history" app:event="@string/event_Message_Settings_Emergency_Alert_History" app:screen="@string/screen_Message_Setting" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_title_privacy" android:key="pref_key_privacy" app:event="@string/event_Message_Settings_Privacy" app:screen="@string/screen_Message_Setting">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.privacy.PrivacyActivity" />
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <PreferenceCategory android:key="pref_key_wireless_emergency_alerts_divider" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/wireless_emergency_alerts" android:key="pref_key_wireless_emergency_alerts" />
+    <PreferenceCategory android:title="@string/pref_title_privacy" android:key="pref_key_privacy_permission_category">
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/about_page_permissions" android:key="pref_key_privacy_permission" app:event="@string/event_messages_settings_permissions" app:screen="@string/screen_Message_Setting">
+            <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.permission.PermissionInfoActivity" />
+        </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_key_privacy_permission_category_divider" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/chatting_plus_tips" android:key="pref_key_chatting_tip" app:event="@string/event_Message_Settings_ChattingPlus_Tips" app:screen="@string/screen_Message_Setting" />
+    <PreferenceCategory android:key="pref_key_chatting_tip_divider" />
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:key="pref_key_about_orc" app:event="@string/event_Message_Settings_About_Messages" app:screen="@string/screen_Message_Setting">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.about.AboutMessagesActivity" />
+    </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/pref_title_contact_us" android:key="pref_key_contact_us" app:event="@string/event_Contact_Us" app:screen="@string/screen_Message_Setting" />
+</androidx.preference.PreferenceScreen>

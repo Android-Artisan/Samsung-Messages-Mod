@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/group_chat_invitation_root_view" android:tag="layout/group_chat_invitation_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/composer_toolbar_title_text_size_dp" android:textColor="@color/theme_toolbar_main_text_color" android:ellipsize="end" android:gravity="start|center" android:id="@id/title" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="@dimen/composer_toolbar_height" android:text="@string/group_chat_invitation_title" android:textDirection="firstStrong" android:paddingHorizontal="24.0dp" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/invitation_info_layout" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@id/invitation_members_info_layout" layout="@layout/group_chat_invitation_members_info_layout" />
+            <include android:id="@id/invitation_guide_layout" layout="@layout/group_chat_invitation_guide_layout" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center|bottom" android:orientation="horizontal" android:id="@id/invitation_buttons_container" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:layout_marginBottom="14.0dp" android:layout_marginHorizontal="24.0dp">
+        <include android:id="@id/invitation_buttons_layout" layout="@layout/group_chat_invitation_bottom_buttons" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 ঘণ্টা</item>
+        <item>6 ঘণ্টা</item>
+        <item>24 ঘণ্টা</item>
+        <item>2 দিন</item>
+        <item>"নেটৱৰ্ক ডিফ'ল্ট"</item>
+        <item>সৰ্বাধিক</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>আচল</item>
+        <item>উচ্চ</item>
+        <item>মধ্যম</item>
+        <item>নিম্ন</item>
+        <item>সদায় সোধক</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>আচল</item>
+        <item>উচ্চ গুণমান</item>
+        <item>সাধাৰণ গুণমান</item>
+        <item>"নিম্ন ৰিজ'লিউশ্বন"</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>সকলো চেনেল</item>
+        <item>মোৰ চেনেল</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>স্বয়ংক্ৰিয়</item>
+        <item>পাঠ বা মাল্টিমিডিয়া</item>
+        <item>চাট</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>স্বয়ংক্ৰিয়</item>
+        <item>পাঠ বা মাল্টিমিডিয়া</item>
+        <item>RCS চাট মেচেজসমূহ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ব্লক কৰক</item>
+        <item>প্ৰথমতে সোধক</item>
+        <item>অনুমতি দিয়ক</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>সদায়</item>
+        <item>প্ৰম্পট</item>
+        <item>কেতিয়াও নহয়</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM বৰ্ণমালা</item>
+        <item>ইউনিকোড</item>
+        <item>স্বয়ংক্ৰিয়</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>এটা পাঠ বা মাল্টিমিডিয়া মেচেজ ৰূপে পুনঃপ্ৰেৰণ কৰক</item>
+        <item>পুনঃপ্ৰেৰণ নকৰিব</item>
+        <item>পুনঃপ্ৰেৰণ কৰাৰ পূৰ্বে সোধক</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>পাঠ বা মাল্টিমিডিয়া মেচেজসমূহ ব্যৱহাৰ কৰক</item>
+        <item>পুনঃপ্ৰেৰণ কৰা নাই</item>
+        <item>সদায় সোধক</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>মূল</item>
+        <item>"নেটৱৰ্ক ডিফ'ল্ট"</item>
+        <item>সদায় সোধক​</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout android:orientation="vertical" android:id="@id/search_chip_container" android:tag="layout/search_recent_fragment_0" android:layout_width="match_parent" android:layout_height="wrap_content" app:roundMode="15"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/search_chip_layout" layout="@layout/search_recent_fragment_with_chips_layout" />
+</com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout>

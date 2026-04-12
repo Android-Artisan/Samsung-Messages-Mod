@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ipme_first_launch_title_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/ipme_first_launch_title_size" android:textColor="@color/first_launch_title_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/ipme_first_launch_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ipme_first_launch_title_margin_top" android:layout_marginBottom="@dimen/ipme_first_launch_title_margin_bottom" android:text="@string/start_using_ing_advanced_messaging" android:maxLines="5" android:layout_marginStart="@dimen/ipme_first_launch_title_margin_start" android:layout_marginEnd="@dimen/ipme_first_launch_title_margin_end" android:lineBreakWordStyle="phrase" />
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/ipme_description_padding_start" android:paddingRight="@dimen/ipme_description_padding_end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ipme_description_none_last_item_margin_bottom">
+                    <ImageView android:layout_width="@dimen/ipme_introduction_check_icon_size" android:layout_height="@dimen/ipme_introduction_check_icon_size" android:src="@drawable/orc_ic_att_replying" android:tint="@color/first_launch_icon_tint_color" />
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/ipme_description_font_size" android:textColor="@color/first_launch_primary_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ipme_description_distance_img_to_text" android:text="@string/see_when_contact_replying" android:lineBreakWordStyle="phrase" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ipme_description_none_last_item_margin_bottom">
+                    <ImageView android:layout_width="@dimen/ipme_introduction_check_icon_size" android:layout_height="@dimen/ipme_introduction_check_icon_size" android:src="@drawable/orc_ic_att_confirmation" android:tint="@color/first_launch_icon_tint_color" />
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/ipme_description_font_size" android:textColor="@color/first_launch_primary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ipme_description_distance_img_to_text" android:text="@string/send_and_receive_confirmation" android:lineBreakWordStyle="phrase" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ipme_description_none_last_item_margin_bottom">
+                    <ImageView android:layout_width="@dimen/ipme_introduction_check_icon_size" android:layout_height="@dimen/ipme_introduction_check_icon_size" android:src="@drawable/orc_ic_att_share" android:tint="@color/first_launch_icon_tint_color" />
+                    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/ipme_description_font_size" android:textColor="@color/first_launch_primary_text_color" android:id="@id/share_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ipme_description_distance_img_to_text" android:text="@string/share_file_vzw" android:lineBreakWordStyle="phrase" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/ipme_description_detail_padding_start" android:paddingRight="@dimen/ipme_description_detail_padding_end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/ipme_description_detail_font_size" android:textColor="@color/first_launch_primary_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ipme_description_detail_first_item_margin_top" android:text="@string/new_feature_info_vzw" android:lineBreakWordStyle="phrase" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/ipme_description_detail_font_size" android:textColor="@color/first_launch_primary_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ipme_description_detail_none_first_item_margin_top" android:text="@string/ipme_info_ext" android:lineSpacingExtra="@dimen/ipme_description_line_spacing" android:lineBreakWordStyle="phrase" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/ipme_introduction_bottom_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <Button android:theme="@style/FirstLaunchButtonTheme" android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ipme_ok_button_margin_top" android:layout_marginBottom="@dimen/ipme_ok_button_margin_bottom" android:text="@string/next" />
+    </LinearLayout>
+</LinearLayout>

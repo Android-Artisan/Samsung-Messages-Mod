@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/switch_default_sms_app_as_gm_title_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:tag="binding_1" android:visibility="gone" android:layout_width="35.0dp" android:layout_height="35.0dp" android:src="@drawable/switch_to_gm_top_ic" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="13.0dp">
+        <TextView android:textAppearance="@style/NewSECSemiBold" android:textSize="@dimen/text_size_30_sp" android:textColor="@color/theme_toolbar_main_text_color" android:gravity="center_horizontal" android:id="@id/switch_default_sms_app_as_gm_title" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/upgrade_your_messaging_experience" android:lineBreakWordStyle="phrase" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:tag="binding_4" android:layout_width="296.0dp" android:layout_height="103.0dp" android:src="@drawable/im_gm_light" />
+</LinearLayout>

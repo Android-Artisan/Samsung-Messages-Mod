@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/reorder_background_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.uicommon.widget.checkablelayout.CheckableLinearLayout android:theme="@style/ListItemBackground" android:gravity="center_vertical" android:orientation="vertical" android:id="@id/block_phrase_item_layout" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/block_phrase_item_start_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/text_list_start_end_margin">
+                <CheckBox android:theme="@style/BubbleCheckBoxAppearance" android:layout_gravity="center" android:id="@id/checkbox" android:background="@android:color/transparent" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/check_box_margin_start_end_flexible" />
+                <ImageView android:layout_gravity="center" android:id="@id/add_block_phrase" android:visibility="gone" android:layout_width="@dimen/list_add_delete_button_width" android:layout_height="@dimen/list_add_delete_button_height" android:src="@drawable/theme_list_add_icon" android:layout_marginHorizontal="@dimen/check_box_margin_start_end_flexible" />
+            </LinearLayout>
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/category_list_item_name_text_size" android:textColor="@color/theme_list_main_text_color" android:gravity="center_vertical" android:id="@id/block_phrase_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="@dimen/setting_list_item_min_height" android:layout_weight="1.0" android:textDirection="locale" android:paddingVertical="14.0dp" />
+        </LinearLayout>
+        <View android:id="@id/list_divider" android:background="@color/theme_list_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/list_divider_height" android:layout_marginHorizontal="20.0dp" />
+    </com.samsung.android.messaging.uicommon.widget.checkablelayout.CheckableLinearLayout>
+</FrameLayout>

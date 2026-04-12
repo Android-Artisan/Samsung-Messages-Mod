@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="0.0dp" app:expanded="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/AppTheme.ActionBar" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:contentInsetStartWithNavigation="0.0dp" app:layout_collapseMode="pin" app:navigationContentDescription="@string/navigate_up" app:navigationIcon="@drawable/actionbar_back_key" />
+</com.google.android.material.appbar.AppBarLayout>

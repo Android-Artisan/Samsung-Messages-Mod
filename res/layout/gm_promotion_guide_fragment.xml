@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/gm_promotion_guide_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/gm_promotion_guide_layout" android:visibility="visible" layout="@layout/gm_promotion_guide_layout" />
+    <include android:id="@id/gm_promotion_guide_layout_land" android:visibility="gone" layout="@layout/gm_promotion_guide_layout_land" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/sticker_item_container" android:layout_width="50.0dp" android:layout_height="match_parent" android:paddingHorizontal="5.0dp" android:paddingVertical="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sticker_item" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/ogq_sticker_list_item_size" android:layout_height="@dimen/ogq_sticker_list_item_size" />
+</LinearLayout>

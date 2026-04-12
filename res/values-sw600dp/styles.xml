@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BotDetailActivityDexTheme" parent="@style/Theme.CollapsingToolbar">
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">@bool/theme_status_bar_icon_color</item>
+    </style>
+</resources>

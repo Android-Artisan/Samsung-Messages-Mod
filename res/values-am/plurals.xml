@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">መልእክትን ማስታወስ አልተቻለም። መልዕክቶችን መመለስ የሚቻለው ከተላኩ በ%d ደቂቃ ውስጥ ብቻ ነው።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">መልእክትን ማስታወስ አልተቻለም። መልዕክቶችን መመለስ የሚቻለው በተላኩ በ%d ደቂቃዎች ውስጥ ብቻ ነው።</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">እንዲሁም ከ%d የቡድን ውይይት ይውጡ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">እንዲሁም %d የቡድን ውይይቶችን ይተው</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">እንዲሁም ከ%d የቡድን ንግግር ይውጡ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">እንዲሁም %d የቡድን ንግግሮችን ይተው</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የስሜት ገላጭ ምስሎች ጥቅል ይሰርዛሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የስሜት ገላጭ ምስሎች ጥቅሎች ይሰርዛሉ?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ውይይት ወደ መጣያ ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ንግግሮች ወደ መጣያ ይወሰዱ?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በመጣያው ውስጥ ያሉ መልዕክቶች ከ%d ቀን በኋላ እስከመጨረሻው ይሰረዛሉ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በመጣያው ውስጥ ያሉ መልዕክቶች ከ%d ቀናት በኋላ እስከመጨረሻው ይሰረዛሉ።</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የተሰረዙ መልዕክቶች እስከመጨረሻው ከመሰረዛቸው በፊት ለ%d ቀን በመጣያው ውስጥ ይቆያሉ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የተሰረዙ መልዕክቶች እስከመጨረሻው ከመሰረዛቸው በፊት ለ%d ቀናት በመጣያው ውስጥ ይቆያሉ።</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መልእክት ወደ መጣያ ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መልዕክቶች ወደ መጣያ ይወሰዱ?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዛሬ ልዩ ቀን ነው (%1$s እና %2$d ሌላ ዝግጅት)። የሆነ ነገር ይልኩላቸዋል?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ዛሬ ልዩ ቀን ነው (%1$s እና %2$d ሌላ ዝግጅቶች)። የሆነ ነገር ይልኩላቸዋል?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የ %1$s እና %2$d የሌላ የመገኛ አድራሻ ልደት ነው! የሆነ ልዩ ነገር ይልካሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የ %1$s እና %2$d የሌሎች የመገኛ አድራሻዎች ልደት ነው! የሆነ ልዩ ነገር ይልካሉ?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ባለፉት 30 ቀናት ውስጥ %d መልዕክት ታግዷል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ባለፉት 30 ቀናት ውስጥ %d መልዕክቶች ታግደዋል</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ተመርጧል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ተመርጧል</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ኢሜይል አድራሻን ማገድ አይቻልም ምክንያቱም ልክ ያልሆነ ነው።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የኢሜይል አድራሻዎች ልክ ስላልሆኑ ማገድ አይቻልም።</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ስልክ ቁጥርን ማገድ አይቻልም ምክንያቱም የሚሰራ አይደለም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ስልክ ቁጥሮችን ማገድ አይቻልም ምክንያቱም የሚሰሩ አይደሉም።</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ላኪን ማገድ አይቻልም ምክንያቱም መረጃቸው ትክክል ስላልሆነ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ላኪዎችን ማገድ አይቻልም ምክንያቱም መረጃቸው ትክክል ስላልሆነ።</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d %2$s ካርድ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d %2$s ካርዶች</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የውይይት ግንኙነት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የውይይት የአድራሻ መተግበሪያ</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Chatting+ የመገኛ አድራሻ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Chatting+ የአድራሻ መተግበሪያ</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ከChatting+ ምዝገባ ከሰረዙ የአንድ ለአንድ እና የቡድን ውይይት መፍጠር ወይም መቀላቀል፣መልዕክቶችዎ መነበባቸውን ማረጋገጫ ማግኘት ወይም ትላልቅ ፋይሎችን ማጋራት አይችሉም። እርግጠኛ ነዎት መሰረዝ ይፈልጋሉ?
+
+እንደገና ከመመዝገብዎ በፊት %d ደቂቃ መጠበቅ አለብዎት።"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ከChatting+ ምዝገባ ከሰረዙ የአንድ ለአንድ እና የቡድን ውይይት መፍጠር ወይም መቀላቀል፣መልዕክቶችዎ መነበባቸውን ማረጋገጫ ማግኘት ወይም ትላልቅ ፋይሎችን ማጋራት አይችሉም። እርግጠኛ ነዎት መሰረዝ ይፈልጋሉ?
+
+እንደገና ከመመዝገብዎ በፊት %d ደቂቃዎችን መጠበቅ አለብዎት።"</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ቻትቦት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ቻትቦቶች</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የመገኛ አድራሻ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የመገኛ አድራሻዎች</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ተመርጧል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ተመርጧል</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በ %d ቀን ውስጥ ጊዜ ያልፍበታል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በ %d ቀናት ውስጥ ጊዜ ያልፍበታል</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ኩፖን በቅርቡ ጊዜው ያልፍበታል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ኩፖኖች በቅርቡ ጊዜያቸው ያልፍባቸዋል</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የእርስዎ %1$s ኩፖን በ %2$d ቀን ውስጥ ጊዜው ያልፍበታል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የእርስዎ %1$s ኩፖን በ %2$d ቀናት ውስጥ ጊዜው ያልፍበታል።</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የእርስዎ ኩፖን በ %d ቀን ውስጥ ጊዜው ያልፍበታል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የእርስዎ ኩፖን በ %d ቀናት ውስጥ ጊዜው ያልፍበታል።</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">%d ውይይት ይሰረዝ?</item>
+        <item quantity="other">%d ንግግሮች ይሰረዙ?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ውይይት እስከመጨረሻው ይሰረዝ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ንግግሮች እስከመጨረሻው ይሰረዙ?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">%d መልእክት ይሰረዝ?</item>
+        <item quantity="other">%d መልዕክቶች ይሰረዙ?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መልእክት እስከመጨረሻው ይሰረዝ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መልዕክቶችን እስከመጨረሻው ይሰርዙ?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የማድረስ መልዕክት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የማድረስ መልዕክቶች</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ካርድ ይሰናብቱ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ካርዶች ይደምሰሱ?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በዋናው ማያ ገጽ ላይ የ%1$d ምድብ ትር ብቻ ነው የሚታየው። የተቀሩት ተደብቀዋል። ከዋናው ማያ ገጽ ላይ በፍጥነት መድረስ ከፈለጉ የ%2$s ምድብ ይምረጡ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በዋናው ማያ ገጽ ላይ የ%1$d ምድብ ትሮች ብቻ ሊታዩ ይችላሉ። የተቀሩት ተደብቀዋል። ከዋናው ማያ ገጽ ላይ በፍጥነት መድረስ ከፈለጉ የ%2$s ምድብ ይምረጡ።</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ደቂቃ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ሰከንድ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ሰከንዶች</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ፋይል ወደ ስልክዎ ተቀምጧል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ፋይሎች ወደ ስልክዎ ተቀምጠዋል።</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ፋይል ወደ ታብሌትዎ ተቀምጧል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ፋይሎች በታብሌትዎ ላይ ተቀምጠዋል።</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ግብይት ዛሬ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ግብይቶች ዛሬ</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s እና %2$d ያልታወቀ ቁጥር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s እና %2$d ያልታወቁ ቁጥሮች</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ያልታወቀ ቁጥር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ያልታወቁ ቁጥሮች</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s የቡድን ውይይቶችን መቀላቀል አይችልም። ከተመረጡት ተቀባዮች ያስወግዷቸው ወይም በምትኩ እስከ %2$d ተቀባይ የጽሁፍ መልእክት ይላኩ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s የቡድን ውይይቶችን መቀላቀል አይችልም። ከተመረጡት ተቀባዮች ያስወግዷቸው ወይም በምትኩ እስከ %2$d ተቀባዮች የጽሁፍ መልእክት ይላኩ።</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ከተካተቱት ውስጥ አንድ ወይም ተጨማሪ ተቀባዮች የላቀ መልእክት መላክ አይችሉም፣ ስለዚህ ቡድንዎ ለ%d አባል ብቻ የተገደበ ነው።
+
+ለመቀጠል፣ የላቀ መልእክት መላላኪያ የሚችሉ አባላትን ብቻ ይምረጡ። በሰማያዊ ነጥብ አዶ ምልክት ተደርጎባቸዋል።"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ከተካተቱት ውስጥ አንድ ወይም ተጨማሪ ተቀባዮች የላቀ መልእክት መላክ አይችሉም፣ ስለዚህ ቡድንህ ለ%d አባላት የተገደበ ነው።
+
+ለመቀጠል፣ የላቀ መልእክት መላላኪያ የሚችሉ አባላትን ብቻ ምረጥ። በሰማያዊ ነጥብ አዶ ምልክት ተደርጎባቸዋል።"</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የቡድን ውይይት ለመጀመር የመጨረሻውን የተመረጠውን ተቀባይ ያስወግዱ። የመጨረሻውን ተቀባይ ማካተት ከፈለጉ መልዕክት ለመላክ %d ተቀባይን ያስወግዱ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የቡድን ውይይት ለመጀመር የመጨረሻውን የተመረጠውን ተቀባይ ያስወግዱ። የመጨረሻውን ተቀባይ ማካተት ከፈለጉ መልእክት ለመላክ %d ተቀባዮችን ያስወግዱ።</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ምስል በጡባዊዎ ላይ ተቀምጧል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ምስሎች በጡባዊዎ ላይ ተቀምጠዋል።</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ምስል ወደ ስልክዎ ተቀምጧል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ምስሎች ወደ ስልክዎ ተቀምጠዋል።</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ምስል እና %d ቪዲዮ ስልክዎ ላይ ተቀምጧል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 ምስል እና %d ቪዲዮዎች ወደ ስልክዎ ተቀምጠዋል።</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ምስል እና 1 ቪዲዮ ስልክዎ ላይ ተቀምጧል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ምስሎች እና 1 ቪዲዮ ወደ ስልክዎ ተቀምጧል።</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s እና %2$d ሌላ ሰው ተቀላቅለዋል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s እና %2$d ሌሎች ሰዎች ተቀላቅለዋል</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ሰው በላይ መምረጥ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ሰዎችን መምረጥ አይቻልም።</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የመልእክት ጥቆማዎች አዝራሩን ሲነኩ በውይይትዎ ውስጥ የመጨረሻው %d መልእክት በመስመር ላይ ይከናወናል። በ AI የመነጩ ጥቆማዎች ትክክል ላይሆኑ ወይም አግባብ ያልሆነ ይዘት ሊኖራቸው ይችላል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የመልእክት ጥቆማዎች አዝራሩን ሲነኩ በውይይትዎ ውስጥ የመጨረሻዎቹ %d መልዕክቶች በመስመር ላይ ይሰራሉ። በ AI የመነጩ ጥቆማዎች ትክክል ላይሆኑ ወይም አግባብ ያልሆነ ይዘት ሊኖራቸው ይችላል።</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Quick Shareን በመጠቀም %d ፋይል ተጋርተዋል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Quick Shareን በመጠቀም %d ፋይሎች ተጋርተዋል</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አዲስ ጠቃሚ ካርድ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አዲስ ጠቃሚ ካርዶች</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ውይይት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ንግግሮች</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%d መልዕክት</item>
+        <item quantity="other">%d መልዕክቶች</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የተሰረዙ መልዕክቶችን ለ%d ቀን አቆይ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የተሰረዙ መልዕክቶችን ለ%d ቀናት ያቆዩ።</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በ%d ደቂቃ ውስጥ እንደገና ማደስ ይችላሉ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በ%d ደቂቃዎች ውስጥ እንደገና ማደስ ይችላሉ።</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">አሁን %d መልዕክት ይላክ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መልዕክቶች አሁን ይላኩ?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">መረጃህ እየተዘመነ ነው። ቢያንስ %d ደቂቃ ይጠብቁ፣ ከዚያ እንደገና ይሞክሩ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">መረጃህ እየተዘመነ ነው። ቢያንስ %d ደቂቃዎች ይጠብቁ፣ ከዚያ እንደገና ይሞክሩ።</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ውይይት ማያያዝ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ንግግሮችን ማያያዝ አይቻልም።</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s እና %2$d ሌላ</item>
+        <item quantity="other">%1$s እና %2$d ሌሎች</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ካርድ ያስወግዳሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ካርዶች ይወገዱ?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ምክንያት አስገባ (እስከ %d ቁምፊ)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ምክንያት ያስገቡ (እስከ %d ቁምፊዎች)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መልእክት መርሐግብር ተይዞለታል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መልዕክቶች መርሐግብር ተይዞላቸዋል</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከአሁን በኋላ ቢያንስ ከ%d ደቂቃ ጊዜ በላይ ይምረጡ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከአሁን በኋላ ቢያንስ ከ%d ደቂቃዎች በኋላ ጊዜ ይምረጡ።</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ውይይት እና %d1 ሌላ መልዕክት ወደ መጣያ ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 ውይይት እና %d ሌሎች መልዕክቶች ወደ መጣያ ይወሰዱ?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ውይይት እና 1 ሌላ መልዕክት ወደ መጣያ ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ንግግሮች እና 1 ሌላ መልዕክት ወደ መጣያ ይወሰዱ?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"እስከ %d ሰው ይምረጡ።
+(ስልክ ቁጥራቸውን ለሚጠቀሙ ሰዎች በዚህ ውይይት ላይ በማሳየት ላይ።)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"እስከ %d ሰዎች ይምረጡ።
+(ስልክ ቁጥራቸውን ለሚጠቀሙ ሰዎች በዚህ ውይይት ውስጥ በማሳየት ላይ።)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የእንቅልፍ ጊዜ፡ %d ሰዓት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የእንቅልፍ ጊዜ፡ %d ሰዓታት</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የእንቅልፍ ጊዜ፡ %d ደቂቃ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የእንቅልፍ ጊዜ፡ %d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ሰዓት ይቀራል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ሰዓታት ይቀራሉ</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ደቂቃ ቀርቷል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ደቂቃዎች ቀርቷል</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ሰከንድ ይቀራል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ሰከንዶች ይቀራሉ</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">ከSIM ካርድ የተገለበጡ መልዕክት።</item>
+        <item quantity="other">ከSIM ካርድ የተገለበጡ መልዕክቶች።</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ምድብ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ምድቦች</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ተቀባይ መርጠዋል፣ይህም የጽሑፍ መልዕክቶች ገደብ ነው። ሁሉንም በአንድ ጊዜ መልእክት ለመላክ የቡድን ውይይት ይጀምሩ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ተቀባዮችን መርጠዋል፣ይህም የጽሑፍ መልዕክቶች ገደብ ነው። ሁሉንም በአንድ ጊዜ መልእክት ለመላክ የቡድን ውይይት ይጀምሩ።</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አጠቃላይ መልእክት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አጠቃላይ መልእክቶች</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መልእክት ወዲያውኑ ተከፍቶዋል ምክንያቱም ላኪዎቹ ከአሁን በኋላ እንደ ተንኮል አዘል አይታዩም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መልእክቶች ወዲያውኑ ተከፍቶዋል ምክንያቱም ላኪዎቹ ከአሁን በኋላ እንደ ተንኮል አዘል አይታዩም።</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %1$s እና %2$d ሌላ የምርት ስም</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ %1$s እና %2$d ሌላ የምርት ስሞች</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ያልተነበበ የማድረስ መልዕክት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ያልተነበቡ የማድረስ መልዕክቶች</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %1$s እና %2$d ሌላ የመገኛ አድራሻ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ %1$s እና %2$d ሌላ የመገኛ አድራሻዎች</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ያልተነበበ መልዕክት ከ %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ያልተነበቡ መልዕክትዎች ከ %2$s</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %1$s እና %2$d ሌላ የምርት ስም የተውጣጡ አንዳንድ ነገሮችን ጨምሮ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ %1$s እና %2$d ሌላ የምርት ስሞች የተውጣጡ አንዳንድ ነገሮችን ጨምሮ</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የማድረሻ መልዕክት ጨምሮ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የማድረሻ መልዕክቶች ጨምሮ</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %1$s እና %2$d ሌላ የመገኛ አድራሻ የተውጣጡ አንዳንድ ነገሮችን ጨምሮ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ %1$s እና %2$d ሌላ የመገኛ አድራሻዎች የተውጣጡ አንዳንድ ነገሮችን ጨምሮ</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ያልተነበበ መልእክት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ያልተነበቡ መልዕክቶች</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ያልተነበበ መልዕክት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ያልተነበቡ መልዕክቶች</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መጪ ማንቂያ ዛሬ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መጪ ማንቂያዎች ዛሬ</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ቪዲዮ ወደ ስልክዎ ተቀምጧል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ቪዲዮዎች ወደ ስልክዎ ተቀምጠዋል።</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዛሬ ስለማድረስ %1$s%2$d መልዕክት አግኝተዋል%3$s።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ዛሬ ስለማድረስ %1$s%2$d መልዕክቶች አግኝተዋል%3$s።</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዛሬ ስለማድረሶች %1$s%2$d መልዕክት አግኝተዋል%3$s።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ዛሬ ስለማድረሶች %1$s%2$d መልዕክቶች አግኝተዋል%3$s።</item>
+    </plurals>
+</resources>

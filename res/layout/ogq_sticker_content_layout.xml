@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/sticker_download_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/sticker_thumbnail" android:layout_width="@dimen/ogq_sticker_download_thumbnail_size" android:layout_height="@dimen/ogq_sticker_download_thumbnail_size" android:layout_marginTop="50.0dp" />
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="이모티콘을 다운로드해서 사용해 보세요." android:layout_marginVertical="10.0dp" />
+            <Button android:id="@id/sticker_download_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@string/download" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="center" android:id="@id/sticker_progressbar" android:visibility="gone" android:layout_width="60.0dp" android:layout_height="60.0dp" style="@style/Widget.AppCompat.ProgressBar" />
+    <LinearLayout android:id="@id/sticker_empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/empty_view_layout" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sticker_detail_list_recyclerview" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="GridLayoutManager" />
+</FrameLayout>

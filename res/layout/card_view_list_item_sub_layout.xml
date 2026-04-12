@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/card_view_sub_layout" android:tag="layout/card_view_list_item_sub_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/card_view_list_item_sub_layout_content" />
+    <LinearLayout android:gravity="end|center" android:layout_gravity="end|bottom" android:orientation="vertical" android:id="@id/status_info_view" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/message_status_info_margin_start">
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/card_view_list_item_list_message_status" android:textColor="@color/theme_list_status_text_color" android:ellipsize="end" android:id="@id/list_message_status" android:tag="binding_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <View android:id="@id/list_item_information_margin" android:tag="binding_3" android:visibility="gone" android:layout_width="@dimen/message_status_margin_for_large_text" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/list_item_information_stub" android:layout="@layout/card_view_list_item_information" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

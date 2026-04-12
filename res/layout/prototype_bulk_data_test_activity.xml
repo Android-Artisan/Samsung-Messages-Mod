@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+            <TextView android:textSize="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To create large amounts of Conversations, Messages in a short time, we will insert data only in local db." />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp">
+            <TextView android:textSize="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To preserve messages only in local db, temporarily turn off the TpSync function." />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dp">
+            <Button android:id="@id/button_tp_sync_on_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Toggle TpSync" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp">
+            <TextView android:textSize="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="insert conversation count" />
+            <EditText android:textSize="15.0dp" android:id="@id/insert_conversation_count" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dp">
+            <Button android:id="@id/insert_bulk_conversations" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INSERT CONVERSATIONS" />
+            <TextView android:id="@id/progress_conversation_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:text="0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="insert message count" />
+            <EditText android:textSize="15.0dp" android:id="@id/insert_message_count" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/insert_bulk_messages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INSERT MESSAGES" />
+            <TextView android:id="@id/progress_message_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

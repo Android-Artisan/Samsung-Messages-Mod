@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/theme_control_area_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="16.0sp" android:textColor="@color/theme_list_description_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:text="@string/report_chatbot_description" android:layout_marginHorizontal="24.0dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:id="@id/report_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <androidx.core.widget.NestedScrollView android:background="@color/theme_control_area_bg_color" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

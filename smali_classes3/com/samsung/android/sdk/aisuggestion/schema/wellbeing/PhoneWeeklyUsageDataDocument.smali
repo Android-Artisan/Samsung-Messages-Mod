@@ -1,0 +1,286 @@
+.class public final Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument;
+.super Lcom/samsung/android/sdk/aisuggestion/schema/core/AppDomainDataDocument;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument$Companion;,
+        Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument$Builder;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0004\n\u0002\u0010\t\n\u0000\n\u0002\u0010 \n\u0002\u0008\n\u0008\u0007\u0018\u0000 \u00132\u00020\u0001:\u0002\u0012\u0013BS\u0008\u0000\u0012\u0008\u0008\u0002\u0010\u0002\u001a\u00020\u0003\u0012\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u0003\u0012\u0008\u0008\u0002\u0010\u0005\u001a\u00020\u0003\u0012\u0008\u0008\u0002\u0010\u0006\u001a\u00020\u0003\u0012\u0006\u0010\u0007\u001a\u00020\u0008\u0012\u000c\u0010\t\u001a\u0008\u0012\u0004\u0012\u00020\u00080\n\u0012\u000c\u0010\u000b\u001a\u0008\u0012\u0004\u0012\u00020\u00080\n\u00a2\u0006\u0002\u0010\u000cR\u001c\u0010\u000b\u001a\u0008\u0012\u0004\u0012\u00020\u00080\n8\u0006X\u0087\u0004\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\r\u0010\u000eR\u001c\u0010\t\u001a\u0008\u0012\u0004\u0012\u00020\u00080\n8\u0006X\u0087\u0004\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000f\u0010\u000eR\u0016\u0010\u0007\u001a\u00020\u00088\u0006X\u0087\u0004\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0010\u0010\u0011\u00a8\u0006\u0014"
+    }
+    d2 = {
+        "Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument;",
+        "Lcom/samsung/android/sdk/aisuggestion/schema/core/AppDomainDataDocument;",
+        "namespace",
+        "",
+        "reasonDescription",
+        "insightMessageTitle",
+        "insightMessageDescription",
+        "totalScreenTime",
+        "",
+        "dailyScreenTime",
+        "",
+        "dailyGoalStatus",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/util/List;Ljava/util/List;)V",
+        "getDailyGoalStatus",
+        "()Ljava/util/List;",
+        "getDailyScreenTime",
+        "getTotalScreenTime",
+        "()J",
+        "Builder",
+        "Companion",
+        "deepsky-sdk-aisuggestion-1.5.17_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument$Companion;
+
+.field public static final SCHEMA_TYPE:Ljava/lang/String; = "ContextualInsightData:PhoneWeeklyUsage"
+
+.field public static final SCHEMA_TYPE_VERSION:J = 0x3L
+
+
+# instance fields
+.field private final dailyGoalStatus:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final dailyScreenTime:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final totalScreenTime:J
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument$Companion;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument$Companion;-><init>(Lkotlin/jvm/internal/h;)V
+
+    sput-object v0, Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument;->Companion:Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument$Companion;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/util/List;Ljava/util/List;)V
+    .locals 10
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "J",
+            "Ljava/util/List<",
+            "Ljava/lang/Long;",
+            ">;",
+            "Ljava/util/List<",
+            "Ljava/lang/Long;",
+            ">;)V"
+        }
+    .end annotation
+
+    move-object v7, p0
+
+    move-object/from16 v8, p7
+
+    move-object/from16 v9, p8
+
+    const-string v0, "namespace"
+
+    move-object v1, p1
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string/jumbo v0, "reasonDescription"
+
+    move-object v4, p2
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "insightMessageTitle"
+
+    move-object v5, p3
+
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "insightMessageDescription"
+
+    move-object v6, p4
+
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "dailyScreenTime"
+
+    invoke-static {v8, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "dailyGoalStatus"
+
+    invoke-static {v9, v0}, Lkotlin/jvm/internal/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-wide/16 v2, 0x3
+
+    move-object v0, p0
+
+    .line 3
+    invoke-direct/range {v0 .. v6}, Lcom/samsung/android/sdk/aisuggestion/schema/core/AppDomainDataDocument;-><init>(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    move-wide v0, p5
+
+    .line 4
+    iput-wide v0, v7, Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument;->totalScreenTime:J
+
+    .line 5
+    iput-object v8, v7, Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument;->dailyScreenTime:Ljava/util/List;
+
+    .line 6
+    iput-object v9, v7, Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument;->dailyGoalStatus:Ljava/util/List;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/util/List;Ljava/util/List;ILkotlin/jvm/internal/h;)V
+    .locals 10
+
+    and-int/lit8 v0, p9, 0x1
+
+    if-eqz v0, :cond_0
+
+    .line 1
+    const-string v0, "ContextualInsightData"
+
+    move-object v2, v0
+
+    goto :goto_0
+
+    :cond_0
+    move-object v2, p1
+
+    :goto_0
+    and-int/lit8 v0, p9, 0x2
+
+    .line 2
+    const-string v1, ""
+
+    if-eqz v0, :cond_1
+
+    move-object v3, v1
+
+    goto :goto_1
+
+    :cond_1
+    move-object v3, p2
+
+    :goto_1
+    and-int/lit8 v0, p9, 0x4
+
+    if-eqz v0, :cond_2
+
+    move-object v4, v1
+
+    goto :goto_2
+
+    :cond_2
+    move-object v4, p3
+
+    :goto_2
+    and-int/lit8 v0, p9, 0x8
+
+    if-eqz v0, :cond_3
+
+    move-object v5, v1
+
+    goto :goto_3
+
+    :cond_3
+    move-object v5, p4
+
+    :goto_3
+    move-object v1, p0
+
+    move-wide v6, p5
+
+    move-object/from16 v8, p7
+
+    move-object/from16 v9, p8
+
+    invoke-direct/range {v1 .. v9}, Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/util/List;Ljava/util/List;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getDailyGoalStatus()Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object p0, p0, Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument;->dailyGoalStatus:Ljava/util/List;
+
+    return-object p0
+.end method
+
+.method public final getDailyScreenTime()Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object p0, p0, Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument;->dailyScreenTime:Ljava/util/List;
+
+    return-object p0
+.end method
+
+.method public final getTotalScreenTime()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/samsung/android/sdk/aisuggestion/schema/wellbeing/PhoneWeeklyUsageDataDocument;->totalScreenTime:J
+
+    return-wide v0
+.end method

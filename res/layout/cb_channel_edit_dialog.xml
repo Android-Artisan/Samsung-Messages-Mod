@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/edit_channel_layout_start_padding" android:paddingEnd="@dimen/edit_channel_layout_end_padding">
+        <include layout="@layout/edit_dialog_title" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/channel_name_inputlayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dp" android:hint="@string/channel_name" app:errorTextAppearance="@style/TextInputLayoutErrorText">
+            <com.google.android.material.textfield.TextInputEditText android:textSize="@dimen/dialog_main_text_size" android:ellipsize="end" android:id="@id/channel_name_edit" android:paddingTop="@dimen/setting_edit_text_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="20" android:inputType="textCapSentences" android:imeOptions="flagNoExtractUi" android:textCursorDrawable="@drawable/edit_text_cursor_color" android:backgroundTint="@color/theme_primary_color" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/channel_id_inputlayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dp" android:hint="@string/channel_id" app:errorTextAppearance="@style/TextInputLayoutErrorText">
+            <com.google.android.material.textfield.TextInputEditText android:textSize="@dimen/dialog_main_text_size" android:ellipsize="end" android:id="@id/channel_id_edit" android:paddingTop="@dimen/setting_edit_text_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="3" android:inputType="numberDecimal" android:imeOptions="flagNoExtractUi" android:textCursorDrawable="@drawable/edit_text_cursor_color" android:backgroundTint="@color/theme_primary_color" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <CheckBox android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/dialog_main_text_size" android:textColor="@color/theme_popup_label_text_color" android:id="@id/enable_checkbox" android:paddingTop="17.0dp" android:paddingBottom="18.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/enable_channel" android:paddingStart="16.0dp" android:paddingEnd="0.0dp" />
+    </LinearLayout>
+</ScrollView>

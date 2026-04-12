@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_primary_text_size" android:textColor="@color/theme_list_main_text_color" android:gravity="center" android:id="@id/oasis_url_edit_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Oasis Url Edit" />
+    <LinearLayout android:orientation="vertical" android:padding="6.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/dialog_edit_text_margin_start">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+            <TextView android:id="@id/chatting_plus_tips_url_edit_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Chatting Plus Tips Base Url" />
+            <EditText android:id="@id/chatting_plus_tips_url_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Edit Chatting Plus Tips Url" android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+            <TextView android:id="@id/pc_client_web_url_edit_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pc Client Web Server Url" />
+            <EditText android:id="@id/pc_client_web_url_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Edit Pc Client Web Url" android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+            <Button android:id="@id/cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+            <Button android:id="@id/save" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/save" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

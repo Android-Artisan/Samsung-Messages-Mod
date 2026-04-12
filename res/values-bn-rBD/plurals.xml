@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Message_recalled_over_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">মেসেজ ফেরত চাওয়া যাবে না৷ মেসেজ পাঠানোর পর শুধু %d মিনিটের মধ্যে ফেরত চাওয়া যাবে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">মেসেজ ফেরত চাওয়া যাবে না৷ মেসেজ পাঠানোর পর শুধু %d মিনিটের মধ্যে ফেরত চাওয়া যাবে৷</item>
+    </plurals>
+    <plurals name="also_leave_group_chats">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এছাড়াও %dটি গ্রুপ চ্যাট ছেড়ে যান</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এছাড়াও %dটি গ্রুপ চ্যাট ছেড়ে যান</item>
+    </plurals>
+    <plurals name="also_leave_group_chats_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এছাড়াও %dটি গ্রুপ কথোপকথন ছেড়ে যান</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এছাড়াও %dটি গ্রুপ কথোপকথন ছেড়ে যান</item>
+    </plurals>
+    <plurals name="attach_sheet_ogq_emoticon_setting_delete_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি ইমোটিকন প্যাক মুছবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি ইমোটিকন প্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="bin_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি কথোপকথন ট্র্যাশে সরাবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি কথোপকথন ট্র্যাশে সরাবেন?</item>
+    </plurals>
+    <plurals name="bin_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ট্র্যাশে থাকা মেসেজগুলো %d দিন পর স্থায়ীভাবে মুছে যাবে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ট্র্যাশে থাকা মেসেজগুলো %d দিন পর স্থায়ীভাবে মুছে যাবে।</item>
+    </plurals>
+    <plurals name="bin_enable_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">মুছে ফেলা মেসেজগুলো চিরতরে মুছে যাওয়ার আগে %d দিন ট্র্যাশে থাকবে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">মুছে ফেলা মেসেজগুলো চিরতরে মুছে যাওয়ার আগে %d দিন ট্র্যাশে থাকবে৷</item>
+    </plurals>
+    <plurals name="bin_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি মেসেজ ট্র্যাশে সরাবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি মেসেজ ট্র্যাশে সরাবেন?</item>
+    </plurals>
+    <plurals name="birthday_events_send_them_something_multi">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজ একটি বিশেষ দিন (%1$s ও অন্য %2$dটি ইভেন্ট)। তাদেরকে কিছু পাঠাবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজ একটি বিশেষ দিন (%1$s ও অন্য %2$dটি ইভেন্ট)। তাদেরকে কিছু পাঠাবেন?</item>
+    </plurals>
+    <plurals name="birthday_send_something_special">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজ %1$s এবং অন্য %2$d জন কন্টাক্টের জন্মদিন! বিশেষ কিছু পাঠাবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজ %1$s এবং অন্য %2$d জন কন্টাক্টের জন্মদিন! বিশেষ কিছু পাঠাবেন?</item>
+    </plurals>
+    <plurals name="blocked_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">গত 30 দিনে %dটি মেসেজ ব্লক করা হয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">গত 30 দিনে %dটি মেসেজ ব্লক করা হয়েছে</item>
+    </plurals>
+    <plurals name="bubble_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি নির্বাচন করা হয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি নির্বাচন করা হয়েছে</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_email">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি ইমেইল ঠিকানা ব্লক করা যাবে না কারণ এটি সঠিক নয়।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি ইমেইল ঠিকানা ব্লক করা যাবে না কারণ এগুলো সঠিক নয়।</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি ফোন নম্বর ব্লক করা যাবে না কারণ এটি সঠিক নয়।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি ফোন নম্বর ব্লক করা যাবে না কারণ এগুলো সঠিক নয়।</item>
+    </plurals>
+    <plurals name="cannot_block_invalid_sender">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d জন প্রেরককে ব্লক করা যাবে না কারণ তার তথ্য সঠিক নয়।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d জন প্রেরককে ব্লক করা যাবে না কারণ তাদের তথ্য সঠিক নয়।</item>
+    </plurals>
+    <plurals name="cant_select_more_than_contact">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটির বেশি কন্টাক্ট নির্বাচন করা যাবে না৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটির বেশি কন্টাক্ট নির্বাচন করা যাবে না৷</item>
+    </plurals>
+    <plurals name="card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$dটি %2$s কার্ড</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$dটি %2$s কার্ড</item>
+    </plurals>
+    <plurals name="chat_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি চ্যাট কন্টাক্ট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি চ্যাট কন্টাক্ট</item>
+    </plurals>
+    <plurals name="chat_contacts_kor">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি Chatting+ কন্টাক্ট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি Chatting+ কন্টাক্ট</item>
+    </plurals>
+    <plurals name="chat_service_management_description_skt">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Chatting+ থেকে নিবন্ধনমুক্ত করলে, আপনি একজনের-সাথে-একজন ও গ্রুপ চ্যাট তৈরি করতে বা সেগুলোতে যোগ দিতে পারবেন না, আপনার মেসেজগুলো কখন পড়া হয়েছে তার নিশ্চয়তা পেতে, বা বড় ফাইল শেয়ার করতে পারবেন না৷ আপনি কি নিবন্ধনমুক্ত করার ব্যাপারে নিশ্চিত?
+
+আবার নিবন্ধন করার আগে আপনাকে %d মিনিট অপেক্ষাও করতে হবে৷"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Chatting+ থেকে নিবন্ধনমুক্ত করলে, আপনি একজনের-সাথে-একজন ও গ্রুপ চ্যাট তৈরি করতে বা সেগুলোতে যোগ দিতে পারবেন না, আপনার মেসেজগুলো কখন পড়া হয়েছে তার নিশ্চয়তা পেতে, বা বড় ফাইল শেয়ার করতে পারবেন না৷ আপনি কি নিবন্ধনমুক্ত করার ব্যাপারে নিশ্চিত?
+
+আবার নিবন্ধন করার আগে আপনাকে %d মিনিট অপেক্ষাও করতে হবে৷"</item>
+    </plurals>
+    <plurals name="chatbots">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি চ্যাটবট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি চ্যাটবট</item>
+    </plurals>
+    <plurals name="contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি কন্টাক্ট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি কন্টাক্ট</item>
+    </plurals>
+    <plurals name="conversation_list_selected_item_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি নির্বাচন করা হয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি নির্বাচন করা হয়েছে</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_dialog_item_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d দিন পর মেয়াদ শেষ হবে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d দিন পর মেয়াদ শেষ হবে</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupon_soon">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি কুপনের মেয়াদ শীঘ্রই শেষ হবে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি কুপনের মেয়াদ শীঘ্রই শেষ হবে</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d দিন পরে আপনার %1$s কুপনের মেয়াদ শেষ হয়ে যাবে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$d দিন পরে আপনার %1$s কুপনের মেয়াদ শেষ হয়ে যাবে৷</item>
+    </plurals>
+    <plurals name="coupon_suggestion_app_bar_title_expiry_coupons_for_default_coupon_name">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d দিন পরে আপনার কুপনের মেয়াদ শেষ হয়ে যাবে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d দিন পরে আপনার কুপনের মেয়াদ শেষ হয়ে যাবে৷</item>
+    </plurals>
+    <plurals name="delete_conversations">
+        <item quantity="one">%dটি কথোপকথন মুছবেন?</item>
+        <item quantity="other">%dটি কথোপকথন মুছবেন?</item>
+    </plurals>
+    <plurals name="delete_conversations_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি কথোপকথন স্থায়ীভাবে মুছবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি কথোপকথন স্থায়ীভাবে মুছবেন?</item>
+    </plurals>
+    <plurals name="delete_messages">
+        <item quantity="one">%dটি মেসেজ মুছবেন?</item>
+        <item quantity="other">%dটি মেসেজ মুছবেন?</item>
+    </plurals>
+    <plurals name="delete_messages_permanently">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি মেসেজ স্থায়ীভাবে মুছবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি মেসেজ স্থায়ীভাবে মুছবেন?</item>
+    </plurals>
+    <plurals name="delivery_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ডেলিভারি সম্পর্কে %dটি মেসেজ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ডেলিভারি সম্পর্কে %dটি মেসেজ</item>
+    </plurals>
+    <plurals name="dismiss_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি কার্ড ডিসমিস করবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি কার্ড ডিসমিস করবেন?</item>
+    </plurals>
+    <plurals name="display_category_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">মূল স্ক্রিনে শুধু %1$dটি বিভাগের ট্যাব দেখানো যায়৷ বাকি সব লুকানো থাকে৷ আপনি মূল স্ক্রিন থেকে এটিতে দ্রুত অ্যাক্সেস পেতে চাইলে %2$s বিভাগ নির্বাচন করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">মূল স্ক্রিনে শুধু %1$dটি বিভাগের ট্যাব দেখানো যায়৷ বাকি সব লুকানো থাকে৷ আপনি মূল স্ক্রিন থেকে এটিতে দ্রুত অ্যাক্সেস পেতে চাইলে %2$s বিভাগ নির্বাচন করুন৷</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d মিনিট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d মিনিট</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d সেকেন্ড</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d সেকেন্ড</item>
+    </plurals>
+    <plurals name="files_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ফোনে %dটি ফাইল সংরক্ষিত হয়েছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ফোনে %dটি ফাইল সংরক্ষিত হয়েছে।</item>
+    </plurals>
+    <plurals name="files_saved_to_your_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ট্যাবলেটে %dটি ফাইল সংরক্ষিত হয়েছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ট্যাবলেটে %dটি ফাইল সংরক্ষিত হয়েছে।</item>
+    </plurals>
+    <plurals name="finance_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজ %dটি লেনদেন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজ %dটি লেনদেন</item>
+    </plurals>
+    <plurals name="group_chat_invitation_and_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ও %2$dটি অপরিচিত নম্বর</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ও %2$dটি অপরিচিত নম্বর</item>
+    </plurals>
+    <plurals name="group_chat_invitation_unknown_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অপরিচিত নম্বর</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অপরিচিত নম্বর</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s গ্রুপ চ্যাটে যোগ দিতে পারবেন না৷ তাদেরকে নির্বাচিত প্রাপক থেকে অপসারণ করুন, অথবা বরং %2$d জন পর্যন্ত প্রাপকের কাছে একটি টেক্সট মেসেজ পাঠান৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s গ্রুপ চ্যাটে যোগ দিতে পারবেন না৷ তাদেরকে নির্বাচিত প্রাপকদের থেকে অপসারণ করুন, অথবা বরং %2$d জন পর্যন্ত প্রাপকের কাছে একটি টেক্সট মেসেজ পাঠান৷</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_att">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"অন্তর্ভুক্ত এক বা একাধিক প্রাপক উচ্চতর মেসেজিং ব্যবহারে সক্ষম নয়, তাই আপনার গ্রুপ %d জন সদস্যের মধ্যে সীমিত৷
+
+এগিয়ে যেতে, শুধু উচ্চতর মেসেজিং ব্যবহারে সক্ষম সদস্যদেরকে যোগ করুন৷ তাদেরকে একটি নীল বিন্দুর আইকন দিয়ে চিহ্নিত করা হয়েছে৷"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"অন্তর্ভুক্ত এক বা একাধিক প্রাপক উচ্চতর মেসেজিং ব্যবহারে সক্ষম নয়, তাই আপনার গ্রুপ %d জন সদস্যের মধ্যে সীমিত৷
+
+এগিয়ে যেতে, শুধু উচ্চতর মেসেজিং ব্যবহারে সক্ষম সদস্যদেরকে যোগ করুন৷ তাদেরকে একটি নীল বিন্দুর আইকন দিয়ে চিহ্নিত করা হয়েছে৷"</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed_us">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">একটি গ্রুপ চ্যাট শুরু করতে, সর্বশেষ নির্বাচিত প্রাপককে অপসারণ করুন। যদি আপনি সর্বশেষ প্রাপককে অন্তর্ভুক্ত করতে চান, তাহলে একটি মেসেজ পাঠাতে %d জন প্রাপককে অপসারণ করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">একটি গ্রুপ চ্যাট শুরু করতে, সর্বশেষ নির্বাচিত প্রাপককে অপসারণ করুন। যদি আপনি সর্বশেষ প্রাপককে অন্তর্ভুক্ত করতে চান, তাহলে একটি মেসেজ পাঠাতে %d জন প্রাপককে অপসারণ করুন৷</item>
+    </plurals>
+    <plurals name="image_saved_to_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ট্যাবলেটে %dটি ছবি সংরক্ষিত হয়েছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ট্যাবলেটে %dটি ছবি সংরক্ষিত হয়েছে।</item>
+    </plurals>
+    <plurals name="image_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ফোনে %dটি ছবি সংরক্ষিত হয়েছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ফোনে %dটি ছবি সংরক্ষিত হয়েছে।</item>
+    </plurals>
+    <plurals name="image_videos_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ফোনে 1টি ছবি ও %dটি ভিডিও সংরক্ষিত হয়েছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ফোনে 1টি ছবি ও %dটি ভিডিও সংরক্ষিত হয়েছে।</item>
+    </plurals>
+    <plurals name="images_video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ফোনে %dটি ছবি ও 1টি ভিডিও সংরক্ষিত হয়েছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ফোনে %dটি ছবি ও 1টি ভিডিও সংরক্ষিত হয়েছে।</item>
+    </plurals>
+    <plurals name="information_message_group_chat_many_join">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ও অন্য %2$d জন ব্যক্তি যোগ দিয়েছেন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ও অন্য %2$d জন ব্যক্তি যোগ দিয়েছেন</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি কন্টাক্ট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি কন্টাক্ট</item>
+    </plurals>
+    <plurals name="max_selectable_recipients_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d জনের বেশি ব্যক্তি নির্বাচন করা যাবে না৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d জনের বেশি ব্যক্তি নির্বাচন করা যাবে না৷</item>
+    </plurals>
+    <plurals name="message_suggestions_info_dialog_body_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনি যখন মেসেজ সম্পর্কে পরামর্শ বাটনে ট্যাপ করেন, আপনার কথোপকথনের শেষ %dটি মেসেজ অনলাইনে প্রক্রিয়া করা হবে৷ AI দ্বারা তৈরি পরামর্শগুলি ভুল হতে পারে বা সেগুলোতে অনুপযুক্ত কন্টেন্ট থাকতে পারে৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনি যখন মেসেজ সম্পর্কে পরামর্শ বাটনে ট্যাপ করেন, আপনার কথোপকথনের শেষ %dটি মেসেজ অনলাইনে প্রক্রিয়া করা হবে৷ AI দ্বারা তৈরি পরামর্শগুলি ভুল হতে পারে বা সেগুলোতে অনুপযুক্ত কন্টেন্ট থাকতে পারে৷</item>
+    </plurals>
+    <plurals name="multi_quick_share_card_files_shared_using_quick_share">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Quick Share দিয়ে %dটি ফাইল শেয়ার করা হয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Quick Share দিয়ে %dটি ফাইল শেয়ার করা হয়েছে</item>
+    </plurals>
+    <plurals name="new_card_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি নতুন দরকারি কার্ড</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি নতুন দরকারি কার্ড</item>
+    </plurals>
+    <plurals name="pd_conversations">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি কথোপকথন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি কথোপকথন</item>
+    </plurals>
+    <plurals name="pd_messages">
+        <item quantity="one">%dটি মেসেজ</item>
+        <item quantity="other">%dটি মেসেজ</item>
+    </plurals>
+    <plurals name="pref_bin_summary">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">মুছে ফেলা মেসেজগুলো %d দিন রাখুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">মুছে ফেলা মেসেজগুলো %d দিন রাখুন৷</item>
+    </plurals>
+    <plurals name="pref_summary_refresh_all_contact_capability_remaining_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনি %d মিনিট পর আবার রিফ্রেশ করতে পারবেন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনি %d মিনিট পর আবার রিফ্রেশ করতে পারবেন৷</item>
+    </plurals>
+    <plurals name="queued_message_send_now_dialog_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এখন %dটি মেসেজ পাঠাবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এখন %dটি মেসেজ পাঠাবেন?</item>
+    </plurals>
+    <plurals name="re_registration_guide_m">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার তথ্য আপডেট করা হচ্ছে৷ কমপক্ষে %d মিনিট অপেক্ষা করে আবার চেষ্টা করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার তথ্য আপডেট করা হচ্ছে৷ কমপক্ষে %d মিনিট অপেক্ষা করে আবার চেষ্টা করুন৷</item>
+    </plurals>
+    <plurals name="reach_max_pin">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটির বেশি কথোপকথন পিন করা যাবে না৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটির বেশি কথোপকথন পিন করা যাবে না৷</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="one">%1$s এবং অন্য %2$d জন</item>
+        <item quantity="other">%1$s এবং অন্য %2$d</item>
+    </plurals>
+    <plurals name="remove_cards">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি কার্ড অপসারণ করবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি কার্ড অপসারণ করবেন?</item>
+    </plurals>
+    <plurals name="report_chatbot_free_text_hint">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">একটি কারণ লিখুন (সর্বোচ্চ %dটি অক্ষর)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">একটি কারণ লিখুন (সর্বোচ্চ %dটি অক্ষর)</item>
+    </plurals>
+    <plurals name="scheduled_conversation_list_subject_plural">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি মেসেজের জন্য সময়সূচি নির্ধারণ করা হয়েছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি মেসেজের জন্য সময়সূচি নির্ধারণ করা হয়েছে</item>
+    </plurals>
+    <plurals name="scheduled_error_select_within_default_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এখন থেকে কমপক্ষে %d মিনিট পরে একটি সময় নির্বাচন করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এখন থেকে কমপক্ষে %d মিনিট পরে একটি সময় নির্বাচন করুন৷</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি পাওয়া গেছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি পাওয়া গেছে</item>
+    </plurals>
+    <plurals name="search_bin_thread_and_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1টি কথোপকথন ও অন্য %dটি মেসেজ ট্র্যাশে সরাবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1টি কথোপকথন ও অন্য %dটি মেসেজ ট্র্যাশে সরাবেন?</item>
+    </plurals>
+    <plurals name="search_bin_threads_and_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি কথোপকথন ও অন্য 1টি মেসেজ ট্র্যাশে সরাবেন?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি কথোপকথন ও অন্য 1টি মেসেজ ট্র্যাশে সরাবেন?</item>
+    </plurals>
+    <plurals name="select_recipient_subtitle_duo">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d জন পর্যন্ত ব্যক্তি নির্বাচন করুন৷
+(এই কথোপকথনে ফোন নম্বর ব্যবহারকারী ব্যক্তিদেরকে দেখানো হচ্ছে৷)"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d জন পর্যন্ত ব্যক্তি নির্বাচন করুন৷
+(এই কথোপকথনে ফোন নম্বর ব্যবহারকারী ব্যক্তিদেরকে দেখানো হচ্ছে৷)"</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ঘুমের সময়: %d ঘণ্টা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ঘুমের সময়: %d ঘণ্টা</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ঘুমের সময়: %d মিনিট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ঘুমের সময়: %d মিনিট</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ঘণ্টা বাকি</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ঘণ্টা বাকি</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d মিনিট বাকি</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d মিনিট বাকি</item>
+    </plurals>
+    <plurals name="share_location_remaining_time_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d সেকেন্ড বাকি</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d সেকেন্ড বাকি</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="one">SIM কার্ড থেকে মেসেজ অনুলিপি হয়েছে।</item>
+        <item quantity="other">SIM কার্ড থেকে মেসেজ কপি করা হয়েছে।</item>
+    </plurals>
+    <plurals name="some_categories">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি বিভাগ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি বিভাগ</item>
+    </plurals>
+    <plurals name="start_a_group_chat_alert_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনি %d জনের বেশি প্রাপক নির্বাচন করেছেন, যা হলো টেক্সট মেসেজের সীমা৷ সবাইকে একবারে মেসেজ পাঠাতে একটি গ্রুপ চ্যাট নির্বাচন করুন৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনি %d জনের বেশি প্রাপক নির্বাচন করেছেন, যা হলো টেক্সট মেসেজের সীমা৷ সবাইকে একবারে মেসেজ পাঠাতে একটি গ্রুপ চ্যাট নির্বাচন করুন৷</item>
+    </plurals>
+    <plurals name="total_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">মোট %dটি মেসেজ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">মোট %dটি মেসেজ</item>
+    </plurals>
+    <plurals name="unblock_toast_malicious_message_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি মেসেজ স্বয়ংক্রিয়ভাবে আনব্লক করা হয়েছে কারণ এই প্রেরকদেরকে আর ক্ষতিকর বলে মনে করা হচ্ছে না।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি মেসেজ স্বয়ংক্রিয়ভাবে আনব্লক করা হয়েছে কারণ এই প্রেরকদেরকে আর ক্ষতিকর বলে মনে করা হচ্ছে না।</item>
+    </plurals>
+    <plurals name="unread_all_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ও অন্য %2$dটি ব্র্যান্ডের কাছ থেকে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ও অন্য %2$dটি ব্র্যান্ডের কাছ থেকে</item>
+    </plurals>
+    <plurals name="unread_all_delivery_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">অপঠিত %dটি ডেলিভারি মেসেজ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">অপঠিত %dটি ডেলিভারি মেসেজ</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ও অন্য %2$d জন কন্টাক্টের কাছ থেকে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ও অন্য %2$d জন কন্টাক্টের কাছ থেকে</item>
+    </plurals>
+    <plurals name="unread_all_known_messages_from_single_sender_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s থেকে %1$dটি অপঠিত মেসেজ আছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s থেকে %1$dটি অপঠিত মেসেজ আছে</item>
+    </plurals>
+    <plurals name="unread_including_brand_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ও অন্য %2$dটি ব্র্যান্ডের কাছ থেকে কিছু সহ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ও অন্য %2$dটি ব্র্যান্ডের কাছ থেকে কিছু সহ</item>
+    </plurals>
+    <plurals name="unread_including_delivery_messages_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ডেলিভারি সম্পর্কে %dটি মেসেজ সহ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ডেলিভারি সম্পর্কে %dটি মেসেজ সহ</item>
+    </plurals>
+    <plurals name="unread_including_known_messages_from_multi_senders_subtitle">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ও অন্য %2$d জন কন্টাক্টের কাছ থেকে কিছু সহ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ও অন্য %2$d জন কন্টাক্টের কাছ থেকে কিছু সহ</item>
+    </plurals>
+    <plurals name="unread_messages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অপঠিত মেসেজ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অপঠিত মেসেজ</item>
+    </plurals>
+    <plurals name="unread_messages_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dটি অপঠিত মেসেজ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dটি অপঠিত মেসেজ</item>
+    </plurals>
+    <plurals name="upcoming_tab_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজ %dটি আসন্ন অ্যালার্ট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজ %dটি আসন্ন অ্যালার্ট</item>
+    </plurals>
+    <plurals name="video_saved_to_your_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনার ফোনে %dটি ভিডিও সংরক্ষিত হয়েছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনার ফোনে %dটি ভিডিও সংরক্ষিত হয়েছে।</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_a_delivery">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনি আজ %1$sএকটি ডেলিভারি সম্পর্কে %2$dটি মেসেজ পেয়েছেন%3$s৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনি আজ %1$sএকটি ডেলিভারি সম্পর্কে %2$dটি মেসেজ পেয়েছেন%3$s৷</item>
+    </plurals>
+    <plurals name="you_got_messages_today_about_deliveries">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপনি আজ %1$sডেলিভারি সম্পর্কে %2$dটি মেসেজ পেয়েছেন%3$s৷</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপনি আজ %1$sডেলিভারি সম্পর্কে %2$dটি মেসেজ পেয়েছেন%3$s৷</item>
+    </plurals>
+</resources>

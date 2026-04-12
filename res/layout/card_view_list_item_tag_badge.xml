@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/card_view_list_item_tag_badge_image_layout" android:tag="layout/card_view_list_item_tag_badge_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/card_view_list_item_tag_badge_image" android:paddingTop="2.0dp" android:visibility="gone" android:layout_width="@dimen/card_view_list_item_tag_badge_size" android:layout_height="@dimen/card_view_list_item_tag_badge_size" android:src="@drawable/orc_ic_tag" android:scaleType="fitCenter" android:tint="@color/theme_list_item_tag_badge_color" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.widget.SquareLayout android:padding="1.0px" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/preset_item_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/expand_button" android:background="@drawable/orc_video_expand" android:layout_width="@dimen/video_item_expand_inner" android:layout_height="@dimen/video_item_expand_inner" android:layout_alignParentBottom="true" android:contentDescription="@string/expand_bubble" android:layout_alignParentEnd="true" android:tooltipText="@string/expand_bubble" />
+</com.samsung.android.messaging.ui.view.widget.SquareLayout>

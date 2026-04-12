@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:height="@dimen/contact_list_rcs_size" android:width="@dimen/contact_list_rcs_size" android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/rcs_dot_color" />
+    <stroke android:width="@dimen/contact_list_rcs_stroke_size" android:color="@color/rcs_color_ring_color" />
+</shape>

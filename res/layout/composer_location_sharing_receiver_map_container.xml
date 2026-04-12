@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/composer_location_sharing_map_container_stub" android:layout="@layout/composer_location_sharing_map_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:focusable="true" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:focusable="true" android:clickable="false" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/NewSECMedium" android:textSize="12.0sp" android:textColor="@color/theme_composer_location_sharing_body" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/composer_location_sharing_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_marginStart="16.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textAppearance="@style/NewSECMedium" android:textSize="9.0sp" android:textColor="@color/theme_composer_location_updated_time" android:id="@id/composer_location_sharing_updated_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dp" android:layout_marginTop="2.0dp" android:maxLines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/composer_location_sharing_refresh_button" android:background="@drawable/ripple_composer_location_open_icon" android:focusable="true" android:clickable="true" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_marginRight="@dimen/location_sharing_view_margin_side" android:contentDescription="@string/share_location_refresh_location_content_description">
+            <ImageView android:layout_gravity="center" android:id="@id/composer_location_refresh_button_image" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/refresh_reset_restore_update" android:tint="@color/theme_composer_location_button_in_panel" android:contentDescription="@string/share_location_refresh" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

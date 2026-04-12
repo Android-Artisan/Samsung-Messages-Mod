@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/check_default_sms_app_detail_info_0" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/about_page_raised_button_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/check_default_detail_info_text_size" android:textColor="@color/theme_about_description_text_color" android:id="@id/detail_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/check_default_detail_info_min_height" android:text="@string/default_sms_app_info_message" android:textAlignment="center" android:paddingHorizontal="@dimen/check_default_message_app_description_space_padding" />
+</LinearLayout>

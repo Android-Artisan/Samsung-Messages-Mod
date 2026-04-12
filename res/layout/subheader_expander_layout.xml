@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/section_header_height_with_expander" android:paddingHorizontal="@dimen/list_divider_margin_start_end_flexible"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/section_header_height_with_expander">
+        <TextView android:textSize="17.0sp" android:textColor="@color/primary_text_color" android:layout_gravity="center_vertical" android:id="@id/section_header_text" android:background="@null" android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:layout_width="0.0dp" android:layout_height="@dimen/section_header_text_divider_height" android:layout_weight="1.0" android:fontFamily="@style/NewSECRegular" android:paddingStart="@dimen/list_subheader_start_padding_ghost_flexible" android:paddingEnd="@dimen/setting_subheader_divider_margin_flexible" style="?android:listSeparatorTextViewStyle" />
+        <LinearLayout android:gravity="end" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/section_header_expander_end_padding">
+            <ImageView android:layout_gravity="center" android:id="@id/section_header_expander_icon" android:layout_width="@dimen/section_header_expander_image_size" android:layout_height="@dimen/section_header_expander_image_size" android:src="@drawable/ic_expander_open_chevron_down" android:tint="@color/theme_drawer_icon_color_off" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/section_header_divider" android:background="@color/theme_list_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/conversation_list_divider_height" />
+</FrameLayout>

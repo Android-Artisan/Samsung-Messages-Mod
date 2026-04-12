@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_view_more_container" android:tag="layout/search_view_more_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:paddingBottom="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="0.0dp" app:expanded="false">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed" style="@style/CustomCollapsingToolbarStyle">
+                <View android:layout_gravity="bottom" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:background="@android:color/transparent" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <RelativeLayout android:id="@id/search_result" android:background="@color/theme_control_area_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+                <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:ghost="true" app:roundMode="15">
+                    <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/search_recycle_list_view" android:focusable="false" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" android:importantForAccessibility="no" />
+                </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>
+            </LinearLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ProgressBar android:id="@id/search_paging_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/search_view_more_sesl_floating_toolbar_layout" android:tag="binding_1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/app_bar">
+            <include android:layout_gravity="bottom" android:id="@id/custom_action_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:contentInsetStartWithNavigation="0.0dp" app:layout_collapseMode="pin" layout="@layout/select_all_list_item" />
+            <androidx.appcompat.widget.Toolbar android:theme="@style/Theme.AppCompat.DayNight" android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:background="@android:color/transparent" app:contentInsetEnd="@dimen/toolbar_title_inset_end" app:contentInsetRight="@dimen/toolbar_title_inset_end" app:contentInsetStartWithNavigation="0.0dp" app:navigationContentDescription="@string/navigate_up" app:navigationIcon="@drawable/actionbar_back_key" />
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+        <com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar android:layout_gravity="center|bottom" android:id="@id/bottom_area" android:background="@null" android:paddingBottom="8.0dp" android:visibility="invisible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.messaging.ui.view.widget.common.BottomBar android:layout_gravity="center|top" android:id="@id/bottom_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/bottom_bar_with_icon_text_height" style="@style/FloatingBottomBarBlurIconTextStyle" />
+            <com.samsung.android.messaging.ui.view.widget.common.BottomBar android:layout_gravity="top" android:id="@id/bottom_bar_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/bottom_bar_with_text_height" style="@style/FloatingTextStyle" />
+        </com.samsung.android.messaging.ui.view.widget.common.FloatingBottomBar>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

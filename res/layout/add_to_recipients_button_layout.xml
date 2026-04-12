@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/add_to_recipients_button" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/dialtacts_ripple_button_bg_oval" android:layout_alignTop="@id/contact_list_search_view_container" android:foregroundGravity="center" android:layout_toStartOf="@id/search_done_button_usa" android:layout_alignParentEnd="true" android:paddingHorizontal="@dimen/public_picker_add_button_side_padding" android:paddingVertical="@dimen/public_picker_add_button_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/tw_ic_ab_add_mtrl" android:tint="@color/actionbar_more_button_color" />
+</FrameLayout>

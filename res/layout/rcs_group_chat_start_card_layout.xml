@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:paddingBottom="@dimen/bubble_list_bottom_padding" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/group_chat_start_card_content_container" android:background="@color/theme_recipient_panel_bg_color" android:paddingBottom="33.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/rcs_group_chat_start_avatar_description_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@id/rcs_group_list_avatar_panel" android:layout_width="match_parent" android:layout_height="@dimen/rcs_group_chat_avatar_panel_height" android:layout_marginTop="33.0dp" android:layout_marginBottom="15.0dp" layout="@layout/rcs_group_chat_avatar_list_badge" />
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="18.0sp" android:textColor="@color/theme_start_group_chat_text_color" android:gravity="center" android:id="@id/rcs_group_chat_description" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/start_group_chat_name_description" />
+            </LinearLayout>
+            <LinearLayout android:textAppearance="@style/NewSECRegular" android:gravity="center" android:layout_gravity="center" android:id="@id/rcs_group_chat_start_button_layout" android:background="@drawable/start_group_button_bg" android:layout_width="wrap_content" android:layout_height="36.0dp" android:layout_marginTop="34.0dp" android:minWidth="@dimen/rcs_group_chat_start_button_width">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="15.0sp" android:textColor="@color/theme_start_group_chat_button_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/rcs_group_chat_start_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_chat" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" android:autoSizeTextType="uniform" android:autoSizeMaxTextSize="15.0sp" />
+            </LinearLayout>
+            <LinearLayout android:textAppearance="@style/NewSECRegular" android:gravity="center" android:layout_gravity="center" android:id="@id/one_to_many_broadcast_start_button_layout" android:background="@drawable/start_group_button_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dp" android:layout_marginTop="8.0dp" android:minWidth="@dimen/rcs_group_chat_start_button_width">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="15.0sp" android:textColor="@color/theme_start_group_chat_button_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/one_to_many_broadcast_start_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_opt_individual_messages" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" android:autoSizeTextType="uniform" android:autoSizeMaxTextSize="15.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.qrscankit.view.DecoratedBarcodeView android:id="@id/chatbot_zxing_barcode_scanner" android:layout_width="match_parent" android:layout_height="match_parent" app:zxing_framing_rect_height="@dimen/qrscanner_select_area" app:zxing_framing_rect_width="@dimen/qrscanner_select_area" app:zxing_preview_scaling_strategy="centerCrop" app:zxing_scanner_layout="@layout/chatbot_barcode_scanner" app:zxing_use_texture_view="false" />
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center|bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/qrscan_image_button_bottom">
+            <ImageView android:id="@id/flash_button" android:layout_width="@dimen/qrscan_image_button_size" android:layout_height="@dimen/qrscan_image_button_size" android:layout_marginRight="@dimen/qrcode_image_button_interval" android:src="@drawable/ic_qrscanner_btn_flash_off" android:scaleType="fitCenter" android:contentDescription="@string/flash" />
+            <ImageView android:id="@id/gallery_button" android:layout_width="@dimen/qrscan_image_button_size" android:layout_height="@dimen/qrscan_image_button_size" android:src="@drawable/ic_qrscanner_btn_flash_gallery" android:scaleType="fitCenter" android:contentDescription="@string/gallery" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/camera_error_view" android:background="@android:color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/qrscan_image_button_size" android:layout_height="@dimen/qrscan_image_button_size" android:src="@drawable/ic_qrscanner_btn_camera" android:scaleType="fitXY" />
+    </FrameLayout>
+</FrameLayout>

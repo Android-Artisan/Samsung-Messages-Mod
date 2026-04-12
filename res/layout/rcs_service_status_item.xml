@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/tip_background" android:layout_width="match_parent" android:layout_height="@dimen/rcs_service_status_off_height_chn" android:backgroundTint="@color/chatbot_using_alert_background">
+        <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/rcs_service_status_off_height_chn" android:layout_marginLeft="20.0dp">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/close_rcs_service_container" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="13.0dp" android:textColor="@color/theme_list_main_text_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rcs_service_status_is_not_available" android:maxLines="2" android:lineSpacingExtra="1.0dp" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/close_rcs_service_container" android:layout_width="45.0dp" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <com.samsung.android.messaging.uicommon.widget.spr.SprImageView android:layout_gravity="center_vertical" android:id="@id/close_rcs_service" android:layout_width="25.0dp" android:layout_height="25.0dp" android:scaleType="centerCrop" android:adjustViewBounds="true" android:tint="@color/theme_list_icon_tint_color" app:src="@drawable/messages_noti_ic_close" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <View android:background="@color/theme_rounded_corner_color_ghost_rounded" android:focusable="false" android:layout_height="@dimen/section_empty_header_height" style="@style/CustomSubHeaderStyleGhost" />
+</LinearLayout>

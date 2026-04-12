@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 तास</item>
+        <item>6 तास</item>
+        <item>24 तास</item>
+        <item>2 दिवस</item>
+        <item>नेटवर्क डिफॉल्ट</item>
+        <item>अधिकतम</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>मूळ</item>
+        <item>उच्च</item>
+        <item>मध्‍यम</item>
+        <item>कमी</item>
+        <item>नेहमी विचारा</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>मूळ</item>
+        <item>उच्च दर्जा</item>
+        <item>सामान्य दर्जा</item>
+        <item>कमी रिझॉल्यूशन</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>सर्व चॅनल्स</item>
+        <item>माझा चॅनेल</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>ऑटोमॅटिक</item>
+        <item>टेक्स्ट किंवा मल्टिमिडिया</item>
+        <item>चॅट</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>ऑटोमॅटिक</item>
+        <item>टेक्स्ट किंवा मल्टिमिडिया</item>
+        <item>RCS चॅट संदेश</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ब्लॉक करा</item>
+        <item>प्रथम विचारा</item>
+        <item>अनुमती द्या</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>नेहमी</item>
+        <item>तत्पर</item>
+        <item>कधी नाही</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-अक्षरमाला</item>
+        <item>यूनिकोड</item>
+        <item>ऑटोमॅटिक</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>टेक्स्ट किंवा मल्टिमिडिया संदेश म्हणून पुन्हा पाठवा</item>
+        <item>पुन्हा पाठवू नका</item>
+        <item>पुन्हा पाठवण्यापूर्वी विचारा</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>टेक्स्ट किंवा मल्टिमिडिया संदेश वापरा</item>
+        <item>पुन्‍हा पाठविले नाही</item>
+        <item>नेहमी विचारा</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>मूळ</item>
+        <item>नेटवर्क डिफॉल्ट</item>
+        <item>नेहमी विचारा</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/about_page_buttons_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/about_page_buttons" android:layout_width="@dimen/about_page_button_default_width" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <Button android:id="@id/about_page_button_learn_more" android:visibility="gone" android:layout_marginBottom="@dimen/about_page_raised_button_gap" android:text="@string/about_page_chat_features_learn_more" style="@style/AboutPageRaisedButtonStyle" />
+            <Button android:id="@id/about_page_button_tos" android:visibility="gone" android:layout_marginBottom="@dimen/about_page_raised_button_gap" android:text="@string/about_page_jibe_terms_and_conditions" style="@style/AboutPageRaisedButtonStyle" />
+            <Button android:id="@id/about_page_button_open_source" android:text="@string/about_page_open_source_licences" style="@style/AboutPageRaisedButtonStyle" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

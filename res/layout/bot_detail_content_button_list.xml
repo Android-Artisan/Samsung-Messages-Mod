@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:id="@id/bot_detail_button_list_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:roundMode="12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/bot_detail_content_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bot_detail_name_text_size" android:textColor="@color/theme_list_main_text_color" android:gravity="center_horizontal" android:id="@id/bot_detail_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+            <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/bot_detail_verified_mark" android:background="@drawable/ic_orc_bot_verified_mark" android:visibility="gone" android:layout_width="@dimen/bot_detail_icon_verified_height" android:layout_height="@dimen/bot_detail_icon_verified_height" android:layout_marginStart="@dimen/bot_list_item_verified_mark_start_margin" />
+                <ImageView android:id="@id/bot_detail_critical_mark" android:background="@drawable/ic_orc_bot_critical_mark" android:visibility="gone" android:layout_width="@dimen/bot_detail_icon_verified_height" android:layout_height="@dimen/bot_detail_icon_verified_height" android:layout_marginStart="@dimen/bot_list_item_verified_mark_start_margin" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/bot_detail_content_button_padding_top_bottom" android:paddingBottom="@dimen/bot_detail_content_button_padding_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bot_detail_title_padding_start_end" android:paddingEnd="@dimen/bot_detail_title_padding_start_end">
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_chat_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/bot_menu_button_message">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot_detail_chat_button_image" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_detail_icon_size" android:layout_height="@dimen/bot_detail_icon_size" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_add_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/bot_menu_button_add">
+                <View android:layout_gravity="center_horizontal" android:id="@id/bot_detail_add_button_tip_anchor" android:background="@android:color/transparent" android:layout_width="1.0px" android:layout_height="1.0px" />
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot_detail_add_button_image" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_detail_icon_size" android:layout_height="@dimen/bot_detail_icon_size" android:src="@drawable/orc_ic_default_add" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_call_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/bot_menu_button_call">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot_detail_call_button_image" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_detail_icon_size" android:layout_height="@dimen/bot_detail_icon_size" android:src="@drawable/orc_ic_default_call" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_moreinfo_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/bot_menu_button_moreinfo">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot_detail_moreinfo_button_image" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_detail_icon_size" android:layout_height="@dimen/bot_detail_icon_size" android:src="@drawable/orc_ic_default_moreinfo" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_order_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/bot_menu_button_order">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot_detail_order_button_image" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_detail_icon_size" android:layout_height="@dimen/bot_detail_icon_size" android:src="@drawable/orc_ic_default_order" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_buy_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/bot_menu_button_buy">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot_detail_buy_button_image" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_detail_icon_size" android:layout_height="@dimen/bot_detail_icon_size" android:src="@drawable/orc_ic_default_buy" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_ticket_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/bot_menu_button_ticket">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot_detail_ticket_button_image" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_detail_icon_size" android:layout_height="@dimen/bot_detail_icon_size" android:src="@drawable/orc_ic_default_ticket" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_app_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/bot_menu_button_app">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot_detail_app_button_image" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_detail_icon_size" android:layout_height="@dimen/bot_detail_icon_size" android:src="@drawable/orc_ic_default_app" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_web_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/bot_menu_button_web">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot_detail_web_button_image" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_detail_icon_size" android:layout_height="@dimen/bot_detail_icon_size" android:src="@drawable/orc_ic_default_web" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bot_detail_store_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/bot_menu_button_store">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot_detail_store_button_image" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/bot_detail_icon_size" android:layout_height="@dimen/bot_detail_icon_size" android:src="@drawable/orc_ic_default_store" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>

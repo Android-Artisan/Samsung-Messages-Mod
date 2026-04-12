@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assistant-list>
+    <button action="com.samsung.android.messaging.ui.searchmessage" name="@string/search" resource="@drawable/assistant_menu_ic_messages_search" />
+    <button action="com.samsung.android.messaging.ui.composemessage" name="@string/menu_compose" resource="@drawable/assistant_menu_ic_messages_compose" />
+    <button action="com.samsung.android.messaging.ui.createcontact" name="@string/create_contact" resource="@drawable/assistant_menu_ic_messages_createcontact" />
+    <button action="com.samsung.android.messaging.ui.composer.composerfragment.calltocontact" name="@string/call" resource="@drawable/assistant_menu_ic_messages_call" />
+    <button action="com.samsung.android.messaging.ui.deletemessage" name="@string/delete_description" resource="@drawable/assistant_menu_ic_messages_delete" />
+    <button action="com.samsung.android.messaging.ui.composer.composerfragment.send" name="@string/send_description" resource="@drawable/assistant_menu_ic_messages_send" />
+    <button action="com.samsung.android.messaging.ui.composer.composerfragment.attachcontacts" name="@string/add_from_contacts" resource="@drawable/assistant_menu_ic_messages_add_from_contacts" />
+</assistant-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background_circle" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/square_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/aim_video_view" />
+        <include layout="@layout/aim_audio_view" />
+        <ImageView android:id="@id/image" android:layout_height="match_parent" style="@style/imageview_fitxy" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/announcement_card_main_text_size" android:id="@id/title" style="@style/text_title" />
+    <TextView android:textSize="@dimen/announcement_card_sub_text_size" android:id="@id/content" android:maxLines="2" style="@style/text_context" />
+    <TextView android:id="@id/event" style="@style/simple_button" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/gm_promotion_guide_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/top_scrollview" android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/gm_promotion_guide_title_container" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/gm_promotion_guide_title_layout" />
+                <include android:id="@id/gm_promotion_guide_app_icons_layout" layout="@layout/gm_promotion_guide_app_icons_layout" />
+            </LinearLayout>
+            <include android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" layout="@layout/gm_promotion_guide_description_layout" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView android:id="@id/bottom_scrollview" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@id/gm_promotion_guide_buttons_layout" layout="@layout/gm_promotion_guide_buttons" />
+            <include layout="@layout/gm_promotion_guide_sub_description_layout" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

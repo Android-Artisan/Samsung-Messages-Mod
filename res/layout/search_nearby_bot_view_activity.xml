@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/search_result" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:ghost="true" app:roundMode="15">
+            <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/search_recycle_list_view" android:focusable="false" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+            <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ProgressBar android:id="@id/search_list_state_progress_bar" android:layout_width="@dimen/search_progress_bar_size" android:layout_height="@dimen/search_progress_bar_size" />
+                <TextView android:textAppearance="@style/TextAppearanceNoSearchItem" android:gravity="center" android:id="@id/search_list_state_text" android:background="@color/theme_control_area_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_nearby_chatbot_result_found" />
+            </RelativeLayout>
+        </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerFrameLayout>
+    </LinearLayout>
+</RelativeLayout>

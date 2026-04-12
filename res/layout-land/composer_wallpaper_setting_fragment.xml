@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/composer_wallpaper_scroll_view" android:tag="layout-land/composer_wallpaper_setting_fragment_0" android:background="@color/theme_rounded_corner_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:background="@color/theme_rounded_corner_color" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="1.0">
+        <include android:id="@id/composer_wallpaper_preview_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.495" layout="@layout/composer_wallpaper_preview_layout" />
+        <include android:id="@id/composer_wallpaper_preset_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="12.0dp" android:layout_weight="0.505" layout="@layout/composer_wallpaper_preset_layout" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

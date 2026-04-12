@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.BubbleFtSmsLinkView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_item_sms_link_container" android:background="@drawable/selector_bubble_border_received_no_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/bubble_progress_circle_width_height" android:layout_weight="1.0" android:paddingStart="@dimen/bubble_circle_view_child_end_margin">
+            <ImageView android:layout_gravity="center" android:id="@id/sms_link_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/orc_file_mms_down" android:tint="@color/theme_bubble_file_info_icon_color_received" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/list_item_progress_bar" android:visibility="gone" android:layout_width="@dimen/bubble_progress_circle_width_height" android:layout_height="@dimen/bubble_progress_circle_width_height" android:progressDrawable="@drawable/bubble_progress_circle_mms" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/sms_link_info_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bubble_circle_data_view_top_margin" android:layout_marginBottom="@dimen/bubble_circle_data_view_bottom_margin" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/bubble_circle_data_view_start_end_margin" android:layout_marginEnd="@dimen/bubble_circle_data_view_start_end_margin">
+                <TextView android:textAppearance="@style/NewSECLight" android:textSize="@dimen/bubble_circle_view_second_line_text_size" android:textColor="@color/theme_bubble_text_color_received" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/sms_link_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bubble_max_width_circle_text" android:minHeight="@dimen/bubble_circle_view_second_text_view_height" android:maxLines="1" />
+                <TextView android:textAppearance="@style/NewSECLight" android:textSize="@dimen/bubble_circle_view_expiry_text_size" android:textColor="@color/theme_bubble_file_info_text_color_received" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/sms_link_expired_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bubble_max_width_circle_text" android:minHeight="@dimen/bubble_circle_view_second_text_view_height" android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bubble_info_side_view_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <ViewStub android:id="@id/list_image_cancel_fail_stub" android:layout="@layout/list_image_cancel_fail_layout" android:layout_width="26.0dp" android:layout_height="26.0dp" android:layout_marginStart="@dimen/bubble_indicator_margin" android:layout_marginEnd="@dimen/bubble_indicator_margin" />
+            <include layout="@layout/bubble_info_side_view" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/bubble_suggestion_layout_stub" android:visibility="gone" android:layout="@layout/bubble_suggestion_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.samsung.android.messaging.ui.view.bubble.item.BubbleFtSmsLinkView>

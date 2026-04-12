@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.widget.SquareLayout android:tag="layout/gallery_item_0" android:padding="@dimen/gallery_grid_item_padding" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/gallery_item_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:layout_gravity="center" android:id="@id/video_play" android:layout_width="19.0dp" android:layout_height="19.0dp" android:layout_marginBottom="3.0dp" android:layout_alignParentBottom="true" android:layout_marginStart="3.0dp" android:tooltipText="@string/play">
+        <ImageView android:layout_gravity="center" android:id="@id/video_play_view" android:background="@drawable/gallery_video_info_background" android:layout_width="@dimen/video_play_button_small_size" android:layout_height="@dimen/video_play_button_small_size" android:src="@drawable/orc_video_play_small" android:contentDescription="@string/play" />
+    </LinearLayout>
+    <View android:id="@id/gallery_item_selector" android:background="@drawable/selector_gallery_item" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/video_expand_view" android:background="@drawable/orc_video_expand" android:visibility="gone" android:layout_width="@dimen/video_item_expand_inner" android:layout_height="@dimen/video_item_expand_inner" android:layout_alignParentBottom="true" android:contentDescription="@string/expand_description" android:layout_alignParentEnd="true" android:tooltipText="@string/expand_description" />
+    <CheckBox android:id="@id/gallery_item_checkbox" android:background="@drawable/selector_album_item_checkbox" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="@dimen/gallery_check_box_size" android:layout_height="@dimen/gallery_check_box_size" android:button="@null" />
+</com.samsung.android.messaging.ui.view.widget.SquareLayout>

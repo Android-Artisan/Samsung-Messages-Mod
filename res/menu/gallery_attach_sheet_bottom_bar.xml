@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/orc_btn_attach_viewall" android:id="@id/gallery" android:title="@string/gallery" android:iconTint="@color/theme_gallery_view_all_icon_color" app:showAsAction="always" />
+    <item android:icon="@drawable/resolution_full_ic" android:id="@id/resolution" android:title="@string/image_resolution_button_description" android:iconTint="@color/theme_bottom_bar_icon_color" app:showAsAction="always" />
+</menu>

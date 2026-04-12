@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/group_ic_noti_on" android:id="@id/noti" android:visible="false" android:title="@string/pref_title_notification_enabled" app:showAsAction="always" />
+    <item android:icon="@drawable/group_ic_delete" android:id="@id/delete" android:visible="false" android:title="@string/delete_description" app:contentDescription="@string/delete_description" app:showAsAction="always" />
+    <group android:id="@id/pin_to_top_menu" android:visible="false">
+        <item android:id="@id/pin_to_top" android:title="@string/edit_pin" app:showAsAction="never" />
+        <item android:id="@id/unpin_from_top" android:title="@string/edit_unpin" app:showAsAction="never" />
+    </group>
+    <item android:id="@id/add_to_reminder" android:visible="false" android:title="@string/context_menu_send_to_reminder" app:showAsAction="never" />
+    <item android:id="@id/add_to_block_list" android:visible="false" android:title="@string/menu_add_to_block_list" app:showAsAction="never" />
+    <item android:id="@id/add_to_allow_list" android:visible="false" android:title="@string/menu_add_to_allow_list" app:showAsAction="never" />
+    <item android:id="@id/mark_as_read" android:visible="false" android:title="@string/edit_read" app:showAsAction="never" />
+    <item android:id="@id/block_numbers" android:visible="false" android:title="@string/block" app:showAsAction="never" />
+    <item android:id="@id/add_to_category" android:visible="false" android:title="@string/add_to_category" app:showAsAction="never" />
+    <item android:id="@id/remove_from_category" android:visible="false" android:title="@string/remove_from_category" app:showAsAction="never" />
+</menu>

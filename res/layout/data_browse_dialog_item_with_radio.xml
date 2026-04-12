@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:paddingTop="@dimen/w_list_item_top_bottom_padding" android:paddingBottom="@dimen/w_list_item_top_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/w_dialog_list_item_min_height" android:layout_weight="1.0" android:paddingEnd="@dimen/alert_dialog_list_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@android:id/button1" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/popup_radio_button_right_margin" android:layout_toEndOf="@android:id/button1" android:layout_alignParentEnd="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/w_dialog_secondary_text_size" android:textColor="@color/alert_dialog_secondary_text_color" android:layout_gravity="center_vertical" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/data_browse_primary_check_padding_end" />
+            <ImageView android:id="@id/imgChecked" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/contacts_detail_list_ic_check" android:tint="@color/contact_color_primary_dark" />
+        </LinearLayout>
+        <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/w_dialog_main_text_size" android:textColor="@color/alert_dialog_primary_text_color" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

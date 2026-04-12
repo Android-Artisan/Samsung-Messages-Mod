@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/list_divider_margin_start_end_flexible"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/theme_sub_header_text_color" android:id="@id/section_header_text" android:background="@null" android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/section_header_text_divider_height" android:fontFamily="@style/NewSECSemiBold" android:paddingStart="@dimen/list_subheader_start_padding_ghost_flexible" android:paddingEnd="@dimen/setting_subheader_divider_margin_flexible" style="?android:listSeparatorTextViewStyle" />
+    <View android:layout_gravity="center" android:id="@id/section_header_divider" android:layout_width="match_parent" android:layout_height="@dimen/section_header_divider_height" />
+</LinearLayout>

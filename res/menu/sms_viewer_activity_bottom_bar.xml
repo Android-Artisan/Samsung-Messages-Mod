@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/group_ic_copy" android:id="@id/copy_text" android:title="@string/context_menu_message_copy" app:showAsAction="always" />
+    <item android:icon="@drawable/group_ic_share" android:id="@id/share" android:title="@string/context_menu_share" app:showAsAction="always" />
+    <item android:id="@id/view_message_delete" android:title="@string/context_menu_message_delete" app:showAsAction="never" />
+    <item android:id="@id/forward" android:title="@string/context_menu_forward" app:showAsAction="never" />
+    <item android:id="@id/star_message" android:title="@string/context_menu_message_star_message" app:showAsAction="never" />
+    <item android:id="@id/unstar_message" android:visible="false" android:title="@string/context_menu_message_unstar_message" app:showAsAction="never" />
+    <item android:id="@id/view_message_details" android:title="@string/context_menu_view_message_details" app:showAsAction="never" />
+</menu>

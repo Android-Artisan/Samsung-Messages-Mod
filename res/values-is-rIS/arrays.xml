@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 klst.</item>
+        <item>6 klst.</item>
+        <item>24 klst.</item>
+        <item>2 dagar</item>
+        <item>Valið af símkerfi</item>
+        <item>Hámark</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Tökustærð</item>
+        <item>Mikil</item>
+        <item>Miðlungs</item>
+        <item>Lítil</item>
+        <item>Spyrja alltaf</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Tökustærð</item>
+        <item>Mikil gæði</item>
+        <item>Venjuleg gæði</item>
+        <item>Lítil upplausn</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Allar stöðvar</item>
+        <item>Stöðin mín</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Sjálfvirkt</item>
+        <item>SMS- eða margmiðlunarskilaboð</item>
+        <item>Spjalla</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Sjálfvirkt</item>
+        <item>SMS- eða margmiðlunarskilaboð</item>
+        <item>RCS-spjallskilaboð</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Útiloka</item>
+        <item>Spyrja fyrst</item>
+        <item>Leyfa</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Alltaf</item>
+        <item>Beiðni</item>
+        <item>Aldrei</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM stafróf</item>
+        <item>Unicode</item>
+        <item>Sjálfvirkt</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Senda aftur sem SMS- eða margmiðlunarskilaboð</item>
+        <item>Ekki senda aftur</item>
+        <item>Spyrja áður en sent er aftur</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Nota SMS- /margmiðlunarskilaboð</item>
+        <item>Ekki endursenda</item>
+        <item>Spyrja alltaf</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Upprunalegt</item>
+        <item>Sjálfgildi nets</item>
+        <item>Spyrja alltaf</item>
+    </string-array>
+</resources>

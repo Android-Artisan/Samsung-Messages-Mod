@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="25.0dp" android:width="25.0dp" android:viewportWidth="25.0" android:viewportHeight="25.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:pathData="M7.995,3.813L15.48,3.813A4,4 0,0 1,19.48 7.813L19.48,15.298A4,4 0,0 1,15.48 19.298L7.995,19.298A4,4 0,0 1,3.995 15.298L3.995,7.813A4,4 0,0 1,7.995 3.813z" android:strokeColor="@color/theme_sticker_gif_icon_tint_color_off" android:strokeWidth="1.5" android:fillType="evenOdd" />
+    <path android:fillColor="@color/theme_sticker_gif_icon_tint_color_off" android:pathData="M7.105,12.109c0.474,-0.21 0.947,0 1.184,0.418 0.592,1.254 1.895,2.09 3.435,2.09s2.96,-0.836 3.434,-2.09c0.237,-0.418 0.71,-0.627 1.184,-0.418 0.474,0.209 0.71,0.627 0.474,1.045 -0.83,1.881 -2.842,3.136 -5.092,3.136 -2.25,0 -4.264,-1.255 -5.093,-3.136 -0.118,-0.418 0.119,-0.836 0.474,-1.045z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/theme_sticker_gif_icon_tint_color_off" android:pathData="M14.838,8.42c0.627,0 1.045,0.522 1.045,1.045 0,0.627 -0.522,1.045 -1.045,1.045a1.047,1.047 0,0 1,-1.045 -1.045c0,-0.523 0.418,-1.045 1.045,-1.045zM8.671,8.42c0.627,0 1.045,0.522 1.045,1.045 0,0.627 -0.522,1.045 -1.045,1.045a1.047,1.047 0,0 1,-1.045 -1.045c0,-0.523 0.418,-1.045 1.045,-1.045z" android:fillType="nonZero" />
+</vector>

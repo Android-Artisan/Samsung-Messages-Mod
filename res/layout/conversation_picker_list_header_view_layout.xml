@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/picker_header_view_layout" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="16.0sp" android:textColor="@color/theme_list_description_text_color" android:id="@id/picker_conversation_list_description" android:paddingBottom="11.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/category_conversation_picker_description" android:lineSpacingExtra="4.0sp" android:paddingHorizontal="@dimen/setting_description_margin_horizontal_flexible" />
+</LinearLayout>

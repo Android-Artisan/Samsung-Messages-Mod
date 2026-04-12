@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/message_suggestions" android:key="pref_key_message_suggestions" android:defaultValue="false" />
+    <PreferenceCategory android:layout="@layout/setting_message_suggestions_description_layout" android:key="pref_key_setting_message_suggestions_description" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_composer_toolbar_background_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/attach_toolbar_start_buttons_layout_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="match_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.messaging.ui.view.composer.messageeditor.component.AttachToolbarButton android:id="@id/layout_exchange" android:background="@drawable/ripple_edit_panel_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/attach_toolbar_button_width" android:layout_height="match_parent" android:src="@drawable/composer_right" android:tint="@color/selector_tint_attach_toolbar_button" android:contentDescription="@string/announcement_menu_button_description" android:paddingHorizontal="@dimen/attach_toolbar_start_button_padding_horizontal" android:paddingVertical="@dimen/attach_toolbar_button_padding_vertical" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_menu" android:paddingRight="@dimen/announcement_bottom_menu_switch_margin_start" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

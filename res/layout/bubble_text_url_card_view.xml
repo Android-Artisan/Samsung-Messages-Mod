@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.BubbleTextUrlCardView android:orientation="vertical" android:focusable="false" android:layout_width="@dimen/bubble_webpreview_image_max_width" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/selector_custom_card_layout_bg" android:paddingBottom="@dimen/bubble_bot_content_padding_start_end" android:longClickable="true" android:layout_width="@dimen/bubble_webpreview_image_max_width" android:layout_height="wrap_content" android:minHeight="@dimen/bubble_bot_container_min_height" android:layout_weight="1.0" android:showDividers="middle">
+            <FrameLayout android:gravity="center" android:id="@id/thumbnail_container" android:layout_width="match_parent" android:layout_height="@dimen/bubble_text_url_card_image_height">
+                <com.samsung.android.messaging.ui.view.widget.AsyncImageView android:layout_gravity="center" android:id="@id/thumbnail_view" android:background="@color/rich_card_item_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+            </FrameLayout>
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="15.0sp" android:textColor="@color/bubble_text_url_card_text_color" android:gravity="start|center" android:layout_gravity="start" android:id="@id/text_url_card_content_text" android:focusable="false" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/bubble_bot_text_description_padding_top" android:paddingBottom="@dimen/bubble_bot_text_description_padding_bottom" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="0.0dp" android:paddingStart="@dimen/bubble_bot_content_padding_start_end" android:paddingEnd="@dimen/bubble_bot_content_padding_start_end">
+                <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/bubble_bot_title_text_size" android:textColor="@color/bubble_text_url_card_text_color" android:gravity="start|center" android:layout_gravity="start" android:id="@id/text_url_card_title" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bubble_bot_margin_between_title_description" android:minWidth="2.0dp" android:layout_weight="1.0" android:layoutDirection="locale" />
+            </LinearLayout>
+            <include layout="@layout/text_url_card_suggestion_container" />
+        </LinearLayout>
+        <ViewStub android:layout_gravity="bottom" android:id="@id/badge_view_stub" android:layout="@layout/bubble_badge_layout" android:layout_width="@dimen/bubble_badge_cancel_size" android:layout_height="@dimen/bubble_badge_cancel_size" android:layout_weight="0.0" android:layout_marginStart="@dimen/bubble_indicator_margin" android:layout_marginEnd="@dimen/bubble_indicator_margin" />
+    </LinearLayout>
+    <ViewStub android:id="@id/bubble_suggestion_layout_stub" android:visibility="gone" android:layout="@layout/bubble_suggestion_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/bubble_info_bottom_view" />
+</com.samsung.android.messaging.ui.view.bubble.item.BubbleTextUrlCardView>

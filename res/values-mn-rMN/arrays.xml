@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 цаг</item>
+        <item>6 цаг</item>
+        <item>24 цаг</item>
+        <item>2 хоног</item>
+        <item>Сүлжээний өгөгдмөл тохиргоо</item>
+        <item>Дээд хэмжээ</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Анхдагч</item>
+        <item>Өндөр</item>
+        <item>Дунд зэргийн</item>
+        <item>Бага</item>
+        <item>Үргэлж асуух</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Анхдагч</item>
+        <item>Өндөр чанар</item>
+        <item>Хэвийн чанар</item>
+        <item>Бага нягтрал</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Бүх суваг</item>
+        <item>Миний суваг</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Автомат</item>
+        <item>Текст эсвэл мультимедиа</item>
+        <item>Чаат</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Автомат</item>
+        <item>Текст эсвэл мультимедиа</item>
+        <item>RCS чат зурвасууд</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Хориглох</item>
+        <item>Эхлээд асуух</item>
+        <item>Зөвшөөр</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Үргэлж</item>
+        <item>Шуурхай</item>
+        <item>Хэзээ ч үгүй</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM цагаан толгой</item>
+        <item>Unicode</item>
+        <item>Автомат</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Текст эсвэл мультимедиа зурвасаар дахин илгээх</item>
+        <item>Дахин бүү илгээ</item>
+        <item>Дахин илгээхээс өмнө асуух</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Текст, мультимедиа зурвс ашигла</item>
+        <item>Бүү дахин илгээ</item>
+        <item>Үргэлж асуух</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Анхдагч</item>
+        <item>Сүлжээний өгөгдмөл</item>
+        <item>Үргэлж асуух</item>
+    </string-array>
+</resources>

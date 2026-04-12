@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 саат</item>
+        <item>6 саат</item>
+        <item>24 саат</item>
+        <item>2 күн</item>
+        <item>Тармак баштапкысы</item>
+        <item>Максимум</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Түпнуска</item>
+        <item>Жогору</item>
+        <item>Орто</item>
+        <item>Төмөн</item>
+        <item>Ар дайым суроо</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Түпнуска</item>
+        <item>Жогорку сапат</item>
+        <item>Нормалдуу сапат</item>
+        <item>Төмөнкү чечилим</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Бардык каналдар</item>
+        <item>Каналым</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Автоматтык</item>
+        <item>Текст же мультимедиа</item>
+        <item>Чат</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Автоматтык</item>
+        <item>Текст же мультимедиа</item>
+        <item>RCS чат билдирүүлөрү</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Бөгөттөө</item>
+        <item>Биринчи суралсын</item>
+        <item>Уруксат берүү</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Ар дайым</item>
+        <item>Суроо</item>
+        <item>Эч качан</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM алфавит</item>
+        <item>Unicode</item>
+        <item>Автоматтык</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Текст же мультимедиа билдирүүсү катары кайра жөнөтүү</item>
+        <item>Кайра жөнөтүлбөсүн</item>
+        <item>Кайра жөнөтүүдөн мурун суроо</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Текст ж-а мультимедиа билд. колд</item>
+        <item>Кайра жөнөтүү жок</item>
+        <item>Ар дайым суроо</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Түпнуска</item>
+        <item>Тармак баштапкысы</item>
+        <item>Ар дайым суралсын</item>
+    </string-array>
+</resources>

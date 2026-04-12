@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/reaction_popup_container_padding_top_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/sticker_image_view" android:layout_width="@dimen/reaction_popup_item_selected_size" android:layout_height="@dimen/reaction_popup_item_selected_size" android:src="@drawable/orc_ic_sticker" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/typing_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginTop="@dimen/bubble_list_padding_bottom" android:contentDescription="@string/typing" android:layout_marginStart="15.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <QuickContactBadge android:id="@id/typing_contact_badge" android:layout_width="32.0dp" android:layout_height="32.0dp" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/circle_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/composer_typing_icon" android:layout_marginStart="9.0dp" />
+    <ImageView android:id="@id/circle_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/composer_typing_icon" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" />
+    <ImageView android:id="@id/circle_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/composer_typing_icon" />
+</LinearLayout>

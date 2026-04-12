@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.BubbleMultiImageView android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/container_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/container" android:layout_width="@dimen/bubble_multi_image_width" android:layout_height="@dimen/bubble_multi_image_height" android:layout_weight="1.0" app:flexWrap="wrap" />
+            <View android:id="@id/list_item_image_view_border" android:background="@drawable/messages_card_view_outline_style" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignTop="@id/container" android:layout_alignBottom="@id/container" android:importantForAccessibility="no" android:layout_alignStart="@id/container" android:layout_alignEnd="@id/container" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/list_multi_image_cancel_complete_count_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ViewStub android:id="@id/list_multi_image_cancel_stub" android:layout="@layout/list_multi_image_cancel_layout" android:layout_width="34.0dp" android:layout_height="34.0dp" android:layout_centerInParent="true" android:layout_marginStart="6.0dp" android:layout_marginEnd="6.0dp" />
+            <TextView android:textAppearance="@style/NewSECRegular" android:textSize="11.0sp" android:textColor="@color/theme_multi_image_complete_count_text_color" android:id="@id/list_multi_image_complete_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/bubble_suggestion_layout_stub" android:visibility="gone" android:layout="@layout/bubble_suggestion_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/bubble_info_bottom_view" />
+</com.samsung.android.messaging.ui.view.bubble.item.BubbleMultiImageView>

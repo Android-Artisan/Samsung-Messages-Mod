@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.messaging.ui.view.setting.widget.SettingDescriptionPreference android:layout="@layout/setting_blocked_messages_description_layout" android:key="pref_key_setting_blocked_messages_description" />
+    <com.samsung.android.messaging.ui.view.setting.widget.BlockedMessagesStatsPreference android:layout="@layout/setting_blocked_messages_stats_layout" android:key="pref_key_setting_blocked_messages_stats_category" />
+    <PreferenceCategory android:title="@string/setting_view_blocked_messages" android:key="pref_key_setting_all_blocked_messages_category">
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_blocked_malicious_messages" android:key="pref_key_malicious_messages" android:summary="@string/setting_pref_summary_blocked_malicious_message" app:event="@string/event_KR_Blocked_Messages_Dashboard_Blocked_malicious_messages" app:screen="@string/screen_KR_Blocked_Messages_Dashboard">
+            <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.blockconversation.BlockConversationActivity">
+                <extra android:name="spam_type" android:value="1" />
+            </intent>
+        </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_blocked_by_ai" android:key="pref_key_blocked_spam_by_ai" android:summary="@string/setting_pref_summary_blocked_by_ai" app:event="@string/event_KR_Blocked_Messages_Dashboard_Blocked_by_AI" app:screen="@string/screen_KR_Blocked_Messages_Dashboard">
+            <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.blockconversation.BlockConversationActivity">
+                <extra android:name="spam_type" android:value="2" />
+            </intent>
+        </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+        <com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference android:title="@string/setting_blocked_by_you" android:key="pref_key_blocked_by_user" android:summary="@string/setting_pref_summary_blocked_by_you" app:event="@string/event_KR_Blocked_Messages_Dashboard_Blocked_by_you" app:screen="@string/screen_KR_Blocked_Messages_Dashboard">
+            <intent android:targetPackage="@string/package_name" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.messaging.ui.view.setting.blockconversation.BlockConversationActivity">
+                <extra android:name="spam_type" android:value="0" />
+            </intent>
+        </com.samsung.android.messaging.ui.view.widget.base.salogger.SaSettingsPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_key_delete_old_block_settings_divider" />
+    <com.samsung.android.messaging.ui.view.setting.widget.SwitchSettingPreference android:title="@string/setting_block_auto_delete_old_blocked_messages" android:key="pref_key_old_block_auto_delete" android:summary="@string/setting_block_auto_delete_blocked_messages_summary" android:defaultValue="true" app:event="@string/event_KR_BLocked_Messages_Dashboard_Delete_old_blocked_messages" app:screen="@string/screen_KR_Blocked_Messages_Dashboard" app:status="true" />
+</androidx.preference.PreferenceScreen>

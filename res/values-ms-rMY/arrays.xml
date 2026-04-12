@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expiry_date_entries">
+        <item>1 jam</item>
+        <item>6 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>Lalai rangkaian</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="image_resize_entries">
+        <item>Asal</item>
+        <item>Tinggi</item>
+        <item>Sederhana</item>
+        <item>Rendah</item>
+        <item>Sentiasa tanya</item>
+    </string-array>
+    <string-array name="image_resize_entries_usa">
+        <item>Asal</item>
+        <item>Kualiti tinggi</item>
+        <item>Kualiti normal</item>
+        <item>Peleraian rendah</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Semua saluran</item>
+        <item>Saluran Saya</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method">
+        <item>Automatik</item>
+        <item>Teks atau multimedia</item>
+        <item>Sembang</item>
+    </string-array>
+    <string-array name="pref_entries_default_messaging_method_prt">
+        <item>Automatik</item>
+        <item>Teks atau multimedia</item>
+        <item>Mesej sembang RCS</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Sekat</item>
+        <item>Tanya dahulu</item>
+        <item>Benarkan</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Selalu</item>
+        <item>Tanya</item>
+        <item>Tidak pernah</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Abjad GSM</item>
+        <item>Unikod</item>
+        <item>Automatik</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries">
+        <item>Hantar semula sebagai mesej teks atau multimedia</item>
+        <item>Jangan hantar semula</item>
+        <item>Tanya sebelum menghantar semula</item>
+    </string-array>
+    <string-array name="undelivered_message_alert_option_entries_kr">
+        <item>Guna mesej teks atau multimedia</item>
+        <item>Tiada hantar semula</item>
+        <item>Sentiasa tanya</item>
+    </string-array>
+    <string-array name="video_resize_option_entries">
+        <item>Asal</item>
+        <item>Lalai rangkaian</item>
+        <item>Sentiasa tanya</item>
+    </string-array>
+</resources>

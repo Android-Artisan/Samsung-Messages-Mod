@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/popup_menu_list_item_min_width" android:paddingHorizontal="@dimen/popup_menu_list_item_horizontal_margin" android:paddingVertical="@dimen/popup_menu_list_item_vertical_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/vtcall_popup_app_icon" android:layout_width="@dimen/popup_menu_list_item_icon_size" android:layout_height="@dimen/popup_menu_list_item_icon_size" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="@style/NewSECRegular" android:textSize="@dimen/custom_context_menu_item_text_size" android:textColor="@color/vtcall_popup_text_color" android:ellipsize="end" android:gravity="start|center" android:id="@id/vtcall_popup_app_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/popup_menu_list_item_text_start_margin" android:layout_toEndOf="@id/vtcall_popup_app_icon" android:layout_alignParentEnd="true" />
+</RelativeLayout>

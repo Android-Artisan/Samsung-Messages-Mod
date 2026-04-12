@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="block_number_match_criteria_padding_start_end">24.0dp</dimen>
+    <dimen name="category_item_start_icon_layout_min_width">72.0dp</dimen>
+    <dimen name="check_box_margin_start_end_flexible">@dimen/check_box_margin_start_end</dimen>
+    <dimen name="list_add_delete_button_margin_end_flexible">24.0dp</dimen>
+    <dimen name="list_divider_margin_start_end_flexible">@dimen/list_divider_margin_start_end</dimen>
+    <dimen name="list_subheader_start_padding_flexible">24.0dp</dimen>
+    <dimen name="list_subheader_start_padding_ghost_flexible">4.0dp</dimen>
+    <dimen name="quick_responses_error_and_text_counter_margin_end">72.0dp</dimen>
+    <dimen name="recent_search_list_end_margin">20.0dp</dimen>
+    <dimen name="recent_search_list_start_margin">24.0dp</dimen>
+    <dimen name="recommend_single_button_min_width">196.0dp</dimen>
+    <dimen name="reorder_button_margin_end_flexible">24.0dp</dimen>
+    <dimen name="search_list_item_avatar_width">@dimen/convlist_avatar_panel_size</dimen>
+    <dimen name="search_list_item_divider_margin_start">74.0dp</dimen>
+    <dimen name="search_list_item_end_margin">@dimen/card_view_end_margin</dimen>
+    <dimen name="search_list_item_start_margin">@dimen/card_view_margin</dimen>
+    <dimen name="setting_edit_text_with_list_margin_start">@dimen/edit_text_margin_start</dimen>
+    <dimen name="setting_list_item_margin_start">24.0dp</dimen>
+    <dimen name="setting_subheader_divider_margin_flexible">@dimen/setting_subheader_divider_margin</dimen>
+    <dimen name="text_list_start_end_margin">24.0dp</dimen>
+    <dimen name="w_multiple_selection_checkbox_layout_width_flexible">@dimen/w_multiple_selection_checkbox_layout_width</dimen>
+    <dimen name="w_multiple_selection_photo_checkbox_layout_margin_end_flexible">@dimen/w_multiple_selection_photo_checkbox_layout_margin_end</dimen>
+    <dimen name="w_multiple_selection_photo_checkbox_layout_margin_start_flexible">@dimen/w_multiple_selection_photo_checkbox_layout_margin_start</dimen>
+</resources>

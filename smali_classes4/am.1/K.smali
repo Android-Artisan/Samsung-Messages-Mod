@@ -1,0 +1,34 @@
+.class public Lam/K;
+.super Lam/a;
+.source "SourceFile"
+
+# interfaces
+.implements Lam/J;
+
+
+# direct methods
+.method public constructor <init>(Luk/i;Z)V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, p1, v0, p2}, Lam/a;-><init>(Luk/i;ZZ)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final n(Luk/d;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lwk/c;
+
+    invoke-virtual {p0, p1}, Lam/p0;->t(Lwk/c;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    sget-object p1, Lvk/a;->a:Lvk/a;
+
+    return-object p0
+.end method

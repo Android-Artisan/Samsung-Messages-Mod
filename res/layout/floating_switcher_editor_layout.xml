@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end" android:id="@id/floating_switcher_editor_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/cmc_sim_change_button_tablet_layout_stub" android:layout="@layout/cmc_sim_change_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:layout_marginEnd="12.0dp" />
+    <ViewStub android:id="@id/new_composer_change_sim_stub" android:paddingTop="@dimen/change_sim_new_composer_padding_top" android:layout="@layout/sim_change_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/change_sim_new_composer_margin_bottom" android:layout_marginEnd="@dimen/change_sim_new_composer_margin_end" />
+</LinearLayout>

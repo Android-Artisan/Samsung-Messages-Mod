@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.AttachBaseView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/attachment_margin_bottom" android:layout_marginStart="@dimen/attachment_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/attach_content_view_stub" android:inflatedId="@id/attach_content_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/attachment_margin_top" />
+    <FrameLayout android:id="@id/attach_minus_button_container" android:paddingTop="1.5dp" android:paddingBottom="8.5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="13.0dp" android:paddingEnd="6.0dp" android:layout_marginStart="@dimen/attachment_delete_margin_top_end" android:layout_toEndOf="@id/attach_content_view">
+        <ImageView android:id="@id/attach_delete_button" android:background="@drawable/selector_attachment_delete_button" android:layout_width="@dimen/attachment_delete_width" android:layout_height="@dimen/attachment_delete_width" android:src="@drawable/orc_btn_minus" android:tint="@color/delete_button_ic_color" android:importantForAccessibility="no" android:tooltipText="@string/remove" />
+    </FrameLayout>
+</com.samsung.android.messaging.ui.view.bubble.item.AttachBaseView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/simpleSwipeRefreshLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout android:orientation="vertical" android:id="@id/round_corner_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:ghost="true" app:roundMode="15">
+            <com.samsung.android.messaging.ui.view.widget.common.MessageRecyclerView android:theme="@style/GhostRoundedCornerColor" android:id="@id/conversationRecycleListView" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:defaultFocusHighlightEnabled="false" />
+            <ViewStub android:gravity="center" android:orientation="vertical" android:id="@id/conversation_list_empty_view_stub" android:visibility="gone" android:layout="@layout/conversation_empty_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignWithParentIfMissing="true" />
+        </com.samsung.android.messaging.uicommon.widget.roundedcorner.CustomRoundedCornerLinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

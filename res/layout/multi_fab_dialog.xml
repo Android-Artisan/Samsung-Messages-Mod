@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/multi_fab_scrollview" android:tag="layout/multi_fab_dialog_0" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/chatting_plus_tips_container" android:tag="binding_2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/chatting_plus_tips_pager" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+            <androidx.appcompat.widget.SeslIndicator android:gravity="center" android:id="@id/chatting_plus_tips_indicator" android:tag="binding_4" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/chatting_plus_tips_indicator_height" />
+        </LinearLayout>
+        <include android:id="@id/multi_fab_buttons_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" layout="@layout/multi_fab_buttons_layout" />
+    </RelativeLayout>
+</ScrollView>

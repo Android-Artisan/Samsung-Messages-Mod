@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:left="@dimen/bubble_bot_stroke" android:top="@dimen/bubble_bot_stroke" android:right="@dimen/bubble_bot_stroke" android:bottom="@dimen/bubble_bot_stroke" />
+    <stroke android:width="@dimen/bubble_bot_stroke" android:color="@color/theme_background_image_preview_outer_stroke" />
+</shape>

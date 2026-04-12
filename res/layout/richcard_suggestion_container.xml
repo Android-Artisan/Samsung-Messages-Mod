@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.messaging.ui.view.bubble.item.TruncateLinearLayout android:gravity="bottom" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/action_button_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/bot_button_divider" android:layout_weight="1.0" android:showDividers="middle" android:layout_marginStart="@dimen/bubble_bot_content_padding_start_end" android:layout_marginEnd="@dimen/bubble_bot_content_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/richcard_suggestion" />
+    <include layout="@layout/richcard_suggestion" />
+</com.samsung.android.messaging.ui.view.bubble.item.TruncateLinearLayout>
