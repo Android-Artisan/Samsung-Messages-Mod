@@ -1,5 +1,6 @@
 version: 3.0.1
-apkFileName: com.samsung.android.messaging_16.2.10.27-1621000027_minAPI35(arm64-v8a)(nodpi)_apkmirror.com.apk
+apkFileName: com.samsung.android.messaging_mod.apk
+renameManifestPackage: com.samsung.android.messaging.mod
 usesFramework:
   ids:
   - 1
