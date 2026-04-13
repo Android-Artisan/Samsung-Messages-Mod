@@ -22,8 +22,8 @@ jobs:
       - name: Setup Apktool
         run: |
           mkdir -p ~/bin
-          wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O ~/bin/apktool
-          wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.10.0.jar -O ~/bin/apktool.jar
+          wget https://raw.githubusercontent.com/iBotPeaches/Apktool/refs/heads/main/scripts/linux/apktool -O ~/bin/apktool
+          wget https://github.com/iBotPeaches/Apktool/releases/download/v3.0.1/apktool_3.0.1.jar -O ~/bin/apktool.jar
           chmod +x ~/bin/apktool
           echo "$HOME/bin" >> $GITHUB_PATH
 
