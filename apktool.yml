@@ -1,6 +1,6 @@
 version: 3.0.1
 apkFileName: com.samsung.android.messaging_mod.apk
-renameManifestPackage: com.samsung.android.messaging.mod
+renameManifestPackage: com.artisan.messaging
 usesFramework:
   ids:
   - 1
