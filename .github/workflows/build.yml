@@ -28,7 +28,7 @@ jobs:
           echo "$HOME/bin" >> $GITHUB_PATH
 
       - name: Build
-        run: apktool b . -o unsigned.apk --use-aapt2
+        run: apktool b . -o unsigned.apk
 
       - name: Sign
         run: |
